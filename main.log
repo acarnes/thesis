@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2017.4.11)  22 MAY 2017 16:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2017.4.11)  26 MAY 2017 15:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -546,7 +546,7 @@ Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 38.
 \c@proposition=\count140
 \c@algorithm=\count141
 ) (./main.aux (./tex/acknowledgements.aux) (./tex/TOC.aux) (./tex/abstract.aux)
- (./tex/chapter1.aux) (./tex/chapter2.aux
+ (./tex/introduction.aux) (./tex/detector.aux
 
 LaTeX Warning: Label `first' multiply defined.
 
@@ -693,22 +693,22 @@ LaTeX Font Warning: Font shape `OT1/cmbr/m/sl' undefined
 LaTeX Font Info:    Try loading font information for U+lasy on input line 1.
 (/usr/share/texlive/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
-) [4
-
-
-
-
-
-])
+))
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
- [5] (./main.lot)
+ [4
+
+
+
+
+
+] (./main.lot)
 \tf@lot=\write5
 \openout5 = `main.lot'.
 
 
-[6
+[5
 
 
 
@@ -716,22 +716,22 @@ File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 \tf@lof=\write6
 \openout6 = `main.lof'.
 
- [7
+ [6
 
 
 
 ])
 \openout2 = `tex/abstract.aux'.
 
- (./tex/abstract.tex [8
+ (./tex/abstract.tex [7
 
 
 
 
 ])
-\openout2 = `tex/chapter1.aux'.
+\openout2 = `tex/introduction.aux'.
 
- (./tex/chapter1.tex
+ (./tex/introduction.tex
 ***************************
 CHAPTER 1.
 ***************************
@@ -740,126 +740,50 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\uppercase' on input line 1.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3--3
-[][]\OT1/cmss/m/n/12 an un-numbered footnote - this is how you tell the readers
- that this chapter was previously
- []
-
-[9
+Package natbib Warning: Citation `atlasdiscovery' on page 8 undefined on input 
+line 3.
 
 
+Package natbib Warning: Citation `cmsdiscovery2012' on page 8 undefined on inpu
+t line 3.
 
 
-] <images/diagram.jpg, id=273, 429.605pt x 188.705pt>
-File: images/diagram.jpg Graphic file (type jpg)
-
-<use images/diagram.jpg>
-Package pdftex.def Info: images/diagram.jpg used on input line 38.
-(pdftex.def)             Requested size: 361.34999pt x 158.72707pt.
- [10 <./images/diagram.jpg>]
-<images/eagle.png, id=278, 344.28625pt x 265.99374pt>
-File: images/eagle.png Graphic file (type png)
- <use images/eagle.png>
-Package pdftex.def Info: images/eagle.png used on input line 51.
-(pdftex.def)             Requested size: 361.34999pt x 279.1799pt.
-
-<images/graph.pdf, id=279, 446.66875pt x 349.305pt>
-File: images/graph.pdf Graphic file (type pdf)
- <use images/graph.pdf>
-Package pdftex.def Info: images/graph.pdf used on input line 63.
-(pdftex.def)             Requested size: 446.66765pt x 349.30414pt.
-
-[11 <./images/eagle.png>] <images/nebula.png, id=287, 803.0pt x 562.1pt>
-File: images/nebula.png Graphic file (type png)
-
-<use images/nebula.png>
-Package pdftex.def Info: images/nebula.png used on input line 75.
-(pdftex.def)             Requested size: 361.34999pt x 252.95123pt.
- [12 <./images/graph.pdf>]
-<images/theworld.png, id=305, 963.6pt x 542.025pt>
-File: images/theworld.png Graphic file (type png)
- <use images/theworld.png>
-Package pdftex.def Info: images/theworld.png used on input line 87.
-(pdftex.def)             Requested size: 361.34999pt x 203.25887pt.
+Package natbib Warning: Citation `cmsdiscovery2013' on page 8 undefined on inpu
+t line 3.
 
 
-Package natbib Warning: Citation `Rust94' on page 13 undefined on input line 93
-.
+Package natbib Warning: Citation `cmshiggstau' on page 8 undefined on input lin
+e 3.
 
-[13 <./images/nebula.png>]
-Package epstopdf Info: Source file: <images/mouse.eps>
-(epstopdf)                    date: 2014-09-04 12:14:40
-(epstopdf)                    size: 5196 bytes
-(epstopdf)             Output file: <images/mouse-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-05-22 12:17:53
-(epstopdf)                    size: 3128 bytes
-(epstopdf)             Command: <repstopdf --outfile=images/mouse-eps-converted
--to.pdf images/mouse.eps>
-(epstopdf)             \includegraphics on input line 104.
-Package epstopdf Info: Output file is already uptodate.
 
-<images/mouse-eps-converted-to.pdf, id=311, 151.56625pt x 134.5025pt>
-File: images/mouse-eps-converted-to.pdf Graphic file (type pdf)
+Package natbib Warning: Citation `cmshiggsbb' on page 8 undefined on input line
+ 3.
 
-<use images/mouse-eps-converted-to.pdf>
-Package pdftex.def Info: images/mouse-eps-converted-to.pdf used on input line 1
-04.
-(pdftex.def)             Requested size: 90.94044pt x 80.7021pt.
-Package epstopdf Info: Source file: <images/mouse.eps>
-(epstopdf)                    date: 2014-09-04 12:14:40
-(epstopdf)                    size: 5196 bytes
-(epstopdf)             Output file: <images/mouse-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-05-22 12:17:53
-(epstopdf)                    size: 3128 bytes
-(epstopdf)             Command: <repstopdf --outfile=images/mouse-eps-converted
--to.pdf images/mouse.eps>
-(epstopdf)             \includegraphics on input line 104.
-Package epstopdf Info: Output file is already uptodate.
-File: images/mouse-eps-converted-to.pdf Graphic file (type pdf)
 
-<use images/mouse-eps-converted-to.pdf>
-Package pdftex.def Info: images/mouse-eps-converted-to.pdf used on input line 1
-04.
-(pdftex.def)             Requested size: 90.94044pt x 80.7021pt.
-Package epstopdf Info: Source file: <images/cat.eps>
-(epstopdf)                    date: 2014-09-04 12:14:40
-(epstopdf)                    size: 15737 bytes
-(epstopdf)             Output file: <images/cat-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-05-22 12:17:54
-(epstopdf)                    size: 3036 bytes
-(epstopdf)             Command: <repstopdf --outfile=images/cat-eps-converted-t
-o.pdf images/cat.eps>
-(epstopdf)             \includegraphics on input line 108.
-Package epstopdf Info: Output file is already uptodate.
+Package natbib Warning: Citation `cmshiggsferm' on page 8 undefined on input li
+ne 3.
 
-<images/cat-eps-converted-to.pdf, id=312, 36.135pt x 32.12pt>
-File: images/cat-eps-converted-to.pdf Graphic file (type pdf)
 
-<use images/cat-eps-converted-to.pdf>
-Package pdftex.def Info: images/cat-eps-converted-to.pdf used on input line 108
-.
-(pdftex.def)             Requested size: 108.40466pt x 96.35971pt.
-Package epstopdf Info: Source file: <images/mouse.eps>
-(epstopdf)                    date: 2014-09-04 12:14:40
-(epstopdf)                    size: 5196 bytes
-(epstopdf)             Output file: <images/mouse-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-05-22 12:17:53
-(epstopdf)                    size: 3128 bytes
-(epstopdf)             Command: <repstopdf --outfile=images/mouse-eps-converted
--to.pdf images/mouse.eps>
-(epstopdf)             \includegraphics on input line 108.
-Package epstopdf Info: Output file is already uptodate.
-File: images/mouse-eps-converted-to.pdf Graphic file (type pdf)
- <use images/mouse-eps-converted-to.pdf>
-Package pdftex.def Info: images/mouse-eps-converted-to.pdf used on input line 1
-08.
-(pdftex.def)             Requested size: 90.94044pt x 80.7021pt.
+Package natbib Warning: Citation `atlashiggsbb' on page 8 undefined on input li
+ne 3.
 
-[14 <./images/theworld.png>]) [15 <./images/mouse-eps-converted-to.pdf> <./imag
-es/cat-eps-converted-to.pdf>] [16]
-\openout2 = `tex/chapter2.aux'.
 
- (./tex/chapter2.tex
+Package natbib Warning: Citation `smallestbranch1' on page 8 undefined on input
+ line 5.
+
+
+Package natbib Warning: Citation `smallestbranch2' on page 8 undefined on input
+ line 5.
+
+[8
+
+
+
+
+]) [9]
+\openout2 = `tex/detector.aux'.
+
+ (./tex/detector.tex
 ***************************
 CHAPTER 2.
 ***************************
@@ -867,8 +791,11 @@ CHAPTER 2.
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\uppercase' on input line 1.
 
-<use images/cat-eps-converted-to.pdf> <use images/mouse-eps-converted-to.pdf>
-<use images/cat-eps-converted-to.pdf> <use images/mouse-eps-converted-to.pdf>
+<images/cat-eps-converted-to.pdf, id=197, 36.135pt x 32.12pt>
+<use images/cat-eps-converted-to.pdf>
+<images/mouse-eps-converted-to.pdf, id=198, 151.56625pt x 134.5025pt>
+<use images/mouse-eps-converted-to.pdf> <use images/cat-eps-converted-to.pdf>
+<use images/mouse-eps-converted-to.pdf>
 Package epstopdf Info: Source file: <images/cat.eps>
 (epstopdf)                    date: 2014-09-04 12:14:40
 (epstopdf)                    size: 15737 bytes
@@ -880,8 +807,7 @@ o.pdf images/cat.eps>
 (epstopdf)             \includegraphics on input line 19.
 Package epstopdf Info: Output file is already uptodate.
 File: images/cat-eps-converted-to.pdf Graphic file (type pdf)
-
-<use images/cat-eps-converted-to.pdf>
+ <use images/cat-eps-converted-to.pdf>
 Package pdftex.def Info: images/cat-eps-converted-to.pdf used on input line 19.
 
 (pdftex.def)             Requested size: 36.13489pt x 32.1199pt.
@@ -896,7 +822,8 @@ Package epstopdf Info: Source file: <images/mouse.eps>
 (epstopdf)             \includegraphics on input line 19.
 Package epstopdf Info: Output file is already uptodate.
 File: images/mouse-eps-converted-to.pdf Graphic file (type pdf)
- <use images/mouse-eps-converted-to.pdf>
+
+<use images/mouse-eps-converted-to.pdf>
 Package pdftex.def Info: images/mouse-eps-converted-to.pdf used on input line 1
 9.
 (pdftex.def)             Requested size: 37.89146pt x 33.62553pt.
@@ -936,13 +863,13 @@ Package pdftex.def Info: images/mouse-eps-converted-to.pdf used on input line 3
 5.
 (pdftex.def)             Requested size: 37.89146pt x 33.62553pt.
 
-[17
+[10
 
 
 
-]
+ <./images/cat-eps-converted-to.pdf> <./images/mouse-eps-converted-to.pdf>]
 
-Package natbib Warning: Citation `Moffatt69' on page 18 undefined on input line
+Package natbib Warning: Citation `Moffatt69' on page 11 undefined on input line
  46.
 
 
@@ -955,7 +882,7 @@ Overfull \hbox (0.75499pt too wide) in paragraph at lines 124--125
 [][] 
  []
 
-[18] [19] [20]) [21]
+[11] [12] [13]) [14]
 \openout2 = `tex/chapter3.aux'.
 
  (./tex/chapter3.tex
@@ -966,7 +893,7 @@ CHAPTER 3.
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\uppercase' on input line 1.
 
-) [22
+) [15
 
 
 
@@ -1000,11 +927,11 @@ LaTeX Font Warning: Font shape `OT1/cmss/bx/it' undefined
 LaTeX Font Warning: Font shape `OT1/cmss/m/sc' in size <12> not available
 (Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 12.
 
-[23
+[16
 
 
 
-] [24] [25] [26]) [27]
+] [17] [18] [19]) [20]
 \openout2 = `tex/chapter5.aux'.
 
  (./tex/chapter5.tex
@@ -1015,7 +942,7 @@ CHAPTER 5.
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\uppercase' on input line 1.
 
-) [28
+) [21
 
 
 
@@ -1030,7 +957,7 @@ APPENDIX A.
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\uppercase' on input line 4.
 
-) (./tex/appendixB.tex [29
+) (./tex/appendixB.tex [22
 
 
 
@@ -1042,7 +969,7 @@ APPENDIX B.
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\uppercase' on input line 1.
 
-[30
+[23
 
 ]
 Package epstopdf Info: Source file: <images/LaTeX2e_logo.eps>
@@ -1056,18 +983,18 @@ nverted-to.pdf images/LaTeX2e_logo.eps>
 (epstopdf)             \includegraphics on input line 10.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/LaTeX2e_logo-eps-converted-to.pdf, id=417, 701.62125pt x 214.8025pt>
+<images/LaTeX2e_logo-eps-converted-to.pdf, id=277, 701.62125pt x 214.8025pt>
 File: images/LaTeX2e_logo-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/LaTeX2e_logo-eps-converted-to.pdf>
 Package pdftex.def Info: images/LaTeX2e_logo-eps-converted-to.pdf used on input
  line 10.
 (pdftex.def)             Requested size: 433.62pt x 132.75664pt.
- [31 <./images/LaTeX2e_logo-eps-converted-to.pdf>] [32
+ [24 <./images/LaTeX2e_logo-eps-converted-to.pdf>] [25
 
 
 
-]) (./tex/appendixC.tex [33]
+]) (./tex/appendixC.tex [26]
 ***************************
 APPENDIX C.
 ***************************
@@ -1087,9 +1014,9 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 1.
 
-[34
+[27
 
-] [35] [36]) (./tex/appendixD.tex [37]
+] [28] [29]) (./tex/appendixD.tex [30]
 ***************************
 APPENDIX D.
 ***************************
@@ -1109,16 +1036,16 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 1.
 
-[38
+[31
 
-] [39] [40])) [41] (./main.bbl [42
+] [32] [33])) [34] (./main.bbl [35
 
 
 
 ])
 \openout2 = `bio.aux'.
 
- (./bio.tex [43
+ (./bio.tex [36
 
 
 
@@ -1130,13 +1057,13 @@ Package natbib Warning: There were undefined citations.
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 194.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 194.
 (./main.aux (./tex/acknowledgements.aux) (./tex/TOC.aux) (./tex/abstract.aux)
-(./tex/chapter1.aux) (./tex/chapter2.aux) (./tex/chapter3.aux)
+(./tex/introduction.aux) (./tex/detector.aux) (./tex/chapter3.aux)
 (./tex/chapter4.aux) (./tex/chapter5.aux) (./tex/TwoOrMoreAppendices.aux)
 (./bio.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 194.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 194.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 5A69DD2F3A4D9E6CC1ADAA332DD5AF2B;2921.
+(rerunfilecheck)             Checksum: 0A957B8BED69C49394D678D08E0891B8;1762.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -1147,13 +1074,13 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 194.
  ) 
 Here is how much of TeX's memory you used:
- 8719 strings out of 494954
- 124680 string characters out of 6181003
- 238686 words of memory out of 5000000
- 11621 multiletter control sequences out of 15000+600000
- 12181 words of font info for 48 fonts, out of 8000000 for 9000
+ 8644 strings out of 494954
+ 123651 string characters out of 6181003
+ 238616 words of memory out of 5000000
+ 11592 multiletter control sequences out of 15000+600000
+ 11876 words of font info for 47 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 39i,15n,42p,1031b,481s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 39i,15n,42p,1446b,481s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/share
@@ -1163,17 +1090,16 @@ f-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
 lic/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmss12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss
-8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi12.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on main.pdf (43 pages, 2854331 bytes).
+onts/cm/cmss12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssb
+x10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi12.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on main.pdf (36 pages, 239702 bytes).
 PDF statistics:
- 562 PDF objects out of 1000 (max. 8388607)
- 474 compressed objects within 5 object streams
- 107 named destinations out of 1000 (max. 500000)
- 353 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 414 PDF objects out of 1000 (max. 8388607)
+ 350 compressed objects within 4 object streams
+ 78 named destinations out of 1000 (max. 500000)
+ 232 words of extra memory for PDF output out of 10000 (max. 10000000)
 
