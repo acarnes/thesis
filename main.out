@@ -4,24 +4,34 @@
 \BOOKMARK [0][-]{chapter*.4}{LIST OF FIGURES}{}% 4
 \BOOKMARK [0][-]{section*.5}{ABSTRACT}{}% 5
 \BOOKMARK [0][-]{chapter.1}{1 INTRODUCTION}{}% 6
-\BOOKMARK [0][-]{chapter.2}{2 LITERATURE REVIEW}{}% 7
-\BOOKMARK [1][-]{section.2.1}{2.1 Dolor Sit Amet}{chapter.2}% 8
-\BOOKMARK [2][-]{subsection.2.1.1}{2.1.1 Platea Dictumst}{section.2.1}% 9
-\BOOKMARK [2][-]{subsection.2.1.2}{2.1.2 Long \(and/or Wide\) Tables}{section.2.1}% 10
-\BOOKMARK [1][-]{section.2.2}{2.2 Ex id ullamcorper commodo}{chapter.2}% 11
-\BOOKMARK [0][-]{chapter.3}{3 MATERIALS ANS METHODS}{}% 12
-\BOOKMARK [1][-]{section.3.1}{3.1 Consectetur Adipiscing Elit}{chapter.3}% 13
-\BOOKMARK [2][-]{subsection.3.1.1}{3.1.1 This Is an Isolated Heading}{section.3.1}% 14
-\BOOKMARK [1][-]{section.3.2}{3.2 Augue sapien mattis leo}{chapter.3}% 15
-\BOOKMARK [0][-]{chapter.4}{4 RESULTS}{}% 16
-\BOOKMARK [1][-]{section.4.1}{4.1 Fusce Eget Tempus Lectus, }{chapter.4}% 17
-\BOOKMARK [0][-]{chapter.5}{5 SUMMARY AND CONCLUSIONS}{}% 18
-\BOOKMARK [1][-]{section.5.1}{5.1 Non Porttitor Tellus}{chapter.5}% 19
-\BOOKMARK [2][-]{subsection.5.1.1}{5.1.1 Nam Arcu Magna}{section.5.1}% 20
-\BOOKMARK [3][-]{subsubsection.5.1.1.1}{5.1.1.1 Ut pellentesque velit sede}{subsection.5.1.1}% 21
-\BOOKMARK [0][-]{appendix.A}{A THIS IS THE FIRST APPENDIX}{}% 22
-\BOOKMARK [0][-]{appendix.B}{B AN EXAMPLE OF A HALF TITLE PAGE}{}% 23
-\BOOKMARK [0][-]{appendix.C}{C DERIVATION OF THE \040FUNCTION}{}% 24
-\BOOKMARK [0][-]{appendix.D}{D DERIVATION OF THE \040FUNCTION}{}% 25
-\BOOKMARK [0][-]{appendix*.6}{REFERENCES}{}% 26
-\BOOKMARK [0][-]{appendix*.7}{BIOGRAPHICAL SKETCH}{}% 27
+\BOOKMARK [0][-]{chapter.2}{2 THE LARGE HADRON COLLIDER AND THE CMS EXPERIMENT}{}% 7
+\BOOKMARK [1][-]{section.2.1}{2.1 Large Hadron Collider}{chapter.2}% 8
+\BOOKMARK [1][-]{section.2.2}{2.2 Compact Muon Solenoid Detector}{chapter.2}% 9
+\BOOKMARK [2][-]{subsection.2.2.1}{2.2.1 Silicon Tracker}{section.2.2}% 10
+\BOOKMARK [2][-]{subsection.2.2.2}{2.2.2 Calorimeters}{section.2.2}% 11
+\BOOKMARK [2][-]{subsection.2.2.3}{2.2.3 Muon System}{section.2.2}% 12
+\BOOKMARK [3][-]{subsubsection.2.2.3.1}{2.2.3.1 Drift Tubes}{subsection.2.2.3}% 13
+\BOOKMARK [3][-]{subsubsection.2.2.3.2}{2.2.3.2 Cathode Strip Chambers}{subsection.2.2.3}% 14
+\BOOKMARK [3][-]{subsubsection.2.2.3.3}{2.2.3.3 Resistive Plate Chambers}{subsection.2.2.3}% 15
+\BOOKMARK [2][-]{subsection.2.2.4}{2.2.4 Trigger System}{section.2.2}% 16
+\BOOKMARK [3][-]{subsubsection.2.2.4.1}{2.2.4.1 L1 Trigger}{subsection.2.2.4}% 17
+\BOOKMARK [0][-]{chapter.3}{3 THE STANDARD MODEL}{}% 18
+\BOOKMARK [1][-]{section.3.1}{3.1 Quantum Field Theory}{chapter.3}% 19
+\BOOKMARK [2][-]{subsection.3.1.1}{3.1.1 What is a Particle?}{section.3.1}% 20
+\BOOKMARK [2][-]{subsection.3.1.2}{3.1.2 QFT From Symmetry}{section.3.1}% 21
+\BOOKMARK [2][-]{subsection.3.1.3}{3.1.3 Perturbation Theory}{section.3.1}% 22
+\BOOKMARK [2][-]{subsection.3.1.4}{3.1.4 Feynman Rules}{section.3.1}% 23
+\BOOKMARK [1][-]{section.3.2}{3.2 The Standard Model Higgs}{chapter.3}% 24
+\BOOKMARK [2][-]{subsection.3.2.1}{3.2.1 SM Higgs Production and Decay Modes}{section.3.2}% 25
+\BOOKMARK [0][-]{chapter.4}{4 RESULTS}{}% 26
+\BOOKMARK [1][-]{section.4.1}{4.1 Fusce Eget Tempus Lectus, }{chapter.4}% 27
+\BOOKMARK [0][-]{chapter.5}{5 SUMMARY AND CONCLUSIONS}{}% 28
+\BOOKMARK [1][-]{section.5.1}{5.1 Non Porttitor Tellus}{chapter.5}% 29
+\BOOKMARK [2][-]{subsection.5.1.1}{5.1.1 Nam Arcu Magna}{section.5.1}% 30
+\BOOKMARK [3][-]{subsubsection.5.1.1.1}{5.1.1.1 Ut pellentesque velit sede}{subsection.5.1.1}% 31
+\BOOKMARK [0][-]{appendix.A}{A THIS IS THE FIRST APPENDIX}{}% 32
+\BOOKMARK [0][-]{appendix.B}{B AN EXAMPLE OF A HALF TITLE PAGE}{}% 33
+\BOOKMARK [0][-]{appendix.C}{C DERIVATION OF THE \040FUNCTION}{}% 34
+\BOOKMARK [0][-]{appendix.D}{D DERIVATION OF THE \040FUNCTION}{}% 35
+\BOOKMARK [0][-]{appendix*.6}{REFERENCES}{}% 36
+\BOOKMARK [0][-]{appendix*.7}{BIOGRAPHICAL SKETCH}{}% 37
