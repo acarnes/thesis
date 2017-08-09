@@ -59,19 +59,20 @@ S' = \frac{1}{2} \int m(\dot{x} + \dot{\epsilon})^2 dt = \frac{1}{2} \int m(\dot
 \delta S = S' - S = 0 = \frac{1}{2} \int m(\dot{x}^2 + 2\dot{x}\dot{\epsilon}) dt - \frac{1}{2} \int m\dot{x}^2 dt = \int m\dot{x}\dot{\epsilon} dt
 \end{equation}
 
-Integrating by parts yields.
+Since x(t) is fixed at the boundaries of the integral, $\epsilon$ must be zero at $t_o$ and $t_f$, so integrating by parts yields the following equation. 
 
 \begin{equation}
-\delta S = 0 = \int m\ddot{x} \epsilon dt
+\delta S = 0 = \epsilon(t_f) \dot{x}(t_f)  - \epsilon(t_o) \dot{x}(t_o) + \int m\ddot{x} \epsilon dt  = 
+0\dot{x}(t_f)  - 0\dot{x}(t_o) + \int m\ddot{x} \epsilon dt = \int m\ddot{x} \epsilon dt
 \end{equation}
 
-And this equation must be zero for any small deviation $\epsilon$.
+And this equation must be zero for any infinitesimal deviation $\epsilon$.
 
 \begin{equation}
 \delta S = 0 \rightarrow m\ddot{x} = 0
 \end{equation}
 
-So a particle free of forces will keep the same velocity. Note that a Newtonian boost by constant velocity $v \rightarrow v' = v + u$ \footnote{Renaming $\dot{x}$ as v.} leaves the equations of motion consistent. In the unprimed frame the particle has velocity v. In the primed frame the particle has velocity v + u. In the unprimed frame the particle has 0 acceleration and the same is true in the primed frame. Both observers see the particle act as if there are zero forces.
+So a free particle keeps the same velocity over time. Note that a Newtonian boost by constant velocity $v \rightarrow v' = v + u$ \footnote{Renaming $\dot{x}$ as v.} leaves the equations of motion consistent. In the unprimed frame the particle has velocity v with 0 acceleration. In the primed frame the particle has velocity v + u with 0 acceleration. Both observers see the particle act as if there are zero forces.
 
 \begin{equation}
 S = \frac{1}{2} \int m(v + u)^2 dt  =  \frac{1}{2} \int m(v')^2 dt \rightarrow \delta S = 0 \rightarrow m\frac{d}{dt}(v+u) = m\frac{d}{dt}(v') = 0 
@@ -86,17 +87,30 @@ m\frac{d}{dt}(v+u) = m\dot{v} + m\dot{u} = 0 \rightarrow \dot{v} = -\dot{u}
 In the case where u(t) depends upon time, the difference between the primed and unprimed frames' equations of motion is then $\delta F$.
 
 \begin{equation}
-\delta F = m\frac{d}{dt}(v+u) = m\dot{v} + m\dot{u} - m\dot{v} = m\dot{u}
+\delta F = m\frac{d}{dt}(v+u) - m\frac{dv}{dt} = m\dot{v} + m\dot{u} - m\dot{v} = m\dot{u}
 \end{equation}
 
-In the unprimed frame, the particle identified by the mass moves with constant velocity, $\dot{v} = 0$. The observer in the primed frame looks at the particle with the same mass and sees it change velocity given by the equation $\dot{v} = -\dot{u}$. As an example, set v and $u, \dot{u}$ to zero for all times before t=0, and let $u, \dot{u}$ turn on after time 0. Both observers will agree that the particle is stationary up until time 0. After which, the observer in the primed frame will see the particle accelerate in strange ways and the unprimed frame will continue to observe a stationary particle. 
+In the unprimed frame, the particle identified by the mass moves with constant velocity, $\dot{v} = 0$. The observer in the primed frame looks at the particle with the same mass and sees it change velocity given by the equation $\dot{v} = -\dot{u}$. As an example, set v and $u, \dot{u}$ to zero for all times before t=0, and let $u, \dot{u}$ turn on after time 0. Both observers will agree that the particle is stationary up until time 0. After which, the observer in the primed frame will see the particle accelerate in strange ways. Meanwhile, the unprimed frame will continue to observe a stationary particle. 
 
-If the unprimed frame tries to derive the laws of physics... 
-If the observer in the primed frame tries to derive the laws of physics ... 
+In general, every inertial frame finds $\delta F = 0$ and every accelerating frame finds an extra force $\delta F$ unique to its acceleration. In this way no observer in an inertial frame can perform an experiment and determine which inertial frame he or she is in. On the other hand, each accelerating frame is identified by its $\delta F$.  In every inertial frame a ball released at rest remains at rest. In an accelerating frame the ball will accelerate according to the motion of the frame $\delta F$. Since the laws of physics remain the same boosting between inertial frames this is a symmetry of physics. Of course this example is Newtonian and the correct way to boost is given by the Lorentz transformation from Special Relativity, but this gets the point across.
 
-Every inertial frame finds $\delta F = 0$ and every accelerating frame finds an extra force $\delta F$ unique to its acceleration. In this way it appears that the laws of nature are symmetric in inertial reference frames. 
+Since the fundamental forces depend only on the distance from the charge and not the direction, rotations are also a symmetry. This can be seen by looking at the Lagrangian. 
 
-Just by opening ones eyes and performing an experiment it's impossible to tell which frame 
+\begin{equation}
+L = \frac{1}{2} m\dot{\vec{x}}^2 - U((\vec{x} - \vec{x'})^2)
+\end{equation}
+
+Rotations leave dot products and consequently the magnitude of vectors unchanged so the Lagrangian is invariant under this transformation. Naturally if the Lagrangian is invariant the equations of motion will be as well.
+
+\begin{equation}
+m\frac{d\vec{v}}{dt} = \vec{\nabla} U
+\end{equation}
+
+In the equations of motion above, both sides are vectors and vectors transform the same way under rotations so the equations of motion are invariant. Note that in the case of rotations both the Lagrangian and the equations of motion are invariant. While for Newtonian boosts only the equations of motion were invariant. This is due to the fact that Newtonian mechanics is the low velocity limit of relativistic mechanics. In the theory of Special Relativity the action for a massive free particle is written like so.
+
+\begin{equation}
+S = \int \frac{m}{2}u^{\mu}u_{\mu}d\tau
+\end{equation}
 
 \subsection{QFT From Symmetry}
 
