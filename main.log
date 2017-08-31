@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2017.4.11)  9 AUG 2017 15:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2017.4.11)  9 AUG 2017 16:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1029,7 +1029,7 @@ Package natbib Warning: Citation `tdr' on page 24 undefined on input line 15.
 [28] <images/ggf.png, id=389, 356.33125pt x 229.85875pt>
 File: images/ggf.png Graphic file (type png)
  <use images/ggf.png>
-Package pdftex.def Info: images/ggf.png used on input line 124.
+Package pdftex.def Info: images/ggf.png used on input line 123.
 (pdftex.def)             Requested size: 108.405pt x 69.92618pt.
 
 [29] <images/14TeV_higgs_cross_sections.png, id=398, 569.0058pt x 409.0482pt>
@@ -1037,12 +1037,12 @@ File: images/14TeV_higgs_cross_sections.png Graphic file (type png)
 
 <use images/14TeV_higgs_cross_sections.png>
 Package pdftex.def Info: images/14TeV_higgs_cross_sections.png used on input li
-ne 141.
+ne 140.
 (pdftex.def)             Requested size: 361.34999pt x 259.76768pt.
 
 
 Package natbib Warning: Citation `crossbranchplots' on page 30 undefined on inp
-ut line 143.
+ut line 142.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1051,18 +1051,18 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: images/Higgs_BR.png Graphic file (type png)
 
 <use images/Higgs_BR.png>
-Package pdftex.def Info: images/Higgs_BR.png used on input line 153.
+Package pdftex.def Info: images/Higgs_BR.png used on input line 152.
 (pdftex.def)             Requested size: 216.81pt x 208.01393pt.
 
 
 Package natbib Warning: Citation `crossbranchplots' on page 31 undefined on inp
-ut line 170.
+ut line 169.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 174--174
+Underfull \hbox (badness 10000) in paragraph at lines 173--173
 [][]\OT1/cmss/m/n/12 The Higgs also couples to the electron and the first gener
 ation quarks but the masses are
  []
@@ -1072,7 +1072,7 @@ File: images/higgs_production_modes.png Graphic file (type png)
 
 <use images/higgs_production_modes.png>
 Package pdftex.def Info: images/higgs_production_modes.png used on input line 1
-77.
+76.
 (pdftex.def)             Requested size: 289.07999pt x 213.95113pt.
 
 
@@ -1080,7 +1080,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 Package natbib Warning: Citation `crossbranchplots' on page 31 undefined on inp
-ut line 183.
+ut line 182.
 
 [31 <./images/14TeV_higgs_cross_sections.png (PNG copy)>]
 
@@ -1091,7 +1091,7 @@ LaTeX Warning: Text page 32 contains only floats.
 File: images/qg_scattering.png Graphic file (type png)
 
 <use images/qg_scattering.png>
-Package pdftex.def Info: images/qg_scattering.png used on input line 189.
+Package pdftex.def Info: images/qg_scattering.png used on input line 188.
 (pdftex.def)             Requested size: 144.54pt x 99.28195pt.
 ) [33 <./images/qg_scattering.png>]
 \openout2 = `tex/chapter4.aux'.
@@ -1304,7 +1304,7 @@ x10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.p
 fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi12.pfb></
 usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on main.pdf (54 pages, 2216530 bytes).
+Output written on main.pdf (54 pages, 2216559 bytes).
 PDF statistics:
  615 PDF objects out of 1000 (max. 8388607)
  518 compressed objects within 6 object streams
