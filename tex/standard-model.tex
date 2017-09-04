@@ -159,13 +159,13 @@ dR_x =
 0 & 1 & -d\theta_x \\
 0 & d\theta_x & 1 \\
 \end{pmatrix}
-= 1 + id\theta_x
+= 1 - id\theta_x
 \begin{pmatrix}
 0 & 0 & 0 \\
-0 & 0 & i \\
-0 & -i & 0 \\
+0 & 0 & -i \\
+0 & i & 0 \\
 \end{pmatrix}
-= 1 + id\theta_x J_x
+= 1 - id\theta_x J_x
 \end{equation}
 
 \begin{equation}
@@ -175,13 +175,13 @@ dR_y =
 0 & 1 & 0 \\
 -d\theta_y & 0 & 1 \\
 \end{pmatrix}
-= 1 + id\theta_y
+= 1 - id\theta_y
 \begin{pmatrix}
-0 & 0 & -i \\
+0 & 0 & i \\
 0 & 0 & 0 \\
-i & 0 & 0 \\
+-i & 0 & 0 \\
 \end{pmatrix}
-= 1 + id\theta_y J_y
+= 1 - id\theta_y J_y
 \end{equation}
 
 \begin{equation}
@@ -191,26 +191,26 @@ dR_z =
 d\theta_z & 1 & 0 \\
 0 & 0 & 1 \\
 \end{pmatrix}
-= 1 + id\theta_z 
+= 1 - id\theta_z 
 \begin{pmatrix}
-0 & i & 0 \\
--i & 0 & 0 \\
+0 & -i & 0 \\
+i & 0 & 0 \\
 0 & 0 & 0 \\
 \end{pmatrix}
-= 1 + id\theta_z J_z
+= 1 - id\theta_z J_z
 \end{equation}
 
 Repeating an infinitesimal rotation many times rebuilds the finite rotation, so the J matrices generate rotations along their respective axes and they are aptly referred to asthe generators of the group. Some algebra reveals this to be the case.
 
 \begin{equation}
-R = (1 + i\frac{\theta}{N} J)^{N} = 1 + id\theta J + \frac{1}{2!}(id\theta J)^2 + \frac{1}{3!}(id\theta J)^3 + ... = e^{i\theta J} 
+R = (1 - i\frac{\theta}{N} J)^{N} = 1 + (-id\theta J) + \frac{1}{2!}(-id\theta J)^2 + \frac{1}{3!}(-id\theta J)^3 + ... = e^{-i\theta J} 
 \end{equation}
 
 Notice that even powers of J yield $J^2$ and that odd powers of J return J.
 
 \begin{equation}
-  = 1 - J^2 + J^2(1 + \frac{i^2}{2!} d\theta^2 + \frac{i^4}{4!} d\theta^4 + ...) + iJ(d\theta + \frac{i^2}{3!}d\theta^3 + \frac{i^4}{5!}d\theta^5 + ...) 
-  = (1-J^2) + J^2 \cos\theta + iJ\sin\theta
+  = 1 - J^2 + J^2(1 + \frac{i^2}{2!} d\theta^2 + \frac{i^4}{4!} d\theta^4 + ...) - iJ(d\theta + \frac{i^2}{3!}d\theta^3 + \frac{i^4}{5!}d\theta^5 + ...) 
+  = (1-J^2) + J^2 \cos\theta - iJ\sin\theta
 \end{equation}
 
 Plugging in $J_z$ reveals that this process does in fact rebuild the rotation matrix $R_z$.
@@ -218,7 +218,7 @@ Plugging in $J_z$ reveals that this process does in fact rebuild the rotation ma
 \begin{equation}
 \begin{split}
 R_z &= 
-\begin{pmatrix}
+(\begin{pmatrix}
 1 & 0 & 0 \\
 0 & 1 & 0 \\
 0 & 0 & 1 \\
@@ -228,19 +228,21 @@ R_z &=
 1 & 0 & 0 \\
 0 & 1 & 0 \\
 0 & 0 & 0 \\
-\end{pmatrix}
+\end{pmatrix})
 +
 \begin{pmatrix}
-\cos\theta_z & 0 & 0 \\
-0 & \cos\theta_z & 0 \\
-0 & 0 & 1 \\
+1 & 0 & 0 \\
+0 & 1 & 0 \\
+0 & 0 & 0 \\
 \end{pmatrix}
+\cos\theta_z
 +
 \begin{pmatrix}
-0 & -\sin\theta_z & 0 \\
-\sin\theta_z & 0 & 0 \\
-0 & 0 & 1 \\
+0 & -1 & 0 \\
+1 & 0 & 0 \\
+0 & 0 & 0 \\
 \end{pmatrix}
+\sin\theta_z
 \\ &=
 \begin{pmatrix}
 \cos\theta_z & -\sin\theta_z & 0 \\
@@ -260,9 +262,9 @@ Similarly, the other generators rebuild their respective rotation matrices. The 
 \end{split}
 \end{equation}
 
-The multiplication table can be specified in a more compact notation using the commutator, $[a,b] = ab - ba$.
+The multiplication table can be specified in a more compact notation using the commutator, $[a,b] = ab - ba$, and the antisymmetric tensor $\epsilon$.
 \begin{equation}
-[J_k, J_l] = i\epsilon^{klm}J_m
+[J_k, J_l] = i\epsilon_{klm}J_m
 \end{equation}
 
 Finding 3x3 generators that obey the algebra and then repeatedly applying the infinitesimal transormations builds the SO(3) rotation group. The group acts on 3x1 objects called vectors, and these 3x1 vectors are a suitable candidate for a Newtonian Lagrangian. Finding another representation obeying this algebra will provide a more fundamental ingredient for the Lagrangian and allow the construction of a proper QFT. Similar to the way real numbers are built from the squares of imaginary numbers, vectors are built from spinors. 
@@ -290,13 +292,13 @@ i & 0 \\
 However, plugging these into the commutator reveals a factor of two difference.
 
 \begin{equation}
-[\sigma_k, \sigma_l] = 2i\epsilon^{klm}\sigma_m
+[\sigma_k, \sigma_l] = 2i\epsilon_{klm}\sigma_m
 \end{equation}
 
-Defining $J_k = \frac{1}{2} \sigma_k$ fixes this. These matrices act on an array of 2x1 complex numbers called spinors, and this group is called SU(2). Now the idea is to break down four vectors in the same way.  
+Defining $J_k = \frac{1}{2} \sigma_k$ fixes this. These matrices act on an array of 2x1 complex numbers called spinors, and this new "rotation" group is called SU(2). Note that by starting with vectors and analyzing the SO(3) rotation group along with its underlying algebra, new mathematical objects have been discovered. It's now possible to use these spinors to build rotationally invariant Lagrangians. While rotationally invariant Lagrangians are important for nonrelativistic theories, the real goal is to break down four vectors in the same way to find the most fundamental ingredients for relativistic Lagrangians. 
 
 \begin{equation}
-[J_k, J_l] = i\epsilon^{klm}J_m
+[J_k, J_l] = i\epsilon_{klm}J_m
 \end{equation}
 
 \subsubsection{The Lorentz Group}
@@ -307,7 +309,148 @@ x'_{\mu} x'^{\mu} = x_{\mu} x^{\mu} \rightarrow \eta_{\sigma\rho} \Lambda^{\sigm
 \rightarrow \eta_{\sigma\rho} \Lambda^{\sigma}_{\mu}  \Lambda^{\rho}_{\nu} = \eta_{\mu\nu}
 \end{equation}
 
+In this 3 + 1 dimensional space the rotations and their corresponding generators are now given by the following R and J matrices.
 
+\begin{equation}
+R_x = 
+\begin{pmatrix}
+1 & 0 & 0 & 0\\
+0 & 1 & 0 & 0 \\
+0 & 0 & \cos\theta_x & -\sin\theta_x \\
+0 & 0 & \sin\theta_x & \cos\theta_x \\
+\end{pmatrix},
+J_x = 
+\begin{pmatrix}
+0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 \\
+0 & 0 & 0 & -i \\
+0 & 0 & i & 0 \\
+\end{pmatrix}
+\end{equation}
+
+\begin{equation}
+R_y = 
+\begin{pmatrix}
+1 & 0 & 0 & 0\\
+0 & \cos\theta_y & 0 & \sin\theta_y \\
+0 & 0 & 1 & 0 \\
+0 & -\sin\theta_y & 0 & \cos\theta_y \\
+\end{pmatrix},
+J_y = 
+\begin{pmatrix}
+0 & 0 & 0 & 0\\
+0 & 0 & 0 & i \\
+0 & 0 & 0 & 0 \\
+0 & -i & 0 & 0 \\
+\end{pmatrix}
+\end{equation}
+
+\begin{equation}
+R_z = 
+\begin{pmatrix}
+1 & 0 & 0 & 0\\
+0 & \cos\theta_z & -\sin\theta_z & 0 \\
+0 & \sin\theta_z & \cos\theta_z & 0 \\
+0 & 0 & 0 & 1 \\
+\end{pmatrix},
+J_z = 
+\begin{pmatrix}
+0 & 0 & 0 & 0\\
+0 & 0 & -i & 0 \\
+0 & i & 0 & 0 \\
+0 & 0 & 0 & 0 \\
+\end{pmatrix}
+\end{equation}
+
+And the boosts are given by the following B matrices.
+
+\begin{equation}
+B_x = 
+\begin{pmatrix}
+\cosh\omega_x & \sinh\omega_x & 0 & 0 \\
+\sinh\omega_x & \cosh\omega_x & 0 & 0 \\
+0 & 0 & 1 & 0 \\
+0 & 0 & 0 & 1 \\
+\end{pmatrix}
+\end{equation}
+
+\begin{equation}
+B_y = 
+\begin{pmatrix}
+\cosh\omega_y & 0 & \sinh\omega_y & 0 \\
+0 & 1 & 0 & 0 \\
+\sinh\omega_y & 0 & \cosh\omega_y & 0 \\
+0 & 0 & 0 & 1 \\
+\end{pmatrix}
+\end{equation}
+
+\begin{equation}
+B_z = 
+\begin{pmatrix}
+\cosh\omega_z & 0 & 0 & \sinh\omega_z \\
+0 & 1 & 0 & 0 \\
+0 & 0 & 1 & 0 \\
+\sinh\omega_z & 0 & 0 & \cosh\omega_z \\
+\end{pmatrix}
+\end{equation}
+
+Looking at the differential boosts yields the generators K.
+
+\begin{equation}
+dB_x = 
+\begin{pmatrix}
+1 & d\omega_x & 0 & 0 \\
+d\omega_x & 1 & 0 & 0 \\
+0 & 0 & 1 & 0 \\
+0 & 0 & 0 & 1 \\
+\end{pmatrix}
+= 1 + d\omega_x 
+\begin{pmatrix}
+0 & 1 & 0 & 0 \\
+1 & 0 & 0 & 0 \\
+0 & 0 & 0 & 0 \\
+0 & 0 & 0 & 0 \\
+\end{pmatrix}
+= 1 + d\omega_x K_x
+\end{equation}
+
+\begin{equation}
+dB_y = 
+\begin{pmatrix}
+1 & 0 & d\omega_y & 0 \\
+0 & 1 & 0 & 0 \\
+d\omega_y & 0 & 1 & 0 \\
+0 & 0 & 0 & 1 \\
+\end{pmatrix}
+= 1 + d\omega_y
+\begin{pmatrix}
+0 & 0 & 1 & 0 \\
+0 & 0 & 0 & 0 \\
+1 & 0 & 0 & 0 \\
+0 & 0 & 0 & 0 \\
+\end{pmatrix}
+= 1 + d\omega_y K_y
+\end{equation}
+
+\begin{equation}
+dB_z = 
+\begin{pmatrix}
+1 & 0 & 0 & d\omega_z \\
+0 & 1 & 0 & 0 \\
+0 & 0 & 1 & 0 \\
+d\omega_z & 0 & 0 & 1 \\
+\end{pmatrix}
+= 1 + d\omega_z
+\begin{pmatrix}
+0 & 0 & 0 & 1 \\
+0 & 0 & 0 & 0 \\
+0 & 0 & 0 & 0 \\
+1 & 0 & 0 & 0 \\
+\end{pmatrix}
+= 1 + d\omega_z K_z
+\end{equation}
+
+As before with the rotations in three dimensions the group is defined by its multiplication table. 
 
 \subsubsection{Building Lagrangians}
 \subsection{Perturbation Theory}
