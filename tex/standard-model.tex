@@ -121,7 +121,7 @@ The laws of physics are invariant under boosts and rotations, and the Lagrangian
 
 \subsubsection{Rotations}
 
-Rotations in three dimensions are described by the SO(3) group. Rotations preserve the lengths of vectors and the angles between them, which means that dot products between vectors are invariant as well. In three dimensions one can rotate about any of the three axes. The rotations about the x, y, and z axes may be characterized by the matrices below.
+Rotations in three dimensions are described by the SO(3) group. Rotations preserve the lengths of vectors and the angles between them, which means that dot products between vectors remain invariant as well. In three dimensions one can rotate about any of the three axes. The rotations about the x, y, and z axes may be characterized by the matrices below.
 
 \begin{equation}
 R_x = 
@@ -250,9 +250,65 @@ R_z &=
 \end{split}
 \end{equation}
 
-The other generators rebuild their respective rotation matrices.
+Similarly, the other generators rebuild their respective rotation matrices. The generators of the group are actually more fundamental than the rotation matrices. The multiplication table for the generators describes the algebra of the group, which describes the behavior of rotations at a local level. In fact the rotation matrices are just one of the groups with this local algebra, and a specific group obeying the local algebra is analagous to a specific solution of a differential equation: each solution has a different global behavior yet each obeys the same physics. Moreover the multiplication table can be specified without declaring any particular representation for the generators. 
+
+\begin{equation}
+\begin{split}
+&J_x*J_y = iJ_z  + J_y*J_x \\
+&J_y*J_z = iJ_x  + J_z*J_y \\
+&J_z*J_x = iJ_y  + J_x*J_z \\
+\end{split}
+\end{equation}
+
+The multiplication table can be specified in a more compact notation using the commutator, $[a,b] = ab - ba$.
+\begin{equation}
+[J_k, J_l] = i\epsilon^{klm}J_m
+\end{equation}
+
+Finding 3x3 generators that obey the algebra and then repeatedly applying the infinitesimal transormations builds the SO(3) rotation group. The group acts on 3x1 objects called vectors, and these 3x1 vectors are a suitable candidate for a Newtonian Lagrangian. Finding another representation obeying this algebra will provide a more fundamental ingredient for the Lagrangian and allow the construction of a proper QFT. Similar to the way real numbers are built from the squares of imaginary numbers, vectors are built from spinors. 
+
+Looking for the lowest order complex nxn matrices satisfying the algebra gives the 2x2 Pauli matrices. Any 1x1 matrices are simply scalar complex numbers, which commute and therefore cannot satisfy the algebra. The Pauli matrices are  
+
+\begin{equation}
+\sigma_x = 
+\begin{pmatrix}
+0 & 1 \\
+1 & 0 \\
+\end{pmatrix},
+\sigma_y = 
+\begin{pmatrix}
+0 & -i \\
+i & 0 \\
+\end{pmatrix},
+\sigma_y = 
+\begin{pmatrix}
+1 & 0 \\
+0 & -1 \\
+\end{pmatrix}
+\end{equation}
+
+However, plugging these into the commutator reveals a factor of two difference.
+
+\begin{equation}
+[\sigma_k, \sigma_l] = 2i\epsilon^{klm}\sigma_m
+\end{equation}
+
+Defining $J_k = \frac{1}{2} \sigma_k$ fixes this. These matrices act on an array of 2x1 complex numbers called spinors, and this group is called SU(2). Now the idea is to break down four vectors in the same way.  
+
+\begin{equation}
+[J_k, J_l] = i\epsilon^{klm}J_m
+\end{equation}
 
 \subsubsection{The Lorentz Group}
+Four vector products are invariant with regards to rotations and boosts. This statement is defined by the mathematical equation below, where the $\Lambda$ matrices represent the rotation/boost matrices of the Lorentz Group and the $\eta$ matrix is the Minkowski metric $\left( \begin{smallmatrix} 1 & 0 & 0 & 0 \\ 0 & -1 & 0 & 0 \\ 0 & 0 & -1 & 0 \\ 0 & 0 & 0 & -1 \\ \end{smallmatrix} \right)$.
+
+\begin{equation}
+x'_{\mu} x'^{\mu} = x_{\mu} x^{\mu} \rightarrow \eta_{\sigma\rho} \Lambda^{\sigma}_{\mu}  \Lambda^{\rho}_{\nu} x^{\mu} x^{\nu} = \eta_{\mu\nu} x^{\mu} x^{\nu}
+\rightarrow \eta_{\sigma\rho} \Lambda^{\sigma}_{\mu}  \Lambda^{\rho}_{\nu} = \eta_{\mu\nu}
+\end{equation}
+
+
+
 \subsubsection{Building Lagrangians}
 \subsection{Perturbation Theory}
 \subsection{Feynman Rules}
