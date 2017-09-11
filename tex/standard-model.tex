@@ -118,7 +118,7 @@ Just as rotations preserve the dot product, Lorentz transformations (boosts and 
 
 \subsection{QFT From Symmetry}
 
-The laws of physics are invariant under boosts and rotations, and the Lagrangian provides a mathematical framework for physical predictions. These facts together imply that there's a good shot at building a proper QFT by creating the appropriate invariant Lagrangian. Four vector products remain invariant under Lorentz transformations so they are a natural ingredient, but there are other mathematical objects that could be used as well. In this vein, the symmetries under rotations and boosts are investigated in order to look for some other building blocks. The goal is to find two different representations of the Lorentz group and use one representation to describe fermions and other for bosons.
+The laws of physics are invariant under boosts and rotations, and the Lagrangian provides a mathematical framework for physical predictions. These facts together imply that there's a good shot at building a proper QFT by creating the appropriate invariant Lagrangian. Four vector products remain invariant under Lorentz transformations so they are a natural ingredient, but there are other mathematical objects that could be used as well. In this vein, the symmetries under rotations and boosts are investigated in order to look for other building blocks. The goal is to find two different representations of the Lorentz group and use one representation to describe fermions and the other for bosons.
 
 \subsubsection{Rotations}
 
@@ -201,7 +201,7 @@ i & 0 & 0 \\
 = 1 - id\theta_z J_z
 \end{equation}
 
-Repeating an infinitesimal rotation many times rebuilds the finite rotation, so the J matrices generate rotations along their respective axes and they are aptly referred to asthe generators of the group. Some algebra reveals this to be the case.
+Repeating an infinitesimal rotation many times builds the finite rotation, and in this way, the J matrices generate rotations along their respective axes.  As such, they are aptly referred to as the generators of the group. Doing some algebra reveals this to be the case. This point is confirmed below.
 
 \begin{equation}
 R = (1 - i\frac{\theta}{N} J)^{N} = 1 + (-id\theta J) + \frac{1}{2!}(-id\theta J)^2 + \frac{1}{3!}(-id\theta J)^3 + ... = e^{-i\theta J} 
@@ -253,7 +253,7 @@ R_z &=
 \end{split}
 \end{equation}
 
-Similarly, the other generators rebuild their respective rotation matrices. The generators of the group are actually more fundamental than the rotation matrices. The multiplication table for the generators describes the algebra of the group, which describes the behavior of rotations at a local level. In fact the rotation matrices are just one of the groups with this local algebra, and a specific group obeying the local algebra is analagous to a specific solution of a differential equation: each solution has a different global behavior yet each obeys the same physics. Moreover the multiplication table can be specified without declaring any particular representation for the generators. 
+Similarly, the other generators rebuild their respective rotation matrices. The generators of the group are actually more fundamental than the rotation matrices. The multiplication table for the generators describes the algebra of the group, which describes the behavior of rotations at a local level. In fact the SO(3) rotation matrices are just one of the groups with this local algebra, and a specific group obeying the local algebra is analagous to a specific solution of a differential equation: each solution has a different global behavior yet each obeys the same physics. Moreover the multiplication table can be specified without declaring any particular representation for the generators. 
 
 \begin{equation}
 \begin{split}
@@ -268,9 +268,9 @@ The multiplication table can be specified in a more compact notation using the c
 [J_k, J_l] = i\epsilon_{klm}J_m
 \end{equation}
 
-Finding 3x3 generators that obey the algebra and then repeatedly applying the infinitesimal transormations builds the SO(3) rotation group. The group acts on 3x1 objects called vectors, and these 3x1 vectors are a suitable candidate for a Newtonian Lagrangian. Finding another representation obeying this algebra will provide a more fundamental ingredient for the Lagrangian and allow the construction of a proper QFT. Similar to the way real numbers are built from the squares of imaginary numbers, vectors are built from spinors. 
+Finding 3x3 generators that obey the algebra and then repeatedly applying the infinitesimal transormations builds the SO(3) rotation group. The group acts on real 3x1 objects called vectors, and these 3x1 vectors are a suitable candidate for a Newtonian Lagrangian. Finding another representation obeying this algebra will provide a more fundamental ingredient for the Lagrangian and allow the construction of a proper QFT. Similar to the way real numbers are built from the squares of imaginary numbers, vectors are built from spinors. 
 
-Looking for the lowest order nontrivial nxn matrices satisfying the algebra gives the 2x2 Pauli matrices. The 1x1 matrices are the trival solution: 1x1 matrices are simply scalar complex numbers, which commute and therefore fail to satisfy the algebra unless all of the J matrices are 0. The objects these operators act on are 1x1 numbers called scalars and remain invariant under rotations and correspond to spin 0. The solution for the 2x2 case, the Pauli matrices are given by
+Looking for the lowest order nontrivial nxn matrices satisfying the algebra gives the 2x2 Pauli matrices. The 1x1 matrices are the trival solution: 1x1 matrices are simply scalar complex numbers, which commute and therefore fail to satisfy the algebra unless all of the J matrices are 0. The objects these 1x1 operators act on are 1x1 numbers called scalars which remain invariant under rotations and correspond to spin 0. The solution for the 2x2 case, the Pauli matrices are given by
 
 \begin{equation}
 \sigma_x = 
@@ -296,7 +296,7 @@ However, plugging these into the commutator reveals a factor of two difference.
 [\sigma_k, \sigma_l] = 2i\epsilon_{klm}\sigma_m
 \end{equation}
 
-Defining $J_k = \frac{1}{2} \sigma_k$ fixes this. These matrices act on an array of 2x1 complex numbers called spinors, and this new rotation group is called SU(2). Note that by starting with vectors and analyzing the SO(3) rotation group along with its underlying algebra, new mathematical objects have been discovered. The 1x1 matrices satisfying the rotation algebra make up the spin 0 representation of SU(2), the 2x2 matrices acting on 2x1 objects satisfying the algebra make up the spin $\frac{1}{2}$ representation, and the 3x3 matrices acting on 3x1 objects satisfying the algebra make up the spin 1 representation. The pattern continues on. There are in fact many representations of SU(2). It's now possible to use these representations to build rotationally invariant Lagrangians. While rotationally invariant Lagrangians are important for nonrelativistic theories, the real goal is to break down four vectors in the same way to find the most fundamental ingredients for relativistic Lagrangians. 
+Defining $J_k = \frac{1}{2} \sigma_k$ fixes this. These matrices act on an array of 2x1 complex numbers called spinors, and this new rotation group is called SU(2). Note that by starting with vectors and analyzing the SO(3) rotation group along with its underlying algebra, new mathematical objects have been discovered. The 1x1 matrices satisfying the rotation algebra make up the spin 0 representation of SU(2), the complex 2x2 matrices acting on complex 2x1 objects satisfying the algebra make up the spin $\frac{1}{2}$ representation, and the complex 3x3 matrices acting on complex 3x1 objects satisfying the algebra make up the spin 1 representation. The pattern continues on. There are in fact many representations of SU(2). It's now possible to use these representations to build rotationally invariant Lagrangians, using the 2x1 spinors of SU(2) to model fermions and the 3x1 representation to model bosons. While rotationally invariant Lagrangians are important for nonrelativistic theories, the real goal is to break down four vectors in the same way to find the most fundamental ingredients for relativistic Lagrangians. 
 
 \begin{equation}
 [J_k, J_l] = i\epsilon_{klm}J_m
@@ -310,7 +310,7 @@ x'_{\mu} x'^{\mu} = x_{\mu} x^{\mu} \rightarrow \eta_{\sigma\rho} \Lambda^{\sigm
 \rightarrow \eta_{\sigma\rho} \Lambda^{\sigma}_{\mu}  \Lambda^{\rho}_{\nu} = \eta_{\mu\nu}
 \end{equation}
 
-In this 3 + 1 dimensional space the rotations and their corresponding generators are now given by the following R and J matrices.
+In this 3 + 1 dimensional space the rotations and their corresponding generators are now given by the following R and J matrices, where the R matrices satisfy the equation above.
 
 \begin{equation}
 R_x = 
@@ -363,7 +363,7 @@ J_z =
 \end{pmatrix}
 \end{equation}
 
-And the boosts are given by the following B matrices.
+And the boosts are given by the following B matrices. These also leave the four vector product invariant.
 
 \begin{equation}
 B_x = 
@@ -465,7 +465,7 @@ As before with the algebra for rotations in three dimensions the Lorentz algebra
 [K_i, K_j] = -i\epsilon_{ijk}J_k
 \end{equation}
 
-Notice that the commutator between J matrices returns another J matrix, but that the commutator between K matrices returns a J matrix. This means that the J operators form their own subgroup, and the K operators don't. On the other hand, mixing the Js and Ks up by defining the $Y^{\pm}$ operators allows the Lorentz algebra to be represented by two independent subgroups. 
+Notice that the commutator between J matrices returns another J matrix, but that the commutator between K matrices returns a J matrix. This means that the J operators form their own subgroup, but the K operators don't. On the other hand, mixing the Js and Ks up by defining the $Y^{\pm}$ operators allows the Lorentz algebra to be represented by two independent subgroups. 
 
 \begin{equation}
 Y^{\pm} = \frac{1}{2}(J_i \pm iK_i)
@@ -479,7 +479,136 @@ Y^{\pm} = \frac{1}{2}(J_i \pm iK_i)
 [Y^{\pm}_i, Y^{\mp}_j] = 0
 \end{equation}
 
-Both of the Y groups have the same commutation relations as SU(2). In this way, the Lorentz algebra can be viewed as if two SU(2) rotation algebras have been glued together. This is similar to the way in which orthogonal basis vectors are stuck together to create a larger dimensional space. In order to figure out how to use this space to build the appropriate Lagrangians, the individual spaces will be investigated. Looking along the $Y^{+}$ axis is akin to setting $Y^{-}$ to zero. Using $(y_+, y_-)$ to label the representation, the simplest nontrivial case along one axis is spin $\frac{1}{2}$ x spin 0, given by $(\frac{1}{2}, 0)$.   
+Both of the Y groups have the same commutation relations as SU(2). In this way, the Lorentz algebra can be viewed as if two SU(2) rotation algebras have been glued together. This is similar to the way in which orthogonal basis vectors are stuck together to create a larger dimensional space. Now, in order to figure out how to use this space to build the appropriate Lagrangians, the individual subspaces must be investigated. So looking at $Y^{+}$ alone is akin to looking along the $Y^{+}$ axis by setting $Y^{-}$ to zero. Using $(y_+, y_-)$ to label the representation, the simplest nontrivial case along the $Y^{+}$ axis is spin $\frac{1}{2}$ x spin 0, given by $(\frac{1}{2}, 0)$.   
+
+Using $Y_{i}^{-} = \frac{1}{2}(J_i - iK_i) = 0$ implies that $J_i = iK_i$, and since $Y_{i}^{+}$ is the 2x2 representation obeying the SU(2) algebra, $Y_{i}^{+} = \frac{\sigma_i}{2}$. Putting this together,
+
+\begin{equation}
+\begin{split}
+J_i &= iK_i \\ 
+&\rightarrow Y^+_i = \frac{1}{2}(J_i + iK_i) = \frac{\sigma_i}{2} = \frac{1}{2}(J_i + J_i) = J_i \\
+&\rightarrow J_i = \frac{1}{2}\sigma_i \\
+&\rightarrow K_i = \frac{-i\sigma_i}{2} \\
+\end{split}
+\end{equation} 
+Finally, the finite Lorentz transformations for the $(\frac{1}{2}, 0)$ representation are given by 
+
+\begin{equation}
+R^{(L)} = e^{i\theta_i J_i} = e^{i\theta_i \frac{\sigma_i}{2}}   
+\end{equation}
+
+for rotations, and
+
+\begin{equation}
+B^{(L)} = e^{i\phi_i K_i} = e^{\phi_i \frac{\sigma_i}{2}}   
+\end{equation}
+
+for boosts. These act on 2x1 objects called left-chiral spinors, $\mathcal{L}$. A general Lorentz transformation on a left handed spinor can be written
+
+\begin{equation}
+\Lambda^{(L)} = e^{\frac{i}{2}\theta_i \sigma_i + \frac{1}{2}\phi_i \sigma_i}
+\end{equation}.
+
+Replacing $K_i$ with $-K_i$ takes $Y^+_i$ to $Y^-_i$, and gives the finite Lorentz transformations for the $(0, \frac{1}{2})$ representation 
+
+\begin{equation}
+R^{(R)} = e^{i\theta_i J_i} = e^{\frac{i}{2}\theta_i \sigma_i}   
+\end{equation}
+
+for rotations, and
+
+\begin{equation}
+B^{(R)} = e^{i\phi_i K_i} = e^{-\phi_i \frac{\sigma_i}{2}}   
+\end{equation}
+
+for boosts. These act on 2x1 objects called right-chiral spinors, $\mathcal{R}$. The general Lorentz transformation on a right handed spinor can be written
+
+\begin{equation}
+\Lambda^{(R)} = e^{\frac{i}{2}\theta_i \sigma_i - \frac{1}{2}\phi_i \sigma_i}
+\end{equation}
+
+Last but not least rank 2 spinors are given by the $(\frac{1}{2}, \frac{1}{2})$ representation. This representation is a tensor combining two spinors via outer product.
+
+\begin{equation}
+\alpha = \mathcal{L} \mathcal{R}^{T}
+\end{equation}
+
+In order to transform $\alpha$, both $\mathcal{L}$ and $\mathcal{R}$ must be transformed.
+
+\begin{equation}
+\alpha^{'} = \Lambda^{(L)} \mathcal{L} \mathcal{R}^T \Lambda^{(R)T} 
+ = e^{\frac{i}{2}\theta_i \sigma_i + \frac{1}{2}\phi_i \sigma_i} \mathcal{L} \mathcal{R}^T e^{\frac{i}{2}\theta_i \sigma_i^T - \frac{1}{2}\phi_i \sigma_i^T} 
+\end{equation}
+
+However it would be nice if the transformation term on the right side was the Hermitian conjugate of the transformation on the left side. This would be the case if $\sigma_i^T$ was $-\sigma_i^{\dagger} = -(\sigma_i^{*})^{T}$, and this requires a transformation that turns $\sigma$ into $-\sigma^{*}$. So $\mathcal{R}$ is rearranged such that $\mathcal{R} \rightarrow \bar{\mathcal{R}} = t\mathcal{R}$ where $t\sigma_i t^{-1} = -\sigma_i^{*}$. The matrix $t = \left( \begin{smallmatrix} 0 & -1 \\ 1 & 0 \\ \end{smallmatrix} \right)$ satisfies the requirements. This change of basis for $\mathcal{R}$ redefines $\alpha$,
+
+\begin{equation}
+\alpha = \mathcal{L}\bar{\mathcal{R}}^T.
+\end{equation}
+
+Defined in this manner, the $(\frac{1}{2}, \frac{1}{2})$ representation now transforms like so,
+
+\begin{equation}
+\alpha^{'} = e^{\frac{i}{2}\theta_i \sigma_i + \frac{1}{2}\phi_i \sigma_i} 
+\mathcal{L}\bar{\mathcal{R}}^T e^{-\frac{i}{2}\theta_i \sigma_i^\dagger + \frac{1}{2}\phi_i \sigma_i^\dagger}.
+\end{equation}
+
+Considering the fact that $\sigma_i^\dagger = \sigma_i$, the transformation reduces further,
+
+\begin{equation}
+\alpha^{'} = e^{\frac{i}{2}\theta_i \sigma_i + \frac{1}{2}\phi_i \sigma_i} 
+\alpha e^{-\frac{i}{2}\theta_i \sigma_i + \frac{1}{2}\phi_i \sigma_i}.
+\end{equation}
+
+A transformation of the form $M' = HMH^\dagger$ where H is a Hermitian matrix, preserves the Hermitivity of the matrix M. Namely, M' will be Hermitian if M is Hermitian, 
+
+\begin{equation}
+M^{'\dagger} = (HMH^\dagger)^\dagger = HM^\dagger H^\dagger = HMH^\dagger = M^{'}.
+\end{equation}
+
+On the other hand, M' will be anti-Hermitian if M is anti-Hermitian,
+
+\begin{equation}
+M^{'\dagger} = (HMH^\dagger)^\dagger = HM^\dagger H^\dagger = H(-M)H^\dagger = -HMH^\dagger = -M'.
+\end{equation}
+
+The transformation of the $(\frac{1}{2}, \frac{1}{2})$ object $\alpha$ is of this type. With this in mind, note that any complex matrix can be broken up into a Hermitian piece and an anti-Hermitian piece, and that these pieces remain independent under the $(\frac{1}{2}, \frac{1}{2})$ Lorentz transformations constructed here. Then note that a general complex 2x2 matrix has 8 free parameters, 4 from the Hermitian part and 4 from the anti-Hermitian part. Meanwhile, $\alpha$ has only 4, two from each spinor \footnote{A spinor has 2 complex components yielding 4 parameters. Two constraints reduce the number of free parameters to 2. One constraint requires a magnitude of 1, and the other requires that the overall phase doesn't matter.}. This means that $\alpha$ may be represented by the Hermitian space alone. An appropriate basis for this space is the collection of Pauli matrices plus the identity.
+
+\begin{equation}
+\sigma_0 =  
+\begin{pmatrix}
+1 & 0 \\
+0 & 1 \\
+\end{pmatrix}
+\sigma_1 =  
+\begin{pmatrix}
+0 & 1 \\
+1 & 0 \\
+\end{pmatrix}
+\sigma_2 = 
+\begin{pmatrix}
+0 & -i \\
+i & 0 \\
+\end{pmatrix}
+\sigma_3 = 
+\begin{pmatrix}
+1 & 0 \\
+0 & -1 \\
+\end{pmatrix}
+\end{equation}
+
+Thus any $(\frac{1}{2}, \frac{1}{2})$ object $\alpha$ is derived from its four parameters, 
+
+\begin{equation}
+\begin{split}
+&\alpha = \alpha_0 \sigma_0 + \alpha_1 \sigma_1 + \alpha_2 \sigma_2 + \alpha_3 \sigma_3 \\
+&\alpha = 
+\begin{pmatrix}
+\alpha_0 + \alpha_3 & \alpha_1 - i\alpha_2 \\
+\alpha_1 + i\alpha_2 & \alpha_0 - \alpha_3 \\
+\end{pmatrix}
+\end{split}
+\end{equation}
 
 \subsubsection{Building Lagrangians}
 \subsection{Perturbation Theory}
