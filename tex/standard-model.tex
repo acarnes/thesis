@@ -503,7 +503,7 @@ for rotations, and
 B^{(L)} = e^{i\phi_i K_i} = e^{\phi_i \frac{\sigma_i}{2}}   
 \end{equation}
 
-for boosts. These act on 2x1 objects called left-chiral spinors, $\mathcal{L}$. A general Lorentz transformation on a left handed spinor can be written
+for boosts. These act on 2x1 objects called left-chiral spinors, $\mathcal{L}$. A general Lorentz transformation on a left-chiral spinor can be written
 
 \begin{equation}
 \Lambda^{(L)} = e^{\frac{i}{2}\theta_i \sigma_i + \frac{1}{2}\phi_i \sigma_i}
@@ -521,13 +521,13 @@ for rotations, and
 B^{(R)} = e^{i\phi_i K_i} = e^{-\phi_i \frac{\sigma_i}{2}}   
 \end{equation}
 
-for boosts. These act on 2x1 objects called right-chiral spinors, $\mathcal{R}$. The general Lorentz transformation on a right handed spinor can be written
+for boosts. These act on 2x1 objects called right-chiral spinors, $\mathcal{R}$. The general Lorentz transformation on a right-chiral spinor can be written
 
 \begin{equation}
 \Lambda^{(R)} = e^{\frac{i}{2}\theta_i \sigma_i - \frac{1}{2}\phi_i \sigma_i}
 \end{equation}
 
-Last but not least rank 2 spinors are given by the $(\frac{1}{2}, \frac{1}{2})$ representation. This representation is a tensor combining two spinors via outer product.
+Last but not least, rank 2 spinors are given by the $(\frac{1}{2}, \frac{1}{2})$ representation. This representation is a tensor combining two spinors via outer product, and as will be shown later, these objects are actually four vectors.
 
 \begin{equation}
 \alpha = \mathcal{L} \mathcal{R}^{T}
@@ -597,7 +597,7 @@ i & 0 \\
 \end{pmatrix}
 \end{equation}
 
-Thus any $(\frac{1}{2}, \frac{1}{2})$ object $\alpha$ is derived from its four parameters, 
+Thus any $(\frac{1}{2}, \frac{1}{2})$ object $\alpha$ may be written in terms of its four independent parameters like so, 
 
 \begin{equation}
 \begin{split}
@@ -610,7 +610,91 @@ Thus any $(\frac{1}{2}, \frac{1}{2})$ object $\alpha$ is derived from its four p
 \end{split}
 \end{equation}
 
+Boosting $\alpha$ along the z direction hints that the four components transform like a four vector.  
+
+\begin{equation}
+\alpha^{'} = e^{\frac{1}{2}\phi_3 \sigma_3} 
+\begin{pmatrix}
+\alpha_0 + \alpha_3 & \alpha_1 - i\alpha_2 \\
+\alpha_1 + i\alpha_2 & \alpha_0 - \alpha_3 \\
+\end{pmatrix}
+e^{\frac{1}{2}\phi_3 \sigma_3}
+\end{equation}
+
+Exponentiating the $\sigma_3$ matrix and multiplying everything yields,
+
+\begin{equation}
+\begin{split}
+\begin{pmatrix}
+\alpha_0' + \alpha_3' & \alpha_1' - i\alpha_2' \\
+\alpha_1' + i\alpha_2' & \alpha_0' - \alpha_3' \\
+\end{pmatrix}
+&=
+\begin{pmatrix}
+e^{\frac{1}{2}\phi_3} & 0 \\
+0 & e^{-\frac{1}{2}\phi_3} \\
+\end{pmatrix}
+\begin{pmatrix}
+\alpha_0 + \alpha_3 & \alpha_1 - i\alpha_2 \\
+\alpha_1 + i\alpha_2 & \alpha_0 - \alpha_3 \\
+\end{pmatrix}
+\begin{pmatrix}
+e^{\frac{1}{2}\phi_3} & 0 \\
+0 & e^{-\frac{1}{2}\phi_3} \\
+\end{pmatrix} \\
+&=
+\begin{pmatrix}
+e^{\phi_3}(\alpha_0 + \alpha_3) & (\alpha_1 - i\alpha_2) \\
+(\alpha_1 + i\alpha_2) & e^{-\phi_3}(\alpha_0 - \alpha_3) \\
+\end{pmatrix}.
+\end{split}
+\end{equation}
+
+Then solving the systems of equations makes the transformation clearer,
+
+\begin{equation}
+\begin{split}
+&\alpha_1' = \alpha_1 \\
+&\alpha_2' = \alpha_2 \\
+&\alpha_0' = (\cosh\phi_3) \alpha_0 +  (\sinh\phi_3) \alpha_3 \\ 
+&\alpha_3' = (\sinh\phi_3) \alpha_0 +  (\cosh\phi_3) \alpha_3. \\ 
+\end{split}
+\end{equation}
+
+Finally the transformation can be written as a 4x4 matrix acting on the 4x1 four vector,
+
+\begin{equation}
+\alpha' = 
+\begin{pmatrix}
+\cosh\phi_3 & 0 & 0 & \sinh\phi_3 \\
+0 & 1 & 0 & 0 \\
+0 & 0 & 1 & 0 \\
+\sinh\phi_3 & 0 & 0 & \cosh\phi_3 \\
+\end{pmatrix}
+\begin{pmatrix}
+\alpha_0 \\
+\alpha_1 \\
+\alpha_2 \\
+\alpha_3 \\
+\end{pmatrix}
+\end{equation}
+
+The other transformations reproduce the usual 4x4 Lorentz transformations as well. In this way, four vectors are just rearranged versions of the $(\frac{1}{2}, \frac{1}{2})$ rank 2 spinors, and similar to the way complex number spinors are the square root of real numbers, spinors are the square root of four vectors. In practice it's easier to work with 4 vectors as 4x1 column vectors, though one could use the $(\frac{1}{2}, \frac{1}{2})$ rank 2 spinor representation.  
+
+\subsubsection{The Poincare Group}
+
+The Poincare group is the Lorentz Group plus translations. Physics experiments should be the same with a rotated apparatus, an apparatus moving at a different constant velocity, and also at another location. Adding translations to the group amounts to adding another the set of translation generators $P_i$. In the "What is a Particle" section the argument was made that particles are things that observers agree on between frames. Distinguishable particles have labels that remain invariant. A spin $\frac{1}{2}$ particle with mass m remains a spin $\frac{1}{2}$ particle with mass m for all observers. As it turns out these labels relate to different subspaces in the representation of the group.
+
+Consider a group with certain generators. When the operators of the group are represented a certain way, say as some NxN matrices there is a likelihood that there are some invariant subspaces. As an example, a representation of a group may act on a 5 dimensional space spanned by vectors $e_1, e_2, e_3, e_4, e_5$ the group may always transform vectors in the $e_1, e_2, e_3$ subspace into one another, and those in $e_4, e_5$ into one another, but never mix up $e_1, e_2, e_3$ with $e_4, e_5$. In this example the 5x5 operators could be decomposed into a 3x3 operator acting only on the $e_1, e_2, e_3$ subspace and a 2x2 operator acting only on the $e_4, e_5$ subspace. Each 5x5 member of the group could be written as a block diagonal matrix with a 3x3 block and a 2x2 block. The same goes for the generators. Since these subspaces retain their identity under the transformations of the group\footnote{This assumes that the 3x3 and 2x2 pieces have no invariant subspaces besides themselves and 0.}, they may be considered different particles. The question is whether there are labels for the subspaces.  
+
+Labels in physics need to be measurable, and by the current understanding of quantum mechanics these must be eigenvalues of Hermitian operators. The operators that label these subspaces are called the Casimir operators and must be built from the generators of the group. The operators should give the same values for $e_1, e_2, and e_3$ since they transform into one another and represent the same particle, which implies that the Casimir labeling operator must be proportional to the identity in that subspace. The same goes for the operator in the $e_4, e_5$ subspace. The Casimir operator for SU(2) is the $J^2$ operator which labels the spin of the particle. The Poincare group has two Casimir operators coresponding to two labels the mass, m, and the spin, j. Looking at the irreducible representations\footnote{This is the group theory term for the block diagonal pieces and the corresponding invariant subspaces. The irreducible representations, irreps, are those that can't be broken down in terms of smaller invariant subspaces and smaller block diagonal matrices. An arbitrary representation of the group is built from these irreps.} of the Poincare group, the mass and spin arise naturally as labels for the invariant qualities of particles. 
+
+%Now the 5x5 group can be analyzed in terms of its separate 3x3 and 2x2 pieces. In group theory lingo these pieces are called the irreducible representations. This is the difference between a spin $\frac{3}{2}$ group and a group consisting of separate spin $\frac{1}{2}$ and spin 1 particles.
+
 \subsubsection{Building Lagrangians}
+
+Analyzing the symmetries of the SO(3) rotation group revealed the SU(2) group, the 2x2 Pauli matrices, and the complex 2x1 spinors. Analyzing the symmetries of the Lorentz group revealed the $(\frac{1}{2}, 0)$ left-chiral spinors, the $(0, \frac{1}{2})$ right chiral spinors, and the four vectors encoded in the $(\frac{1}{2}, \frac{1}{2})$ representation. Just as tensors are the outer products of four vectors, four vectors are the outer products of spinors. Now, these pieces are put together to form relativistically invariant Lagrangians.  
+
 \subsection{Perturbation Theory}
 \subsection{Feynman Rules}
 
