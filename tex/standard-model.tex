@@ -687,13 +687,42 @@ The Poincare group is the Lorentz Group plus translations. Physics experiments s
 
 Consider a group with certain generators. When the operators of the group are represented a certain way, say as some NxN matrices there is a likelihood that there are some invariant subspaces. As an example, a representation of a group may act on a 5 dimensional space spanned by vectors $e_1, e_2, e_3, e_4, e_5$ the group may always transform vectors in the $e_1, e_2, e_3$ subspace into one another, and those in $e_4, e_5$ into one another, but never mix up $e_1, e_2, e_3$ with $e_4, e_5$. In this example the 5x5 operators could be decomposed into a 3x3 operator acting only on the $e_1, e_2, e_3$ subspace and a 2x2 operator acting only on the $e_4, e_5$ subspace. Each 5x5 member of the group could be written as a block diagonal matrix with a 3x3 block and a 2x2 block. The same goes for the generators. Since these subspaces retain their identity under the transformations of the group\footnote{This assumes that the 3x3 and 2x2 pieces have no invariant subspaces besides themselves and 0.}, they may be considered different particles. The question is whether there are labels for the subspaces.  
 
-Labels in physics need to be measurable, and by the current understanding of quantum mechanics these must be eigenvalues of Hermitian operators. The operators that label these subspaces are called the Casimir operators and must be built from the generators of the group. The operators should give the same values for $e_1, e_2, and e_3$ since they transform into one another and represent the same particle, which implies that the Casimir labeling operator must be proportional to the identity in that subspace. The same goes for the operator in the $e_4, e_5$ subspace. The Casimir operator for SU(2) is the $J^2$ operator which labels the spin of the particle. The Poincare group has two Casimir operators coresponding to two labels the mass, m, and the spin, j. Looking at the irreducible representations\footnote{This is the group theory term for the block diagonal pieces and the corresponding invariant subspaces. The irreducible representations, irreps, are those that can't be broken down in terms of smaller invariant subspaces and smaller block diagonal matrices. An arbitrary representation of the group is built from these irreps.} of the Poincare group, the mass and spin arise naturally as labels for the invariant qualities of particles. 
+Labels in physics need to be measurable, and by the current understanding of quantum mechanics these must be eigenvalues of Hermitian operators. The operators that label these subspaces are called the Casimir operators and must be built from the generators of the group. The operators should give the same values for $e_1, e_2, and e_3$ since they transform into one another and represent the same particle, which implies that the Casimir labeling operator must be proportional to the identity in that subspace. The same goes for the operator in the $e_4, e_5$ subspace. The Casimir operator for SU(2) is the $J^2$ operator which labels the spin of the particle. The Poincare group has two Casimir operators coresponding to two labels the mass, m, and the spin, j. Looking at the irreducible representations\footnote{This is the group theory term for the block diagonal pieces and the corresponding invariant subspaces. The irreducible representations, irreps, are those that can't be broken down in terms of smaller invariant subspaces and smaller block diagonal matrices. An arbitrary representation of the group is built from these irreps.} of the Poincare group, the mass and spin arise naturally as labels for particles. 
 
 %Now the 5x5 group can be analyzed in terms of its separate 3x3 and 2x2 pieces. In group theory lingo these pieces are called the irreducible representations. This is the difference between a spin $\frac{3}{2}$ group and a group consisting of separate spin $\frac{1}{2}$ and spin 1 particles.
 
-\subsubsection{Building Lagrangians}
+\subsubsection{Building Lagrangians for Free Particles}
 
-Analyzing the symmetries of the SO(3) rotation group revealed the SU(2) group, the 2x2 Pauli matrices, and the complex 2x1 spinors. Analyzing the symmetries of the Lorentz group revealed the $(\frac{1}{2}, 0)$ left-chiral spinors, the $(0, \frac{1}{2})$ right chiral spinors, and the four vectors encoded in the $(\frac{1}{2}, \frac{1}{2})$ representation. Just as tensors are the outer products of four vectors, four vectors are the outer products of spinors. Now, these pieces are put together to form relativistically invariant Lagrangians.  
+Analyzing the symmetries of the SO(3) rotation group revealed the SU(2) group, the 2x2 Pauli matrices, and the complex 2x1 spinors. Analyzing the symmetries of the Lorentz group revealed the $(\frac{1}{2}, 0)$ left-chiral spinors, the $(0, \frac{1}{2})$ right chiral spinors, and the four vectors encoded in the $(\frac{1}{2}, \frac{1}{2})$ representation. Just as tensors are the outer products of four vectors, four vectors are the outer products of spinors. Now, these pieces are put together to form relativistically invariant Lagrangians for free particles.  
+
+The $(0,0)$ representation of the Lorentz group is a scalar, which means that it remains the same under Lorentz transformations. This representation is used for spin 0 particles. The equations of motion must relate the change in the scalar field $\Phi$ at one moment in space and time to the value of $\Phi$ at the next moment in space and time, so the Lagrangian must include both the field itself and the four vector derivative, $\partial_\mu$. Note that both Newton's equations of motion, $F=m\ddot{x}$, and the Schrodinger equation for the free particle, $i\partial_t\psi = \frac{1}{2m}(-i\partial_x)(-i\partial_x)\psi$\footnote{Here the one dimensional case is presented for simplicity} have at most second order derivatives. The same holds for Maxwell's equations of electromagnetism. Hence, as an assumption, the derivative term in the Lagrangian will be the lowest order possible. As a Lorentz invariant scalar, any power of $\Phi$ can be included, but $\partial_\mu$ must be paired with a $\partial^\mu$ to form the invariant four vector product. Cross terms between these invariant pieces are also invariant, but lead to feedback between the derivatives and the value of the function. This means that the derivatives $i\partial_t = E$ and $-i\partial_i = P_i$ will change over time, but E and P should remain constant for a free particle. The cross terms are thrown out to prevent this. The terms of $\Phi$ of order different than $\Phi^2$ or higher are also thrown out for this reason.  
+
+\begin{equation}
+S = \int d^4x \left(c_0 + c_1 \Phi^2  
++ c_2 \partial_\mu\Phi\partial^\mu\Phi + c_3 \partial_\mu \partial^\mu \Phi\right)
+\end{equation}
+
+Note that the $c_3$ term is a total derivative and by the divergence theorem depends only on the values at the boundary, which are fixed. This implies that the contribution to the action from the $c_3$ term is the same regardless of how $\Phi$ changes in the volume. The Euler-Lagrange equations depend only on the variation in the volume, so this term cannot contribute to $\delta S$ and $c_4$ may be set to zero. The $c_0$ term is also constant and does not affect $\delta S$, so it may be set to zero as well. 
+
+\begin{equation}
+S = \int d^4x \left(c_1 \Phi^2 + c_2 \partial_\mu\Phi\partial^\mu\Phi\right)
+\end{equation}
+
+Finding the values where $\delta S = 0$ amounts to applying the Euler-Lagrange equations $\partial_\mu \frac{\partial L}{\partial\left(\partial_\mu\Phi\right)} = \frac{\partial L}{\partial \Phi}$. These yield 
+
+\begin{equation}
+\begin{split}
+&2c_2\partial_\mu\partial^\mu\Phi = -2c_1\Phi \\ 
+&\rightarrow (-E^2 + P^2)\Phi = \frac{c_1}{c_2}\Phi = -m^2\Phi \\
+&\rightarrow \frac{c_1}{c_2} = -m^2 \\
+\end{split}
+\end{equation}
+
+In order to get the correct dispersion relation for a relativistic particle, $c_1$ is set to $\frac{-1}{2}m^2$ and $c_2$ is set to $\frac{1}{2}$. Notice that including any $\Phi^n$ with n!=2 in the Lagrangian would have contributed to the differential equation via $\frac{\partial L}{\partial \Phi}$ and that E, P wouldn't be constant. Thus the equation wouldn't work for a free particle. The resulting equation of motion for the scalar particle, $\partial_\mu\partial^\mu\Phi = m^2\Phi$, is called the Klein-Gordon equation, and provides the correct description for spin 0 particles. This was all derived using symmetry, a reasonable assumption about the order of the derviatives, and the fact that the Energy shouldn't change over time for a free particle. The final Lagrangian for the scalar particle is 
+
+\begin{equation}
+S = \int d^4x \frac{1}{2}\left(\partial_\mu\Phi\partial^\mu\Phi - m^2 \Phi^2 \right).
+\end{equation}
 
 \subsection{Perturbation Theory}
 \subsection{Feynman Rules}
