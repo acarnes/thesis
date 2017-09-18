@@ -724,6 +724,149 @@ In order to get the correct dispersion relation for a relativistic particle, $c_
 S = \int d^4x \frac{1}{2}\left(\partial_\mu\Phi\partial^\mu\Phi - m^2 \Phi^2 \right).
 \end{equation}
 
+In order to build the action for free spin $\frac{1}{2}$ matter particles the $\mathcal{L}$ and $\mathcal{R}$ spinors of the $(\frac{1}{2}, 0)$ and $(0, \frac{1}{2})$ representations are combined with $\partial_\mu$ in a Lorentz invariant way. The transformation for the left-chiral spinor is 
+
+\begin{equation}
+\Lambda^{(L)} = e^{\frac{i}{2}\theta_i \sigma_i + \frac{1}{2}\phi_i \sigma_i}
+\end{equation},
+
+and the transformation for the right-chiral spinor is,
+
+\begin{equation}
+\Lambda^{(R)} = e^{\frac{i}{2}\theta_i \sigma_i - \frac{1}{2}\phi_i \sigma_i}
+\end{equation}.
+
+Taking the Hermitian conjugate of the left-chiral transformation gives,
+
+\begin{equation}
+(\Lambda^{(L)})^\dagger = e^{-\frac{i}{2}\theta_i \sigma_i^\dagger + \frac{1}{2}\phi_i \sigma_i^\dagger} 
+= e^{-\frac{i}{2}\theta_i \sigma_i + \frac{1}{2}\phi_i \sigma_i}
+\end{equation}.
+
+This reveals that $(\Lambda^{(L)})^\dagger$ is the inverse of $\Lambda^{(R)}$. Similarly, $(\Lambda^{(R)})^\dagger$ is the inverse of $\Lambda^{(L)}$. Thus, $\mathcal{L}^\dagger\mathcal{R}$ and $\mathcal{R}^\dagger\mathcal{L}$ are Lorentz invariants, which can be seen below,
+
+\begin{equation}
+(\mathcal{L}^\dagger\mathcal{R})' = \mathcal{L}^\dagger (\Lambda^{(L)})^\dagger \Lambda^{(R)} \mathcal{R} 
+= \mathcal{L}^\dagger (\Lambda^{(R)})^{-1} \Lambda^{(R)} \mathcal{R} = \mathcal{L}^\dagger \mathcal{R}  
+\end{equation}
+
+\begin{equation}
+(\mathcal{R}^\dagger\mathcal{L})' = \mathcal{R}^\dagger (\Lambda^{(R)})^\dagger \Lambda^{(L)} \mathcal{L} 
+= \mathcal{R}^\dagger (\Lambda^{(L)})^{-1} \Lambda^{(L)} \mathcal{L} = \mathcal{R}^\dagger \mathcal{L}. 
+\end{equation}
+
+These are the lowest order invariant pieces involving the field alone. The derivative $\partial_\mu$ is a four vector. In order to couple the derivative to the field the $\mathcal{L}$ and $\mathcal{R}$ spinors must attach to $\partial_mu$ in an invariant way. Recall that a four vector may be expressed as an outer product of left and right pieces, 
+
+\begin{equation}
+\alpha_{L\bar{R}} = \mathcal{L}' \bar{\mathcal{R}}'^{T}.
+\end{equation}
+
+The following also works, 
+
+\begin{equation}
+\alpha_{R\bar{L}} = \mathcal{R}' \bar{\mathcal{L}}'^{T}.
+\end{equation}
+
+Recall that the bar transformation sent $\sigma_i$ to $-\sigma_i*$. So the transformations for the barred transposed spinors are,
+
+\begin{equation}
+(\Lambda^{(\bar{L})})^T = e^{\frac{i}{2}\theta_i(-\sigma_i*)^T + \frac{1}{2}\phi_i (-\sigma_i*)^T} 
+= e^{-\frac{i}{2}\theta_i \sigma_i^\dagger - \frac{1}{2}\phi_i \sigma_i^\dagger} = e^{-\frac{i}{2}\theta_i \sigma_i - \frac{1}{2}\phi_i \sigma_i}
+\end{equation}
+
+and
+
+\begin{equation}
+(\Lambda^{(\bar{R})})^T = e^{\frac{i}{2}\theta_i(-\sigma_i*)^T - \frac{1}{2}\phi_i (-\sigma_i*)^T} 
+= e^{-\frac{i}{2}\theta_i \sigma_i^\dagger + \frac{1}{2}\phi_i \sigma_i^\dagger} = e^{-\frac{i}{2}\theta_i \sigma_i + \frac{1}{2}\phi_i \sigma_i}.
+\end{equation}
+
+The equations above show that the $(\Lambda^{(\bar{L})})^T$ transformation is the inverse of $\Lambda^{(L)}$, and that the $(\Lambda^{(\bar{R})})^T$ transformation is the inverse of $\Lambda^{(R)}$. So the invariant pieces coupling the spinor to the four vector are,
+
+\begin{equation}
+\mathcal{R}^\dagger \alpha_{L\bar{R}} \mathcal{R} = \mathcal{R}^\dagger \mathcal{L}' \bar{\mathcal{R}}'^{T} \mathcal{R}
+\end{equation}
+
+and
+
+\begin{equation}
+\mathcal{L}^\dagger \alpha_{R\bar{L}} \mathcal{L} = \mathcal{L}^\dagger \mathcal{R}' \bar{\mathcal{L}}'^{T} \mathcal{L}.
+\end{equation}
+
+The two types of four vectors have slightly different transformations
+
+\begin{equation}
+\alpha_{L\bar{R}}^{'} = e^{\frac{i}{2}\theta_i \sigma_i + \frac{1}{2}\phi_i \sigma_i} 
+\alpha_{L\bar{R}} e^{-\frac{i}{2}\theta_i \sigma_i + \frac{1}{2}\phi_i \sigma_i}
+\end{equation}
+
+\begin{equation}
+\alpha_{R\bar{L}}^{'} = e^{\frac{i}{2}\theta_i \sigma_i - \frac{1}{2}\phi_i \sigma_i} 
+\alpha_{R\bar{L}} e^{-\frac{i}{2}\theta_i \sigma_i - \frac{1}{2}\phi_i \sigma_i}.
+\end{equation}
+
+Both transform with positive $\theta$ under rotations. The boosts are a different story. The $L\bar{R}$ four vector transforms with positive $\phi$ while the $R\bar{L}$ four vector transforms with negative $\phi$. Behaving the same way under rotations implies that the x,y,z components mix up the same way in both types of four vector. In this respect, rotating x,y,z or -x,-y,-z are both valid. Exemplifying this, an infinitesimal rotation around z by $d\theta_z$ gives 
+
+\begin{equation}
+\begin{split}
+&x' = x - yd\theta_z \\
+&y' = y + xd\theta_z
+\end{split}
+\end{equation}
+
+for positive x,y,z and 
+
+\begin{equation}
+\begin{split}
+&-x' = -x - (-y)d\theta_z \\
+&-y' = -y' + (-x)d\theta_z
+\end{split}
+\end{equation}
+
+for -x,-y,-z. These transformations are equivalent. The opposite sign under boosts naively implies that the x,y,z terms mix up with t in the opposite way. However, if both $L\bar{R}$ and $R\bar{L}$ represent a four vector, then the boost must yield the same transformation on t,x,y,z. Therefore, to get from $L\bar{R}$ to $R\bar{L}$ take t,x,y,z to t,-x,-y,-z. To illuminate this, an infinitesimal boost along x by $d\phi_x$ gives 
+
+\begin{equation}
+\begin{split}
+&t' = t + xd\phi_x \\
+&x' = x + td\phi_x 
+\end{split}
+\end{equation}
+
+for $L\bar{R}$ and 
+
+\begin{equation}
+\begin{split}
+t' &= t + (-x)(-d\phi_x) \\ 
+-x' &= -x + t(-d\phi_x)  
+\end{split}
+\end{equation}
+
+for $R\bar{L}$. Therefore a $R\bar{L}$ rank 2 spinor encodes a four vector in the same way as a $L\bar{R}$ rank 2 spinor, except that x,y,z goes to -x,-y,-z. Writing the representations out in terms of t,x,y,z yields
+  
+\begin{equation}
+\begin{split}
+&\alpha_{L\bar{R}} = \alpha_0 \sigma_0 + \alpha_1 \sigma_1 + \alpha_2 \sigma_2 + \alpha_3 \sigma_3 \\
+&\alpha_{L\bar{R}} = 
+\begin{pmatrix}
+\alpha_0 + \alpha_3 & \alpha_1 - i\alpha_2 \\
+\alpha_1 + i\alpha_2 & \alpha_0 - \alpha_3 \\
+\end{pmatrix}
+\end{split}
+\end{equation}
+
+and
+
+\begin{equation}
+\begin{split}
+&\alpha_{R\bar{L}} = \alpha_0 \sigma_0 - \alpha_1 \sigma_1 - \alpha_2 \sigma_2 - \alpha_3 \sigma_3 \\
+&\alpha_{R\bar{L}} = 
+\begin{pmatrix}
+\alpha_0 - \alpha_3 & \alpha_1 + i\alpha_2 \\
+\alpha_1 - i\alpha_2 & \alpha_0 + \alpha_3 \\
+\end{pmatrix}.
+\end{split}
+\end{equation}
+
 \subsection{Perturbation Theory}
 \subsection{Feynman Rules}
 
