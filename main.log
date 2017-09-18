@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2017.8.22)  18 SEP 2017 17:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2017.8.22)  18 SEP 2017 19:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1026,138 +1026,149 @@ el does not describe this force
 Package natbib Warning: Citation `tdr' on page 24 undefined on input line 15.
 
 [24 <./images/Standard_Model_of_Elementary_Particles.png>] [25] [26] [27]
-[28] [29] [30] [31] [32]
-Underfull \hbox (badness 10000) in paragraph at lines 266--266
+[28] [29] [30] [31] [32] [33]
+Underfull \hbox (badness 10000) in paragraph at lines 272--272
 [][]\OT1/cmss/m/n/12 The Lie Bracket defines the multiplication for a Lie Algeb
 ra and this reduces to the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 266--266
+Underfull \hbox (badness 10000) in paragraph at lines 272--272
 \OT1/cmss/m/n/12 commutator for Lie groups of matrices like SO(3). Notice that 
 using the commutator below
  []
 
 
-Overfull \hbox (1.80127pt too wide) in paragraph at lines 271--272
+Overfull \hbox (1.80127pt too wide) in paragraph at lines 277--278
 []\OT1/cmss/m/n/12 Finding 3x3 generators that obey the algebra and then repeat
 edly applying the infinitesimal 
  []
 
-[33]
-Overfull \hbox (2.55142pt too wide) in paragraph at lines 306--307
+[34]
+Overfull \hbox (2.55142pt too wide) in paragraph at lines 312--313
 \OT1/cmss/m/n/12 defined by the mathematical equation below, where the $\OT1/cm
 br/m/n/12 ^^C$ \OT1/cmss/m/n/12 matrices represent the rotation/boost 
  []
 
-[34] [35] [36] [37] [38]
-Overfull \hbox (5.96277pt too wide) in paragraph at lines 530--531
+[35] [36] [37] [38] [39]
+Overfull \hbox (5.96277pt too wide) in paragraph at lines 536--537
 []\OT1/cmss/m/n/12 Last but not least, rank 2 spinors are given by the $\OT1/cm
 br/m/n/12 ([], [])$ \OT1/cmss/m/n/12 representation. This representation 
  []
 
-[39]
-Underfull \hbox (badness 10000) in paragraph at lines 575--575
+[40]
+Underfull \hbox (badness 10000) in paragraph at lines 581--581
 [][]\OT1/cmss/m/n/12 A spinor has 2 complex components yielding 4 parameters. T
 wo constraints reduce the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 575--575
+Underfull \hbox (badness 10000) in paragraph at lines 581--581
 \OT1/cmss/m/n/12 number of free parameters to 2. One constraint requires a magn
 itude of 1, and the other
  []
 
-[40] [41]
-Underfull \hbox (badness 10000) in paragraph at lines 688--688
+[41] [42]
+Underfull \hbox (badness 10000) in paragraph at lines 694--694
 [][]\OT1/cmss/m/n/12 This assumes that the 3x3 and 2x2 pieces have no invariant
  subspaces besides themselves
  []
 
-[42]
-Underfull \hbox (badness 10000) in paragraph at lines 690--690
+
+Underfull \hbox (badness 10000) in paragraph at lines 696--696
 [][]\OT1/cmss/m/n/12 This is the group theory term for the block diagonal piece
 s and the corresponding invariant
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 690--690
+Underfull \hbox (badness 10000) in paragraph at lines 696--696
 \OT1/cmss/m/n/12 subspaces. The irreducible representations, irreps, are those 
 that can't be broken down in terms
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 690--690
+Underfull \hbox (badness 10000) in paragraph at lines 696--696
 \OT1/cmss/m/n/12 of smaller invariant subspaces and smaller block diagonal matr
 ices. An arbitrary representation
  []
 
 [43] [44] [45] [46] [47] [48]
-<images/ggf.png, id=572, 356.33125pt x 229.85875pt>
+<images/ggf.png, id=571, 356.33125pt x 229.85875pt>
 File: images/ggf.png Graphic file (type png)
  <use images/ggf.png>
-Package pdftex.def Info: images/ggf.png used on input line 875.
+Package pdftex.def Info: images/ggf.png used on input line 881.
 (pdftex.def)             Requested size: 108.405pt x 69.92618pt.
-
-[49 <./images/ggf.png>]
-<images/14TeV_higgs_cross_sections.png, id=580, 569.0058pt x 409.0482pt>
-File: images/14TeV_higgs_cross_sections.png Graphic file (type png)
-
-<use images/14TeV_higgs_cross_sections.png>
-Package pdftex.def Info: images/14TeV_higgs_cross_sections.png used on input li
-ne 892.
-(pdftex.def)             Requested size: 361.34999pt x 259.76768pt.
-
-
-Package natbib Warning: Citation `crossbranchplots' on page 50 undefined on inp
-ut line 894.
-
-<images/Higgs_BR.png, id=581, 569.12625pt x 546.04pt>
-File: images/Higgs_BR.png Graphic file (type png)
-
-<use images/Higgs_BR.png>
-Package pdftex.def Info: images/Higgs_BR.png used on input line 904.
-(pdftex.def)             Requested size: 216.81pt x 208.01393pt.
-
-
-Package natbib Warning: Citation `crossbranchplots' on page 50 undefined on inp
-ut line 921.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+[49] <images/14TeV_higgs_cross_sections.png, id=581, 569.0058pt x 409.0482pt>
+File: images/14TeV_higgs_cross_sections.png Graphic file (type png)
 
-Underfull \hbox (badness 10000) in paragraph at lines 925--925
+<use images/14TeV_higgs_cross_sections.png>
+Package pdftex.def Info: images/14TeV_higgs_cross_sections.png used on input li
+ne 898.
+(pdftex.def)             Requested size: 361.34999pt x 259.76768pt.
+
+
+Package natbib Warning: Citation `crossbranchplots' on page 50 undefined on inp
+ut line 900.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<images/Higgs_BR.png, id=582, 569.12625pt x 546.04pt>
+File: images/Higgs_BR.png Graphic file (type png)
+
+<use images/Higgs_BR.png>
+Package pdftex.def Info: images/Higgs_BR.png used on input line 910.
+(pdftex.def)             Requested size: 216.81pt x 208.01393pt.
+
+
+Package natbib Warning: Citation `crossbranchplots' on page 50 undefined on inp
+ut line 927.
+
+[50 <./images/ggf.png>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 931--931
 [][]\OT1/cmss/m/n/12 The Higgs also couples to the electron and the first gener
 ation quarks but the masses are
  []
 
-<images/higgs_production_modes.png, id=583, 559.8516pt x 414.348pt>
+<images/higgs_production_modes.png, id=588, 559.8516pt x 414.348pt>
 File: images/higgs_production_modes.png Graphic file (type png)
 
 <use images/higgs_production_modes.png>
 Package pdftex.def Info: images/higgs_production_modes.png used on input line 9
-28.
+34.
 (pdftex.def)             Requested size: 289.07999pt x 213.95113pt.
- [50 <./images/14TeV_higgs_cross_sections.png (PNG copy)>]
+
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 Package natbib Warning: Citation `crossbranchplots' on page 51 undefined on inp
-ut line 934.
+ut line 940.
 
-[51 <./images/Higgs_BR.png>]
-<images/qg_scattering.png, id=594, 314.17375pt x 215.80624pt>
+[51 <./images/14TeV_higgs_cross_sections.png (PNG copy)>]
+
+LaTeX Warning: Text page 52 contains only floats.
+
+[52 <./images/Higgs_BR.png> <./images/higgs_production_modes.png>]
+<images/qg_scattering.png, id=599, 314.17375pt x 215.80624pt>
 File: images/qg_scattering.png Graphic file (type png)
 
 <use images/qg_scattering.png>
-Package pdftex.def Info: images/qg_scattering.png used on input line 940.
+Package pdftex.def Info: images/qg_scattering.png used on input line 946.
 (pdftex.def)             Requested size: 144.54pt x 99.28195pt.
-) [52 <./images/higgs_production_modes.png> <./images/qg_scattering.png>]
+) [53 <./images/qg_scattering.png>]
 \openout2 = `tex/chapter4.aux'.
 
- (./tex/chapter4.tex
+
+(./tex/chapter4.tex
 ***************************
 CHAPTER 4.
 ***************************
@@ -1184,15 +1195,15 @@ LaTeX Font Warning: Font shape `OT1/cmss/bx/it' undefined
 LaTeX Font Warning: Font shape `OT1/cmss/m/sc' in size <12> not available
 (Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 12.
 
-[53
+[54
 
 
 
-] [54] [55]
+] [55] [56]
 
-LaTeX Warning: Reference `first' on page 56 undefined on input line 123.
+LaTeX Warning: Reference `first' on page 57 undefined on input line 123.
 
-[56]) [57]
+[57]) [58]
 \openout2 = `tex/chapter5.aux'.
 
  (./tex/chapter5.tex
@@ -1203,7 +1214,7 @@ CHAPTER 5.
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\uppercase' on input line 1.
 
-) [58
+) [59
 
 
 
@@ -1218,7 +1229,7 @@ APPENDIX A.
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\uppercase' on input line 4.
 
-) (./tex/appendixB.tex [59
+) (./tex/appendixB.tex [60
 
 
 
@@ -1230,7 +1241,7 @@ APPENDIX B.
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\uppercase' on input line 1.
 
-[60
+[61
 
 ]
 Package epstopdf Info: Source file: <images/LaTeX2e_logo.eps>
@@ -1244,18 +1255,18 @@ nverted-to.pdf images/LaTeX2e_logo.eps>
 (epstopdf)             \includegraphics on input line 10.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/LaTeX2e_logo-eps-converted-to.pdf, id=639, 701.62125pt x 214.8025pt>
+<images/LaTeX2e_logo-eps-converted-to.pdf, id=645, 701.62125pt x 214.8025pt>
 File: images/LaTeX2e_logo-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/LaTeX2e_logo-eps-converted-to.pdf>
 Package pdftex.def Info: images/LaTeX2e_logo-eps-converted-to.pdf used on input
  line 10.
 (pdftex.def)             Requested size: 433.62pt x 132.75664pt.
- [61 <./images/LaTeX2e_logo-eps-converted-to.pdf>] [62
+ [62 <./images/LaTeX2e_logo-eps-converted-to.pdf>] [63
 
 
 
-]) (./tex/appendixC.tex [63]
+]) (./tex/appendixC.tex [64]
 ***************************
 APPENDIX C.
 ***************************
@@ -1275,13 +1286,13 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 1.
 
-[64
+[65
 
-] [65] [66]
+] [66] [67]
 
-LaTeX Warning: Reference `first' on page 67 undefined on input line 111.
+LaTeX Warning: Reference `first' on page 68 undefined on input line 111.
 
-) (./tex/appendixD.tex [67]
+) (./tex/appendixD.tex [68]
 ***************************
 APPENDIX D.
 ***************************
@@ -1301,16 +1312,16 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 1.
 
-[68
+[69
 
-] [69] [70])) [71] (./main.bbl [72
+] [70] [71])) [72] (./main.bbl [73
 
 
 
 ])
 \openout2 = `bio.aux'.
 
- (./bio.tex [73
+ (./bio.tex [74
 
 
 
@@ -1342,13 +1353,13 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 194.
  ) 
 Here is how much of TeX's memory you used:
- 8896 strings out of 494954
- 127803 string characters out of 6181003
+ 8897 strings out of 494954
+ 127810 string characters out of 6181003
  224260 words of memory out of 5000000
  11677 multiletter control sequences out of 15000+600000
  12181 words of font info for 48 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 39i,22n,42p,1669b,481s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 39i,22n,42p,1635b,481s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/share
@@ -1364,11 +1375,12 @@ x10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.p
 fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi12.pfb></
 usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on main.pdf (73 pages, 2273967 bytes).
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on main.pdf (74 pages, 2277782 bytes).
 PDF statistics:
- 815 PDF objects out of 1000 (max. 8388607)
- 697 compressed objects within 7 object streams
- 231 named destinations out of 1000 (max. 500000)
+ 824 PDF objects out of 1000 (max. 8388607)
+ 703 compressed objects within 8 object streams
+ 232 named destinations out of 1000 (max. 500000)
  412 words of extra memory for PDF output out of 10000 (max. 10000000)
 
