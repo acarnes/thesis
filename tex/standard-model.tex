@@ -10,13 +10,13 @@ The Standard Model (SM) of particle physics is an incredibly successful theory t
   \label{fig:smtable}
 \end{figure}
 
-The universe would be pretty boring if the particles couldn't interact to form more complex objects like atoms, molecules, and even people. Luckily the different forces exist as well, and these forces are described by the spin 1 bosons. The fermions attract and repel by exchanging bosons, which is why the bosons are often called force carriers. Gluons mediate the strong force, photons the electromagnetic force, and the W and Z bosons mediate the weak force. Every force has an associated charge. Just as those particles with electric charge can interact through the electromagnetic force, those with color charge may interact via the strong force, and those with isospin may interact through the weak force. The fundamental forces and particles interact to make the familiar composite objects that surround us in our daily lives. The strong force binds quarks to form protons and neutrons, and even binds the protons and neutrons together to form nuclei, and the electromagnetic force binds electrons and nuclei to form atoms. The size of the composite objects gives an idea of the relative strength of the forces. A proton is ~$10^-15$ meters in size while an atom is ~$10^-10$ meters and a solar system is ~$10^12$ meters. The more tightly bound the stronger the force. In fact the ratio of the strength of the forces is like so 1:$10^-3$:$10^-16$:$10^-41$, strong : electromagnetic : weak :gravitational \footnote{Gravity is just included for perspective. The Standard Model does not describe this force and reconciling gravity with quantum mechanics is an open problem.}. 
+The universe would be pretty boring if the particles couldn't interact to form more complex objects like atoms, molecules, and even people. Luckily the different forces exist as well, and these forces are described by the spin 1 bosons. The fermions attract and repel by exchanging bosons, which is why the bosons are often called force carriers. Gluons mediate the strong force, photons the electromagnetic force, and the W and Z bosons mediate the weak force. Every force has an associated charge. Just as those particles with electric charge can interact through the electromagnetic force, those with color charge may interact via the strong force, and those with isospin may interact through the weak force. The fundamental forces and particles interact to make the familiar composite objects that surround us in our daily lives. The strong force binds quarks to form protons and neutrons, and even binds the protons and neutrons together to form nuclei, and the electromagnetic force binds electrons and nuclei to form atoms. The size of the composite objects gives an idea of the relative strength of the forces. A proton is ~$10^{-15}$ meters in size while an atom is ~$10^{-10}$ meters and a solar system is ~$10^{12}$ meters. The more tightly bound the stronger the force. In fact the ratio of the strength of the forces is like so 1:$10^{-3}$:$10^{-16}$:$10^{-41}$, strong : electromagnetic : weak :gravitational \footnote{Gravity is just included for perspective. The Standard Model does not describe this force and reconciling gravity with quantum mechanics is an open problem.}. 
 
 Of all the particles predicted by the SM, only the Higgs boson remains to be found. The Higgs is the only spin 0 particle of the SM. It is theorized that as the universe cooled from the Big Bang the Higgs field went through a phase transition and settled into a nonzero ground state forming a condensate. And it is the potential energy from the interactions with this nonzero ground state that give the massive fundamental particles their mass. With such a large role in the SM, finding this particle or a BSM Higgs has been a huge priority for the CMS collaboration \cite{tdr}. In 2012 a Higgs particle with a mass of 125 GeV was found and to date remains consistent with the Standard Model. However, the properties need to be investigated further before declaring the discovered Higgs the Higgs of the Standard Model. 
 
 In order to lay out the Standard Model in mathematical terms, a bunch of background information needs to be covered, and since the Standard Model is described by Quantum Field Theory (QFT), the mathematical formulation of QFT will be covered first. After developing the necessary mathematical formalism, the Standard Model and the Higgs mechanism will be derived and explained. Afterwards the experimental search for Higgs to dimuons will be described.
 
-In this dissertation $\hbar$ and the speed of light, c, are set to 1. Moreover, both 0,1,2,3 and t,x,y,z are used to label the components of a four vector. When relevant 0 represents time and 1,2,3 represent x,y,z respectively. Einstein summation notation is used where repeated indices are summed over, so $x_ix_i y_jy_j$ is equivalent to $\sum_i\sum_j x_ix_i y_jy_j$. Repeated Greek indices assume sums over all four space and time indices, while repeated Roman indices assume sums over only the spatial components. 
+In this dissertation $\hbar$ and the speed of light, c, are set to 1. Moreover, 0,1,2,3 and t,x,y,z are used interchangibly to label the components of a four vector. When relevant 0 represents time and 1,2,3 represent x,y,z respectively. Einstein summation notation is used where repeated indices are summed over, so $x_ix_i y_jy_j$ is equivalent to $\sum_i\sum_j x_ix_i y_jy_j$. Repeated Greek indices assume sums over all four space and time components, while repeated Roman indices assume sums over only the spatial components. 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -546,17 +546,17 @@ In order to transform $\alpha$, both $\mathcal{L}$ and $\mathcal{R}$ must be tra
  = e^{\frac{i}{2}\theta_i \sigma_i + \frac{1}{2}\phi_i \sigma_i} \mathcal{L} \mathcal{R}^T e^{\frac{i}{2}\theta_i \sigma_i^T - \frac{1}{2}\phi_i \sigma_i^T} 
 \end{equation}
 
-However it would be nice if the transformation term on the right side was the Hermitian conjugate of the transformation on the left side. This would be the case if $\sigma_i^T$ was $-\sigma_i^{\dagger} = -(\sigma_i^{*})^{T}$, and this requires a transformation that turns $\sigma$ into $-\sigma^{*}$. So $\mathcal{R}$ is rearranged such that $\mathcal{R} \rightarrow \bar{\mathcal{R}} = t\mathcal{R}$ where $t\sigma_i t^{-1} = -\sigma_i^{*}$. The matrix $t = \left( \begin{smallmatrix} 0 & -1 \\ 1 & 0 \\ \end{smallmatrix} \right)$ satisfies the requirements. This change of basis for $\mathcal{R}$ redefines $\alpha$,
+However it would be nice if the transformation term on the right side was the Hermitian conjugate of the transformation on the left side. This would be the case if $\sigma_i^T$ was $-\sigma_i^{\dagger} = -(\sigma_i^{*})^{T}$, and this requires a transformation that turns $\sigma$ into $-\sigma^{*}$. So $\mathcal{R}$ is rearranged such that $\mathcal{R} \rightarrow \tilde{\mathcal{R}} = t\mathcal{R}$ where $t\sigma_i t^{-1} = -\sigma_i^{*}$. The matrix $t = \left( \begin{smallmatrix} 0 & -1 \\ 1 & 0 \\ \end{smallmatrix} \right)$ satisfies the requirements. This change of basis for $\mathcal{R}$ redefines $\alpha$,
 
 \begin{equation}
-\alpha = \mathcal{L}\bar{\mathcal{R}}^T.
+\alpha = \mathcal{L}\tilde{\mathcal{R}}^T.
 \end{equation}
 
 Defined in this manner, the $(\frac{1}{2}, \frac{1}{2})$ representation now transforms like so,
 
 \begin{equation}
 \alpha^{'} = e^{\frac{i}{2}\theta_i \sigma_i + \frac{1}{2}\phi_i \sigma_i} 
-\mathcal{L}\bar{\mathcal{R}}^T e^{-\frac{i}{2}\theta_i \sigma_i^\dagger + \frac{1}{2}\phi_i \sigma_i^\dagger}.
+\mathcal{L}\tilde{\mathcal{R}}^T e^{-\frac{i}{2}\theta_i \sigma_i^\dagger + \frac{1}{2}\phi_i \sigma_i^\dagger}.
 \end{equation}
 
 Considering the fact that $\sigma_i^\dagger = \sigma_i$, the transformation reduces further,
@@ -701,20 +701,20 @@ Labels in physics need to be measurable, and by the current understanding of qua
 
 Analyzing the symmetries of the SO(3) rotation group revealed the SU(2) group, the 2x2 Pauli matrices, and the complex 2x1 spinors. Analyzing the symmetries of the Lorentz group revealed the $(\frac{1}{2}, 0)$ left-chiral spinors, the $(0, \frac{1}{2})$ right chiral spinors, and the four vectors encoded in the $(\frac{1}{2}, \frac{1}{2})$ representation. Just as tensors are the outer products of four vectors, four vectors are the outer products of spinors. Now, these pieces are put together to form relativistically invariant Lagrangians for free particles.  
 
-The $(0,0)$ representation of the Lorentz group is a scalar, which means that it remains the same under Lorentz transformations. This representation is used for spin 0 particles. The equations of motion must relate the change in the scalar field $\Phi$ at one moment in space and time to the value of $\Phi$ at the next moment in space and time, so the Lagrangian must include both the field itself and the four vector derivative, $\partial_\mu$. Note that both Newton's equations of motion, $F=m\ddot{x}$, and the Schrodinger equation for the free particle, $i\partial_t\psi = \frac{1}{2m}(-i\partial_x)(-i\partial_x)\psi$\footnote{Here the one dimensional case is presented for simplicity} have at most second order derivatives. The same holds for Maxwell's equations of electromagnetism. Hence, as an assumption, the derivative term in the Lagrangian will be the lowest order possible. As a Lorentz invariant scalar, any power of $\Phi$ can be included, but $\partial_\mu$ must be paired with a $\partial^\mu$ to form the invariant four vector product. Cross terms between these invariant pieces are also invariant, but lead to feedback between the derivatives and the value of the function. This means that the derivatives $i\partial_t = E$ and $-i\partial_i = P_i$ will change over time, but E and P should remain constant for a free particle. The cross terms are thrown out to prevent this. The terms of $\Phi$ of order different than $\Phi^2$ or higher are also thrown out for this reason.  
+The $(0,0)$ representation of the Lorentz group is a scalar, which means that it remains the same under Lorentz transformations. This representation is used for spin 0 particles. The equations of motion must relate the change in the scalar field $\Phi$ at one moment in space and time to the value of $\Phi$ at the next moment in space and time, so the Lagrangian must include both the field itself and the four vector derivative, $\partial_\mu$. Note that both Newton's equations of motion, $F=m\ddot{x}$, and the Schrodinger equation for the free particle, $i\partial_t\psi = \frac{1}{2m}(-i\partial_x)(-i\partial_x)\psi$\footnote{Here the one dimensional case is presented for simplicity} have at most second order derivatives. The same holds for Maxwell's equations of electromagnetism. Hence, as an assumption, the derivative term in the Lagrangian will be the lowest order possible. As a Lorentz invariant scalar, any power of $\Phi$ can be included. On the other hand, $\partial_\mu$ is a four vector, and must be paired with a $\partial^\mu$ to form the invariant four vector product. Cross terms between these invariant pieces are also invariant, but lead to feedback between the derivatives and the value of the function. This means that the derivatives $i\partial_t = E$ and $-i\partial_i = P_i$ will change over time, but E and P should remain constant for a free particle. The cross terms are thrown out to prevent this. The $\Phi$ terms with an order different than $\Phi^2$ are also thrown out for this reason. All of these choices lead to the following action, 
 
 \begin{equation}
 S = \int d^4x \left(c_0 + c_1 \Phi^2  
-+ c_2 \partial_\mu\Phi\partial^\mu\Phi + c_3 \partial_\mu \partial^\mu \Phi\right)
++ c_2 \partial_\mu\Phi\partial^\mu\Phi + c_3 \partial_\mu \partial^\mu \Phi\right).
 \end{equation}
 
-Note that the $c_3$ term is a total derivative and by the divergence theorem depends only on the values at the boundary, which are fixed. This implies that the contribution to the action from the $c_3$ term is the same regardless of how $\Phi$ changes in the volume. The Euler-Lagrange equations depend only on the variation in the volume, so this term cannot contribute to $\delta S$ and $c_4$ may be set to zero. The $c_0$ term is also constant and does not affect $\delta S$, so it may be set to zero as well. 
+Note that the $c_3$ term is a total derivative and by the divergence theorem depends only on the values at the boundary, which are fixed. This implies that the contribution to the action from the $c_3$ term is the same regardless of how $\Phi$ changes in the volume. Because the Euler-Lagrange equations depend only on the variation in the volume, this term cannot contribute to $\delta S$ and $c_3$ may be set to zero. The $c_0$ term is a more obvious constant and does not affect $\delta S$ either, so it may be set to zero as well. 
 
 \begin{equation}
 S = \int d^4x \left(c_1 \Phi^2 + c_2 \partial_\mu\Phi\partial^\mu\Phi\right)
 \end{equation}
 
-Finding the values where $\delta S = 0$ amounts to applying the Euler-Lagrange equations $\partial_\mu \frac{\partial L}{\partial\left(\partial_\mu\Phi\right)} = \frac{\partial L}{\partial \Phi}$. These yield 
+Finding $\Phi$ such that $\delta S = 0$ amounts to applying the Euler-Lagrange equations $\partial_\mu \frac{\partial L}{\partial\left(\partial_\mu\Phi\right)} = \frac{\partial L}{\partial \Phi}$. These yield 
 
 \begin{equation}
 \begin{split}
@@ -730,7 +730,7 @@ In order to get the correct dispersion relation for a relativistic particle, $c_
 S = \int d^4x \frac{1}{2}\left(\partial_\mu\Phi\partial^\mu\Phi - m^2 \Phi^2 \right).
 \end{equation}
 
-In order to build the action for free spin $\frac{1}{2}$ matter particles the $\mathcal{L}$ and $\mathcal{R}$ spinors of the $(\frac{1}{2}, 0)$ and $(0, \frac{1}{2})$ representations are combined with $\partial_\mu$ in a Lorentz invariant way. The transformation for the left-chiral spinor is 
+In order to build the action for free spin $\frac{1}{2}$ matter particles the $\mathcal{L}$ and $\mathcal{R}$ spinors of the $(\frac{1}{2}, 0)$ and $(0, \frac{1}{2})$ representations and the four vector, $\partial_\mu$, must be combined in a Lorentz invariant way. The transformations of $\mathcal{L}$, $\mathcal{R}$, and $\partial_\mu$ are now analyzed in an attempt to find invariant combinations. The transformation for the left-chiral spinor is 
 
 \begin{equation}
 \Lambda^{(L)} = e^{\frac{i}{2}\theta_i \sigma_i + \frac{1}{2}\phi_i \sigma_i}
@@ -761,57 +761,57 @@ This reveals that $(\Lambda^{(L)})^\dagger$ is the inverse of $\Lambda^{(R)}$. S
 = \mathcal{R}^\dagger (\Lambda^{(L)})^{-1} \Lambda^{(L)} \mathcal{L} = \mathcal{R}^\dagger \mathcal{L}. 
 \end{equation}
 
-These are the lowest order invariant pieces involving the field alone. The derivative $\partial_\mu$ is a four vector. In order to couple the derivative to the field the $\mathcal{L}$ and $\mathcal{R}$ spinors must attach to $\partial_mu$ in an invariant way. Recall that a four vector may be expressed as an outer product of left and right pieces, 
+These are the lowest order invariant pieces involving the field alone. The derivative $\partial_\mu$ is a four vector. In order to couple the derivative to the field the $\mathcal{L}$ and $\mathcal{R}$ spinors must attach to $\partial_\mu$ in an invariant way. Recall that a four vector may be expressed as an outer product of left and right pieces, 
 
 \begin{equation}
-\alpha_{L\bar{R}} = \mathcal{L}' \bar{\mathcal{R}}'^{T}.
+\alpha_{L\tilde{R}} = \mathcal{L}' \tilde{\mathcal{R}}'^{T}.
 \end{equation}
 
 The following also works, 
 
 \begin{equation}
-\alpha_{R\bar{L}} = \mathcal{R}' \bar{\mathcal{L}}'^{T}.
+\alpha_{R\tilde{L}} = \mathcal{R}' \tilde{\mathcal{L}}'^{T}.
 \end{equation}
 
-Recall that the bar transformation sent $\sigma_i$ to $-\sigma_i*$. So the transformations for the barred transposed spinors are,
+Recall that the $\sim$ transformation sent $\sigma_i$ to $-\sigma_i*$. So the transformations for the $\sim$ transposed spinors are,
 
 \begin{equation}
-(\Lambda^{(\bar{L})})^T = e^{\frac{i}{2}\theta_i(-\sigma_i*)^T + \frac{1}{2}\phi_i (-\sigma_i*)^T} 
+(\Lambda^{(\tilde{L})})^T = e^{\frac{i}{2}\theta_i(-\sigma_i*)^T + \frac{1}{2}\phi_i (-\sigma_i*)^T} 
 = e^{-\frac{i}{2}\theta_i \sigma_i^\dagger - \frac{1}{2}\phi_i \sigma_i^\dagger} = e^{-\frac{i}{2}\theta_i \sigma_i - \frac{1}{2}\phi_i \sigma_i}
 \end{equation}
 
 and
 
 \begin{equation}
-(\Lambda^{(\bar{R})})^T = e^{\frac{i}{2}\theta_i(-\sigma_i*)^T - \frac{1}{2}\phi_i (-\sigma_i*)^T} 
+(\Lambda^{(\tilde{R})})^T = e^{\frac{i}{2}\theta_i(-\sigma_i*)^T - \frac{1}{2}\phi_i (-\sigma_i*)^T} 
 = e^{-\frac{i}{2}\theta_i \sigma_i^\dagger + \frac{1}{2}\phi_i \sigma_i^\dagger} = e^{-\frac{i}{2}\theta_i \sigma_i + \frac{1}{2}\phi_i \sigma_i}.
 \end{equation}
 
-The equations above show that the $(\Lambda^{(\bar{L})})^T$ transformation is the inverse of $\Lambda^{(L)}$, and that the $(\Lambda^{(\bar{R})})^T$ transformation is the inverse of $\Lambda^{(R)}$. So the invariant pieces coupling the spinor to the four vector are,
+The equations above show that the $(\Lambda^{(\tilde{L})})^T$ transformation is the inverse of $\Lambda^{(L)}$, and that the $(\Lambda^{(\tilde{R})})^T$ transformation is the inverse of $\Lambda^{(R)}$. So the invariant pieces coupling the spinor to the four vector are,
 
 \begin{equation}
-\mathcal{R}^\dagger \alpha_{L\bar{R}} \mathcal{R} = \mathcal{R}^\dagger \mathcal{L}' \bar{\mathcal{R}}'^{T} \mathcal{R}
+\mathcal{R}^\dagger \alpha_{L\tilde{R}} \mathcal{R} = \mathcal{R}^\dagger \mathcal{L}' \tilde{\mathcal{R}}'^{T} \mathcal{R}
 \end{equation}
 
 and
 
 \begin{equation}
-\mathcal{L}^\dagger \alpha_{R\bar{L}} \mathcal{L} = \mathcal{L}^\dagger \mathcal{R}' \bar{\mathcal{L}}'^{T} \mathcal{L}.
+\mathcal{L}^\dagger \alpha_{R\tilde{L}} \mathcal{L} = \mathcal{L}^\dagger \mathcal{R}' \tilde{\mathcal{L}}'^{T} \mathcal{L}.
 \end{equation}
 
 The two types of four vectors have slightly different transformations
 
 \begin{equation}
-\alpha_{L\bar{R}}^{'} = e^{\frac{i}{2}\theta_i \sigma_i + \frac{1}{2}\phi_i \sigma_i} 
-\alpha_{L\bar{R}} e^{-\frac{i}{2}\theta_i \sigma_i + \frac{1}{2}\phi_i \sigma_i}
+\alpha_{L\tilde{R}}^{'} = e^{\frac{i}{2}\theta_i \sigma_i + \frac{1}{2}\phi_i \sigma_i} 
+\alpha_{L\tilde{R}} e^{-\frac{i}{2}\theta_i \sigma_i + \frac{1}{2}\phi_i \sigma_i}
 \end{equation}
 
 \begin{equation}
-\alpha_{R\bar{L}}^{'} = e^{\frac{i}{2}\theta_i \sigma_i - \frac{1}{2}\phi_i \sigma_i} 
-\alpha_{R\bar{L}} e^{-\frac{i}{2}\theta_i \sigma_i - \frac{1}{2}\phi_i \sigma_i}.
+\alpha_{R\tilde{L}}^{'} = e^{\frac{i}{2}\theta_i \sigma_i - \frac{1}{2}\phi_i \sigma_i} 
+\alpha_{R\tilde{L}} e^{-\frac{i}{2}\theta_i \sigma_i - \frac{1}{2}\phi_i \sigma_i}.
 \end{equation}
 
-Both transform with positive $\theta$ under rotations. The boosts are a different story. The $L\bar{R}$ four vector transforms with positive $\phi$ while the $R\bar{L}$ four vector transforms with negative $\phi$. Behaving the same way under rotations implies that the x,y,z components mix up the same way in both types of four vector. In this respect, rotating x,y,z or -x,-y,-z are both valid. Exemplifying this, an infinitesimal rotation around z by $d\theta_z$ gives 
+Both transform with positive $\theta$ under rotations, but the boosts are a different story. The $L\tilde{R}$ four vector transforms with positive $\phi$ while the $R\tilde{L}$ four vector transforms with negative $\phi$. Behaving the same way under rotations implies that the x,y,z components mix up the same way in both types of four vector. In this respect, rotating x,y,z or -x,-y,-z are both valid. Exemplifying this, an infinitesimal rotation around z by $d\theta_z$ gives 
 
 \begin{equation}
 \begin{split}
@@ -829,7 +829,7 @@ for positive x,y,z and
 \end{split}
 \end{equation}
 
-for -x,-y,-z. These transformations are equivalent. Moving onto boosts, the opposite $\phi$ sign naively implies that the x,y,z terms mix up with t in the opposite way. However, if both $L\bar{R}$ and $R\bar{L}$ represent a four vector, then the boost must yield the same transformation on the components. Therefore, to get from $L\bar{R}$ to $R\bar{L}$ take t,x,y,z to t,-x,-y,-z. Illuminating this, an infinitesimal boost along x by $d\phi_x$ gives 
+for -x,-y,-z. These transformations are equivalent. Moving onto boosts, the opposite $\phi$ sign naively implies that the x,y,z terms mix up with t in the opposite way. However, if both $L\tilde{R}$ and $R\tilde{L}$ represent a four vector, then the boost must yield the same transformation on the components. Therefore, to get from $L\tilde{R}$ to $R\tilde{L}$ take t,x,y,z to t,-x,-y,-z. Illuminating this, an infinitesimal boost along x by $d\phi_x$ gives 
 
 \begin{equation}
 \begin{split}
@@ -838,7 +838,7 @@ for -x,-y,-z. These transformations are equivalent. Moving onto boosts, the oppo
 \end{split}
 \end{equation}
 
-for the $L\bar{R}$ representation and 
+for the $L\tilde{R}$ representation and 
 
 \begin{equation}
 \begin{split}
@@ -847,12 +847,13 @@ t' &= t + (-x)(-d\phi_x) \\
 \end{split}
 \end{equation}
 
-for $R\bar{L}$. Therefore a $R\bar{L}$ rank 2 spinor encodes a four vector in the same way as a $L\bar{R}$ rank 2 spinor, except that the spatial components are coded into the rank 2 spinor with the opposite sign. Writing the representations out in terms of the four vector components yields
+for $R\tilde{L}$. The negative $\phi$ and the negative spatial components counteract to transform the four vector correctly. The $R\tilde{L}$ rank 2 spinor encodes a four vector in the same way as a $L\tilde{R}$ rank 2 spinor, except that the spatial components are coded into the rank 2 spinor with the opposite sign. Writing the representations out in terms of the four vector components yields
   
 \begin{equation}
 \begin{split}
-&\alpha_{L\bar{R}} = \alpha_0 \sigma_0 + \alpha_1 \sigma_1 + \alpha_2 \sigma_2 + \alpha_3 \sigma_3 \\
-&\alpha_{L\bar{R}} = 
+&\alpha_{L\tilde{R}} = \alpha_0 \sigma_0 + \alpha_1 \sigma_1 + \alpha_2 \sigma_2 + \alpha_3 \sigma_3 \\
+&\alpha_{L\tilde{R}} = \alpha_\mu \sigma^\mu \\
+&\alpha_{L\tilde{R}} = 
 \begin{pmatrix}
 \alpha_0 + \alpha_3 & \alpha_1 - i\alpha_2 \\
 \alpha_1 + i\alpha_2 & \alpha_0 - \alpha_3 \\
@@ -864,14 +865,60 @@ and
 
 \begin{equation}
 \begin{split}
-&\alpha_{R\bar{L}} = \alpha_0 \sigma_0 - \alpha_1 \sigma_1 - \alpha_2 \sigma_2 - \alpha_3 \sigma_3 \\
-&\alpha_{R\bar{L}} = 
+&\alpha_{R\tilde{L}} = \alpha_0 \sigma_0 - \alpha_1 \sigma_1 - \alpha_2 \sigma_2 - \alpha_3 \sigma_3 \\
+&\alpha_{R\tilde{L}} = \alpha_\mu \bar{\sigma}^\mu \\
+&\alpha_{R\tilde{L}} = 
 \begin{pmatrix}
 \alpha_0 - \alpha_3 & \alpha_1 + i\alpha_2 \\
 \alpha_1 - i\alpha_2 & \alpha_0 + \alpha_3 \\
 \end{pmatrix}.
 \end{split}
 \end{equation}
+
+The action for the spin $\frac{1}{2}$ particle is built from the lowest order invariant combinations of the spinors themselves and the lowest order invariant term coupling $\partial_\mu$ to the spinors. These ingredients are $\mathcal{L}^\dagger\mathcal{R}$, $\mathcal{R}^\dagger\mathcal{L}$, $\mathcal{R}^\dagger\sigma^\mu i\partial_\mu\mathcal{R}$, and $\mathcal{L}^\dagger\bar{\sigma}^\mu i\partial_\mu\mathcal{L}$. In the scalar particle case m coupled the field to itself as potential energy \footnote{The mass term had a negative sign in the Lagrangian.} with the same power as $\partial_\mu$ \footnote{E, P, and m must have the same power to get $E^2 = m^2 + P^2$ right, and $E \sim \partial_0$, $P_i \sim \partial_i$ so m must have the same power as $\partial_\mu$.}. Following that example and throwing an i into the derivative terms\footnote{This gives the $P_\mu$ operator which equals $i\partial_\mu$.} to make the operator Hermitian gives the following Lagrangian,  
+
+\begin{equation}
+S = \int d^4x \left( \mathcal{R}^\dagger\sigma^\mu i\partial_\mu\mathcal{R} + i\mathcal{L}^\dagger\bar{\sigma}^\mu i\partial_\mu\mathcal{L} 
+- m\mathcal{L}^\dagger\mathcal{R} - m\mathcal{R}^\dagger\mathcal{L} \right).
+\end{equation} 
+
+The Euler-Lagrange equations reveal how the fields change over time,
+
+\begin{equation}
+\begin{split}
+& \sigma^\mu i\partial_\mu\mathcal{R} = m\mathcal{L} \\
+& \bar{\sigma}^\mu i\partial_\mu\mathcal{L} = m\mathcal{R}. \\
+& \sigma^\mu i\partial_\mu\mathcal{R}^\dagger = -m\mathcal{L}^\dagger \\
+& \bar{\sigma}^\mu i\partial_\mu\mathcal{L}^\dagger = -m\mathcal{R}^\dagger. \\
+\end{split}
+\end{equation}
+
+Notice that the mass term couples the left and right chiral spinors. At rest, P=0 and the equations reduce to $i\partial_0\mathcal{R} = m\mathcal{L}$ and $i\partial_0\mathcal{L} = m\mathcal{R}$ showing that $\partial^2_0 \mathcal{R} = -m^2\mathcal{R}$ and $\partial^2_0 \mathcal{L} = -m^2\mathcal{L}$. The mass is actually a frequency determining how quickly a particle oscillates between its right-chiral and left-chiral states. 
+
+Defining
+
+\begin{equation}
+\gamma^\mu =
+\begin{pmatrix}
+0 & \sigma^\mu \\
+\bar{\sigma}^\mu & 0 \\
+\end{pmatrix}
+\text{, } 
+\psi =
+\begin{pmatrix}
+\mathcal{L} \\
+\mathcal{R} \\
+\end{pmatrix}
+\text{, and } 
+\bar{\psi} =
+\psi^\dagger \gamma_0 \text{, }
+\end{equation}
+
+the action for the spin $\frac{1}{2}$ particle can be rewritten into its more compact, canonical form,
+
+\begin{equation}
+S = \int d^4x \text{ } \bar{\psi} \left(i\gamma^\mu\partial_\mu - m\right)\psi.
+\end{equation} 
 
 \subsection{Perturbation Theory}
 \subsection{Feynman Rules}
@@ -912,12 +959,12 @@ The SM Higgs is unstable and decays with a width of $\sim 5 MeV$ at 125 GeV. The
     \hline
     \multicolumn{2}{|c|}{Higgs Branching Ratios} \\
     \hline
-    ${\rm b\bar{b}}$ & 0.57 \\
+    ${\rm b\tilde{b}}$ & 0.57 \\
     WW & 0.22\\
     gg & 0.085 \\
     ${\rm \tau\tau}$ & 0.065 \\
     ZZ & 0.027 \\
-    ${\rm c\bar{c}}$ & 0.027 \\
+    ${\rm c\tilde{c}}$ & 0.027 \\
     ${\rm \gamma\gamma}$ & 0.0023 \\
     ${\rm Z}\gamma$ & 0.0016 \\
     ${\rm \mu^{+}\mu^{-}}$ & 0.00022 \\
@@ -933,11 +980,11 @@ The muon has the lowest mass -- excluding the photon and gluon -- of the particl
   \centering
   \includegraphics[width=4in]{images/higgs_production_modes.png}
   \caption
-   {The SM production modes with the highest cross sections. a) Gluon Gluon Fusion (GF) b) Vector Boson Fusion (VBF) c) Associated Production with a Vector Boson (VH) d) ${\rm t\bar{t}}$H}
+   {The SM production modes with the highest cross sections. a) Gluon Gluon Fusion (GF) b) Vector Boson Fusion (VBF) c) Associated Production with a Vector Boson (VH) d) ${\rm t\tilde{t}}$H}
   \label{fig:hfeynprod}
 \end{figure}
 
-The Higgs to massless vector boson coupling via the top loop is seen in the GF Feynman diagram in Figure ~\ref{fig:hfeynprod}. At ${\rm M_{h} = 125}$ GeV, ${\rm \sqrt{s} =}$ 13 TeV, the GF channel comprises 87\% of the total Higgs production cross section, VBF 7\%, VH 4\%, and ${\rm t\bar{t}}$H 1\% \cite{crossbranchplots}. Besides ${\rm t\bar{t}}$H, the process q + $\bar{q} \rightarrow$ H isn't considered due to its low cross section. The low masses of the other quarks suppress the process. 
+The Higgs to massless vector boson coupling via the top loop is seen in the GF Feynman diagram in Figure ~\ref{fig:hfeynprod}. At ${\rm M_{h} = 125}$ GeV, ${\rm \sqrt{s} =}$ 13 TeV, the GF channel comprises 87\% of the total Higgs production cross section, VBF 7\%, VH 4\%, and ${\rm t\tilde{t}}$H 1\% \cite{crossbranchplots}. Besides ${\rm t\tilde{t}}$H, the process q + $\tilde{q} \rightarrow$ H isn't considered due to its low cross section. The low masses of the other quarks suppress the process. 
 
 Quark gluon (qg) scattering is a major background for the Higgs to two jets decays since the process closely resembles GF in this mode.   
 

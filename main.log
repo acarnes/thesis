@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2017.8.22)  18 SEP 2017 19:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2017.8.22)  19 SEP 2017 14:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1092,83 +1092,74 @@ Underfull \hbox (badness 10000) in paragraph at lines 696--696
 ices. An arbitrary representation
  []
 
-[43] [44] [45] [46] [47] [48]
-<images/ggf.png, id=571, 356.33125pt x 229.85875pt>
+[43] [44] [45] [46] [47] [48] [49] [50]
+<images/ggf.png, id=586, 356.33125pt x 229.85875pt>
 File: images/ggf.png Graphic file (type png)
  <use images/ggf.png>
-Package pdftex.def Info: images/ggf.png used on input line 881.
+Package pdftex.def Info: images/ggf.png used on input line 928.
 (pdftex.def)             Requested size: 108.405pt x 69.92618pt.
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[49] <images/14TeV_higgs_cross_sections.png, id=581, 569.0058pt x 409.0482pt>
+<images/14TeV_higgs_cross_sections.png, id=587, 569.0058pt x 409.0482pt>
 File: images/14TeV_higgs_cross_sections.png Graphic file (type png)
 
 <use images/14TeV_higgs_cross_sections.png>
 Package pdftex.def Info: images/14TeV_higgs_cross_sections.png used on input li
-ne 898.
+ne 945.
 (pdftex.def)             Requested size: 361.34999pt x 259.76768pt.
 
 
-Package natbib Warning: Citation `crossbranchplots' on page 50 undefined on inp
-ut line 900.
+Package natbib Warning: Citation `crossbranchplots' on page 51 undefined on inp
+ut line 947.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/Higgs_BR.png, id=582, 569.12625pt x 546.04pt>
+[51 <./images/ggf.png>] <images/Higgs_BR.png, id=594, 569.12625pt x 546.04pt>
 File: images/Higgs_BR.png Graphic file (type png)
 
 <use images/Higgs_BR.png>
-Package pdftex.def Info: images/Higgs_BR.png used on input line 910.
+Package pdftex.def Info: images/Higgs_BR.png used on input line 957.
 (pdftex.def)             Requested size: 216.81pt x 208.01393pt.
 
 
-Package natbib Warning: Citation `crossbranchplots' on page 50 undefined on inp
-ut line 927.
+Package natbib Warning: Citation `crossbranchplots' on page 52 undefined on inp
+ut line 974.
 
-[50 <./images/ggf.png>]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 931--931
+Underfull \hbox (badness 10000) in paragraph at lines 978--978
 [][]\OT1/cmss/m/n/12 The Higgs also couples to the electron and the first gener
 ation quarks but the masses are
  []
 
-<images/higgs_production_modes.png, id=588, 559.8516pt x 414.348pt>
+<images/higgs_production_modes.png, id=596, 559.8516pt x 414.348pt>
 File: images/higgs_production_modes.png Graphic file (type png)
 
 <use images/higgs_production_modes.png>
 Package pdftex.def Info: images/higgs_production_modes.png used on input line 9
-34.
+81.
 (pdftex.def)             Requested size: 289.07999pt x 213.95113pt.
-
+ [52 <./images/14TeV_higgs_cross_sections.png (PNG copy)>]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Package natbib Warning: Citation `crossbranchplots' on page 51 undefined on inp
-ut line 940.
+Package natbib Warning: Citation `crossbranchplots' on page 53 undefined on inp
+ut line 987.
 
-[51 <./images/14TeV_higgs_cross_sections.png (PNG copy)>]
-
-LaTeX Warning: Text page 52 contains only floats.
-
-[52 <./images/Higgs_BR.png> <./images/higgs_production_modes.png>]
-<images/qg_scattering.png, id=599, 314.17375pt x 215.80624pt>
+[53 <./images/Higgs_BR.png>]
+<images/qg_scattering.png, id=607, 314.17375pt x 215.80624pt>
 File: images/qg_scattering.png Graphic file (type png)
 
 <use images/qg_scattering.png>
-Package pdftex.def Info: images/qg_scattering.png used on input line 946.
+Package pdftex.def Info: images/qg_scattering.png used on input line 993.
 (pdftex.def)             Requested size: 144.54pt x 99.28195pt.
-) [53 <./images/qg_scattering.png>]
+) [54 <./images/higgs_production_modes.png> <./images/qg_scattering.png>]
 \openout2 = `tex/chapter4.aux'.
 
-
-(./tex/chapter4.tex
+ (./tex/chapter4.tex
 ***************************
 CHAPTER 4.
 ***************************
@@ -1195,15 +1186,15 @@ LaTeX Font Warning: Font shape `OT1/cmss/bx/it' undefined
 LaTeX Font Warning: Font shape `OT1/cmss/m/sc' in size <12> not available
 (Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 12.
 
-[54
+[55
 
 
 
-] [55] [56]
+] [56] [57]
 
-LaTeX Warning: Reference `first' on page 57 undefined on input line 123.
+LaTeX Warning: Reference `first' on page 58 undefined on input line 123.
 
-[57]) [58]
+[58]) [59]
 \openout2 = `tex/chapter5.aux'.
 
  (./tex/chapter5.tex
@@ -1214,7 +1205,7 @@ CHAPTER 5.
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\uppercase' on input line 1.
 
-) [59
+) [60
 
 
 
@@ -1229,7 +1220,7 @@ APPENDIX A.
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\uppercase' on input line 4.
 
-) (./tex/appendixB.tex [60
+) (./tex/appendixB.tex [61
 
 
 
@@ -1241,7 +1232,7 @@ APPENDIX B.
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\uppercase' on input line 1.
 
-[61
+[62
 
 ]
 Package epstopdf Info: Source file: <images/LaTeX2e_logo.eps>
@@ -1255,18 +1246,18 @@ nverted-to.pdf images/LaTeX2e_logo.eps>
 (epstopdf)             \includegraphics on input line 10.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/LaTeX2e_logo-eps-converted-to.pdf, id=645, 701.62125pt x 214.8025pt>
+<images/LaTeX2e_logo-eps-converted-to.pdf, id=653, 701.62125pt x 214.8025pt>
 File: images/LaTeX2e_logo-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/LaTeX2e_logo-eps-converted-to.pdf>
 Package pdftex.def Info: images/LaTeX2e_logo-eps-converted-to.pdf used on input
  line 10.
 (pdftex.def)             Requested size: 433.62pt x 132.75664pt.
- [62 <./images/LaTeX2e_logo-eps-converted-to.pdf>] [63
+ [63 <./images/LaTeX2e_logo-eps-converted-to.pdf>] [64
 
 
 
-]) (./tex/appendixC.tex [64]
+]) (./tex/appendixC.tex [65]
 ***************************
 APPENDIX C.
 ***************************
@@ -1286,13 +1277,13 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 1.
 
-[65
+[66
 
-] [66] [67]
+] [67] [68]
 
-LaTeX Warning: Reference `first' on page 68 undefined on input line 111.
+LaTeX Warning: Reference `first' on page 69 undefined on input line 111.
 
-) (./tex/appendixD.tex [68]
+) (./tex/appendixD.tex [69]
 ***************************
 APPENDIX D.
 ***************************
@@ -1312,16 +1303,16 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 1.
 
-[69
+[70
 
-] [70] [71])) [72] (./main.bbl [73
+] [71] [72])) [73] (./main.bbl [74
 
 
 
 ])
 \openout2 = `bio.aux'.
 
- (./bio.tex [74
+ (./bio.tex [75
 
 
 
@@ -1353,13 +1344,13 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 194.
  ) 
 Here is how much of TeX's memory you used:
- 8897 strings out of 494954
- 127810 string characters out of 6181003
+ 8902 strings out of 494954
+ 127877 string characters out of 6181003
  224260 words of memory out of 5000000
  11677 multiletter control sequences out of 15000+600000
  12181 words of font info for 48 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 39i,22n,42p,1635b,481s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 39i,22n,42p,1647b,481s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/share
@@ -1377,10 +1368,10 @@ usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/tex
 live/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (74 pages, 2277782 bytes).
+Output written on main.pdf (75 pages, 2280842 bytes).
 PDF statistics:
- 824 PDF objects out of 1000 (max. 8388607)
- 703 compressed objects within 8 object streams
- 232 named destinations out of 1000 (max. 500000)
+ 833 PDF objects out of 1000 (max. 8388607)
+ 711 compressed objects within 8 object streams
+ 237 named destinations out of 1000 (max. 500000)
  412 words of extra memory for PDF output out of 10000 (max. 10000000)
 

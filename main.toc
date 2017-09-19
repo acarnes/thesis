@@ -24,20 +24,20 @@
 \contentsline {subsubsection}{\numberline {3.1.3.2}The Lorentz Group}{35}{subsubsection.3.1.3.2}
 \contentsline {subsubsection}{\numberline {3.1.3.3}The Poincare Group}{43}{subsubsection.3.1.3.3}
 \contentsline {subsubsection}{\numberline {3.1.3.4}Building Lagrangians for Free Particles}{44}{subsubsection.3.1.3.4}
-\contentsline {subsection}{\numberline {3.1.4}Perturbation Theory}{50}{subsection.3.1.4}
-\contentsline {subsection}{\numberline {3.1.5}Feynman Rules}{50}{subsection.3.1.5}
-\contentsline {section}{\numberline {3.2}The Standard Model Higgs}{50}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}SM Higgs Production and Decay Modes}{50}{subsection.3.2.1}
-\contentsline {chapter}{\numberline {4}\uppercase {RESULTS}}{54}{chapter.4}
-\contentsline {section}{\numberline {4.1}Fusce Eget Tempus Lectus, }{54}{section.4.1}
-\contentsline {chapter}{\numberline {5}\uppercase {SUMMARY AND CONCLUSIONS}}{59}{chapter.5}
-\contentsline {section}{\numberline {5.1}Non Porttitor Tellus}{59}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}Nam Arcu Magna}{59}{subsection.5.1.1}
-\contentsline {subsubsection}{\numberline {5.1.1.1}Ut pellentesque velit sede}{59}{subsubsection.5.1.1.1}
+\contentsline {subsection}{\numberline {3.1.4}Perturbation Theory}{51}{subsection.3.1.4}
+\contentsline {subsection}{\numberline {3.1.5}Feynman Rules}{51}{subsection.3.1.5}
+\contentsline {section}{\numberline {3.2}The Standard Model Higgs}{51}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}SM Higgs Production and Decay Modes}{51}{subsection.3.2.1}
+\contentsline {chapter}{\numberline {4}\uppercase {RESULTS}}{55}{chapter.4}
+\contentsline {section}{\numberline {4.1}Fusce Eget Tempus Lectus, }{55}{section.4.1}
+\contentsline {chapter}{\numberline {5}\uppercase {SUMMARY AND CONCLUSIONS}}{60}{chapter.5}
+\contentsline {section}{\numberline {5.1}Non Porttitor Tellus}{60}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Nam Arcu Magna}{60}{subsection.5.1.1}
+\contentsline {subsubsection}{\numberline {5.1.1.1}Ut pellentesque velit sede}{60}{subsubsection.5.1.1.1}
 \addvspace {10pt}\noindent {APPENDIX} \hfill {\@@par }
-\contentsline {chapter}{\numberline {A}\uppercase {THIS IS THE FIRST APPENDIX}}{60}{appendix.A}
-\contentsline {chapter}{\numberline {B}\uppercase {AN EXAMPLE OF A HALF TITLE PAGE}}{61}{appendix.B}
-\contentsline {chapter}{\numberline {C}\uppercase {DERIVATION OF THE $\Upsilon $ FUNCTION}}{65}{appendix.C}
-\contentsline {chapter}{\numberline {D}\uppercase {DERIVATION OF THE $\Upsilon $ FUNCTION}}{69}{appendix.D}
-\contentsline {extrachapter}{REFERENCES}{73}{appendix*.6}
-\contentsline {extrachapter}{BIOGRAPHICAL SKETCH}{74}{appendix*.7}
+\contentsline {chapter}{\numberline {A}\uppercase {THIS IS THE FIRST APPENDIX}}{61}{appendix.A}
+\contentsline {chapter}{\numberline {B}\uppercase {AN EXAMPLE OF A HALF TITLE PAGE}}{62}{appendix.B}
+\contentsline {chapter}{\numberline {C}\uppercase {DERIVATION OF THE $\Upsilon $ FUNCTION}}{66}{appendix.C}
+\contentsline {chapter}{\numberline {D}\uppercase {DERIVATION OF THE $\Upsilon $ FUNCTION}}{70}{appendix.D}
+\contentsline {extrachapter}{REFERENCES}{74}{appendix*.6}
+\contentsline {extrachapter}{BIOGRAPHICAL SKETCH}{75}{appendix*.7}
