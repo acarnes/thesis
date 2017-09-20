@@ -23,23 +23,23 @@
 \contentsline {subsubsection}{\numberline {3.1.3.1}Rotations}{31}{subsubsection.3.1.3.1}
 \contentsline {subsubsection}{\numberline {3.1.3.2}The Lorentz Group}{35}{subsubsection.3.1.3.2}
 \contentsline {subsubsection}{\numberline {3.1.3.3}The Poincare Group and Particle Labels}{43}{subsubsection.3.1.3.3}
-\contentsline {subsubsection}{\numberline {3.1.3.4}Building the Free Scalar Particle Lagrangian}{44}{subsubsection.3.1.3.4}
+\contentsline {subsubsection}{\numberline {3.1.3.4}Building the Lagrangian for a Free Scalar Particle}{44}{subsubsection.3.1.3.4}
 \contentsline {subsubsection}{\numberline {3.1.3.5}Building the Lagrangian for a Free Spin $\frac {1}{2}$ Particle}{46}{subsubsection.3.1.3.5}
 \contentsline {subsubsection}{\numberline {3.1.3.6}Building the Lagrangian for a Free Spin 1 Particle}{51}{subsubsection.3.1.3.6}
-\contentsline {subsection}{\numberline {3.1.4}Perturbation Theory}{51}{subsection.3.1.4}
-\contentsline {subsection}{\numberline {3.1.5}Feynman Rules}{51}{subsection.3.1.5}
-\contentsline {section}{\numberline {3.2}The Standard Model Higgs}{51}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}SM Higgs Production and Decay Modes}{51}{subsection.3.2.1}
-\contentsline {chapter}{\numberline {4}\uppercase {RESULTS}}{55}{chapter.4}
-\contentsline {section}{\numberline {4.1}Fusce Eget Tempus Lectus, }{55}{section.4.1}
-\contentsline {chapter}{\numberline {5}\uppercase {SUMMARY AND CONCLUSIONS}}{60}{chapter.5}
-\contentsline {section}{\numberline {5.1}Non Porttitor Tellus}{60}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}Nam Arcu Magna}{60}{subsection.5.1.1}
-\contentsline {subsubsection}{\numberline {5.1.1.1}Ut pellentesque velit sede}{60}{subsubsection.5.1.1.1}
+\contentsline {subsection}{\numberline {3.1.4}Perturbation Theory}{53}{subsection.3.1.4}
+\contentsline {subsection}{\numberline {3.1.5}Feynman Rules}{53}{subsection.3.1.5}
+\contentsline {section}{\numberline {3.2}The Standard Model Higgs}{53}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}SM Higgs Production and Decay Modes}{53}{subsection.3.2.1}
+\contentsline {chapter}{\numberline {4}\uppercase {RESULTS}}{57}{chapter.4}
+\contentsline {section}{\numberline {4.1}Fusce Eget Tempus Lectus, }{57}{section.4.1}
+\contentsline {chapter}{\numberline {5}\uppercase {SUMMARY AND CONCLUSIONS}}{62}{chapter.5}
+\contentsline {section}{\numberline {5.1}Non Porttitor Tellus}{62}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Nam Arcu Magna}{62}{subsection.5.1.1}
+\contentsline {subsubsection}{\numberline {5.1.1.1}Ut pellentesque velit sede}{62}{subsubsection.5.1.1.1}
 \addvspace {10pt}\noindent {APPENDIX} \hfill {\@@par }
-\contentsline {chapter}{\numberline {A}\uppercase {THIS IS THE FIRST APPENDIX}}{61}{appendix.A}
-\contentsline {chapter}{\numberline {B}\uppercase {AN EXAMPLE OF A HALF TITLE PAGE}}{62}{appendix.B}
-\contentsline {chapter}{\numberline {C}\uppercase {DERIVATION OF THE $\Upsilon $ FUNCTION}}{66}{appendix.C}
-\contentsline {chapter}{\numberline {D}\uppercase {DERIVATION OF THE $\Upsilon $ FUNCTION}}{70}{appendix.D}
-\contentsline {extrachapter}{REFERENCES}{74}{appendix*.6}
-\contentsline {extrachapter}{BIOGRAPHICAL SKETCH}{75}{appendix*.7}
+\contentsline {chapter}{\numberline {A}\uppercase {THIS IS THE FIRST APPENDIX}}{63}{appendix.A}
+\contentsline {chapter}{\numberline {B}\uppercase {AN EXAMPLE OF A HALF TITLE PAGE}}{64}{appendix.B}
+\contentsline {chapter}{\numberline {C}\uppercase {DERIVATION OF THE $\Upsilon $ FUNCTION}}{68}{appendix.C}
+\contentsline {chapter}{\numberline {D}\uppercase {DERIVATION OF THE $\Upsilon $ FUNCTION}}{72}{appendix.D}
+\contentsline {extrachapter}{REFERENCES}{76}{appendix*.6}
+\contentsline {extrachapter}{BIOGRAPHICAL SKETCH}{77}{appendix*.7}

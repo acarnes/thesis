@@ -697,11 +697,11 @@ Labels in physics need to be measurable, and by the current understanding of qua
 
 %Now the 5x5 group can be analyzed in terms of its separate 3x3 and 2x2 pieces. In group theory lingo these pieces are called the irreducible representations. This is the difference between a spin $\frac{3}{2}$ group and a group consisting of separate spin $\frac{1}{2}$ and spin 1 particles.
 
-\subsubsection{Building the Free Scalar Particle Lagrangian}
+\subsubsection{Building the Lagrangian for a Free Scalar Particle}
 
 Analyzing the symmetries of the SO(3) rotation group revealed the SU(2) group, the 2x2 complex Pauli matrices, and the complex 2x1 spinors. Analyzing the symmetries of the Lorentz group revealed the $(\frac{1}{2}, 0)$ left-chiral spinors, the $(0, \frac{1}{2})$ right chiral spinors, and the four vectors encoded in the $(\frac{1}{2}, \frac{1}{2})$ representation. Now, these pieces are put together to form relativistically invariant Lagrangians for free particles.  
 
-The $(0,0)$ representation of the Lorentz group is a scalar, which means that it remains the same under Lorentz transformations. This representation is used for spin 0 particles. The equations of motion must relate the change in the scalar field $\Phi$ at one moment in space and time to the value of $\Phi$ at the next moment in space and time, so the Lagrangian must include both the field itself and the four vector derivative, $\partial_\mu$. Note that both Newton's equations of motion, $F=m\ddot{x}$, and the Schrodinger equation for the free particle, $i\partial_t\psi = \frac{1}{2m}(-i\partial_x)(-i\partial_x)\psi$\footnote{Here the one dimensional case is presented for simplicity} have at most second order derivatives. The same holds for Maxwell's equations of electromagnetism. Hence, as an assumption, the derivative term in the Lagrangian will be the lowest order possible. As a Lorentz invariant scalar, any power of $\Phi$ can be included. On the other hand, $\partial_\mu$ is a four vector, and must be paired with a $\partial^\mu$ to form the invariant four vector product. Cross terms between these invariant pieces are also invariant, but lead to feedback between the derivatives and the value of the function. This means that the derivatives $i\partial_t = E$ and $-i\partial_i = P_i$ will change over time, but E and P should remain constant for a free particle. The cross terms are thrown out to prevent this. The $\Phi$ terms with an order different than $\Phi^2$ are also thrown out for this reason. All of these choices lead to the following action, 
+The $(0,0)$ representation of the Lorentz group is a scalar, which means that it remains the same under Lorentz transformations. This representation is used for spin 0 particles. The equations of motion must relate the change in the scalar field $\Phi$ at one moment in space and time to the value of $\Phi$ at the next moment in space and time, so the Lagrangian must include both the field itself and the four vector derivative, $\partial_\mu$. Note that both Newton's equations of motion, $F=m\ddot{x}$, and the Schrodinger equation for the free particle, $i\partial_t\psi = \frac{1}{2m}(-i\partial_x)(-i\partial_x)\psi$\footnote{Here the one dimensional case is presented for simplicity} have at most second order derivatives. The same holds for Maxwell's equations of electromagnetism. Hence, as an assumption, the derivative term in the Lagrangian will be the lowest order possible. As a Lorentz invariant scalar, any power of $\Phi$ can be included. On the other hand, $\partial_\mu$ is a four vector, and must be paired with a $\partial^\mu$ to form the invariant four vector product. Cross terms between these invariant pieces are also invariant, but lead to feedback between the derivatives and the value of the function. This means that the derivatives $i\partial_t = E$ and $-i\partial_i = P_i$ will change over time, but E and $\vec{P}$ should remain constant for a free particle. The cross terms are thrown out to prevent this. The $\Phi$ terms with an order different than $\Phi^2$ cause the same problem, and these are thrown out too. All of these choices lead to the following action, 
 
 \begin{equation}
 S = \int d^4x \left(c_0 + c_1 \Phi^2  
@@ -719,12 +719,12 @@ Finding $\Phi$ such that $\delta S = 0$ amounts to applying the Euler-Lagrange e
 \begin{equation}
 \begin{split}
 &2c_2\partial_\mu\partial^\mu\Phi = -2c_1\Phi \\ 
-&\rightarrow (-E^2 + P^2)\Phi = \frac{c_1}{c_2}\Phi = -m^2\Phi \\
+&\rightarrow (-E^2 + \vec{P}^2)\Phi = \frac{c_1}{c_2}\Phi = -m^2\Phi \\
 &\rightarrow \frac{c_1}{c_2} = -m^2 \\
 \end{split}
 \end{equation}
 
-In order to get the correct dispersion relation for a relativistic particle, $c_1$ is set to $\frac{-1}{2}m^2$ and $c_2$ is set to $\frac{1}{2}$. Notice that including any $\Phi^n$ with n!=2 in the Lagrangian would have contributed to the differential equation via $\frac{\partial L}{\partial \Phi}$ and that E, P wouldn't be constant. Thus the equation wouldn't work for a free particle. The resulting equation of motion for the scalar particle, $\partial_\mu\partial^\mu\Phi = m^2\Phi$, is called the Klein-Gordon equation, and provides the correct description for spin 0 particles. This was all derived using symmetry, a reasonable assumption about the order of the derviatives, and the fact that the Energy shouldn't change over time for a free particle. The final Lagrangian for the scalar particle is 
+In order to get the correct dispersion relation for a relativistic particle, $c_1$ is set to $\frac{-1}{2}m^2$ and $c_2$ is set to $\frac{1}{2}$. Notice that including any $\Phi^n$ with n$\neq$2 in the Lagrangian would have contributed to the differential equation via $\frac{\partial L}{\partial \Phi}$ and that E, $\vec{P}$ wouldn't be constant. Thus the equation wouldn't work for a free particle. The resulting equation of motion for the scalar particle, $\partial_\mu\partial^\mu\Phi = m^2\Phi$, is called the Klein-Gordon equation, and provides the correct description for spin 0 particles. This was all derived using symmetry, a reasonable assumption about the order of the derviatives, and the fact that the Energy shouldn't change over time for a free particle. The final Lagrangian for the scalar particle is 
 
 \begin{equation}
 S = \int d^4x \frac{1}{2}\left(\partial_\mu\Phi\partial^\mu\Phi - m^2 \Phi^2 \right).
@@ -763,7 +763,7 @@ This reveals that $(\Lambda^{(L)})^\dagger$ is the inverse of $\Lambda^{(R)}$. S
 = \mathcal{R}^\dagger (\Lambda^{(L)})^{-1} \Lambda^{(L)} \mathcal{L} = \mathcal{R}^\dagger \mathcal{L}. 
 \end{equation}
 
-These are the lowest order invariant pieces involving the field alone. The derivative $\partial_\mu$ is a four vector. In order to couple the derivative to the field the $\mathcal{L}$ and $\mathcal{R}$ spinors must attach to $\partial_\mu$ in an invariant way. Recall that a four vector may be expressed as an outer product of left and right pieces, 
+These are the lowest order invariant pieces involving the field alone. In order to couple the derivative to the field the $\mathcal{L}$ and $\mathcal{R}$ spinors must attach to $\partial_\mu$ in an invariant way. Recall that a four vector may be expressed as an outer product of left and right spinors, 
 
 \begin{equation}
 \alpha_{L\tilde{R}} = \mathcal{L}' \tilde{\mathcal{R}}'^{T}.
@@ -877,7 +877,7 @@ and
 \end{split}
 \end{equation}
 
-The action for the spin $\frac{1}{2}$ particle is built from the lowest order invariant combinations of the spinors themselves and the lowest order invariant term coupling $\partial_\mu$ to the spinors. These ingredients are $\mathcal{L}^\dagger\mathcal{R}$, $\mathcal{R}^\dagger\mathcal{L}$, $\mathcal{R}^\dagger\sigma^\mu i\partial_\mu\mathcal{R}$, and $\mathcal{L}^\dagger\bar{\sigma}^\mu i\partial_\mu\mathcal{L}$. In the scalar particle case m coupled the field to itself as potential energy \footnote{The mass term had a negative sign in the Lagrangian.} with the same power as $\partial_\mu$ \footnote{E, P, and m must have the same power to get $E^2 = m^2 + P^2$ right, and $E \sim \partial_0$, $P_i \sim \partial_i$ so m must have the same power as $\partial_\mu$.}. Following that example and throwing an i into the derivative terms\footnote{This gives the $P_\mu$ operator which equals $i\partial_\mu$.} to make the operator Hermitian gives the following Lagrangian,  
+The action for the spin $\frac{1}{2}$ particle is built from the lowest order invariant combinations of the spinors themselves and the lowest order invariant term coupling $\partial_\mu$ to the spinors. These ingredients are $\mathcal{L}^\dagger\mathcal{R}$, $\mathcal{R}^\dagger\mathcal{L}$, $\mathcal{R}^\dagger\sigma^\mu\partial_\mu\mathcal{R}$, and $\mathcal{L}^\dagger\bar{\sigma}^\mu\partial_\mu\mathcal{L}$. In the scalar particle case m coupled the field to itself as potential energy \footnote{The mass term had a negative sign in the Lagrangian.} with the same power as $\partial_\mu$ \footnote{E, P, and m must have the same power to get $E^2 = m^2 + \vec{P}^2$ right, and $E \sim \partial_0$, $P_i \sim \partial_i$ so m must have the same power as $\partial_\mu$.}. Following that example and throwing an i into the derivative terms\footnote{This gives the $P_\mu$ operator which equals $i\partial_\mu$.} to make them Hermitian gives the following Lagrangian,  
 
 \begin{equation}
 S = \int d^4x \left( \mathcal{R}^\dagger\sigma^\mu i\partial_\mu\mathcal{R} + i\mathcal{L}^\dagger\bar{\sigma}^\mu i\partial_\mu\mathcal{L} 
@@ -895,9 +895,28 @@ The Euler-Lagrange equations reveal how the fields change over time,
 \end{split}
 \end{equation}
 
-Notice that the mass term couples the left and right chiral spinors. At rest, P=0 and the equations reduce to $i\partial_0\mathcal{R} = m\mathcal{L}$ and $i\partial_0\mathcal{L} = m\mathcal{R}$ showing that $\partial^2_0 \mathcal{R} = -m^2\mathcal{R}$ and $\partial^2_0 \mathcal{L} = -m^2\mathcal{L}$. The mass is actually a frequency determining how quickly a particle oscillates between its right-chiral and left-chiral states. 
+Notice that the mass term couples the left and right chiral spinors. At rest, P=0 and the equations reduce to $i\partial_0\mathcal{R} = m\mathcal{L}$ and $i\partial_0\mathcal{L} = m\mathcal{R}$ showing that $\partial^2_0 \mathcal{R} = -m^2\mathcal{R}$ and $\partial^2_0 \mathcal{L} = -m^2\mathcal{L}$. The mass is actually a frequency determining how quickly a particle oscillates between its right-chiral and left-chiral states. Another interesting point is that swapping the sign of m here swaps the roles of the fields and the conjugate fields. 
 
-Defining
+Plugging $\mathcal{R} = \frac{1}{m}\bar{\sigma}^\nu i\partial_\nu\mathcal{L}$ into $\sigma^\mu i\partial_\mu\mathcal{R} = m\mathcal{L}$ shows that the constants chosen for the terms in the Lagrangian provide the correct dispersion relation,
+
+\begin{equation}
+\begin{split}
+&\sigma^\mu i\partial_\mu \frac{1}{m}\bar{\sigma}^\nu i\partial_\nu\mathcal{L} = m\mathcal{L} \\
+&\rightarrow \sigma^\mu \bar{\sigma}^\nu P_\mu P_\nu = m^2 \\
+&\rightarrow \eta^\mu_\nu P_\mu P_\nu = m^2 \\
+&\rightarrow P^\mu P_\mu = m^2 \\
+&\rightarrow E^2 - \vec{P}^2 = m^2 \\
+\end{split}
+\end{equation}
+
+
+The action for the spin $\frac{1}{2}$ particle can be rewritten into its more compact, canonical form,
+
+\begin{equation}
+S = \int d^4x \text{ } \bar{\psi} \left(i\gamma^\mu\partial_\mu - m\right)\psi,
+\end{equation} 
+
+after defining
 
 \begin{equation}
 \gamma^\mu =
@@ -913,16 +932,50 @@ Defining
 \end{pmatrix}
 \text{, and } 
 \bar{\psi} =
-\psi^\dagger \gamma_0 \text{, }
+\psi^\dagger \gamma_0 \text{. }
 \end{equation}
 
-the action for the spin $\frac{1}{2}$ particle can be rewritten into its more compact, canonical form,
-
-\begin{equation}
-S = \int d^4x \text{ } \bar{\psi} \left(i\gamma^\mu\partial_\mu - m\right)\psi.
-\end{equation} 
+The spin $\frac{1}{2}$ Lagrangian is called the Dirac Lagrangian and the resulting equations of motion are the Dirac equation.
 
 \subsubsection{Building the Lagrangian for a Free Spin 1 Particle}
+Last but not least is the Lagrangian for a spin 1 force carrying particle. The main ingredients are the $A_\mu$ and $\partial_\mu$ four vectors. The lowest order possible invariants are $\partial^\mu A^\nu\partial_\mu A_\nu$, $\partial^\mu A^\nu\partial_\nu A_\mu$, $A^\mu A_\mu$, and $\partial^\mu A_\mu$. However the last term is a total derivative and won't be included. The resulting action and equations of motion are 
+
+\begin{equation}
+S = \int d^4x \left( c_0 i\partial^\mu A^\nu i\partial_\mu A_\nu + c_1 i\partial^\mu A^\nu i\partial_\nu A_\mu + c_2 A^\mu A_\mu \right).
+\end{equation}
+
+\begin{equation}
+c_2 A^\nu = -\partial_\mu\left(c_0 \partial^\mu A^\nu + c_1 \partial^\nu A^\mu\right).
+\end{equation}
+
+This is the same form as the equation for the four vector potential in electromagnetism, which has $c_0 = \frac{1}{2}$ and $c_1 =-\frac{1}{2}$. The remaining term, $c_2$ looks like a mass term, so $c_2$ is set to $\frac{1}{2}m^2$ \footnote{The order of the mass should match the order of the derivatives.}. The action and equations of motion with the appropriate constants become, 
+
+\begin{equation}
+S = \int d^4x \left( \frac{-1}{2} \partial^\mu A^\nu\partial_\mu A_\nu + \frac{1}{2} \partial^\mu A^\nu\partial_\nu A_\mu + \frac{m^2}{2} A^\mu A_\mu \right)
+\end{equation}
+
+\begin{equation}
+-m^2 A^\nu = \partial_\mu\left(\partial^\mu A^\nu - \partial^\nu A^\mu\right).
+\end{equation}
+
+Taking another derivative reveals that the equations reduce further and take on the correct dispersion relation, confirming the choice of constants,
+
+\begin{equation}
+\begin{split}
+&-m^2 \partial_\nu A^\nu = \partial_\nu \partial_\mu \partial^\mu A^\nu - \partial_\nu \partial_\mu \partial^\nu A^\mu = 0 \\
+&\rightarrow \partial_\nu A^\nu = 0 \\
+&\rightarrow -m^2 A^\nu = \partial_\mu\partial^\mu A^\nu \\
+&\rightarrow m^2 A^\nu = i\partial_\mu i\partial^\mu A^\nu \\
+&\rightarrow m^2 = E^2 - \vec{P}^2.
+\end{split}
+\end{equation}
+
+The action for the spin 1 particle is called the Proca action. It's normally written in an equivalent form in terms of the tensor $F_{\mu\nu} = \partial_\mu A_\nu - \partial_\nu A_\mu$
+
+\begin{equation}
+S = \int d^4x \left( \frac{-1}{4}F_{\mu\nu}F^{\mu\nu}  + \frac{m^2}{2} A^\mu A_\mu \right).
+\end{equation}
+
 \subsection{Perturbation Theory}
 \subsection{Feynman Rules}
 
