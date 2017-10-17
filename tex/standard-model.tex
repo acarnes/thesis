@@ -983,7 +983,6 @@ Quantum behavior can only be predicted in a strange probabilistic way. Classical
 \begin{equation}
 \mathcal{A}_j = e^{iS_{j}} 
 \end{equation}
-
 Adding the amplitudes for every possibility gives the net amplitude, and squaring the net amplitude gives the probability.   
 
 \begin{equation}
@@ -996,13 +995,11 @@ Consider a free non-relativistic quantum particle in one dimension with the Lagr
 S(x) = \int dt L = \frac{m}{2} \int_{t_0}^{t_f} dt \dot{x}^2 = \frac{m}{2} \sum_i \frac{(x(t_i) - x(t_{i-1}))^2}{(t_i - t_{i-1})^2} (t_i - t_{i-1})  
 = \frac{m}{2} \sum_i \frac{(x(t_i) - x(t_{i-1}))^2}{\Delta t}.
 \end{equation}
-
 The amplitude for the path is then given by, 
 
 \begin{equation}
 \mathcal{A}(x) = e^{i\frac{m}{2}\frac{(x(t_f) - x(t_{f-1}))^2}{\Delta t}}e^{i\frac{m}{2}\frac{(x(t_{f-1}) - x(t_{f-2}))^2}{\Delta t}}...e^{i\frac{m}{2}\frac{(x(t_1) - x(t_{0}))^2}{\Delta t}}.
 \end{equation}
-
 Summing over all paths, $x(t)$, with fixed endpoints, $x(t_0) = x_0$ and $x(t_f) = x_f$, provides the net amplitude 
 
 \begin{equation}
@@ -1010,23 +1007,33 @@ Summing over all paths, $x(t)$, with fixed endpoints, $x(t_0) = x_0$ and $x(t_f)
 \mathcal{A} &= \sum_{x} \mathcal{A}(x) = \sum_{x(t_f-1)} \sum_{x(t_f-2)} ... \sum_{x(t_1)} 
 e^{i\frac{m}{2}\frac{(x(t_f) - x(t_{f-1}))^2}{\Delta t}}e^{i\frac{m}{2}\frac{(x(t_{f-1}) - x(t_{f-2}))^2}{\Delta t}}...
 e^{i\frac{m}{2}\frac{(x(t_1) - x(t_{0}))^2}{\Delta t}} \\
-&= \mathcal{N} \int dx_{t_f-1}dx_{t_f-2}...dx_{t_1} 
+&= \mathcal{C} \int dx_{t_f-1}dx_{t_f-2}...dx_{t_1} 
 e^{i\frac{m}{2}\frac{(x(t_f) - x(t_{f-1}))^2}{\Delta t}}e^{i\frac{m}{2}\frac{(x(t_{f-1}) - x(t_{f-2}))^2}{\Delta t}}...
 e^{i\frac{m}{2}\frac{(x(t_1) - x(t_{0}))^2}{\Delta t}}\\
 & = \int \mathcal{D}[x(t)] e^{i\frac{m}{2}\int_{t_0}^{t_f} dt \partial_t x \partial_t x}.\\
 \end{split}
 \end{equation} 
-
-Integrating by parts yields,
+Integrating by parts and using the average velocity $v = \frac{x_f-x_0}{t_f - t_0}$ for the boundary velocities provides the net amplitude for the particle to go from one place to another,
 
 \begin{equation}
-\int \mathcal{D}[x(t)] e^{i\frac{m}{2}\int_{t_0}^{t_f} dt (x \partial^2_t x)}.
+\begin{split}
+\mathcal{A} &= \int \mathcal{D}[x(t)] e^{i\frac{m}{2}x\partial_t x|^{t_f}_{t_0} + i\frac{m}{2}\int_{t_0}^{t_f} dt (x \partial^2_t x)} \\ 
+            &= e^{i\frac{m}{2}(x(t_f) - x(t_0))v}\int \mathcal{D}[x(t)] e^{i\frac{m}{2}\int_{t_0}^{t_f} dt (x \partial^2_t x)} \\
+            &= \mathcal{N}e^{\frac{im(x_f - x_0)^2}{2(t_f - t_0)}} \\
+            &= \sqrt{\frac{m}{2i\pi(t_f-t_0)}}e^{\frac{im(x_f - x_0)^2}{2(t_f - t_0)}}. \\
+\end{split}
 \end{equation}
+The normalization $\mathcal{N}$ is fixed by requiring that the probability for the particle to be somewhere at $t_f$ is one. In other words, integrating over $x_f$ for constant $x_0, t_0, t_f$ should give one. A more rigorous derivation of this propagator can be found in {\color{red} Feynman and Hibbs} for example.
 
 In general the amplitude to go from $\phi(t_0) = \phi_0$ to $\phi(t_f) = \phi_f$ is determined by the path integral, 
 
 \begin{equation}
-\mathcal{A}(\phi_f, t_f; \phi_0, t_0) = \int \mathcal{D}[\phi(t)] e^{i\int_{t_0}^{t_f} dt L}.
+\mathcal{A}(\phi_f, t_f; \phi_0, t_0) = \braket{\phi_f,t_f|\phi_0,t_0} = \int \mathcal{D}[\cdot] e^{i\int_{t_0}^{t_f} dt L}.
+\end{equation}
+Furthermore, the expectation value for a measurement performed at time $t_1$ when the system starts in the state $\phi(t_0) = \phi_0$ and ends in $\phi(t_f) = \phi_f$ is
+
+\begin{equation}
+\braket{\mathcal{O}(t_1)} = |\bra{\phi_f,t_f}\mathcal{O}(t_1)\ket{\phi_0,t_0}|^2 = \left|\int \mathcal{D}[\cdot] \mathcal{O}(t_1) e^{i\int_{t_0}^{t_f} dt L}\right|^2.
 \end{equation}
 
 \subsection{The Higgs Mechanism}
