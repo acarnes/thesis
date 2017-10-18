@@ -1046,21 +1046,21 @@ e^{i\int_{-\infty}^{\infty} dt L}}{\int \mathcal{D}[\cdot]e^{i\int_{-\infty}^{\i
 where $\psi$ is a field, 0 denotes the vacuum state, and i, j, k, l specify the types of particles observed. Usually the correlation functions can only be calculated for the free fields where the Lagrangian density is quadratic in the fields. If the Lagrangian is more complicated, the solution to a path integral for the full theory can be expanded in terms of the correlation functions from the free field. However, this only works if the additional terms in the Lagrangian are small compared to the free part of the Lagrangian. This method of expansion is called perturbation theory.     
 
 \subsection{Perturbation Theory and Feynman Rules}
-The path integrals for most of the interesting theories are not directly solvable, and must be expanded in terms of the free solutions. The simplest way to get the point across is to use the scalar field as an example. The two point correlation function for the free scalar field is given by
+The path integrals for most of the interesting theories are not directly solvable, but they can often be expanded in terms of the free solutions. When the magnitude of the additional complexity is small compared to the free part of the Lagrangian, only the first few terms of the series expansion are needed and the technique is called perturbation theory. The best way to get at this point is to go over the method for the scalar particle. In order to expand in a perturbation series, the first step is to figure out what the free solutions are. The two point correlation function for the free case is given by
 \begin{equation}
 \bra{0}\Phi(t_2,x_2)\Phi(t_1,x_1)\ket{0} = 
 \frac{\int \mathcal{D}[\Phi]\Phi(t_2,x_2)\Phi(t_1,x_1)e^{i\int_{-\infty}^{\infty} d^4x \frac{1}{2}\left(\partial_\mu\Phi\partial^\mu\Phi - m^2 \Phi^2 \right)}}
 {\int \mathcal{D}[\Phi]e^{i\int_{-\infty}^{\infty} d^4x \frac{1}{2}\left(\partial_\mu\Phi\partial^\mu\Phi - m^2 \Phi^2 \right)}},
 \end{equation}
-where the Lagrangian was derived earlier. Integrating by parts and throwing away the boundary term turns the path integrals into Gaussians 
+and it describes a particle going from $(t_1,x_1)$ to $(t_2,x_2)$. Integrating by parts and throwing away the boundary term turns the path integrals into Gaussians 
 \begin{equation}
 \bra{0}\Phi(t_2,x_2)\Phi(t_1,x_1)\ket{0} = 
-\frac{\int \mathcal{D}[\Phi]\Phi(t_2,x_2)\Phi(t_1,x_1)e^{i\int_{-\infty}^{\infty} d^4x \frac{1}{2}\Phi (\partial_\mu\partial^\mu - m^2)\Phi}}
-{\int \mathcal{D}[\Phi]e^{i\int_{-\infty}^{\infty} d^4x \frac{1}{2}\Phi (\partial_\mu\partial^\mu - m^2)\Phi}}.
+\frac{\int \mathcal{D}[\Phi]\Phi(t_2,x_2)\Phi(t_1,x_1)e^{i\int_{-\infty}^{\infty} d^4x \frac{1}{2}\Phi (-\partial_\mu\partial^\mu - m^2)\Phi}}
+{\int \mathcal{D}[\Phi]e^{i\int_{-\infty}^{\infty} d^4x \frac{1}{2}\Phi (-\partial_\mu\partial^\mu - m^2)\Phi}}.
 \end{equation}
 Focusing on the integral in the denominator and looking at the $d^4x$ integral as a matrix multiplication simplifies things 
 \begin{equation}
-\int \mathcal{D}[\Phi]e^{i\int_{-\infty}^{\infty} d^4x \frac{1}{2}\Phi (\partial_\mu\partial^\mu - m^2)\Phi}
+\int \mathcal{D}[\Phi]e^{i\int_{-\infty}^{\infty} d^4x \frac{1}{2}\Phi (-\partial_\mu\partial^\mu - m^2)\Phi}
 = \int d\Phi_1 d\Phi_2 ... d\Phi_N e^{i\frac{1}{2}\Phi_{i} K_{ij} \Phi_{j}}.
 \end{equation}
 Transforming to the eigenbasis yields a multidimensional Gaussian integral
@@ -1075,8 +1075,28 @@ Transforming to the eigenbasis yields a multidimensional Gaussian integral
 The solution uses the fact that the determinant is the product of eigenvalues. The integral from the numerator can be dealt with in a similar manner. 
 
 \begin{equation}
-\frac{\delta}{\delta J_k}\frac{\delta}{\delta J_l}\Big|_{J=0} \int d\Phi_1 d\Phi_2 ... d\Phi_N e^{i\frac{1}{2}\Phi_{i} K_{ij} \Phi_{j} + J_i\Phi_i} 
-= \int d\Phi_1 d\Phi_2 ... d\Phi_N \Phi_k\Phi_l e^{i\frac{1}{2}\Phi_{i} K_{ij} \Phi_{j}} 
+\int d\Phi_1 d\Phi_2 ... d\Phi_N \Phi_k\Phi_l e^{i\frac{1}{2}\Phi_{i} K_{ij} \Phi_{j}} 
+= \frac{1}{i}\frac{\delta}{\delta J_k}\frac{1}{i}\frac{\delta}{\delta J_l}\Big|_{J=0} 
+\int d\Phi_1 d\Phi_2 ... d\Phi_N e^{i\frac{1}{2}\Phi_{i} K_{ij} \Phi_{j} + iJ_i\Phi_i} 
+\end{equation}
+The integral on the right can be solved using the substitution $\Phi' = \Phi + K^{-1}J$ to complete the square, 
+
+\begin{equation}
+\begin{split}
+\int d\Phi_1 d\Phi_2 ... d\Phi_N e^{i\frac{1}{2}\Phi_{i} K_{ij} \Phi_{j} + iJ_i\Phi_i} 
+&= \int d\Phi'_1 d\Phi'_2 ... d\Phi'_N e^{i\frac{1}{2}\Phi'_{i} K_{ij} \Phi'_{j} - \frac{i}{2}J_i K^{-1}_{ij} J_j}\\ 
+&= \frac{\left( 2i\pi \right)^{N/2}}{ \left( detK \right)^\frac{1}{2}}e^{\frac{-i}{2}J_i K^{-1}_{ij} J_j}\\
+&= \frac{\left( 2i\pi \right)^{N/2}}{ \left( detK \right)^\frac{1}{2}}e^{\frac{-i}{2}\int d^4x d^4y J(y) K^{-1}(y,x) J(x)}.\\
+\end{split}
+\end{equation}
+The last line reverts back to continuous functions and operators.
+
+\begin{equation}
+\begin{split}
+\int d\Phi_1 d\Phi_2 ... d\Phi_N \Phi_k\Phi_l e^{i\frac{1}{2}\Phi_{i} K_{ij} \Phi_{j}} 
+& = \frac{1}{i}\frac{\delta}{\delta J_k}\frac{1}{i}\frac{\delta}{\delta J_l}\Big|_{J=0} \int d\Phi_1 d\Phi_2 ... d\Phi_N e^{i\frac{1}{2}\Phi_{i} K_{ij} \Phi_{j} + iJ_i\Phi_i} \\
+& = \frac{1}{i}\frac{\delta}{\delta J_k}\frac{1}{i}\frac{\delta}{\delta J_l}\Big|_{J=0} \frac{\left( 2i\pi \right)^{N/2}}{ \left( detK \right)^\frac{1}{2}}e^{\frac{-i}{2}J_i K^{-1}_{ij} J_j} \\ 
+\end{split}
 \end{equation}
 
 \subsection{The Higgs Mechanism}

@@ -29,18 +29,18 @@
 \contentsline {subsection}{\numberline {3.1.4}Lagrangians in Quantum Mechanics and QFT}{53}{subsection.3.1.4}
 \contentsline {subsection}{\numberline {3.1.5}Perturbation Theory and Feynman Rules}{56}{subsection.3.1.5}
 \contentsline {subsection}{\numberline {3.1.6}The Higgs Mechanism}{57}{subsection.3.1.6}
-\contentsline {section}{\numberline {3.2}The Standard Model Higgs}{57}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}SM Higgs Production and Decay Modes}{57}{subsection.3.2.1}
-\contentsline {chapter}{\numberline {4}\uppercase {RESULTS}}{61}{chapter.4}
-\contentsline {section}{\numberline {4.1}Fusce Eget Tempus Lectus, }{61}{section.4.1}
-\contentsline {chapter}{\numberline {5}\uppercase {SUMMARY AND CONCLUSIONS}}{66}{chapter.5}
-\contentsline {section}{\numberline {5.1}Non Porttitor Tellus}{66}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}Nam Arcu Magna}{66}{subsection.5.1.1}
-\contentsline {subsubsection}{\numberline {5.1.1.1}Ut pellentesque velit sede}{66}{subsubsection.5.1.1.1}
+\contentsline {section}{\numberline {3.2}The Standard Model Higgs}{58}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}SM Higgs Production and Decay Modes}{58}{subsection.3.2.1}
+\contentsline {chapter}{\numberline {4}\uppercase {RESULTS}}{62}{chapter.4}
+\contentsline {section}{\numberline {4.1}Fusce Eget Tempus Lectus, }{62}{section.4.1}
+\contentsline {chapter}{\numberline {5}\uppercase {SUMMARY AND CONCLUSIONS}}{67}{chapter.5}
+\contentsline {section}{\numberline {5.1}Non Porttitor Tellus}{67}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Nam Arcu Magna}{67}{subsection.5.1.1}
+\contentsline {subsubsection}{\numberline {5.1.1.1}Ut pellentesque velit sede}{67}{subsubsection.5.1.1.1}
 \addvspace {10pt}\noindent {APPENDIX} \hfill {\@@par }
-\contentsline {chapter}{\numberline {A}\uppercase {THIS IS THE FIRST APPENDIX}}{67}{appendix.A}
-\contentsline {chapter}{\numberline {B}\uppercase {AN EXAMPLE OF A HALF TITLE PAGE}}{68}{appendix.B}
-\contentsline {chapter}{\numberline {C}\uppercase {DERIVATION OF THE $\Upsilon $ FUNCTION}}{72}{appendix.C}
-\contentsline {chapter}{\numberline {D}\uppercase {DERIVATION OF THE $\Upsilon $ FUNCTION}}{76}{appendix.D}
-\contentsline {extrachapter}{REFERENCES}{80}{appendix*.6}
-\contentsline {extrachapter}{BIOGRAPHICAL SKETCH}{81}{appendix*.7}
+\contentsline {chapter}{\numberline {A}\uppercase {THIS IS THE FIRST APPENDIX}}{68}{appendix.A}
+\contentsline {chapter}{\numberline {B}\uppercase {AN EXAMPLE OF A HALF TITLE PAGE}}{69}{appendix.B}
+\contentsline {chapter}{\numberline {C}\uppercase {DERIVATION OF THE $\Upsilon $ FUNCTION}}{73}{appendix.C}
+\contentsline {chapter}{\numberline {D}\uppercase {DERIVATION OF THE $\Upsilon $ FUNCTION}}{77}{appendix.D}
+\contentsline {extrachapter}{REFERENCES}{81}{appendix*.6}
+\contentsline {extrachapter}{BIOGRAPHICAL SKETCH}{82}{appendix*.7}
