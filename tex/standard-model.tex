@@ -1017,10 +1017,10 @@ Integrating by parts and using the average velocity $v = \frac{x_f-x_0}{t_f - t_
 
 \begin{equation}
 \begin{split}
-\mathcal{A} &= \int \mathcal{D}[x(t)] e^{i\frac{m}{2}x\partial_t x|^{t_f}_{t_0} + i\frac{m}{2}\int_{t_0}^{t_f} dt (x \partial^2_t x)} \\ 
-            &= e^{i\frac{m}{2}(x(t_f) - x(t_0))v}\int \mathcal{D}[x(t)] e^{i\frac{m}{2}\int_{t_0}^{t_f} dt (x \partial^2_t x)} \\
-            &= \mathcal{N}e^{\frac{im(x_f - x_0)^2}{2(t_f - t_0)}} \\
-            &= \sqrt{\frac{m}{2i\pi(t_f-t_0)}}e^{\frac{im(x_f - x_0)^2}{2(t_f - t_0)}}. \\
+\mathcal{A} &= \int \mathcal{D}[x(t)] e^{i\frac{m}{2}x\partial_t x|^{t_f}_{t_0} + i\frac{m}{2}\int_{t_0}^{t_f} dt (-x \partial^2_t x)} \\ 
+            &= e^{i\frac{m}{2}(x(t_f) - x(t_0))v}\int \mathcal{D}[x(t)] e^{i\frac{m}{2}\int_{t_0}^{t_f} dt (-x \partial^2_t x)} \\
+            &= \mathcal{N}e^{\frac{-im(x_f - x_0)^2}{2(t_f - t_0)}} \\
+            &= \sqrt{\frac{m}{2i\pi(t_f-t_0)}}e^{\frac{-im(x_f - x_0)^2}{2(t_f - t_0)}}. \\
 \end{split}
 \end{equation}
 The normalization $\mathcal{N}$ is fixed by requiring that the probability for the particle to be somewhere at $t_f$ is one. In other words, integrating over all $x_f$ for constant $x_0, t_0, t_f$ should give one. A more rigorous derivation of this propagator can be found in {\color{red} Feynman and Hibbs} for example.
@@ -1036,26 +1036,26 @@ Furthermore, the expectation value for an operation performed at time $t_1$ when
 |\bra{\phi_f,t_f}\mathcal{O}(t_1)\ket{\phi_0,t_0}|^2 = \left|\int \mathcal{D}[\cdot] \mathcal{O}(t_1) e^{i\int_{t_0}^{t_f} dt L}\right|^2.
 \end{equation}
 
-Of particular importance for QFT are scattering events. When two particles are measured at $(t_1,x_1)$ and $(t_2,x_2)$ some time in the past, what is the amplitude to measure two particles at $(t_3,x_3)$ and $(t_4,x_4)$ some time in the future? Considering that particles are in fact disturbances in the field, an equivalent question may be asked. How is the field amplitude correlated between spacetime points $(t_4, x_4), (t_3, x_3), (t_2, x_2),$ and $(t_1, x_1)$. So for two to two scattering the amplitude is given by
+Of particular importance for QFT are scattering events. When two particles are measured at $(t_1,\vec{x}_1)$ and $(t_2,\vec{x}_2)$ some time in the past, what is the amplitude to measure two particles at $(t_3,\vec{x}_3)$ and $(t_4,\vec{x}_4)$ some time in the future? Considering that particles are in fact disturbances in the field, an equivalent question may be asked. How is the field amplitude correlated between spacetime points $(t_4, \vec{x}_4), (t_3, \vec{x}_3), (t_2, \vec{x}_2),$ and $(t_1, \vec{x}_1)$. So for two to two scattering the amplitude is given by
 
 \begin{equation}
-\bra{0}\psi_i(t_4,x_4)\psi_j(t_3,x_3)\psi_k(t_2,x_2)\psi_l(t_1,x_1)\ket{0} = 
-\frac{\int \mathcal{D}[\cdot]\psi_i(t_4,x_4)\psi_j(t_3,x_3)\psi_k(t_2,x_2)\psi_l(t_1,x_1)
+\bra{0}\psi_i(t_4,\vec{x}_4)\psi_j(t_3,\vec{x}_3)\psi_k(t_2,\vec{x}_2)\psi_l(t_1,\vec{x}_1)\ket{0} = 
+\frac{\int \mathcal{D}[\cdot]\psi_i(t_4,\vec{x}_4)\psi_j(t_3,\vec{x}_3)\psi_k(t_2,\vec{x}_2)\psi_l(t_1,\vec{x}_1)
 e^{i\int_{-\infty}^{\infty} dt L}}{\int \mathcal{D}[\cdot]e^{i\int_{-\infty}^{\infty} dt L}},
 \end{equation}
-where $\psi$ is a field, 0 denotes the vacuum state, and i, j, k, l specify the types of particles observed. Usually the correlation functions can only be calculated for the free fields where the Lagrangian density is quadratic in the fields. If the Lagrangian is more complicated, the solution to a path integral for the full theory can be expanded in terms of the correlation functions from the free field. However, this only works if the additional terms in the Lagrangian are small compared to the free part of the Lagrangian. This method of expansion is called perturbation theory.     
+where $\psi$ is a field, 0 denotes the vacuum state, and i, j, k, l specify the types of particles observed. Usually the correlation functions can only be calculated for the free fields where the Lagrangian density is quadratic in the fields. If the Lagrangian is more complicated, the solution to a path integral for the full theory can be expanded in terms of the correlation functions from the free field. However, this only works in practice if the additional terms in the Lagrangian are small compared to the free part of the Lagrangian. This method of expansion is called perturbation theory.     
 
 \subsection{Perturbation Theory and Feynman Rules}
-The path integrals for most of the interesting theories are not directly solvable, but they can often be expanded in terms of the free solutions. When the magnitude of the additional complexity is small compared to the free part of the Lagrangian, only the first few terms of the series expansion are needed and the technique is called perturbation theory. The best way to get at this point is to go over the method for the scalar particle. In order to expand in a perturbation series, the first step is to figure out what the free solutions are. The two point correlation function for the free case is given by
+The path integrals for most of the interesting theories are not directly solvable, but they can often be expanded in terms of the free solutions. When the magnitude of the additional complexity is small compared to the free part of the Lagrangian, only the first few terms of the series expansion are needed and the technique is called perturbation theory. The best way to get at this point is to go over the method for the scalar particle. The first step is to figure out the free solutions. The two point correlation function for the free case is given by
 \begin{equation}
-\bra{0}\Phi(t_2,x_2)\Phi(t_1,x_1)\ket{0} = 
-\frac{\int \mathcal{D}[\Phi]\Phi(t_2,x_2)\Phi(t_1,x_1)e^{i\int_{-\infty}^{\infty} d^4x \frac{1}{2}\left(\partial_\mu\Phi\partial^\mu\Phi - m^2 \Phi^2 \right)}}
+\bra{0}\Phi(t_2,\vec{x}_2)\Phi(t_1,\vec{x}_1)\ket{0} = 
+\frac{\int \mathcal{D}[\Phi]\Phi(t_2,\vec{x}_2)\Phi(t_1,\vec{x}_1)e^{i\int_{-\infty}^{\infty} d^4x \frac{1}{2}\left(\partial_\mu\Phi\partial^\mu\Phi - m^2 \Phi^2 \right)}}
 {\int \mathcal{D}[\Phi]e^{i\int_{-\infty}^{\infty} d^4x \frac{1}{2}\left(\partial_\mu\Phi\partial^\mu\Phi - m^2 \Phi^2 \right)}},
 \end{equation}
-and it describes a particle going from $(t_1,x_1)$ to $(t_2,x_2)$. Integrating by parts and throwing away the boundary term turns the path integrals into Gaussians 
+and it describes a particle going from $(t_1,\vec{x}_1)$ to $(t_2,\vec{x}_2)$. Integrating by parts and throwing away the boundary term turns the path integrals into Gaussians 
 \begin{equation}
-\bra{0}\Phi(t_2,x_2)\Phi(t_1,x_1)\ket{0} = 
-\frac{\int \mathcal{D}[\Phi]\Phi(t_2,x_2)\Phi(t_1,x_1)e^{i\int_{-\infty}^{\infty} d^4x \frac{1}{2}\Phi (-\partial_\mu\partial^\mu - m^2)\Phi}}
+\bra{0}\Phi(t_2,\vec{x}_2)\Phi(t_1,\vec{x}_1)\ket{0} = 
+\frac{\int \mathcal{D}[\Phi]\Phi(t_2,\vec{x}_2)\Phi(t_1,\vec{x}_1)e^{i\int_{-\infty}^{\infty} d^4x \frac{1}{2}\Phi (-\partial_\mu\partial^\mu - m^2)\Phi}}
 {\int \mathcal{D}[\Phi]e^{i\int_{-\infty}^{\infty} d^4x \frac{1}{2}\Phi (-\partial_\mu\partial^\mu - m^2)\Phi}}.
 \end{equation}
 Focusing on the integral in the denominator and looking at the $d^4x$ integral as a matrix multiplication simplifies things 
@@ -1072,7 +1072,7 @@ Transforming to the eigenbasis yields a multidimensional Gaussian integral
 & = \prod_{i=1}^N \left( \frac{2i\pi}{\tilde{k}_i} \right)^\frac{1}{2} = \frac{\left( 2i\pi \right)^{N/2}}{ \left( detK \right)^\frac{1}{2}}.
 \end{split}
 \end{equation}
-The solution uses the fact that the determinant is the product of eigenvalues. The integral from the numerator can be dealt with in a similar manner 
+The solution uses the fact that the determinant is the product of eigenvalues. Moving on, the integral from the numerator can be dealt with by taking derivatives of the moment generating function 
 
 \begin{equation}
 \int d\Phi_1 d\Phi_2 ... d\Phi_N \Phi_k\Phi_l e^{i\frac{1}{2}\Phi_{i} K_{ij} \Phi_{j}} 
@@ -1089,14 +1089,28 @@ The integral on the right can be solved using the substitution $\Phi' = \Phi + K
 &= \frac{\left( 2i\pi \right)^{N/2}}{ \left( detK \right)^\frac{1}{2}}e^{\frac{-i}{2}\int d^4x d^4y J(y) K^{-1}(y,x) J(x)}.\\
 \end{split}
 \end{equation}
-The last line reverts back to continuous functions and operators.
+The last line reverts back to continuous functions and operators. With the solution to the moment generating integral in hand, the numerator of the two point correlation function can be calculated
 
 \begin{equation}
 \begin{split}
 \int d\Phi_1 d\Phi_2 ... d\Phi_N \Phi_k\Phi_l e^{i\frac{1}{2}\Phi_{i} K_{ij} \Phi_{j}} 
 & = \frac{1}{i}\frac{\delta}{\delta J_k}\frac{1}{i}\frac{\delta}{\delta J_l}\Big|_{J=0} \int d\Phi_1 d\Phi_2 ... d\Phi_N e^{i\frac{1}{2}\Phi_{i} K_{ij} \Phi_{j} + iJ_i\Phi_i} \\
 & = \frac{1}{i}\frac{\delta}{\delta J_k}\frac{1}{i}\frac{\delta}{\delta J_l}\Big|_{J=0} \frac{\left( 2i\pi \right)^{N/2}}{ \left( detK \right)^\frac{1}{2}}e^{\frac{-i}{2}J_i K^{-1}_{ij} J_j} \\ 
+& = \frac{\left( 2i\pi \right)^{N/2}}{ \left( detK \right)^\frac{1}{2}} K^{-1}_{ij} \\
 \end{split}
+\end{equation}
+Finally the two point correlation function is given by  
+
+\begin{equation}
+\begin{split}
+\bra{0}\Phi(t_2,\vec{x}_2)\Phi(t_1,\vec{x}_1)\ket{0} &= 
+\frac{\int \mathcal{D}[\Phi]\Phi(t_2,\vec{x}_2)\Phi(t_1,\vec{x}_1)e^{i\int_{-\infty}^{\infty} d^4x \frac{1}{2}\Phi (-\partial_\mu\partial^\mu - m^2)\Phi}}
+{\int \mathcal{D}[\Phi]e^{i\int_{-\infty}^{\infty} d^4x \frac{1}{2}\Phi (-\partial_\mu\partial^\mu - m^2)\Phi}} \\
+&= K^{-1}(t_2,\vec{x}_2,t_1,\vec{x}_1)\\ 
+\end{split}
+\end{equation}
+
+\begin{equation}
 \end{equation}
 
 \subsection{The Higgs Mechanism}
