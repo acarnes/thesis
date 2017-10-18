@@ -691,7 +691,7 @@ The other transformations reproduce the usual 4x4 Lorentz transformations as wel
 
 The Poincare group is the Lorentz Group plus translations. Physics experiments should be the same with a rotated apparatus, an apparatus moving at a different constant velocity, and also at another location. Adding translations to the group amounts to adding another the set of translation generators $P_i$. In the "Particles, Symmetries, and Labels" section the argument was made that particles are things that observers agree on between frames. Distinguishable particles have labels that remain invariant. A spin $\frac{1}{2}$ particle with mass m remains a spin $\frac{1}{2}$ particle with mass m for all observers. As it turns out these labels relate to different subspaces in the representation of the group.
 
-Consider a group with certain generators. When the operators of the group are represented a certain way, say as some NxN matrices there is a likelihood that there are some invariant subspaces. As an example, a representation of a group may act on a 5 dimensional space spanned by vectors $e_1, e_2, e_3, e_4, e_5$ the group may always transform vectors in the $e_1, e_2, e_3$ subspace into one another, and those in $e_4, e_5$ into one another, but never mix up $e_1, e_2, e_3$ with $e_4, e_5$. In this example the 5x5 operators could be decomposed into a 3x3 operator acting only on the $e_1, e_2, e_3$ subspace and a 2x2 operator acting only on the $e_4, e_5$ subspace. Each 5x5 member of the group could be written as a block diagonal matrix with a 3x3 block and a 2x2 block. The same goes for the generators. Since these subspaces retain their identity under the transformations of the group\footnote{This assumes that the 3x3 and 2x2 pieces have no invariant subspaces besides themselves and 0.}, they may be considered different particles. The question is whether there are labels for the subspaces.  
+Consider a group with certain generators. When the operators of the group are represented a certain way, say as some NxN matrices there is a likelihood that there are some invariant subspaces. As an example, a representation of a group may act on a 5 dimensional space spanned by vectors $e_1, e_2, e_3, e_4, e_5$. The group may always transform vectors in the $e_1, e_2, e_3$ subspace into one another, and those in $e_4, e_5$ into one another, but never mix up $e_1, e_2, e_3$ with $e_4, e_5$. In this example the 5x5 operators could be decomposed into a 3x3 operator acting only on the $e_1, e_2, e_3$ subspace and a 2x2 operator acting only on the $e_4, e_5$ subspace. Each 5x5 member of the group could be written as a block diagonal matrix with a 3x3 block and a 2x2 block. The same goes for the generators. Since these subspaces retain their identity under the transformations of the group\footnote{This assumes that the 3x3 and 2x2 pieces have no invariant subspaces besides themselves and 0.}, they may be considered different particles. The question is whether there are labels for the subspaces.  
 
 Labels in physics need to be measurable, and by the current understanding of quantum mechanics these must be eigenvalues of Hermitian operators. The operators that label these subspaces are called the Casimir operators and must be built from the generators of the group. The operators should give the same values for $e_1, e_2, and e_3$ since they transform into one another and represent the same particle, which implies that the Casimir labeling operator must be proportional to the identity in that subspace. The same goes for the operator in the $e_4, e_5$ subspace. The Casimir operator for SU(2) is the $J^2$ operator which labels the spin of the particle. The Poincare group has two Casimir operators coresponding to two labels the mass, m, and the spin, j. Looking at the irreducible representations\footnote{This is the group theory term for the block diagonal pieces and the corresponding invariant subspaces. The irreducible representations, irreps, are those that can't be broken down in terms of smaller invariant subspaces and smaller block diagonal matrices. An arbitrary representation of the group is built from these irreps.} of the Poincare group, the mass and spin arise naturally as labels for particles. 
 
@@ -1023,21 +1023,63 @@ Integrating by parts and using the average velocity $v = \frac{x_f-x_0}{t_f - t_
             &= \sqrt{\frac{m}{2i\pi(t_f-t_0)}}e^{\frac{im(x_f - x_0)^2}{2(t_f - t_0)}}. \\
 \end{split}
 \end{equation}
-The normalization $\mathcal{N}$ is fixed by requiring that the probability for the particle to be somewhere at $t_f$ is one. In other words, integrating over $x_f$ for constant $x_0, t_0, t_f$ should give one. A more rigorous derivation of this propagator can be found in {\color{red} Feynman and Hibbs} for example.
+The normalization $\mathcal{N}$ is fixed by requiring that the probability for the particle to be somewhere at $t_f$ is one. In other words, integrating over all $x_f$ for constant $x_0, t_0, t_f$ should give one. A more rigorous derivation of this propagator can be found in {\color{red} Feynman and Hibbs} for example.
 
 In general the amplitude to go from $\phi(t_0) = \phi_0$ to $\phi(t_f) = \phi_f$ is determined by the path integral, 
 
 \begin{equation}
 \mathcal{A}(\phi_f, t_f; \phi_0, t_0) = \braket{\phi_f,t_f|\phi_0,t_0} = \int \mathcal{D}[\cdot] e^{i\int_{t_0}^{t_f} dt L}.
 \end{equation}
-Furthermore, the expectation value for a measurement performed at time $t_1$ when the system starts in the state $\phi(t_0) = \phi_0$ and ends in $\phi(t_f) = \phi_f$ is
+Furthermore, the expectation value for an operation performed at time $t_1$ when the system starts in the state $\phi(t_0) = \phi_0$ and ends in $\phi(t_f) = \phi_f$ is
 
 \begin{equation}
-\braket{\mathcal{O}(t_1)} = |\bra{\phi_f,t_f}\mathcal{O}(t_1)\ket{\phi_0,t_0}|^2 = \left|\int \mathcal{D}[\cdot] \mathcal{O}(t_1) e^{i\int_{t_0}^{t_f} dt L}\right|^2.
+|\bra{\phi_f,t_f}\mathcal{O}(t_1)\ket{\phi_0,t_0}|^2 = \left|\int \mathcal{D}[\cdot] \mathcal{O}(t_1) e^{i\int_{t_0}^{t_f} dt L}\right|^2.
+\end{equation}
+
+Of particular importance for QFT are scattering events. When two particles are measured at $(t_1,x_1)$ and $(t_2,x_2)$ some time in the past, what is the amplitude to measure two particles at $(t_3,x_3)$ and $(t_4,x_4)$ some time in the future? Considering that particles are in fact disturbances in the field, an equivalent question may be asked. How is the field amplitude correlated between spacetime points $(t_4, x_4), (t_3, x_3), (t_2, x_2),$ and $(t_1, x_1)$. So for two to two scattering the amplitude is given by
+
+\begin{equation}
+\bra{0}\psi_i(t_4,x_4)\psi_j(t_3,x_3)\psi_k(t_2,x_2)\psi_l(t_1,x_1)\ket{0} = 
+\frac{\int \mathcal{D}[\cdot]\psi_i(t_4,x_4)\psi_j(t_3,x_3)\psi_k(t_2,x_2)\psi_l(t_1,x_1)
+e^{i\int_{-\infty}^{\infty} dt L}}{\int \mathcal{D}[\cdot]e^{i\int_{-\infty}^{\infty} dt L}},
+\end{equation}
+where $\psi$ is a field, 0 denotes the vacuum state, and i, j, k, l specify the types of particles observed. Usually the correlation functions can only be calculated for the free fields where the Lagrangian density is quadratic in the fields. If the Lagrangian is more complicated, the solution to a path integral for the full theory can be expanded in terms of the correlation functions from the free field. However, this only works if the additional terms in the Lagrangian are small compared to the free part of the Lagrangian. This method of expansion is called perturbation theory.     
+
+\subsection{Perturbation Theory and Feynman Rules}
+The path integrals for most of the interesting theories are not directly solvable, and must be expanded in terms of the free solutions. The simplest way to get the point across is to use the scalar field as an example. The two point correlation function for the free scalar field is given by
+\begin{equation}
+\bra{0}\Phi(t_2,x_2)\Phi(t_1,x_1)\ket{0} = 
+\frac{\int \mathcal{D}[\Phi]\Phi(t_2,x_2)\Phi(t_1,x_1)e^{i\int_{-\infty}^{\infty} d^4x \frac{1}{2}\left(\partial_\mu\Phi\partial^\mu\Phi - m^2 \Phi^2 \right)}}
+{\int \mathcal{D}[\Phi]e^{i\int_{-\infty}^{\infty} d^4x \frac{1}{2}\left(\partial_\mu\Phi\partial^\mu\Phi - m^2 \Phi^2 \right)}},
+\end{equation}
+where the Lagrangian was derived earlier. Integrating by parts and throwing away the boundary term turns the path integrals into Gaussians 
+\begin{equation}
+\bra{0}\Phi(t_2,x_2)\Phi(t_1,x_1)\ket{0} = 
+\frac{\int \mathcal{D}[\Phi]\Phi(t_2,x_2)\Phi(t_1,x_1)e^{i\int_{-\infty}^{\infty} d^4x \frac{1}{2}\Phi (\partial_\mu\partial^\mu - m^2)\Phi}}
+{\int \mathcal{D}[\Phi]e^{i\int_{-\infty}^{\infty} d^4x \frac{1}{2}\Phi (\partial_\mu\partial^\mu - m^2)\Phi}}.
+\end{equation}
+Focusing on the integral in the denominator and looking at the $d^4x$ integral as a matrix multiplication simplifies things 
+\begin{equation}
+\int \mathcal{D}[\Phi]e^{i\int_{-\infty}^{\infty} d^4x \frac{1}{2}\Phi (\partial_\mu\partial^\mu - m^2)\Phi}
+= \int d\Phi_1 d\Phi_2 ... d\Phi_N e^{i\frac{1}{2}\Phi_{i} K_{ij} \Phi_{j}}.
+\end{equation}
+Transforming to the eigenbasis yields a multidimensional Gaussian integral
+\begin{equation}
+\begin{split}
+ \int d\Phi_1 d\Phi_2 ... d\Phi_N e^{i\frac{1}{2}\Phi_{i} K_{ij} \Phi_{j}} 
+ &= \int d\tilde{\Phi}_1 d\tilde{\Phi}_2 ... d\tilde{\Phi}_N e^{i\frac{1}{2}\tilde{\Phi}_{i} \tilde{K}_{ij} \tilde{\Phi}_{j}} 
+ = \int d\tilde{\Phi}_1 d\tilde{\Phi}_2 ... d\tilde{\Phi}_N e^{\frac{-1}{2i} \tilde{k}_i \tilde{\Phi}_{i}^2} \\ 
+& = \prod_{i=1}^N \left( \frac{2i\pi}{\tilde{k}_i} \right)^\frac{1}{2} = \frac{\left( 2i\pi \right)^{N/2}}{ \left( detK \right)^\frac{1}{2}}.
+\end{split}
+\end{equation}
+The solution uses the fact that the determinant is the product of eigenvalues. The integral from the numerator can be dealt with in a similar manner. 
+
+\begin{equation}
+\frac{\delta}{\delta J_k}\frac{\delta}{\delta J_l}\Big|_{J=0} \int d\Phi_1 d\Phi_2 ... d\Phi_N e^{i\frac{1}{2}\Phi_{i} K_{ij} \Phi_{j} + J_i\Phi_i} 
+= \int d\Phi_1 d\Phi_2 ... d\Phi_N \Phi_k\Phi_l e^{i\frac{1}{2}\Phi_{i} K_{ij} \Phi_{j}} 
 \end{equation}
 
 \subsection{The Higgs Mechanism}
-\subsection{Perturbation Theory and Feynman Rules}
 
 \begin{figure}[h!]
   \centering
