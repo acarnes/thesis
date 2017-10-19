@@ -1046,7 +1046,7 @@ e^{i\int_{-\infty}^{\infty} dt L}}{\int \mathcal{D}[\cdot]e^{i\int_{-\infty}^{\i
 where $\psi$ is a field, 0 denotes the vacuum state, and i, j, k, l specify the types of particles observed. Calculating this path integral for the full Lagrangian determines the amplitude for the scattering event. Usually the correlation functions can only be calculated for the free fields where the Lagrangian density is quadratic in the fields. Interactions generally spoil this simplicity, but even if the Lagrangian is more complicated, the path integral for the full theory can usually be expanded in terms of the correlation functions from the free field. However, this only works in practice if the additional terms in the Lagrangian are small compared to the free part of the Lagrangian. This method of expansion is called perturbation theory.     
 
 \subsection{Perturbation Theory and Feynman Rules}
-Unfortunately, the path integrals for most of the interesting theories are not directly solvable. On the other hand, they can often be expanded in terms of the free solutions. When the magnitude of the additional complexity is small compared to the free part of the Lagrangian, only the first few terms of the series expansion are needed and the technique is called perturbation theory. The best way to get at this point is to go over the method for the scalar particle. The first step is to figure out the free solutions. The two point correlation function for the free case is given by
+Unfortunately, the correlation functions determining the scattering and decay amplitudes for most of the interesting theories are not directly solvable. On the other hand, they can often be expanded in terms of the free solutions. When the magnitude of the additional complexity is small compared to the free part of the Lagrangian, only the first few terms of the series expansion are needed and the technique is called perturbation theory. The best way to get at this point is to go over the method for the scalar particle. The first step is to figure out the free solutions. The two point correlation function for the free case is given by
 \begin{equation}
 \bra{0}\Phi(t_2,\vec{x}_2)\Phi(t_1,\vec{x}_1)\ket{0} = 
 \frac{\int \mathcal{D}[\Phi]\Phi(t_2,\vec{x}_2)\Phi(t_1,\vec{x}_1)e^{i\int_{-\infty}^{\infty} d^4x \frac{1}{2}\left(\partial_\mu\Phi\partial^\mu\Phi - m^2 \Phi^2 \right)}}
@@ -1096,23 +1096,20 @@ The last line reverts back to continuous functions and operators. With the solut
 \int d\Phi_1 d\Phi_2 ... d\Phi_N \Phi_k\Phi_l e^{i\frac{1}{2}\Phi_{i} K_{ij} \Phi_{j}} 
 & = \frac{1}{i}\frac{\delta}{\delta J_k}\frac{1}{i}\frac{\delta}{\delta J_l}\Big|_{J=0} \int d\Phi_1 d\Phi_2 ... d\Phi_N e^{i\frac{1}{2}\Phi_{i} K_{ij} \Phi_{j} + iJ_i\Phi_i} \\
 & = \frac{1}{i}\frac{\delta}{\delta J_k}\frac{1}{i}\frac{\delta}{\delta J_l}\Big|_{J=0} \frac{\left( 2i\pi \right)^{N/2}}{ \left( detK \right)^\frac{1}{2}}e^{\frac{-i}{2}J_i K^{-1}_{ij} J_j} \\ 
-& = \frac{\left( 2i\pi \right)^{N/2}}{ \left( detK \right)^\frac{1}{2}} K^{-1}_{ij} \\
+& = \frac{\left( 2i\pi \right)^{N/2}}{ \left( detK \right)^\frac{1}{2}} iK^{-1}_{ij} \\
 \end{split}
 \end{equation}
-Finally the two point correlation function is given by  
+Finally the two point correlation function is given by the Feynman propagator, $\mathcal{D}_F$, 
 
 \begin{equation}
 \begin{split}
-\bra{0}\Phi(t_2,\vec{x}_2)\Phi(t_1,\vec{x}_1)\ket{0} &= 
-\frac{\int \mathcal{D}[\Phi]\Phi(t_2,\vec{x}_2)\Phi(t_1,\vec{x}_1)e^{i\int_{-\infty}^{\infty} d^4x \frac{1}{2}\Phi (-\partial_\mu\partial^\mu - m^2)\Phi}}
+\bra{0}\Phi(x_2)\Phi(x_1)\ket{0} &= 
+\frac{\int \mathcal{D}[\Phi]\Phi(x_2)\Phi(x_1)e^{i\int_{-\infty}^{\infty} d^4x \frac{1}{2}\Phi (-\partial_\mu\partial^\mu - m^2)\Phi}}
 {\int \mathcal{D}[\Phi]e^{i\int_{-\infty}^{\infty} d^4x \frac{1}{2}\Phi (-\partial_\mu\partial^\mu - m^2)\Phi}} \\
-&= K^{-1}(t_2,\vec{x}_2,t_1,\vec{x}_1)\\ 
+&= iK^{-1}(x_2,x_1) = i(-\partial_\mu\partial^\mu - m^2)^{-1} = \mathcal{D}_F(x_2,x_1).\\ 
 \end{split}
 \end{equation}
-
-\begin{equation}
-\end{equation}
-
+In momentum space K is diagonal and $\mathcal{D}_F = \frac{i}{p^2-m^2 + i\epsilon}$.
 \subsection{The Higgs Mechanism}
 
 \begin{figure}[h!]
