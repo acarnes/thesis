@@ -1048,7 +1048,7 @@ where $\psi$ is a field, 0 denotes the vacuum state, and i, j, k, l specify the 
 \subsection{Perturbation Theory and Feynman Rules}
 Unfortunately, the correlation functions determining the scattering and decay amplitudes for most of the interesting theories are not directly solvable. On the other hand, they can often be expanded in terms of the free solutions. When the magnitude of the additional complexity is small compared to the free part of the Lagrangian, only the first few terms of the series expansion are needed and the technique is called perturbation theory. 
 
-The best way to showcase perturbation theory is to use it for the scalar particle. The first step is to figure out the free solutions. The two point correlation function for the free case is given by
+The best way to showcase perturbation theory is to run over the process for the scalar particle. The first step is to figure out the free solutions. The two point correlation function for the free case is given by
 \begin{equation}
 \bra{0}\Phi(t_2,\vec{x}_2)\Phi(t_1,\vec{x}_1)\ket{0} = 
 \frac{\int \mathcal{D}[\Phi]\Phi(t_2,\vec{x}_2)\Phi(t_1,\vec{x}_1)e^{i\int_{-\infty}^{\infty} d^4x \frac{1}{2}\left(\partial_\mu\Phi\partial^\mu\Phi - m^2 \Phi^2 \right)}}
@@ -1111,7 +1111,7 @@ With the calculations for the numerator and denominator, the two point correlati
 &= iK^{-1}(x_2,x_1) = i(-\partial_\mu\partial^\mu - m^2)^{-1} = \mathcal{D}_F(x_2,x_1).\\ 
 \end{split}
 \end{equation}
-In momentum space K is diagonal and $\mathcal{D}_F = \frac{i}{p^2-m^2 + i\epsilon}$. The Feynman propagators are the building blocks for the higher order correlation functions needed for the scattering and decay amplitudes. Take the four point correlation function as an example,
+In momentum space K is diagonal and $\mathcal{D}_F = \frac{i}{p^2-m^2 + i\epsilon}$. The Feynman propagators are the building blocks for the higher order correlation functions. Take the four point correlation function as an example,
 
 \begin{equation}
 \begin{split}
@@ -1122,7 +1122,7 @@ In momentum space K is diagonal and $\mathcal{D}_F = \frac{i}{p^2-m^2 + i\epsilo
 {\int \mathcal{D}[\Phi]e^{i\int_{-\infty}^{\infty} d^4x \frac{1}{2}\Phi (-\partial_\mu\partial^\mu - m^2)\Phi}} \\
 &= \frac{\delta}{\delta J(x_4)}\frac{\delta}{\delta J(x_3)}\frac{\delta}{\delta J(x_2)}\frac{\delta}{\delta J(x_1)}\Big|_{J=0}e^{-\frac{1}{2}\int d^4x d^4y J(y) \mathcal{D}_F(y,x) J(x)} \\
 &= \frac{\delta}{\delta J(x_4)}\frac{\delta}{\delta J(x_3)}\frac{\delta}{\delta J(x_2)}\frac{\delta}{\delta J(x_1)}\Big|_{J=0} 
-\sum_{n=0}^\infty \left( -\frac{1}{2}\int d^4x d^4y J(y) \mathcal{D}_F(y,x) J(x) \right)^n. 
+\sum_{n=0}^\infty \frac{1}{n!}\left( -\frac{1}{2}\int d^4x d^4y J(y) \mathcal{D}_F(y,x) J(x) \right)^n. 
 \end{split}
 \end{equation}
 When J=0 only the term with four Js and four derivatives survives. The four derivatives hit the Js and leave terms like $\mathcal{D}_F(d,c) \mathcal{D}_F(b,a)$. In this case, there are $^4C_2 = \frac{4!}{2!2!2!} = 3$ ways for the derivatives to hit the Js \footnote{Choose two from four where the order doesn't matter.}. 
@@ -1131,12 +1131,36 @@ When J=0 only the term with four Js and four derivatives survives. The four deri
 \begin{split}
 &\bra{0}\Phi(x_4)\Phi(x_3)\Phi(x_2)\Phi(x_1)\ket{0} \\
 &= \frac{\delta}{\delta J(x_4)}\frac{\delta}{\delta J(x_3)}\frac{\delta}{\delta J(x_2)}\frac{\delta}{\delta J(x_1)}\Big|_{J=0} 
-\frac{1}{4}\int d^4y_j d^4x_j d^4y_i d^4x_i J(y_j) J(x_j) J(y_i) J(x_i) \mathcal{D}_F(y_j,x_j) \mathcal{D}_F(y_i,x_i) \\ 
+\frac{1}{8}\int d^4y_j d^4x_j d^4y_i d^4x_i J(y_j) J(x_j) J(y_i) J(x_i) \mathcal{D}_F(y_j,x_j) \mathcal{D}_F(y_i,x_i) \\ 
 %&= \frac{1}{4} \left( 2\mathcal{D}_F(x_4, x_3) 2\mathcal{D}_F(x_2, x_1) + 2\mathcal{D}_F(x_4, x_2) 2\mathcal{D}_F(x_3, x_1) + 2\mathcal{D}_F(x_3, x_2) 2\mathcal{D}_F(x_4, x_1) \right) \\
 &= \mathcal{D}_F(x_4, x_3) \mathcal{D}_F(x_2, x_1) + \mathcal{D}_F(x_4, x_2) \mathcal{D}_F(x_3, x_1) + \mathcal{D}_F(x_3, x_2) \mathcal{D}_F(x_4, x_1) \\
 \end{split}
 \end{equation}
+Other correlation functions are built from the propagators in the same way. 
 
+Solving the free theory is nice, but it isn't that useful. Particles interact and the interacting solutions are the ones needed to describe scattering and decays. The interacting theories are expanded in terms of the free correlations, e.g. the two point correlation function for an interacting theory is given by,
+
+\begin{equation}
+\begin{split}
+\bra{0}\Phi(x_2)\Phi(x_1)\ket{0} &= 
+\frac{\int \mathcal{D}[\Phi]\Phi(x_2)\Phi(x_1)e^{i\int_{-\infty}^{\infty} d^4x \frac{1}{2}\Phi (-\partial_\mu\partial^\mu - m^2)\Phi + \mathcal{L}_{int}}}
+{\int \mathcal{D}[\Phi]e^{i\int_{-\infty}^{\infty} d^4x \frac{1}{2}\Phi (-\partial_\mu\partial^\mu - m^2)\Phi + \mathcal{L}_{int}}} \\
+&= \frac{\int \mathcal{D}[\Phi]\Phi(x_2)\Phi(x_1)
+e^{i\int_{-\infty}^{\infty} d^4x \frac{1}{2}\Phi (-\partial_\mu\partial^\mu - m^2)\Phi} e^{i\int_{-\infty}^{\infty} d^4x \mathcal{L}_{int}}}
+{\int \mathcal{D}[\Phi]e^{i\int_{-\infty}^{\infty} d^4x \frac{1}{2}\Phi (-\partial_\mu\partial^\mu - m^2)\Phi}  e^{i\int_{-\infty}^{\infty} d^4x \mathcal{L}_{int}}} \\
+&= \frac{\int \mathcal{D}[\Phi]\Phi(x_2)\Phi(x_1)
+e^{i\int_{-\infty}^{\infty} d^4x \frac{1}{2}\Phi (-\partial_\mu\partial^\mu - m^2)\Phi} \sum_{n=0}^{\infty} \frac{1}{n!}\left(i\int_{-\infty}^{\infty} d^4x \mathcal{L}_{int}\right)^n}
+{\int \mathcal{D}[\Phi]e^{i\int_{-\infty}^{\infty} d^4x \frac{1}{2}\Phi (-\partial_\mu\partial^\mu - m^2)\Phi} \sum_{n=0}^{\infty} \frac{1}{n!}\left(i\int_{-\infty}^{\infty} d^4x \mathcal{L}_{int}\right)^n }, \\
+\end{split}
+\end{equation}
+where $\mathcal{L}_{int}$ may be written as a powerseries in $\Phi$. Expanding this way, the numerator becomes a series of integrals of the form
+
+\begin{equation}
+\int d^4x_{i_1}d^4x_{i_2} ... d^4x_{i_k} \int \mathcal{D}[\Phi]\Phi(x_{i_1})...\Phi(x_{i_k})\Phi(x_2)\Phi(x_1)e^{i\int_{-\infty}^{\infty} d^4x \frac{1}{2}\Phi (-\partial_\mu\partial^\mu - m^2)\Phi},
+\end{equation} 
+which are just correlation functions of the free field. Likewise, the denominator is also an expansion of the free correlations. In this way any correlation function of the full theory may be written in terms of the free field solutions. Furthermore, when the interaction is small compared to the free part of the Lagrangian, the series expansions converge, and only a few terms are needed.   
+
+The simplest interacting theory is $\mathcal{L}_{int} = \Phi^4(x)$.
 \subsection{The Higgs Mechanism}
 
 \begin{figure}[h!]
