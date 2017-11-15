@@ -1127,7 +1127,7 @@ The Feynman propagators are the building blocks for the higher order correlation
 \sum_{n=0}^\infty \frac{1}{n!}\left( -\frac{1}{2}\int d^4x d^4y J(y) \mathcal{D}_F(y,x) J(x) \right)^n. 
 \end{split}
 \end{equation}
-When J=0 only the term with four Js and four derivatives survives. The four derivatives hit the Js and leave terms like $\mathcal{D}_F(d,c) \mathcal{D}_F(b,a)$. In this case, there are $^4C_2 = \frac{4!}{2!2!2!} = 3$ ways for the derivatives to hit the Js \footnote{Choose two from four where the order doesn't matter.}. 
+When J=0 only the term with four Js and four derivatives survives. The four derivatives hit the Js and leave terms like $\mathcal{D}_F(d,c) \mathcal{D}_F(b,a)$. In this case, there are 4!=24 ways to rearrange a,b,c, and d. However, the order of the spacetime points within the propagator doesn't matter nor does the order of the propagators, so this reduces the total to $\frac{4!}{2!2^2}$ = 3 ways. The $\frac{1}{n!}$ and the $\frac{1}{2^n}$ from the expansion naturally take care of the degeneracy,
 
 \begin{equation}
 \begin{split}
@@ -1135,12 +1135,12 @@ When J=0 only the term with four Js and four derivatives survives. The four deri
 &= \frac{\delta}{\delta J(x_4)}\frac{\delta}{\delta J(x_3)}\frac{\delta}{\delta J(x_2)}\frac{\delta}{\delta J(x_1)}\Big|_{J=0} 
 \frac{1}{8}\int d^4y_j d^4x_j d^4y_i d^4x_i J(y_j) J(x_j) J(y_i) J(x_i) \mathcal{D}_F(y_j,x_j) \mathcal{D}_F(y_i,x_i) \\ 
 %&= \frac{1}{4} \left( 2\mathcal{D}_F(x_4, x_3) 2\mathcal{D}_F(x_2, x_1) + 2\mathcal{D}_F(x_4, x_2) 2\mathcal{D}_F(x_3, x_1) + 2\mathcal{D}_F(x_3, x_2) 2\mathcal{D}_F(x_4, x_1) \right) \\
-&= \mathcal{D}_F(x_4, x_3) \mathcal{D}_F(x_2, x_1) + \mathcal{D}_F(x_4, x_2) \mathcal{D}_F(x_3, x_1) + \mathcal{D}_F(x_3, x_2) \mathcal{D}_F(x_4, x_1)
+&= \mathcal{D}_F(x_4, x_3) \mathcal{D}_F(x_2, x_1) + \mathcal{D}_F(x_4, x_2) \mathcal{D}_F(x_3, x_1) + \mathcal{D}_F(x_3, x_2) \mathcal{D}_F(x_4, x_1).
 \end{split}
 \end{equation}
-Any higher order correlation functions are built from the propagators in the same way. 
+Any higher order correlation functions are built from the propagators in the same way: add up all possible combinations of the propagators for the appropriate order and account for the ordering degeneracies.  
 
-Solving the free theory is nice, but it isn't that useful. Particles interact and the interacting solutions are the ones needed to describe scattering and decays. The interacting theories are expanded in terms of the free correlations. For example, the two point correlation function for an interacting theory is given by,
+Solving the free theory is nice, but it isn't that useful. Particles interact and the interacting solutions are the ones needed to describe scattering and decays. Fortunately, the interacting theories can be expanded in terms of the free correlations. For example, the two point correlation function for an interacting theory is given by,
 
 \begin{equation}
 \begin{split}
@@ -1162,7 +1162,35 @@ where $\mathcal{L}_{int}$ may be written as a powerseries in $\Phi$. Expanding t
 \end{equation} 
 which are just correlation functions of the free field. Likewise, the denominator is also an expansion of the free correlations. In this way any correlation function of the full theory may be written in terms of the free field solutions. Furthermore, when the interaction is small compared to the free part of the Lagrangian, the series expansions converge, and only a few terms are needed.   
 
-The simplest interacting theory is $\mathcal{L}_{int} = \Phi^4(x)$.
+The simplest interacting theory is $\mathcal{L}_{int} = -\frac{\lambda}{4!}\Phi^4(x)$, and the two point correlation function describing the propagation of a particle is given by
+
+\begin{equation}
+\begin{split}
+&\bra{0}\Phi(x_2)\Phi(x_1)\ket{0} = \\ 
+& \frac{\int \mathcal{D}[\Phi]\Phi(x_2)\Phi(x_1)
+e^{i\int_{-\infty}^{\infty} d^4x \frac{1}{2}\Phi (-\partial_\mu\partial^\mu - m^2)\Phi} \sum_{n=0}^{\infty} \frac{1}{n!}\left(\int_{-\infty}^{\infty} d^4z \frac{-i\lambda}{4!}\Phi(z)^4\right)^n}
+{\int \mathcal{D}[\Phi]e^{i\int_{-\infty}^{\infty} d^4x \frac{1}{2}\Phi (-\partial_\mu\partial^\mu - m^2)\Phi} \sum_{n=0}^{\infty} \frac{1}{n!}\left(\int_{-\infty}^{\infty} d^4z \frac{-i\lambda}{4!}\Phi(z)^4 \right)^n }. \\
+\end{split}
+\end{equation}
+Consider the numerator up to first order in $\lambda$
+
+\begin{equation}
+\begin{split}
+N(\lambda^1) &= \int \mathcal{D}[\Phi]\Phi(x_2)\Phi(x_1)
+e^{i\int_{-\infty}^{\infty} d^4x \frac{1}{2}\Phi (-\partial_\mu\partial^\mu - m^2)\Phi} \left(1 + \int_{-\infty}^{\infty} d^4z \frac{-i\lambda}{4!}\Phi(z)^4\right) \\
+&=  \mathcal{D}_F(x_2,x_1) +  
+\int_{-\infty}^{\infty} d^4z \frac{-i\lambda}{4!} \int \mathcal{D}[\Phi]\Phi(x_2)\Phi(x_1)\Phi(z)^4e^{i\int_{-\infty}^{\infty} d^4x \frac{1}{2}\Phi (-\partial_\mu\partial^\mu - m^2)\Phi}\\
+\end{split}.
+\end{equation}
+The first term is just the Feynman propagator. The order $\lambda$ term contains a correlation function with six $\Phi$s. Solving the integral requires adding up all combinations of terms of the form $\mathcal{D}_F(a,b) \mathcal{D}_F(c,d) \mathcal{D}_F(e,f)$ while accounting for the appropriate degeneracies. There are $\frac{6!}{3!2^3}$ = 15 possible propagator triples: 12 ways to put x and y in separate propagators and 3 ways to put them in the same one.  
+
+\begin{equation}
+\begin{split}
+N(\lambda^1) &= \mathcal{D}_F(x_2,x_1) + 3 \int_{-\infty}^{\infty} d^4z \frac{-i\lambda}{4!} \mathcal{D}_F(x_2,x_1) \int_{-\infty}^{\infty} d^4z \mathcal{D}_F(z,z) \mathcal{D}_F(z,z) \\ 
+&+ 12 \int_{-\infty}^{\infty} d^4z \frac{-i\lambda}{4!} \mathcal{D}_F(x_2,z) \mathcal{D}_F(x_1,z) \mathcal{D}_F(z,z) 
+\end{split}.
+\end{equation}
+
 \subsection{The Higgs Mechanism}
 
 \begin{figure}[h!]
