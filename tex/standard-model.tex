@@ -1138,7 +1138,7 @@ When J=0 only the term with four Js and four derivatives survives. The four deri
 &= \mathcal{D}_F(x_4, x_3) \mathcal{D}_F(x_2, x_1) + \mathcal{D}_F(x_4, x_2) \mathcal{D}_F(x_3, x_1) + \mathcal{D}_F(x_3, x_2) \mathcal{D}_F(x_4, x_1).
 \end{split}
 \end{equation}
-Any higher order correlation functions are built from the propagators in the same way: add up all possible combinations of the propagators for the appropriate order and account for the ordering degeneracies.  
+Any higher order correlation functions are built from the propagators in the same way: add up all possible combinations of the propagators for the appropriate order and account for the degeneracies.  
 
 Solving the free theory is nice, but it isn't that useful. Particles interact and the interacting solutions are the ones needed to describe scattering and decays. Fortunately, the interacting theories can be expanded in terms of the free correlations. For example, the two point correlation function for an interacting theory is given by,
 
@@ -1160,7 +1160,7 @@ where $\mathcal{L}_{int}$ may be written as a powerseries in $\Phi$. Expanding t
 \begin{equation}
 \int d^4x_{i_1}d^4x_{i_2} ... d^4x_{i_k} \int \mathcal{D}[\Phi]\Phi(x_{i_1})...\Phi(x_{i_k})\Phi(x_2)\Phi(x_1)e^{i\int_{-\infty}^{\infty} d^4x \frac{1}{2}\Phi (-\partial_\mu\partial^\mu - m^2)\Phi},
 \end{equation} 
-which are just correlation functions of the free field. Likewise, the denominator is also an expansion of the free correlations. In this way any correlation function of the full theory may be written in terms of the free field solutions. Furthermore, when the interaction is small compared to the free part of the Lagrangian, the series expansions converge, and only a few terms are needed.   
+which are just correlation functions of the free field. Likewise, the denominator is also an expansion of the free correlations. In this way any solution of the full theory may be written in terms of the free field solutions. Furthermore, when the interaction is small compared to the free part of the Lagrangian, the series expansions converge, and only a few terms are needed.   
 
 The simplest interacting theory is $\mathcal{L}_{int} = -\frac{\lambda}{4!}\Phi^4(x)$, and the two point correlation function describing the propagation of a particle is given by
 
@@ -1182,14 +1182,29 @@ e^{i\int_{-\infty}^{\infty} d^4x \frac{1}{2}\Phi (-\partial_\mu\partial^\mu - m^
 \int_{-\infty}^{\infty} d^4z \frac{-i\lambda}{4!} \int \mathcal{D}[\Phi]\Phi(x_2)\Phi(x_1)\Phi(z)^4e^{i\int_{-\infty}^{\infty} d^4x \frac{1}{2}\Phi (-\partial_\mu\partial^\mu - m^2)\Phi}\\
 \end{split}.
 \end{equation}
-The first term is just the Feynman propagator. The order $\lambda$ term contains a correlation function with six $\Phi$s. Solving the integral requires adding up all combinations of terms of the form $\mathcal{D}_F(a,b) \mathcal{D}_F(c,d) \mathcal{D}_F(e,f)$ while accounting for the appropriate degeneracies. There are $\frac{6!}{3!2^3}$ = 15 possible propagator triples: 12 ways to put x and y in separate propagators and 3 ways to put them in the same one.  
+The first term is just the Feynman propagator, but the order $\lambda$ term contains a correlation function with six $\Phi$s. Solving the six point integral requires adding up all combinations of terms of the form $\mathcal{D}_F(a,b) \mathcal{D}_F(c,d) \mathcal{D}_F(e,f)$ while accounting for the appropriate degeneracies. There are $\frac{6!}{3!2^3}$ = 15 possible propagator triples: 12 ways to put x and y in separate propagators and 3 ways to put them in the same one. With this information the perturbation series for the numerator is finally in hand, 
 
 \begin{equation}
 \begin{split}
-N(\lambda^1) &= \mathcal{D}_F(x_2,x_1) + 3 \frac{-i\lambda}{4!} \mathcal{D}_F(x_2,x_1) \int_{-\infty}^{\infty} d^4z \mathcal{D}_F(z,z) \mathcal{D}_F(z,z) \\ 
-&+ 12 \frac{-i\lambda}{4!} \int_{-\infty}^{\infty} d^4z \mathcal{D}_F(x_2,z) \mathcal{D}_F(x_1,z) \mathcal{D}_F(z,z) 
+N(\lambda^1) &= \underbracket[0.8pt]{\mathcal{D}_F(x_2,x_1)}_\text{A} 
++ \frac{12}{4!} \underbracket[0.8pt]{(-i\lambda)\int_{-\infty}^{\infty} d^4z \mathcal{D}_F(x_2,z) \mathcal{D}_F(x_1,z) \mathcal{D}_F(z,z)}_\text{B} \\ 
+&+ \frac{3}{4!}\underbracket[0.8pt]{(-i\lambda)\mathcal{D}_F(x_2,x_1) \int_{-\infty}^{\infty} d^4z \mathcal{D}_F(z,z) \mathcal{D}_F(z,z)}_\text{C} 
 \end{split}.
-\end{equation}
+\end{equation} 
+
+N$(\lambda^1)$ can be represented pictorally in terms of Feynman diagrams, which assign mathematical expressions to the symbolic representations of the propagators and the interaction vertices. Note that A and B are fully connected while C is disconnected. The separation reveals the fact that the pieces may be calculated independently and then multiplied. The fully connected pieces are the fundamental expressions from which any correlation function may be derived. There are two types of connected diagrams, those with external points and those with no external points. Those with zero external points represent vacuum fluctuations. 
+
+\begin{figure}[htbp]
+     \centering
+   \mbox{
+      \subfigure [] {\includegraphics[scale=1]{images/d0.pdf}} \qquad
+      \subfigure []{\includegraphics[scale=1]{images/d1.pdf}} \qquad
+      \subfigure [] {\includegraphics[scale=1]{images/d2.pdf}} \qquad
+     }
+    \caption[Feynman diagrams for the Numerator N$(\lambda^1)$ = A + B + C respectively.]
+    {Feynman diagrams for N$(\lambda^1)$ = A + $\frac{12}{4!}$B + $\frac{3}{4!}$C respectively.}
+    \label{feynfullprop}
+\end{figure}
 
 \subsection{The Higgs Mechanism}
 
