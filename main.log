@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2017.8.22)  15 NOV 2017 22:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2017.8.22)  16 NOV 2017 17:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1145,115 +1145,104 @@ cmbr/m/n/12 (t[], [])\OML/cmm/m/it/12  []\OT1/cmbr/m/n/12 (t[], [])\OML/cmm/m/i
 t/12  []\OT1/cmbr/m/n/12 (t[], []) [] = [],
  []
 
-[55] [56] [57]
-Overfull \hbox (66.73582pt too wide) in paragraph at lines 1129--1129
+[55] [56]
+Overfull \hbox (66.73582pt too wide) in paragraph at lines 1130--1130
 []  
  []
 
-
-Overfull \hbox (2.9112pt too wide) in paragraph at lines 1140--1140
+[57]
+Overfull \hbox (2.9112pt too wide) in paragraph at lines 1141--1141
 []  
  []
 
-[58] [59] <images/d0.pdf, id=673, 85.67407pt x 19.19974pt>
+[58] [59] <images/d0.pdf, id=675, 85.67407pt x 19.19974pt>
 File: images/d0.pdf Graphic file (type pdf)
  <use images/d0.pdf>
-Package pdftex.def Info: images/d0.pdf used on input line 1204.
+Package pdftex.def Info: images/d0.pdf used on input line 1205.
 (pdftex.def)             Requested size: 85.67384pt x 19.19968pt.
 
-<images/d1.pdf, id=674, 154.51727pt x 68.74884pt>
+<images/d1.pdf, id=676, 154.51727pt x 68.74884pt>
 File: images/d1.pdf Graphic file (type pdf)
  <use images/d1.pdf>
-Package pdftex.def Info: images/d1.pdf used on input line 1204.
+Package pdftex.def Info: images/d1.pdf used on input line 1205.
 (pdftex.def)             Requested size: 154.51689pt x 68.74866pt.
 
-<images/d2.pdf, id=675, 181.79218pt x 97.1068pt>
+<images/d2.pdf, id=677, 181.79218pt x 97.1068pt>
 File: images/d2.pdf Graphic file (type pdf)
  <use images/d2.pdf>
-Package pdftex.def Info: images/d2.pdf used on input line 1204.
+Package pdftex.def Info: images/d2.pdf used on input line 1205.
 (pdftex.def)             Requested size: 181.79172pt x 97.10654pt.
 
-Overfull \hbox (39.14822pt too wide) in paragraph at lines 1204--1206
+Overfull \hbox (39.14822pt too wide) in paragraph at lines 1205--1207
  [][] 
  []
 
-<images/ggf.png, id=676, 356.33125pt x 229.85875pt>
+[60 <./images/d0.pdf> <./images/d1.pdf> <./images/d2.pdf>]
+<images/ggf.png, id=750, 356.33125pt x 229.85875pt>
 File: images/ggf.png Graphic file (type png)
  <use images/ggf.png>
-Package pdftex.def Info: images/ggf.png used on input line 1214.
+Package pdftex.def Info: images/ggf.png used on input line 1223.
 (pdftex.def)             Requested size: 108.405pt x 69.92618pt.
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[60 <./images/d0.pdf> <./images/d1.pdf> <./images/d2.pdf>]
-<images/14TeV_higgs_cross_sections.png, id=750, 569.0058pt x 409.0482pt>
+[61 <./images/ggf.png>]
+<images/14TeV_higgs_cross_sections.png, id=757, 569.0058pt x 409.0482pt>
 File: images/14TeV_higgs_cross_sections.png Graphic file (type png)
 
 <use images/14TeV_higgs_cross_sections.png>
 Package pdftex.def Info: images/14TeV_higgs_cross_sections.png used on input li
-ne 1231.
+ne 1240.
 (pdftex.def)             Requested size: 361.34999pt x 259.76768pt.
 
 
-Package natbib Warning: Citation `crossbranchplots' on page 61 undefined on inp
-ut line 1233.
+Package natbib Warning: Citation `crossbranchplots' on page 62 undefined on inp
+ut line 1242.
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<images/Higgs_BR.png, id=751, 569.12625pt x 546.04pt>
+<images/Higgs_BR.png, id=758, 569.12625pt x 546.04pt>
 File: images/Higgs_BR.png Graphic file (type png)
 
 <use images/Higgs_BR.png>
-Package pdftex.def Info: images/Higgs_BR.png used on input line 1243.
+Package pdftex.def Info: images/Higgs_BR.png used on input line 1252.
 (pdftex.def)             Requested size: 216.81pt x 208.01393pt.
 
 
-Package natbib Warning: Citation `crossbranchplots' on page 61 undefined on inp
-ut line 1260.
+Package natbib Warning: Citation `crossbranchplots' on page 62 undefined on inp
+ut line 1269.
 
-[61 <./images/ggf.png>]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1264--1264
+Underfull \hbox (badness 10000) in paragraph at lines 1273--1273
 [][]\OT1/cmss/m/n/12 The Higgs also couples to the electron and the first gener
 ation quarks but the masses are
  []
 
-<images/higgs_production_modes.png, id=758, 559.8516pt x 414.348pt>
+<images/higgs_production_modes.png, id=760, 559.8516pt x 414.348pt>
 File: images/higgs_production_modes.png Graphic file (type png)
 
 <use images/higgs_production_modes.png>
 Package pdftex.def Info: images/higgs_production_modes.png used on input line 1
-267.
+276.
 (pdftex.def)             Requested size: 289.07999pt x 213.95113pt.
-
+ [62 <./images/14TeV_higgs_cross_sections.png (PNG copy)>]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Package natbib Warning: Citation `crossbranchplots' on page 62 undefined on inp
-ut line 1273.
+Package natbib Warning: Citation `crossbranchplots' on page 63 undefined on inp
+ut line 1282.
 
-[62 <./images/14TeV_higgs_cross_sections.png (PNG copy)>]
-
-LaTeX Warning: Text page 63 contains only floats.
-
-[63 <./images/Higgs_BR.png> <./images/higgs_production_modes.png>]
-<images/qg_scattering.png, id=769, 314.17375pt x 215.80624pt>
+[63 <./images/Higgs_BR.png>]
+<images/qg_scattering.png, id=771, 314.17375pt x 215.80624pt>
 File: images/qg_scattering.png Graphic file (type png)
 
 <use images/qg_scattering.png>
-Package pdftex.def Info: images/qg_scattering.png used on input line 1279.
+Package pdftex.def Info: images/qg_scattering.png used on input line 1288.
 (pdftex.def)             Requested size: 144.54pt x 99.28195pt.
-) [64 <./images/qg_scattering.png>]
+) [64 <./images/higgs_production_modes.png> <./images/qg_scattering.png>]
 \openout2 = `tex/chapter4.aux'.
 
-
-(./tex/chapter4.tex
+ (./tex/chapter4.tex
 ***************************
 CHAPTER 4.
 ***************************
@@ -1340,7 +1329,7 @@ nverted-to.pdf images/LaTeX2e_logo.eps>
 (epstopdf)             \includegraphics on input line 10.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/LaTeX2e_logo-eps-converted-to.pdf, id=814, 701.62125pt x 214.8025pt>
+<images/LaTeX2e_logo-eps-converted-to.pdf, id=816, 701.62125pt x 214.8025pt>
 File: images/LaTeX2e_logo-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/LaTeX2e_logo-eps-converted-to.pdf>
@@ -1438,8 +1427,8 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 194.
  ) 
 Here is how much of TeX's memory you used:
- 9460 strings out of 494954
- 137571 string characters out of 6181003
+ 9461 strings out of 494954
+ 137599 string characters out of 6181003
  234159 words of memory out of 5000000
  12173 multiletter control sequences out of 15000+600000
  12181 words of font info for 48 fonts, out of 8000000 for 9000
@@ -1467,10 +1456,10 @@ fonts/type1/public/amsfonts/cm/cmssi12.pfb></usr/share/texlive/texmf-dist/fonts
 /public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
 ts/symbols/msbm10.pfb>
-Output written on main.pdf (85 pages, 2358356 bytes).
+Output written on main.pdf (85 pages, 2359991 bytes).
 PDF statistics:
- 1008 PDF objects out of 1200 (max. 8388607)
- 867 compressed objects within 9 object streams
- 285 named destinations out of 1000 (max. 500000)
+ 1010 PDF objects out of 1200 (max. 8388607)
+ 869 compressed objects within 9 object streams
+ 286 named destinations out of 1000 (max. 500000)
  451 words of extra memory for PDF output out of 10000 (max. 10000000)
 

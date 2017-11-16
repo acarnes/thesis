@@ -996,12 +996,12 @@ S(x) = \int dt L = \frac{m}{2} \int_{t_0}^{t_f} dt \dot{x}^2 = \frac{m}{2} \sum_
 = \frac{m}{2} \sum_i \frac{(x(t_i) - x(t_{i-1}))^2}{\Delta t}.
 \end{equation}
 The amplitude for the path is then given by, 
-
+%
 \begin{equation}
 \mathcal{A}(x) = e^{i\frac{m}{2}\frac{(x(t_f) - x(t_{f-1}))^2}{\Delta t}}e^{i\frac{m}{2}\frac{(x(t_{f-1}) - x(t_{f-2}))^2}{\Delta t}}...e^{i\frac{m}{2}\frac{(x(t_1) - x(t_{0}))^2}{\Delta t}}.
 \end{equation}
 Summing over all paths, $x(t)$, with fixed endpoints, $x(t_0) = x_0$ and $x(t_f) = x_f$, provides the net amplitude 
-
+%
 \begin{equation}
 \begin{split}
 \mathcal{A} &= \sum_{x} \mathcal{A}(x) = \sum_{x(t_f-1)} \sum_{x(t_f-2)} ... \sum_{x(t_1)} 
@@ -1026,18 +1026,18 @@ Integrating by parts and using the average velocity $v = \frac{x_f-x_0}{t_f - t_
 The normalization $\mathcal{N}$ is fixed by requiring that the probability for the particle to be somewhere at $t_f$ is one. In other words, integrating over all $x_f$ for constant $x_0, t_0, t_f$ should give one. A more rigorous derivation of this propagator can be found in {\color{red} Feynman and Hibbs} for example.
 
 In general the amplitude to go from $\phi(t_0) = \phi_0$ to $\phi(t_f) = \phi_f$ is determined by the path integral, 
-
+%
 \begin{equation}
 \mathcal{A}(\phi_f, t_f; \phi_0, t_0) = \braket{\phi_f,t_f|\phi_0,t_0} = \int \mathcal{D}[\cdot] e^{i\int_{t_0}^{t_f} dt L}.
 \end{equation}
 Furthermore, the expectation value for an operation performed at time $t_1$ when the system starts in the state $\phi(t_0) = \phi_0$ and ends in $\phi(t_f) = \phi_f$ is
-
+%
 \begin{equation}
 |\bra{\phi_f,t_f}\mathcal{O}(t_1)\ket{\phi_0,t_0}|^2 = \left|\int \mathcal{D}[\cdot] \mathcal{O}(t_1) e^{i\int_{t_0}^{t_f} dt L}\right|^2.
 \end{equation}
 
 Of particular importance for QFT are scattering events. When two particles are measured at $(t_1,\vec{x}_1)$ and $(t_2,\vec{x}_2)$ some time in the past, what is the amplitude to measure two particles at $(t_3,\vec{x}_3)$ and $(t_4,\vec{x}_4)$ some time in the future? Considering that particles are in fact disturbances in the field, an equivalent question may be asked. How is the field amplitude correlated between spacetime points $(t_4, \vec{x}_4), (t_3, \vec{x}_3), (t_2, \vec{x}_2),$ and $(t_1, \vec{x}_1)$. So for two to two scattering the amplitude is given by
-
+%
 \begin{equation}
 \bra{0}\psi_i(t_4,\vec{x}_4)\psi_j(t_3,\vec{x}_3)\psi_k(t_2,\vec{x}_2)\psi_l(t_1,\vec{x}_1)\ket{0} = 
 \frac{\int \mathcal{D}[\cdot]\psi_i(t_4,\vec{x}_4)\psi_j(t_3,\vec{x}_3)\psi_k(t_2,\vec{x}_2)\psi_l(t_1,\vec{x}_1)
@@ -1071,25 +1071,25 @@ Transforming to the eigenbasis yields a multidimensional Gaussian integral
  \int d\Phi_1 d\Phi_2 ... d\Phi_N e^{i\frac{1}{2}\Phi_{i} K_{ij} \Phi_{j}} 
  &= \int d\tilde{\Phi}_1 d\tilde{\Phi}_2 ... d\tilde{\Phi}_N e^{i\frac{1}{2}\tilde{\Phi}_{i} \tilde{K}_{ij} \tilde{\Phi}_{j}} 
  = \int d\tilde{\Phi}_1 d\tilde{\Phi}_2 ... d\tilde{\Phi}_N e^{\frac{-1}{2i} \tilde{k}_i \tilde{\Phi}_{i}^2} \\ 
-& = \prod_{i=1}^N \left( \frac{2i\pi}{\tilde{k}_i} \right)^\frac{1}{2} = \frac{\left( 2i\pi \right)^{N/2}}{ \left( detK \right)^\frac{1}{2}}.
+& = \prod_{i=1}^N \left( \frac{2i\pi}{\tilde{k}_i} \right)^\frac{1}{2} = \frac{\left( 2i\pi \right)^{N/2}}{ \left( detK \right)^\frac{1}{2}} \equiv Z_0.
 \end{split}
 \end{equation}
 
 The solution uses the fact that the determinant is the product of eigenvalues. The integral from the numerator can be dealt with by taking derivatives of the moment generating function 
-
+%
 \begin{equation}
 \int d\Phi_1 d\Phi_2 ... d\Phi_N \Phi_k\Phi_l e^{i\frac{1}{2}\Phi_{i} K_{ij} \Phi_{j}} 
 = \frac{1}{i}\frac{\delta}{\delta J_k}\frac{1}{i}\frac{\delta}{\delta J_l}\Big|_{J=0} 
 \int d\Phi_1 d\Phi_2 ... d\Phi_N e^{i\frac{1}{2}\Phi_{i} K_{ij} \Phi_{j} + iJ_i\Phi_i}. 
 \end{equation}
 And the integral on the right can be solved using the substitution $\Phi' = \Phi + K^{-1}J$ to complete the square, 
-
+%
 \begin{equation}
 \begin{split}
 \int d\Phi_1 d\Phi_2 ... d\Phi_N e^{i\frac{1}{2}\Phi_{i} K_{ij} \Phi_{j} + iJ_i\Phi_i} 
 &= \int d\Phi'_1 d\Phi'_2 ... d\Phi'_N e^{i\frac{1}{2}\Phi'_{i} K_{ij} \Phi'_{j} - \frac{i}{2}J_i K^{-1}_{ij} J_j}\\ 
 &= \frac{\left( 2i\pi \right)^{N/2}}{ \left( detK \right)^\frac{1}{2}}e^{\frac{-i}{2}J_i K^{-1}_{ij} J_j}\\
-&= \frac{\left( 2i\pi \right)^{N/2}}{ \left( detK \right)^\frac{1}{2}}e^{\frac{-i}{2}\int d^4x d^4y J(y) K^{-1}(y,x) J(x)},\\
+&= Z_0e^{\frac{-i}{2}\int d^4x d^4y J(y) K^{-1}(y,x) J(x)},\\
 \end{split}
 \end{equation}
 where the last line reverts back to continuous functions and operators. Applying the derivatives provides the numerator of the two point correlation function 
@@ -1097,24 +1097,25 @@ where the last line reverts back to continuous functions and operators. Applying
 \begin{split}
 \int d\Phi_1 d\Phi_2 ... d\Phi_N \Phi_k\Phi_l e^{i\frac{1}{2}\Phi_{i} K_{ij} \Phi_{j}} 
 & = \frac{1}{i}\frac{\delta}{\delta J_k}\frac{1}{i}\frac{\delta}{\delta J_l}\Big|_{J=0} \int d\Phi_1 d\Phi_2 ... d\Phi_N e^{i\frac{1}{2}\Phi_{i} K_{ij} \Phi_{j} + iJ_i\Phi_i} \\
-& = \frac{1}{i}\frac{\delta}{\delta J_k}\frac{1}{i}\frac{\delta}{\delta J_l}\Big|_{J=0} \frac{\left( 2i\pi \right)^{N/2}}{ \left( detK \right)^\frac{1}{2}}e^{\frac{-i}{2}J_i K^{-1}_{ij} J_j} \\ 
-& = \frac{\left( 2i\pi \right)^{N/2}}{ \left( detK \right)^\frac{1}{2}} iK^{-1}_{ij}. \\
+& = \frac{1}{i}\frac{\delta}{\delta J_k}\frac{1}{i}\frac{\delta}{\delta J_l}\Big|_{J=0} Z_0e^{\frac{-i}{2}J_i K^{-1}_{ij} J_j} \\ 
+& = Z_0 iK^{-1}_{ij}. \\
 \end{split}
 \end{equation}
 Then plugging in the solutions for the numerator and denominator shows that the two point correlation function is given by the Feynman propagator, $\mathcal{D}_F$, 
-
+%
 \begin{equation}
 \begin{split}
 \bra{0}\Phi(x_2)\Phi(x_1)\ket{0} &= 
 \frac{\int \mathcal{D}[\Phi]\Phi(x_2)\Phi(x_1)e^{i\int_{-\infty}^{\infty} d^4x \frac{1}{2}\Phi (-\partial_\mu\partial^\mu - m^2)\Phi}}
 {\int \mathcal{D}[\Phi]e^{i\int_{-\infty}^{\infty} d^4x \frac{1}{2}\Phi (-\partial_\mu\partial^\mu - m^2)\Phi}} \\
+&= \frac{Z_0 iK^{-1}(x_2,x_1)}{Z_0} \\
 &= iK^{-1}(x_2,x_1) = i(-\partial_\mu\partial^\mu - m^2)^{-1} = \mathcal{D}_F(x_2,x_1).\\ 
 \end{split}
 \end{equation}
 In momentum space K is diagonal and $\mathcal{D}_F = \frac{i}{p^2-m^2 + i\epsilon}$. Converting to the spacetime basis yields, $\mathcal{D}_F(x_2,x_1) = \int \frac{d^4k}{\sqrt{2\pi}^4}\frac{i e^{-ik\cdot(x_2-x_1)}}{p^2-m^2 + i\epsilon}$. 
 
 The Feynman propagators are the building blocks for the higher order correlation functions. Take the four point function as an example,
-
+%
 \begin{equation}
 \begin{split}
 \bra{0}\Phi(x_4)\Phi(x_3)\Phi(x_2)\Phi(x_1)\ket{0} &= 
@@ -1128,7 +1129,7 @@ The Feynman propagators are the building blocks for the higher order correlation
 \end{split}
 \end{equation}
 When J=0 only the term with four Js and four derivatives survives. The four derivatives hit the Js and leave terms like $\mathcal{D}_F(d,c) \mathcal{D}_F(b,a)$. In this case, there are 4!=24 ways to rearrange a,b,c, and d. However, the order of the spacetime points within the propagator doesn't matter nor does the order of the propagators, so this reduces the total to $\frac{4!}{2!2^2}$ = 3 ways. The $\frac{1}{n!}$ and the $\frac{1}{2^n}$ from the expansion naturally take care of the degeneracy,
-
+%
 \begin{equation}
 \begin{split}
 &\bra{0}\Phi(x_4)\Phi(x_3)\Phi(x_2)\Phi(x_1)\ket{0} \\
@@ -1156,14 +1157,15 @@ e^{i\int_{-\infty}^{\infty} d^4x \frac{1}{2}\Phi (-\partial_\mu\partial^\mu - m^
 \end{split}
 \end{equation}
 where $\mathcal{L}_{int}$ may be written as a powerseries in $\Phi$. Expanding this way, the numerator becomes a series of integrals of the form
-
+%
 \begin{equation}
 \int d^4x_{i_1}d^4x_{i_2} ... d^4x_{i_k} \int \mathcal{D}[\Phi]\Phi(x_{i_1})...\Phi(x_{i_k})\Phi(x_2)\Phi(x_1)e^{i\int_{-\infty}^{\infty} d^4x \frac{1}{2}\Phi (-\partial_\mu\partial^\mu - m^2)\Phi},
 \end{equation} 
+%
 which are just correlation functions of the free field. Likewise, the denominator is also an expansion of the free correlations. In this way any solution of the full theory may be written in terms of the free field solutions. Furthermore, when the interaction is small compared to the free part of the Lagrangian, the series expansions converge, and only a few terms are needed.   
 
 The simplest interacting theory is $\mathcal{L}_{int} = -\frac{\lambda}{4!}\Phi^4(x)$, and the two point correlation function describing the propagation of a particle is given by
-
+%
 \begin{equation}
 \begin{split}
 &\bra{0}\Phi(x_2)\Phi(x_1)\ket{0} = \\ 
@@ -1172,28 +1174,28 @@ e^{i\int_{-\infty}^{\infty} d^4x \frac{1}{2}\Phi (-\partial_\mu\partial^\mu - m^
 {\int \mathcal{D}[\Phi]e^{i\int_{-\infty}^{\infty} d^4x \frac{1}{2}\Phi (-\partial_\mu\partial^\mu - m^2)\Phi} \sum_{n=0}^{\infty} \frac{1}{n!}\left(\int_{-\infty}^{\infty} d^4z \frac{-i\lambda}{4!}\Phi(z)^4 \right)^n }. \\
 \end{split}
 \end{equation}
+%
 Consider the numerator up to first order in $\lambda$
-
+%
 \begin{equation}
 \begin{split}
 N(\lambda^1) &= \int \mathcal{D}[\Phi]\Phi(x_2)\Phi(x_1)
 e^{i\int_{-\infty}^{\infty} d^4x \frac{1}{2}\Phi (-\partial_\mu\partial^\mu - m^2)\Phi} \left(1 + \int_{-\infty}^{\infty} d^4z \frac{-i\lambda}{4!}\Phi(z)^4\right) \\
-&=  \mathcal{D}_F(x_2,x_1) +  
+&=  Z_0\mathcal{D}_F(x_2,x_1) +  
 \int_{-\infty}^{\infty} d^4z \frac{-i\lambda}{4!} \int \mathcal{D}[\Phi]\Phi(x_2)\Phi(x_1)\Phi(z)^4e^{i\int_{-\infty}^{\infty} d^4x \frac{1}{2}\Phi (-\partial_\mu\partial^\mu - m^2)\Phi}\\
 \end{split}.
 \end{equation}
+%
 The first term is just the Feynman propagator, but the order $\lambda$ term contains a correlation function with six $\Phi$s. Solving the six point integral requires adding up all combinations of terms of the form $\mathcal{D}_F(a,b) \mathcal{D}_F(c,d) \mathcal{D}_F(e,f)$ while accounting for the appropriate degeneracies. There are $\frac{6!}{3!2^3}$ = 15 possible propagator triples: 12 ways to put x and y in separate propagators and 3 ways to put them in the same one. With this information the perturbation series for the numerator is finally in hand, 
-
 \begin{equation}
 \begin{split}
-N(\lambda^1) &= \underbracket[0.8pt]{\mathcal{D}_F(x_2,x_1)}_\text{A} 
-+ \frac{12}{4!} \underbracket[0.8pt]{(-i\lambda)\int_{-\infty}^{\infty} d^4z \mathcal{D}_F(x_2,z) \mathcal{D}_F(x_1,z) \mathcal{D}_F(z,z)}_\text{B} \\ 
-&+ \frac{3}{4!}\underbracket[0.8pt]{(-i\lambda)\mathcal{D}_F(x_2,x_1) \int_{-\infty}^{\infty} d^4z \mathcal{D}_F(z,z) \mathcal{D}_F(z,z)}_\text{C} 
+N(\lambda^1) &= Z_0\underbracket[0.8pt]{\mathcal{D}_F(x_2,x_1)}_\text{A} 
++ Z_0\frac{12}{4!} \underbracket[0.8pt]{(-i\lambda)\int_{-\infty}^{\infty} d^4z \mathcal{D}_F(x_2,z) \mathcal{D}_F(x_1,z) \mathcal{D}_F(z,z)}_\text{B} \\ 
+&+ Z_0\frac{3}{4!}\underbracket[0.8pt]{(-i\lambda)\mathcal{D}_F(x_2,x_1) \int_{-\infty}^{\infty} d^4z \mathcal{D}_F(z,z) \mathcal{D}_F(z,z)}_\text{C} 
 \end{split}.
 \end{equation} 
 
-N$(\lambda^1)$ can be represented pictorally in terms of Feynman diagrams, which assign mathematical expressions to the symbolic representations of the propagators and the interaction vertices. Note that A and B are fully connected while C is disconnected. The separation reveals the fact that the pieces may be calculated independently and then multiplied. The fully connected pieces are the fundamental expressions from which any correlation function may be derived. There are two types of connected diagrams, those with external points and those with no external points. Those with zero external points represent vacuum fluctuations. 
-
+N$(\lambda^1)$ can be represented pictorally in terms of Feynman diagrams, which assign mathematical expressions to the symbolic representations of the propagators and the interaction vertices. Note that in Figure \ref{fig:feynfullprop}, A and B are fully connected while C is disconnected. The separation reveals the fact that the pieces may be calculated independently and then multiplied. The fully connected pieces are the fundamental expressions from which any correlation function may be derived. There are two types of connected diagrams, those with external points and those with no external points. Those with zero external points represent vacuum fluctuations.
 \begin{figure}[htbp]
      \centering
    \mbox{
@@ -1201,10 +1203,18 @@ N$(\lambda^1)$ can be represented pictorally in terms of Feynman diagrams, which
       \subfigure []{\includegraphics[scale=1]{images/d1.pdf}} \qquad
       \subfigure [] {\includegraphics[scale=1]{images/d2.pdf}} \qquad
      }
-    \caption[Feynman diagrams for the Numerator N$(\lambda^1)$ = A + B + C respectively.]
-    {Feynman diagrams for N$(\lambda^1)$ = A + $\frac{12}{4!}$B + $\frac{3}{4!}$C respectively.}
-    \label{feynfullprop}
+    \caption[Feynman diagrams for the Numerator N$(\lambda^1)$ = $Z_0$A + $Z_0$B + $Z_0$C.]
+    {Feynman diagrams for N$(\lambda^1)$ = $Z_0$A + $Z_0\frac{12}{4!}$B + $Z_0\frac{3}{4!}$C.}
+    \label{fig:feynfullprop}
 \end{figure}
+The denominator serves to eliminate $Z_0$ and the disconnected diagrams with vacuum fluctuations like C. It normalizes out the contributions where the vacuum fluctuates, but does not affect the propagation, decay, or scattering. Finally the propagator for the fully interacting theory up to first order in $\lambda$ is 
+\begin{equation}
+\bra{0}\Phi(x_2)\Phi(x_1)\ket{0}_{\lambda^1} = A + \frac{12}{4!}B = \mathcal{D}_F(x_2,x_1) + 
+\frac{12}{4!}(-i\lambda)\int_{-\infty}^{\infty} d^4z \mathcal{D}_F(x_2,z) \mathcal{D}_F(x_1,z) \mathcal{D}_F(z,z).
+\end{equation}
+The factors out front are called symmetry factors and differ from theory to theory. In this theory the symmetry factor for a diagram is the number of nondegenerate ways to place pairs of points into the propagators divided by 4!. 
+
+Once the Feynman diagram rules are known they can be used to build the perturbation theory rather than going through the calculations each time, and this is why they are so ubiquitous. Any n-point correlation function is the weighted sum of all possible diagrams with n external points excluding those with disconnected vacuum fluctuations -- those are normalized out. The weights are the symmetry factors. 
 
 \subsection{The Higgs Mechanism}
 
