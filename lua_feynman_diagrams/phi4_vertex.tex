@@ -1,0 +1,12 @@
+\RequirePackage{luatex85}
+\documentclass{standalone}
+\usepackage[compat=1.1.0]{tikz-feynman}
+
+\begin{document}
+
+% phi4 vertex
+\feynmandiagram [baseline=(current bounding box.center), small, horizontal=i1 to f2] {
+  {i1, i2} -- c [dot, label=0:\(z\)] -- {f1, f2},
+};
+
+\end{document}

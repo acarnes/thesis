@@ -1,0 +1,13 @@
+\RequirePackage{luatex85}
+\documentclass{standalone}
+\usepackage[compat=1.1.0]{tikz-feynman}
+
+\begin{document}
+
+% tadpole
+\feynmandiagram [baseline=(current bounding box.center), horizontal=a to c] {
+  a [dot, label=-90:\(x_1\)] -- [edge label=\(D_F\left(x_1{,}z\right)\)] b [dot, label=90:\(z\), label=-90:\(-i\lambda\int d^4z\) ] 
+  -- [edge label'=\(D_F\left(z{,}z\right)\), out=45, in=135, loop, min distance=2cm] b,
+  b -- [edge label=\(D_F\left(z{,}x_2\right)\)] c [dot, label=-90:\(x_2\)],
+};
+\end{document}

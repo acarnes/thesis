@@ -1,0 +1,58 @@
+\RequirePackage{luatex85}
+\documentclass{standalone}
+\usepackage[compat=1.1.0]{tikz-feynman}
+\begin{document}
+
+%\feynmandiagram [baseline=(current bounding box.center), horizontal= a to b] {
+%  a -- b,
+%  b -- d,
+%};
+
+\feynmandiagram [baseline={(current bounding box.center)}, small, horizontal=a to b] {
+  a -- b,
+  c -- d,
+  {[edges={draw=none}]
+    a -- c, b -- d,
+  },
+}; \hspace{0.25cm} + \hspace{0.25cm}
+\feynmandiagram [baseline={(current bounding box.center)}, small, vertical=a to b] {
+  a -- b,
+  c -- d,
+  {[edges={draw=none}]
+    a -- c, b -- d,
+  },
+}; \hspace{0.25cm} + \hspace{0.25cm}
+\begin{tikzpicture}[baseline={(current bounding box.center)}]
+\begin{feynman}
+\vertex [dot, white](z){};
+\vertex [above left=of z, dot] (a);
+\vertex [above right=of z, dot] (b);
+\vertex [below right=of z, dot] (c);
+\vertex [below left=of z, dot] (d);
+\diagram*{
+(a) -- (c),
+(b) -- (z),
+%(c) -- (z),
+(d) -- (z),
+};
+\end{feynman}
+\end{tikzpicture} \hspace{0.25cm} + \hspace{0.25cm}
+\feynmandiagram [baseline={(current bounding box.center)}, small, horizontal=a to b] {
+  a -- [shorten <=(0.4cm)] z [nudge up=0.9cm] -- [loop, min distance=1cm] z -- [shorten >=(0.4cm)] b,
+  c -- d,
+  {[edges={draw=none}]
+    a -- c, b -- d,
+  },
+}; \hspace{0.25cm} + \hspace{0.25cm}
+\feynmandiagram [baseline={(current bounding box.center)}, small, vertical=a to b] {
+  a -- [shorten <=(0.4cm)] z [nudge right=0.9cm] -- [loop, in=-45, out=45, min distance=1cm] z -- [shorten >=(0.4cm)] b,
+  c -- d,
+  {[edges={draw=none}]
+    a -- c, b -- d,
+  },
+}; \hspace{0.25cm} + \hspace{0.25cm}
+\feynmandiagram [baseline=(current bounding box.center), small, horizontal=i1 to f2] {
+  {i1, i2} -- c -- {f1, f2},
+};
+
+\end{document}

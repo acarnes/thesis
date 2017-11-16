@@ -1,0 +1,16 @@
+\RequirePackage{luatex85}
+\documentclass{standalone}
+\usepackage[compat=1.1.0]{tikz-feynman}
+
+\begin{document}
+
+% propagator
+\feynmandiagram [baseline=(current bounding box.center), horizontal= a to b] {
+  a [dot, label=90:\(x_1\)] --[edge label=\(D_F\left(x_1{,}x_2\right)\)] b [dot, label=90:\(x_2\)],
+};
+% figure eight
+\feynmandiagram [baseline=(current bounding box.center), horizontal= b to b] {
+  b [dot, label=180:\(z\), label=0:\(-i\lambda\int d^4z\) ] -- [edge label'=\(D_F\left(z{,}z\right)\), out=45, in=135, loop, min distance=2cm] b 
+  -- [edge label=\(D_F\left(z{,}z\right)\), out=-45, in=-135, loop, min distance=2cm] b,
+};
+\end{document}

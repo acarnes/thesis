@@ -1,0 +1,11 @@
+\RequirePackage{luatex85}
+\documentclass{standalone}
+\usepackage[compat=1.1.0]{tikz-feynman}
+
+\begin{document}
+
+% propagator
+\feynmandiagram [baseline=(current bounding box.center), horizontal= a to b] {
+  a [dot, label=90:\(x_1\)] -- b [dot, label=90:\(x_2\)],
+};
+\end{document}
