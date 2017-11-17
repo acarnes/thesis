@@ -19,18 +19,19 @@ In order to lay out the Standard Model in mathematical terms, a bunch of backgro
 In this dissertation $\hbar$ and the speed of light, c, are set to 1. Moreover, 0,1,2,3 and t,x,y,z are used interchangeably to label the components of a four vector. When relevant 0 represents time and 1,2,3 represent x,y,z respectively. Einstein summation notation is used indicating that repeated indices are summed over, so $x_ix_i y_jy_j$ is shorthand for $\sum_i\sum_j x_ix_i y_jy_j$. Repeated Greek indices assume sums over all four space and time components, while repeated Roman indices assume sums over only the spatial components. 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 \section{Quantum Field Theory}
 
 
 The mathematical framework used to describe the physics of the SM as well as other Beyond Standard Model (BSM) field theories is called Quantum Field Theory (QFT). QFT enables the predictions of different measurable probabilities. One of the most important is the probability for a set of particles to come out of a collision of an initial set of particles. Another important one is the probability for a single particle to decay into another set of particles. These probabilities are encompassed in the cross sections and branching fractions. For example, the theory of the SM predicts the cross section for two protons to collide and create a Higgs. As another example, the SM also predicts the branching fraction for a Z boson to decay into to two muons. These probabilities can be measured simply by colliding particles and counting the outcomes which in turn means that the theory can be tested. In fact, any QFT model can be tested in this manner. Quantum Field Theory is written down in terms of a Lagrangian, and the math for the various predictions follows from there, but first a brief aside about particles. 
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Particles, Symmetries, and Labels}
 
 Since QFT makes quantitative predictions in terms of particle collisions and particle decays it's interesting to contemplate what a particle really is. Consider an observer in a frame x with particle p and an observer in another frame x'. If the observer in x' can't identify particle p as well then it doesn't make sense to call p a particle. More concretely, consider a world where in frame x an observer sees a neatly stacked deck of cards, but in x' the observer sees the cards scattered all over the place. Calling the deck of cards a particle doesn't really make sense. On the other hand, both parties can still agree on the individual cards which kept the same suit and value. The suit and value are conserved quantities identifiable between frames. If the two observers get together later and compare notes they can see what happened to each card upon transforming from x to x' and work out a set of rules. The king of hearts may do one thing and the 10 of clubs another. They can then add the different forces into play repeat the process and compare again. Figuring this all out allows the two to determine the laws of physics for the fundamental pieces called particles.       
 
 This idea leads to Wigner's view: a particle is an object with conserved quantities that observers can agree on between frames. In our universe these labels are the mass, charge, spin, color, and isospin, with each label attached to a specific symmetry or group of symmetries. And because different observers can agree on these quantities they can compare notes and work out the laws of physics for the different types of particles. The deep connection between conserved quantities, symmetries, and labels for particles will be seen later. For now the focus is to work out laws that people in different frames can confirm, and this is where the Lagrangian formalism comes into play. 
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{The Lagrangian Formalism}
 
 The Lagrangian formalism is a mathematical device that allows physicists to describe the evolution of a physical system over time, and it's within this formalism that QFT can be built. But before building the full mathematics of QFT, a simple example describing the free Newtonian particle is covered. The Newtonian example serves to illuminate the fact that the laws of physics are indistinguishable in different inertial frames. Moving to the full relativistic theory reveals that the symmetry goes deeper. Investigating the symmetries of the relativistic theory end up leading the way to QFT, a relativistic description of quantum mechanics.
@@ -122,10 +123,12 @@ S = \int \frac{m}{2}u^{\mu}u_{\mu}d\tau
 
 Just as rotations preserve the dot product, Lorentz transformations (boosts and rotations) preserve the four vector product. Insofar, both the relativistic Lagrangian and the resulting equations of motion remain invariant under a boost or rotation to a new inertial frame. Building a Lagrangian out of four vector products gaurantees that it will remain invariant under Lorentz transformations. However, four vectors aren't the most fundamental objects with invariant products. By studying the properties of the Lorentz group, it's possible to find even more fundamental building blocks called spinors.
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{QFT From Symmetry}
 
 The laws of physics are invariant under boosts and rotations, and the Lagrangian provides a mathematical framework for physical predictions. These facts together imply that there's a good shot at building a proper QFT by creating the appropriate invariant Lagrangian. Four vector products remain invariant under Lorentz transformations so they are a natural ingredient, but there are other mathematical objects that could be used as well. In this vein, the symmetries under rotations and boosts are investigated in order to look for other building blocks. The goal is to find three different representations of the Lorentz group and use one representation for scalar spin 0 particles, another for the spin $\frac{1}{2}$ fermions, and another for the spin 1 bosons.
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsubsection{Rotations}
 
 Rotations in three dimensions are described by the SO(3) group. Rotations preserve the lengths of vectors and the angles between them, which means that dot products between vectors remain invariant as well. In three dimensions one can rotate about any of the three axes. The rotations about the x, y, and z axes may be characterized by the matrices below.
@@ -308,6 +311,7 @@ Defining $J_k = \frac{1}{2} \sigma_k$ fixes this. These matrices act on an array
 [J_k, J_l] = i\epsilon_{klm}J_m
 \end{equation}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsubsection{The Lorentz Group}
 Four vector products are invariant with regards to rotations and boosts. This statement is defined by the mathematical equation below, where the $\Lambda$ matrices represent the rotation/boost matrices of the Lorentz Group \footnote{The Lorentz group dealt with here is the proper orthochronous Lorentz Group SO(1,3).} and the $\eta$ matrix is the Minkowski metric $\left( \begin{smallmatrix} 1 & 0 & 0 & 0 \\ 0 & -1 & 0 & 0 \\ 0 & 0 & -1 & 0 \\ 0 & 0 & 0 & -1 \\ \end{smallmatrix} \right)$.
 
@@ -687,6 +691,7 @@ Finally the transformation can be written as a 4x4 matrix acting on the 4x1 four
 
 The other transformations reproduce the usual 4x4 Lorentz transformations as well. In this way, four vectors are just rearranged versions of the $(\frac{1}{2}, \frac{1}{2})$ rank 2 spinors. Similar to the way complex numbers are the square root of real numbers, spinors are the square root of four vectors. In practice it's easier to work with 4 vectors as 4x1 column vectors, though one could use the $(\frac{1}{2}, \frac{1}{2})$ rank 2 spinor representation.  
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsubsection{The Poincare Group and Particle Labels}
 
 The Poincare group is the Lorentz Group plus translations. Physics experiments should be the same with a rotated apparatus, an apparatus moving at a different constant velocity, and also at another location. Adding translations to the group amounts to adding another the set of translation generators $P_i$. In the "Particles, Symmetries, and Labels" section the argument was made that particles are things that observers agree on between frames. Distinguishable particles have labels that remain invariant. A spin $\frac{1}{2}$ particle with mass m remains a spin $\frac{1}{2}$ particle with mass m for all observers. As it turns out these labels relate to different subspaces in the representation of the group.
@@ -697,6 +702,7 @@ Labels in physics need to be measurable, and by the current understanding of qua
 
 %Now the 5x5 group can be analyzed in terms of its separate 3x3 and 2x2 pieces. In group theory lingo these pieces are called the irreducible representations. This is the difference between a spin $\frac{3}{2}$ group and a group consisting of separate spin $\frac{1}{2}$ and spin 1 particles.
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsubsection{Building the Lagrangian for a Free Scalar Particle}
 
 Analyzing the symmetries of the SO(3) rotation group revealed the SU(2) group, the 2x2 complex Pauli matrices, and the complex 2x1 spinors. Analyzing the symmetries of the Lorentz group revealed the $(\frac{1}{2}, 0)$ left-chiral spinors, the $(0, \frac{1}{2})$ right chiral spinors, and the four vectors encoded in the $(\frac{1}{2}, \frac{1}{2})$ representation. Now, these pieces are put together to form relativistically invariant Lagrangians for free particles.  
@@ -730,6 +736,7 @@ In order to get the correct dispersion relation for a relativistic particle, $c_
 S = \int d^4x \frac{1}{2}\left(\partial_\mu\Phi\partial^\mu\Phi - m^2 \Phi^2 \right).
 \end{equation}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsubsection{Building the Lagrangian for a Free Spin $\frac{1}{2}$ Particle}
 
 With the action for the free scalar particle in hand, the free spin $\frac{1}{2}$ particle is up next. The spin $\frac{1}{2}$ action must combine the $\mathcal{L}$ and $\mathcal{R}$ spinors of the $(\frac{1}{2}, 0)$ and $(0, \frac{1}{2})$ representations and the four vector, $\partial_\mu$, in a Lorentz invariant way. Moving forward in this regard, the $\mathcal{L}$, $\mathcal{R}$, and $\partial_\mu$ transformations are now analyzed to find the lowest order invariant combinations. The transformation for the left-chiral spinor is 
@@ -937,6 +944,7 @@ after defining
 
 The spin $\frac{1}{2}$ Lagrangian is called the Dirac Lagrangian and the resulting equations of motion are the Dirac equation.
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsubsection{Building the Lagrangian for a Free Spin 1 Particle}
 Last but not least is the Lagrangian for a spin 1 force carrying particle. The main ingredients are the $A_\mu$ and $\partial_\mu$ four vectors. The lowest order possible invariants are $\partial^\mu A^\nu\partial_\mu A_\nu$, $\partial^\mu A^\nu\partial_\nu A_\mu$, $A^\mu A_\mu$, and $\partial^\mu A_\mu$. However the last term is a total derivative and won't be included. The resulting action and equations of motion are 
 
@@ -976,6 +984,7 @@ The action for the spin 1 particle is called the Proca action. It's normally wri
 S = \int d^4x \left( \frac{-1}{4}F_{\mu\nu}F^{\mu\nu}  + \frac{m^2}{2} A^\mu A_\mu \right).
 \end{equation}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Lagrangians in Quantum Mechanics and QFT}
 
 Quantum behavior can only be predicted in a strange probabilistic way. Classically, each particle takes a single well defined path, but in the quantum regime particles behave as if they take all possible paths from some initial point to some final point. Analogously, the fields from which particles arise behave as if they take all possible configurations between states. Each possibility contributes as a unit complex number with a phase given by the action. These contributions are called probability amplitudes. 
@@ -1045,6 +1054,7 @@ e^{i\int_{-\infty}^{\infty} dt L}}{\int \mathcal{D}[\cdot]e^{i\int_{-\infty}^{\i
 \end{equation}
 where $\psi$ is a field, 0 denotes the vacuum state, and i, j, k, l specify the types of particles observed. Calculating this path integral for the full Lagrangian determines the amplitude for the scattering event. Usually the correlation functions can only be calculated for the free fields where the Lagrangian density is quadratic in the fields. Interactions generally spoil this simplicity, but even if the Lagrangian is more complicated, the path integral for the full theory can usually be expanded in terms of the correlation functions from the free field. However, this only works in practice if the additional terms in the Lagrangian are small compared to the free part of the Lagrangian. This method of expansion is called perturbation theory.     
 
+%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Perturbation Theory and Feynman Rules}
 Unfortunately, the correlation functions determining the scattering and decay amplitudes for most of the interesting theories are not directly solvable. On the other hand, they can often be expanded in terms of the free solutions. When the magnitude of the additional complexity is small compared to the free part of the Lagrangian, only the first few terms of the series expansion are needed and the technique is called perturbation theory. 
 
@@ -1224,8 +1234,27 @@ The Feynman rules for a theory can be used to build the perturbation series for 
   \label{fig:feyn2-2}
 \end{figure}
 
+%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Interactions}
+
+Earlier the spin 1 and spin $\frac{1}{2}$ Lagrangians were obtained after a lengthy adventure through the Lorentz group symmetries. Now the goal is to produce theories where fermions and bosons interact as observed in nature. The simplest Lorentz invariant term that couples a vector to the Dirac spinors is $\bar{\psi}\gamma^\mu A_\mu \psi$, so the interacting theory should look like 
+
+%Massive QED
+\begin{equation}
+\begin{split}
+S &= \int d^4x \frac{-1}{4}F_{\mu\nu}F^{\mu\nu} + \frac{m_A^2}{2} A^\mu A_\mu + \bar{\psi}\left(i\gamma^\mu\partial_\mu - m\right)\psi - ic\bar{\psi}\gamma^\mu A_\mu \psi \\
+&= \int d^4x \frac{-1}{4}F_{\mu\nu}F^{\mu\nu} + \frac{m_A^2}{2} A^\mu A_\mu + \bar{\psi}\left(i\gamma^\mu\partial_\mu - m - ic\gamma^\mu A_\mu\right)\psi 
+\end{split}
+\end{equation}
+Now to describe electromagnetism, the photon field should be massless and the interacting theory should be gauge invariant. Setting $m_A$ to zero and checking whether $A_\mu \rightarrow A_\mu + \partial_\mu\alpha$ is a symmetry, provides  
+
+\begin{equation}
+S = \int d^4x \frac{-1}{4}F_{\mu\nu}F^{\mu\nu} + \bar{\psi}\left(i\gamma^\mu\partial_\mu - m - ic\gamma^\mu A_\mu - ic\gamma^\mu\partial_\mu\alpha\right)\psi.
+\end{equation}
+And this isn't gauge invariant. The $-\bar{\psi}ic\gamma^\mu\partial_\mu\alpha\psi$ needs to be cancelled out, implying the transformation $\bar{\psi}i\gamma^\mu\partial_\mu\psi \rightarrow \bar{\psi}i\gamma^\mu\left(\partial_\mu + c\partial_\mu\alpha\right)\psi$, which looks like a product rule.
 
 
+%%%%%%%%%%%%%%%%%%%%%%
 \subsection{The Higgs Mechanism}
 
 \begin{figure}[h!]
