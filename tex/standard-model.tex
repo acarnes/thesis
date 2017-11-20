@@ -1242,17 +1242,28 @@ Earlier the spin 1 and spin $\frac{1}{2}$ Lagrangians were obtained after a leng
 %Massive QED
 \begin{equation}
 \begin{split}
-S &= \int d^4x \frac{-1}{4}F_{\mu\nu}F^{\mu\nu} + \frac{m_A^2}{2} A^\mu A_\mu + \bar{\psi}\left(i\gamma^\mu\partial_\mu - m\right)\psi - ic\bar{\psi}\gamma^\mu A_\mu \psi \\
-&= \int d^4x \frac{-1}{4}F_{\mu\nu}F^{\mu\nu} + \frac{m_A^2}{2} A^\mu A_\mu + \bar{\psi}\left(i\gamma^\mu\partial_\mu - m - ic\gamma^\mu A_\mu\right)\psi 
+S &= \int d^4x \frac{-1}{4}F_{\mu\nu}F^{\mu\nu} + \frac{m_A^2}{2} A^\mu A_\mu + \bar{\psi}\left(i\gamma^\mu\partial_\mu - m\right)\psi + q\bar{\psi}\gamma^\mu A_\mu \psi \\
+&= \int d^4x \frac{-1}{4}F_{\mu\nu}F^{\mu\nu} + \frac{m_A^2}{2} A^\mu A_\mu + \bar{\psi}\left[i\gamma^\mu\left(\partial_\mu - iq\gamma^\mu A_\mu\right)- m \right]\psi 
 \end{split}
 \end{equation}
-Now to describe electromagnetism, the photon field should be massless and the interacting theory should be gauge invariant. Setting $m_A$ to zero and checking whether $A_\mu \rightarrow A_\mu + \partial_\mu\alpha$ is a symmetry, provides  
+To describe electromagnetism, the photon field should be massless and the interacting theory should be gauge invariant. Setting $m_A$ to zero and checking whether $A_\mu \rightarrow A_\mu(x) + \partial_\mu\alpha(x)$ is a symmetry, provides  
+
+%S = \int d^4x \frac{-1}{4}F_{\mu\nu}F^{\mu\nu} + \bar{\psi}\left(i\gamma^\mu\partial_\mu - m + q\gamma^\mu A_\mu + q\gamma^\mu\partial_\mu\alpha\right)\psi.
+\begin{equation}
+S = \int d^4x \frac{-1}{4}F_{\mu\nu}F^{\mu\nu} + \bar{\psi}\left[i\gamma^\mu\left(\partial_\mu - iq\gamma^\mu A_\mu - iq\partial_\mu\alpha\right)- m \right]\psi, 
+\end{equation}
+which isn't gauge invariant. In effect, the gauge transformation has shifted the derivative by $-iq\partial_\mu\alpha$. In order to retain gauge invariance, a simultaneous transformation that sends $\partial_\mu \rightarrow \partial_\mu + iq\partial_\mu\alpha$ is needed to cancel out the extra term. The correct transformation is $\partial_\mu \rightarrow e^{-iq\alpha}\partial_\mu e^{iq\alpha}$, which can be written as transformation of the fermion field, $\bar{\psi} e^{-iq\alpha} \partial_\mu e^{iq\alpha} \psi$. So, if 
 
 \begin{equation}
-S = \int d^4x \frac{-1}{4}F_{\mu\nu}F^{\mu\nu} + \bar{\psi}\left(i\gamma^\mu\partial_\mu - m - ic\gamma^\mu A_\mu - ic\gamma^\mu\partial_\mu\alpha\right)\psi.
+A_\mu(x) \rightarrow A_\mu(x) + \partial_\mu\alpha(x)
 \end{equation}
-And this isn't gauge invariant. The $-\bar{\psi}ic\gamma^\mu\partial_\mu\alpha\psi$ needs to be cancelled out, implying the transformation $\bar{\psi}i\gamma^\mu\partial_\mu\psi \rightarrow \bar{\psi}i\gamma^\mu\left(\partial_\mu + c\partial_\mu\alpha\right)\psi$, which looks like a product rule.
+and
+\begin{equation}
+\psi(x) \rightarrow e^{iq\alpha(x)}\psi(x) 
+\end{equation}
+the Lagrangian is gauge invariant. The second equation reveals that the field is invariant under local transformations of the phase.
 
+By taking the local phase invariance seriously, the previous logic can be reversed to produce Lagrangians for new forces. In the case of electromagnetism above, demanding that the fermion field is invariant under a local U(1) transformation \footnote{$\psi \rightarrow e^{iq\alpha(x)}\psi$} produces the form of the fermion-force coupling as well as the gauge transformation requirement for the force carrying field. Similarly, demanding SU(2) invariance produces the electroweak theory, and demanding SU(3) invariance produces the theory for the strong force.  
 
 %%%%%%%%%%%%%%%%%%%%%%
 \subsection{The Higgs Mechanism}
