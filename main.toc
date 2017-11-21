@@ -29,9 +29,9 @@
 \contentsline {subsection}{\numberline {3.1.4}Lagrangians in Quantum Mechanics and QFT}{53}{subsection.3.1.4}
 \contentsline {subsection}{\numberline {3.1.5}Perturbation Theory and Feynman Rules}{55}{subsection.3.1.5}
 \contentsline {subsection}{\numberline {3.1.6}Interactions}{62}{subsection.3.1.6}
-\contentsline {subsection}{\numberline {3.1.7}The Higgs Mechanism}{63}{subsection.3.1.7}
-\contentsline {section}{\numberline {3.2}The Standard Model Higgs}{63}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}SM Higgs Production and Decay Modes}{63}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.1.7}The Higgs Mechanism}{64}{subsection.3.1.7}
+\contentsline {section}{\numberline {3.2}The Standard Model Higgs}{64}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}SM Higgs Production and Decay Modes}{64}{subsection.3.2.1}
 \contentsline {chapter}{\numberline {4}\uppercase {RESULTS}}{68}{chapter.4}
 \contentsline {section}{\numberline {4.1}Fusce Eget Tempus Lectus, }{68}{section.4.1}
 \contentsline {chapter}{\numberline {5}\uppercase {SUMMARY AND CONCLUSIONS}}{73}{chapter.5}
