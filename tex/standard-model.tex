@@ -42,7 +42,6 @@ S = \int L dt = \int T - U dt
 \end{equation}
 
 At an extremum of S, $\delta S$ = 0 if S is smooth: S must decrease, go through a slope of zero, and then increase (or vice versa). For a true extremum, $\delta S$ must be 0 in all directions. So to get the equations of motion vary the parameters of L and solve the system of equations for the values that yield zero change in the action.
-
 \begin{equation}
 \begin{split}
 &\frac{\delta S}{\delta z_1} = \int L(z_1 + dz_1, z_2, ...)dt - \int L(z_1, z_2, ...)dt = 0 \\
@@ -50,51 +49,38 @@ At an extremum of S, $\delta S$ = 0 if S is smooth: S must decrease, go through 
 &...
 \end{split}
 \end{equation}
-
 Following this process provides the Euler-Lagrange equations, describing how the parameters z evolve over time. The z's may be the position and velocity, or the quantum fields, or the temperature and volume or some other set of parameters that describe the system. The Lagrangian for a Newtonian free particle in one dimension is pretty simple and gets the point across. 
-
 \begin{equation}
 S = \frac{1}{2} \int m\dot{x}^2 dt
 \end{equation}
 
 If the action is at an extremum, perturbing the path x(t) by adding the infinitesimal $\epsilon$(t) leaves the action unchanged.
-
 \begin{equation}
 S' = \frac{1}{2} \int m(\dot{x} + \dot{\epsilon})^2 dt = \frac{1}{2} \int m(\dot{x}^2 + 2\dot{x}\dot{\epsilon} + \dot{\epsilon}^2) dt =  
 \frac{1}{2} \int m(\dot{x}^2 + 2\dot{x}d\dot{x}) dt 
 \end{equation}
-
 \begin{equation}
 \delta S = S' - S = 0 = \frac{1}{2} \int m(\dot{x}^2 + 2\dot{x}\dot{\epsilon}) dt - \frac{1}{2} \int m\dot{x}^2 dt = \int m\dot{x}\dot{\epsilon} dt
 \end{equation}
-
 Since x(t) is fixed at the boundaries of the integral, $\epsilon$ must be zero at $t_o$ and $t_f$, so integrating by parts yields the following equation. 
-
 \begin{equation}
 \delta S = 0 = \epsilon(t_f) \dot{x}(t_f)  - \epsilon(t_o) \dot{x}(t_o) + \int m\ddot{x} \epsilon dt  = 
 0\dot{x}(t_f)  - 0\dot{x}(t_o) + \int m\ddot{x} \epsilon dt = \int m\ddot{x} \epsilon dt
 \end{equation}
-
 And this equation must be zero for any infinitesimal deviation $\epsilon$.
-
 \begin{equation}
 \delta S = 0 \rightarrow m\ddot{x} = 0
 \end{equation}
-
 So a free particle keeps the same velocity over time. Note that a Newtonian boost by constant velocity $v \rightarrow v' = v + u$ \footnote{Renaming $\dot{x}$ as v.} leaves the equations of motion consistent. In the unprimed frame the particle has velocity v with 0 acceleration. In the primed frame the particle has velocity v + u with 0 acceleration. Both observers see the particle act as if there are zero forces.
-
 \begin{equation}
 S = \frac{1}{2} \int m(v + u)^2 dt  =  \frac{1}{2} \int m(v')^2 dt \rightarrow \delta S = 0 \rightarrow m\frac{d}{dt}(v+u) = m\frac{d}{dt}(v') = 0 
 \end{equation}
 
 If u is not constant but a function of time u(t) then the equations of motion do not describe the same time evolution.
-
 \begin{equation}
 m\frac{d}{dt}(v+u) = m\dot{v} + m\dot{u} = 0 \rightarrow \dot{v} = -\dot{u}
 \end{equation}
-
 In the case where u(t) depends upon time, the difference between the primed and unprimed frames' equations of motion is then $\delta F$.
-
 \begin{equation}
 \delta F = m\frac{d}{dt}(v+u) - m\frac{dv}{dt} = m\dot{v} + m\dot{u} - m\dot{v} = m\dot{u}
 \end{equation}
@@ -104,19 +90,15 @@ In the unprimed frame, the particle identified by the mass moves with constant v
 In general, every inertial frame finds $\delta F = 0$ and every accelerating frame finds an extra force $\delta F$ unique to its acceleration. In this way no observer in an inertial frame can perform an experiment and determine which inertial frame he or she is in. On the other hand, each accelerating frame is identified by its $\delta F$.  Put another way, in every inertial frame a ball released at rest remains at rest. In an accelerating frame the ball will accelerate according to the motion of the frame $\delta F$ and this change in the laws of physics identifies the frame in a unique way. Conversely, the laws of physics remain the same boosting between inertial frames, and this invariance is a symmetry of physics. Of course this example is Newtonian and the correct way to boost is given by the Lorentz transformation from Special Relativity, but this gets the point across.
 
 Delving further along the path of symmetry, the fundamental forces depend only on the distance from the charge and not the direction implying that rotations are also a symmetry. This can be seen by looking at the Lagrangian. 
-
 \begin{equation}
 L = \frac{1}{2} m\dot{\vec{x}}^2 - U((\vec{x} - \vec{x'})^2)
 \end{equation}
-
 Rotations leave dot products and consequently the magnitude of vectors unchanged so the Lagrangian is invariant under this transformation. Naturally if the Lagrangian is invariant the equations of motion will be as well.
-
 \begin{equation}
 m\frac{d\vec{v}}{dt} = \vec{\nabla} U
 \end{equation}
 
 In the equations of motion above, both sides are vectors and vectors transform the same way under rotations so the equations of motion are invariant. Note that in the case of rotations both the Lagrangian and the equations of motion are invariant. While for Newtonian boosts only the equations of motion were invariant. This is due to the fact that Newtonian mechanics is the low velocity limit of relativistic mechanics. In the theory of Special Relativity the action for a massive free particle is written like so.
-
 \begin{equation}
 S = \int \frac{m}{2}u^{\mu}u_{\mu}d\tau
 \end{equation}
@@ -132,7 +114,6 @@ The laws of physics are invariant under boosts and rotations, and the Lagrangian
 \subsubsection{Rotations}
 
 Rotations in three dimensions are described by the SO(3) group. Rotations preserve the lengths of vectors and the angles between them, which means that dot products between vectors remain invariant as well. In three dimensions one can rotate about any of the three axes. The rotations about the x, y, and z axes may be characterized by the matrices below.
-
 \begin{equation}
 R_x = 
 \begin{pmatrix}
@@ -141,7 +122,6 @@ R_x =
 0 & \sin\theta_x & \cos\theta_x \\
 \end{pmatrix}
 \end{equation}
-
 \begin{equation}
 R_y = 
 \begin{pmatrix}
@@ -150,7 +130,6 @@ R_y =
 -\sin\theta_y & 0 & \cos\theta_y \\
 \end{pmatrix}
 \end{equation}
-
 \begin{equation}
 R_z = 
 \begin{pmatrix}
@@ -161,7 +140,6 @@ R_z =
 \end{equation}
 
 These rotations may be built up from repeated rotations by an infinitesimally small angle $d\theta$. The matrices characterizing an infinitesimal rotation are given by taking the limit as $\theta$ goes to zero.
-
 \begin{equation}
 dR_x = 
 \begin{pmatrix}
@@ -177,7 +155,6 @@ dR_x =
 \end{pmatrix}
 = 1 - id\theta_x J_x
 \end{equation}
-
 \begin{equation}
 dR_y = 
 \begin{pmatrix}
@@ -193,7 +170,6 @@ dR_y =
 \end{pmatrix}
 = 1 - id\theta_y J_y
 \end{equation}
-
 \begin{equation}
 dR_z = 
 \begin{pmatrix}
@@ -211,20 +187,15 @@ i & 0 & 0 \\
 \end{equation}
 
 Repeating an infinitesimal rotation many times builds the finite rotation, and in this way, the J matrices generate rotations along their respective axes.  As such, they are aptly referred to as the generators of the group. Doing some algebra reveals this to be the case. This point is confirmed below.
-
 \begin{equation}
 R = (1 - i\frac{\theta}{N} J)^{N} = 1 + (-id\theta J) + \frac{1}{2!}(-id\theta J)^2 + \frac{1}{3!}(-id\theta J)^3 + ... = e^{-i\theta J} 
 \end{equation}
-
 Notice that even powers of J yield $J^2$ and that odd powers of J return J.
-
 \begin{equation}
   = 1 - J^2 + J^2(1 + \frac{i^2}{2!} d\theta^2 + \frac{i^4}{4!} d\theta^4 + ...) - iJ(d\theta + \frac{i^2}{3!}d\theta^3 + \frac{i^4}{5!}d\theta^5 + ...) 
   = (1-J^2) + J^2 \cos\theta - iJ\sin\theta
 \end{equation}
-
 Plugging in $J_z$ reveals that this process does in fact rebuild the rotation matrix $R_z$.
-
 \begin{equation}
 \begin{split}
 R_z &= 
@@ -263,7 +234,6 @@ R_z &=
 \end{equation}
 
 Similarly, the other generators rebuild their respective rotation matrices. The generators of the group are actually more fundamental than the rotation matrices. The multiplication table for the generators describes the algebra of the group, which describes the behavior of rotations at a local level. In fact the SO(3) rotation matrices are just one of the groups with this local algebra, and a specific group obeying the local algebra is analagous to a specific solution of a differential equation: each solution has a different global behavior yet each obeys the same physics. Moreover the multiplication table can be specified without declaring any particular representation for the generators. 
-
 \begin{equation}
 \begin{split}
 &J_x*J_y = iJ_z  + J_y*J_x \\
@@ -271,7 +241,6 @@ Similarly, the other generators rebuild their respective rotation matrices. The 
 &J_z*J_x = iJ_y  + J_x*J_z \\
 \end{split}
 \end{equation}
-
 The multiplication table can be specified in a more compact notation using the commutator \footnote{The Lie Bracket defines the multiplication for a Lie Algebra and this reduces to the commutator for Lie groups of matrices like SO(3). Notice that using the commutator below returns another member of the group and thus the group is closed under commutation.}, $[a,b] = ab - ba$, and the antisymmetric tensor $\epsilon$.
 \begin{equation}
 [J_k, J_l] = i\epsilon_{klm}J_m
@@ -280,7 +249,6 @@ The multiplication table can be specified in a more compact notation using the c
 Finding 3x3 generators that obey the algebra and then repeatedly applying the infinitesimal transormations builds the SO(3) rotation group. The group acts on real 3x1 objects called vectors, and these 3x1 vectors are a suitable candidate for a Newtonian Lagrangian. Finding another representation obeying this algebra will provide a more fundamental ingredient for the Lagrangian and allow the construction of a proper QFT. Similar to the way real numbers are built from the squares of imaginary numbers, vectors are built from spinors. 
 
 Looking for the lowest order nontrivial nxn matrices satisfying the algebra gives the 2x2 Pauli matrices. The 1x1 matrices are the trival solution: 1x1 matrices are simply scalar complex numbers, which commute and therefore fail to satisfy the algebra unless all of the J matrices are 0. The objects these 1x1 operators act on are 1x1 numbers called scalars which remain invariant under rotations and correspond to spin 0. The solution for the 2x2 case, the Pauli matrices are given by
-
 \begin{equation}
 \sigma_x = 
 \begin{pmatrix}
@@ -298,15 +266,12 @@ i & 0 \\
 0 & -1 \\
 \end{pmatrix}
 \end{equation}
-
 However, plugging these into the commutator reveals a factor of two difference.
-
 \begin{equation}
 [\sigma_k, \sigma_l] = 2i\epsilon_{klm}\sigma_m
 \end{equation}
 
 Defining $J_k = \frac{1}{2} \sigma_k$ fixes this. These matrices act on an array of 2x1 complex numbers called spinors, and this new rotation group is called SU(2). Note that by starting with vectors and analyzing the SO(3) rotation group along with its underlying algebra, new mathematical objects have been discovered. The 1x1 matrices satisfying the rotation algebra make up the spin 0 representation of SU(2), the complex 2x2 matrices acting on complex 2x1 objects satisfying the algebra make up the spin $\frac{1}{2}$ representation, and the complex 3x3 matrices acting on complex 3x1 objects satisfying the algebra make up the spin 1 representation. The pattern continues on. There are in fact many representations of SU(2). It's now possible to use these representations to build rotationally invariant Lagrangians, using the 2x1 spinors of SU(2) to model fermions and the 3x1 representation to model bosons. While rotationally invariant Lagrangians are important for nonrelativistic theories, the real goal is to break down four vectors in the same way to find the most fundamental ingredients for relativistic Lagrangians. 
-
 \begin{equation}
 [J_k, J_l] = i\epsilon_{klm}J_m
 \end{equation}
@@ -314,14 +279,12 @@ Defining $J_k = \frac{1}{2} \sigma_k$ fixes this. These matrices act on an array
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsubsection{The Lorentz Group}
 Four vector products are invariant with regards to rotations and boosts. This statement is defined by the mathematical equation below, where the $\Lambda$ matrices represent the rotation/boost matrices of the Lorentz Group \footnote{The Lorentz group dealt with here is the proper orthochronous Lorentz Group SO(1,3).} and the $\eta$ matrix is the Minkowski metric $\left( \begin{smallmatrix} 1 & 0 & 0 & 0 \\ 0 & -1 & 0 & 0 \\ 0 & 0 & -1 & 0 \\ 0 & 0 & 0 & -1 \\ \end{smallmatrix} \right)$.
-
 \begin{equation}
 x'_{\mu} x'^{\mu} = x_{\mu} x^{\mu} \rightarrow \eta_{\sigma\rho} \Lambda^{\sigma}_{\mu}  \Lambda^{\rho}_{\nu} x^{\mu} x^{\nu} = \eta_{\mu\nu} x^{\mu} x^{\nu}
 \rightarrow \eta_{\sigma\rho} \Lambda^{\sigma}_{\mu}  \Lambda^{\rho}_{\nu} = \eta_{\mu\nu}
 \end{equation}
 
 In this 3 + 1 dimensional space the rotations and their corresponding generators are now given by the following R and J matrices, where the R matrices satisfy the equation above.
-
 \begin{equation}
 R_x = 
 \begin{pmatrix}
@@ -372,9 +335,7 @@ J_z =
 0 & 0 & 0 & 0 \\
 \end{pmatrix}
 \end{equation}
-
 And the boosts are given by the following B matrices. These also leave the four vector product invariant.
-
 \begin{equation}
 B_x = 
 \begin{pmatrix}
@@ -384,7 +345,6 @@ B_x =
 0 & 0 & 0 & 1 \\
 \end{pmatrix}
 \end{equation}
-
 \begin{equation}
 B_y = 
 \begin{pmatrix}
@@ -394,7 +354,6 @@ B_y =
 0 & 0 & 0 & 1 \\
 \end{pmatrix}
 \end{equation}
-
 \begin{equation}
 B_z = 
 \begin{pmatrix}
@@ -404,9 +363,7 @@ B_z =
 \sinh\omega_z & 0 & 0 & \cosh\omega_z \\
 \end{pmatrix}
 \end{equation}
-
 Looking at the differential boosts yields the generators K.
-
 \begin{equation}
 dB_x = 
 \begin{pmatrix}
@@ -424,7 +381,6 @@ d\omega_x & 1 & 0 & 0 \\
 \end{pmatrix}
 = 1 + d\omega_x K_x
 \end{equation}
-
 \begin{equation}
 dB_y = 
 \begin{pmatrix}
@@ -442,7 +398,6 @@ d\omega_y & 0 & 1 & 0 \\
 \end{pmatrix}
 = 1 + d\omega_y K_y
 \end{equation}
-
 \begin{equation}
 dB_z = 
 \begin{pmatrix}
@@ -460,39 +415,30 @@ d\omega_z & 0 & 0 & 1 \\
 \end{pmatrix}
 = 1 + d\omega_z K_z
 \end{equation}
-
 As before with the algebra for rotations in three dimensions the Lorentz algebra is defined by its multiplication table, but now there are rotations and boosts. The multiplication table is given by the commutation relations below, which can be confirmed by brute force computation.  
-
 \begin{equation}
 [J_i, J_j] = i\epsilon_{ijk}J_k
 \end{equation}
-
 \begin{equation}
 [J_i, K_j] = i\epsilon_{ijk}K_k
 \end{equation}
-
 \begin{equation}
 [K_i, K_j] = -i\epsilon_{ijk}J_k
 \end{equation}
 
 Notice that the commutator between J matrices returns another J matrix, but that the commutator between K matrices returns a J matrix. This means that the J operators form their own subgroup, but the K operators don't. On the other hand, mixing the Js and Ks up by defining the $Y^{\pm}$ operators allows the Lorentz algebra to be represented by two independent subgroups. 
-
 \begin{equation}
 Y^{\pm} = \frac{1}{2}(J_i \pm iK_i)
 \end{equation}
-
 \begin{equation}
 [Y^{\pm}_i, Y^{\pm}_j] = i\epsilon_{ijk}Y^{\pm}_k
 \end{equation}
-
 \begin{equation}
 [Y^{\pm}_i, Y^{\mp}_j] = 0
 \end{equation}
-
 Both of the Y groups have the same commutation relations as SU(2). In this way, the Lorentz algebra can be viewed as if two SU(2) rotation algebras have been glued together. This is similar to the way in which orthogonal basis vectors are stuck together to create a larger dimensional space. Now, in order to figure out how to use this space to build the appropriate Lagrangians, the individual subspaces must be investigated. So looking at $Y^{+}$ alone is akin to looking along the $Y^{+}$ axis by setting $Y^{-}$ to zero. Using $(y_+, y_-)$ to label the representation, the simplest nontrivial case along the $Y^{+}$ axis is spin $\frac{1}{2}$ x spin 0, given by $(\frac{1}{2}, 0)$.   
 
 Using $Y_{i}^{-} = \frac{1}{2}(J_i - iK_i) = 0$ implies that $J_i = iK_i$, and since $Y_{i}^{+}$ is the 2x2 representation obeying the SU(2) algebra, $Y_{i}^{+} = \frac{\sigma_i}{2}$. Putting this together,
-
 \begin{equation}
 \begin{split}
 J_i &= iK_i \\ 
@@ -502,88 +448,63 @@ J_i &= iK_i \\
 \end{split}
 \end{equation} 
 Finally, the finite Lorentz transformations for the $(\frac{1}{2}, 0)$ representation are given by 
-
 \begin{equation}
 R^{(L)} = e^{i\theta_i J_i} = e^{i\theta_i \frac{\sigma_i}{2}}   
 \end{equation}
-
 for rotations, and
-
 \begin{equation}
 B^{(L)} = e^{i\phi_i K_i} = e^{\phi_i \frac{\sigma_i}{2}}   
 \end{equation}
-
 for boosts. These act on 2x1 objects called left-chiral spinors, $\mathcal{L}$. A general Lorentz transformation on a left-chiral spinor can be written
-
 \begin{equation}
 \Lambda^{(L)} = e^{\frac{i}{2}\theta_i \sigma_i + \frac{1}{2}\phi_i \sigma_i}
 \end{equation}.
-
 Replacing $K_i$ with $-K_i$ takes $Y^+_i$ to $Y^-_i$, and gives the finite Lorentz transformations for the $(0, \frac{1}{2})$ representation 
-
 \begin{equation}
 R^{(R)} = e^{i\theta_i J_i} = e^{\frac{i}{2}\theta_i \sigma_i}   
 \end{equation}
-
 for rotations, and
-
 \begin{equation}
 B^{(R)} = e^{i\phi_i K_i} = e^{-\phi_i \frac{\sigma_i}{2}}   
 \end{equation}
-
 for boosts. These act on 2x1 objects called right-chiral spinors, $\mathcal{R}$. The general Lorentz transformation on a right-chiral spinor can be written
-
 \begin{equation}
 \Lambda^{(R)} = e^{\frac{i}{2}\theta_i \sigma_i - \frac{1}{2}\phi_i \sigma_i}
 \end{equation}
-
 Last but not least, rank 2 spinors are given by the $(\frac{1}{2}, \frac{1}{2})$ representation. This representation is a tensor combining two spinors via outer product, and as will be shown later, these objects are actually four vectors.
-
 \begin{equation}
 \alpha = \mathcal{L} \mathcal{R}^{T}
 \end{equation}
 
 In order to transform $\alpha$, both $\mathcal{L}$ and $\mathcal{R}$ must be transformed.
-
 \begin{equation}
 \alpha^{'} = \Lambda^{(L)} \mathcal{L} \mathcal{R}^T \Lambda^{(R)T} 
  = e^{\frac{i}{2}\theta_i \sigma_i + \frac{1}{2}\phi_i \sigma_i} \mathcal{L} \mathcal{R}^T e^{\frac{i}{2}\theta_i \sigma_i^T - \frac{1}{2}\phi_i \sigma_i^T} 
 \end{equation}
-
 However it would be nice if the transformation term on the right side was the Hermitian conjugate of the transformation on the left side. This would be the case if $\sigma_i^T$ was $-\sigma_i^{\dagger} = -(\sigma_i^{*})^{T}$, and this requires a transformation that turns $\sigma$ into $-\sigma^{*}$. So $\mathcal{R}$ is rearranged such that $\mathcal{R} \rightarrow \tilde{\mathcal{R}} = t\mathcal{R}$ where $t\sigma_i t^{-1} = -\sigma_i^{*}$. The matrix $t = \left( \begin{smallmatrix} 0 & -1 \\ 1 & 0 \\ \end{smallmatrix} \right)$ satisfies the requirements. This change of basis for $\mathcal{R}$ redefines $\alpha$,
-
 \begin{equation}
 \alpha = \mathcal{L}\tilde{\mathcal{R}}^T.
 \end{equation}
-
 Defined in this manner, the $(\frac{1}{2}, \frac{1}{2})$ representation now transforms like so,
-
 \begin{equation}
 \alpha^{'} = e^{\frac{i}{2}\theta_i \sigma_i + \frac{1}{2}\phi_i \sigma_i} 
 \mathcal{L}\tilde{\mathcal{R}}^T e^{-\frac{i}{2}\theta_i \sigma_i^\dagger + \frac{1}{2}\phi_i \sigma_i^\dagger}.
 \end{equation}
-
 Considering the fact that $\sigma_i^\dagger = \sigma_i$, the transformation reduces further,
-
 \begin{equation}
 \alpha^{'} = e^{\frac{i}{2}\theta_i \sigma_i + \frac{1}{2}\phi_i \sigma_i} 
 \alpha e^{-\frac{i}{2}\theta_i \sigma_i + \frac{1}{2}\phi_i \sigma_i}.
 \end{equation}
-
 A transformation of the form $M' = HMH^\dagger$ where H is a Hermitian matrix, preserves the Hermitivity of the matrix M. Namely, M' will be Hermitian if M is Hermitian, 
-
 \begin{equation}
 M^{'\dagger} = (HMH^\dagger)^\dagger = HM^\dagger H^\dagger = HMH^\dagger = M^{'}.
 \end{equation}
-
 On the other hand, M' will be anti-Hermitian if M is anti-Hermitian,
-
 \begin{equation}
 M^{'\dagger} = (HMH^\dagger)^\dagger = HM^\dagger H^\dagger = H(-M)H^\dagger = -HMH^\dagger = -M'.
 \end{equation}
 
 The transformation of the $(\frac{1}{2}, \frac{1}{2})$ object $\alpha$ is of this type. With this in mind, note that any complex matrix can be broken up into a Hermitian piece and an anti-Hermitian piece, and that these pieces remain independent under the $(\frac{1}{2}, \frac{1}{2})$ Lorentz transformations constructed here. Then note that a general complex 2x2 matrix has 8 free parameters, 4 from the Hermitian part and 4 from the anti-Hermitian part. Meanwhile, $\alpha$ has only 4, two from each spinor \footnote{A spinor has 2 complex components yielding 4 parameters. Two constraints reduce the number of free parameters to 2. One constraint requires a magnitude of 1, and the other requires that the overall phase doesn't matter.}. This means that $\alpha$ may be represented by the Hermitian space alone. An appropriate basis for this space is the collection of Pauli matrices plus the identity.
-
 \begin{equation}
 \sigma_0 =  
 \begin{pmatrix}
@@ -606,9 +527,7 @@ i & 0 \\
 0 & -1 \\
 \end{pmatrix}
 \end{equation}
-
 Thus any $(\frac{1}{2}, \frac{1}{2})$ object $\alpha$ may be written in terms of its four independent parameters like so, 
-
 \begin{equation}
 \begin{split}
 &\alpha = \alpha_0 \sigma_0 + \alpha_1 \sigma_1 + \alpha_2 \sigma_2 + \alpha_3 \sigma_3 \\
@@ -621,7 +540,6 @@ Thus any $(\frac{1}{2}, \frac{1}{2})$ object $\alpha$ may be written in terms of
 \end{equation}
 
 Boosting $\alpha$ along the z direction hints that the four components transform like a four vector.  
-
 \begin{equation}
 \alpha^{'} = e^{\frac{1}{2}\phi_3 \sigma_3} 
 \begin{pmatrix}
@@ -630,9 +548,7 @@ Boosting $\alpha$ along the z direction hints that the four components transform
 \end{pmatrix}
 e^{\frac{1}{2}\phi_3 \sigma_3}
 \end{equation}
-
 Exponentiating the $\sigma_3$ matrix and multiplying everything yields,
-
 \begin{equation}
 \begin{split}
 \begin{pmatrix}
@@ -659,9 +575,7 @@ e^{\phi_3}(\alpha_0 + \alpha_3) & (\alpha_1 - i\alpha_2) \\
 \end{pmatrix}.
 \end{split}
 \end{equation}
-
 Then solving the systems of equations makes the transformation clearer,
-
 \begin{equation}
 \begin{split}
 &\alpha_1' = \alpha_1 \\
@@ -670,9 +584,7 @@ Then solving the systems of equations makes the transformation clearer,
 &\alpha_3' = (\sinh\phi_3) \alpha_0 +  (\cosh\phi_3) \alpha_3. \\ 
 \end{split}
 \end{equation}
-
 Finally the transformation can be written as a 4x4 matrix acting on the 4x1 four vector,
-
 \begin{equation}
 \alpha' = 
 \begin{pmatrix}
@@ -688,7 +600,6 @@ Finally the transformation can be written as a 4x4 matrix acting on the 4x1 four
 \alpha_3 \\
 \end{pmatrix}
 \end{equation}
-
 The other transformations reproduce the usual 4x4 Lorentz transformations as well. In this way, four vectors are just rearranged versions of the $(\frac{1}{2}, \frac{1}{2})$ rank 2 spinors. Similar to the way complex numbers are the square root of real numbers, spinors are the square root of four vectors. In practice it's easier to work with 4 vectors as 4x1 column vectors, though one could use the $(\frac{1}{2}, \frac{1}{2})$ rank 2 spinor representation.  
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -708,20 +619,16 @@ Labels in physics need to be measurable, and by the current understanding of qua
 Analyzing the symmetries of the SO(3) rotation group revealed the SU(2) group, the 2x2 complex Pauli matrices, and the complex 2x1 spinors. Analyzing the symmetries of the Lorentz group revealed the $(\frac{1}{2}, 0)$ left-chiral spinors, the $(0, \frac{1}{2})$ right chiral spinors, and the four vectors encoded in the $(\frac{1}{2}, \frac{1}{2})$ representation. Now, these pieces are put together to form relativistically invariant Lagrangians for free particles.  
 
 The $(0,0)$ representation of the Lorentz group is a scalar, which means that it remains the same under Lorentz transformations. This representation is used for spin 0 particles. The equations of motion must relate the change in the scalar field $\Phi$ at one moment in space and time to the value of $\Phi$ at the next moment in space and time, so the Lagrangian must include both the field itself and the four vector derivative, $\partial_\mu$. Note that both Newton's equations of motion, $F=m\ddot{x}$, and the Schrodinger equation for the free particle, $i\partial_t\psi = \frac{1}{2m}(-i\partial_x)(-i\partial_x)\psi$\footnote{Here the one dimensional case is presented for simplicity} have at most second order derivatives. The same holds for Maxwell's equations of electromagnetism. Hence, as an assumption, the derivative term in the Lagrangian will be the lowest order possible. As a Lorentz invariant scalar, any power of $\Phi$ can be included. On the other hand, $\partial_\mu$ is a four vector, and must be paired with a $\partial^\mu$ to form the invariant four vector product. Cross terms between these invariant pieces are also invariant, but lead to feedback between the derivatives and the value of the function. This means that the derivatives $i\partial_t = E$ and $-i\partial_i = P_i$ will change over time, but E and $\vec{P}$ should remain constant for a free particle. The cross terms are thrown out to prevent this. The $\Phi$ terms with an order different than $\Phi^2$ cause the same problem, and these are thrown out too. All of these choices lead to the following action, 
-
 \begin{equation}
 S = \int d^4x \left(c_0 + c_1 \Phi^2  
 + c_2 \partial_\mu\Phi\partial^\mu\Phi + c_3 \partial_\mu \partial^\mu \Phi\right).
 \end{equation}
 
 Note that the $c_3$ term is a total derivative and by the divergence theorem depends only on the values at the boundary, which are fixed. This implies that the contribution to the action from the $c_3$ term is the same regardless of how $\Phi$ changes in the volume. Because the Euler-Lagrange equations depend only on the variation in the volume, this term cannot contribute to $\delta S$ and $c_3$ may be set to zero. The $c_0$ term is a more obvious constant and does not affect $\delta S$ either, so it may be set to zero as well. 
-
 \begin{equation}
 S = \int d^4x \left(c_1 \Phi^2 + c_2 \partial_\mu\Phi\partial^\mu\Phi\right)
 \end{equation}
-
 Finding $\Phi$ such that $\delta S = 0$ amounts to applying the Euler-Lagrange equations $\partial_\mu \frac{\partial L}{\partial\left(\partial_\mu\Phi\right)} = \frac{\partial L}{\partial \Phi}$. These yield 
-
 \begin{equation}
 \begin{split}
 &2c_2\partial_\mu\partial^\mu\Phi = -2c_1\Phi \\ 
@@ -731,7 +638,6 @@ Finding $\Phi$ such that $\delta S = 0$ amounts to applying the Euler-Lagrange e
 \end{equation}
 
 In order to get the correct dispersion relation for a relativistic particle, $c_1$ is set to $\frac{-1}{2}m^2$ and $c_2$ is set to $\frac{1}{2}$. Notice that including any $\Phi^n$ with n$\neq$2 in the Lagrangian would have contributed to the differential equation via $\frac{\partial L}{\partial \Phi}$ and that E, $\vec{P}$ wouldn't be constant. Thus the equation wouldn't work for a free particle. The resulting equation of motion for the scalar particle, $\partial_\mu\partial^\mu\Phi = m^2\Phi$, is called the Klein-Gordon equation, and provides the correct description for spin 0 particles. This was all derived using symmetry, a reasonable assumption about the order of the derviatives, and the fact that the Energy shouldn't change over time for a free particle. The final Lagrangian for the scalar particle is 
-
 \begin{equation}
 S = \int d^4x \frac{1}{2}\left(\partial_\mu\Phi\partial^\mu\Phi - m^2 \Phi^2 \right).
 \end{equation}
@@ -740,44 +646,33 @@ S = \int d^4x \frac{1}{2}\left(\partial_\mu\Phi\partial^\mu\Phi - m^2 \Phi^2 \ri
 \subsubsection{Building the Lagrangian for a Free Spin $\frac{1}{2}$ Particle}
 
 With the action for the free scalar particle in hand, the free spin $\frac{1}{2}$ particle is up next. The spin $\frac{1}{2}$ action must combine the $\mathcal{L}$ and $\mathcal{R}$ spinors of the $(\frac{1}{2}, 0)$ and $(0, \frac{1}{2})$ representations and the four vector, $\partial_\mu$, in a Lorentz invariant way. Moving forward in this regard, the $\mathcal{L}$, $\mathcal{R}$, and $\partial_\mu$ transformations are now analyzed to find the lowest order invariant combinations. The transformation for the left-chiral spinor is 
-
 \begin{equation}
 \Lambda^{(L)} = e^{\frac{i}{2}\theta_i \sigma_i + \frac{1}{2}\phi_i \sigma_i}
 \end{equation},
-
 and the transformation for the right-chiral spinor is,
-
 \begin{equation}
 \Lambda^{(R)} = e^{\frac{i}{2}\theta_i \sigma_i - \frac{1}{2}\phi_i \sigma_i}
 \end{equation}.
-
 Taking the Hermitian conjugate of the left-chiral transformation gives,
-
 \begin{equation}
 (\Lambda^{(L)})^\dagger = e^{-\frac{i}{2}\theta_i \sigma_i^\dagger + \frac{1}{2}\phi_i \sigma_i^\dagger} 
 = e^{-\frac{i}{2}\theta_i \sigma_i + \frac{1}{2}\phi_i \sigma_i}
 \end{equation}.
 
 This reveals that $(\Lambda^{(L)})^\dagger$ is the inverse of $\Lambda^{(R)}$. Similarly, $(\Lambda^{(R)})^\dagger$ is the inverse of $\Lambda^{(L)}$. Thus, $\mathcal{L}^\dagger\mathcal{R}$ and $\mathcal{R}^\dagger\mathcal{L}$ are Lorentz invariants, which can be seen below,
-
 \begin{equation}
 (\mathcal{L}^\dagger\mathcal{R})' = \mathcal{L}^\dagger (\Lambda^{(L)})^\dagger \Lambda^{(R)} \mathcal{R} 
 = \mathcal{L}^\dagger (\Lambda^{(R)})^{-1} \Lambda^{(R)} \mathcal{R} = \mathcal{L}^\dagger \mathcal{R}  
 \end{equation}
-
 \begin{equation}
 (\mathcal{R}^\dagger\mathcal{L})' = \mathcal{R}^\dagger (\Lambda^{(R)})^\dagger \Lambda^{(L)} \mathcal{L} 
 = \mathcal{R}^\dagger (\Lambda^{(L)})^{-1} \Lambda^{(L)} \mathcal{L} = \mathcal{R}^\dagger \mathcal{L}. 
 \end{equation}
-
 These are the lowest order invariant pieces involving the field alone. In order to couple the derivative to the field the $\mathcal{L}$ and $\mathcal{R}$ spinors must attach to $\partial_\mu$ in an invariant way. Recall that a four vector may be expressed as an outer product of left and right spinors, 
-
 \begin{equation}
 \alpha_{L\tilde{R}} = \mathcal{L}' \tilde{\mathcal{R}}'^{T}.
 \end{equation}
-
 The following also works, 
-
 \begin{equation}
 \alpha_{R\tilde{L}} = \mathcal{R}' \tilde{\mathcal{L}}'^{T}.
 \end{equation}
@@ -788,76 +683,58 @@ Recall that the $\sim$ transformation sent $\sigma_i$ to $-\sigma_i*$. So the tr
 (\Lambda^{(\tilde{L})})^T = e^{\frac{i}{2}\theta_i(-\sigma_i*)^T + \frac{1}{2}\phi_i (-\sigma_i*)^T} 
 = e^{-\frac{i}{2}\theta_i \sigma_i^\dagger - \frac{1}{2}\phi_i \sigma_i^\dagger} = e^{-\frac{i}{2}\theta_i \sigma_i - \frac{1}{2}\phi_i \sigma_i}
 \end{equation}
-
 and
-
 \begin{equation}
 (\Lambda^{(\tilde{R})})^T = e^{\frac{i}{2}\theta_i(-\sigma_i*)^T - \frac{1}{2}\phi_i (-\sigma_i*)^T} 
 = e^{-\frac{i}{2}\theta_i \sigma_i^\dagger + \frac{1}{2}\phi_i \sigma_i^\dagger} = e^{-\frac{i}{2}\theta_i \sigma_i + \frac{1}{2}\phi_i \sigma_i}.
 \end{equation}
-
 The equations above show that the $(\Lambda^{(\tilde{L})})^T$ transformation is the inverse of $\Lambda^{(L)}$, and that the $(\Lambda^{(\tilde{R})})^T$ transformation is the inverse of $\Lambda^{(R)}$. So the invariant pieces coupling the spinor to the four vector are,
-
 \begin{equation}
 \mathcal{R}^\dagger \alpha_{L\tilde{R}} \mathcal{R} = \mathcal{R}^\dagger \mathcal{L}' \tilde{\mathcal{R}}'^{T} \mathcal{R}
 \end{equation}
-
 and
-
 \begin{equation}
 \mathcal{L}^\dagger \alpha_{R\tilde{L}} \mathcal{L} = \mathcal{L}^\dagger \mathcal{R}' \tilde{\mathcal{L}}'^{T} \mathcal{L}.
 \end{equation}
-
 The two types of four vectors have slightly different transformations
-
 \begin{equation}
 \alpha_{L\tilde{R}}^{'} = e^{\frac{i}{2}\theta_i \sigma_i + \frac{1}{2}\phi_i \sigma_i} 
 \alpha_{L\tilde{R}} e^{-\frac{i}{2}\theta_i \sigma_i + \frac{1}{2}\phi_i \sigma_i}
 \end{equation}
-
 \begin{equation}
 \alpha_{R\tilde{L}}^{'} = e^{\frac{i}{2}\theta_i \sigma_i - \frac{1}{2}\phi_i \sigma_i} 
 \alpha_{R\tilde{L}} e^{-\frac{i}{2}\theta_i \sigma_i - \frac{1}{2}\phi_i \sigma_i}.
 \end{equation}
 
 Both transform with positive $\theta$ under rotations, but the boosts are a different story. The $L\tilde{R}$ four vector transforms with positive $\phi$ while the $R\tilde{L}$ four vector transforms with negative $\phi$. Behaving the same way under rotations implies that the x,y,z components mix up the same way in both types of four vector. In this respect, rotating x,y,z or -x,-y,-z are both valid. Exemplifying this, an infinitesimal rotation around z by $d\theta_z$ gives 
-
 \begin{equation}
 \begin{split}
 &x' = x - yd\theta_z \\
 &y' = y + xd\theta_z
 \end{split}
 \end{equation}
-
 for positive x,y,z and 
-
 \begin{equation}
 \begin{split}
 &-x' = -x - (-y)d\theta_z \\
 &-y' = -y' + (-x)d\theta_z
 \end{split}
 \end{equation}
-
 for -x,-y,-z. These transformations are equivalent. Moving onto boosts, the opposite $\phi$ sign naively implies that the x,y,z terms mix up with t in the opposite way for the two types of rank 2 spinors. However, if both $L\tilde{R}$ and $R\tilde{L}$ represent a four vector, then the boost must yield the same transformation on the components. Therefore, to get from $L\tilde{R}$ to $R\tilde{L}$ take t,x,y,z to t,-x,-y,-z. Illuminating this, an infinitesimal boost along x by $d\phi_x$ gives 
-
 \begin{equation}
 \begin{split}
 &t' = t + xd\phi_x \\
 &x' = x + td\phi_x 
 \end{split}
 \end{equation}
-
 for the $L\tilde{R}$ representation and 
-
 \begin{equation}
 \begin{split}
 t' &= t + (-x)(-d\phi_x) \\ 
 -x' &= -x + t(-d\phi_x)  
 \end{split}
 \end{equation}
-
 for $R\tilde{L}$. The negative $\phi$ and the negative spatial components counteract to transform the four vector correctly. The $R\tilde{L}$ rank 2 spinor encodes a four vector in the same way as a $L\tilde{R}$ rank 2 spinor, except that the spatial components are coded into the rank 2 spinor with the opposite sign. Writing the representations out in terms of the four vector components yields
-  
 \begin{equation}
 \begin{split}
 &\alpha_{L\tilde{R}} = \alpha_0 \sigma_0 + \alpha_1 \sigma_1 + \alpha_2 \sigma_2 + \alpha_3 \sigma_3 \\
@@ -869,9 +746,7 @@ for $R\tilde{L}$. The negative $\phi$ and the negative spatial components counte
 \end{pmatrix}
 \end{split}
 \end{equation}
-
 and
-
 \begin{equation}
 \begin{split}
 &\alpha_{R\tilde{L}} = \alpha_0 \sigma_0 - \alpha_1 \sigma_1 - \alpha_2 \sigma_2 - \alpha_3 \sigma_3 \\
@@ -885,14 +760,11 @@ and
 \end{equation}
 
 The action for the spin $\frac{1}{2}$ particle is built from the lowest order invariant combinations of the spinors themselves and the lowest order invariant term coupling $\partial_\mu$ to the spinors. These ingredients are $\mathcal{L}^\dagger\mathcal{R}$, $\mathcal{R}^\dagger\mathcal{L}$, $\mathcal{R}^\dagger\sigma^\mu\partial_\mu\mathcal{R}$, and $\mathcal{L}^\dagger\bar{\sigma}^\mu\partial_\mu\mathcal{L}$. In the scalar particle case m coupled the field to itself as potential energy \footnote{The mass term had a negative sign in the Lagrangian.} with the same power as $\partial_\mu$ \footnote{E, P, and m must have the same power to get $E^2 = m^2 + \vec{P}^2$ right, and $E \sim \partial_0$, $P_i \sim \partial_i$ so m must have the same power as $\partial_\mu$.}. Following that example and throwing an i into the derivative terms\footnote{This gives the $P_\mu$ operator which equals $i\partial_\mu$.} to make them Hermitian gives the following Lagrangian,  
-
 \begin{equation}
 S = \int d^4x \left( \mathcal{R}^\dagger\sigma^\mu i\partial_\mu\mathcal{R} + i\mathcal{L}^\dagger\bar{\sigma}^\mu i\partial_\mu\mathcal{L} 
 - m\mathcal{L}^\dagger\mathcal{R} - m\mathcal{R}^\dagger\mathcal{L} \right).
 \end{equation} 
-
 The Euler-Lagrange equations reveal how the fields change over time,
-
 \begin{equation}
 \begin{split}
 & \sigma^\mu i\partial_\mu\mathcal{R} = m\mathcal{L} \\
@@ -901,11 +773,9 @@ The Euler-Lagrange equations reveal how the fields change over time,
 & \bar{\sigma}^\mu i\partial_\mu\mathcal{L}^\dagger = -m\mathcal{R}^\dagger. \\
 \end{split}
 \end{equation}
-
 Notice that the mass term couples the left and right chiral spinors. At rest, P=0 and the equations reduce to $i\partial_0\mathcal{R} = m\mathcal{L}$ and $i\partial_0\mathcal{L} = m\mathcal{R}$ showing that $\partial^2_0 \mathcal{R} = -m^2\mathcal{R}$ and $\partial^2_0 \mathcal{L} = -m^2\mathcal{L}$. The mass is actually a frequency determining how quickly a particle oscillates between its right-chiral and left-chiral states. Another interesting point is that swapping the sign of m here swaps the roles of the fields and the conjugate fields. 
 
 Plugging $\mathcal{R} = \frac{1}{m}\bar{\sigma}^\nu i\partial_\nu\mathcal{L}$ into $\sigma^\mu i\partial_\mu\mathcal{R} = m\mathcal{L}$ shows that the constants chosen for the terms in the Lagrangian provide the correct dispersion relation,
-
 \begin{equation}
 \begin{split}
 &\sigma^\mu i\partial_\mu \frac{1}{m}\bar{\sigma}^\nu i\partial_\nu\mathcal{L} = m\mathcal{L} \\
@@ -915,16 +785,11 @@ Plugging $\mathcal{R} = \frac{1}{m}\bar{\sigma}^\nu i\partial_\nu\mathcal{L}$ in
 &\rightarrow E^2 - \vec{P}^2 = m^2 \\
 \end{split}
 \end{equation}
-
-
 The action for the spin $\frac{1}{2}$ particle can be rewritten into its more compact, canonical form,
-
 \begin{equation}
 S = \int d^4x \text{ } \bar{\psi} \left(i\gamma^\mu\partial_\mu - m\right)\psi,
 \end{equation} 
-
 after defining
-
 \begin{equation}
 \gamma^\mu =
 \begin{pmatrix}
@@ -941,33 +806,26 @@ after defining
 \bar{\psi} =
 \psi^\dagger \gamma_0 \text{. }
 \end{equation}
-
 The spin $\frac{1}{2}$ Lagrangian is called the Dirac Lagrangian and the resulting equations of motion are the Dirac equation.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsubsection{Building the Lagrangian for a Free Spin 1 Particle}
 Last but not least is the Lagrangian for a spin 1 force carrying particle. The main ingredients are the $A_\mu$ and $\partial_\mu$ four vectors. The lowest order possible invariants are $\partial^\mu A^\nu\partial_\mu A_\nu$, $\partial^\mu A^\nu\partial_\nu A_\mu$, $A^\mu A_\mu$, and $\partial^\mu A_\mu$. However the last term is a total derivative and won't be included. The resulting action and equations of motion are 
-
 \begin{equation}
 S = \int d^4x \left( c_0 i\partial^\mu A^\nu i\partial_\mu A_\nu + c_1 i\partial^\mu A^\nu i\partial_\nu A_\mu + c_2 A^\mu A_\mu \right).
 \end{equation}
-
 \begin{equation}
 c_2 A^\nu = -\partial_\mu\left(c_0 \partial^\mu A^\nu + c_1 \partial^\nu A^\mu\right).
 \end{equation}
 
 This is the same form as the equation for the four vector potential in electromagnetism, which has $c_0 = \frac{1}{2}$ and $c_1 =-\frac{1}{2}$. The remaining term, $c_2$ looks like a mass term, so $c_2$ is set to $\frac{1}{2}m^2$ \footnote{The order of the mass should match the order of the derivatives.}. The action and equations of motion with the appropriate constants become, 
-
 \begin{equation}
 S = \int d^4x \left( \frac{-1}{2} \partial^\mu A^\nu\partial_\mu A_\nu + \frac{1}{2} \partial^\mu A^\nu\partial_\nu A_\mu + \frac{m^2}{2} A^\mu A_\mu \right)
 \end{equation}
-
 \begin{equation}
 -m^2 A^\nu = \partial_\mu\left(\partial^\mu A^\nu - \partial^\nu A^\mu\right).
 \end{equation}
-
 Taking another derivative reveals that the equations reduce further and take on the correct dispersion relation, confirming the choice of constants,
-
 \begin{equation}
 \begin{split}
 &-m^2 \partial_\nu A^\nu = \partial_\nu \partial_\mu \partial^\mu A^\nu - \partial_\nu \partial_\mu \partial^\nu A^\mu = 0 \\
@@ -977,9 +835,7 @@ Taking another derivative reveals that the equations reduce further and take on 
 &\rightarrow m^2 = E^2 - \vec{P}^2.
 \end{split}
 \end{equation}
-
 The action for the spin 1 particle is called the Proca action. It's normally written in an equivalent form in terms of the tensor $F_{\mu\nu} = \partial_\mu A_\nu - \partial_\nu A_\mu$
-
 \begin{equation}
 S = \int d^4x \left( \frac{-1}{4}F_{\mu\nu}F^{\mu\nu}  + \frac{m^2}{2} A^\mu A_\mu \right).
 \end{equation}
@@ -993,24 +849,19 @@ Quantum behavior can only be predicted in a strange probabilistic way. Classical
 \mathcal{A}_j = e^{iS_{j}} 
 \end{equation}
 Adding the amplitudes for every possibility gives the net amplitude, and squaring the net amplitude gives the probability.   
-
 \begin{equation}
 P = |\sum_j \mathcal{A}_j|^2
 \end{equation}
-
 Consider a free non-relativistic quantum particle in one dimension with the Lagrangian $\mathcal{L} = \frac{1}{2}m\dot{x}^2$. The amplitude for the particle to start at $x_0, t_0$ and end at $x_f, t_f$ can be calculated by discretizing time, $t \in {t_0, t_1, ..., t_f}$. A path is then determined by specifying x at each point in time, $x(t) \in {x(t_0), x(t_1), ..., x(t_f)}$. In this way, the action for a path x, $S(x)$, can be written
-
 \begin{equation}
 S(x) = \int dt L = \frac{m}{2} \int_{t_0}^{t_f} dt \dot{x}^2 = \frac{m}{2} \sum_i \frac{(x(t_i) - x(t_{i-1}))^2}{(t_i - t_{i-1})^2} (t_i - t_{i-1})  
 = \frac{m}{2} \sum_i \frac{(x(t_i) - x(t_{i-1}))^2}{\Delta t}.
 \end{equation}
 The amplitude for the path is then given by, 
-%
 \begin{equation}
 \mathcal{A}(x) = e^{i\frac{m}{2}\frac{(x(t_f) - x(t_{f-1}))^2}{\Delta t}}e^{i\frac{m}{2}\frac{(x(t_{f-1}) - x(t_{f-2}))^2}{\Delta t}}...e^{i\frac{m}{2}\frac{(x(t_1) - x(t_{0}))^2}{\Delta t}}.
 \end{equation}
 Summing over all paths, $x(t)$, with fixed endpoints, $x(t_0) = x_0$ and $x(t_f) = x_f$, provides the net amplitude 
-%
 \begin{equation}
 \begin{split}
 \mathcal{A} &= \sum_{x} \mathcal{A}(x) = \sum_{x(t_f-1)} \sum_{x(t_f-2)} ... \sum_{x(t_1)} 
@@ -1023,7 +874,6 @@ e^{i\frac{m}{2}\frac{(x(t_1) - x(t_{0}))^2}{\Delta t}}\\
 \end{split}
 \end{equation} 
 Integrating by parts and using the average velocity $v = \frac{x_f-x_0}{t_f - t_0}$ for the boundary velocities provides the net amplitude for the particle to go from one place to another,
-
 \begin{equation}
 \begin{split}
 \mathcal{A} &= \int \mathcal{D}[x(t)] e^{i\frac{m}{2}x\partial_t x|^{t_f}_{t_0} + i\frac{m}{2}\int_{t_0}^{t_f} dt (-x \partial^2_t x)} \\ 
@@ -1035,18 +885,14 @@ Integrating by parts and using the average velocity $v = \frac{x_f-x_0}{t_f - t_
 The normalization $\mathcal{N}$ is fixed by requiring that the probability for the particle to be somewhere at $t_f$ is one. In other words, integrating over all $x_f$ for constant $x_0, t_0, t_f$ should give one. A more rigorous derivation of this propagator can be found in {\color{red} Feynman and Hibbs} for example.
 
 In general the amplitude to go from $\phi(t_0) = \phi_0$ to $\phi(t_f) = \phi_f$ is determined by the path integral, 
-%
 \begin{equation}
 \mathcal{A}(\phi_f, t_f; \phi_0, t_0) = \braket{\phi_f,t_f|\phi_0,t_0} = \int \mathcal{D}[\cdot] e^{i\int_{t_0}^{t_f} dt L}.
 \end{equation}
 Furthermore, the expectation value for an operation performed at time $t_1$ when the system starts in the state $\phi(t_0) = \phi_0$ and ends in $\phi(t_f) = \phi_f$ is
-%
 \begin{equation}
 |\bra{\phi_f,t_f}\mathcal{O}(t_1)\ket{\phi_0,t_0}|^2 = \left|\int \mathcal{D}[\cdot] \mathcal{O}(t_1) e^{i\int_{t_0}^{t_f} dt L}\right|^2.
 \end{equation}
-
 Of particular importance for QFT are scattering events. When two particles are measured at $(t_1,\vec{x}_1)$ and $(t_2,\vec{x}_2)$ some time in the past, what is the amplitude to measure two particles at $(t_3,\vec{x}_3)$ and $(t_4,\vec{x}_4)$ some time in the future? Considering that particles are in fact disturbances in the field, an equivalent question may be asked. How is the field amplitude correlated between spacetime points $(t_4, \vec{x}_4), (t_3, \vec{x}_3), (t_2, \vec{x}_2),$ and $(t_1, \vec{x}_1)$. So for two to two scattering the amplitude is given by
-%
 \begin{equation}
 \bra{0}\psi_i(t_4,\vec{x}_4)\psi_j(t_3,\vec{x}_3)\psi_k(t_2,\vec{x}_2)\psi_l(t_1,\vec{x}_1)\ket{0} = 
 \frac{\int \mathcal{D}[\cdot]\psi_i(t_4,\vec{x}_4)\psi_j(t_3,\vec{x}_3)\psi_k(t_2,\vec{x}_2)\psi_l(t_1,\vec{x}_1)
@@ -1086,14 +932,12 @@ Transforming to the eigenbasis yields a multidimensional Gaussian integral
 \end{equation}
 
 The solution uses the fact that the determinant is the product of eigenvalues. The integral from the numerator can be dealt with by taking derivatives of the moment generating function 
-%
 \begin{equation}
 \int d\Phi_1 d\Phi_2 ... d\Phi_N \Phi_k\Phi_l e^{i\frac{1}{2}\Phi_{i} K_{ij} \Phi_{j}} 
 = \frac{1}{i}\frac{\delta}{\delta J_k}\frac{1}{i}\frac{\delta}{\delta J_l}\Big|_{J=0} 
 \int d\Phi_1 d\Phi_2 ... d\Phi_N e^{i\frac{1}{2}\Phi_{i} K_{ij} \Phi_{j} + iJ_i\Phi_i}. 
 \end{equation}
 And the integral on the right can be solved using the substitution $\Phi' = \Phi + K^{-1}J$ to complete the square, 
-%
 \begin{equation}
 \begin{split}
 \int d\Phi_1 d\Phi_2 ... d\Phi_N e^{i\frac{1}{2}\Phi_{i} K_{ij} \Phi_{j} + iJ_i\Phi_i} 
@@ -1112,7 +956,6 @@ where the last line reverts back to continuous functions and operators. Applying
 \end{split}
 \end{equation}
 Then plugging in the solutions for the numerator and denominator shows that the two point correlation function is given by the Feynman propagator, $\mathcal{D}_F$, 
-%
 \begin{equation}
 \begin{split}
 \bra{0}\Phi(x_2)\Phi(x_1)\ket{0} &= 
@@ -1125,7 +968,6 @@ Then plugging in the solutions for the numerator and denominator shows that the 
 In momentum space K is diagonal and $\mathcal{D}_F = \frac{i}{p^2-m^2 + i\epsilon}$. Converting to the spacetime basis yields, $\mathcal{D}_F(x_2,x_1) = \int \frac{d^4k}{\sqrt{2\pi}^4}\frac{i e^{-ik\cdot(x_2-x_1)}}{p^2-m^2 + i\epsilon}$. 
 
 The Feynman propagators are the building blocks for the higher order correlation functions. Take the four point function as an example,
-%
 \begin{equation}
 \begin{split}
 \bra{0}\Phi(x_4)\Phi(x_3)\Phi(x_2)\Phi(x_1)\ket{0} &= 
@@ -1139,7 +981,6 @@ The Feynman propagators are the building blocks for the higher order correlation
 \end{split}
 \end{equation}
 When J=0 only the term with four Js and four derivatives survives. The four derivatives hit the Js and leave terms like $\mathcal{D}_F(d,c) \mathcal{D}_F(b,a)$. In this case, there are 4!=24 ways to rearrange a,b,c, and d. However, the order of the spacetime points within the propagator doesn't matter nor does the order of the propagators, so this reduces the total to $\frac{4!}{2!2^2}$ = 3 ways. The $\frac{1}{n!}$ and the $\frac{1}{2^n}$ from the expansion naturally take care of the degeneracy,
-%
 \begin{equation}
 \begin{split}
 &\bra{0}\Phi(x_4)\Phi(x_3)\Phi(x_2)\Phi(x_1)\ket{0} \\
@@ -1152,7 +993,6 @@ When J=0 only the term with four Js and four derivatives survives. The four deri
 Any higher order correlation functions are built from the propagators in the same way: add up all possible combinations of the propagators for the appropriate order and account for the degeneracies.  
 
 Solving the free theory is nice, but it isn't that useful. Particles interact and the interacting solutions are the ones needed to describe scattering and decays. Fortunately, the interacting theories can be expanded in terms of the free correlations. For example, the two point correlation function for an interacting theory is given by,
-
 \begin{equation}
 \begin{split}
 \bra{0}\Phi(x_2)\Phi(x_1)\ket{0} &= 
@@ -1167,15 +1007,12 @@ e^{i\int_{-\infty}^{\infty} d^4x \frac{1}{2}\Phi (-\partial_\mu\partial^\mu - m^
 \end{split}
 \end{equation}
 where $\mathcal{L}_{int}$ may be written as a powerseries in $\Phi$. Expanding this way, the numerator becomes a series of integrals of the form
-%
 \begin{equation}
 \int d^4x_{i_1}d^4x_{i_2} ... d^4x_{i_k} \int \mathcal{D}[\Phi]\Phi(x_{i_1})...\Phi(x_{i_k})\Phi(x_2)\Phi(x_1)e^{i\int_{-\infty}^{\infty} d^4x \frac{1}{2}\Phi (-\partial_\mu\partial^\mu - m^2)\Phi},
 \end{equation} 
-%
 which are just correlation functions of the free field. Likewise, the denominator is also an expansion of the free correlations. In this way any solution of the full theory may be written in terms of the free field solutions. Furthermore, when the interaction is small compared to the free part of the Lagrangian, the series expansions converge, and only a few terms are needed.   
 
 The simplest interacting theory is $\mathcal{L}_{int} = -\frac{\lambda}{4!}\Phi^4(x)$, and the two point correlation function describing the propagation of a particle is given by
-%
 \begin{equation}
 \begin{split}
 &\bra{0}\Phi(x_2)\Phi(x_1)\ket{0} = \\ 
@@ -1184,9 +1021,7 @@ e^{i\int_{-\infty}^{\infty} d^4x \frac{1}{2}\Phi (-\partial_\mu\partial^\mu - m^
 {\int \mathcal{D}[\Phi]e^{i\int_{-\infty}^{\infty} d^4x \frac{1}{2}\Phi (-\partial_\mu\partial^\mu - m^2)\Phi} \sum_{n=0}^{\infty} \frac{1}{n!}\left(\int_{-\infty}^{\infty} d^4z \frac{-i\lambda}{4!}\Phi(z)^4 \right)^n }. \\
 \end{split}
 \end{equation}
-%
 Consider the numerator up to first order in $\lambda$
-%
 \begin{equation}
 \begin{split}
 N(\lambda^1) &= \int \mathcal{D}[\Phi]\Phi(x_2)\Phi(x_1)
@@ -1195,7 +1030,6 @@ e^{i\int_{-\infty}^{\infty} d^4x \frac{1}{2}\Phi (-\partial_\mu\partial^\mu - m^
 \int_{-\infty}^{\infty} d^4z \frac{-i\lambda}{4!} \int \mathcal{D}[\Phi]\Phi(x_2)\Phi(x_1)\Phi(z)^4e^{i\int_{-\infty}^{\infty} d^4x \frac{1}{2}\Phi (-\partial_\mu\partial^\mu - m^2)\Phi}\\
 \end{split}.
 \end{equation}
-%
 The first term is just the Feynman propagator, but the order $\lambda$ term contains a correlation function with six $\Phi$s. Solving the six point integral requires adding up all combinations of terms of the form $\mathcal{D}_F(a,b) \mathcal{D}_F(c,d) \mathcal{D}_F(e,f)$ while accounting for the appropriate degeneracies. There are $\frac{6!}{3!2^3}$ = 15 possible propagator triples: 12 ways to put x and y in separate propagators and 3 ways to put them in the same one. With this information the perturbation series for the numerator is finally in hand, 
 \begin{equation}
 \begin{split}
@@ -1242,7 +1076,7 @@ The spin 1 and spin $\frac{1}{2}$ Lagrangians were obtained after a lengthy adve
 \begin{equation}
 \begin{split}
 S &= \int d^4x \frac{-1}{4}F_{\mu\nu}F^{\mu\nu} + \frac{m_A^2}{2} A^\mu A_\mu + \bar{\psi}\left(i\gamma^\mu\partial_\mu - m\right)\psi + q\bar{\psi}\gamma^\mu A_\mu \psi \\
-&= \int d^4x \frac{-1}{4}F_{\mu\nu}F^{\mu\nu} + \frac{m_A^2}{2} A^\mu A_\mu + \bar{\psi}\left[i\gamma^\mu\left(\partial_\mu - iq\gamma^\mu A_\mu\right)- m \right]\psi 
+&= \int d^4x \frac{-1}{4}F_{\mu\nu}F^{\mu\nu} + \frac{m_A^2}{2} A^\mu A_\mu + \bar{\psi}\left[i\gamma^\mu\left(\partial_\mu - iqA_\mu\right)- m \right]\psi 
 \end{split}
 \end{equation}
 To describe electromagnetism, the photon field should be massless and the interacting theory should be gauge invariant. Setting $m_A$ to zero and checking whether $A_\mu \rightarrow A_\mu(x) + \partial_\mu\alpha(x)$ is a symmetry, provides  
@@ -1271,7 +1105,7 @@ S = \int d^4x \frac{-1}{4}(\partial_\mu A_\nu - \partial_\nu A_\mu)(\partial^\mu
 \end{equation}
 effectively deriving the Lagrangian for Quantum Electrodynamics (QED).
 
-The QED U(1) symmetry had a single generator so there weren't any commutation issues. The SU(2) transformation $\psi \rightarrow U\psi$ with $e^{\frac{i}{2}q\alpha_i(x)\sigma_i}$ is a bit more complicated. If 
+The QED U(1) symmetry had a single generator so there weren't any commutation issues. The SU(2) transformation $\psi \rightarrow U\psi$ with $U = e^{\frac{i}{2}q\alpha_i(x)\sigma_i}$ is a bit more complicated. If 
 \begin{equation}
 \bar{\psi}U^\dagger i\gamma^\mu\left(\partial_\mu + cA'_{\mu}\right)U\psi = \bar{\psi}i\gamma^\mu\left(\partial_\mu + cA_{\mu}\right)\psi 
 \end{equation}
@@ -1282,9 +1116,44 @@ is true when $A_\mu \rightarrow A'_\mu$ then the derivative term will be gauge i
 & = (\partial_\mu U)\psi + U(\partial_\mu\psi) + cA'_{\mu}U\psi \\ 
 & = (\partial_\mu U)\psi + U(\partial_\mu\psi) + cUA_{\mu}U^\dagger U\psi + c\Delta A_{\mu} \\
 & = U\left(\partial_\mu + cA_{\mu}\right)\psi + (\partial_\mu U)\psi + c\Delta A_{\mu} \\
-& \rightarrow c\Delta A_{\mu} = -(\partial_\mu U)\psi
+& \rightarrow c\Delta A_{\mu} = -(\partial_\mu U)\psi = - (\partial_\mu U)U^\dagger U\psi = U\partial_\mu U^\dagger\psi
 \end{split}
 \end{equation}
+The last line used the fact that for a unitary matrix U, $UU^\dagger = 1$ and $\partial_\mu(UU^\dagger) = 0$. To preserve gauge invariance under a unitary transformation $\psi \rightarrow U\psi$, $cA_\mu$ must transform as
+\begin{equation}
+cA_\mu(x) \rightarrow cUA_\mu(x)U^\dagger + U\partial_\mu U^\dagger .
+\end{equation}
+For invariance under SU(2) the derivative can be calculated
+\begin{equation}
+\begin{split}
+cA_\mu(x) &\rightarrow cUA_\mu(x)U^\dagger + c\Delta A_\mu \\ 
+&= cUA_\mu(x)U^\dagger - iq\frac{\sigma_i}{2}\partial_\mu\alpha_i(x).
+\end{split}
+\end{equation}
+Choosing c=-iq and $\Delta A_\mu = \frac{\sigma_i}{2}\partial_\mu\alpha_i(x)$ determines the coupling constant and the transformation for the SU(2) invariant Lagrangian.
+
+$A_\mu$ is a matrix which may be expanded in terms of the SU(2) generators, $A_\mu$ = $A^1_{\mu}\frac{\sigma_1}{2}$ + $A^2_{\mu}\frac{\sigma_2}{2}$ + $A^3_{\mu}\frac{\sigma_3}{2}$. Note that U(1) only required a single particle while SU(2) requires three. For a general unitary transformation, there will be a force carrying particle for each generator, and an expansion $A_\mu = T^cA^c_\mu$. By representing $A_\mu$ in terms of the generators, the transformation for each component, $A^c_\mu$, may be calculated, 
+\begin{equation}
+\label{eq:Agauge}
+A^c_\mu \rightarrow A^c_\mu - f^{abc}\alpha^a A^b_\mu + \partial_\mu\alpha^c, 
+\end{equation}
+where $[T^a,T^b]=if^{abc}T^c$ defines the Lie alegbra of the group. This result holds in general, but for SU(2), $A_\mu = \frac{\sigma_c}{2}A^c$ and $f^{abc} = \epsilon^{abc}$.
+The coupling has been taken care of, but $F_{\mu\nu}$ still needs to be defined so that it remains invariant under equation \ref{eq:Agauge}. Defining 
+\begin{equation}
+F_{\mu\nu} = \partial_\mu A_\nu - \partial_\nu A_\mu + iq[A_\mu,A_\nu] 
+\end{equation}
+makes $F_{\mu\nu}$ covariant, $F_{\mu\nu} \rightarrow UF_{\mu\nu}U^\dagger$, and to make it invariant, the trace is taken. So finally, the gauge invariant Lagrangian with massless fermions is given by
+\begin{equation}
+S = \int d^4x \frac{-1}{4}trF_{\mu\nu}trF^{\mu\nu} + \bar{\psi}i\gamma^\mu D_\mu\psi, 
+\end{equation}
+where $D_\mu = \partial_\mu - iqA_\mu$ is the covariant derivative. This holds for any unitary gauge transformation. For the SU(2) invariant theory the Lagrangian is given by, 
+\begin{equation}
+\label{eq:ewlagrangian}
+S = \int d^4x \frac{-1}{4}trF_{\mu\nu}trF^{\mu\nu} + \bar{\psi}\left[i\gamma^\mu\left(\partial_\mu - iq\frac{\sigma_i}{2}A^i_\mu\right)\right]\psi. 
+\end{equation}
+
+The SU(2) invariant Lagrangian of equation \ref{eq:ewlagrangian} describes the electroweak interaction, with the three components of the force carrying field representing the photon along with the two particles of the weak interaction. Unfortunately, the theory has massless fermions and massless weak force particles, while in real life these particles have mass. Adding mass terms directly ruins the SU(2) invariance, so another mechanism is needed, and this is where the Higgs comes into play.  
+
 %\underbracket[0.8pt]{\mathcal{D}_F(x_2,x_1)}_\text{A}
 %iq\frac{\sigma_i}{2}\partial_\mu\alpha_i
 %\begin{equation}
