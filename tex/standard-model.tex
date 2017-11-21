@@ -1250,9 +1250,9 @@ To describe electromagnetism, the photon field should be massless and the intera
 
 %S = \int d^4x \frac{-1}{4}F_{\mu\nu}F^{\mu\nu} + \bar{\psi}\left(i\gamma^\mu\partial_\mu - m + q\gamma^\mu A_\mu + q\gamma^\mu\partial_\mu\alpha\right)\psi.
 \begin{equation}
-S = \int d^4x \frac{-1}{4}F_{\mu\nu}F^{\mu\nu} + \bar{\psi}\left[i\gamma^\mu\left(\partial_\mu - iq\gamma^\mu A_\mu - iq\partial_\mu\alpha\right)- m \right]\psi, 
+S = \int d^4x \frac{-1}{4}F_{\mu\nu}F^{\mu\nu} + \bar{\psi}\left[i\gamma^\mu\left(\partial_\mu - iqA_\mu - iq\partial_\mu\alpha\right)- m \right]\psi, 
 \end{equation}
-which isn't gauge invariant. In effect, the gauge transformation has shifted the derivative by $-iq\partial_\mu\alpha$. In order to retain gauge invariance, a simultaneous transformation that sends $\partial_\mu \rightarrow \partial_\mu + iq\partial_\mu\alpha$ is needed to cancel out the extra term. The correct transformation is $\partial_\mu \rightarrow e^{-iq\alpha}\partial_\mu e^{iq\alpha}$, which can be written as transformation of the fermion field, $\bar{\psi} e^{-iq\alpha} \partial_\mu e^{iq\alpha} \psi$. So, if 
+which isn't gauge invariant. In effect, the gauge transformation has shifted the derivative by $-iq\partial_\mu\alpha$. In order to retain gauge invariance, a simultaneous transformation that sends $\partial_\mu \rightarrow \partial_\mu + iq\partial_\mu\alpha$ is needed to cancel out the extra term. The correct transformation is $\bar{\psi}\partial_\mu\psi \rightarrow \bar{\psi} e^{-iq\alpha} \partial_\mu e^{iq\alpha} \psi$. So, if 
 
 \begin{equation}
 A_\mu(x) \rightarrow A_\mu(x) + \partial_\mu\alpha(x)
@@ -1261,9 +1261,26 @@ and
 \begin{equation}
 \psi(x) \rightarrow e^{iq\alpha(x)}\psi(x) 
 \end{equation}
-the Lagrangian is gauge invariant. The second equation reveals that the field is invariant under local transformations of the phase.
+the Lagrangian is gauge invariant. The second equation reveals that the field is invariant under local transformations of the phase. Furthermore, the local phase invariance by Noether's theorem leads to conservation of charge.
 
-By taking the local phase invariance seriously, the previous logic can be reversed to produce Lagrangians for new forces. In the case of electromagnetism above, demanding that the fermion field is invariant under a local U(1) transformation \footnote{$\psi \rightarrow e^{iq\alpha(x)}\psi$} produces the form of the fermion-force coupling as well as the gauge transformation requirement for the force carrying field. Similarly, demanding SU(2) invariance produces the electroweak theory, and demanding SU(3) invariance produces the theory for the strong force.  
+By running the logic in reverse, Lagrangians may be produced that describe new forces. In the case of electromagnetism above, demanding that the fermion field is invariant under a local U(1) transformation sends $\bar{\psi}\partial_\mu\psi \rightarrow \bar{\psi} e^{-iq\alpha} \partial_\mu e^{iq\alpha} \psi$ effectively shifting the derivative, $\partial_\mu \rightarrow \partial_\mu + iq\partial_\mu\alpha$. As a vector, the photon field couples the same way as the derivative. Meanwhile, $A_\mu$ also needs to cancel the shift, so 
+
+\begin{equation}
+\partial_\mu + iq\partial_\mu\alpha + c(A_\mu + a_\mu) = \partial_\mu + cA_\mu. 
+\end{equation}
+Therefore c=-iq and $a_\mu = \partial_\mu\alpha$. Furthermore, $F^{\mu\nu}F_{\mu\nu}$ must remain invariant under $A_\mu(x) \rightarrow A_\mu(x) + \partial_\mu\alpha(x)$. These conditions plus Lorentz invariance force the Lagrangian to be of the form, 
+
+\begin{equation}
+S = \int d^4x \frac{-1}{4}(\partial_\mu A_\nu - \partial_\nu A_\mu)(\partial^\mu A^\nu - \partial^\nu A^\mu) + \bar{\psi}\left[i\gamma^\mu\left(\partial_\mu - iqA_\mu\right) - m \right]\psi, 
+\end{equation}
+effectively deriving the Lagrangian for Quantum Electrodynamics (QED).
+
+The SU(2) transformation $\psi \rightarrow e^{\frac{i}{2}q\alpha_i(x)\sigma_i}\psi$ shifts the derivative by $\frac{i}{2}q\partial_\mu\alpha_i\sigma_i$, supplying the following condition,
+
+\begin{equation}
+\partial_\mu + \frac{i}{2}q\partial_\mu\alpha_i\sigma_i + c_i(A_i\mu + a_i\mu) = \partial_\mu + cA_i\mu, 
+\end{equation}
+which implies that $c_i = iq\frac{\sigma_i}{2}$.
 
 %%%%%%%%%%%%%%%%%%%%%%
 \subsection{The Higgs Mechanism}
