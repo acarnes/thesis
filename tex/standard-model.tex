@@ -1140,16 +1140,20 @@ A^c_\mu \rightarrow A^c_\mu - f^{abc}\alpha^a A^b_\mu + \partial_\mu\alpha^c,
 where $[T^a,T^b]=if^{abc}T^c$ defines the Lie alegbra of the group. This result holds in general, but for SU(2), $A_\mu = \frac{\sigma_c}{2}A^c$ and $f^{abc} = \epsilon^{abc}$.
 The coupling has been taken care of, but $F_{\mu\nu}$ still needs to be defined so that it remains invariant under equation \ref{eq:Agauge}. Defining 
 \begin{equation}
-F_{\mu\nu} = \partial_\mu A_\nu - \partial_\nu A_\mu + iq[A_\mu,A_\nu] 
+F_{\mu\nu} = \partial_\mu A_\nu - \partial_\nu A_\mu - iq[A_\mu,A_\nu] 
 \end{equation}
 makes $F_{\mu\nu}$ covariant, $F_{\mu\nu} \rightarrow UF_{\mu\nu}U^\dagger$, and to make it invariant, the trace is taken. So finally, the gauge invariant Lagrangian with massless fermions is given by
 \begin{equation}
-S = \int d^4x \frac{-1}{4}trF_{\mu\nu}trF^{\mu\nu} + \bar{\psi}i\gamma^\mu D_\mu\psi, 
+S = \int d^4x \frac{-1}{2}tr(F_{\mu\nu}F^{\mu\nu}) + \bar{\psi}i\gamma^\mu D_\mu\psi = \int d^4x \frac{-1}{4}F^a_{\mu\nu}F_a^{\mu\nu} + \bar{\psi}i\gamma^\mu D_\mu\psi, 
 \end{equation}
-where $D_\mu = \partial_\mu - iqA_\mu$ is the covariant derivative. The Lagrangian holds for any unitary gauge transformation, U(1) providing electromagnetism alone, SU(2) providing the electroweak interactions, and SU(3) providing the strong force. For the SU(2) invariant theory the Lagrangian is given by, 
+where
+\begin{equation}
+F^a_{\mu\nu} = \partial_\mu A^a_\nu - \partial_\nu A^a_\mu + qf^{abc}A^b_\mu A^c_\nu 
+\end{equation}
+and $D_\mu = \partial_\mu - iqA_\mu$ is the covariant derivative. The Lagrangian holds for any unitary gauge transformation, U(1) providing electromagnetism alone, SU(2) providing the electroweak interactions, and SU(3) providing the strong force. For the SU(2) invariant theory the Lagrangian is given by, 
 \begin{equation}
 \label{eq:ewlagrangian}
-S = \int d^4x \frac{-1}{4}trF_{\mu\nu}trF^{\mu\nu} + \bar{\psi}\left[i\gamma^\mu\left(\partial_\mu - iq\frac{\sigma_i}{2}A^i_\mu\right)\right]\psi. 
+S = \int d^4x \frac{-1}{4}F^a_{\mu\nu}F_a^{\mu\nu} + \bar{\psi}\left[i\gamma^\mu\left(\partial_\mu - iq\frac{\sigma_i}{2}A^i_\mu\right)\right]\psi. 
 \end{equation}
 
 The SU(2) invariant Lagrangian of equation \ref{eq:ewlagrangian} describes the electroweak interaction, with the three components of the force carrying field representing the photon along with the two particles of the weak interaction. Unfortunately, the theory has massless fermions and massless weak force particles, while in real life these particles have mass. Adding mass terms directly ruins the SU(2) invariance, so another mechanism is needed, and this is where the Higgs comes into play.  
@@ -1163,6 +1167,33 @@ The SU(2) invariant Lagrangian of equation \ref{eq:ewlagrangian} describes the e
 
 %%%%%%%%%%%%%%%%%%%%%%
 \subsection{The Higgs Mechanism}
+The W and Z bosons observed in nature are massive, but directly adding a mass term for a force carrying particle ruins the gauge symmetry, 
+\begin{equation}
+\frac{1}{2}m_A^2A_\mu A^\mu \rightarrow \frac{1}{2}m_A^2(UA_\mu U^\dagger + \Delta A_\mu)(UA^\mu U^\dagger + \Delta A_\mu) 
+\end{equation}.
+As for the fermion masses, the gauge transformation acts on a column of fermions which leaves the $\bar{\psi}m\psi$ term invariant,  
+\begin{equation}
+\begin{pmatrix}
+\bar{\psi_1} \\
+...          \\
+\bar{\psi_n} \\
+\end{pmatrix}
+m
+\begin{pmatrix}
+\psi_1 & ... & \psi_n
+\end{pmatrix}
+\rightarrow
+\begin{pmatrix}
+\bar{\psi_1} \\
+...          \\
+\bar{\psi_n} \\
+\end{pmatrix}
+U^\dagger mU
+\begin{pmatrix}
+\psi_1 & ... & \psi_n
+\end{pmatrix},
+\end{equation}
+but the fermions all have the same mass. In order to have massive fermions and massive W and Z particles as seen in nature the Higgs mechanism is needed. Since mass is energy, the idea is to produce $m_A^2A_\mu A^\mu$ and $\bar{\psi}m\psi$ terms through the interaction with a field. Because mass is a scalar, the interactions require a scalar field, and because the mass is derived from a nonzero interaction energy, the groundstate of the scalar field should be nonzero. For all of these reasons, the Higgs mechanism adds a scalar field with a $\phi^4$ potential term to the electroweak Lagrangian, 
 
 \begin{figure}[h!]
   \centering
