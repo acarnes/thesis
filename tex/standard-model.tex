@@ -1144,20 +1144,22 @@ F_{\mu\nu} = \partial_\mu A_\nu - \partial_\nu A_\mu - iq[A_\mu,A_\nu]
 \end{equation}
 makes $F_{\mu\nu}$ covariant, $F_{\mu\nu} \rightarrow UF_{\mu\nu}U^\dagger$, and to make it invariant, the trace is taken. So finally, the gauge invariant Lagrangian with massless fermions is given by
 \begin{equation}
-S = \int d^4x \frac{-1}{2}tr(F_{\mu\nu}F^{\mu\nu}) + \bar{\psi}i\gamma^\mu D_\mu\psi = \int d^4x \frac{-1}{4}F^a_{\mu\nu}F_a^{\mu\nu} + \bar{\psi}i\gamma^\mu D_\mu\psi, 
+S = \int d^4x \mathcal{N}tr(F_{\mu\nu}F^{\mu\nu}) + \bar{\psi}i\gamma^\mu D_\mu\psi,
+\end{equation}
+where $D_\mu = \partial_\mu - iqA_\mu$ is the covariant derivative. The Lagrangian holds for any unitary gauge transformation, U(1) providing electromagnetism alone, SU(2) providing the electroweak interactions, and SU(3) providing the strong force. For SU(N) invariant theories the Lagrangian is given by, 
+\begin{equation}
+\label{eq:ewlagrangian}
+S = \int d^4x \frac{-1}{2}tr(F_{\mu\nu}F^{\mu\nu}) + \bar{\psi}i\gamma^\mu D_\mu\psi 
+  = \int d^4x \frac{-1}{4}F^a_{\mu\nu}F_a^{\mu\nu} + \bar{\psi}\left[i\gamma^\mu\left(\partial_\mu - iqT^iA^i_\mu\right)\right]\psi. 
 \end{equation}
 where
 \begin{equation}
-F^a_{\mu\nu} = \partial_\mu A^a_\nu - \partial_\nu A^a_\mu + qf^{abc}A^b_\mu A^c_\nu 
+F^a_{\mu\nu} = \partial_\mu A^a_\nu - \partial_\nu A^a_\mu + qf^{abc}A^b_\mu A^c_\nu. 
 \end{equation}
-and $D_\mu = \partial_\mu - iqA_\mu$ is the covariant derivative. The Lagrangian holds for any unitary gauge transformation, U(1) providing electromagnetism alone, SU(2) providing the electroweak interactions, and SU(3) providing the strong force. For the SU(2) invariant theory the Lagrangian is given by, 
-\begin{equation}
-\label{eq:ewlagrangian}
-S = \int d^4x \frac{-1}{4}F^a_{\mu\nu}F_a^{\mu\nu} + \bar{\psi}\left[i\gamma^\mu\left(\partial_\mu - iq\frac{\sigma_i}{2}A^i_\mu\right)\right]\psi. 
-\end{equation}
+$\mathcal{N}$ is set to $-\frac{1}{2}$ in order to get the appropriate $-\frac{1}{4}$ in front of the $F^a_{\mu\nu}$ tensors\footnote{The calculation uses the fact that the SU(N) the generator matrices form an orthogonal basis, $tr(T^aT^b) = \frac{1}{2}\delta^{ab}$.}.
 
 The SU(2) invariant Lagrangian of equation \ref{eq:ewlagrangian} describes the electroweak interaction, with the three components of the force carrying field representing the photon along with the two particles of the weak interaction. Unfortunately, the theory has massless fermions and massless weak force particles, while in real life these particles have mass. Adding mass terms directly ruins the SU(2) invariance, so another mechanism is needed, and this is where the Higgs comes into play.  
-
+%= \int d^4x \frac{-1}{4}F^a_{\mu\nu}F_a^{\mu\nu} + \bar{\psi}i\gamma^\mu D_\mu\psi,
 %\underbracket[0.8pt]{\mathcal{D}_F(x_2,x_1)}_\text{A}
 %iq\frac{\sigma_i}{2}\partial_\mu\alpha_i
 %\begin{equation}
@@ -1169,7 +1171,7 @@ The SU(2) invariant Lagrangian of equation \ref{eq:ewlagrangian} describes the e
 \subsection{The Higgs Mechanism}
 The W and Z bosons observed in nature are massive, but directly adding a mass term for a force carrying particle ruins the gauge symmetry, 
 \begin{equation}
-\frac{1}{2}m_A^2A_\mu A^\mu \rightarrow \frac{1}{2}m_A^2(UA_\mu U^\dagger + \Delta A_\mu)(UA^\mu U^\dagger + \Delta A_\mu) 
+\frac{1}{2}m_A^2A_\mu A^\mu \rightarrow \frac{1}{2}m_A^2(UA_\mu U^\dagger + \Delta A_\mu)(UA^\mu U^\dagger + \Delta A^\mu) 
 \end{equation}.
 As for the fermion masses, the gauge transformation acts on a column of fermions which leaves the $\bar{\psi}m\psi$ term invariant,  
 \begin{equation}
