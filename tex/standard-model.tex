@@ -1094,7 +1094,7 @@ and
 \end{equation}
 the Lagrangian is gauge invariant. The second equation reveals that the field is invariant under local transformations of the phase. 
 
-Requiring gauge invariance demanded U(1) invariance on the fermion field. By running the logic in reverse and demanding more complicated invariances on the fermion field(s), Lagrangians may be produced that describe new forces. In the case of electromagnetism above, demanding that the fermion field is invariant under a local U(1) transformation sends $\bar{\psi}\partial_\mu\psi \rightarrow \bar{\psi} e^{-iq\alpha} \partial_\mu e^{iq\alpha} \psi$ effectively shifting the derivative, $\partial_\mu \rightarrow \partial_\mu + iq\partial_\mu\alpha$. Now $A_\mu$ needs to cancel the shift requiring 
+Requiring gauge invariance requires the fermion field to maintain U(1) invariance. By running the logic in reverse and demanding more complicated unitary invariances on the fermion field(s), Lagrangians may be produced that describe new forces. In the case of electromagnetism above, demanding that the fermion field is invariant under a local U(1) transformation sends $\bar{\psi}\partial_\mu\psi \rightarrow \bar{\psi} e^{-iq\alpha} \partial_\mu e^{iq\alpha} \psi$ effectively shifting the derivative, $\partial_\mu \rightarrow \partial_\mu + iq\partial_\mu\alpha$. Now $A_\mu$ needs to cancel the shift requiring 
 
 \begin{equation}
 \partial_\mu + iq\partial_\mu\alpha + c(A_\mu + a_\mu) = \partial_\mu + cA_\mu. 
@@ -1208,6 +1208,20 @@ As $\phi$ goes into the groundstate, $\phi \rightarrow \phi_0$, the force carryi
 
 The toy examples of equations \ref{eq:toyew1} and \ref{eq:toyew2} cover the basic ideas behind the Higgs mechanism, but correctly describing the electroweak interaction requires a more complex and intricate theory, the U(1)xSU(2) Weinberg-Salam Lagrangian. The Weinberg-Salam Lagrangian includes a U(1) gauge field and an SU(2) gauge field. The U(1) field has one invariant label, Y, describing the representation and the SU(2) field has two: one describing the representation, $I$, and another describing the isopsin in the third direction, $I_3$. In the theory, the U(1) field and the third component of the SU(2) field mix up, one orthogonal piece providing the massive Z boson and the other the massless photon. The remaining first and second components of the SU(2) field mix up to provide the massive $W^+$ and $W^-$ bosons. 
 
+The Weinberg-Salam Lagrangian for the electron (e) and electron neutrino ($\nu_e$) of equation \ref{eq:ws} is written in terms of left and right handed Dirac spinors. Left and right handed Dirac spinors are defined in terms of the left and right handed spinors as follows, $\psi_L = \begin{pmatrix} L \\ 0 \end{pmatrix}$ and $\psi_R = \begin{pmatrix} 0 \\ R \end{pmatrix}$. In nature, the weak force treats left and right handed particles differently. The $W^+$ and $W^-$ particles interact only with left handed particles and interact with them symmetrically. In this regard, the Lagrangian is written to respect the interchange of the left handed particles with the SU(2) transformation acting on $L = \begin{pmatrix} \nu_e \\ e_L \end{pmatrix}$. The remaining right handed particles are denoted by $R = e_R$. In addition, only left handed neutrinos have been observed in nature, so $\nu_e$ is only left handed. 
+\begin{equation}
+\label{eq:ws}
+\begin{split}
+\mathcal{L} &= (\partial^\mu\phi - iq_{w\phi}\frac{\sigma_i}{2}W_i^\mu\phi - iq_{b\phi}B^\mu\phi)^\dagger
+               (\partial_\mu\phi - iq_{w\phi}\frac{\sigma_i}{2}W^i_\mu\phi - iq_{b\phi}B^\mu\phi) \\ 
+            &+ \bar{L}i\gamma^\mu(\partial_\mu - iq_{wl}\frac{\sigma_i}{2}W_i^\mu - iq_{bl}B_\mu)L + \bar{R}i\gamma^\mu(\partial_\mu - iq_{br}B_\mu)R \\
+            &- \beta(\bar{\nu}_e\phi^+e_R + \bar{e}_R\phi^{+*}\nu_e + \bar{e}_L\phi^-e_R + \bar{e}_R\phi^{-*}e_L) 
+             - \frac{1}{4}G_i^{\mu\nu}G^i_{\mu\nu} -\frac{1}{4}F^{\mu\nu}F_{\mu\nu}
+\end{split}
+\end{equation}
+%Only left handed neutrinos have been observed in nature, so the electron neutrino in the Lagrangian is a left handed Dirac spinor.
+% The left handed Dirac spinors are concatenated into $L = \begin{pmatrix} \nu_e \\ e_L \end{pmatrix}$.
+%Left and right Dirac spinors are defined in terms of the left and right spinors as follows, $\psi_L = \begin{pmatrix} L 0 \end{pmatrix}$ and $\psi_R = \begin{pmatrix} 0 R \end{pmatrix}$. Note that the neutrino is purely left handed as verified by experiment.
 \begin{figure}[h!]
   \centering
   \includegraphics[width=1.5in]{images/ggf.png}
