@@ -30,8 +30,8 @@
 \contentsline {subsection}{\numberline {3.1.5}Perturbation Theory and Feynman Rules}{53}{subsection.3.1.5}
 \contentsline {subsection}{\numberline {3.1.6}Interactions}{59}{subsection.3.1.6}
 \contentsline {subsection}{\numberline {3.1.7}The Higgs Mechanism}{63}{subsection.3.1.7}
-\contentsline {section}{\numberline {3.2}The Standard Model Higgs}{64}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}SM Higgs Production and Decay Modes}{64}{subsection.3.2.1}
+\contentsline {section}{\numberline {3.2}The Standard Model Higgs}{65}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}SM Higgs Production and Decay Modes}{65}{subsection.3.2.1}
 \contentsline {chapter}{\numberline {4}\uppercase {RESULTS}}{69}{chapter.4}
 \contentsline {section}{\numberline {4.1}Fusce Eget Tempus Lectus, }{69}{section.4.1}
 \contentsline {chapter}{\numberline {5}\uppercase {SUMMARY AND CONCLUSIONS}}{74}{chapter.5}

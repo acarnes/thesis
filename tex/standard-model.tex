@@ -1208,17 +1208,31 @@ As $\phi$ goes into the groundstate, $\phi \rightarrow \phi_0$, the force carryi
 
 The toy examples of equations \ref{eq:toyew1} and \ref{eq:toyew2} cover the basic ideas behind the Higgs mechanism, but correctly describing the electroweak interaction requires a more complex and intricate theory, the U(1)xSU(2) Weinberg-Salam Lagrangian. The Weinberg-Salam Lagrangian includes a U(1) gauge field and an SU(2) gauge field. The U(1) field has one invariant label, Y, describing the representation and the SU(2) field has two: one describing the representation, $I$, and another describing the isopsin in the third direction, $I_3$. In the theory, the U(1) field and the third component of the SU(2) field mix up, one orthogonal piece providing the massive Z boson and the other the massless photon. The remaining first and second components of the SU(2) field mix up to provide the massive $W^+$ and $W^-$ bosons. 
 
-The Weinberg-Salam Lagrangian for the electron (e) and electron neutrino ($\nu_e$) of equation \ref{eq:ws} is written in terms of left and right handed Dirac spinors. Left and right handed Dirac spinors are defined in terms of the left and right handed spinors as follows, $\psi_L = \begin{pmatrix} L \\ 0 \end{pmatrix}$ and $\psi_R = \begin{pmatrix} 0 \\ R \end{pmatrix}$. In nature, the weak force treats left and right handed particles differently. The $W^+$ and $W^-$ particles interact only with left handed particles and interact with them symmetrically. In this regard, the Lagrangian is written to respect the interchange of the left handed particles with the SU(2) transformation acting on $L = \begin{pmatrix} \nu_e \\ e_L \end{pmatrix}$. The remaining right handed particles are denoted by $R = e_R$. In addition, only left handed neutrinos have been observed in nature, so $\nu_e$ is only left handed. 
+The Weinberg-Salam Lagrangian for the electron (e) and electron neutrino ($\nu_e$) of equation \ref{eq:ws} is written in terms of left and right handed Dirac spinors. Left and right handed Dirac spinors are defined in terms of the left and right handed spinors as follows, $\psi_L = \begin{pmatrix} L \\ 0 \end{pmatrix}$ and $\psi_R = \begin{pmatrix} 0 \\ R \end{pmatrix}$. In nature, the weak force treats left and right handed particles differently. The $W^+$ and $W^-$ particles interact only with left handed particles and interact with them symmetrically. In this regard, the Lagrangian is written to respect the interchange of the left handed particles with the SU(2) transformation acting on $L = \begin{pmatrix} \nu_e \\ e_L \end{pmatrix}$. The remaining right handed particles are denoted by $R = e_R$. In addition, only left handed neutrinos have been observed in nature, so $\nu_e$ is left handed. 
 \begin{equation}
 \label{eq:ws}
 \begin{split}
 \mathcal{L} &= (\partial^\mu\phi - iq_{w\phi}\frac{\sigma_i}{2}W_i^\mu\phi - iq_{b\phi}B^\mu\phi)^\dagger
                (\partial_\mu\phi - iq_{w\phi}\frac{\sigma_i}{2}W^i_\mu\phi - iq_{b\phi}B^\mu\phi) \\ 
             &+ \bar{L}i\gamma^\mu(\partial_\mu - iq_{wl}\frac{\sigma_i}{2}W_i^\mu - iq_{bl}B_\mu)L + \bar{R}i\gamma^\mu(\partial_\mu - iq_{br}B_\mu)R \\
-            &- \beta(\bar{\nu}_e\phi^+e_R + \bar{e}_R\phi^{+*}\nu_e + \bar{e}_L\phi^-e_R + \bar{e}_R\phi^{-*}e_L) 
-             - \frac{1}{4}G_i^{\mu\nu}G^i_{\mu\nu} -\frac{1}{4}F^{\mu\nu}F_{\mu\nu}
+            &- \beta(\bar{\nu}_e\phi_+e_R + \bar{e}_R\phi_+^{*}\nu_e + \bar{e}_L\phi_-e_R + \bar{e}_R\phi_-^{*}e_L) 
+             - \frac{1}{4}G_i^{\mu\nu}G^i_{\mu\nu} -\frac{1}{4}F^{\mu\nu}F_{\mu\nu} \\
+            &+ \frac{m_h^2}{2}\phi^\dagger\phi - \frac{\lambda}{4}(\phi^\dagger\phi)^2
 \end{split}
 \end{equation}
+The SU(2) field, $W_\mu$, is a complex 2x2 matrix expanded in terms of the Pauli matrices. In order for $W_\mu$ to operate on $\phi$, $\phi$ must be a 2x1 complex column vector. 
+\begin{equation}
+\phi = 
+\begin{pmatrix}
+\phi_+ \\ \phi_-
+\end{pmatrix}
+\end{equation}
+To isolate the mass terms, the scalar field is expanded about its minimum, $|\phi| = \phi_0 = \sqrt{\frac{m_h^2}{\lambda}}$. The minimum is degenerate, only requiring that $|\phi_+|^{2} + |\phi_-|^{2} = \phi_0^2$. The particular solution $\phi = \begin{pmatrix} 0 \\ \phi_0 + \frac{1}{\sqrt{2}}h(x) \end{pmatrix}$ fixes the fermion mass terms such that the electron acquires mass in the correct way and that the strange mass-like coupling between the electron and neutrino disappears,
+\begin{equation}
+\beta(\bar{L}\phi R + \bar{R}\phi^\dagger L) = \beta(\bar{\nu}_e\phi_+e_R + \bar{e}_R\phi_+^{*}\nu_e + \bar{e}_L\phi_-e_R + \bar{e}_R\phi_-^{*}e_L) \rightarrow 
+\beta(\bar{e}_L\phi_0e_R + \bar{e}_R\phi_0e_L).
+\end{equation}
+Fixing $\phi^+=0$ and $Im\phi^-=0$ comes at a cost, breaking the SU(2) symmetry of the Lagrangian. The coupling is no longer in the invariant form $\bar{L}\phi R + \bar{R}\phi^\dagger L \rightarrow \bar{L}U^\dagger U\phi R + \bar{R}\phi^\dagger U^\dagger UL$. {\color{red} However, $U = e^{(\frac{Y}{2} + I_3\sigma_3)\alpha(x)}$ is still a symmetry. EXPLAIN THIS BETTER.}
 %Only left handed neutrinos have been observed in nature, so the electron neutrino in the Lagrangian is a left handed Dirac spinor.
 % The left handed Dirac spinors are concatenated into $L = \begin{pmatrix} \nu_e \\ e_L \end{pmatrix}$.
 %Left and right Dirac spinors are defined in terms of the left and right spinors as follows, $\psi_L = \begin{pmatrix} L 0 \end{pmatrix}$ and $\psi_R = \begin{pmatrix} 0 R \end{pmatrix}$. Note that the neutrino is purely left handed as verified by experiment.
