@@ -1234,14 +1234,14 @@ To isolate the mass terms, the scalar field is expanded about its minimum, $|\ph
 \end{equation}
 Fixing $\phi^+=0$ and $Im\phi^-=0$ comes at a cost, breaking the SU(2) symmetry of the Lagrangian. The coupling is no longer in the invariant form $\bar{L}\phi R + \bar{R}\phi^\dagger L \rightarrow \bar{L}U^\dagger U\phi R + \bar{R}\phi^\dagger U^\dagger UL$. {\color{red} However, $U = e^{(\frac{Y}{2} + I_3\sigma_3)\alpha(x)}$ is still a symmetry. EXPLAIN THIS BETTER.}
 
-As in the toy example, the covariant derivative acting on the scalar field bestows mass onto the force carriers.
+As in the toy example, the $(D^\mu\phi)^\dagger(D_\mu\phi)$ term bestows mass onto the force carriers.
 \begin{equation}
 \begin{split}
-D_\mu\phi &= (\partial_\mu - iq_{w\phi}\frac{\sigma_i}{2}W^i_\mu - iq_{b\phi}B^\mu)\phi \\
+D_\mu\phi &= (\partial_\mu - iq_{w\phi}\frac{\sigma_i}{2}W^i_\mu - iq_{b\phi}B_\mu)\phi \\
           &= \left[ 
 \begin{pmatrix}
-\partial_\mu - iq_{b\phi}B^\mu & 0 \\
-0 & \partial_\mu - iq_{b\phi}B^\mu \\
+\partial_\mu - iq_{b\phi}B_\mu & 0 \\
+0 & \partial_\mu - iq_{b\phi}B_\mu \\
 \end{pmatrix} 
  - \frac{i}{2}q_{w\phi}
 \begin{pmatrix}
@@ -1249,7 +1249,7 @@ W^3_\mu & W^1_\mu - iW^2_\mu \\
 W^1_\mu + iW^2_\mu & -W^3_\mu \\
 \end{pmatrix} \right] \begin{pmatrix} 0 \\ \phi_0 + \frac{1}{\sqrt{2}}h \end{pmatrix} \\
 %          &=
-%\begin{pmatrix} 0 \\ \frac{1}{\sqrt{2}}\partial_\mu h - iq_{b\phi}B^\mu(\phi_0 + \frac{1}{\sqrt{2}}h) \end{pmatrix}
+%\begin{pmatrix} 0 \\ \frac{1}{\sqrt{2}}\partial_\mu h - iq_{b\phi}B_\mu(\phi_0 + \frac{1}{\sqrt{2}}h) \end{pmatrix}
 % - \frac{i}{2}q_{w\phi}
 %\begin{pmatrix}
 %(W^1_\mu - iW^2_\mu)(\phi_0 + \frac{1}{\sqrt{2}}h)\\
@@ -1258,15 +1258,21 @@ W^1_\mu + iW^2_\mu & -W^3_\mu \\
 %         &= -\frac{i}{2}
 %\begin{pmatrix}
 %q_{w\phi}(W^1_\mu - iW^2_\mu)(\phi_0 + \frac{1}{\sqrt{2}}h)\\
-%i\sqrt{2}\partial_\mu h - q_{w\phi}W^3_\mu(\phi_0 + \frac{1}{\sqrt{2}}h) + 2q_{b\phi}B^\mu(\phi_0 + \frac{1}{\sqrt{2}}h)\\
+%i\sqrt{2}\partial_\mu h - q_{w\phi}W^3_\mu(\phi_0 + \frac{1}{\sqrt{2}}h) + 2q_{b\phi}B_\mu(\phi_0 + \frac{1}{\sqrt{2}}h)\\
 %\end{pmatrix} \\
          &= -\frac{i}{2}
 \begin{pmatrix}
 q_{w\phi}\phi_0(W^1_\mu - iW^2_\mu) + \frac{1}{\sqrt{2}}q_{w\phi}h(W^1_\mu - iW^2_\mu)\\
-i\sqrt{2}\partial_\mu h + \phi_0(2q_{b\phi}B^\mu - q_{w\phi}W^3_\mu) + \frac{1}{\sqrt{2}}h(2q_{b\phi}B^\mu - q_{w\phi}W^3_\mu)\\
+i\sqrt{2}\partial_\mu h + \phi_0(2q_{b\phi}B_\mu - q_{w\phi}W^3_\mu) + \frac{1}{\sqrt{2}}h(2q_{b\phi}B_\mu - q_{w\phi}W^3_\mu)\\
 \end{pmatrix}
 \end{split}
 \end{equation}
+The $\phi_0^2$ terms determine the masses,
+\begin{equation}
+(D^\mu\phi)^\dagger(D_\mu\phi) = q^2_{w\phi}\frac{\phi_0^2}{4}(W^1_\mu)^2 + q^2_{w\phi}\frac{\phi_0^2}{4}(W^2_\mu)^2 
+                                      + \frac{\phi_0^2}{4}(q_{w\phi}W^3_\mu - 2q_{b\phi}B_\mu)^2 + \text{other terms.}
+\end{equation}
+The orthogonal term $q_{w\phi}W^3_\mu + 2q_{b\phi}B_\mu$ is missing from the covariant derivative and remains massless, providing the photon field. 
 %\begin{pmatrix} 0 \\ \phi_0 + \frac{1}{\sqrt{2}}h \end{pmatrix}
 %Only left handed neutrinos have been observed in nature, so the electron neutrino in the Lagrangian is a left handed Dirac spinor.
 % The left handed Dirac spinors are concatenated into $L = \begin{pmatrix} \nu_e \\ e_L \end{pmatrix}$.
