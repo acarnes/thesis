@@ -1272,7 +1272,22 @@ The $\phi_0^2$ terms determine the masses,
 (D^\mu\phi)^\dagger(D_\mu\phi) = q^2_{w\phi}\frac{\phi_0^2}{4}(W^1_\mu)^2 + q^2_{w\phi}\frac{\phi_0^2}{4}(W^2_\mu)^2 
                                       + \frac{\phi_0^2}{4}(q_{w\phi}W^3_\mu - 2q_{b\phi}B_\mu)^2 + \text{other terms.}
 \end{equation}
-The orthogonal term $q_{w\phi}W^3_\mu + 2q_{b\phi}B_\mu$ is missing from the covariant derivative and remains massless, providing the photon field. 
+The orthogonal term $q_{w\phi}W^3_\mu + 2q_{b\phi}B_\mu$ is missing from the covariant derivative and remains massless, providing the photon field. This leaves 
+\begin{equation}
+m_{w} = \frac{q_{w\phi}\phi_0}{\sqrt{2}} \text{, }
+m_z = \frac{m_w}{q_{w\phi}} \text{, and } m_\gamma = 0.
+\end{equation}
+The photon, $A_\mu$, is a linear combination of $W^3_\mu$ and $B_\mu$. The U(1) symmetry corresponding to electromagnetism is then 
+\begin{equation}
+\begin{split}
+& U_A = e^{i(Q_{wi}T^3 + Q_{bi})\alpha(x)} \\
+& W^3_\mu \rightarrow W^3_\mu + \frac{1}{g_w}\partial_\mu\alpha \\
+& B_\mu \rightarrow B_\mu + \frac{1}{g_b}\partial_\mu\alpha
+\end{split}
+\end{equation}
+where $T^3$ is the third SU(2) generator for the given representation, and the Qs are the normalized charges defined by $q_{wi} = Q_{wi}g_w$ and $q_{bi} = Q_{bi}g_b$. The U(1) symmetry leads to conservation of electromagnetic charge, $Q = Q_{w}I_{3} + Q_{b}$, with $I_3$ the eigenvalue of $T_3$. Therefore the electromagnetic charge for a given particle is $Q_i = Q_{wi}I_{3i} + Q_{bi}$. 
+
+The operator $T^3 = \frac{\sigma^3}{2}$ acting on L has two eigenstates, $\nu_e$ and $e_L$, corresponding to the $I_3$ eigenvalues $\frac{1}{2}$ and $\frac{-1}{2}$ respectively. Similarly, the eigenstates $\phi^+ = 0$ and $\phi^- = \phi_0 + h$ correspond to eigenvalues $\frac{1}{2}$ and $\frac{-1}{2}$. $e_R$ is right handed with $I_3 = 0$.
 %\begin{pmatrix} 0 \\ \phi_0 + \frac{1}{\sqrt{2}}h \end{pmatrix}
 %Only left handed neutrinos have been observed in nature, so the electron neutrino in the Lagrangian is a left handed Dirac spinor.
 % The left handed Dirac spinors are concatenated into $L = \begin{pmatrix} \nu_e \\ e_L \end{pmatrix}$.
