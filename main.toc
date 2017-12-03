@@ -18,7 +18,7 @@
 \contentsline {chapter}{\numberline {3}\uppercase {THE STANDARD MODEL}}{23}{chapter.3}
 \contentsline {section}{\numberline {3.1}Quantum Field Theory}{25}{section.3.1}
 \contentsline {subsection}{\numberline {3.1.1}Particles, Symmetries, and Labels}{26}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}The Lagrangian Formalism}{27}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.2}The Lagrangian Formalism}{26}{subsection.3.1.2}
 \contentsline {subsection}{\numberline {3.1.3}QFT From Symmetry}{31}{subsection.3.1.3}
 \contentsline {subsubsection}{\numberline {3.1.3.1}Rotations}{31}{subsubsection.3.1.3.1}
 \contentsline {subsubsection}{\numberline {3.1.3.2}The Lorentz Group}{35}{subsubsection.3.1.3.2}
@@ -30,18 +30,18 @@
 \contentsline {subsection}{\numberline {3.1.5}Perturbation Theory and Feynman Rules}{53}{subsection.3.1.5}
 \contentsline {subsection}{\numberline {3.1.6}Interactions}{59}{subsection.3.1.6}
 \contentsline {subsection}{\numberline {3.1.7}The Higgs Mechanism}{63}{subsection.3.1.7}
-\contentsline {section}{\numberline {3.2}The Standard Model Higgs}{66}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}SM Higgs Production and Decay Modes}{66}{subsection.3.2.1}
-\contentsline {chapter}{\numberline {4}\uppercase {RESULTS}}{70}{chapter.4}
-\contentsline {section}{\numberline {4.1}Fusce Eget Tempus Lectus, }{70}{section.4.1}
-\contentsline {chapter}{\numberline {5}\uppercase {SUMMARY AND CONCLUSIONS}}{75}{chapter.5}
-\contentsline {section}{\numberline {5.1}Non Porttitor Tellus}{75}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}Nam Arcu Magna}{75}{subsection.5.1.1}
-\contentsline {subsubsection}{\numberline {5.1.1.1}Ut pellentesque velit sede}{75}{subsubsection.5.1.1.1}
+\contentsline {section}{\numberline {3.2}The Standard Model Higgs}{67}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}SM Higgs Production and Decay Modes}{67}{subsection.3.2.1}
+\contentsline {chapter}{\numberline {4}\uppercase {RESULTS}}{71}{chapter.4}
+\contentsline {section}{\numberline {4.1}Fusce Eget Tempus Lectus, }{71}{section.4.1}
+\contentsline {chapter}{\numberline {5}\uppercase {SUMMARY AND CONCLUSIONS}}{76}{chapter.5}
+\contentsline {section}{\numberline {5.1}Non Porttitor Tellus}{76}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Nam Arcu Magna}{76}{subsection.5.1.1}
+\contentsline {subsubsection}{\numberline {5.1.1.1}Ut pellentesque velit sede}{76}{subsubsection.5.1.1.1}
 \addvspace {10pt}\noindent {APPENDIX} \hfill {\@@par }
-\contentsline {chapter}{\numberline {A}\uppercase {THIS IS THE FIRST APPENDIX}}{76}{appendix.A}
-\contentsline {chapter}{\numberline {B}\uppercase {AN EXAMPLE OF A HALF TITLE PAGE}}{77}{appendix.B}
-\contentsline {chapter}{\numberline {C}\uppercase {DERIVATION OF THE $\Upsilon $ FUNCTION}}{81}{appendix.C}
-\contentsline {chapter}{\numberline {D}\uppercase {DERIVATION OF THE $\Upsilon $ FUNCTION}}{85}{appendix.D}
-\contentsline {extrachapter}{REFERENCES}{89}{appendix*.6}
-\contentsline {extrachapter}{BIOGRAPHICAL SKETCH}{90}{appendix*.7}
+\contentsline {chapter}{\numberline {A}\uppercase {THIS IS THE FIRST APPENDIX}}{77}{appendix.A}
+\contentsline {chapter}{\numberline {B}\uppercase {AN EXAMPLE OF A HALF TITLE PAGE}}{78}{appendix.B}
+\contentsline {chapter}{\numberline {C}\uppercase {DERIVATION OF THE $\Upsilon $ FUNCTION}}{82}{appendix.C}
+\contentsline {chapter}{\numberline {D}\uppercase {DERIVATION OF THE $\Upsilon $ FUNCTION}}{86}{appendix.D}
+\contentsline {extrachapter}{REFERENCES}{90}{appendix*.6}
+\contentsline {extrachapter}{BIOGRAPHICAL SKETCH}{91}{appendix*.7}
