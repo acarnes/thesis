@@ -87,7 +87,7 @@ In the case where u(t) depends upon time, the difference between the primed and 
 \end{equation}
 In the unprimed frame, the particle identified by the mass moves with constant velocity, $\dot{v} = 0$. The observer in the primed frame looks at the particle with the same mass and sees it change velocity given by the equation $\dot{v} = -\dot{u}$. As an example, set v and $u$, and $\dot{u}$ to zero for all times before t=0, and let $u$,and $\dot{u}$ turn on after time 0. Both observers will agree that the particle is stationary up until time 0. After which, the observer in the primed frame will see the particle accelerate in strange ways. Meanwhile, the unprimed frame will continue to observe a stationary particle. 
 
-In general, every inertial frame finds $\delta F = 0$ and every accelerating frame finds an extra force $\delta F$ unique to its acceleration. In this way no observer in an inertial frame can perform an experiment and determine which inertial frame he or she is in. On the other hand, each accelerating frame is identified by its $\delta F$.  Put another way, in every inertial frame, a ball released at rest remains at rest. In an accelerating frame, the ball will accelerate according to the motion of the frame $\delta F$ and this change in the laws of physics identifies the frame in a unique way. Conversely, the laws of physics remain the same boosting between inertial frames, and this invariance is a symmetry of physics. Of course this example is Newtonian and the correct way to boost is given by the Lorentz transformation from Special Relativity, but this gets the point across.
+In general, every inertial frame finds $\delta F = 0$ and every accelerating frame finds an extra force $\delta F$ unique to its acceleration. In this way, no observer in an inertial frame can perform an experiment and determine which inertial frame he or she is in. On the other hand, each accelerating frame is identified by its $\delta F$.  Put another way, in every inertial frame, a ball released at rest remains at rest. In an accelerating frame, the ball will accelerate according to the motion of the frame $\delta F$ and this change in the laws of physics identifies the frame in a unique way. Conversely, the laws of physics remain the same boosting between inertial frames, and this invariance is a symmetry of physics. Of course this example is Newtonian and the correct way to boost is given by the Lorentz transformation from Special Relativity, but this gets the point across.
 
 Delving further along the path of symmetry, the fundamental forces depend only on the distance from the charge and not the direction implying that rotations are also a symmetry. This can be seen by looking at the Lagrangian, 
 \begin{equation}
@@ -914,7 +914,7 @@ and it describes a particle going from $(t_1,\vec{x}_1)$ to $(t_2,\vec{x}_2)$. I
 \frac{\int \mathcal{D}[\Phi]\Phi(t_2,\vec{x}_2)\Phi(t_1,\vec{x}_1)e^{i\int_{-\infty}^{\infty} d^4x \frac{1}{2}\Phi (-\partial_\mu\partial^\mu - m^2)\Phi}}
 {\int \mathcal{D}[\Phi]e^{i\int_{-\infty}^{\infty} d^4x \frac{1}{2}\Phi (-\partial_\mu\partial^\mu - m^2)\Phi}}.
 \end{equation}
-Focusing on the integral in the denominator and looking at the $d^4x$ integral as a matrix multiplication simplifies things 
+Focusing on the integral in the denominator and looking at the integral as a matrix multiplication simplifies things 
 \begin{equation}
 \int \mathcal{D}[\Phi]e^{i\int_{-\infty}^{\infty} d^4x \frac{1}{2}\Phi (-\partial_\mu\partial^\mu - m^2)\Phi}
 = \int d\Phi_1 d\Phi_2 ... d\Phi_N e^{i\frac{1}{2}\Phi_{i} K_{ij} \Phi_{j}}.
@@ -963,7 +963,7 @@ Then plugging in the solutions for the numerator and denominator shows that the 
 &= iK^{-1}(x_2,x_1) = i(-\partial_\mu\partial^\mu - m^2)^{-1} = \mathcal{D}_F(x_2,x_1).\\ 
 \end{split}
 \end{equation}
-In momentum space K is diagonal and $\mathcal{D}_F = \frac{i}{p^2-m^2 + i\epsilon}$. Converting to the spacetime basis yields, $\mathcal{D}_F(x_2,x_1) = \int \frac{d^4k}{\sqrt{2\pi}^4}\frac{i e^{-ik\cdot(x_2-x_1)}}{p^2-m^2 + i\epsilon}$. 
+In momentum space K is diagonal and $\mathcal{D}_F = \frac{i}{p^2-m^2 + i\epsilon}$. Converting to the spacetime basis yields, $\mathcal{D}_F(x_2,x_1) = \int \frac{d^4k}{\sqrt{2\pi}^4}\frac{i e^{-ik\cdot(x_2-x_1)}}{p^2-m^2 + i\epsilon}$, which represents a free particle propagating frome one place to another.  
 
 The Feynman propagators are the building blocks for the higher order correlation functions. Take the four point function as an example,
 \begin{equation}
@@ -988,9 +988,9 @@ When J=0 only the term with four Js and four derivatives survives. The four deri
 &= \mathcal{D}_F(x_4, x_3) \mathcal{D}_F(x_2, x_1) + \mathcal{D}_F(x_4, x_2) \mathcal{D}_F(x_3, x_1) + \mathcal{D}_F(x_3, x_2) \mathcal{D}_F(x_4, x_1).
 \end{split}
 \end{equation}
-Any higher order correlation functions are built from the propagators in the same way: add up all possible combinations of the propagators for the appropriate order and account for the degeneracies.  
+Any higher order correlation functions are built from the propagators in the same way: add up all possible combinations of the propagators for the appropriate order and account for the degeneracies. 
 
-Solving the free theory is nice, but it isn't that useful. Particles interact and the interacting solutions are the ones needed to describe scattering and decays. Fortunately, the interacting theories can be expanded in terms of the free correlations. For example, the two point correlation function for an interacting theory is given by,
+This solves the free theory, which is nice, but it isn't that useful. Particles interact and the interacting solutions are the ones needed to describe scattering and decays. Fortunately, the interacting theories can be expanded in terms of the free correlations. For example, the two point correlation function for an interacting theory is given by,
 \begin{equation}
 \begin{split}
 \bra{0}\Phi(x_2)\Phi(x_1)\ket{0} &= 
@@ -1008,7 +1008,7 @@ where $\mathcal{L}_{int}$ may be written as a powerseries in $\Phi$. Expanding t
 \begin{equation}
 \int d^4x_{i_1}d^4x_{i_2} ... d^4x_{i_k} \int \mathcal{D}[\Phi]\Phi(x_{i_1})...\Phi(x_{i_k})\Phi(x_2)\Phi(x_1)e^{i\int_{-\infty}^{\infty} d^4x \frac{1}{2}\Phi (-\partial_\mu\partial^\mu - m^2)\Phi},
 \end{equation} 
-which are just correlation functions of the free field. Likewise, the denominator is also an expansion of the free correlations. In this way any solution of the full theory may be written in terms of the free field solutions. Furthermore, when the interaction is small compared to the free part of the Lagrangian, the series expansions converge, and only a few terms are needed.   
+which are just correlation functions of the free field. Likewise, the denominator is also an expansion of the free correlations. In this way, any solution of the full theory may be written in terms of the free field solutions. Furthermore, when the interaction is small compared to the free part of the Lagrangian, the series expansions converge, and only a few terms are needed.   
 
 The simplest interacting theory is $\mathcal{L}_{int} = -\frac{\lambda}{4!}\Phi^4(x)$, and the two point correlation function describing the propagation of a particle is given by
 \begin{equation}
@@ -1049,15 +1049,14 @@ The perturbation series for any n-point correlation function can be represented 
     {Feynman diagrams for N$(\lambda^1)$ = $Z_0$A + $Z_0\frac{12}{4!}$B + $Z_0\frac{3}{4!}$C.}
     \label{fig:feynfullprop}
 \end{figure}
-The denominator serves to eliminate $Z_0$ and the disconnected diagrams with vacuum fluctuations like C. It normalizes out the contributions where the vacuum fluctuates, but does not affect the propagation, decay, or scattering. Finally the propagator for the fully interacting theory up to first order in $\lambda$ is 
+The denominator is a normalization that serves to eliminate $Z_0$ and the disconnected diagrams with vacuum fluctuations like C. It removes the contributions where the vacuum fluctuates independently from the process of interest. Finally, the propagator for the fully interacting theory up to first order in $\lambda$ is 
 \begin{equation}
 \bra{0}\Phi(x_2)\Phi(x_1)\ket{0}_{\lambda^1} = A + \frac{12}{4!}B = \mathcal{D}_F(x_2,x_1) + 
 \frac{12}{4!}(-i\lambda)\int_{-\infty}^{\infty} d^4z \mathcal{D}_F(x_2,z) \mathcal{D}_F(x_1,z) \mathcal{D}_F(z,z).
 \end{equation}
 The factors out front are called symmetry factors and provide a weight for each diagram. In this theory the symmetry factor for a diagram is the number of nondegenerate ways to place pairs of points into the propagators with a factor of by $\frac{1}{4!}$ for every interaction vertex. 
 
-The Feynman rules for a theory can be used to build the perturbation series for any process, and this is why they are so ubiquitous. Any n-point correlation function is the weighted\footnote{The weights are the symmetry factors.} sum of all possible diagrams with n external (excluding those with disconnected vacuum fluctuations). For $2 \rightarrow 2$ scattering, the correlation function to first order requires six diagrams. The first three diagrams are of the form A*A, representing the three ways to put four points into $\mathcal{D}_F\mathcal{D}_F$. The next two are of the form A*B, and the last one is a new diagram where the particles actually scatter instead of propagating separately. One interaction vertex provides a factor of $-i\lambda\int d^4z$ and the four propagators provide a factor of $\mathcal{D}_F(x_1,z)\mathcal{D}_F(x_2,z)\mathcal{D}_F(x_3,z)\mathcal{D}_F(x_4,z)$. The symmetry factor is $1 = \frac{4!}{4!}$ with a $\frac{1}{4!}$ for the internal vertex and a 4! for the ways to place the zs among $x_1, x_2, x_3, x_4$.
-
+The Feynman rules for a theory can be used to build the perturbation series for any process, and this is why they are so ubiquitous. Any n-point correlation function is the weighted\footnote{The weights are the symmetry factors.} sum of all possible diagrams with n external points -- excluding those with disconnected vacuum fluctuations. For $2 \rightarrow 2$ scattering, the correlation function to first order requires the six diagrams shown in Figure \ref{fig:feyn2-2}. 
 \begin{figure}[h!]
   \centering
   \includegraphics[width=4in]{images/phi4_2-2_scattering.pdf}
@@ -1065,6 +1064,21 @@ The Feynman rules for a theory can be used to build the perturbation series for 
    {The Feynman diagrams for $\bra{0}\Phi(x_4)\Phi(x_3)\Phi(x_2)\Phi(x_1)\ket{0}_{\lambda^1}$ representing the matrix element for $2\rightarrow 2$ scattering up to first order.}
   \label{fig:feyn2-2}
 \end{figure}
+The first three diagrams are of the form A*A, and these represent the three ways to put four points into $\mathcal{D}_F\mathcal{D}_F$. The next two terms are of the form A*B, and the last one is a new diagram where the particles actually scatter instead of propagating separately. And the last term is built from the following factors: the interaction vertex provides a factor of $-i\lambda\int d^4z$ and the four propagators provide a factor of $\mathcal{D}_F(x_1,z)\mathcal{D}_F(x_2,z)\mathcal{D}_F(x_3,z)\mathcal{D}_F(x_4,z)$. The symmetry factor is $1 = \frac{4!}{4!}$ with the $\frac{1}{4!}$ from the internal vertex and the 4! for the ways to place the zs among $x_1, x_2, x_3, x_4$. All of this results in a mathematical expression for the last diagram, 
+\begin{equation}
+D = -i\lambda\int d^4z\mathcal{D}_F(x_1,z)\mathcal{D}_F(x_2,z)\mathcal{D}_F(x_3,z)\mathcal{D}_F(x_4,z).
+\end{equation}
+Summing the six diagrams yields the full four point correlation function to first order,
+\begin{equation}
+\begin{split}
+\bra{0}\Phi(x_4)\Phi(x_3)\Phi(x_2)\Phi(x_1)\ket{0}_{\lambda^1} &= \mathcal{D}_F(x_1,x_3)\mathcal{D}_F(x_2,x_4) + \mathcal{D}_F(x_1,x_2)\mathcal{D}_F(x_3,x_4) 
+                                                                   + \mathcal{D}_F(x_1,x_4)\mathcal{D}_F(x_2,x_3) \\ 
+ &+ \mathcal{D}_F(x_1,x_3)\frac{12}{4!}(-i\lambda)\int_{-\infty}^{\infty} d^4z \mathcal{D}_F(x_2,z) \mathcal{D}_F(x_4,z) \mathcal{D}_F(z,z) \\
+ &+ \mathcal{D}_F(x_2,x_4)\frac{12}{4!}(-i\lambda)\int_{-\infty}^{\infty} d^4z \mathcal{D}_F(x_1,z) \mathcal{D}_F(x_3,z) \mathcal{D}_F(z,z) \\
+ &+ -i\lambda\int d^4z\mathcal{D}_F(x_1,z)\mathcal{D}_F(x_2,z)\mathcal{D}_F(x_3,z)\mathcal{D}_F(x_4,z).
+\end{split}
+\end{equation}
+The Feynman rules for the actual interactions of the Standard Model are derived from the interacting Lagrangians in a similar way. 
 
 %%%%%%%%%%%%%%%%%%%%%%
 \subsection{Interactions}
@@ -1082,7 +1096,7 @@ To describe electromagnetism, the photon field should be massless and the intera
 \begin{equation}
 S = \int d^4x \frac{-1}{4}F_{\mu\nu}F^{\mu\nu} + \bar{\psi}\left[i\gamma^\mu\left(\partial_\mu - iqA_\mu - iq\partial_\mu\alpha\right)- m \right]\psi, 
 \end{equation}
-which isn't gauge invariant. In effect, the gauge transformation on $A_\mu$ has shifted the derivative $\partial_\mu \rightarrow \partial_\mu - iq\partial_\mu\alpha$. In order to retain gauge invariance, a simultaneous transformation that sends $\partial_\mu \rightarrow \partial_\mu + iq\partial_\mu\alpha$ is needed to cancel out the extra term. The correct transformation is $\bar{\psi}\partial_\mu\psi \rightarrow \bar{\psi} e^{-iq\alpha} \partial_\mu e^{iq\alpha} \psi$. So, if 
+which isn't gauge invariant. In effect, the gauge transformation on $A_\mu$ has shifted the derivative, $\partial_\mu \rightarrow \partial_\mu - iq\partial_\mu\alpha$. In order to retain gauge invariance, a simultaneous transformation that sends $\partial_\mu \rightarrow \partial_\mu + iq\partial_\mu\alpha$ is needed to cancel out the extra term. The correct transformation is $\bar{\psi}\partial_\mu\psi \rightarrow \bar{\psi} e^{-iq\alpha} \partial_\mu e^{iq\alpha} \psi$. So, if 
 \begin{equation}
 A_\mu(x) \rightarrow A_\mu(x) + \partial_\mu\alpha(x)
 \end{equation}
@@ -1092,7 +1106,7 @@ and
 \end{equation}
 the Lagrangian is gauge invariant. The second equation reveals that the field is invariant under local transformations of the phase. 
 
-Requiring gauge invariance requires the fermion field to maintain U(1) invariance. By running the logic in reverse and demanding more complicated unitary invariances on the fermion field(s), Lagrangians may be produced that describe new forces. In the case of electromagnetism above, demanding that the fermion field is invariant under a local U(1) transformation sends $\bar{\psi}\partial_\mu\psi \rightarrow \bar{\psi} e^{-iq\alpha} \partial_\mu e^{iq\alpha} \psi$ effectively shifting the derivative, $\partial_\mu \rightarrow \partial_\mu + iq\partial_\mu\alpha$. Now $A_\mu$ needs to cancel the shift requiring 
+Requiring gauge invariance requires the fermion field to maintain U(1) invariance. By running the logic in reverse and demanding more complicated unitary invariances on the fermion field(s), Lagrangians may be produced that describe new forces. In the case of electromagnetism above, demanding that the fermion field is invariant under a local U(1) transformation, sends $\bar{\psi}\partial_\mu\psi \rightarrow \bar{\psi} e^{-iq\alpha} \partial_\mu e^{iq\alpha} \psi$ effectively shifting the derivative, $\partial_\mu \rightarrow \partial_\mu + iq\partial_\mu\alpha$. Now $A_\mu$ needs to cancel the shift requiring 
 
 \begin{equation}
 \partial_\mu + iq\partial_\mu\alpha + c(A_\mu + a_\mu) = \partial_\mu + cA_\mu. 
@@ -1103,7 +1117,7 @@ S = \int d^4x \frac{-1}{4}(\partial_\mu A_\nu - \partial_\nu A_\mu)(\partial^\mu
 \end{equation}
 effectively deriving the Lagrangian for Quantum Electrodynamics (QED).
 
-The QED U(1) symmetry has a single generator bypassing any commutation issues. The SU(2) transformation $\psi \rightarrow U\psi$ with $U = e^{\frac{i}{2}q\alpha_i(x)\sigma_i}$ is a bit more complicated. If 
+The QED U(1) symmetry has a single generator and, as a consequence, bypasses any commutation issues. The SU(2) transformation $\psi \rightarrow U\psi$ with $U = e^{\frac{i}{2}q\alpha_i(x)\sigma_i}$ is a bit more complicated. If 
 \begin{equation}
 \bar{\psi}U^\dagger i\gamma^\mu\left(\partial_\mu + cA'_{\mu}\right)U\psi = \bar{\psi}i\gamma^\mu\left(\partial_\mu + cA_{\mu}\right)\psi 
 \end{equation}
@@ -1117,7 +1131,7 @@ is true when $A_\mu \rightarrow A'_\mu$ then the derivative term will be gauge i
 & \rightarrow c\Delta A_{\mu} = -(\partial_\mu U)\psi = - (\partial_\mu U)U^\dagger U\psi = U\partial_\mu U^\dagger\psi
 \end{split}
 \end{equation}
-The last line used the fact that for a unitary matrix U, $UU^\dagger = 1$ and $\partial_\mu(UU^\dagger) = 0$. To preserve gauge invariance under a unitary transformation $\psi \rightarrow U\psi$, $cA_\mu$ must transform as
+The last line uses the fact that for a unitary matrix U, $UU^\dagger = 1$ and $\partial_\mu(UU^\dagger) = 0$. To preserve gauge invariance under a unitary transformation $\psi \rightarrow U\psi$, $cA_\mu$ must transform as
 \begin{equation}
 cA_\mu(x) \rightarrow cUA_\mu(x)U^\dagger + U\partial_\mu U^\dagger .
 \end{equation}
@@ -1130,21 +1144,21 @@ cA_\mu(x) &\rightarrow cUA_\mu(x)U^\dagger + c\Delta A_\mu \\
 \end{equation}
 Choosing c=-iq and $\Delta A_\mu = \frac{\sigma_i}{2}\partial_\mu\alpha_i(x)$ determines the coupling constant and the transformation for the SU(2) invariant Lagrangian.
 
-$A_\mu$ is a matrix which may be expanded in terms of the SU(2) generators, $A_\mu$ = $A^1_{\mu}\frac{\sigma_1}{2}$ + $A^2_{\mu}\frac{\sigma_2}{2}$ + $A^3_{\mu}\frac{\sigma_3}{2}$. Note that U(1) only requires a single particle while SU(2) requires three. For a general unitary transformation, there will be a force carrying particle for each generator, and an expansion $A_\mu = T^cA^c_\mu$. By representing $A_\mu$ in terms of the generators, the transformation for each component, $A^c_\mu$, may be calculated, 
+$A_\mu$ is a matrix which may be expanded in terms of the SU(2) generators, $A_\mu$ = $A^1_{\mu}\frac{\sigma_1}{2}$ + $A^2_{\mu}\frac{\sigma_2}{2}$ + $A^3_{\mu}\frac{\sigma_3}{2}$. Note that U(1) only requires a single particle while SU(2) requires three. For a general unitary transformation, there will be a force carrying particle for each generator, and an expansion $A_\mu = T^cA^c_\mu$. By representing $A_\mu$ in terms of the generators, the transformation for each component, $A^c_\mu$, may be calculated for a general unitary transformation, 
 \begin{equation}
 \label{eq:Agauge}
 A^c_\mu \rightarrow A^c_\mu - f^{abc}\alpha^a A^b_\mu + \partial_\mu\alpha^c, 
 \end{equation}
-where $[T^a,T^b]=if^{abc}T^c$ defines the Lie alegbra of the group. This result holds in general, but for SU(2), $A_\mu = \frac{\sigma_c}{2}A^c$ and $f^{abc} = \epsilon^{abc}$.
-The coupling has been taken care of, but $F_{\mu\nu}$ still needs to be defined so that it remains invariant under equation \ref{eq:Agauge}. Defining 
+where $[T^a,T^b]=if^{abc}T^c$ defines the Lie alegbra of the group. For SU(2) in particular, $A_\mu = \frac{\sigma_c}{2}A^c$ and $f^{abc} = \epsilon^{abc}$.
+This defines the $D_\mu$ part of the SU(2) Lagrangian, but $F_{\mu\nu}$ still needs to be defined so that it remains invariant under equation \ref{eq:Agauge}. Defining 
 \begin{equation}
 F_{\mu\nu} = \partial_\mu A_\nu - \partial_\nu A_\mu - iq[A_\mu,A_\nu] 
 \end{equation}
-makes $F_{\mu\nu}$ covariant, $F_{\mu\nu} \rightarrow UF_{\mu\nu}U^\dagger$, and to make it invariant, the trace is taken. So finally, the gauge invariant Lagrangian with massless fermions is given by
+makes $F_{\mu\nu}$ covariant, $F_{\mu\nu} \rightarrow UF_{\mu\nu}U^\dagger$, and to make it invariant, the trace is taken. So finally, the full gauge invariant Lagrangian with massless fermions is given by
 \begin{equation}
 S = \int d^4x \mathcal{N}tr(F_{\mu\nu}F^{\mu\nu}) + \bar{\psi}i\gamma^\mu D_\mu\psi,
 \end{equation}
-where $D_\mu = \partial_\mu - iqA_\mu$ is the covariant derivative. The Lagrangian holds for any unitary gauge transformation, U(1) provides electromagnetism, SU(2) proviadds the electroweak interactions, and SU(3) adds the strong force. All three together, U(1)xSU(2)xSU(3), describe the standard model. For SU(N) invariant theories the Lagrangian is given by, 
+where $D_\mu = \partial_\mu - iqA_\mu$ is the covariant derivative. The Lagrangian holds for any unitary gauge transformation, U(1) provides electromagnetism, adding on SU(2) provides the electroweak interactions, and adding SU(3) provides the strong force. All three together, describe the Standard Model. For SU(N) invariant theories the Lagrangian is given by, 
 \begin{equation}
 \label{eq:ewlagrangian}
 S = \int d^4x \frac{-1}{2}tr(F_{\mu\nu}F^{\mu\nu}) + \bar{\psi}i\gamma^\mu D_\mu\psi 
@@ -1156,7 +1170,7 @@ F^a_{\mu\nu} = \partial_\mu A^a_\nu - \partial_\nu A^a_\mu + qf^{abc}A^b_\mu A^c
 \end{equation}
 $\mathcal{N}$ is set to $-\frac{1}{2}$ in order to get the appropriate $-\frac{1}{4}$ in front of the $F^a_{\mu\nu}$ tensors\footnote{The calculation uses the fact that the SU(N) the generator matrices form an orthogonal basis, $tr(T^aT^b) = \frac{1}{2}\delta^{ab}$.}.
 
-The SU(2) invariant Lagrangian of equation \ref{eq:ewlagrangian} describes the weak interaction. Unfortunately, the theory has massless fermions and massless weak force particles, while in real life these particles have mass. Adding mass terms directly ruins the SU(2) invariance, so another mechanism is needed, and this is where the Higgs comes into play.  
+The SU(2) invariant Lagrangian of equation \ref{eq:ewlagrangian} provides the weak interaction. Unfortunately, the theory has massless fermions and massless weak force particles, while in real life these particles have mass. Adding mass terms directly ruins the SU(2) invariance, so another mechanism is needed, and this is where the Higgs comes into play.  
 %= \int d^4x \frac{-1}{4}F^a_{\mu\nu}F_a^{\mu\nu} + \bar{\psi}i\gamma^\mu D_\mu\psi,
 %\underbracket[0.8pt]{\mathcal{D}_F(x_2,x_1)}_\text{A}
 %iq\frac{\sigma_i}{2}\partial_\mu\alpha_i
@@ -1193,10 +1207,10 @@ U^\dagger mU
 \psi_1 & ... & \psi_n
 \end{pmatrix},
 \end{equation}
-but the fermions are restricted to the same mass. In order to describe the massive fermions and massive W and Z particles as seen in nature the Higgs mechanism is needed. Relativistically, mass is energy, so the idea is to produce $m_A^2A_\mu A^\mu$ and $\bar{\psi}m\psi$ terms via some interaction energy involving a new field. Because mass is a scalar, the interactions likely require a scalar field, and because the mass is derived from a nonzero interaction energy, the groundstate of the scalar field should be nonzero. For all of these reasons, the Higgs mechanism adds a scalar field with a $\phi^4$ potential term to the Lagrangian. 
+but this term restricts the fermions to the same mass. In order to describe the massive fermions and massive W and Z particles as seen in nature the Higgs mechanism is needed. Relativistically, mass is energy, so the idea is to produce $m_A^2A_\mu A^\mu$ and $\bar{\psi}m\psi$ terms via some interaction energy involving a new field. Because mass is a scalar, the interactions require a scalar field, and because the mass is derived from a nonzero interaction energy, the groundstate of the scalar field should be nonzero. For all of these reasons, the Higgs mechanism adds a scalar field with a $\phi^4$ potential term to the Lagrangian, 
 \begin{equation}
 \label{eq:toyew1}
-\mathcal{L}^{toy}_\phi = (\partial^\mu\phi - iqA^\mu\phi)^\dagger(\partial_\mu\phi - iqA_\mu\phi) + \frac{m_h^2}{2}\phi^\dagger\phi - \frac{\lambda}{4}(\phi^\dagger\phi)^2
+\mathcal{L}^{toy}_\phi = (\partial^\mu\phi - iqA^\mu\phi)^\dagger(\partial_\mu\phi - iqA_\mu\phi) + \frac{m_h^2}{2}\phi^\dagger\phi - \frac{\lambda}{4}(\phi^\dagger\phi)^2.
 \end{equation}
 As $\phi$ goes into the groundstate, $\phi \rightarrow \phi_0$, the force carrying field(s) acquire mass through the $A^2\phi_0^2$ terms. Similarly, interaction terms coupling the left and right spinors provide the fermions with mass as $\phi \rightarrow \phi_0$
 \begin{equation}
@@ -1204,9 +1218,9 @@ As $\phi$ goes into the groundstate, $\phi \rightarrow \phi_0$, the force carryi
 \mathcal{L}^{toy}_I = -\beta(L^\dagger\phi R + R^\dagger\phi L).
 \end{equation}
 
-The toy examples of equations \ref{eq:toyew1} and \ref{eq:toyew2} cover the basic ideas behind the Higgs mechanism, but correctly describing the electroweak interaction requires a more complex and intricate theory, the U(1)xSU(2) Weinberg-Salam Lagrangian. The Weinberg-Salam Lagrangian includes a U(1) gauge field and an SU(2) gauge field. The U(1) field has one invariant label, Y, describing the representation and the SU(2) field has two: one describing the representation, $I$, and another describing the isopsin in the third direction, $I_3$. In the theory, the U(1) field and the third component of the SU(2) field mix up, one orthogonal piece providing the massive Z boson and the other the massless photon. The remaining first and second components of the SU(2) field mix up to provide the massive $W^+$ and $W^-$ bosons. 
+The toy examples of equations \ref{eq:toyew1} and \ref{eq:toyew2} cover the basic ideas behind the Higgs mechanism, but correctly describing the electroweak interaction requires a more complex and intricate theory, the U(1)xSU(2) Weinberg-Salam Lagrangian. The Weinberg-Salam Lagrangian includes a U(1) gauge field and an SU(2) gauge field.In the theory, the U(1) field and the third component of the SU(2) field mix up, with one orthogonal piece providing the massive Z boson and the other the massless photon. The remaining first and second components of the SU(2) field mix up to provide the massive $W^+$ and $W^-$ bosons. 
 
-The Weinberg-Salam Lagrangian for the electron (e) and electron neutrino ($\nu_e$) of equation \ref{eq:ws} is written in terms of left and right handed Dirac spinors. Left and right handed Dirac spinors are defined in terms of the left and right handed spinors as follows, $\psi_L = \begin{pmatrix} L \\ 0 \end{pmatrix}$ and $\psi_R = \begin{pmatrix} 0 \\ R \end{pmatrix}$. In nature, the weak force treats left and right handed particles differently. The $W^+$ and $W^-$ particles interact only with left handed particles and interact with them symmetrically. In this regard, the Lagrangian is written to respect the interchange of the left handed particles with the SU(2) transformation acting on $L = \begin{pmatrix} \nu_e \\ e_L \end{pmatrix}$. The remaining right handed particles are denoted by $R = e_R$. In addition, only left handed neutrinos have been observed in nature, so $\nu_e$ is left handed. The electroweak Lagrangian is then,  
+The Weinberg-Salam Lagrangian for the electron (e) and electron neutrino ($\nu_e$) of equation \ref{eq:ws} is written in terms of left and right handed Dirac spinors. Left and right handed Dirac spinors are defined in terms of the left and right handed spinors as follows, $\psi_L = \begin{pmatrix} L \\ 0 \end{pmatrix}$ and $\psi_R = \begin{pmatrix} 0 \\ R \end{pmatrix}$. In nature, the weak force treats left and right handed particles differently. The $W^+$ and $W^-$ particles interact only with left handed particles and interact with those of the same generation symmetrically. In this regard, the Lagrangian is written to respect the interchange of the left handed particles with the SU(2) transformation acting on $L = \begin{pmatrix} \nu_e \\ e_L \end{pmatrix}$. The remaining right handed particles are denoted by $R = e_R$. In addition, only left handed neutrinos have been observed in nature, so $\nu_e$ is left handed. The electroweak Lagrangian is then,  
 \begin{equation}
 \label{eq:ws}
 \begin{split}
@@ -1218,12 +1232,12 @@ The Weinberg-Salam Lagrangian for the electron (e) and electron neutrino ($\nu_e
             &+ \frac{m_h^2}{2}\phi^\dagger\phi - \frac{\lambda}{4}(\phi^\dagger\phi)^2.
 \end{split}
 \end{equation}
-The SU(2) field, $W_\mu$, is a complex 2x2 matrix expanded in terms of the Pauli matrices. In order for $W_\mu$ to operate on $\phi$, $\phi$ must be a 2x1 complex column vector. 
+The SU(2) field, $W_\mu$, is a complex 2x2 matrix expanded in terms of the Pauli matrices which operates on 2x1 complex column vectors. Therefore $\phi$ is written 
 \begin{equation}
 \phi = 
 \begin{pmatrix}
 \phi_+ \\ \phi_-
-\end{pmatrix}
+\end{pmatrix}.
 \end{equation}
 To isolate the mass terms, the scalar field is expanded about its minimum, $|\phi| = \phi_0 = \sqrt{\frac{m_h^2}{\lambda}}$. The minimum is degenerate, only requiring that $|\phi_+|^{2} + |\phi_-|^{2} = \phi_0^2$. The particular solution $\phi = \begin{pmatrix} 0 \\ \phi_0 + \frac{1}{\sqrt{2}}h(x) \end{pmatrix}$ fixes the fermion mass terms such that the electron acquires mass in the correct way and that the strange mass-like coupling between the electron and neutrino disappears,
 \begin{equation}
@@ -1232,7 +1246,7 @@ To isolate the mass terms, the scalar field is expanded about its minimum, $|\ph
 \end{equation}
 Fixing $\phi^+=0$ and $Im\phi^-=0$ comes at a cost, breaking the SU(2) symmetry of the Lagrangian. The coupling is no longer in the invariant form $\bar{L}\phi R + \bar{R}\phi^\dagger L \rightarrow \bar{L}U^\dagger U\phi R + \bar{R}\phi^\dagger U^\dagger UL$. 
 
-As in the toy example, the $(D^\mu\phi)^\dagger(D_\mu\phi)$ term bestows mass onto the force carriers.
+As in the toy example, the $(D^\mu\phi)^\dagger(D_\mu\phi)$ term bestows mass onto the force carriers,
 \begin{equation}
 \begin{split}
 D_\mu\phi &= (\partial_\mu - iq_{w\phi}\frac{\sigma_i}{2}W^i_\mu - iq_{b\phi}B_\mu)\phi \\
@@ -1262,7 +1276,7 @@ W^1_\mu + iW^2_\mu & -W^3_\mu \\
 \begin{pmatrix}
 q_{w\phi}\phi_0(W^1_\mu - iW^2_\mu) + \frac{1}{\sqrt{2}}q_{w\phi}h(W^1_\mu - iW^2_\mu)\\
 i\sqrt{2}\partial_\mu h + \phi_0(2q_{b\phi}B_\mu - q_{w\phi}W^3_\mu) + \frac{1}{\sqrt{2}}h(2q_{b\phi}B_\mu - q_{w\phi}W^3_\mu)\\
-\end{pmatrix}
+\end{pmatrix}.
 \end{split}
 \end{equation}
 The $\phi_0^2$ terms determine the masses,
@@ -1312,7 +1326,7 @@ The electroweak Lagrangian reduces to,
              - \frac{1}{4}G_i^{\mu\nu}G^i_{\mu\nu} -\frac{1}{4}F^{\mu\nu}F_{\mu\nu} + \frac{m_h^2}{2}\phi^\dagger\phi - \frac{\lambda}{4}(\phi^\dagger\phi)^2
 \end{split}
 \end{equation}
-with $\phi = \begin{pmatrix} 0 \\ \phi_0 + \frac{1}{\sqrt{2}}h(x) \end{pmatrix}$ and $L = \begin{pmatrix} \nu_e \\ e_L \end{pmatrix}$. 
+with $\phi = \begin{pmatrix} 0 \\ \phi_0 + \frac{1}{\sqrt{2}}h(x) \end{pmatrix}$ and $L = \begin{pmatrix} \nu_e \\ e_L \end{pmatrix}$. The $W^+$ particle is given by $W^1_\mu+iW^2_\mu$. The $W^-$ particle is given by $W^1_\mu - iW^2_\mu$. The photon $A_\mu$ is given by $g_{w}W^3_\mu + g_{b}B_\mu$, and the Z boson is given by $g_{w}W^3_\mu - g_{b}B_\mu$. $\phi_0$ determines the electron mass and the W and Z masses, and h(x) is the Higgs boson. Adding the next two generations of leptons, the three generations of quarks, and the SU(3) interactions defines the entire Standard Model.   
 %\begin{pmatrix} 0 \\ \phi_0 + \frac{1}{\sqrt{2}}h \end{pmatrix}
 %Only left handed neutrinos have been observed in nature, so the electron neutrino in the Lagrangian is a left handed Dirac spinor.
 % The left handed Dirac spinors are concatenated into $L = \begin{pmatrix} \nu_e \\ e_L \end{pmatrix}$.
