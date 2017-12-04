@@ -1318,6 +1318,7 @@ Q_{be_L} = \frac{-1}{2}\text{, } Q_{be_R} = -1 \text{, } Q_{b\nu_e} = \frac{-1}{
 \end{equation}
 The electroweak Lagrangian reduces to,
 \begin{equation}
+\label{eq:ewlred}
 \begin{split}
 \mathcal{L} &= (\partial^\mu\phi - ig_{w}\frac{\sigma_i}{2}W_i^\mu\phi - \frac{i}{2}g_{b}B^\mu\phi)^\dagger
                (\partial_\mu\phi - ig_{w}\frac{\sigma_i}{2}W^i_\mu\phi - \frac{i}{2}g_{b}B^\mu\phi) \\ 
@@ -1326,39 +1327,30 @@ The electroweak Lagrangian reduces to,
              - \frac{1}{4}G_i^{\mu\nu}G^i_{\mu\nu} -\frac{1}{4}F^{\mu\nu}F_{\mu\nu} + \frac{m_h^2}{2}\phi^\dagger\phi - \frac{\lambda}{4}(\phi^\dagger\phi)^2
 \end{split}
 \end{equation}
-with $\phi = \begin{pmatrix} 0 \\ \phi_0 + \frac{1}{\sqrt{2}}h(x) \end{pmatrix}$ and $L = \begin{pmatrix} \nu_e \\ e_L \end{pmatrix}$. The $W^+$ particle is given by $W^1_\mu+iW^2_\mu$. The $W^-$ particle is given by $W^1_\mu - iW^2_\mu$. The photon $A_\mu$ is given by $g_{w}W^3_\mu + g_{b}B_\mu$, and the Z boson is given by $g_{w}W^3_\mu - g_{b}B_\mu$. $\phi_0$ determines the electron mass and the W and Z masses, and h(x) is the Higgs boson. Adding the next two generations of leptons, the three generations of quarks, and the SU(3) interactions defines the entire Standard Model.   
+with $\phi = \begin{pmatrix} 0 \\ \phi_0 + \frac{1}{\sqrt{2}}h(x) \end{pmatrix}$ and $L = \begin{pmatrix} \nu_e \\ e_L \end{pmatrix}$. In equation \ref{eq:ewlred}, the $W^+$ particle is $W^1_\mu+iW^2_\mu$, and the $W^-$ particle is $W^1_\mu - iW^2_\mu$. As for the neutral bosons, the photon is $g_{w}W^3_\mu + g_{b}B_\mu$, the Z boson is $g_{w}W^3_\mu - g_{b}B_\mu$, and the Higgs boson is h(x). Adding the next two generations of leptons, the three generations of quarks, and the SU(3) interactions to the electroweak Lagrangian defines the entire Standard Model.   
 %\begin{pmatrix} 0 \\ \phi_0 + \frac{1}{\sqrt{2}}h \end{pmatrix}
 %Only left handed neutrinos have been observed in nature, so the electron neutrino in the Lagrangian is a left handed Dirac spinor.
 % The left handed Dirac spinors are concatenated into $L = \begin{pmatrix} \nu_e \\ e_L \end{pmatrix}$.
 %Left and right Dirac spinors are defined in terms of the left and right spinors as follows, $\psi_L = \begin{pmatrix} L 0 \end{pmatrix}$ and $\psi_R = \begin{pmatrix} 0 R \end{pmatrix}$. Note that the neutrino is purely left handed as verified by experiment.
-\begin{figure}[h!]
-  \centering
-  \includegraphics[width=1.5in]{images/ggf.png}
-  \caption
-   {The Feynman diagram for two gluons fusing into a Higgs. There are three vertices and this is a third order diagram. Two vertices involve the strong force and one vertex involves the Higgs coupling. The matrix element for this diagram would have two factors of the strong force coupling and one factor for the Higgs coupling which involves the mass of the top quark.}
-  \label{fig:feynggf}
-\end{figure}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{The Standard Model Higgs}
+\section{The Standard Model Higgs and the LHC}
 
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{SM Higgs Production and Decay Modes}
-
-The SM Higgs can be created in a variety of ways. Some of these cross sections are shown below for 14 TeV collisions. The production cross sections are functions of the mass of the Higgs as well as the energy of the collisons. For a given collision energy the cross sections decrease as the Higgs mass increases: there are fewer kinematic possibilities for a heavier particle since more of the energy was used to create the particle. For a given mass, say 125 GeV, the cross section grows with collision energy. This constrasts with cross sections involving collisions of fundamental particles, e.g. electron antielectron collisions. This is an artifact of the fact that the LHC collides protons together. 
+The SM Higgs interacts with the massive particles of the SM: the non-neutrino leptons, the quarks, and the $W^+$, $W^-$, and Z particles. As such, it can be produced by colliding certain combinations of these particles, and it can decay into them as well. The cross sections are proportional to the probability for a production process, and consequently, they describe how likely each collision is to produce a Higgs of a certain mass. Some of these cross sections are shown in Figure \ref{fig:hprodcross} for LHC proton-proton collisions with a center of mass energy of 14 TeV. 
 
 \begin{figure}[h!]
   \centering
   \includegraphics[width=5in]{images/14TeV_higgs_cross_sections.png}
   \caption
-   {The highest production mode cross sections for the SM Higgs \cite{crossbranchplots}}
+   {The highest production mode cross sections for the SM Higgs at 14 TeV \cite{crossbranchplots}}
   \label{fig:hprodcross}
 \end{figure}
 
-Protons behave like a collection of an infinite number of quark-antiquarks, an infinite number of gluons, and the usual uud. The total momentum of the proton is divided up amongst them with lots of particles having little of the total momentum. The actual scattering events are between these more fundamental particles. The larger the total energy the smaller the fraction of energy needed to make a Higgs and since there are more particles with a lower fraction, this results in a growth of the cross section with collision energy. 
+The cross sections are functions of the mass of the Higgs as well as the energy of the collisons. For a given collision energy, as in Figure \ref{fig:hprodcross}, the cross sections decrease as the Higgs mass increases. Naturally, there are fewer kinematic possibilities for a heavier particle when a larger portion of the collision energy was used to create the particle. On the other hand, for a specific Higgs mass, the cross section grows with collision energy at the LHC. This constrasts with cross sections involving collisions of fundamental particles, e.g. electron antielectron collisions, due to the fact that the LHC collides protons together. 
 
-The SM Higgs is unstable and decays with a width of $\sim 5 MeV$ at 125 GeV. The probability of each decay changes depending upon the mass of the Higgs. In general the Higgs couples more strongly to particles with higher mass making the decays to heavier particles more likely.  
+Protons behave like a quantum superposition of an infinite number of quark-antiquarks, an infinite number of gluons, and the usual uud. As a consequence, the total momentum of a proton in a collision is divided up amongst these constituents called partons. This experimentally verified phenomena is modelled by the parton distribution function, which describes the number of partons with a given fraction of the total momentum. In general, there are many partons with very little of the momentum. With a larger proton momentum, the minimum creation energy is a smaller fraction than before. Since there are more particles at a lower fraction, it's as if a larger number of partons with the necessary energy are colliding. This effective increase in the density of energetic partons results in a growth of the cross section with collision energy. 
+
+Beyond the production mechanisms, the SM Higgs is unstable and decays with a width of about 5 MeV at 125 GeV. The probability of each decay changes depending upon the mass of the decay products. In general, the Higgs couples more strongly to particles with higher mass, making the decays to heavier particles more likely.  
 
 \begin{figure}[h!]
   \centering
@@ -1404,3 +1396,10 @@ Quark gluon (qg) scattering is a major background for the Higgs to two jets deca
   \label{fig:feynqg}
 \end{figure}
 
+%\begin{figure}[h!]
+%  \centering
+%  \includegraphics[width=1.5in]{images/ggf.png}
+%  \caption
+%   {The Feynman diagram for two gluons fusing into a Higgs. There are three vertices and this is a third order diagram. Two vertices involve the strong force and one vertex involves the Higgs coupling. The matrix element for this diagram would have two factors of the strong force coupling and one factor for the Higgs coupling which involves the mass of the top quark.}
+%  \label{fig:feynggf}
+%\end{figure}
