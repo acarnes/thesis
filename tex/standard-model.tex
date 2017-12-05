@@ -1336,7 +1336,7 @@ with $\phi = \begin{pmatrix} 0 \\ \phi_0 + \frac{1}{\sqrt{2}}h(x) \end{pmatrix}$
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{The Standard Model Higgs and the LHC}
 
-The SM Higgs interacts with the massive particles of the SM: the non-neutrino leptons, the quarks, and the $W^+$, $W^-$, and Z particles. As such, it can be produced by colliding certain combinations of these particles, and it can decay into them as well. The cross sections are proportional to the probability for a production process, and consequently, they describe how likely each collision is to produce a Higgs of a certain mass. Some of these cross sections are shown in Figure \ref{fig:hprodcross} for LHC proton-proton collisions with a center of mass energy of 14 TeV. 
+The SM Higgs interacts with the massive particles of the SM and even with the massless gluons and photons through second order processes. As such, it can be produced by colliding certain combinations of these particles, and it can decay into them as well. At a particle collider like the LHC, the number of particles expected per second, for a certain process, is given by the cross section times the luminosity, $R = \sigma_i*L$. The cross section is proportional to the probability for a production process and consequently, describes how likely a collision attempt is to produce some particle(s) of interest. The luminosity roughly describes the density and the frequency of the incoming particles. Some of the Higgs cross sections for 14 TeV proton-proton collisions are shown in Figure \ref{fig:hprodcross}. 
 
 \begin{figure}[h!]
   \centering
@@ -1346,12 +1346,11 @@ The SM Higgs interacts with the massive particles of the SM: the non-neutrino le
   \label{fig:hprodcross}
 \end{figure}
 
-The cross sections are functions of the mass of the Higgs as well as the energy of the collisons. For a given collision energy, as in Figure \ref{fig:hprodcross}, the cross sections decrease as the Higgs mass increases. Naturally, there are fewer kinematic possibilities for a heavier particle when a larger portion of the collision energy was used to create the particle. On the other hand, for a specific Higgs mass, the cross section grows with collision energy at the LHC. This constrasts with cross sections involving collisions of fundamental particles, e.g. electron antielectron collisions, due to the fact that the LHC collides protons together. 
+The Higgs cross sections are functions of the mass of the Higgs as well as the energy of the collisons. For a given collision energy, as in Figure \ref{fig:hprodcross}, the cross sections decrease as the Higgs mass increases. When a larger portion of the collision energy was used to create the mass of the particle, there is less energy to distribute among the kinematic degrees of freedom and therefore fewer possibilities for distribution. On the other hand, for a specific Higgs mass, the cross section grows with collision energy at the LHC. This constrasts with cross sections involving collisions of fundamental particles, e.g. electron antielectron collisions, due to the fact that the LHC collides protons together. 
 
-Protons behave like a quantum superposition of an infinite number of quark-antiquarks, an infinite number of gluons, and the usual uud. As a consequence, the total momentum of a proton in a collision is divided up amongst these constituents called partons. This experimentally verified phenomena is modelled by the parton distribution function, which describes the number of partons with a given fraction of the total momentum. In general, there are many partons with very little of the momentum. With a larger proton momentum, the minimum creation energy is a smaller fraction than before. Since there are more particles at a lower fraction, it's as if a larger number of partons with the necessary energy are colliding. This effective increase in the density of energetic partons results in a growth of the cross section with collision energy. 
+Protons behave like a quantum superposition of an infinite number of quark-antiquarks, an infinite number of gluons, and the usual uud. As a consequence, the total momentum of a proton in a collision is divided up amongst these constituents called partons. This experimentally verified phenomena is modelled by the parton distribution function, which describes the number of partons with a given fraction of the total momentum. In general, there are many partons with very little of the momentum and this behavior implies that the cross section should increase with increasing proton momentum. With a larger proton momentum, the minimum creation energy for the process is a smaller fraction than before, and with more partons at this smaller fraction, it's as if a larger number with the necessary energy are now colliding. This effective increase in the density of energetic partons results in a growth of the cross section with collision energy. 
 
-Beyond the production mechanisms, the SM Higgs is unstable and decays with a width of about 5 MeV at 125 GeV. The probability of each decay changes depending upon the mass of the decay products. In general, the Higgs couples more strongly to particles with higher mass, making the decays to heavier particles more likely.  
-
+If a SM Higgs is produced, it's predicted to decay in about $10^{-22}$ seconds\footnote{Assuming a 125 GeV SM Higgs boson}, which means that the particle itself can't be directly detected at the LHC, only the the decay products can. The SM decay probabilities for the different products are listed in Figure \ref{fig:hbranch}. These probabilities are determined by the coupling, which for the Higgs is the mass of the particle. With a stronger coupling to more massive particles, the decays to the more massive particles are more probable.
 \begin{figure}[h!]
   \centering
   \includegraphics[width=3in]{images/Higgs_BR.png}
@@ -1359,12 +1358,12 @@ Beyond the production mechanisms, the SM Higgs is unstable and decays with a wid
     \hline
     \multicolumn{2}{|c|}{Higgs Branching Ratios} \\
     \hline
-    ${\rm b\tilde{b}}$ & 0.57 \\
+    ${\rm b\bar{b}}$ & 0.57 \\
     WW & 0.22\\
     gg & 0.085 \\
     ${\rm \tau\tau}$ & 0.065 \\
     ZZ & 0.027 \\
-    ${\rm c\tilde{c}}$ & 0.027 \\
+    ${\rm c\bar{c}}$ & 0.027 \\
     ${\rm \gamma\gamma}$ & 0.0023 \\
     ${\rm Z}\gamma$ & 0.0016 \\
     ${\rm \mu^{+}\mu^{-}}$ & 0.00022 \\
@@ -1375,27 +1374,26 @@ Beyond the production mechanisms, the SM Higgs is unstable and decays with a wid
   \label{fig:hbranch}
 \end{figure}
 
-The muon has the lowest mass -- excluding the photon and gluon -- of the particles in Figure ~\ref{fig:hbranch} and consequently H$\rightarrow \mu^{+}\mu^{-}$ has the lowest branching fraction in the set. \footnote{The Higgs also couples to the electron and the first generation quarks but the masses are so light that CMS does not expect to see the SM Higgs in those modes.} The gluons and photons are massless and do not couple to the Higgs at leading order. These massless vector bosons interact with the Higgs through a loop of top quarks. The extremely heavy mass of the top quark, about 173 GeV, balances the fact that the loop production is a higher order mechanism.  
+The muon has the lowest mass \footnote{excluding the photon and gluon} of the particles in Figure ~\ref{fig:hbranch} and consequently H$\rightarrow \mu^{+}\mu^{-}$ has the lowest branching fraction in the set. \footnote{The Higgs also couples to the electron and the first generation quarks but the masses are so light that CMS does not expect to see the SM Higgs in those modes.} The gluons and photons are massless and do not couple to the Higgs at leading order, but through second order processes. Gluons interact with the Higgs through a loop of top quarks, as seen in Figure \ref{fig:hfeynprod}a. The extremely heavy mass of the top quark, about 173 GeV, balances the fact that the loop production is a higher order mechanism. The photons interact with the Higgs through a either a loop of W bosons or a loop of top quarks. 
 \begin{figure}[h!]
   \centering
   \includegraphics[width=4in]{images/higgs_production_modes.png}
   \caption
-   {The SM production modes with the highest cross sections. a) Gluon Gluon Fusion (GF) b) Vector Boson Fusion (VBF) c) Associated Production with a Vector Boson (VH) d) ${\rm t\tilde{t}}$H}
+   {The SM production modes with the highest cross sections. a) Gluon Gluon Fusion (GGF) b) Vector Boson Fusion (VBF) c) Associated Production with a Vector Boson (VH) d) ${\rm t\bar{t}}$H}
   \label{fig:hfeynprod}
 \end{figure}
+Figure \ref{fig:hfeynprod} shows the highest probability production mechanisms at the LHC. At ${\rm M_{h} = 125}$ GeV, ${\rm \sqrt{s} =}$ 13 TeV, the GGF channel comprises 87\% of the total Higgs production cross section, VBF 7\%, VH 4\%, and ${\rm t\bar{t}}$H 1\% \cite{crossbranchplots}. Besides ${\rm t\bar{t}}$H, the process q + $\bar{q} \rightarrow$ H isn't considered due to its low cross section. The low masses of these other quarks suppress the process. 
 
-The Higgs to massless vector boson coupling via the top loop is seen in the GF Feynman diagram in Figure ~\ref{fig:hfeynprod}. At ${\rm M_{h} = 125}$ GeV, ${\rm \sqrt{s} =}$ 13 TeV, the GF channel comprises 87\% of the total Higgs production cross section, VBF 7\%, VH 4\%, and ${\rm t\tilde{t}}$H 1\% \cite{crossbranchplots}. Besides ${\rm t\tilde{t}}$H, the process q + $\tilde{q} \rightarrow$ H isn't considered due to its low cross section. The low masses of the other quarks suppress the process. 
-
-Quark gluon (qg) scattering is a major background for the Higgs to two jets decays since the process closely resembles GF in this mode.   
-
+Colliding protons full of quarks and gluons results in many quark-gluon (qg) scattering events like the one in Figure \ref{fig:qg}. Quarks and gluons are detected at CMS as collimated jets of energy deposition and not single particles with well defined tracks. Because of this, the different quarks and gluons are difficult to differentiate from one another, and it's difficult to differentiate the quark/gluon Higgs decays from this large background. 
 \begin{figure}[h!]
+\label{fig:qg}
   \centering
   \includegraphics[width=2in]{images/qg_scattering.png}
   \caption
-   {Quark gluon scattering creates many two jet events. This background looks very similar to GF when the Higgs decays to two jets. The colliding protons are made of quarks and gluons so this process is extremely common.}
+   {The quark-gluon background looks very similar to the GGF production channel when the Higgs decays to two jets. Protons are made of quarks and gluons so this process is extremely common in proton colliders like the LHC.}
   \label{fig:feynqg}
 \end{figure}
-
+The Higgs decay to b-quarks is an exception as the b-quark upon production forms a reasonably long lived hadron, which travels from the initial collision point and then decays. In this way, jets that come from displaced vertices are probably b-jets and these events can be collected for study without collecting the majority of the enormous qg background. In this regard, $H\rightarrow b\bar{b}$ is an important and viable process that allows scientists at the LHC to study the Higgs coupling to fermions and to third generation quarks in particular. The other viable decays to study are those with isolated lepton or photon final states that distinguish them from the overwhelming jet background. 
 %\begin{figure}[h!]
 %  \centering
 %  \includegraphics[width=1.5in]{images/ggf.png}

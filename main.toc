@@ -31,16 +31,16 @@
 \contentsline {subsection}{\numberline {3.1.6}Interactions}{60}{subsection.3.1.6}
 \contentsline {subsection}{\numberline {3.1.7}The Higgs Mechanism}{63}{subsection.3.1.7}
 \contentsline {section}{\numberline {3.2}The Standard Model Higgs and the LHC}{68}{section.3.2}
-\contentsline {chapter}{\numberline {4}\uppercase {RESULTS}}{72}{chapter.4}
-\contentsline {section}{\numberline {4.1}Fusce Eget Tempus Lectus, }{72}{section.4.1}
-\contentsline {chapter}{\numberline {5}\uppercase {SUMMARY AND CONCLUSIONS}}{77}{chapter.5}
-\contentsline {section}{\numberline {5.1}Non Porttitor Tellus}{77}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}Nam Arcu Magna}{77}{subsection.5.1.1}
-\contentsline {subsubsection}{\numberline {5.1.1.1}Ut pellentesque velit sede}{77}{subsubsection.5.1.1.1}
+\contentsline {chapter}{\numberline {4}\uppercase {RESULTS}}{73}{chapter.4}
+\contentsline {section}{\numberline {4.1}Fusce Eget Tempus Lectus, }{73}{section.4.1}
+\contentsline {chapter}{\numberline {5}\uppercase {SUMMARY AND CONCLUSIONS}}{78}{chapter.5}
+\contentsline {section}{\numberline {5.1}Non Porttitor Tellus}{78}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Nam Arcu Magna}{78}{subsection.5.1.1}
+\contentsline {subsubsection}{\numberline {5.1.1.1}Ut pellentesque velit sede}{78}{subsubsection.5.1.1.1}
 \addvspace {10pt}\noindent {APPENDIX} \hfill {\@@par }
-\contentsline {chapter}{\numberline {A}\uppercase {THIS IS THE FIRST APPENDIX}}{78}{appendix.A}
-\contentsline {chapter}{\numberline {B}\uppercase {AN EXAMPLE OF A HALF TITLE PAGE}}{79}{appendix.B}
-\contentsline {chapter}{\numberline {C}\uppercase {DERIVATION OF THE $\Upsilon $ FUNCTION}}{83}{appendix.C}
-\contentsline {chapter}{\numberline {D}\uppercase {DERIVATION OF THE $\Upsilon $ FUNCTION}}{87}{appendix.D}
-\contentsline {extrachapter}{REFERENCES}{91}{appendix*.6}
-\contentsline {extrachapter}{BIOGRAPHICAL SKETCH}{92}{appendix*.7}
+\contentsline {chapter}{\numberline {A}\uppercase {THIS IS THE FIRST APPENDIX}}{79}{appendix.A}
+\contentsline {chapter}{\numberline {B}\uppercase {AN EXAMPLE OF A HALF TITLE PAGE}}{80}{appendix.B}
+\contentsline {chapter}{\numberline {C}\uppercase {DERIVATION OF THE $\Upsilon $ FUNCTION}}{84}{appendix.C}
+\contentsline {chapter}{\numberline {D}\uppercase {DERIVATION OF THE $\Upsilon $ FUNCTION}}{88}{appendix.D}
+\contentsline {extrachapter}{REFERENCES}{92}{appendix*.6}
+\contentsline {extrachapter}{BIOGRAPHICAL SKETCH}{93}{appendix*.7}
