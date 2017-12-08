@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2017.8.22)  8 DEC 2017 03:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2017.8.22)  8 DEC 2017 22:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1323,48 +1323,47 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 
 
-] [74]
+] [74] [75] [76] [77]
 
-Package natbib Warning: Citation `Khachatryan:2016bia' on page 75 undefined on 
-input line 50.
-
-[75]
-
-Package natbib Warning: Citation `Tapper:1556311' on page 76 undefined on input
- line 52.
+Package natbib Warning: Citation `Khachatryan:2016bia' on page 78 undefined on 
+input line 86.
 
 
-Package natbib Warning: Citation `Hocker:2007ht' on page 76 undefined on input 
-line 54.
+Package natbib Warning: Citation `Tapper:1556311' on page 78 undefined on input
+ line 88.
 
-[76] [77] [78]
-Overfull \hbox (9.13716pt too wide) in paragraph at lines 83--89
+
+Package natbib Warning: Citation `Hocker:2007ht' on page 78 undefined on input 
+line 90.
+
+[78] [79] [80] [81]
+Overfull \hbox (9.13716pt too wide) in paragraph at lines 119--125
 [][] 
  []
 
-[79] <images/emtf_rate_reduction.png, id=965, 598.235pt x 574.145pt>
+<images/emtf_rate_reduction.png, id=981, 598.235pt x 574.145pt>
 File: images/emtf_rate_reduction.png Graphic file (type png)
 
 <use images/emtf_rate_reduction.png>
-Package pdftex.def Info: images/emtf_rate_reduction.png used on input line 146.
+Package pdftex.def Info: images/emtf_rate_reduction.png used on input line 182.
 
 (pdftex.def)             Requested size: 180.67499pt x 173.40125pt.
 
-<images/emtf_efficiency.png, id=966, 598.235pt x 574.145pt>
+<images/emtf_efficiency.png, id=982, 598.235pt x 574.145pt>
 File: images/emtf_efficiency.png Graphic file (type png)
 
 <use images/emtf_efficiency.png>
-Package pdftex.def Info: images/emtf_efficiency.png used on input line 147.
+Package pdftex.def Info: images/emtf_efficiency.png used on input line 183.
 (pdftex.def)             Requested size: 180.67499pt x 173.40125pt.
 
 
-Package natbib Warning: Citation `CMS-DP-2017-041' on page 80 undefined on inpu
-t line 149.
+Package natbib Warning: Citation `CMS-DP-2017-041' on page 82 undefined on inpu
+t line 185.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [80] [81 <./images/emtf_rate_reduction.png> <./images/emtf_efficiency.png>]
+) [82] [83 <./images/emtf_rate_reduction.png> <./images/emtf_efficiency.png>]
 \openout2 = `tex/TwoOrMoreAppendices.aux'.
 
 
@@ -1376,7 +1375,7 @@ APPENDIX A.
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\uppercase' on input line 4.
 
-) (./tex/appendixB.tex [82
+) (./tex/appendixB.tex [84
 
 
 
@@ -1388,7 +1387,7 @@ APPENDIX B.
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\uppercase' on input line 1.
 
-[83
+[85
 
 ]
 Package epstopdf Info: Source file: <images/LaTeX2e_logo.eps>
@@ -1402,18 +1401,18 @@ nverted-to.pdf images/LaTeX2e_logo.eps>
 (epstopdf)             \includegraphics on input line 10.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/LaTeX2e_logo-eps-converted-to.pdf, id=983, 701.62125pt x 214.8025pt>
+<images/LaTeX2e_logo-eps-converted-to.pdf, id=1000, 701.62125pt x 214.8025pt>
 File: images/LaTeX2e_logo-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/LaTeX2e_logo-eps-converted-to.pdf>
 Package pdftex.def Info: images/LaTeX2e_logo-eps-converted-to.pdf used on input
  line 10.
 (pdftex.def)             Requested size: 433.62pt x 132.75664pt.
- [84 <./images/LaTeX2e_logo-eps-converted-to.pdf>] [85
+ [86 <./images/LaTeX2e_logo-eps-converted-to.pdf>] [87
 
 
 
-]) (./tex/appendixC.tex [86]
+]) (./tex/appendixC.tex [88]
 ***************************
 APPENDIX C.
 ***************************
@@ -1437,13 +1436,13 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <12> not available
 (Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 23.
 
-[87
+[89
 
-] [88] [89]
+] [90] [91]
 
-LaTeX Warning: Reference `first' on page 90 undefined on input line 111.
+LaTeX Warning: Reference `first' on page 92 undefined on input line 111.
 
-) (./tex/appendixD.tex [90]
+) (./tex/appendixD.tex [92]
 ***************************
 APPENDIX D.
 ***************************
@@ -1463,16 +1462,16 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 1.
 
-[91
+[93
 
-] [92] [93])) [94] (./main.bbl [95
+] [94] [95])) [96] (./main.bbl [97
 
 
 
 ])
 \openout2 = `bio.aux'.
 
- (./bio.tex [96
+ (./bio.tex [98
 
 
 
@@ -1503,9 +1502,9 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 195.
  ) 
 Here is how much of TeX's memory you used:
- 9522 strings out of 494954
- 138569 string characters out of 6181003
- 237091 words of memory out of 5000000
+ 9532 strings out of 494954
+ 138700 string characters out of 6181003
+ 237092 words of memory out of 5000000
  12182 multiletter control sequences out of 15000+600000
  11524 words of font info for 46 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
@@ -1530,10 +1529,10 @@ dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/f
 onts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/ty
 pe1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
 lic/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (96 pages, 2398916 bytes).
+Output written on main.pdf (98 pages, 2404895 bytes).
 PDF statistics:
- 1184 PDF objects out of 1200 (max. 8388607)
- 1030 compressed objects within 11 object streams
- 345 named destinations out of 1000 (max. 500000)
+ 1203 PDF objects out of 1440 (max. 8388607)
+ 1047 compressed objects within 11 object streams
+ 355 named destinations out of 1000 (max. 500000)
  557 words of extra memory for PDF output out of 10000 (max. 10000000)
 
