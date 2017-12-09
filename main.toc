@@ -34,25 +34,25 @@
 \contentsline {chapter}{\numberline {4}\uppercase {THE SEARCH FOR $H\rightarrow \mu ^+\mu ^-$}}{73}{chapter.4}
 \contentsline {section}{\numberline {4.1}Discovery, Limits, and Measurement, and Sensitivity}{73}{section.4.1}
 \contentsline {section}{\numberline {4.2}The Analysis Strategy}{78}{section.4.2}
-\contentsline {section}{\numberline {4.3}Improving the Level-1 Muon Trigger}{78}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Metrics of Success}{79}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}The EMTF Regression Project}{79}{subsection.4.3.2}
-\contentsline {subsection}{\numberline {4.3.3}Putting the BDTs into a Look-up Table}{81}{subsection.4.3.3}
-\contentsline {subsection}{\numberline {4.3.4}Results and Conclusions}{82}{subsection.4.3.4}
-\contentsline {section}{\numberline {4.4}Data and Monte Carlo Samples}{83}{section.4.4}
-\contentsline {section}{\numberline {4.5}Event Selection}{83}{section.4.5}
-\contentsline {section}{\numberline {4.6}Muon Momentum Calibration}{83}{section.4.6}
-\contentsline {section}{\numberline {4.7}Maximizing the Sensitivity}{83}{section.4.7}
-\contentsline {section}{\numberline {4.8}Modeling the Signal}{83}{section.4.8}
-\contentsline {section}{\numberline {4.9}Modeling the Background}{83}{section.4.9}
-\contentsline {section}{\numberline {4.10}Systematic Uncertainties}{83}{section.4.10}
-\contentsline {subsection}{\numberline {4.10.1}Signal}{83}{subsection.4.10.1}
-\contentsline {subsection}{\numberline {4.10.2}Background}{83}{subsection.4.10.2}
-\contentsline {section}{\numberline {4.11}Results}{83}{section.4.11}
+\contentsline {section}{\numberline {4.3}Improving the Level-1 Muon Trigger}{79}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Metrics of Success}{80}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}The EMTF Regression Project}{81}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}Putting the BDTs into a Look-up Table}{83}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.3.4}Results and Conclusions}{84}{subsection.4.3.4}
+\contentsline {section}{\numberline {4.4}Data and Monte Carlo Samples}{85}{section.4.4}
+\contentsline {section}{\numberline {4.5}Event Selection}{85}{section.4.5}
+\contentsline {section}{\numberline {4.6}Muon Momentum Calibration}{85}{section.4.6}
+\contentsline {section}{\numberline {4.7}Maximizing the Sensitivity}{85}{section.4.7}
+\contentsline {section}{\numberline {4.8}Modeling the Signal}{85}{section.4.8}
+\contentsline {section}{\numberline {4.9}Modeling the Background}{85}{section.4.9}
+\contentsline {section}{\numberline {4.10}Systematic Uncertainties}{85}{section.4.10}
+\contentsline {subsection}{\numberline {4.10.1}Signal}{85}{subsection.4.10.1}
+\contentsline {subsection}{\numberline {4.10.2}Background}{85}{subsection.4.10.2}
+\contentsline {section}{\numberline {4.11}Results}{85}{section.4.11}
 \addvspace {10pt}\noindent {APPENDIX} \hfill \par 
-\contentsline {chapter}{\numberline {A}\uppercase {THIS IS THE FIRST APPENDIX}}{84}{appendix.A}
-\contentsline {chapter}{\numberline {B}\uppercase {AN EXAMPLE OF A HALF TITLE PAGE}}{85}{appendix.B}
-\contentsline {chapter}{\numberline {C}\uppercase {DERIVATION OF THE $\Upsilon $ FUNCTION}}{89}{appendix.C}
-\contentsline {chapter}{\numberline {D}\uppercase {DERIVATION OF THE $\Upsilon $ FUNCTION}}{93}{appendix.D}
-\contentsline {extrachapter}{REFERENCES}{97}{appendix*.6}
-\contentsline {extrachapter}{BIOGRAPHICAL SKETCH}{98}{appendix*.7}
+\contentsline {chapter}{\numberline {A}\uppercase {THIS IS THE FIRST APPENDIX}}{86}{appendix.A}
+\contentsline {chapter}{\numberline {B}\uppercase {AN EXAMPLE OF A HALF TITLE PAGE}}{87}{appendix.B}
+\contentsline {chapter}{\numberline {C}\uppercase {DERIVATION OF THE $\Upsilon $ FUNCTION}}{91}{appendix.C}
+\contentsline {chapter}{\numberline {D}\uppercase {DERIVATION OF THE $\Upsilon $ FUNCTION}}{95}{appendix.D}
+\contentsline {extrachapter}{REFERENCES}{99}{appendix*.6}
+\contentsline {extrachapter}{BIOGRAPHICAL SKETCH}{100}{appendix*.7}
