@@ -40,8 +40,13 @@
 \contentsline {subsection}{\numberline {4.3.3}Putting the BDTs into a Look-up Table}{84}{subsection.4.3.3}
 \contentsline {subsection}{\numberline {4.3.4}Results and Conclusions}{85}{subsection.4.3.4}
 \contentsline {section}{\numberline {4.4}Data and Monte Carlo Samples}{85}{section.4.4}
-\contentsline {section}{\numberline {4.5}Event Selection, Object Reconstruction, and Monte Carlo Corrections}{89}{section.4.5}
+\contentsline {section}{\numberline {4.5}Event Selection, Object Reconstruction, and Corrections}{89}{section.4.5}
 \contentsline {subsection}{\numberline {4.5.1}Muons}{89}{subsection.4.5.1}
+\contentsline {subsection}{\numberline {4.5.2}Jets}{89}{subsection.4.5.2}
+\contentsline {subsection}{\numberline {4.5.3}Bottom Quarks}{90}{subsection.4.5.3}
+\contentsline {subsection}{\numberline {4.5.4}Event Selection}{90}{subsection.4.5.4}
+\contentsline {subsection}{\numberline {4.5.5}Jet Corrections and MET}{90}{subsection.4.5.5}
+\contentsline {subsection}{\numberline {4.5.6}Monte Carlo Corrections}{90}{subsection.4.5.6}
 \contentsline {section}{\numberline {4.6}Muon Momentum Calibration}{90}{section.4.6}
 \contentsline {section}{\numberline {4.7}Maximizing the Sensitivity}{90}{section.4.7}
 \contentsline {section}{\numberline {4.8}Modeling the Signal}{90}{section.4.8}
