@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2017.8.22)  9 DEC 2017 01:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2017.8.22)  11 DEC 2017 17:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -418,18 +418,19 @@ Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
 Package: euscript 2009/06/22 v3.00 Euler Script fonts
 LaTeX Font Info:    Overwriting math alphabet `\EuScript' in version `bold'
 (Font)                  U/eus/m/n --> U/eus/b/n on input line 33.
+) (/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
+\bigstrutjot=\dimen138
 ) (./caption.sty
 Package: caption 2007/04/16 v3.0q Customising captions (AR)
- (./caption3.sty
+(./caption3.sty
 Package: caption3 2007/04/11 v3.0q caption3 kernel (AR)
-\captionmargin=\dimen138
-\captionmargin@=\dimen139
-\captionwidth=\dimen140
-\captionindent=\dimen141
-\captionparindent=\dimen142
-\captionhangindent=\dimen143
-))
-(/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty
+\captionmargin=\dimen139
+\captionmargin@=\dimen140
+\captionwidth=\dimen141
+\captionindent=\dimen142
+\captionparindent=\dimen143
+\captionhangindent=\dimen144
+)) (/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip103
 \bibsep=\skip104
@@ -494,7 +495,7 @@ Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
-\@linkdim=\dimen144
+\@linkdim=\dimen145
 \Hy@linkcounter=\count127
 \Hy@pagecounter=\count128
 
@@ -517,10 +518,10 @@ Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4688.
 \c@Hy@tempcnt=\count130
 LaTeX Info: Redefining \url on input line 5041.
-\XeTeXLinkMargin=\dimen145
+\XeTeXLinkMargin=\dimen146
 \Fld@menulength=\count131
-\Field@Width=\dimen146
-\Fld@charsize=\dimen147
+\Field@Width=\dimen147
+\Fld@charsize=\dimen148
 Package hyperref Info: Hyper figures OFF on input line 6295.
 Package hyperref Info: Link nesting OFF on input line 6300.
 Package hyperref Info: Hyper index ON on input line 6303.
@@ -548,8 +549,8 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip105
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 40.
-Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 40.
+Package hyperref Info: Option `colorlinks' set `true' on input line 41.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 41.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/braket/braket.sty)
 \@input{usersetcommands.aux}
@@ -596,13 +597,13 @@ LaTeX Info: Redefining \selectfont on input line 70.
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count143
-\scratchdimen=\dimen148
+\scratchdimen=\dimen149
 \scratchbox=\box36
 \nofMPsegments=\count144
 \nofMParguments=\count145
 \everyMPshowfont=\toks31
 \MPscratchCnt=\count146
-\MPscratchDim=\dimen149
+\MPscratchDim=\dimen150
 \MPnumerator=\count147
 \makeMPintoPDFobject=\count148
 \everyMPtoPDFconversion=\toks32
@@ -718,12 +719,33 @@ File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
- [5] (./main.lot)
+ [5] (./main.lot
+Overfull \hbox (8.5889pt too wide) in paragraph at lines 2--2
+ [][] [][][]\OT1/cmss/m/n/12 Overview of the single muon data stream collected 
+during the proton-proton collisions 
+ []
+
+
+LaTeX Font Warning: Font shape `OT1/cmss/m/sc' in size <12> not available
+(Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 3.
+
+
+Overfull \hbox (5.51pt too wide) in paragraph at lines 4--4
+ [][] [][][]\OT1/cmss/m/n/12 The MC background processes samples were generated
+ with amc@NLO. \OT1/cmr/m/sc/12 POWHEG 
+ []
+
+
+Overfull \hbox (1.39473pt too wide) in paragraph at lines 4--4
+ \OT1/cmr/m/sc/12 spin\OT1/cmss/m/n/12 . The parton shower and hadronization pr
+ocesses are modeled by the \OT1/cmr/m/sc/12 Pythia8 
+ []
+
+)
 \tf@lot=\write5
 \openout5 = `main.lot'.
 
-
-[6
+ [6
 
 
 
@@ -793,6 +815,12 @@ Overfull \hbox (26.94289pt too wide) in paragraph at lines 19--19
 ciency for the same threshold. 
  []
 
+
+Overfull \hbox (1.50284pt too wide) in paragraph at lines 20--20
+ [][] [][][]\OT1/cmss/m/n/12 The SM production modes considered in the analysis
+. a) Gluon Gluon Fusion (GGF) 
+ []
+
 )
 \tf@lof=\write6
 \openout6 = `main.lof'.
@@ -801,10 +829,10 @@ ciency for the same threshold.
 
 
 
-])
+] [8])
 \openout2 = `tex/abstract.aux'.
 
- (./tex/abstract.tex [8
+ (./tex/abstract.tex [9
 
 
 
@@ -821,47 +849,47 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\uppercase' on input line 1.
 
 
-Package natbib Warning: Citation `atlasdiscovery' on page 9 undefined on input 
-line 3.
+Package natbib Warning: Citation `atlasdiscovery' on page 10 undefined on input
+ line 3.
 
 
-Package natbib Warning: Citation `cmsdiscovery2012' on page 9 undefined on inpu
-t line 3.
+Package natbib Warning: Citation `cmsdiscovery2012' on page 10 undefined on inp
+ut line 3.
 
 
-Package natbib Warning: Citation `cmsdiscovery2013' on page 9 undefined on inpu
-t line 3.
+Package natbib Warning: Citation `cmsdiscovery2013' on page 10 undefined on inp
+ut line 3.
 
 
-Package natbib Warning: Citation `cmshiggstau' on page 9 undefined on input lin
+Package natbib Warning: Citation `cmshiggstau' on page 10 undefined on input li
+ne 3.
+
+
+Package natbib Warning: Citation `cmshiggsbb' on page 10 undefined on input lin
 e 3.
 
 
-Package natbib Warning: Citation `cmshiggsbb' on page 9 undefined on input line
- 3.
+Package natbib Warning: Citation `cmshiggsferm' on page 10 undefined on input l
+ine 3.
 
 
-Package natbib Warning: Citation `cmshiggsferm' on page 9 undefined on input li
-ne 3.
+Package natbib Warning: Citation `atlashiggsbb' on page 10 undefined on input l
+ine 3.
 
 
-Package natbib Warning: Citation `atlashiggsbb' on page 9 undefined on input li
-ne 3.
+Package natbib Warning: Citation `smallestbranch1' on page 10 undefined on inpu
+t line 5.
 
 
-Package natbib Warning: Citation `smallestbranch1' on page 9 undefined on input
- line 5.
+Package natbib Warning: Citation `smallestbranch2' on page 10 undefined on inpu
+t line 5.
 
-
-Package natbib Warning: Citation `smallestbranch2' on page 9 undefined on input
- line 5.
-
-[9
+[10
 
 
 
 
-]) [10]
+]) [11]
 \openout2 = `tex/lhc-cms.aux'.
 
  (./tex/lhc-cms.tex
@@ -873,9 +901,9 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\uppercase' on input line 1.
 
 
-Package natbib Warning: Citation `LHC' on page 11 undefined on input line 4.
+Package natbib Warning: Citation `LHC' on page 12 undefined on input line 4.
 
-<images/cern_accel_complex.png, id=390, 1040.688pt x 735.7086pt>
+<images/cern_accel_complex.png, id=411, 1040.688pt x 735.7086pt>
 File: images/cern_accel_complex.png Graphic file (type png)
 
 <use images/cern_accel_complex.png>
@@ -883,22 +911,22 @@ Package pdftex.def Info: images/cern_accel_complex.png used on input line 15.
 (pdftex.def)             Requested size: 433.62pt x 306.54823pt.
 
 
-Package natbib Warning: Citation `cernaccelcomplex' on page 11 undefined on inp
+Package natbib Warning: Citation `cernaccelcomplex' on page 12 undefined on inp
 ut line 17.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[11
+[12
 
 
 
-] [12 <./images/cern_accel_complex.png>]
+] [13 <./images/cern_accel_complex.png>]
 
-Package natbib Warning: Citation `cmscollab' on page 13 undefined on input line
+Package natbib Warning: Citation `cmscollab' on page 14 undefined on input line
  27.
 
-<images/CMSdetc3D.jpg, id=400, 659.46375pt x 460.72125pt>
+<images/CMSdetc3D.jpg, id=422, 659.46375pt x 460.72125pt>
 File: images/CMSdetc3D.jpg Graphic file (type jpg)
 
 <use images/CMSdetc3D.jpg>
@@ -906,11 +934,11 @@ Package pdftex.def Info: images/CMSdetc3D.jpg used on input line 31.
 (pdftex.def)             Requested size: 289.07999pt x 201.96576pt.
 
 
-Package natbib Warning: Citation `cmsweb' on page 13 undefined on input line 33
+Package natbib Warning: Citation `cmsweb' on page 14 undefined on input line 33
 .
 
 
-Package natbib Warning: Citation `tdr' on page 13 undefined on input line 37.
+Package natbib Warning: Citation `tdr' on page 14 undefined on input line 37.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 37--37
@@ -924,12 +952,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 37--37
 e colorless particles as well as
  []
 
-[13 <./images/CMSdetc3D.jpg>]
+[14 <./images/CMSdetc3D.jpg>]
 
-Package natbib Warning: Citation `pdgreview' on page 14 undefined on input line
+Package natbib Warning: Citation `pdgreview' on page 15 undefined on input line
  40.
 
-<images/sagitta.png, id=406, 373.395pt x 249.93375pt>
+<images/sagitta.png, id=427, 373.395pt x 249.93375pt>
 File: images/sagitta.png Graphic file (type png)
  <use images/sagitta.png>
 Package pdftex.def Info: images/sagitta.png used on input line 50.
@@ -950,8 +978,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 62--62
 ecay that produced a set of
  []
 
-[14] [15 <./images/sagitta.png>]
-<images/cms_slice.jpg, id=418, 888.31876pt x 451.6875pt>
+[15] [16 <./images/sagitta.png>]
+<images/cms_slice.jpg, id=439, 888.31876pt x 451.6875pt>
 File: images/cms_slice.jpg Graphic file (type jpg)
 
 <use images/cms_slice.jpg>
@@ -959,18 +987,18 @@ Package pdftex.def Info: images/cms_slice.jpg used on input line 69.
 (pdftex.def)             Requested size: 289.07999pt x 146.98967pt.
 
 
-Package natbib Warning: Citation `cmsweb' on page 16 undefined on input line 71
+Package natbib Warning: Citation `cmsweb' on page 17 undefined on input line 71
 .
 
-[16 <./images/cms_slice.jpg>]
+[17 <./images/cms_slice.jpg>]
 
-Package natbib Warning: Citation `pdgreview' on page 17 undefined on input line
+Package natbib Warning: Citation `pdgreview' on page 18 undefined on input line
  77.
 
 
-Package natbib Warning: Citation `tdr' on page 17 undefined on input line 88.
+Package natbib Warning: Citation `tdr' on page 18 undefined on input line 88.
 
-[17] <images/muon_system.png, id=429, 1150.2975pt x 717.68124pt>
+[18] <images/muon_system.png, id=450, 1150.2975pt x 717.68124pt>
 File: images/muon_system.png Graphic file (type png)
 
 <use images/muon_system.png>
@@ -978,44 +1006,44 @@ Package pdftex.def Info: images/muon_system.png used on input line 92.
 (pdftex.def)             Requested size: 397.48499pt x 247.99452pt.
 
 
-Package natbib Warning: Citation `muonsys' on page 18 undefined on input line 9
+Package natbib Warning: Citation `muonsys' on page 19 undefined on input line 9
 4.
 
-[18 <./images/muon_system.png>]
-<images/DT.png, id=435, 1050.92625pt x 354.32375pt>
+[19 <./images/muon_system.png>]
+<images/DT.png, id=457, 1050.92625pt x 354.32375pt>
 File: images/DT.png Graphic file (type png)
  <use images/DT.png>
 Package pdftex.def Info: images/DT.png used on input line 106.
 (pdftex.def)             Requested size: 289.07999pt x 97.46365pt.
 
 
-Package natbib Warning: Citation `mutdr' on page 19 undefined on input line 108
+Package natbib Warning: Citation `mutdr' on page 20 undefined on input line 108
 .
 
-<images/CSC.png, id=436, 930.47626pt x 628.3475pt>
+<images/CSC.png, id=458, 930.47626pt x 628.3475pt>
 File: images/CSC.png Graphic file (type png)
  <use images/CSC.png>
 Package pdftex.def Info: images/CSC.png used on input line 120.
 (pdftex.def)             Requested size: 289.07999pt x 195.20757pt.
 
 
-Package natbib Warning: Citation `mutdr' on page 19 undefined on input line 122
+Package natbib Warning: Citation `mutdr' on page 20 undefined on input line 122
 .
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Package natbib Warning: Citation `cmsexp' on page 19 undefined on input line 13
+Package natbib Warning: Citation `cmsexp' on page 20 undefined on input line 13
 0.
 
-[19 <./images/DT.png>]
+[20 <./images/DT.png>]
 
-Package natbib Warning: Citation `cmsexp' on page 20 undefined on input line 13
+Package natbib Warning: Citation `cmsexp' on page 21 undefined on input line 13
 5.
 
-[20 <./images/CSC.png>]
-<images/L1_Trigger.png, id=446, 894.34125pt x 443.6575pt>
+[21 <./images/CSC.png>]
+<images/L1_Trigger.png, id=468, 894.34125pt x 443.6575pt>
 File: images/L1_Trigger.png Graphic file (type png)
 
 <use images/L1_Trigger.png>
@@ -1023,13 +1051,13 @@ Package pdftex.def Info: images/L1_Trigger.png used on input line 145.
 (pdftex.def)             Requested size: 361.34999pt x 179.26057pt.
 
 
-Package natbib Warning: Citation `cmsexp' on page 21 undefined on input line 14
+Package natbib Warning: Citation `cmsexp' on page 22 undefined on input line 14
 7.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [21] [22 <./images/L1_Trigger.png>]
+) [22] [23 <./images/L1_Trigger.png>]
 \openout2 = `tex/standard-model.aux'.
 
  (./tex/standard-model.tex
@@ -1041,7 +1069,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\uppercase' on input line 1.
 
 
-Package natbib Warning: Citation `smconsistency' on page 23 undefined on input 
+Package natbib Warning: Citation `smconsistency' on page 24 undefined on input 
 line 3.
 
 
@@ -1051,7 +1079,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--3
  []
 
 
-<images/Standard_Model_of_Elementary_Particles.png, id=455, 657.657pt x 493.845
+<images/Standard_Model_of_Elementary_Particles.png, id=477, 657.657pt x 493.845
 pt>
 File: images/Standard_Model_of_Elementary_Particles.png Graphic file (type png)
 
@@ -1069,16 +1097,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--13
 el does not describe this force
  []
 
-[23
+[24
 
 
 
 ]
 
-Package natbib Warning: Citation `tdr' on page 24 undefined on input line 15.
+Package natbib Warning: Citation `tdr' on page 25 undefined on input line 15.
 
-[24 <./images/Standard_Model_of_Elementary_Particles.png>] [25] [26] [27]
-[28] [29] [30] [31] [32]
+[25 <./images/Standard_Model_of_Elementary_Particles.png>] [26] [27] [28]
+[29] [30] [31] [32] [33]
 Underfull \hbox (badness 10000) in paragraph at lines 244--244
 [][]\OT1/cmss/m/n/12 The Lie Bracket defines the multiplication for a Lie Algeb
 ra and this reduces to the
@@ -1090,13 +1118,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 244--244
 mmutator below returns
  []
 
-[33] [34]
+[34] [35]
 Overfull \hbox (2.55142pt too wide) in paragraph at lines 281--282
 \OT1/cmss/m/n/12 defined by the mathematical equation below, where the $\OT1/cm
 br/m/n/12 ^^C$ \OT1/cmss/m/n/12 matrices represent the rotation/boost 
  []
 
-[35] [36] [37] [38] [39]
+[36] [37] [38] [39] [40]
 Underfull \hbox (badness 10000) in paragraph at lines 507--507
 [][]\OT1/cmss/m/n/12 A spinor has 2 complex components yielding 4 parameters. T
 wo constraints reduce the
@@ -1108,7 +1136,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 507--507
 itude of 1, and the other
  []
 
-[40] [41]
+[41] [42]
 Underfull \hbox (badness 10000) in paragraph at lines 610--610
 [][]\OT1/cmss/m/n/12 This assumes that the 3x3 and 2x2 pieces have no invariant
  subspaces besides themselves
@@ -1132,7 +1160,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 612--612
 ices. An arbitrary representation
  []
 
-[42] [43] [44]
+[43] [44] [45]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 646.
@@ -1153,42 +1181,42 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 646.
 
-[45] [46] [47] [48] [49] [50] [51] [52]
+[46] [47] [48] [49] [50] [51] [52] [53]
 Overfull \hbox (23.65756pt too wide) detected at line 898
 [][] [] \OML/cmm/m/it/12  []\OT1/cmbr/m/n/12 (t[], [])\OML/cmm/m/it/12  []\OT1/
 cmbr/m/n/12 (t[], [])\OML/cmm/m/it/12  []\OT1/cmbr/m/n/12 (t[], [])\OML/cmm/m/i
 t/12  []\OT1/cmbr/m/n/12 (t[], []) [] = [],
  []
 
-[53]
+[54]
 Overfull \hbox (9.7664pt too wide) in paragraph at lines 916--918
 \OT1/cmss/m/n/12 Focusing on the integral in the denominator and looking at the
  integral as a matrix multiplication 
  []
 
-[54]
+[55]
 Overfull \hbox (66.73582pt too wide) in paragraph at lines 980--980
 []  
  []
 
-[55]
+[56]
 Overfull \hbox (2.9112pt too wide) in paragraph at lines 990--990
 []  
  []
 
-[56] <images/d0.pdf, id=728, 85.67407pt x 19.19974pt>
+[57] <images/d0.pdf, id=749, 85.67407pt x 19.19974pt>
 File: images/d0.pdf Graphic file (type pdf)
  <use images/d0.pdf>
 Package pdftex.def Info: images/d0.pdf used on input line 1047.
 (pdftex.def)             Requested size: 85.67384pt x 19.19968pt.
 
-<images/d1.pdf, id=729, 154.51727pt x 68.74884pt>
+<images/d1.pdf, id=750, 154.51727pt x 68.74884pt>
 File: images/d1.pdf Graphic file (type pdf)
  <use images/d1.pdf>
 Package pdftex.def Info: images/d1.pdf used on input line 1047.
 (pdftex.def)             Requested size: 154.51689pt x 68.74866pt.
 
-<images/d2.pdf, id=730, 181.79218pt x 97.1068pt>
+<images/d2.pdf, id=751, 181.79218pt x 97.1068pt>
 File: images/d2.pdf Graphic file (type pdf)
  <use images/d2.pdf>
 Package pdftex.def Info: images/d2.pdf used on input line 1047.
@@ -1198,33 +1226,33 @@ Overfull \hbox (39.14822pt too wide) in paragraph at lines 1047--1049
  [][] 
  []
 
-[57] <images/phi4_2-2_scattering.pdf, id=739, 509.62096pt x 68.00105pt>
+[58] <images/phi4_2-2_scattering.pdf, id=760, 509.62096pt x 68.00105pt>
 File: images/phi4_2-2_scattering.pdf Graphic file (type pdf)
 
 <use images/phi4_2-2_scattering.pdf>
 Package pdftex.def Info: images/phi4_2-2_scattering.pdf used on input line 1062
 .
 (pdftex.def)             Requested size: 289.07999pt x 38.57422pt.
- [58 <./images/d0.pdf> <./images/d1.pdf> <./images/d2.pdf>]
+ [59 <./images/d0.pdf> <./images/d1.pdf> <./images/d2.pdf>]
 Overfull \hbox (41.0689pt too wide) in paragraph at lines 1080--1080
 []  
  []
 
-[59 <./images/phi4_2-2_scattering.pdf>] [60] [61]
+[60 <./images/phi4_2-2_scattering.pdf>] [61] [62]
 Overfull \hbox (1.95975pt too wide) in paragraph at lines 1144--1146
 \OT1/cmss/m/n/12 Choosing c=-iq and $\OT1/cmbr/m/n/12 ^^AA[] = []\OML/cmm/m/it/
 12 @[][]\OT1/cmbr/m/n/12 (x)$ \OT1/cmss/m/n/12 determines the coupling constan
 t and the transformation 
  []
 
-[62]
+[63]
 Underfull \hbox (badness 10000) in paragraph at lines 1171--1171
 [][]\OT1/cmss/m/n/12 The calculation uses the fact that the SU(N) the generator
  matrices form an orthogonal
  []
 
-[63] [64] [65] [66] [67]
-<images/14TeV_higgs_cross_sections.png, id=894, 569.0058pt x 409.0482pt>
+[64] [65] [66] [67] [68]
+<images/14TeV_higgs_cross_sections.png, id=915, 569.0058pt x 409.0482pt>
 File: images/14TeV_higgs_cross_sections.png Graphic file (type png)
 
 <use images/14TeV_higgs_cross_sections.png>
@@ -1233,11 +1261,11 @@ ne 1343.
 (pdftex.def)             Requested size: 361.34999pt x 259.76768pt.
 
 
-Package natbib Warning: Citation `crossbranchplots' on page 68 undefined on inp
+Package natbib Warning: Citation `crossbranchplots' on page 69 undefined on inp
 ut line 1345.
 
-[68 <./images/14TeV_higgs_cross_sections.png (PNG copy)>]
-<images/Higgs_BR.png, id=901, 569.12625pt x 546.04pt>
+[69 <./images/14TeV_higgs_cross_sections.png (PNG copy)>]
+<images/Higgs_BR.png, id=922, 569.12625pt x 546.04pt>
 File: images/Higgs_BR.png Graphic file (type png)
 
 <use images/Higgs_BR.png>
@@ -1245,7 +1273,7 @@ Package pdftex.def Info: images/Higgs_BR.png used on input line 1356.
 (pdftex.def)             Requested size: 216.81pt x 208.01393pt.
 
 
-Package natbib Warning: Citation `crossbranchplots' on page 69 undefined on inp
+Package natbib Warning: Citation `crossbranchplots' on page 70 undefined on inp
 ut line 1373.
 
 
@@ -1257,7 +1285,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1377--1377
 ation quarks but the masses are
  []
 
-<images/higgs_production_modes.png, id=904, 559.8516pt x 414.348pt>
+<images/higgs_production_modes.png, id=925, 559.8516pt x 414.348pt>
 File: images/higgs_production_modes.png Graphic file (type png)
 
 <use images/higgs_production_modes.png>
@@ -1266,21 +1294,21 @@ Package pdftex.def Info: images/higgs_production_modes.png used on input line 1
 (pdftex.def)             Requested size: 289.07999pt x 213.95113pt.
 
 
-Package natbib Warning: Citation `crossbranchplots' on page 69 undefined on inp
+Package natbib Warning: Citation `crossbranchplots' on page 70 undefined on inp
 ut line 1385.
 
-[69]
+[70]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[70 <./images/Higgs_BR.png>]
-<images/qg_scattering.png, id=916, 314.17375pt x 215.80624pt>
+[71 <./images/Higgs_BR.png>]
+<images/qg_scattering.png, id=938, 314.17375pt x 215.80624pt>
 File: images/qg_scattering.png Graphic file (type png)
 
 <use images/qg_scattering.png>
 Package pdftex.def Info: images/qg_scattering.png used on input line 1391.
 (pdftex.def)             Requested size: 144.54pt x 99.28195pt.
-) [71 <./images/higgs_production_modes.png> <./images/qg_scattering.png>] [72]
+) [72 <./images/higgs_production_modes.png> <./images/qg_scattering.png>] [73]
 \openout2 = `tex/search.aux'.
 
  (./tex/search.tex
@@ -1319,30 +1347,30 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 1.
 
-[73
+[74
 
 
 
-] [74] [75] [76] [77] [78]
+] [75] [76] [77] [78] [79]
 
-Package natbib Warning: Citation `Khachatryan:2016bia' on page 79 undefined on 
+Package natbib Warning: Citation `Khachatryan:2016bia' on page 80 undefined on 
 input line 96.
 
 
-Package natbib Warning: Citation `Tapper:1556311' on page 79 undefined on input
+Package natbib Warning: Citation `Tapper:1556311' on page 80 undefined on input
  line 98.
 
-[79]
+[80]
 
-Package natbib Warning: Citation `Hocker:2007ht' on page 80 undefined on input 
+Package natbib Warning: Citation `Hocker:2007ht' on page 81 undefined on input 
 line 100.
 
-[80] [81] [82]
+[81] [82] [83]
 Overfull \hbox (9.13716pt too wide) in paragraph at lines 129--135
 [][] 
  []
 
-[83] <images/emtf_rate_reduction.png, id=990, 598.235pt x 574.145pt>
+[84] <images/emtf_rate_reduction.png, id=1011, 598.235pt x 574.145pt>
 File: images/emtf_rate_reduction.png Graphic file (type png)
 
 <use images/emtf_rate_reduction.png>
@@ -1350,7 +1378,7 @@ Package pdftex.def Info: images/emtf_rate_reduction.png used on input line 192.
 
 (pdftex.def)             Requested size: 180.67499pt x 173.40125pt.
 
-<images/emtf_efficiency.png, id=991, 598.235pt x 574.145pt>
+<images/emtf_efficiency.png, id=1012, 598.235pt x 574.145pt>
 File: images/emtf_efficiency.png Graphic file (type png)
 
 <use images/emtf_efficiency.png>
@@ -1358,11 +1386,33 @@ Package pdftex.def Info: images/emtf_efficiency.png used on input line 193.
 (pdftex.def)             Requested size: 180.67499pt x 173.40125pt.
 
 
-Package natbib Warning: Citation `CMS-DP-2017-041' on page 84 undefined on inpu
+Package natbib Warning: Citation `CMS-DP-2017-041' on page 85 undefined on inpu
 t line 195.
 
-) [84 <./images/emtf_rate_reduction.png> <./images/emtf_efficiency.png>]
-[85]
+File: images/higgs_production_modes.png Graphic file (type png)
+<use images/higgs_production_modes.png>
+Package pdftex.def Info: images/higgs_production_modes.png used on input line 2
+06.
+(pdftex.def)             Requested size: 289.07999pt x 213.95113pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Overfull \hbox (26.11006pt too wide) in paragraph at lines 217--236
+[][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[85 <./images/emtf_rate_reduction.png> <./images/emtf_efficiency.png>] [86]
+[87] [88]) [89
+
+
+
+
+]
 \openout2 = `tex/TwoOrMoreAppendices.aux'.
 
  (./tex/TwoOrMoreAppendices.tex (./tex/appendixA.tex
@@ -1373,7 +1423,7 @@ APPENDIX A.
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\uppercase' on input line 4.
 
-) (./tex/appendixB.tex [86
+) (./tex/appendixB.tex [90
 
 
 
@@ -1385,7 +1435,7 @@ APPENDIX B.
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\uppercase' on input line 1.
 
-[87
+[91
 
 ]
 Package epstopdf Info: Source file: <images/LaTeX2e_logo.eps>
@@ -1399,18 +1449,18 @@ nverted-to.pdf images/LaTeX2e_logo.eps>
 (epstopdf)             \includegraphics on input line 10.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/LaTeX2e_logo-eps-converted-to.pdf, id=1009, 701.62125pt x 214.8025pt>
+<images/LaTeX2e_logo-eps-converted-to.pdf, id=1089, 701.62125pt x 214.8025pt>
 File: images/LaTeX2e_logo-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/LaTeX2e_logo-eps-converted-to.pdf>
 Package pdftex.def Info: images/LaTeX2e_logo-eps-converted-to.pdf used on input
  line 10.
 (pdftex.def)             Requested size: 433.62pt x 132.75664pt.
- [88 <./images/LaTeX2e_logo-eps-converted-to.pdf>] [89
+ [92 <./images/LaTeX2e_logo-eps-converted-to.pdf>] [93
 
 
 
-]) (./tex/appendixC.tex [90]
+]) (./tex/appendixC.tex [94]
 ***************************
 APPENDIX C.
 ***************************
@@ -1434,13 +1484,13 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <12> not available
 (Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 23.
 
-[91
+[95
 
-] [92] [93]
+] [96] [97]
 
-LaTeX Warning: Reference `first' on page 94 undefined on input line 111.
+LaTeX Warning: Reference `first' on page 98 undefined on input line 111.
 
-) (./tex/appendixD.tex [94]
+) (./tex/appendixD.tex [98]
 ***************************
 APPENDIX D.
 ***************************
@@ -1460,16 +1510,16 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 1.
 
-[95
+[99
 
-] [96] [97])) [98] (./main.bbl [99
+] [100] [101])) [102] (./main.bbl [103
 
 
 
 ])
 \openout2 = `bio.aux'.
 
- (./bio.tex [100
+ (./bio.tex [104
 
 
 
@@ -1500,37 +1550,38 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 195.
  ) 
 Here is how much of TeX's memory you used:
- 9535 strings out of 494954
- 138730 string characters out of 6181003
- 236093 words of memory out of 5000000
- 12182 multiletter control sequences out of 15000+600000
- 11524 words of font info for 46 fonts, out of 8000000 for 9000
+ 9575 strings out of 494954
+ 139382 string characters out of 6181003
+ 246519 words of memory out of 5000000
+ 12209 multiletter control sequences out of 15000+600000
+ 14661 words of font info for 58 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  39i,22n,42p,1735b,481s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf
--dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmssi12.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
-lic/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (100 pages, 2408413 bytes).
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmssi12.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/symbols/msbm10.pfb>
+Output written on main.pdf (104 pages, 2447381 bytes).
 PDF statistics:
- 1212 PDF objects out of 1440 (max. 8388607)
- 1054 compressed objects within 11 object streams
- 358 named destinations out of 1000 (max. 500000)
+ 1297 PDF objects out of 1440 (max. 8388607)
+ 1133 compressed objects within 12 object streams
+ 366 named destinations out of 1000 (max. 500000)
  557 words of extra memory for PDF output out of 10000 (max. 10000000)
 

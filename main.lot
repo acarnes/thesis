@@ -1,1 +1,4 @@
-\contentsline {table}{\numberline {{4-1}}{\ignorespaces The feature discretization scheme for each mode.}}{83}{table.4.1}
+\contentsline {table}{\numberline {{4-1}}{\ignorespaces The feature discretization scheme for each mode.}}{84}{table.4.1}
+\contentsline {table}{\numberline {{4-2}}{\ignorespaces Overview of the single muon data stream collected during the proton-proton collisions at $\sqrt {s}=13$\nobreakspace {}TeV by CMS at the LHC in 2016.}}{86}{table.4.2}
+\contentsline {table}{\numberline {{4-3}}{\ignorespaces The Higgs signal MC samples were generated with {\sc POWHEG} while the parton shower and hadronization processes are modeled by the {\sc Pythia8} generator with TuneCUETP8M1.}}{87}{table.4.3}
+\contentsline {table}{\numberline {{4-4}}{\ignorespaces The MC background processes samples were generated with {amc@NLO}. {\sc POWHEG} and {\sc madgraph}. Spin effects in multi-boson processes are simulated using {\sc madspin}. The parton shower and hadronization processes are modeled by the {\sc Pythia8} generator with TuneCUETP8M1.}}{88}{table.4.4}
