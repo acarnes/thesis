@@ -40,19 +40,20 @@
 \contentsline {subsection}{\numberline {4.3.3}Putting the BDTs into a Look-up Table}{84}{subsection.4.3.3}
 \contentsline {subsection}{\numberline {4.3.4}Results and Conclusions}{85}{subsection.4.3.4}
 \contentsline {section}{\numberline {4.4}Data and Monte Carlo Samples}{85}{section.4.4}
-\contentsline {section}{\numberline {4.5}Event Selection}{89}{section.4.5}
-\contentsline {section}{\numberline {4.6}Muon Momentum Calibration}{89}{section.4.6}
-\contentsline {section}{\numberline {4.7}Maximizing the Sensitivity}{89}{section.4.7}
-\contentsline {section}{\numberline {4.8}Modeling the Signal}{89}{section.4.8}
-\contentsline {section}{\numberline {4.9}Modeling the Background}{89}{section.4.9}
-\contentsline {section}{\numberline {4.10}Systematic Uncertainties}{89}{section.4.10}
-\contentsline {subsection}{\numberline {4.10.1}Signal}{89}{subsection.4.10.1}
-\contentsline {subsection}{\numberline {4.10.2}Background}{89}{subsection.4.10.2}
-\contentsline {section}{\numberline {4.11}Results}{89}{section.4.11}
+\contentsline {section}{\numberline {4.5}Event Selection, Object Reconstruction, and Monte Carlo Corrections}{89}{section.4.5}
+\contentsline {subsection}{\numberline {4.5.1}Muons}{89}{subsection.4.5.1}
+\contentsline {section}{\numberline {4.6}Muon Momentum Calibration}{90}{section.4.6}
+\contentsline {section}{\numberline {4.7}Maximizing the Sensitivity}{90}{section.4.7}
+\contentsline {section}{\numberline {4.8}Modeling the Signal}{90}{section.4.8}
+\contentsline {section}{\numberline {4.9}Modeling the Background}{90}{section.4.9}
+\contentsline {section}{\numberline {4.10}Systematic Uncertainties}{90}{section.4.10}
+\contentsline {subsection}{\numberline {4.10.1}Signal}{90}{subsection.4.10.1}
+\contentsline {subsection}{\numberline {4.10.2}Background}{90}{subsection.4.10.2}
+\contentsline {section}{\numberline {4.11}Results}{90}{section.4.11}
 \addvspace {10pt}\noindent {APPENDIX} \hfill \par 
-\contentsline {chapter}{\numberline {A}\uppercase {THIS IS THE FIRST APPENDIX}}{90}{appendix.A}
-\contentsline {chapter}{\numberline {B}\uppercase {AN EXAMPLE OF A HALF TITLE PAGE}}{91}{appendix.B}
-\contentsline {chapter}{\numberline {C}\uppercase {DERIVATION OF THE $\Upsilon $ FUNCTION}}{95}{appendix.C}
-\contentsline {chapter}{\numberline {D}\uppercase {DERIVATION OF THE $\Upsilon $ FUNCTION}}{99}{appendix.D}
-\contentsline {extrachapter}{REFERENCES}{103}{appendix*.6}
-\contentsline {extrachapter}{BIOGRAPHICAL SKETCH}{104}{appendix*.7}
+\contentsline {chapter}{\numberline {A}\uppercase {THIS IS THE FIRST APPENDIX}}{91}{appendix.A}
+\contentsline {chapter}{\numberline {B}\uppercase {AN EXAMPLE OF A HALF TITLE PAGE}}{92}{appendix.B}
+\contentsline {chapter}{\numberline {C}\uppercase {DERIVATION OF THE $\Upsilon $ FUNCTION}}{96}{appendix.C}
+\contentsline {chapter}{\numberline {D}\uppercase {DERIVATION OF THE $\Upsilon $ FUNCTION}}{100}{appendix.D}
+\contentsline {extrachapter}{REFERENCES}{104}{appendix*.6}
+\contentsline {extrachapter}{BIOGRAPHICAL SKETCH}{105}{appendix*.7}
