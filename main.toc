@@ -42,26 +42,26 @@
 \contentsline {section}{\numberline {4.4}Data and Monte Carlo Samples}{86}{section.4.4}
 \contentsline {section}{\numberline {4.5}Muon Momentum Calibration}{90}{section.4.5}
 \contentsline {subsection}{\numberline {4.5.1}Muon Corrections in Data}{91}{subsection.4.5.1}
-\contentsline {subsection}{\numberline {4.5.2}Data-MC agreement in scale, resolution}{92}{subsection.4.5.2}
-\contentsline {subsection}{\numberline {4.5.3}Derivation of systematic uncertainties}{93}{subsection.4.5.3}
-\contentsline {section}{\numberline {4.6}Event Selection, Object Reconstruction, and Further Corrections}{94}{section.4.6}
-\contentsline {subsection}{\numberline {4.6.1}Muons}{94}{subsection.4.6.1}
-\contentsline {subsection}{\numberline {4.6.2}Jets and MET}{95}{subsection.4.6.2}
-\contentsline {subsection}{\numberline {4.6.3}Pile-Up Reweighting}{96}{subsection.4.6.3}
-\contentsline {subsection}{\numberline {4.6.4}Muon Efficiency Scale Factors}{96}{subsection.4.6.4}
-\contentsline {subsection}{\numberline {4.6.5}Jet, MET, and B-Tagging Corrections}{97}{subsection.4.6.5}
-\contentsline {subsection}{\numberline {4.6.6}Event Selection}{97}{subsection.4.6.6}
-\contentsline {section}{\numberline {4.7}Maximizing the Sensitivity}{98}{section.4.7}
-\contentsline {section}{\numberline {4.8}Modeling the Signal}{98}{section.4.8}
-\contentsline {section}{\numberline {4.9}Modeling the Background}{98}{section.4.9}
-\contentsline {section}{\numberline {4.10}Systematic Uncertainties}{98}{section.4.10}
-\contentsline {subsection}{\numberline {4.10.1}Signal}{98}{subsection.4.10.1}
-\contentsline {subsection}{\numberline {4.10.2}Background}{98}{subsection.4.10.2}
-\contentsline {section}{\numberline {4.11}Results}{98}{section.4.11}
+\contentsline {subsection}{\numberline {4.5.2}Data-MC agreement in scale, resolution}{91}{subsection.4.5.2}
+\contentsline {subsection}{\numberline {4.5.3}Derivation of systematic uncertainties}{100}{subsection.4.5.3}
+\contentsline {section}{\numberline {4.6}Event Selection, Object Reconstruction, and Further Corrections}{100}{section.4.6}
+\contentsline {subsection}{\numberline {4.6.1}Muons}{101}{subsection.4.6.1}
+\contentsline {subsection}{\numberline {4.6.2}Jets and MET}{101}{subsection.4.6.2}
+\contentsline {subsection}{\numberline {4.6.3}Pile-Up Reweighting}{102}{subsection.4.6.3}
+\contentsline {subsection}{\numberline {4.6.4}Muon Efficiency Scale Factors}{102}{subsection.4.6.4}
+\contentsline {subsection}{\numberline {4.6.5}Jet, MET, and B-Tagging Corrections}{103}{subsection.4.6.5}
+\contentsline {subsection}{\numberline {4.6.6}Event Selection}{104}{subsection.4.6.6}
+\contentsline {section}{\numberline {4.7}Maximizing the Sensitivity}{104}{section.4.7}
+\contentsline {section}{\numberline {4.8}Modeling the Signal}{104}{section.4.8}
+\contentsline {section}{\numberline {4.9}Modeling the Background}{104}{section.4.9}
+\contentsline {section}{\numberline {4.10}Systematic Uncertainties}{104}{section.4.10}
+\contentsline {subsection}{\numberline {4.10.1}Signal}{104}{subsection.4.10.1}
+\contentsline {subsection}{\numberline {4.10.2}Background}{104}{subsection.4.10.2}
+\contentsline {section}{\numberline {4.11}Results}{104}{section.4.11}
 \addvspace {10pt}\noindent {APPENDIX} \hfill \par 
-\contentsline {chapter}{\numberline {A}\uppercase {THIS IS THE FIRST APPENDIX}}{104}{appendix.A}
-\contentsline {chapter}{\numberline {B}\uppercase {AN EXAMPLE OF A HALF TITLE PAGE}}{105}{appendix.B}
-\contentsline {chapter}{\numberline {C}\uppercase {DERIVATION OF THE $\Upsilon $ FUNCTION}}{109}{appendix.C}
-\contentsline {chapter}{\numberline {D}\uppercase {DERIVATION OF THE $\Upsilon $ FUNCTION}}{113}{appendix.D}
-\contentsline {extrachapter}{REFERENCES}{117}{appendix*.6}
-\contentsline {extrachapter}{BIOGRAPHICAL SKETCH}{118}{appendix*.7}
+\contentsline {chapter}{\numberline {A}\uppercase {THIS IS THE FIRST APPENDIX}}{105}{appendix.A}
+\contentsline {chapter}{\numberline {B}\uppercase {AN EXAMPLE OF A HALF TITLE PAGE}}{106}{appendix.B}
+\contentsline {chapter}{\numberline {C}\uppercase {DERIVATION OF THE $\Upsilon $ FUNCTION}}{110}{appendix.C}
+\contentsline {chapter}{\numberline {D}\uppercase {DERIVATION OF THE $\Upsilon $ FUNCTION}}{114}{appendix.D}
+\contentsline {extrachapter}{REFERENCES}{118}{appendix*.6}
+\contentsline {extrachapter}{BIOGRAPHICAL SKETCH}{119}{appendix*.7}
