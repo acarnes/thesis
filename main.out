@@ -43,21 +43,25 @@
 \BOOKMARK [1][-]{section.4.5}{4.5 Event Selection, Object Reconstruction, and Corrections}{chapter.4}% 43
 \BOOKMARK [2][-]{subsection.4.5.1}{4.5.1 Muons}{section.4.5}% 44
 \BOOKMARK [2][-]{subsection.4.5.2}{4.5.2 Jets}{section.4.5}% 45
-\BOOKMARK [2][-]{subsection.4.5.3}{4.5.3 Bottom Quarks}{section.4.5}% 46
-\BOOKMARK [2][-]{subsection.4.5.4}{4.5.4 Event Selection}{section.4.5}% 47
-\BOOKMARK [2][-]{subsection.4.5.5}{4.5.5 Jet Corrections and MET}{section.4.5}% 48
-\BOOKMARK [2][-]{subsection.4.5.6}{4.5.6 Monte Carlo Corrections}{section.4.5}% 49
-\BOOKMARK [1][-]{section.4.6}{4.6 Muon Momentum Calibration}{chapter.4}% 50
-\BOOKMARK [1][-]{section.4.7}{4.7 Maximizing the Sensitivity}{chapter.4}% 51
-\BOOKMARK [1][-]{section.4.8}{4.8 Modeling the Signal}{chapter.4}% 52
-\BOOKMARK [1][-]{section.4.9}{4.9 Modeling the Background}{chapter.4}% 53
-\BOOKMARK [1][-]{section.4.10}{4.10 Systematic Uncertainties}{chapter.4}% 54
-\BOOKMARK [2][-]{subsection.4.10.1}{4.10.1 Signal}{section.4.10}% 55
-\BOOKMARK [2][-]{subsection.4.10.2}{4.10.2 Background}{section.4.10}% 56
-\BOOKMARK [1][-]{section.4.11}{4.11 Results}{chapter.4}% 57
-\BOOKMARK [0][-]{appendix.A}{A THIS IS THE FIRST APPENDIX}{}% 58
-\BOOKMARK [0][-]{appendix.B}{B AN EXAMPLE OF A HALF TITLE PAGE}{}% 59
-\BOOKMARK [0][-]{appendix.C}{C DERIVATION OF THE \040FUNCTION}{}% 60
-\BOOKMARK [0][-]{appendix.D}{D DERIVATION OF THE \040FUNCTION}{}% 61
-\BOOKMARK [0][-]{appendix*.6}{REFERENCES}{}% 62
-\BOOKMARK [0][-]{appendix*.7}{BIOGRAPHICAL SKETCH}{}% 63
+\BOOKMARK [2][-]{subsection.4.5.3}{4.5.3 Corrections}{section.4.5}% 46
+\BOOKMARK [3][-]{subsubsection.4.5.3.1}{4.5.3.1 Pile-Up}{subsection.4.5.3}% 47
+\BOOKMARK [3][-]{subsubsection.4.5.3.2}{4.5.3.2 Muon Efficiency}{subsection.4.5.3}% 48
+\BOOKMARK [3][-]{subsubsection.4.5.3.3}{4.5.3.3 Jet and MET}{subsection.4.5.3}% 49
+\BOOKMARK [3][-]{subsubsection.4.5.3.4}{4.5.3.4 Bottom Quark ID Efficiency}{subsection.4.5.3}% 50
+\BOOKMARK [2][-]{subsection.4.5.4}{4.5.4 Event Selection}{section.4.5}% 51
+\BOOKMARK [2][-]{subsection.4.5.5}{4.5.5 Jet Corrections and MET}{section.4.5}% 52
+\BOOKMARK [2][-]{subsection.4.5.6}{4.5.6 Monte Carlo Corrections}{section.4.5}% 53
+\BOOKMARK [1][-]{section.4.6}{4.6 Muon Momentum Calibration}{chapter.4}% 54
+\BOOKMARK [1][-]{section.4.7}{4.7 Maximizing the Sensitivity}{chapter.4}% 55
+\BOOKMARK [1][-]{section.4.8}{4.8 Modeling the Signal}{chapter.4}% 56
+\BOOKMARK [1][-]{section.4.9}{4.9 Modeling the Background}{chapter.4}% 57
+\BOOKMARK [1][-]{section.4.10}{4.10 Systematic Uncertainties}{chapter.4}% 58
+\BOOKMARK [2][-]{subsection.4.10.1}{4.10.1 Signal}{section.4.10}% 59
+\BOOKMARK [2][-]{subsection.4.10.2}{4.10.2 Background}{section.4.10}% 60
+\BOOKMARK [1][-]{section.4.11}{4.11 Results}{chapter.4}% 61
+\BOOKMARK [0][-]{appendix.A}{A THIS IS THE FIRST APPENDIX}{}% 62
+\BOOKMARK [0][-]{appendix.B}{B AN EXAMPLE OF A HALF TITLE PAGE}{}% 63
+\BOOKMARK [0][-]{appendix.C}{C DERIVATION OF THE \040FUNCTION}{}% 64
+\BOOKMARK [0][-]{appendix.D}{D DERIVATION OF THE \040FUNCTION}{}% 65
+\BOOKMARK [0][-]{appendix*.6}{REFERENCES}{}% 66
+\BOOKMARK [0][-]{appendix*.7}{BIOGRAPHICAL SKETCH}{}% 67
