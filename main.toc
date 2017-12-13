@@ -1,65 +1,67 @@
 \contentsline {extrachapter}{ACKNOWLEDGMENTS}{3}{chapter*.1}
 \contentsline {extrachapter}{LIST OF TABLES}{6}{chapter*.3}
 \contentsline {extrachapter}{LIST OF FIGURES}{7}{chapter*.4}
-\contentsline {extrachapter}{ABSTRACT}{9}{section*.5}
+\contentsline {extrachapter}{ABSTRACT}{10}{section*.5}
 \addvspace {10pt}\noindent {CHAPTER}\hfill \par 
-\contentsline {chapter}{\numberline {1}\uppercase {INTRODUCTION}}{10}{chapter.1}
-\contentsline {chapter}{\numberline {2}\uppercase {THE LARGE HADRON COLLIDER AND THE CMS EXPERIMENT}}{12}{chapter.2}
-\contentsline {section}{\numberline {2.1}Large Hadron Collider}{12}{section.2.1}
-\contentsline {section}{\numberline {2.2}Compact Muon Solenoid Detector}{14}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Silicon Tracker}{15}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}Calorimeters}{16}{subsection.2.2.2}
-\contentsline {subsection}{\numberline {2.2.3}Muon System}{18}{subsection.2.2.3}
-\contentsline {subsubsection}{\numberline {2.2.3.1}Drift Tubes}{20}{subsubsection.2.2.3.1}
-\contentsline {subsubsection}{\numberline {2.2.3.2}Cathode Strip Chambers}{20}{subsubsection.2.2.3.2}
-\contentsline {subsubsection}{\numberline {2.2.3.3}Resistive Plate Chambers}{21}{subsubsection.2.2.3.3}
-\contentsline {subsection}{\numberline {2.2.4}Trigger System}{21}{subsection.2.2.4}
-\contentsline {subsubsection}{\numberline {2.2.4.1}L1 Trigger}{22}{subsubsection.2.2.4.1}
-\contentsline {chapter}{\numberline {3}\uppercase {THE STANDARD MODEL}}{24}{chapter.3}
-\contentsline {section}{\numberline {3.1}Quantum Field Theory}{26}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Particles, Symmetries, and Labels}{27}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}The Lagrangian Formalism}{27}{subsection.3.1.2}
-\contentsline {subsection}{\numberline {3.1.3}QFT From Symmetry}{32}{subsection.3.1.3}
-\contentsline {subsubsection}{\numberline {3.1.3.1}Rotations}{32}{subsubsection.3.1.3.1}
-\contentsline {subsubsection}{\numberline {3.1.3.2}The Lorentz Group}{36}{subsubsection.3.1.3.2}
-\contentsline {subsubsection}{\numberline {3.1.3.3}The Poincare Group and Particle Labels}{43}{subsubsection.3.1.3.3}
-\contentsline {subsubsection}{\numberline {3.1.3.4}Building the Lagrangian for a Free Scalar Particle}{44}{subsubsection.3.1.3.4}
-\contentsline {subsubsection}{\numberline {3.1.3.5}Building the Lagrangian for a Free Spin $\frac {1}{2}$ Particle}{46}{subsubsection.3.1.3.5}
-\contentsline {subsubsection}{\numberline {3.1.3.6}Building the Lagrangian for a Free Spin 1 Particle}{51}{subsubsection.3.1.3.6}
-\contentsline {subsection}{\numberline {3.1.4}Lagrangians in Quantum Mechanics and QFT}{52}{subsection.3.1.4}
-\contentsline {subsection}{\numberline {3.1.5}Perturbation Theory and Feynman Rules}{54}{subsection.3.1.5}
-\contentsline {subsection}{\numberline {3.1.6}Interactions}{61}{subsection.3.1.6}
-\contentsline {subsection}{\numberline {3.1.7}The Higgs Mechanism}{64}{subsection.3.1.7}
-\contentsline {section}{\numberline {3.2}The Standard Model Higgs and the LHC}{69}{section.3.2}
-\contentsline {chapter}{\numberline {4}\uppercase {THE SEARCH FOR $H\rightarrow \mu ^+\mu ^-$}}{74}{chapter.4}
-\contentsline {section}{\numberline {4.1}Discovery, Limits, and Measurement, and Sensitivity}{74}{section.4.1}
-\contentsline {section}{\numberline {4.2}The Analysis Strategy}{79}{section.4.2}
-\contentsline {section}{\numberline {4.3}Improving the Level-1 Muon Trigger}{80}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Metrics of Success}{81}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}The EMTF Regression Project}{82}{subsection.4.3.2}
-\contentsline {subsection}{\numberline {4.3.3}Putting the BDTs into a Look-up Table}{84}{subsection.4.3.3}
-\contentsline {subsection}{\numberline {4.3.4}Results and Conclusions}{85}{subsection.4.3.4}
-\contentsline {section}{\numberline {4.4}Data and Monte Carlo Samples}{85}{section.4.4}
-\contentsline {section}{\numberline {4.5}Event Selection, Object Reconstruction, and Corrections}{89}{section.4.5}
-\contentsline {subsection}{\numberline {4.5.1}Muons}{89}{subsection.4.5.1}
-\contentsline {subsection}{\numberline {4.5.2}Jets}{89}{subsection.4.5.2}
-\contentsline {subsection}{\numberline {4.5.3}Corrections}{90}{subsection.4.5.3}
-\contentsline {subsubsection}{\numberline {4.5.3.1}Pile-Up Reweighting}{90}{subsubsection.4.5.3.1}
-\contentsline {subsubsection}{\numberline {4.5.3.2}Muon Efficiency Scale Factors}{91}{subsubsection.4.5.3.2}
-\contentsline {subsubsection}{\numberline {4.5.3.3}Jet, MET, and B-Tagging Corrections}{91}{subsubsection.4.5.3.3}
-\contentsline {subsection}{\numberline {4.5.4}Event Selection}{92}{subsection.4.5.4}
-\contentsline {section}{\numberline {4.6}Muon Momentum Calibration}{93}{section.4.6}
-\contentsline {section}{\numberline {4.7}Maximizing the Sensitivity}{93}{section.4.7}
-\contentsline {section}{\numberline {4.8}Modeling the Signal}{93}{section.4.8}
-\contentsline {section}{\numberline {4.9}Modeling the Background}{93}{section.4.9}
-\contentsline {section}{\numberline {4.10}Systematic Uncertainties}{93}{section.4.10}
-\contentsline {subsection}{\numberline {4.10.1}Signal}{93}{subsection.4.10.1}
-\contentsline {subsection}{\numberline {4.10.2}Background}{93}{subsection.4.10.2}
-\contentsline {section}{\numberline {4.11}Results}{93}{section.4.11}
+\contentsline {chapter}{\numberline {1}\uppercase {INTRODUCTION}}{11}{chapter.1}
+\contentsline {chapter}{\numberline {2}\uppercase {THE LARGE HADRON COLLIDER AND THE CMS EXPERIMENT}}{13}{chapter.2}
+\contentsline {section}{\numberline {2.1}Large Hadron Collider}{13}{section.2.1}
+\contentsline {section}{\numberline {2.2}Compact Muon Solenoid Detector}{15}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Silicon Tracker}{16}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Calorimeters}{17}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}Muon System}{19}{subsection.2.2.3}
+\contentsline {subsubsection}{\numberline {2.2.3.1}Drift Tubes}{21}{subsubsection.2.2.3.1}
+\contentsline {subsubsection}{\numberline {2.2.3.2}Cathode Strip Chambers}{21}{subsubsection.2.2.3.2}
+\contentsline {subsubsection}{\numberline {2.2.3.3}Resistive Plate Chambers}{22}{subsubsection.2.2.3.3}
+\contentsline {subsection}{\numberline {2.2.4}Trigger System}{22}{subsection.2.2.4}
+\contentsline {subsubsection}{\numberline {2.2.4.1}L1 Trigger}{23}{subsubsection.2.2.4.1}
+\contentsline {chapter}{\numberline {3}\uppercase {THE STANDARD MODEL}}{25}{chapter.3}
+\contentsline {section}{\numberline {3.1}Quantum Field Theory}{27}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Particles, Symmetries, and Labels}{28}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}The Lagrangian Formalism}{28}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.3}QFT From Symmetry}{33}{subsection.3.1.3}
+\contentsline {subsubsection}{\numberline {3.1.3.1}Rotations}{33}{subsubsection.3.1.3.1}
+\contentsline {subsubsection}{\numberline {3.1.3.2}The Lorentz Group}{37}{subsubsection.3.1.3.2}
+\contentsline {subsubsection}{\numberline {3.1.3.3}The Poincare Group and Particle Labels}{44}{subsubsection.3.1.3.3}
+\contentsline {subsubsection}{\numberline {3.1.3.4}Building the Lagrangian for a Free Scalar Particle}{45}{subsubsection.3.1.3.4}
+\contentsline {subsubsection}{\numberline {3.1.3.5}Building the Lagrangian for a Free Spin $\frac {1}{2}$ Particle}{47}{subsubsection.3.1.3.5}
+\contentsline {subsubsection}{\numberline {3.1.3.6}Building the Lagrangian for a Free Spin 1 Particle}{52}{subsubsection.3.1.3.6}
+\contentsline {subsection}{\numberline {3.1.4}Lagrangians in Quantum Mechanics and QFT}{53}{subsection.3.1.4}
+\contentsline {subsection}{\numberline {3.1.5}Perturbation Theory and Feynman Rules}{55}{subsection.3.1.5}
+\contentsline {subsection}{\numberline {3.1.6}Interactions}{62}{subsection.3.1.6}
+\contentsline {subsection}{\numberline {3.1.7}The Higgs Mechanism}{65}{subsection.3.1.7}
+\contentsline {section}{\numberline {3.2}The Standard Model Higgs and the LHC}{70}{section.3.2}
+\contentsline {chapter}{\numberline {4}\uppercase {THE SEARCH FOR $H\rightarrow \mu ^+\mu ^-$}}{75}{chapter.4}
+\contentsline {section}{\numberline {4.1}Discovery, Limits, and Measurement, and Sensitivity}{75}{section.4.1}
+\contentsline {section}{\numberline {4.2}The Analysis Strategy}{80}{section.4.2}
+\contentsline {section}{\numberline {4.3}Improving the Level-1 Muon Trigger}{81}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Metrics of Success}{82}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}The EMTF Regression Project}{83}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}Putting the BDTs into a Look-up Table}{85}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.3.4}Results and Conclusions}{86}{subsection.4.3.4}
+\contentsline {section}{\numberline {4.4}Data and Monte Carlo Samples}{86}{section.4.4}
+\contentsline {section}{\numberline {4.5}Muon Momentum Calibration}{90}{section.4.5}
+\contentsline {subsection}{\numberline {4.5.1}Muon Corrections in Data}{91}{subsection.4.5.1}
+\contentsline {subsection}{\numberline {4.5.2}Data-MC agreement in scale, resolution}{92}{subsection.4.5.2}
+\contentsline {subsection}{\numberline {4.5.3}Derivation of systematic uncertainties}{93}{subsection.4.5.3}
+\contentsline {section}{\numberline {4.6}Event Selection, Object Reconstruction, and Further Corrections}{94}{section.4.6}
+\contentsline {subsection}{\numberline {4.6.1}Muons}{94}{subsection.4.6.1}
+\contentsline {subsection}{\numberline {4.6.2}Jets and MET}{95}{subsection.4.6.2}
+\contentsline {subsection}{\numberline {4.6.3}Pile-Up Reweighting}{96}{subsection.4.6.3}
+\contentsline {subsection}{\numberline {4.6.4}Muon Efficiency Scale Factors}{96}{subsection.4.6.4}
+\contentsline {subsection}{\numberline {4.6.5}Jet, MET, and B-Tagging Corrections}{97}{subsection.4.6.5}
+\contentsline {subsection}{\numberline {4.6.6}Event Selection}{97}{subsection.4.6.6}
+\contentsline {section}{\numberline {4.7}Maximizing the Sensitivity}{98}{section.4.7}
+\contentsline {section}{\numberline {4.8}Modeling the Signal}{98}{section.4.8}
+\contentsline {section}{\numberline {4.9}Modeling the Background}{98}{section.4.9}
+\contentsline {section}{\numberline {4.10}Systematic Uncertainties}{98}{section.4.10}
+\contentsline {subsection}{\numberline {4.10.1}Signal}{98}{subsection.4.10.1}
+\contentsline {subsection}{\numberline {4.10.2}Background}{98}{subsection.4.10.2}
+\contentsline {section}{\numberline {4.11}Results}{98}{section.4.11}
 \addvspace {10pt}\noindent {APPENDIX} \hfill \par 
-\contentsline {chapter}{\numberline {A}\uppercase {THIS IS THE FIRST APPENDIX}}{94}{appendix.A}
-\contentsline {chapter}{\numberline {B}\uppercase {AN EXAMPLE OF A HALF TITLE PAGE}}{95}{appendix.B}
-\contentsline {chapter}{\numberline {C}\uppercase {DERIVATION OF THE $\Upsilon $ FUNCTION}}{99}{appendix.C}
-\contentsline {chapter}{\numberline {D}\uppercase {DERIVATION OF THE $\Upsilon $ FUNCTION}}{103}{appendix.D}
-\contentsline {extrachapter}{REFERENCES}{107}{appendix*.6}
-\contentsline {extrachapter}{BIOGRAPHICAL SKETCH}{108}{appendix*.7}
+\contentsline {chapter}{\numberline {A}\uppercase {THIS IS THE FIRST APPENDIX}}{104}{appendix.A}
+\contentsline {chapter}{\numberline {B}\uppercase {AN EXAMPLE OF A HALF TITLE PAGE}}{105}{appendix.B}
+\contentsline {chapter}{\numberline {C}\uppercase {DERIVATION OF THE $\Upsilon $ FUNCTION}}{109}{appendix.C}
+\contentsline {chapter}{\numberline {D}\uppercase {DERIVATION OF THE $\Upsilon $ FUNCTION}}{113}{appendix.D}
+\contentsline {extrachapter}{REFERENCES}{117}{appendix*.6}
+\contentsline {extrachapter}{BIOGRAPHICAL SKETCH}{118}{appendix*.7}
