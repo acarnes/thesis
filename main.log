@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2017.8.22)  13 DEC 2017 22:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2017.8.22)  14 DEC 2017 07:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1393,183 +1393,183 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 ] [75] [76] [77] [78] [79]
 
 Package natbib Warning: Citation `Khachatryan:2016bia' on page 80 undefined on 
-input line 96.
-
-
-Package natbib Warning: Citation `Tapper:1556311' on page 80 undefined on input
- line 98.
+input line 104.
 
 [80]
 
+Package natbib Warning: Citation `Tapper:1556311' on page 81 undefined on input
+ line 106.
+
+
 Package natbib Warning: Citation `Hocker:2007ht' on page 81 undefined on input 
-line 100.
+line 108.
 
 [81] [82] [83]
-Overfull \hbox (9.13716pt too wide) in paragraph at lines 129--135
+Overfull \hbox (9.13716pt too wide) in paragraph at lines 137--143
 [][] 
  []
 
-[84] <images/emtf_rate_reduction.png, id=1104, 598.235pt x 574.145pt>
+<images/emtf_rate_reduction.png, id=1103, 598.235pt x 574.145pt>
 File: images/emtf_rate_reduction.png Graphic file (type png)
 
 <use images/emtf_rate_reduction.png>
-Package pdftex.def Info: images/emtf_rate_reduction.png used on input line 192.
+Package pdftex.def Info: images/emtf_rate_reduction.png used on input line 200.
 
 (pdftex.def)             Requested size: 180.67499pt x 173.40125pt.
 
-<images/emtf_efficiency.png, id=1105, 598.235pt x 574.145pt>
+<images/emtf_efficiency.png, id=1104, 598.235pt x 574.145pt>
 File: images/emtf_efficiency.png Graphic file (type png)
 
 <use images/emtf_efficiency.png>
-Package pdftex.def Info: images/emtf_efficiency.png used on input line 193.
+Package pdftex.def Info: images/emtf_efficiency.png used on input line 201.
 (pdftex.def)             Requested size: 180.67499pt x 173.40125pt.
 
 
-Package natbib Warning: Citation `CMS-DP-2017-041' on page 85 undefined on inpu
-t line 195.
-
-File: images/higgs_production_modes.png Graphic file (type png)
-<use images/higgs_production_modes.png>
-Package pdftex.def Info: images/higgs_production_modes.png used on input line 2
-06.
-(pdftex.def)             Requested size: 289.07999pt x 213.95113pt.
+Package natbib Warning: Citation `CMS-DP-2017-041' on page 84 undefined on inpu
+t line 203.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+[84] [85 <./images/emtf_rate_reduction.png> <./images/emtf_efficiency.png>]
+File: images/higgs_production_modes.png Graphic file (type png)
 
-Overfull \hbox (26.11006pt too wide) in paragraph at lines 217--236
+<use images/higgs_production_modes.png>
+Package pdftex.def Info: images/higgs_production_modes.png used on input line 2
+14.
+(pdftex.def)             Requested size: 289.07999pt x 213.95113pt.
+
+Overfull \hbox (26.11006pt too wide) in paragraph at lines 225--244
 [][] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[85 <./images/emtf_rate_reduction.png> <./images/emtf_efficiency.png>] [86]
-[87] [88]
-<images/muon_calib/voigt_fit_z_example_w_fit.png, id=1170, 784.9325pt x 697.606
+[86] [87] [88] [89]
+<images/muon_calib/voigt_fit_z_example_w_fit.png, id=1177, 784.9325pt x 697.606
 25pt>
 File: images/muon_calib/voigt_fit_z_example_w_fit.png Graphic file (type png)
  <use images/muon_calib/voigt_fit_z_example_w_fit.png>
 Package pdftex.def Info: images/muon_calib/voigt_fit_z_example_w_fit.png used o
-n input line 346.
+n input line 354.
 (pdftex.def)             Requested size: 257.95143pt x 229.25275pt.
- [89
+ [90
 
 
 
 
  <./images/muon_calib/voigt_fit_z_example_w_fit.png>]
-<images/muon_calib/zcal_data_mean_phi_plus.png, id=1176, 698.61pt x 473.77pt>
+<images/muon_calib/zcal_data_mean_phi_plus.png, id=1183, 698.61pt x 473.77pt>
 File: images/muon_calib/zcal_data_mean_phi_plus.png Graphic file (type png)
 
 <use images/muon_calib/zcal_data_mean_phi_plus.png>
 Package pdftex.def Info: images/muon_calib/zcal_data_mean_phi_plus.png used on 
-input line 359.
+input line 367.
 (pdftex.def)             Requested size: 150.08344pt x 101.77904pt.
 
-<images/muon_calib/zcal_data_mean_phi_minus.png, id=1177, 698.61pt x 473.77pt>
+<images/muon_calib/zcal_data_mean_phi_minus.png, id=1184, 698.61pt x 473.77pt>
 File: images/muon_calib/zcal_data_mean_phi_minus.png Graphic file (type png)
 
 <use images/muon_calib/zcal_data_mean_phi_minus.png>
 Package pdftex.def Info: images/muon_calib/zcal_data_mean_phi_minus.png used on
- input line 360.
+ input line 368.
 (pdftex.def)             Requested size: 150.08344pt x 101.77904pt.
 
-<images/muon_calib/zcal_data_mean_eta_plus.png, id=1178, 698.61pt x 473.77pt>
+<images/muon_calib/zcal_data_mean_eta_plus.png, id=1185, 698.61pt x 473.77pt>
 File: images/muon_calib/zcal_data_mean_eta_plus.png Graphic file (type png)
 
 <use images/muon_calib/zcal_data_mean_eta_plus.png>
 Package pdftex.def Info: images/muon_calib/zcal_data_mean_eta_plus.png used on 
-input line 361.
+input line 369.
 (pdftex.def)             Requested size: 150.08344pt x 101.77904pt.
 
-<images/muon_calib/zcal_data_mean_eta_minus.png, id=1179, 698.61pt x 473.77pt>
+<images/muon_calib/zcal_data_mean_eta_minus.png, id=1186, 698.61pt x 473.77pt>
 File: images/muon_calib/zcal_data_mean_eta_minus.png Graphic file (type png)
 
 <use images/muon_calib/zcal_data_mean_eta_minus.png>
 Package pdftex.def Info: images/muon_calib/zcal_data_mean_eta_minus.png used on
- input line 362.
+ input line 370.
 (pdftex.def)             Requested size: 150.08344pt x 101.77904pt.
 
-<images/muon_calib/zcal_data_mean_pt_plus.png, id=1180, 698.61pt x 473.77pt>
+<images/muon_calib/zcal_data_mean_pt_plus.png, id=1187, 698.61pt x 473.77pt>
 File: images/muon_calib/zcal_data_mean_pt_plus.png Graphic file (type png)
 
 <use images/muon_calib/zcal_data_mean_pt_plus.png>
 Package pdftex.def Info: images/muon_calib/zcal_data_mean_pt_plus.png used on i
-nput line 363.
+nput line 371.
 (pdftex.def)             Requested size: 150.08344pt x 101.77904pt.
 
-<images/muon_calib/zcal_data_mean_pt_minus.png, id=1181, 698.61pt x 473.77pt>
+<images/muon_calib/zcal_data_mean_pt_minus.png, id=1188, 698.61pt x 473.77pt>
 File: images/muon_calib/zcal_data_mean_pt_minus.png Graphic file (type png)
 
 <use images/muon_calib/zcal_data_mean_pt_minus.png>
 Package pdftex.def Info: images/muon_calib/zcal_data_mean_pt_minus.png used on 
-input line 364.
+input line 372.
 (pdftex.def)             Requested size: 150.08344pt x 101.77904pt.
 
-<images/muon_calib/zcal_data_mean_dimu_pt.png, id=1182, 698.61pt x 473.77pt>
+<images/muon_calib/zcal_data_mean_dimu_pt.png, id=1189, 698.61pt x 473.77pt>
 File: images/muon_calib/zcal_data_mean_dimu_pt.png Graphic file (type png)
 
 <use images/muon_calib/zcal_data_mean_dimu_pt.png>
 Package pdftex.def Info: images/muon_calib/zcal_data_mean_dimu_pt.png used on i
-nput line 365.
+nput line 373.
 (pdftex.def)             Requested size: 150.08344pt x 101.77904pt.
 
-<images/muon_calib/zcal_data_res_phi_plus.png, id=1185, 698.61pt x 473.77pt>
+<images/muon_calib/zcal_data_res_phi_plus.png, id=1192, 698.61pt x 473.77pt>
 File: images/muon_calib/zcal_data_res_phi_plus.png Graphic file (type png)
 
 <use images/muon_calib/zcal_data_res_phi_plus.png>
 Package pdftex.def Info: images/muon_calib/zcal_data_res_phi_plus.png used on i
-nput line 373.
+nput line 381.
 (pdftex.def)             Requested size: 150.08344pt x 101.77904pt.
 
-<images/muon_calib/zcal_data_res_phi_minus.png, id=1186, 698.61pt x 473.77pt>
+<images/muon_calib/zcal_data_res_phi_minus.png, id=1193, 698.61pt x 473.77pt>
 File: images/muon_calib/zcal_data_res_phi_minus.png Graphic file (type png)
 
 <use images/muon_calib/zcal_data_res_phi_minus.png>
 Package pdftex.def Info: images/muon_calib/zcal_data_res_phi_minus.png used on 
-input line 374.
+input line 382.
 (pdftex.def)             Requested size: 150.08344pt x 101.77904pt.
 
-<images/muon_calib/zcal_data_res_eta_plus.png, id=1187, 698.61pt x 473.77pt>
+<images/muon_calib/zcal_data_res_eta_plus.png, id=1194, 698.61pt x 473.77pt>
 File: images/muon_calib/zcal_data_res_eta_plus.png Graphic file (type png)
 
 <use images/muon_calib/zcal_data_res_eta_plus.png>
 Package pdftex.def Info: images/muon_calib/zcal_data_res_eta_plus.png used on i
-nput line 375.
+nput line 383.
 (pdftex.def)             Requested size: 150.08344pt x 101.77904pt.
 
-<images/muon_calib/zcal_data_res_eta_minus.png, id=1188, 698.61pt x 473.77pt>
+<images/muon_calib/zcal_data_res_eta_minus.png, id=1195, 698.61pt x 473.77pt>
 File: images/muon_calib/zcal_data_res_eta_minus.png Graphic file (type png)
 
 <use images/muon_calib/zcal_data_res_eta_minus.png>
 Package pdftex.def Info: images/muon_calib/zcal_data_res_eta_minus.png used on 
-input line 376.
+input line 384.
 (pdftex.def)             Requested size: 150.08344pt x 101.77904pt.
 
-<images/muon_calib/zcal_data_res_pt_plus.png, id=1189, 698.61pt x 473.77pt>
+<images/muon_calib/zcal_data_res_pt_plus.png, id=1196, 698.61pt x 473.77pt>
 File: images/muon_calib/zcal_data_res_pt_plus.png Graphic file (type png)
 
 <use images/muon_calib/zcal_data_res_pt_plus.png>
 Package pdftex.def Info: images/muon_calib/zcal_data_res_pt_plus.png used on in
-put line 377.
+put line 385.
 (pdftex.def)             Requested size: 150.08344pt x 101.77904pt.
 
-<images/muon_calib/zcal_data_res_pt_minus.png, id=1190, 698.61pt x 473.77pt>
+<images/muon_calib/zcal_data_res_pt_minus.png, id=1197, 698.61pt x 473.77pt>
 File: images/muon_calib/zcal_data_res_pt_minus.png Graphic file (type png)
 
 <use images/muon_calib/zcal_data_res_pt_minus.png>
 Package pdftex.def Info: images/muon_calib/zcal_data_res_pt_minus.png used on i
-nput line 378.
+nput line 386.
 (pdftex.def)             Requested size: 150.08344pt x 101.77904pt.
 
-<images/muon_calib/zcal_data_res_dimu_pt.png, id=1191, 698.61pt x 473.77pt>
+<images/muon_calib/zcal_data_res_dimu_pt.png, id=1198, 698.61pt x 473.77pt>
 File: images/muon_calib/zcal_data_res_dimu_pt.png Graphic file (type png)
 
 <use images/muon_calib/zcal_data_res_dimu_pt.png>
 Package pdftex.def Info: images/muon_calib/zcal_data_res_dimu_pt.png used on in
-put line 379.
+put line 387.
 (pdftex.def)             Requested size: 150.08344pt x 101.77904pt.
 
 
@@ -1579,394 +1579,394 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-<images/muon_calib/zcal_pf_mc-data_mean_phi_plus.png, id=1195, 698.61pt x 473.7
+<images/muon_calib/zcal_pf_mc-data_mean_phi_plus.png, id=1202, 698.61pt x 473.7
 7pt>
 File: images/muon_calib/zcal_pf_mc-data_mean_phi_plus.png Graphic file (type pn
 g)
  <use images/muon_calib/zcal_pf_mc-data_mean_phi_plus.png>
 Package pdftex.def Info: images/muon_calib/zcal_pf_mc-data_mean_phi_plus.png us
-ed on input line 391.
+ed on input line 399.
 (pdftex.def)             Requested size: 150.08344pt x 101.77904pt.
 
-<images/muon_calib/zcal_pf_mc-data_mean_phi_minus.png, id=1196, 698.61pt x 473.
+<images/muon_calib/zcal_pf_mc-data_mean_phi_minus.png, id=1203, 698.61pt x 473.
 77pt>
 File: images/muon_calib/zcal_pf_mc-data_mean_phi_minus.png Graphic file (type p
 ng)
  <use images/muon_calib/zcal_pf_mc-data_mean_phi_minus.png>
 Package pdftex.def Info: images/muon_calib/zcal_pf_mc-data_mean_phi_minus.png u
-sed on input line 392.
+sed on input line 400.
 (pdftex.def)             Requested size: 150.08344pt x 101.77904pt.
 
-<images/muon_calib/zcal_pf_mc-data_mean_eta_plus.png, id=1197, 698.61pt x 473.7
+<images/muon_calib/zcal_pf_mc-data_mean_eta_plus.png, id=1204, 698.61pt x 473.7
 7pt>
 File: images/muon_calib/zcal_pf_mc-data_mean_eta_plus.png Graphic file (type pn
 g)
  <use images/muon_calib/zcal_pf_mc-data_mean_eta_plus.png>
 Package pdftex.def Info: images/muon_calib/zcal_pf_mc-data_mean_eta_plus.png us
-ed on input line 393.
+ed on input line 401.
 (pdftex.def)             Requested size: 150.08344pt x 101.77904pt.
 
-<images/muon_calib/zcal_pf_mc-data_mean_eta_minus.png, id=1198, 698.61pt x 473.
+<images/muon_calib/zcal_pf_mc-data_mean_eta_minus.png, id=1205, 698.61pt x 473.
 77pt>
 File: images/muon_calib/zcal_pf_mc-data_mean_eta_minus.png Graphic file (type p
 ng)
  <use images/muon_calib/zcal_pf_mc-data_mean_eta_minus.png>
 Package pdftex.def Info: images/muon_calib/zcal_pf_mc-data_mean_eta_minus.png u
-sed on input line 394.
+sed on input line 402.
 (pdftex.def)             Requested size: 150.08344pt x 101.77904pt.
 
-<images/muon_calib/zcal_pf_mc-data_mean_pt_plus.png, id=1199, 698.61pt x 473.77
+<images/muon_calib/zcal_pf_mc-data_mean_pt_plus.png, id=1206, 698.61pt x 473.77
 pt>
 File: images/muon_calib/zcal_pf_mc-data_mean_pt_plus.png Graphic file (type png
 )
  <use images/muon_calib/zcal_pf_mc-data_mean_pt_plus.png>
 Package pdftex.def Info: images/muon_calib/zcal_pf_mc-data_mean_pt_plus.png use
-d on input line 395.
+d on input line 403.
 (pdftex.def)             Requested size: 150.08344pt x 101.77904pt.
 
-<images/muon_calib/zcal_pf_mc-data_mean_pt_minus.png, id=1200, 698.61pt x 473.7
+<images/muon_calib/zcal_pf_mc-data_mean_pt_minus.png, id=1207, 698.61pt x 473.7
 7pt>
 File: images/muon_calib/zcal_pf_mc-data_mean_pt_minus.png Graphic file (type pn
 g)
  <use images/muon_calib/zcal_pf_mc-data_mean_pt_minus.png>
 Package pdftex.def Info: images/muon_calib/zcal_pf_mc-data_mean_pt_minus.png us
-ed on input line 396.
+ed on input line 404.
 (pdftex.def)             Requested size: 150.08344pt x 101.77904pt.
 
-<images/muon_calib/zcal_pf_mc-data_mean_dimu_pt.png, id=1201, 698.61pt x 473.77
+<images/muon_calib/zcal_pf_mc-data_mean_dimu_pt.png, id=1208, 698.61pt x 473.77
 pt>
 File: images/muon_calib/zcal_pf_mc-data_mean_dimu_pt.png Graphic file (type png
 )
  <use images/muon_calib/zcal_pf_mc-data_mean_dimu_pt.png>
 Package pdftex.def Info: images/muon_calib/zcal_pf_mc-data_mean_dimu_pt.png use
-d on input line 397.
+d on input line 405.
 (pdftex.def)             Requested size: 150.08344pt x 101.77904pt.
- [90]
+ [91]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-<images/muon_calib/zcal_roch_mc-data_mean_phi_plus.png, id=1206, 698.61pt x 473
+<images/muon_calib/zcal_roch_mc-data_mean_phi_plus.png, id=1214, 698.61pt x 473
 .77pt>
 File: images/muon_calib/zcal_roch_mc-data_mean_phi_plus.png Graphic file (type 
 png)
  <use images/muon_calib/zcal_roch_mc-data_mean_phi_plus.png>
 Package pdftex.def Info: images/muon_calib/zcal_roch_mc-data_mean_phi_plus.png 
-used on input line 405.
+used on input line 413.
 (pdftex.def)             Requested size: 150.08344pt x 101.77904pt.
 
-<images/muon_calib/zcal_roch_mc-data_mean_phi_minus.png, id=1207, 698.61pt x 47
+<images/muon_calib/zcal_roch_mc-data_mean_phi_minus.png, id=1215, 698.61pt x 47
 3.77pt>
 File: images/muon_calib/zcal_roch_mc-data_mean_phi_minus.png Graphic file (type
  png)
  <use images/muon_calib/zcal_roch_mc-data_mean_phi_minus.png>
 Package pdftex.def Info: images/muon_calib/zcal_roch_mc-data_mean_phi_minus.png
- used on input line 406.
+ used on input line 414.
 (pdftex.def)             Requested size: 150.08344pt x 101.77904pt.
 
-<images/muon_calib/zcal_roch_mc-data_mean_eta_plus.png, id=1208, 698.61pt x 473
+<images/muon_calib/zcal_roch_mc-data_mean_eta_plus.png, id=1216, 698.61pt x 473
 .77pt>
 File: images/muon_calib/zcal_roch_mc-data_mean_eta_plus.png Graphic file (type 
 png)
  <use images/muon_calib/zcal_roch_mc-data_mean_eta_plus.png>
 Package pdftex.def Info: images/muon_calib/zcal_roch_mc-data_mean_eta_plus.png 
-used on input line 407.
+used on input line 415.
 (pdftex.def)             Requested size: 150.08344pt x 101.77904pt.
 
-<images/muon_calib/zcal_roch_mc-data_mean_eta_minus.png, id=1209, 698.61pt x 47
+<images/muon_calib/zcal_roch_mc-data_mean_eta_minus.png, id=1217, 698.61pt x 47
 3.77pt>
 File: images/muon_calib/zcal_roch_mc-data_mean_eta_minus.png Graphic file (type
  png)
  <use images/muon_calib/zcal_roch_mc-data_mean_eta_minus.png>
 Package pdftex.def Info: images/muon_calib/zcal_roch_mc-data_mean_eta_minus.png
- used on input line 408.
+ used on input line 416.
 (pdftex.def)             Requested size: 150.08344pt x 101.77904pt.
 
-<images/muon_calib/zcal_roch_mc-data_mean_pt_plus.png, id=1210, 698.61pt x 473.
+<images/muon_calib/zcal_roch_mc-data_mean_pt_plus.png, id=1218, 698.61pt x 473.
 77pt>
 File: images/muon_calib/zcal_roch_mc-data_mean_pt_plus.png Graphic file (type p
 ng)
  <use images/muon_calib/zcal_roch_mc-data_mean_pt_plus.png>
 Package pdftex.def Info: images/muon_calib/zcal_roch_mc-data_mean_pt_plus.png u
-sed on input line 409.
+sed on input line 417.
 (pdftex.def)             Requested size: 150.08344pt x 101.77904pt.
 
-<images/muon_calib/zcal_roch_mc-data_mean_pt_minus.png, id=1211, 698.61pt x 473
+<images/muon_calib/zcal_roch_mc-data_mean_pt_minus.png, id=1219, 698.61pt x 473
 .77pt>
 File: images/muon_calib/zcal_roch_mc-data_mean_pt_minus.png Graphic file (type 
 png)
  <use images/muon_calib/zcal_roch_mc-data_mean_pt_minus.png>
 Package pdftex.def Info: images/muon_calib/zcal_roch_mc-data_mean_pt_minus.png 
-used on input line 410.
+used on input line 418.
 (pdftex.def)             Requested size: 150.08344pt x 101.77904pt.
 
-<images/muon_calib/zcal_roch_mc-data_mean_dimu_pt.png, id=1212, 698.61pt x 473.
+<images/muon_calib/zcal_roch_mc-data_mean_dimu_pt.png, id=1220, 698.61pt x 473.
 77pt>
 File: images/muon_calib/zcal_roch_mc-data_mean_dimu_pt.png Graphic file (type p
 ng)
  <use images/muon_calib/zcal_roch_mc-data_mean_dimu_pt.png>
 Package pdftex.def Info: images/muon_calib/zcal_roch_mc-data_mean_dimu_pt.png u
-sed on input line 411.
+sed on input line 419.
 (pdftex.def)             Requested size: 150.08344pt x 101.77904pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-<images/muon_calib/zcal_kamu_mc-data_mean_phi_plus.png, id=1213, 698.61pt x 473
+<images/muon_calib/zcal_kamu_mc-data_mean_phi_plus.png, id=1221, 698.61pt x 473
 .77pt>
 File: images/muon_calib/zcal_kamu_mc-data_mean_phi_plus.png Graphic file (type 
 png)
  <use images/muon_calib/zcal_kamu_mc-data_mean_phi_plus.png>
 Package pdftex.def Info: images/muon_calib/zcal_kamu_mc-data_mean_phi_plus.png 
-used on input line 419.
+used on input line 427.
 (pdftex.def)             Requested size: 150.08344pt x 101.77904pt.
 
-<images/muon_calib/zcal_kamu_mc-data_mean_phi_minus.png, id=1214, 698.61pt x 47
+<images/muon_calib/zcal_kamu_mc-data_mean_phi_minus.png, id=1222, 698.61pt x 47
 3.77pt>
 File: images/muon_calib/zcal_kamu_mc-data_mean_phi_minus.png Graphic file (type
  png)
  <use images/muon_calib/zcal_kamu_mc-data_mean_phi_minus.png>
 Package pdftex.def Info: images/muon_calib/zcal_kamu_mc-data_mean_phi_minus.png
- used on input line 420.
+ used on input line 428.
 (pdftex.def)             Requested size: 150.08344pt x 101.77904pt.
 
-<images/muon_calib/zcal_kamu_mc-data_mean_eta_plus.png, id=1215, 698.61pt x 473
+<images/muon_calib/zcal_kamu_mc-data_mean_eta_plus.png, id=1223, 698.61pt x 473
 .77pt>
 File: images/muon_calib/zcal_kamu_mc-data_mean_eta_plus.png Graphic file (type 
 png)
  <use images/muon_calib/zcal_kamu_mc-data_mean_eta_plus.png>
 Package pdftex.def Info: images/muon_calib/zcal_kamu_mc-data_mean_eta_plus.png 
-used on input line 421.
+used on input line 429.
 (pdftex.def)             Requested size: 150.08344pt x 101.77904pt.
 
-<images/muon_calib/zcal_kamu_mc-data_mean_eta_minus.png, id=1216, 698.61pt x 47
+<images/muon_calib/zcal_kamu_mc-data_mean_eta_minus.png, id=1224, 698.61pt x 47
 3.77pt>
 File: images/muon_calib/zcal_kamu_mc-data_mean_eta_minus.png Graphic file (type
  png)
  <use images/muon_calib/zcal_kamu_mc-data_mean_eta_minus.png>
 Package pdftex.def Info: images/muon_calib/zcal_kamu_mc-data_mean_eta_minus.png
- used on input line 422.
+ used on input line 430.
 (pdftex.def)             Requested size: 150.08344pt x 101.77904pt.
 
-<images/muon_calib/zcal_kamu_mc-data_mean_pt_plus.png, id=1217, 698.61pt x 473.
+<images/muon_calib/zcal_kamu_mc-data_mean_pt_plus.png, id=1225, 698.61pt x 473.
 77pt>
 File: images/muon_calib/zcal_kamu_mc-data_mean_pt_plus.png Graphic file (type p
 ng)
  <use images/muon_calib/zcal_kamu_mc-data_mean_pt_plus.png>
 Package pdftex.def Info: images/muon_calib/zcal_kamu_mc-data_mean_pt_plus.png u
-sed on input line 423.
+sed on input line 431.
 (pdftex.def)             Requested size: 150.08344pt x 101.77904pt.
 
-<images/muon_calib/zcal_kamu_mc-data_mean_pt_minus.png, id=1218, 698.61pt x 473
+<images/muon_calib/zcal_kamu_mc-data_mean_pt_minus.png, id=1226, 698.61pt x 473
 .77pt>
 File: images/muon_calib/zcal_kamu_mc-data_mean_pt_minus.png Graphic file (type 
 png)
  <use images/muon_calib/zcal_kamu_mc-data_mean_pt_minus.png>
 Package pdftex.def Info: images/muon_calib/zcal_kamu_mc-data_mean_pt_minus.png 
-used on input line 424.
+used on input line 432.
 (pdftex.def)             Requested size: 150.08344pt x 101.77904pt.
 
-<images/muon_calib/zcal_kamu_mc-data_mean_dimu_pt.png, id=1219, 698.61pt x 473.
+<images/muon_calib/zcal_kamu_mc-data_mean_dimu_pt.png, id=1227, 698.61pt x 473.
 77pt>
 File: images/muon_calib/zcal_kamu_mc-data_mean_dimu_pt.png Graphic file (type p
 ng)
  <use images/muon_calib/zcal_kamu_mc-data_mean_dimu_pt.png>
 Package pdftex.def Info: images/muon_calib/zcal_kamu_mc-data_mean_dimu_pt.png u
-sed on input line 425.
+sed on input line 433.
 (pdftex.def)             Requested size: 150.08344pt x 101.77904pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-<images/muon_calib/zcal_pf_mc-data_res_phi_plus.png, id=1223, 698.61pt x 473.77
+<images/muon_calib/zcal_pf_mc-data_res_phi_plus.png, id=1231, 698.61pt x 473.77
 pt>
 File: images/muon_calib/zcal_pf_mc-data_res_phi_plus.png Graphic file (type png
 )
  <use images/muon_calib/zcal_pf_mc-data_res_phi_plus.png>
 Package pdftex.def Info: images/muon_calib/zcal_pf_mc-data_res_phi_plus.png use
-d on input line 433.
+d on input line 441.
 (pdftex.def)             Requested size: 150.08344pt x 101.77904pt.
 
-<images/muon_calib/zcal_pf_mc-data_res_phi_minus.png, id=1224, 698.61pt x 473.7
+<images/muon_calib/zcal_pf_mc-data_res_phi_minus.png, id=1232, 698.61pt x 473.7
 7pt>
 File: images/muon_calib/zcal_pf_mc-data_res_phi_minus.png Graphic file (type pn
 g)
  <use images/muon_calib/zcal_pf_mc-data_res_phi_minus.png>
 Package pdftex.def Info: images/muon_calib/zcal_pf_mc-data_res_phi_minus.png us
-ed on input line 434.
+ed on input line 442.
 (pdftex.def)             Requested size: 150.08344pt x 101.77904pt.
 
-<images/muon_calib/zcal_pf_mc-data_res_eta_plus.png, id=1225, 698.61pt x 473.77
+<images/muon_calib/zcal_pf_mc-data_res_eta_plus.png, id=1233, 698.61pt x 473.77
 pt>
 File: images/muon_calib/zcal_pf_mc-data_res_eta_plus.png Graphic file (type png
 )
  <use images/muon_calib/zcal_pf_mc-data_res_eta_plus.png>
 Package pdftex.def Info: images/muon_calib/zcal_pf_mc-data_res_eta_plus.png use
-d on input line 435.
+d on input line 443.
 (pdftex.def)             Requested size: 150.08344pt x 101.77904pt.
 
-<images/muon_calib/zcal_pf_mc-data_res_eta_minus.png, id=1226, 698.61pt x 473.7
+<images/muon_calib/zcal_pf_mc-data_res_eta_minus.png, id=1234, 698.61pt x 473.7
 7pt>
 File: images/muon_calib/zcal_pf_mc-data_res_eta_minus.png Graphic file (type pn
 g)
  <use images/muon_calib/zcal_pf_mc-data_res_eta_minus.png>
 Package pdftex.def Info: images/muon_calib/zcal_pf_mc-data_res_eta_minus.png us
-ed on input line 436.
+ed on input line 444.
 (pdftex.def)             Requested size: 150.08344pt x 101.77904pt.
 
-<images/muon_calib/zcal_pf_mc-data_res_pt_plus.png, id=1227, 698.61pt x 473.77p
+<images/muon_calib/zcal_pf_mc-data_res_pt_plus.png, id=1235, 698.61pt x 473.77p
 t>
 File: images/muon_calib/zcal_pf_mc-data_res_pt_plus.png Graphic file (type png)
 
  <use images/muon_calib/zcal_pf_mc-data_res_pt_plus.png>
 Package pdftex.def Info: images/muon_calib/zcal_pf_mc-data_res_pt_plus.png used
- on input line 437.
+ on input line 445.
 (pdftex.def)             Requested size: 150.08344pt x 101.77904pt.
 
-<images/muon_calib/zcal_pf_mc-data_res_pt_minus.png, id=1228, 698.61pt x 473.77
+<images/muon_calib/zcal_pf_mc-data_res_pt_minus.png, id=1236, 698.61pt x 473.77
 pt>
 File: images/muon_calib/zcal_pf_mc-data_res_pt_minus.png Graphic file (type png
 )
  <use images/muon_calib/zcal_pf_mc-data_res_pt_minus.png>
 Package pdftex.def Info: images/muon_calib/zcal_pf_mc-data_res_pt_minus.png use
-d on input line 438.
+d on input line 446.
 (pdftex.def)             Requested size: 150.08344pt x 101.77904pt.
 
-<images/muon_calib/zcal_pf_mc-data_res_dimu_pt.png, id=1229, 698.61pt x 473.77p
+<images/muon_calib/zcal_pf_mc-data_res_dimu_pt.png, id=1237, 698.61pt x 473.77p
 t>
 File: images/muon_calib/zcal_pf_mc-data_res_dimu_pt.png Graphic file (type png)
 
  <use images/muon_calib/zcal_pf_mc-data_res_dimu_pt.png>
 Package pdftex.def Info: images/muon_calib/zcal_pf_mc-data_res_dimu_pt.png used
- on input line 439.
+ on input line 447.
 (pdftex.def)             Requested size: 150.08344pt x 101.77904pt.
 
-<images/muon_calib/zcal_roch_mc-data_res_phi_plus.png, id=1230, 698.61pt x 473.
+<images/muon_calib/zcal_roch_mc-data_res_phi_plus.png, id=1238, 698.61pt x 473.
 77pt>
 File: images/muon_calib/zcal_roch_mc-data_res_phi_plus.png Graphic file (type p
 ng)
  <use images/muon_calib/zcal_roch_mc-data_res_phi_plus.png>
 Package pdftex.def Info: images/muon_calib/zcal_roch_mc-data_res_phi_plus.png u
-sed on input line 446.
+sed on input line 454.
 (pdftex.def)             Requested size: 150.08344pt x 101.77904pt.
 
-<images/muon_calib/zcal_roch_mc-data_res_phi_minus.png, id=1231, 698.61pt x 473
+<images/muon_calib/zcal_roch_mc-data_res_phi_minus.png, id=1239, 698.61pt x 473
 .77pt>
 File: images/muon_calib/zcal_roch_mc-data_res_phi_minus.png Graphic file (type 
 png)
  <use images/muon_calib/zcal_roch_mc-data_res_phi_minus.png>
 Package pdftex.def Info: images/muon_calib/zcal_roch_mc-data_res_phi_minus.png 
-used on input line 447.
+used on input line 455.
 (pdftex.def)             Requested size: 150.08344pt x 101.77904pt.
 
-<images/muon_calib/zcal_roch_mc-data_res_eta_plus.png, id=1232, 698.61pt x 473.
+<images/muon_calib/zcal_roch_mc-data_res_eta_plus.png, id=1240, 698.61pt x 473.
 77pt>
 File: images/muon_calib/zcal_roch_mc-data_res_eta_plus.png Graphic file (type p
 ng)
  <use images/muon_calib/zcal_roch_mc-data_res_eta_plus.png>
 Package pdftex.def Info: images/muon_calib/zcal_roch_mc-data_res_eta_plus.png u
-sed on input line 448.
+sed on input line 456.
 (pdftex.def)             Requested size: 150.08344pt x 101.77904pt.
 
-<images/muon_calib/zcal_roch_mc-data_res_eta_minus.png, id=1233, 698.61pt x 473
+<images/muon_calib/zcal_roch_mc-data_res_eta_minus.png, id=1241, 698.61pt x 473
 .77pt>
 File: images/muon_calib/zcal_roch_mc-data_res_eta_minus.png Graphic file (type 
 png)
  <use images/muon_calib/zcal_roch_mc-data_res_eta_minus.png>
 Package pdftex.def Info: images/muon_calib/zcal_roch_mc-data_res_eta_minus.png 
-used on input line 449.
+used on input line 457.
 (pdftex.def)             Requested size: 150.08344pt x 101.77904pt.
 
-<images/muon_calib/zcal_roch_mc-data_res_pt_plus.png, id=1234, 698.61pt x 473.7
+<images/muon_calib/zcal_roch_mc-data_res_pt_plus.png, id=1242, 698.61pt x 473.7
 7pt>
 File: images/muon_calib/zcal_roch_mc-data_res_pt_plus.png Graphic file (type pn
 g)
  <use images/muon_calib/zcal_roch_mc-data_res_pt_plus.png>
 Package pdftex.def Info: images/muon_calib/zcal_roch_mc-data_res_pt_plus.png us
-ed on input line 450.
+ed on input line 458.
 (pdftex.def)             Requested size: 150.08344pt x 101.77904pt.
 
-<images/muon_calib/zcal_roch_mc-data_res_pt_minus.png, id=1235, 698.61pt x 473.
+<images/muon_calib/zcal_roch_mc-data_res_pt_minus.png, id=1243, 698.61pt x 473.
 77pt>
 File: images/muon_calib/zcal_roch_mc-data_res_pt_minus.png Graphic file (type p
 ng)
  <use images/muon_calib/zcal_roch_mc-data_res_pt_minus.png>
 Package pdftex.def Info: images/muon_calib/zcal_roch_mc-data_res_pt_minus.png u
-sed on input line 451.
+sed on input line 459.
 (pdftex.def)             Requested size: 150.08344pt x 101.77904pt.
 
-<images/muon_calib/zcal_roch_mc-data_res_dimu_pt.png, id=1236, 698.61pt x 473.7
+<images/muon_calib/zcal_roch_mc-data_res_dimu_pt.png, id=1244, 698.61pt x 473.7
 7pt>
 File: images/muon_calib/zcal_roch_mc-data_res_dimu_pt.png Graphic file (type pn
 g)
  <use images/muon_calib/zcal_roch_mc-data_res_dimu_pt.png>
 Package pdftex.def Info: images/muon_calib/zcal_roch_mc-data_res_dimu_pt.png us
-ed on input line 452.
+ed on input line 460.
 (pdftex.def)             Requested size: 150.08344pt x 101.77904pt.
 
-<images/muon_calib/zcal_kamu_mc-data_res_phi_plus.png, id=1237, 698.61pt x 473.
+<images/muon_calib/zcal_kamu_mc-data_res_phi_plus.png, id=1245, 698.61pt x 473.
 77pt>
 File: images/muon_calib/zcal_kamu_mc-data_res_phi_plus.png Graphic file (type p
 ng)
  <use images/muon_calib/zcal_kamu_mc-data_res_phi_plus.png>
 Package pdftex.def Info: images/muon_calib/zcal_kamu_mc-data_res_phi_plus.png u
-sed on input line 459.
+sed on input line 467.
 (pdftex.def)             Requested size: 150.08344pt x 101.77904pt.
 
-<images/muon_calib/zcal_kamu_mc-data_res_phi_minus.png, id=1238, 698.61pt x 473
+<images/muon_calib/zcal_kamu_mc-data_res_phi_minus.png, id=1246, 698.61pt x 473
 .77pt>
 File: images/muon_calib/zcal_kamu_mc-data_res_phi_minus.png Graphic file (type 
 png)
  <use images/muon_calib/zcal_kamu_mc-data_res_phi_minus.png>
 Package pdftex.def Info: images/muon_calib/zcal_kamu_mc-data_res_phi_minus.png 
-used on input line 460.
+used on input line 468.
 (pdftex.def)             Requested size: 150.08344pt x 101.77904pt.
 
-<images/muon_calib/zcal_kamu_mc-data_res_eta_plus.png, id=1239, 698.61pt x 473.
+<images/muon_calib/zcal_kamu_mc-data_res_eta_plus.png, id=1247, 698.61pt x 473.
 77pt>
 File: images/muon_calib/zcal_kamu_mc-data_res_eta_plus.png Graphic file (type p
 ng)
  <use images/muon_calib/zcal_kamu_mc-data_res_eta_plus.png>
 Package pdftex.def Info: images/muon_calib/zcal_kamu_mc-data_res_eta_plus.png u
-sed on input line 461.
+sed on input line 469.
 (pdftex.def)             Requested size: 150.08344pt x 101.77904pt.
 
-<images/muon_calib/zcal_kamu_mc-data_res_eta_minus.png, id=1240, 698.61pt x 473
+<images/muon_calib/zcal_kamu_mc-data_res_eta_minus.png, id=1248, 698.61pt x 473
 .77pt>
 File: images/muon_calib/zcal_kamu_mc-data_res_eta_minus.png Graphic file (type 
 png)
  <use images/muon_calib/zcal_kamu_mc-data_res_eta_minus.png>
 Package pdftex.def Info: images/muon_calib/zcal_kamu_mc-data_res_eta_minus.png 
-used on input line 462.
+used on input line 470.
 (pdftex.def)             Requested size: 150.08344pt x 101.77904pt.
 
-<images/muon_calib/zcal_kamu_mc-data_res_pt_plus.png, id=1241, 698.61pt x 473.7
+<images/muon_calib/zcal_kamu_mc-data_res_pt_plus.png, id=1249, 698.61pt x 473.7
 7pt>
 File: images/muon_calib/zcal_kamu_mc-data_res_pt_plus.png Graphic file (type pn
 g)
  <use images/muon_calib/zcal_kamu_mc-data_res_pt_plus.png>
 Package pdftex.def Info: images/muon_calib/zcal_kamu_mc-data_res_pt_plus.png us
-ed on input line 463.
+ed on input line 471.
 (pdftex.def)             Requested size: 150.08344pt x 101.77904pt.
 
-<images/muon_calib/zcal_kamu_mc-data_res_pt_minus.png, id=1242, 698.61pt x 473.
+<images/muon_calib/zcal_kamu_mc-data_res_pt_minus.png, id=1250, 698.61pt x 473.
 77pt>
 File: images/muon_calib/zcal_kamu_mc-data_res_pt_minus.png Graphic file (type p
 ng)
  <use images/muon_calib/zcal_kamu_mc-data_res_pt_minus.png>
 Package pdftex.def Info: images/muon_calib/zcal_kamu_mc-data_res_pt_minus.png u
-sed on input line 464.
+sed on input line 472.
 (pdftex.def)             Requested size: 150.08344pt x 101.77904pt.
 
-<images/muon_calib/zcal_kamu_mc-data_res_dimu_pt.png, id=1243, 698.61pt x 473.7
+<images/muon_calib/zcal_kamu_mc-data_res_dimu_pt.png, id=1251, 698.61pt x 473.7
 7pt>
 File: images/muon_calib/zcal_kamu_mc-data_res_dimu_pt.png Graphic file (type pn
 g)
  <use images/muon_calib/zcal_kamu_mc-data_res_dimu_pt.png>
 Package pdftex.def Info: images/muon_calib/zcal_kamu_mc-data_res_dimu_pt.png us
-ed on input line 465.
+ed on input line 473.
 (pdftex.def)             Requested size: 150.08344pt x 101.77904pt.
 
 
@@ -1978,77 +1978,77 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[91 <./images/muon_calib/zcal_data_mean_phi_plus.png> <./images/muon_calib/zcal
+[92 <./images/muon_calib/zcal_data_mean_phi_plus.png> <./images/muon_calib/zcal
 _data_mean_phi_minus.png> <./images/muon_calib/zcal_data_mean_eta_plus.png> <./
 images/muon_calib/zcal_data_mean_eta_minus.png> <./images/muon_calib/zcal_data_
 mean_pt_plus.png> <./images/muon_calib/zcal_data_mean_pt_minus.png> <./images/m
-uon_calib/zcal_data_mean_dimu_pt.png>] [92 <./images/muon_calib/zcal_data_res_p
+uon_calib/zcal_data_mean_dimu_pt.png>] [93 <./images/muon_calib/zcal_data_res_p
 hi_plus.png> <./images/muon_calib/zcal_data_res_phi_minus.png> <./images/muon_c
 alib/zcal_data_res_eta_plus.png> <./images/muon_calib/zcal_data_res_eta_minus.p
 ng> <./images/muon_calib/zcal_data_res_pt_plus.png> <./images/muon_calib/zcal_d
-ata_res_pt_minus.png> <./images/muon_calib/zcal_data_res_dimu_pt.png>] [93 <./i
+ata_res_pt_minus.png> <./images/muon_calib/zcal_data_res_dimu_pt.png>] [94 <./i
 mages/muon_calib/zcal_pf_mc-data_mean_phi_plus.png> <./images/muon_calib/zcal_p
 f_mc-data_mean_phi_minus.png> <./images/muon_calib/zcal_pf_mc-data_mean_eta_plu
 s.png> <./images/muon_calib/zcal_pf_mc-data_mean_eta_minus.png> <./images/muon_
 calib/zcal_pf_mc-data_mean_pt_plus.png> <./images/muon_calib/zcal_pf_mc-data_me
 an_pt_minus.png> <./images/muon_calib/zcal_pf_mc-data_mean_dimu_pt.png>]
-[94 <./images/muon_calib/zcal_roch_mc-data_mean_phi_plus.png> <./images/muon_ca
+[95 <./images/muon_calib/zcal_roch_mc-data_mean_phi_plus.png> <./images/muon_ca
 lib/zcal_roch_mc-data_mean_phi_minus.png> <./images/muon_calib/zcal_roch_mc-dat
 a_mean_eta_plus.png> <./images/muon_calib/zcal_roch_mc-data_mean_eta_minus.png>
  <./images/muon_calib/zcal_roch_mc-data_mean_pt_plus.png> <./images/muon_calib/
 zcal_roch_mc-data_mean_pt_minus.png> <./images/muon_calib/zcal_roch_mc-data_mea
-n_dimu_pt.png>] [95 <./images/muon_calib/zcal_kamu_mc-data_mean_phi_plus.png> <
+n_dimu_pt.png>] [96 <./images/muon_calib/zcal_kamu_mc-data_mean_phi_plus.png> <
 ./images/muon_calib/zcal_kamu_mc-data_mean_phi_minus.png> <./images/muon_calib/
 zcal_kamu_mc-data_mean_eta_plus.png> <./images/muon_calib/zcal_kamu_mc-data_mea
 n_eta_minus.png> <./images/muon_calib/zcal_kamu_mc-data_mean_pt_plus.png> <./im
 ages/muon_calib/zcal_kamu_mc-data_mean_pt_minus.png> <./images/muon_calib/zcal_
-kamu_mc-data_mean_dimu_pt.png>] [96 <./images/muon_calib/zcal_pf_mc-data_res_ph
+kamu_mc-data_mean_dimu_pt.png>] [97 <./images/muon_calib/zcal_pf_mc-data_res_ph
 i_plus.png> <./images/muon_calib/zcal_pf_mc-data_res_phi_minus.png> <./images/m
 uon_calib/zcal_pf_mc-data_res_eta_plus.png> <./images/muon_calib/zcal_pf_mc-dat
 a_res_eta_minus.png> <./images/muon_calib/zcal_pf_mc-data_res_pt_plus.png> <./i
 mages/muon_calib/zcal_pf_mc-data_res_pt_minus.png> <./images/muon_calib/zcal_pf
-_mc-data_res_dimu_pt.png>] [97 <./images/muon_calib/zcal_roch_mc-data_res_phi_p
+_mc-data_res_dimu_pt.png>] [98 <./images/muon_calib/zcal_roch_mc-data_res_phi_p
 lus.png> <./images/muon_calib/zcal_roch_mc-data_res_phi_minus.png> <./images/mu
 on_calib/zcal_roch_mc-data_res_eta_plus.png> <./images/muon_calib/zcal_roch_mc-
 data_res_eta_minus.png> <./images/muon_calib/zcal_roch_mc-data_res_pt_plus.png>
  <./images/muon_calib/zcal_roch_mc-data_res_pt_minus.png> <./images/muon_calib/
-zcal_roch_mc-data_res_dimu_pt.png>] [98 <./images/muon_calib/zcal_kamu_mc-data_
+zcal_roch_mc-data_res_dimu_pt.png>] [99 <./images/muon_calib/zcal_kamu_mc-data_
 res_phi_plus.png> <./images/muon_calib/zcal_kamu_mc-data_res_phi_minus.png> <./
 images/muon_calib/zcal_kamu_mc-data_res_eta_plus.png> <./images/muon_calib/zcal
 _kamu_mc-data_res_eta_minus.png> <./images/muon_calib/zcal_kamu_mc-data_res_pt_
 plus.png> <./images/muon_calib/zcal_kamu_mc-data_res_pt_minus.png> <./images/mu
 on_calib/zcal_kamu_mc-data_res_dimu_pt.png>]
-<images/muon_calib/syst_GluGlu_cat0.png, id=1279, 481.8pt x 359.3425pt>
+<images/muon_calib/syst_GluGlu_cat0.png, id=1286, 481.8pt x 359.3425pt>
 File: images/muon_calib/syst_GluGlu_cat0.png Graphic file (type png)
 
 <use images/muon_calib/syst_GluGlu_cat0.png>
 Package pdftex.def Info: images/muon_calib/syst_GluGlu_cat0.png used on input l
-ine 478.
+ine 486.
 (pdftex.def)             Requested size: 229.81258pt x 171.40225pt.
 
-<images/muon_calib/syst_GluGlu_cat12.png, id=1280, 493.845pt x 364.36125pt>
+<images/muon_calib/syst_GluGlu_cat12.png, id=1287, 493.845pt x 364.36125pt>
 File: images/muon_calib/syst_GluGlu_cat12.png Graphic file (type png)
 
 <use images/muon_calib/syst_GluGlu_cat12.png>
 Package pdftex.def Info: images/muon_calib/syst_GluGlu_cat12.png used on input 
-line 479.
+line 487.
 (pdftex.def)             Requested size: 229.81258pt x 169.5541pt.
- [99
+ [100
 
  <./images/muon_calib/syst_GluGlu_cat0.png> <./images/muon_calib/syst_GluGlu_ca
 t12.png>]
-Overfull \hbox (3.44847pt too wide) in paragraph at lines 498--499
+Overfull \hbox (3.44847pt too wide) in paragraph at lines 506--507
 []\OT1/cmss/m/n/12 Jets are used to distinguish the VBF channel from the overwh
 elming Drell-Yan background. 
  []
 
-[100]
-Underfull \hbox (badness 10000) in paragraph at lines 502--502
+[101]
+Underfull \hbox (badness 10000) in paragraph at lines 510--510
 [][]\OT1/cmss/m/n/12 MET usually corresponds to neutrinos which have a tiny mas
 s and a $\OT1/cmbr/m/sl/12 p[]$ \OT1/cmss/m/n/12 basically equal to
  []
 
-[101] [102]) [103]
+[102] [103]) [104]
 \openout2 = `tex/TwoOrMoreAppendices.aux'.
 
  (./tex/TwoOrMoreAppendices.tex (./tex/appendixA.tex
@@ -2059,7 +2059,7 @@ APPENDIX A.
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\uppercase' on input line 4.
 
-) (./tex/appendixB.tex [104
+) (./tex/appendixB.tex [105
 
 
 
@@ -2071,7 +2071,7 @@ APPENDIX B.
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\uppercase' on input line 1.
 
-[105
+[106
 
 ]
 Package epstopdf Info: Source file: <images/LaTeX2e_logo.eps>
@@ -2085,18 +2085,18 @@ nverted-to.pdf images/LaTeX2e_logo.eps>
 (epstopdf)             \includegraphics on input line 10.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/LaTeX2e_logo-eps-converted-to.pdf, id=1317, 701.62125pt x 214.8025pt>
+<images/LaTeX2e_logo-eps-converted-to.pdf, id=1324, 701.62125pt x 214.8025pt>
 File: images/LaTeX2e_logo-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/LaTeX2e_logo-eps-converted-to.pdf>
 Package pdftex.def Info: images/LaTeX2e_logo-eps-converted-to.pdf used on input
  line 10.
 (pdftex.def)             Requested size: 433.62pt x 132.75664pt.
- [106 <./images/LaTeX2e_logo-eps-converted-to.pdf>] [107
+ [107 <./images/LaTeX2e_logo-eps-converted-to.pdf>] [108
 
 
 
-]) (./tex/appendixC.tex [108]
+]) (./tex/appendixC.tex [109]
 ***************************
 APPENDIX C.
 ***************************
@@ -2120,13 +2120,13 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <12> not available
 (Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 23.
 
-[109
+[110
 
-] [110] [111]
+] [111] [112]
 
-LaTeX Warning: Reference `first' on page 112 undefined on input line 111.
+LaTeX Warning: Reference `first' on page 113 undefined on input line 111.
 
-) (./tex/appendixD.tex [112]
+) (./tex/appendixD.tex [113]
 ***************************
 APPENDIX D.
 ***************************
@@ -2146,16 +2146,16 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 1.
 
-[113
+[114
 
-] [114] [115])) [116] (./main.bbl [117
+] [115] [116])) [117] (./main.bbl [118
 
 
 
 ])
 \openout2 = `bio.aux'.
 
- (./bio.tex [118
+ (./bio.tex [119
 
 
 
@@ -2186,10 +2186,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 195.
  ) 
 Here is how much of TeX's memory you used:
- 9949 strings out of 494954
- 155321 string characters out of 6181003
- 254168 words of memory out of 5000000
- 12480 multiletter control sequences out of 15000+600000
+ 9953 strings out of 494954
+ 155369 string characters out of 6181003
+ 254301 words of memory out of 5000000
+ 12482 multiletter control sequences out of 15000+600000
  14661 words of font info for 58 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  39i,22n,42p,1735b,481s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2214,10 +2214,10 @@ fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
 msfonts/symbols/msbm10.pfb>
-Output written on main.pdf (118 pages, 3140844 bytes).
+Output written on main.pdf (119 pages, 3142013 bytes).
 PDF statistics:
- 1533 PDF objects out of 1728 (max. 8388607)
- 1295 compressed objects within 13 object streams
- 405 named destinations out of 1000 (max. 500000)
+ 1541 PDF objects out of 1728 (max. 8388607)
+ 1301 compressed objects within 14 object streams
+ 407 named destinations out of 1000 (max. 500000)
  924 words of extra memory for PDF output out of 10000 (max. 10000000)
 
