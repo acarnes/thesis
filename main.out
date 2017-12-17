@@ -52,20 +52,21 @@
 \BOOKMARK [2][-]{subsection.4.6.5}{4.6.5 Jet, MET, and B-Tagging Corrections}{section.4.6}% 52
 \BOOKMARK [2][-]{subsection.4.6.6}{4.6.6 Event Selection}{section.4.6}% 53
 \BOOKMARK [1][-]{section.4.7}{4.7 Maximizing the Sensitivity}{chapter.4}% 54
-\BOOKMARK [2][-]{subsection.4.7.1}{4.7.1 Event Categorization}{section.4.7}% 55
-\BOOKMARK [2][-]{subsection.4.7.2}{4.7.2 The Autocategorizer}{section.4.7}% 56
-\BOOKMARK [2][-]{subsection.4.7.3}{4.7.3 Final Categories}{section.4.7}% 57
-\BOOKMARK [2][-]{subsection.4.7.4}{4.7.4 Validating The Categories}{section.4.7}% 58
-\BOOKMARK [2][-]{subsection.4.7.5}{4.7.5 Signal and Background}{section.4.7}% 59
-\BOOKMARK [1][-]{section.4.8}{4.8 Modeling the Signal}{chapter.4}% 60
-\BOOKMARK [1][-]{section.4.9}{4.9 Modeling the Background}{chapter.4}% 61
-\BOOKMARK [1][-]{section.4.10}{4.10 Systematic Uncertainties}{chapter.4}% 62
-\BOOKMARK [2][-]{subsection.4.10.1}{4.10.1 Signal}{section.4.10}% 63
-\BOOKMARK [2][-]{subsection.4.10.2}{4.10.2 Background}{section.4.10}% 64
-\BOOKMARK [1][-]{section.4.11}{4.11 Results}{chapter.4}% 65
-\BOOKMARK [0][-]{appendix.A}{A THIS IS THE FIRST APPENDIX}{}% 66
-\BOOKMARK [0][-]{appendix.B}{B AN EXAMPLE OF A HALF TITLE PAGE}{}% 67
-\BOOKMARK [0][-]{appendix.C}{C DERIVATION OF THE \040FUNCTION}{}% 68
-\BOOKMARK [0][-]{appendix.D}{D DERIVATION OF THE \040FUNCTION}{}% 69
-\BOOKMARK [0][-]{appendix*.6}{REFERENCES}{}% 70
-\BOOKMARK [0][-]{appendix*.7}{BIOGRAPHICAL SKETCH}{}% 71
+\BOOKMARK [2][-]{subsection.4.7.1}{4.7.1 Training Boosted Decision Trees}{section.4.7}% 55
+\BOOKMARK [2][-]{subsection.4.7.2}{4.7.2 Event Categorization}{section.4.7}% 56
+\BOOKMARK [2][-]{subsection.4.7.3}{4.7.3 The Autocategorizer}{section.4.7}% 57
+\BOOKMARK [2][-]{subsection.4.7.4}{4.7.4 Final Categories}{section.4.7}% 58
+\BOOKMARK [2][-]{subsection.4.7.5}{4.7.5 Validating The Categories}{section.4.7}% 59
+\BOOKMARK [2][-]{subsection.4.7.6}{4.7.6 Signal and Background}{section.4.7}% 60
+\BOOKMARK [1][-]{section.4.8}{4.8 Modeling the Signal}{chapter.4}% 61
+\BOOKMARK [1][-]{section.4.9}{4.9 Modeling the Background}{chapter.4}% 62
+\BOOKMARK [1][-]{section.4.10}{4.10 Systematic Uncertainties}{chapter.4}% 63
+\BOOKMARK [2][-]{subsection.4.10.1}{4.10.1 Signal}{section.4.10}% 64
+\BOOKMARK [2][-]{subsection.4.10.2}{4.10.2 Background}{section.4.10}% 65
+\BOOKMARK [1][-]{section.4.11}{4.11 Results}{chapter.4}% 66
+\BOOKMARK [0][-]{appendix.A}{A THIS IS THE FIRST APPENDIX}{}% 67
+\BOOKMARK [0][-]{appendix.B}{B AN EXAMPLE OF A HALF TITLE PAGE}{}% 68
+\BOOKMARK [0][-]{appendix.C}{C DERIVATION OF THE \040FUNCTION}{}% 69
+\BOOKMARK [0][-]{appendix.D}{D DERIVATION OF THE \040FUNCTION}{}% 70
+\BOOKMARK [0][-]{appendix*.6}{REFERENCES}{}% 71
+\BOOKMARK [0][-]{appendix*.7}{BIOGRAPHICAL SKETCH}{}% 72
