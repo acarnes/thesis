@@ -33,41 +33,41 @@
 \contentsline {section}{\numberline {3.2}The Standard Model Higgs and the LHC}{72}{section.3.2}
 \contentsline {chapter}{\numberline {4}\uppercase {THE SEARCH FOR $H\rightarrow \mu ^+\mu ^-$}}{77}{chapter.4}
 \contentsline {section}{\numberline {4.1}Discovery, Limits, and Measurement, and Sensitivity}{77}{section.4.1}
-\contentsline {section}{\numberline {4.2}The Analysis Strategy}{82}{section.4.2}
+\contentsline {section}{\numberline {4.2}The Analysis Strategy}{83}{section.4.2}
 \contentsline {section}{\numberline {4.3}Improving the Level-1 Muon Trigger}{84}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Metrics of Success}{85}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}The EMTF Regression Project}{85}{subsection.4.3.2}
-\contentsline {subsection}{\numberline {4.3.3}Putting the BDTs into a Look-up Table}{87}{subsection.4.3.3}
-\contentsline {subsection}{\numberline {4.3.4}Results and Conclusions}{88}{subsection.4.3.4}
-\contentsline {section}{\numberline {4.4}Data and Monte Carlo Samples}{89}{section.4.4}
-\contentsline {section}{\numberline {4.5}Muon Momentum Calibration}{93}{section.4.5}
-\contentsline {subsection}{\numberline {4.5.1}Muon Corrections in Data}{94}{subsection.4.5.1}
-\contentsline {subsection}{\numberline {4.5.2}Data-MC agreement in scale, resolution}{97}{subsection.4.5.2}
-\contentsline {subsection}{\numberline {4.5.3}Derivation of systematic uncertainties}{103}{subsection.4.5.3}
-\contentsline {section}{\numberline {4.6}Event Selection, Object Reconstruction, and Further Corrections}{103}{section.4.6}
-\contentsline {subsection}{\numberline {4.6.1}Muons}{104}{subsection.4.6.1}
-\contentsline {subsection}{\numberline {4.6.2}Jets and MET}{104}{subsection.4.6.2}
-\contentsline {subsection}{\numberline {4.6.3}Pile-Up Reweighting}{105}{subsection.4.6.3}
-\contentsline {subsection}{\numberline {4.6.4}Muon Efficiency Scale Factors}{105}{subsection.4.6.4}
-\contentsline {subsection}{\numberline {4.6.5}Jet, MET, and B-Tagging Corrections}{106}{subsection.4.6.5}
-\contentsline {subsection}{\numberline {4.6.6}Event Selection}{107}{subsection.4.6.6}
-\contentsline {section}{\numberline {4.7}Maximizing the Sensitivity}{107}{section.4.7}
-\contentsline {subsection}{\numberline {4.7.1}Training Boosted Decision Trees}{108}{subsection.4.7.1}
-\contentsline {subsection}{\numberline {4.7.2}Event Categorization}{110}{subsection.4.7.2}
-\contentsline {subsection}{\numberline {4.7.3}The Autocategorizer}{111}{subsection.4.7.3}
-\contentsline {subsection}{\numberline {4.7.4}Final Categories}{113}{subsection.4.7.4}
-\contentsline {subsection}{\numberline {4.7.5}Validating The Categories}{115}{subsection.4.7.5}
-\contentsline {subsection}{\numberline {4.7.6}Signal and Background}{123}{subsection.4.7.6}
-\contentsline {section}{\numberline {4.8}Modeling the Signal}{131}{section.4.8}
-\contentsline {section}{\numberline {4.9}Modeling the Background}{131}{section.4.9}
-\contentsline {section}{\numberline {4.10}Systematic Uncertainties}{131}{section.4.10}
-\contentsline {subsection}{\numberline {4.10.1}Signal}{131}{subsection.4.10.1}
-\contentsline {subsection}{\numberline {4.10.2}Background}{131}{subsection.4.10.2}
-\contentsline {section}{\numberline {4.11}Results}{131}{section.4.11}
+\contentsline {subsection}{\numberline {4.3.1}Metrics of Success}{86}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}The EMTF Regression Project}{86}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}Putting the BDTs into a Look-up Table}{88}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.3.4}Results and Conclusions}{89}{subsection.4.3.4}
+\contentsline {section}{\numberline {4.4}Data and Monte Carlo Samples}{90}{section.4.4}
+\contentsline {section}{\numberline {4.5}Muon Momentum Calibration}{94}{section.4.5}
+\contentsline {subsection}{\numberline {4.5.1}Muon Corrections in Data}{95}{subsection.4.5.1}
+\contentsline {subsection}{\numberline {4.5.2}Data-MC agreement in scale, resolution}{98}{subsection.4.5.2}
+\contentsline {subsection}{\numberline {4.5.3}Derivation of systematic uncertainties}{104}{subsection.4.5.3}
+\contentsline {section}{\numberline {4.6}Event Selection, Object Reconstruction, and Further Corrections}{104}{section.4.6}
+\contentsline {subsection}{\numberline {4.6.1}Muons}{105}{subsection.4.6.1}
+\contentsline {subsection}{\numberline {4.6.2}Jets and MET}{105}{subsection.4.6.2}
+\contentsline {subsection}{\numberline {4.6.3}Pile-Up Reweighting}{106}{subsection.4.6.3}
+\contentsline {subsection}{\numberline {4.6.4}Muon Efficiency Scale Factors}{106}{subsection.4.6.4}
+\contentsline {subsection}{\numberline {4.6.5}Jet, MET, and B-Tagging Corrections}{107}{subsection.4.6.5}
+\contentsline {subsection}{\numberline {4.6.6}Event Selection}{108}{subsection.4.6.6}
+\contentsline {section}{\numberline {4.7}Maximizing the Sensitivity}{108}{section.4.7}
+\contentsline {subsection}{\numberline {4.7.1}Training Boosted Decision Trees}{109}{subsection.4.7.1}
+\contentsline {subsection}{\numberline {4.7.2}Event Categorization}{111}{subsection.4.7.2}
+\contentsline {subsection}{\numberline {4.7.3}The Autocategorizer}{112}{subsection.4.7.3}
+\contentsline {subsection}{\numberline {4.7.4}Final Categories}{114}{subsection.4.7.4}
+\contentsline {subsection}{\numberline {4.7.5}Validating The Categories}{116}{subsection.4.7.5}
+\contentsline {subsection}{\numberline {4.7.6}Signal and Background}{124}{subsection.4.7.6}
+\contentsline {section}{\numberline {4.8}Modelling the Signal}{132}{section.4.8}
+\contentsline {section}{\numberline {4.9}Modeling the Background}{133}{section.4.9}
+\contentsline {section}{\numberline {4.10}Systematic Uncertainties}{133}{section.4.10}
+\contentsline {subsection}{\numberline {4.10.1}Signal}{133}{subsection.4.10.1}
+\contentsline {subsection}{\numberline {4.10.2}Background}{133}{subsection.4.10.2}
+\contentsline {section}{\numberline {4.11}Results}{133}{section.4.11}
 \addvspace {10pt}\noindent {APPENDIX} \hfill \par 
-\contentsline {chapter}{\numberline {A}\uppercase {THIS IS THE FIRST APPENDIX}}{132}{appendix.A}
-\contentsline {chapter}{\numberline {B}\uppercase {AN EXAMPLE OF A HALF TITLE PAGE}}{133}{appendix.B}
-\contentsline {chapter}{\numberline {C}\uppercase {DERIVATION OF THE $\Upsilon $ FUNCTION}}{137}{appendix.C}
-\contentsline {chapter}{\numberline {D}\uppercase {DERIVATION OF THE $\Upsilon $ FUNCTION}}{141}{appendix.D}
-\contentsline {extrachapter}{REFERENCES}{145}{appendix*.6}
-\contentsline {extrachapter}{BIOGRAPHICAL SKETCH}{146}{appendix*.7}
+\contentsline {chapter}{\numberline {A}\uppercase {THIS IS THE FIRST APPENDIX}}{134}{appendix.A}
+\contentsline {chapter}{\numberline {B}\uppercase {AN EXAMPLE OF A HALF TITLE PAGE}}{135}{appendix.B}
+\contentsline {chapter}{\numberline {C}\uppercase {DERIVATION OF THE $\Upsilon $ FUNCTION}}{139}{appendix.C}
+\contentsline {chapter}{\numberline {D}\uppercase {DERIVATION OF THE $\Upsilon $ FUNCTION}}{143}{appendix.D}
+\contentsline {extrachapter}{REFERENCES}{147}{appendix*.6}
+\contentsline {extrachapter}{BIOGRAPHICAL SKETCH}{148}{appendix*.7}
