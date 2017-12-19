@@ -58,16 +58,16 @@
 \contentsline {subsection}{\numberline {4.7.4}Final Categories}{114}{subsection.4.7.4}
 \contentsline {subsection}{\numberline {4.7.5}Validating The Categories}{116}{subsection.4.7.5}
 \contentsline {subsection}{\numberline {4.7.6}Signal and Background}{124}{subsection.4.7.6}
-\contentsline {section}{\numberline {4.8}Modelling the Signal}{132}{section.4.8}
-\contentsline {section}{\numberline {4.9}Modeling the Background}{133}{section.4.9}
-\contentsline {section}{\numberline {4.10}Systematic Uncertainties}{133}{section.4.10}
-\contentsline {subsection}{\numberline {4.10.1}Signal}{133}{subsection.4.10.1}
-\contentsline {subsection}{\numberline {4.10.2}Background}{133}{subsection.4.10.2}
-\contentsline {section}{\numberline {4.11}Results}{133}{section.4.11}
+\contentsline {section}{\numberline {4.8}Modeling the Signal}{132}{section.4.8}
+\contentsline {section}{\numberline {4.9}Modeling the Background}{136}{section.4.9}
+\contentsline {section}{\numberline {4.10}Systematic Uncertainties}{139}{section.4.10}
+\contentsline {subsection}{\numberline {4.10.1}Signal}{139}{subsection.4.10.1}
+\contentsline {subsection}{\numberline {4.10.2}Background}{139}{subsection.4.10.2}
+\contentsline {section}{\numberline {4.11}Results}{139}{section.4.11}
 \addvspace {10pt}\noindent {APPENDIX} \hfill \par 
-\contentsline {chapter}{\numberline {A}\uppercase {THIS IS THE FIRST APPENDIX}}{134}{appendix.A}
-\contentsline {chapter}{\numberline {B}\uppercase {AN EXAMPLE OF A HALF TITLE PAGE}}{135}{appendix.B}
-\contentsline {chapter}{\numberline {C}\uppercase {DERIVATION OF THE $\Upsilon $ FUNCTION}}{139}{appendix.C}
-\contentsline {chapter}{\numberline {D}\uppercase {DERIVATION OF THE $\Upsilon $ FUNCTION}}{143}{appendix.D}
-\contentsline {extrachapter}{REFERENCES}{147}{appendix*.6}
-\contentsline {extrachapter}{BIOGRAPHICAL SKETCH}{148}{appendix*.7}
+\contentsline {chapter}{\numberline {A}\uppercase {THIS IS THE FIRST APPENDIX}}{140}{appendix.A}
+\contentsline {chapter}{\numberline {B}\uppercase {AN EXAMPLE OF A HALF TITLE PAGE}}{141}{appendix.B}
+\contentsline {chapter}{\numberline {C}\uppercase {DERIVATION OF THE $\Upsilon $ FUNCTION}}{145}{appendix.C}
+\contentsline {chapter}{\numberline {D}\uppercase {DERIVATION OF THE $\Upsilon $ FUNCTION}}{149}{appendix.D}
+\contentsline {extrachapter}{REFERENCES}{153}{appendix*.6}
+\contentsline {extrachapter}{BIOGRAPHICAL SKETCH}{154}{appendix*.7}
