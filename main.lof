@@ -52,5 +52,6 @@
 \contentsline {figure}{\numberline {{4-34}}{\ignorespaces Signal model compared to MC predictions, summing up the contribution from all process and all categories (left), and for one of the categories with the best mass resolution.}}{134}{figure.4.34}
 \contentsline {figure}{\numberline {{4-35}}{\ignorespaces The signal composition, the mass resolution in Half Width Half Max ($\sigma _{HM}$) and 68\% probability ($\sigma _{eff}$), and the S/(S+B) of the different categories.}}{134}{figure.4.35}
 \contentsline {figure}{\numberline {{4-36}}{\ignorespaces The efficiency times acceptance as function of $m_H$ for the total signal and for each signal process.}}{135}{figure.4.36}
-\contentsline {figure}{\numberline {{4-37}}{\ignorespaces Examples of the F-Test for the Bernstein Polynomials (left) and the Sum of Exponentials (right).}}{138}{figure.4.37}
-\contentsline {figure}{\numberline {{B-1}}{\ignorespaces \LaTeX 2\ensuremath {\epsilon .} logo}}{142}{figure.B.1}
+\contentsline {figure}{\numberline {{4-37}}{\ignorespaces Example background-only fits to the dimuon mass spectrum in data for various background models and mass ranges.}}{137}{figure.4.37}
+\contentsline {figure}{\numberline {{4-38}}{\ignorespaces Examples of the F-Test for the Bernstein Polynomials (left) and the Sum of Exponentials (right).}}{138}{figure.4.38}
+\contentsline {figure}{\numberline {{B-1}}{\ignorespaces \LaTeX 2\ensuremath {\epsilon .} logo}}{141}{figure.B.1}
