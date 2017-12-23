@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2017.8.22)  22 DEC 2017 23:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2017.8.22)  24 DEC 2017 00:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3369,14 +3369,14 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: images/sig_syst/impacts.pdf Graphic file (type pdf)
 
 <use images/sig_syst/impacts.pdf>
-Package pdftex.def Info: images/sig_syst/impacts.pdf used on input line 1303.
+Package pdftex.def Info: images/sig_syst/impacts.pdf used on input line 1304.
 (pdftex.def)             Requested size: 398.65286pt x 327.65652pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [141 <./images/sig_syst/EtaJet1OnH_bkg.png> <./images/sig_syst/NJetsOnH_bkg.png
->]) [142 <./images/sig_syst/impacts.pdf, page is rotated 90 degrees>]
+>] [142 <./images/sig_syst/impacts.pdf, page is rotated 90 degrees>]) [143]
 \openout2 = `tex/TwoOrMoreAppendices.aux'.
 
 
@@ -3388,7 +3388,7 @@ APPENDIX A.
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\uppercase' on input line 4.
 
-) (./tex/appendixB.tex [143
+) (./tex/appendixB.tex [144
 
 
 
@@ -3400,7 +3400,7 @@ APPENDIX B.
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\uppercase' on input line 1.
 
-[144
+[145
 
 ]
 Package epstopdf Info: Source file: <images/LaTeX2e_logo.eps>
@@ -3414,18 +3414,18 @@ nverted-to.pdf images/LaTeX2e_logo.eps>
 (epstopdf)             \includegraphics on input line 10.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/LaTeX2e_logo-eps-converted-to.pdf, id=1930, 701.62125pt x 214.8025pt>
+<images/LaTeX2e_logo-eps-converted-to.pdf, id=1936, 701.62125pt x 214.8025pt>
 File: images/LaTeX2e_logo-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/LaTeX2e_logo-eps-converted-to.pdf>
 Package pdftex.def Info: images/LaTeX2e_logo-eps-converted-to.pdf used on input
  line 10.
 (pdftex.def)             Requested size: 433.62pt x 132.75664pt.
- [145 <./images/LaTeX2e_logo-eps-converted-to.pdf>] [146
+ [146 <./images/LaTeX2e_logo-eps-converted-to.pdf>] [147
 
 
 
-]) (./tex/appendixC.tex [147]
+]) (./tex/appendixC.tex [148]
 ***************************
 APPENDIX C.
 ***************************
@@ -3445,13 +3445,13 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 1.
 
-[148
+[149
 
-] [149] [150]
+] [150] [151]
 
-LaTeX Warning: Reference `first' on page 151 undefined on input line 111.
+LaTeX Warning: Reference `first' on page 152 undefined on input line 111.
 
-) (./tex/appendixD.tex [151]
+) (./tex/appendixD.tex [152]
 ***************************
 APPENDIX D.
 ***************************
@@ -3471,16 +3471,16 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 1.
 
-[152
+[153
 
-] [153] [154])) [155] (./main.bbl [156
+] [154] [155])) [156] (./main.bbl [157
 
 
 
 ])
 \openout2 = `bio.aux'.
 
- (./bio.tex [157
+ (./bio.tex [158
 
 
 
@@ -3511,8 +3511,8 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 195.
  ) 
 Here is how much of TeX's memory you used:
- 10731 strings out of 494954
- 185638 string characters out of 6181003
+ 10733 strings out of 494954
+ 185662 string characters out of 6181003
  263355 words of memory out of 5000000
  13034 multiletter control sequences out of 15000+600000
  14661 words of font info for 58 fonts, out of 8000000 for 9000
@@ -3539,10 +3539,10 @@ fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
 msfonts/symbols/msbm10.pfb>
-Output written on main.pdf (157 pages, 6174728 bytes).
+Output written on main.pdf (158 pages, 6177820 bytes).
 PDF statistics:
- 2168 PDF objects out of 2487 (max. 8388607)
- 1702 compressed objects within 18 object streams
- 501 named destinations out of 1000 (max. 500000)
+ 2173 PDF objects out of 2487 (max. 8388607)
+ 1706 compressed objects within 18 object streams
+ 503 named destinations out of 1000 (max. 500000)
  1624 words of extra memory for PDF output out of 10000 (max. 10000000)
 
