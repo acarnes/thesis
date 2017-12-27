@@ -56,4 +56,7 @@
 \contentsline {figure}{\numberline {{4-38}}{\ignorespaces Examples of the F-Test for the Bernstein Polynomials (left) and the Sum of Exponentials (right).}}{138}{figure.4.38}
 \contentsline {figure}{\numberline {{4-39}}{\ignorespaces Pseudorapidity of the leading jet, and number of associated jets. The uncertainty bands show jet energy scale uncertainty.}}{141}{figure.4.39}
 \contentsline {figure}{\numberline {{4-40}}{\ignorespaces Impact plots derived from the Asimov data-set.}}{142}{figure.4.40}
-\contentsline {figure}{\numberline {{B-1}}{\ignorespaces \LaTeX 2\ensuremath {\epsilon .} logo}}{146}{figure.B.1}
+\contentsline {figure}{\numberline {{4-41}}{\ignorespaces Bias results for categories 0-8 with each category's bias indepent of the others. The results shown are for $m_H=125\ GeV$. The x-axis shows the fit model and the y-axis shows the pseudodata generating model.}}{144}{figure.4.41}
+\contentsline {figure}{\numberline {{4-42}}{\ignorespaces Bias results for categories 9-14 with each category's bias indepent of the others. The results shown are for $m_H=125\ GeV$. The x-axis shows the fit model and the y-axis shows the pseudodata generating model.}}{145}{figure.4.42}
+\contentsline {figure}{\numberline {{4-43}}{\ignorespaces The plot shows the bias on $\mathaccentV {hat}05E{\mu }$ using the combined likelihood for all categories and the background fits of Figure \ref {tab:bias}. In this estimate, the same generating function is used for every category.}}{146}{figure.4.43}
+\contentsline {figure}{\numberline {{B-1}}{\ignorespaces \LaTeX 2\ensuremath {\epsilon .} logo}}{150}{figure.B.1}
