@@ -277,8 +277,8 @@ Defining $J_k = \frac{1}{2} \sigma_k$ fixes this. These matrices act on an array
 %\end{equation}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsubsection{The Lorentz Group}
-Four vector products are invariant with regards to rotations and boosts. This statement is defined by the mathematical equation below, where the $\Lambda$ matrices represent the rotation/boost matrices of the Lorentz Group \footnote{The Lorentz group dealt with here is the proper orthochronous Lorentz Group SO(1,3).} and the $\eta$ matrix is the Minkowski metric $\left( \begin{smallmatrix} 1 & 0 & 0 & 0 \\ 0 & -1 & 0 & 0 \\ 0 & 0 & -1 & 0 \\ 0 & 0 & 0 & -1 \\ \end{smallmatrix} \right)$.
+\subsubsection{The Lorentz group}
+Four vector products are invariant with regards to rotations and boosts. This statement is defined by the mathematical equation below, where the $\Lambda$ matrices represent the rotation/boost matrices of the Lorentz group \footnote{The Lorentz group dealt with here is the proper orthochronous Lorentz group SO(1,3).} and the $\eta$ matrix is the Minkowski metric $\left( \begin{smallmatrix} 1 & 0 & 0 & 0 \\ 0 & -1 & 0 & 0 \\ 0 & 0 & -1 & 0 \\ 0 & 0 & 0 & -1 \\ \end{smallmatrix} \right)$.
 \begin{equation}
 \label{eq:lorentzinv}
 x'_{\mu} x'^{\mu} = x_{\mu} x^{\mu} \rightarrow \eta_{\sigma\rho} \Lambda^{\sigma}_{\mu}  \Lambda^{\rho}_{\nu} x^{\mu} x^{\nu} = \eta_{\mu\nu} x^{\mu} x^{\nu}
@@ -603,9 +603,9 @@ Finally the transformation can be written as a 4x4 matrix acting on the 4x1 four
 The other transformations reproduce the usual 4x4 Lorentz transformations as well. In this way, four vectors are just rearranged versions of the $(\frac{1}{2}, \frac{1}{2})$ rank 2 spinors. In the way complex numbers are the square root of real numbers, spinors are the square root of four vectors. In practice it's easier to work with 4 vectors as 4x1 column vectors, though one could use the $(\frac{1}{2}, \frac{1}{2})$ rank 2 spinor representation. With four vectors, spinors, and scalars in hand, the invariant Lagrangians describing the different types of particles can now be built. Before doing this, however, there is a brief aside about group representations, particles, and labels.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsubsection{The Poincare Group and Particle Labels}
+\subsubsection{The Poincare group and particle labels}
 
-The Poincare group is the Lorentz Group plus translations. Physics experiments should be the same with a rotated apparatus, an apparatus moving at a different constant velocity, and also at another location. Adding translations to the group amounts to adding another the set of translation generators $P_i$. In the "Particles, Symmetries, and Labels" section the argument was made that particles are things that observers agree on between frames. Distinguishable particles have labels that remain invariant. A spin $\frac{1}{2}$ particle with mass m remains a spin $\frac{1}{2}$ particle with mass m for all observers. As it turns out these labels relate to different subspaces in the representation of the group.
+The Poincare group is the Lorentz group plus translations. Physics experiments should be the same with a rotated apparatus, an apparatus moving at a different constant velocity, and also at another location. Adding translations to the group amounts to adding another the set of translation generators $P_i$. In the "Particles, Symmetries, and Labels" section the argument was made that particles are things that observers agree on between frames. Distinguishable particles have labels that remain invariant. A spin $\frac{1}{2}$ particle with mass m remains a spin $\frac{1}{2}$ particle with mass m for all observers. As it turns out these labels relate to different subspaces in the representation of the group.
 
 Consider a group with certain generators. When the generators of the group are represented a certain way, say as some NxN matrices, there is a likelihood that there are some invariant subspaces. As an example, a representation of a group may act on a 5 dimensional space spanned by vectors $e_1, e_2, e_3, e_4, e_5$. The group may always transform vectors in the $e_1, e_2, e_3$ subspace into one another, and those in $e_4, e_5$ into one another, but never mix up $e_1, e_2, e_3$ with $e_4, e_5$. In this example the 5x5 operators could be decomposed into a 3x3 operator acting only on the $e_1, e_2, e_3$ subspace and a 2x2 operator acting only on the $e_4, e_5$ subspace. Each 5x5 member of the group could be written as a block diagonal matrix with a 3x3 block and a 2x2 block. The same goes for the generators. Since these subspaces retain their identity under the transformations of the group\footnote{This assumes that the 3x3 and 2x2 pieces have no invariant subspaces besides themselves and 0.}, they may be considered different particles. The question is whether there are labels for the subspaces.  
 
@@ -614,7 +614,7 @@ Labels in physics need to be measurable, and by the current understanding of qua
 %Now the 5x5 group can be analyzed in terms of its separate 3x3 and 2x2 pieces. In group theory lingo these pieces are called the irreducible representations. This is the difference between a spin $\frac{3}{2}$ group and a group consisting of separate spin $\frac{1}{2}$ and spin 1 particles.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsubsection{Building the Lagrangian for a Free Scalar Particle}
+\subsubsection{Building the Lagrangian for a free scalar particle}
 
 Analyzing the symmetries of the SO(3) rotation group revealed the SU(2) group, the 2x2 complex Pauli matrices, and the complex 2x1 spinors. Analyzing the symmetries of the Lorentz group revealed the $(\frac{1}{2}, 0)$ left-chiral spinors, the $(0, \frac{1}{2})$ right chiral spinors, and the four vectors encoded in the $(\frac{1}{2}, \frac{1}{2})$ representation. Now, these pieces are put together to form relativistically invariant Lagrangians for free particles.  
 
@@ -643,7 +643,7 @@ S = \int d^4x \frac{1}{2}\left(\partial_\mu\Phi\partial^\mu\Phi - m^2 \Phi^2 \ri
 \end{equation}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsubsection{Building the Lagrangian for a Free Spin $\frac{1}{2}$ Particle}
+\subsubsection{Building the Lagrangian for a free spin $\frac{1}{2}$ particle}
 
 With the action for the free scalar particle in hand, the free spin $\frac{1}{2}$ particle is up next. The spin $\frac{1}{2}$ action must combine the $\mathcal{L}$ and $\mathcal{R}$ spinors of the $(\frac{1}{2}, 0)$ and $(0, \frac{1}{2})$ representations and the four vector, $\partial_\mu$, in a Lorentz invariant way. Moving forward in this regard, the $\mathcal{L}$, $\mathcal{R}$, and $\partial_\mu$ transformations are now analyzed to find the lowest order invariant combinations. The transformation for the left-chiral spinor is 
 \begin{equation}
@@ -808,7 +808,7 @@ after defining
 The spin $\frac{1}{2}$ Lagrangian is called the Dirac Lagrangian and the resulting equations of motion are the Dirac equation.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsubsection{Building the Lagrangian for a Free Spin 1 Particle}
+\subsubsection{Building the Lagrangian for a free spin 1 particle}
 Last but not least is the Lagrangian for a spin 1 force carrying particle. The main ingredients are the $A_\mu$ and $\partial_\mu$ four vectors. The lowest order possible invariants are $\partial^\mu A^\nu\partial_\mu A_\nu$, $\partial^\mu A^\nu\partial_\nu A_\mu$, $A^\mu A_\mu$, and $\partial^\mu A_\mu$. However the last term is a total derivative and won't be included. The resulting action and equations of motion are 
 \begin{equation}
 S = \int d^4x \left( c_0 i\partial^\mu A^\nu i\partial_\mu A_\nu + c_1 i\partial^\mu A^\nu i\partial_\nu A_\mu + c_2 A^\mu A_\mu \right).

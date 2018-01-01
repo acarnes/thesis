@@ -5,8 +5,8 @@
 \BOOKMARK [0][-]{section*.5}{ABSTRACT}{}% 5
 \BOOKMARK [0][-]{chapter.1}{1 INTRODUCTION}{}% 6
 \BOOKMARK [0][-]{chapter.2}{2 THE LARGE HADRON COLLIDER AND THE CMS EXPERIMENT}{}% 7
-\BOOKMARK [1][-]{section.2.1}{2.1 Large Hadron Collider}{chapter.2}% 8
-\BOOKMARK [1][-]{section.2.2}{2.2 Compact Muon Solenoid Detector}{chapter.2}% 9
+\BOOKMARK [1][-]{section.2.1}{2.1 The Large Hadron Collider}{chapter.2}% 8
+\BOOKMARK [1][-]{section.2.2}{2.2 The Compact Muon Solenoid}{chapter.2}% 9
 \BOOKMARK [2][-]{subsection.2.2.1}{2.2.1 Silicon Tracker}{section.2.2}% 10
 \BOOKMARK [2][-]{subsection.2.2.2}{2.2.2 Calorimeters}{section.2.2}% 11
 \BOOKMARK [2][-]{subsection.2.2.3}{2.2.3 Muon System}{section.2.2}% 12
@@ -14,18 +14,18 @@
 \BOOKMARK [3][-]{subsubsection.2.2.3.2}{2.2.3.2 Cathode Strip Chambers}{subsection.2.2.3}% 14
 \BOOKMARK [3][-]{subsubsection.2.2.3.3}{2.2.3.3 Resistive Plate Chambers}{subsection.2.2.3}% 15
 \BOOKMARK [2][-]{subsection.2.2.4}{2.2.4 Trigger System}{section.2.2}% 16
-\BOOKMARK [3][-]{subsubsection.2.2.4.1}{2.2.4.1 L1 Trigger}{subsection.2.2.4}% 17
+\BOOKMARK [3][-]{subsubsection.2.2.4.1}{2.2.4.1 Level-1 Trigger}{subsection.2.2.4}% 17
 \BOOKMARK [0][-]{chapter.3}{3 THE STANDARD MODEL}{}% 18
 \BOOKMARK [1][-]{section.3.1}{3.1 Quantum Field Theory}{chapter.3}% 19
 \BOOKMARK [2][-]{subsection.3.1.1}{3.1.1 Particles, Symmetries, and Labels}{section.3.1}% 20
 \BOOKMARK [2][-]{subsection.3.1.2}{3.1.2 The Lagrangian Formalism}{section.3.1}% 21
 \BOOKMARK [2][-]{subsection.3.1.3}{3.1.3 QFT From Symmetry}{section.3.1}% 22
 \BOOKMARK [3][-]{subsubsection.3.1.3.1}{3.1.3.1 Rotations}{subsection.3.1.3}% 23
-\BOOKMARK [3][-]{subsubsection.3.1.3.2}{3.1.3.2 The Lorentz Group}{subsection.3.1.3}% 24
-\BOOKMARK [3][-]{subsubsection.3.1.3.3}{3.1.3.3 The Poincare Group and Particle Labels}{subsection.3.1.3}% 25
-\BOOKMARK [3][-]{subsubsection.3.1.3.4}{3.1.3.4 Building the Lagrangian for a Free Scalar Particle}{subsection.3.1.3}% 26
-\BOOKMARK [3][-]{subsubsection.3.1.3.5}{3.1.3.5 Building the Lagrangian for a Free Spin 12 Particle}{subsection.3.1.3}% 27
-\BOOKMARK [3][-]{subsubsection.3.1.3.6}{3.1.3.6 Building the Lagrangian for a Free Spin 1 Particle}{subsection.3.1.3}% 28
+\BOOKMARK [3][-]{subsubsection.3.1.3.2}{3.1.3.2 The Lorentz group}{subsection.3.1.3}% 24
+\BOOKMARK [3][-]{subsubsection.3.1.3.3}{3.1.3.3 The Poincare group and particle labels}{subsection.3.1.3}% 25
+\BOOKMARK [3][-]{subsubsection.3.1.3.4}{3.1.3.4 Building the Lagrangian for a free scalar particle}{subsection.3.1.3}% 26
+\BOOKMARK [3][-]{subsubsection.3.1.3.5}{3.1.3.5 Building the Lagrangian for a free spin 12 particle}{subsection.3.1.3}% 27
+\BOOKMARK [3][-]{subsubsection.3.1.3.6}{3.1.3.6 Building the Lagrangian for a free spin 1 particle}{subsection.3.1.3}% 28
 \BOOKMARK [2][-]{subsection.3.1.4}{3.1.4 Lagrangians in Quantum Mechanics and QFT}{section.3.1}% 29
 \BOOKMARK [2][-]{subsection.3.1.5}{3.1.5 Perturbation Theory and Feynman Rules}{section.3.1}% 30
 \BOOKMARK [2][-]{subsection.3.1.6}{3.1.6 Interactions}{section.3.1}% 31
@@ -62,19 +62,18 @@
 \BOOKMARK [1][-]{section.4.9}{4.9 Modeling the Background}{chapter.4}% 62
 \BOOKMARK [1][-]{section.4.10}{4.10 Systematic Uncertainties}{chapter.4}% 63
 \BOOKMARK [2][-]{subsection.4.10.1}{4.10.1 Signal}{section.4.10}% 64
-\BOOKMARK [3][-]{subsubsection.4.10.1.1}{4.10.1.1 Shape Uncertainties}{subsection.4.10.1}% 65
-\BOOKMARK [3][-]{subsubsection.4.10.1.2}{4.10.1.2 Category Migration Uncertainties}{subsection.4.10.1}% 66
-\BOOKMARK [3][-]{subsubsection.4.10.1.3}{4.10.1.3 Rate Uncertainties}{subsection.4.10.1}% 67
+\BOOKMARK [3][-]{subsubsection.4.10.1.1}{4.10.1.1 Shape uncertainties}{subsection.4.10.1}% 65
+\BOOKMARK [3][-]{subsubsection.4.10.1.2}{4.10.1.2 Category migration uncertainties}{subsection.4.10.1}% 66
+\BOOKMARK [3][-]{subsubsection.4.10.1.3}{4.10.1.3 Rate uncertainties}{subsection.4.10.1}% 67
 \BOOKMARK [3][-]{subsubsection.4.10.1.4}{4.10.1.4 Impact plots}{subsection.4.10.1}% 68
 \BOOKMARK [2][-]{subsection.4.10.2}{4.10.2 Background}{section.4.10}% 69
 \BOOKMARK [1][-]{section.4.11}{4.11 Results}{chapter.4}% 70
-\BOOKMARK [1][-]{section.4.12}{4.12 Final Fits for the 13 TeV Analysis}{chapter.4}% 71
-\BOOKMARK [2][-]{subsection.4.12.1}{4.12.1 Results for 13 TeV Data}{section.4.12}% 72
-\BOOKMARK [2][-]{subsection.4.12.2}{4.12.2 Results Combining 7, 8, and 13 TeV Data}{section.4.12}% 73
-\BOOKMARK [2][-]{subsection.4.12.3}{4.12.3 Future Projections}{section.4.12}% 74
-\BOOKMARK [0][-]{appendix.A}{A THIS IS THE FIRST APPENDIX}{}% 75
-\BOOKMARK [0][-]{appendix.B}{B AN EXAMPLE OF A HALF TITLE PAGE}{}% 76
-\BOOKMARK [0][-]{appendix.C}{C DERIVATION OF THE \040FUNCTION}{}% 77
-\BOOKMARK [0][-]{appendix.D}{D DERIVATION OF THE \040FUNCTION}{}% 78
-\BOOKMARK [0][-]{appendix*.6}{REFERENCES}{}% 79
-\BOOKMARK [0][-]{appendix*.7}{BIOGRAPHICAL SKETCH}{}% 80
+\BOOKMARK [2][-]{subsection.4.11.1}{4.11.1 Results for 13 TeV Data}{section.4.11}% 71
+\BOOKMARK [2][-]{subsection.4.11.2}{4.11.2 Results Combining 7, 8, and 13 TeV Data}{section.4.11}% 72
+\BOOKMARK [2][-]{subsection.4.11.3}{4.11.3 Future Projections}{section.4.11}% 73
+\BOOKMARK [0][-]{appendix.A}{A THIS IS THE FIRST APPENDIX}{}% 74
+\BOOKMARK [0][-]{appendix.B}{B AN EXAMPLE OF A HALF TITLE PAGE}{}% 75
+\BOOKMARK [0][-]{appendix.C}{C DERIVATION OF THE \040FUNCTION}{}% 76
+\BOOKMARK [0][-]{appendix.D}{D DERIVATION OF THE \040FUNCTION}{}% 77
+\BOOKMARK [0][-]{appendix*.6}{REFERENCES}{}% 78
+\BOOKMARK [0][-]{appendix*.7}{BIOGRAPHICAL SKETCH}{}% 79
