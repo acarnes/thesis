@@ -68,13 +68,14 @@
 \contentsline {subsubsection}{\numberline {4.10.1.4}Impact plots}{142}{subsubsection.4.10.1.4}
 \contentsline {subsection}{\numberline {4.10.2}Background}{143}{subsection.4.10.2}
 \contentsline {section}{\numberline {4.11}Results}{148}{section.4.11}
-\contentsline {subsection}{\numberline {4.11.1}13 TeV Data}{148}{subsection.4.11.1}
-\contentsline {subsection}{\numberline {4.11.2}Combining 7, 8, and 13 TeV Data}{151}{subsection.4.11.2}
-\contentsline {subsection}{\numberline {4.11.3}Future Projections}{153}{subsection.4.11.3}
+\contentsline {section}{\numberline {4.12}Final Fits for the 13 TeV Analysis}{148}{section.4.12}
+\contentsline {subsection}{\numberline {4.12.1}Results for 13 TeV Data}{148}{subsection.4.12.1}
+\contentsline {subsection}{\numberline {4.12.2}Results Combining 7, 8, and 13 TeV Data}{154}{subsection.4.12.2}
+\contentsline {subsection}{\numberline {4.12.3}Future Projections}{156}{subsection.4.12.3}
 \addvspace {10pt}\noindent {APPENDIX} \hfill \par 
-\contentsline {chapter}{\numberline {A}\uppercase {THIS IS THE FIRST APPENDIX}}{154}{appendix.A}
-\contentsline {chapter}{\numberline {B}\uppercase {AN EXAMPLE OF A HALF TITLE PAGE}}{155}{appendix.B}
-\contentsline {chapter}{\numberline {C}\uppercase {DERIVATION OF THE $\Upsilon $ FUNCTION}}{159}{appendix.C}
-\contentsline {chapter}{\numberline {D}\uppercase {DERIVATION OF THE $\Upsilon $ FUNCTION}}{163}{appendix.D}
-\contentsline {extrachapter}{REFERENCES}{167}{appendix*.6}
-\contentsline {extrachapter}{BIOGRAPHICAL SKETCH}{168}{appendix*.7}
+\contentsline {chapter}{\numberline {A}\uppercase {THIS IS THE FIRST APPENDIX}}{157}{appendix.A}
+\contentsline {chapter}{\numberline {B}\uppercase {AN EXAMPLE OF A HALF TITLE PAGE}}{158}{appendix.B}
+\contentsline {chapter}{\numberline {C}\uppercase {DERIVATION OF THE $\Upsilon $ FUNCTION}}{162}{appendix.C}
+\contentsline {chapter}{\numberline {D}\uppercase {DERIVATION OF THE $\Upsilon $ FUNCTION}}{166}{appendix.D}
+\contentsline {extrachapter}{REFERENCES}{170}{appendix*.6}
+\contentsline {extrachapter}{BIOGRAPHICAL SKETCH}{171}{appendix*.7}
