@@ -3,73 +3,73 @@
 \contentsline {extrachapter}{LIST OF FIGURES}{7}{chapter*.4}
 \contentsline {extrachapter}{ABSTRACT}{12}{section*.5}
 \addvspace {10pt}\noindent {CHAPTER}\hfill \par 
-\contentsline {chapter}{\numberline {1}\uppercase {INTRODUCTION}}{13}{chapter.1}
-\contentsline {chapter}{\numberline {2}\uppercase {THE LARGE HADRON COLLIDER AND THE CMS EXPERIMENT}}{15}{chapter.2}
-\contentsline {section}{\numberline {2.1}The Large Hadron Collider}{15}{section.2.1}
-\contentsline {section}{\numberline {2.2}The Compact Muon Solenoid}{17}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Silicon Tracker}{18}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}Calorimeters}{19}{subsection.2.2.2}
-\contentsline {subsection}{\numberline {2.2.3}Muon System}{21}{subsection.2.2.3}
+\contentsline {chapter}{\numberline {1}\uppercase {INTRODUCTION}}{14}{chapter.1}
+\contentsline {chapter}{\numberline {2}\uppercase {THE LARGE HADRON COLLIDER AND THE CMS EXPERIMENT}}{16}{chapter.2}
+\contentsline {section}{\numberline {2.1}The Large Hadron Collider}{16}{section.2.1}
+\contentsline {section}{\numberline {2.2}The Compact Muon Solenoid}{18}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Silicon Tracker}{19}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Calorimeters}{20}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}Muon System}{22}{subsection.2.2.3}
 \contentsline {subsubsection}{\numberline {2.2.3.1}Drift Tubes}{23}{subsubsection.2.2.3.1}
-\contentsline {subsubsection}{\numberline {2.2.3.2}Cathode Strip Chambers}{23}{subsubsection.2.2.3.2}
-\contentsline {subsubsection}{\numberline {2.2.3.3}Resistive Plate Chambers}{24}{subsubsection.2.2.3.3}
-\contentsline {subsection}{\numberline {2.2.4}Trigger System}{24}{subsection.2.2.4}
-\contentsline {subsubsection}{\numberline {2.2.4.1}Level-1 Trigger}{25}{subsubsection.2.2.4.1}
-\contentsline {chapter}{\numberline {3}\uppercase {THE STANDARD MODEL}}{27}{chapter.3}
-\contentsline {section}{\numberline {3.1}Quantum Field Theory}{29}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Particles, Symmetries, and Labels}{30}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}The Lagrangian Formalism}{30}{subsection.3.1.2}
-\contentsline {subsection}{\numberline {3.1.3}QFT From Symmetry}{35}{subsection.3.1.3}
-\contentsline {subsubsection}{\numberline {3.1.3.1}Rotations}{35}{subsubsection.3.1.3.1}
-\contentsline {subsubsection}{\numberline {3.1.3.2}The Lorentz group}{39}{subsubsection.3.1.3.2}
-\contentsline {subsubsection}{\numberline {3.1.3.3}The Poincare group and particle labels}{46}{subsubsection.3.1.3.3}
-\contentsline {subsubsection}{\numberline {3.1.3.4}Building the Lagrangian for a free scalar particle}{47}{subsubsection.3.1.3.4}
-\contentsline {subsubsection}{\numberline {3.1.3.5}Building the Lagrangian for a free spin $\frac {1}{2}$ particle}{49}{subsubsection.3.1.3.5}
-\contentsline {subsubsection}{\numberline {3.1.3.6}Building the Lagrangian for a free spin 1 particle}{54}{subsubsection.3.1.3.6}
-\contentsline {subsection}{\numberline {3.1.4}Lagrangians in Quantum Mechanics and QFT}{55}{subsection.3.1.4}
-\contentsline {subsection}{\numberline {3.1.5}Perturbation Theory and Feynman Rules}{57}{subsection.3.1.5}
-\contentsline {subsection}{\numberline {3.1.6}Interactions}{64}{subsection.3.1.6}
-\contentsline {subsection}{\numberline {3.1.7}The Higgs Mechanism}{67}{subsection.3.1.7}
-\contentsline {section}{\numberline {3.2}The Standard Model Higgs and the LHC}{72}{section.3.2}
-\contentsline {chapter}{\numberline {4}\uppercase {THE SEARCH FOR $H\rightarrow \mu ^+\mu ^-$}}{77}{chapter.4}
-\contentsline {section}{\numberline {4.1}Discovery, Limits, and Measurement, and Sensitivity}{77}{section.4.1}
-\contentsline {section}{\numberline {4.2}The Analysis Strategy}{83}{section.4.2}
-\contentsline {section}{\numberline {4.3}Improving the Level-1 Muon Trigger}{85}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Metrics of Success}{86}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}The EMTF Regression Project}{87}{subsection.4.3.2}
-\contentsline {subsection}{\numberline {4.3.3}Putting the BDTs into a Look-up Table}{89}{subsection.4.3.3}
-\contentsline {subsection}{\numberline {4.3.4}Results and Conclusions}{89}{subsection.4.3.4}
-\contentsline {section}{\numberline {4.4}Data and Monte Carlo Samples}{91}{section.4.4}
-\contentsline {section}{\numberline {4.5}Muon Momentum Calibration}{95}{section.4.5}
-\contentsline {subsection}{\numberline {4.5.1}Muon Corrections in Data}{96}{subsection.4.5.1}
-\contentsline {subsection}{\numberline {4.5.2}Data-MC agreement in scale, resolution}{99}{subsection.4.5.2}
-\contentsline {subsection}{\numberline {4.5.3}Derivation of systematic uncertainties}{105}{subsection.4.5.3}
-\contentsline {section}{\numberline {4.6}Event Selection, Object Reconstruction, and Further Corrections}{105}{section.4.6}
-\contentsline {subsection}{\numberline {4.6.1}Muons}{106}{subsection.4.6.1}
-\contentsline {subsection}{\numberline {4.6.2}Jets and MET}{106}{subsection.4.6.2}
-\contentsline {subsection}{\numberline {4.6.3}Pile-Up Reweighting}{107}{subsection.4.6.3}
-\contentsline {subsection}{\numberline {4.6.4}Muon Efficiency Scale Factors}{107}{subsection.4.6.4}
-\contentsline {subsection}{\numberline {4.6.5}Jet, MET, and B-Tagging Corrections}{108}{subsection.4.6.5}
-\contentsline {subsection}{\numberline {4.6.6}Event Selection}{109}{subsection.4.6.6}
-\contentsline {section}{\numberline {4.7}Maximizing the Sensitivity}{109}{section.4.7}
-\contentsline {subsection}{\numberline {4.7.1}Training Boosted Decision Trees}{110}{subsection.4.7.1}
-\contentsline {subsection}{\numberline {4.7.2}Event Categorization}{112}{subsection.4.7.2}
-\contentsline {subsection}{\numberline {4.7.3}The Autocategorizer}{113}{subsection.4.7.3}
-\contentsline {subsection}{\numberline {4.7.4}Final Categories}{115}{subsection.4.7.4}
-\contentsline {subsection}{\numberline {4.7.5}Validating The Categories}{117}{subsection.4.7.5}
-\contentsline {subsection}{\numberline {4.7.6}Signal and Background}{125}{subsection.4.7.6}
-\contentsline {section}{\numberline {4.8}Modeling the Signal}{133}{section.4.8}
-\contentsline {section}{\numberline {4.9}Modeling the Background}{137}{section.4.9}
-\contentsline {section}{\numberline {4.10}Systematic Uncertainties}{139}{section.4.10}
-\contentsline {subsection}{\numberline {4.10.1}Signal}{139}{subsection.4.10.1}
-\contentsline {subsubsection}{\numberline {4.10.1.1}Shape uncertainties}{140}{subsubsection.4.10.1.1}
-\contentsline {subsubsection}{\numberline {4.10.1.2}Category migration uncertainties}{140}{subsubsection.4.10.1.2}
-\contentsline {subsubsection}{\numberline {4.10.1.3}Rate uncertainties}{141}{subsubsection.4.10.1.3}
-\contentsline {subsubsection}{\numberline {4.10.1.4}Impact plots}{142}{subsubsection.4.10.1.4}
-\contentsline {subsection}{\numberline {4.10.2}Background}{143}{subsection.4.10.2}
-\contentsline {section}{\numberline {4.11}Results}{148}{section.4.11}
-\contentsline {subsection}{\numberline {4.11.1}Results for 13 TeV Data}{148}{subsection.4.11.1}
-\contentsline {subsection}{\numberline {4.11.2}Results Combining 7, 8, and 13 TeV Data}{154}{subsection.4.11.2}
-\contentsline {subsection}{\numberline {4.11.3}Future Projections}{156}{subsection.4.11.3}
-\contentsline {extrachapter}{REFERENCES}{157}{chapter*.6}
-\contentsline {extrachapter}{BIOGRAPHICAL SKETCH}{159}{chapter*.7}
+\contentsline {subsubsection}{\numberline {2.2.3.2}Cathode Strip Chambers}{25}{subsubsection.2.2.3.2}
+\contentsline {subsubsection}{\numberline {2.2.3.3}Resistive Plate Chambers}{25}{subsubsection.2.2.3.3}
+\contentsline {subsection}{\numberline {2.2.4}Trigger System}{26}{subsection.2.2.4}
+\contentsline {subsubsection}{\numberline {2.2.4.1}Level-1 Trigger}{26}{subsubsection.2.2.4.1}
+\contentsline {chapter}{\numberline {3}\uppercase {THE STANDARD MODEL}}{28}{chapter.3}
+\contentsline {section}{\numberline {3.1}Quantum Field Theory}{30}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Particles, Symmetries, and Labels}{31}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}The Lagrangian Formalism}{31}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.3}QFT From Symmetry}{36}{subsection.3.1.3}
+\contentsline {subsubsection}{\numberline {3.1.3.1}Rotations}{36}{subsubsection.3.1.3.1}
+\contentsline {subsubsection}{\numberline {3.1.3.2}The Lorentz group}{40}{subsubsection.3.1.3.2}
+\contentsline {subsubsection}{\numberline {3.1.3.3}The Poincare group and particle labels}{47}{subsubsection.3.1.3.3}
+\contentsline {subsubsection}{\numberline {3.1.3.4}Building the Lagrangian for a free scalar particle}{48}{subsubsection.3.1.3.4}
+\contentsline {subsubsection}{\numberline {3.1.3.5}Building the Lagrangian for a free spin $\frac {1}{2}$ particle}{50}{subsubsection.3.1.3.5}
+\contentsline {subsubsection}{\numberline {3.1.3.6}Building the Lagrangian for a free spin 1 particle}{55}{subsubsection.3.1.3.6}
+\contentsline {subsection}{\numberline {3.1.4}Lagrangians in Quantum Mechanics and QFT}{56}{subsection.3.1.4}
+\contentsline {subsection}{\numberline {3.1.5}Perturbation Theory and Feynman Rules}{58}{subsection.3.1.5}
+\contentsline {subsection}{\numberline {3.1.6}Interactions}{65}{subsection.3.1.6}
+\contentsline {subsection}{\numberline {3.1.7}The Higgs Mechanism}{68}{subsection.3.1.7}
+\contentsline {section}{\numberline {3.2}The Standard Model Higgs and the LHC}{73}{section.3.2}
+\contentsline {chapter}{\numberline {4}\uppercase {THE SEARCH FOR $H\rightarrow \mu ^+\mu ^-$}}{78}{chapter.4}
+\contentsline {section}{\numberline {4.1}Discovery, Limits, and Measurement, and Sensitivity}{78}{section.4.1}
+\contentsline {section}{\numberline {4.2}The Analysis Strategy}{84}{section.4.2}
+\contentsline {section}{\numberline {4.3}Improving the Level-1 Muon Trigger}{86}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Metrics of Success}{87}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}The EMTF Regression Project}{88}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}Putting the BDTs into a Look-up Table}{90}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.3.4}Results and Conclusions}{90}{subsection.4.3.4}
+\contentsline {section}{\numberline {4.4}Data and Monte Carlo Samples}{92}{section.4.4}
+\contentsline {section}{\numberline {4.5}Muon Momentum Calibration}{96}{section.4.5}
+\contentsline {subsection}{\numberline {4.5.1}Muon Corrections in Data}{97}{subsection.4.5.1}
+\contentsline {subsection}{\numberline {4.5.2}Data-MC agreement in scale, resolution}{100}{subsection.4.5.2}
+\contentsline {subsection}{\numberline {4.5.3}Derivation of systematic uncertainties}{106}{subsection.4.5.3}
+\contentsline {section}{\numberline {4.6}Event Selection, Object Reconstruction, and Further Corrections}{106}{section.4.6}
+\contentsline {subsection}{\numberline {4.6.1}Muons}{107}{subsection.4.6.1}
+\contentsline {subsection}{\numberline {4.6.2}Jets and MET}{107}{subsection.4.6.2}
+\contentsline {subsection}{\numberline {4.6.3}Pile-Up Reweighting}{108}{subsection.4.6.3}
+\contentsline {subsection}{\numberline {4.6.4}Muon Efficiency Scale Factors}{108}{subsection.4.6.4}
+\contentsline {subsection}{\numberline {4.6.5}Jet, MET, and B-Tagging Corrections}{109}{subsection.4.6.5}
+\contentsline {subsection}{\numberline {4.6.6}Event Selection}{110}{subsection.4.6.6}
+\contentsline {section}{\numberline {4.7}Maximizing the Sensitivity}{110}{section.4.7}
+\contentsline {subsection}{\numberline {4.7.1}Training Boosted Decision Trees}{111}{subsection.4.7.1}
+\contentsline {subsection}{\numberline {4.7.2}Event Categorization}{113}{subsection.4.7.2}
+\contentsline {subsection}{\numberline {4.7.3}The Autocategorizer}{114}{subsection.4.7.3}
+\contentsline {subsection}{\numberline {4.7.4}Final Categories}{116}{subsection.4.7.4}
+\contentsline {subsection}{\numberline {4.7.5}Validating The Categories}{118}{subsection.4.7.5}
+\contentsline {subsection}{\numberline {4.7.6}Signal and Background}{126}{subsection.4.7.6}
+\contentsline {section}{\numberline {4.8}Modeling the Signal}{134}{section.4.8}
+\contentsline {section}{\numberline {4.9}Modeling the Background}{138}{section.4.9}
+\contentsline {section}{\numberline {4.10}Systematic Uncertainties}{140}{section.4.10}
+\contentsline {subsection}{\numberline {4.10.1}Signal}{140}{subsection.4.10.1}
+\contentsline {subsubsection}{\numberline {4.10.1.1}Shape uncertainties}{141}{subsubsection.4.10.1.1}
+\contentsline {subsubsection}{\numberline {4.10.1.2}Category migration uncertainties}{141}{subsubsection.4.10.1.2}
+\contentsline {subsubsection}{\numberline {4.10.1.3}Rate uncertainties}{142}{subsubsection.4.10.1.3}
+\contentsline {subsubsection}{\numberline {4.10.1.4}Impact plots}{143}{subsubsection.4.10.1.4}
+\contentsline {subsection}{\numberline {4.10.2}Background}{144}{subsection.4.10.2}
+\contentsline {section}{\numberline {4.11}Results}{149}{section.4.11}
+\contentsline {subsection}{\numberline {4.11.1}Results for 13 TeV Data}{149}{subsection.4.11.1}
+\contentsline {subsection}{\numberline {4.11.2}Results Combining 7, 8, and 13 TeV Data}{155}{subsection.4.11.2}
+\contentsline {subsection}{\numberline {4.11.3}Future Projections}{157}{subsection.4.11.3}
+\contentsline {extrachapter}{REFERENCES}{158}{chapter*.6}
+\contentsline {extrachapter}{BIOGRAPHICAL SKETCH}{161}{chapter*.7}

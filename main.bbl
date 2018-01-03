@@ -1,4 +1,4 @@
-\begin{thebibliography}{15}
+\begin{thebibliography}{28}
 \newcommand{\enquote}[1]{``#1''}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
@@ -18,8 +18,31 @@
 \newblock \emph{Journal of High Energy Physics} 2015 (2015).1: 69.
 \newline\urlprefix\url{https://doi.org/10.1007/JHEP01(2015)069}
 
-\bibitem[{{\relax CMS Collaboration}(2012)}]{cmsdiscovery2012}
+\bibitem[{{\relax CMS Collaboration}(1997)}]{mutdr}
 {\relax CMS Collaboration}.
+\newblock \enquote{{The CMS muon project: Technical Design Report}.}
+\newblock Tech. Rep. CERN-LHCC-97-032, CMS-TDR-3, 1997.
+
+\bibitem[{{\relax CMS Collaboration}(2006)}]{tdr}
+---{}---{}---.
+\newblock \enquote{{CMS Technical Design Report, Volume I: Detector Performance
+  and Software}.}
+\newblock Tech. Rep. CERN-LHCC-2006-001, CMS-TDR-008-1, 2006.
+
+\bibitem[{{\relax CMS Collaboration}(2008)}]{cmsexp}
+---{}---{}---.
+\newblock \enquote{The CMS experiment at the CERN LHC.}
+\newblock \emph{Journal of Instrumentation} 3 (2008).08: S08004.
+\newline\urlprefix\url{http://stacks.iop.org/1748-0221/3/i=08/a=S08004}
+
+\bibitem[{{\relax CMS Collaboration}(2011)}]{cmsweb}
+---{}---{}---.
+\newblock \enquote{CMS Detector.}
+\newblock \emph{CMS Web}  (2011).
+\newline\urlprefix\url{http://cms.web.cern.ch/}
+
+\bibitem[{{\relax CMS Collaboration}(2012)}]{cmsdiscovery2012}
+---{}---{}---.
 \newblock \enquote{Observation of a new boson at a mass of 125 GeV with the CMS
   experiment at the LHC.}
 \newblock \emph{Physics Letters B} 716 (2012).1: 30 -- 61.
@@ -32,8 +55,15 @@
 \newblock \emph{Journal of High Energy Physics} 2013 (2013).6: 81.
 \newline\urlprefix\url{https://doi.org/10.1007/JHEP06(2013)081}
 
+\bibitem[{{\relax CMS collaboration}(2013)}]{muonsys}
+{\relax CMS collaboration}.
+\newblock \enquote{The performance of the CMS muon detector in proton-proton
+  collisions at √ s = 7 TeV at the LHC.}
+\newblock \emph{Journal of Instrumentation} 8 (2013).11: P11002.
+\newline\urlprefix\url{http://stacks.iop.org/1748-0221/8/i=11/a=P11002}
+
 \bibitem[{{\relax CMS Collaboration}(2014{\natexlab{a}})}]{cmshiggstau}
----{}---{}---.
+{\relax CMS Collaboration}.
 \newblock \enquote{Evidence for the 125 GeV Higgs boson decaying to a pair of
   $\tau$ leptons.}
 \newblock \emph{Journal of High Energy Physics} 2014 (2014{\natexlab{a}}).5:
@@ -54,28 +84,51 @@
 \newblock \emph{Phys. Rev. D} 89 (2014{\natexlab{c}}): 012003.
 \newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevD.89.012003}
 
+\bibitem[{{\relax CMS Collaboration}(2015)}]{cmscollab}
+---{}---{}---.
+\newblock \enquote{CMS Collaboration.}
+\newblock \emph{CMS Web}  (2015).
+\newline\urlprefix\url{http://cms.web.cern.ch/content/cms-collaboration}
+
 \bibitem[{{\relax CMS Collaboration}(2017)}]{CMS-DP-2017-041}
 ---{}---{}---.
 \newblock \enquote{{Level-1 muon trigger performance in 2017 data and
   comparison with the legacy muon trigger system}.}  (2017).
 \newline\urlprefix\url{https://cds.cern.ch/record/2286327}
 
-\bibitem[{Collaboration(1997)}]{mutdr}
-Collaboration, CMS.
-\newblock \enquote{{The CMS muon project: Technical Design Report}.}
-\newblock Tech. Rep. CERN-LHCC-97-032, CMS-TDR-3, 1997.
+\bibitem[{Evans and Bryant(2008)}]{LHC}
+Evans, Lyndon and Bryant, Philip.
+\newblock \enquote{LHC Machine.}
+\newblock \emph{Journal of Instrumentation} 3 (2008).08: S08001.
+\newline\urlprefix\url{http://stacks.iop.org/1748-0221/3/i=08/a=S08001}
 
-\bibitem[{Collaboration(2006)}]{tdr}
----{}---{}---.
-\newblock \enquote{{CMS Technical Design Report, Volume I: Detector Performance
-  and Software}.}
-\newblock Tech. Rep. CERN-LHCC-2006-001, CMS-TDR-008-1, 2006.
+\bibitem[{Group(2015)}]{crossbranchplots}
+Group, LHC Higgs Cross Section~Working.
+\newblock \enquote{Higgs cross sections and decay branching ratios.}
+\newblock \emph{CERN Wiki Page}  (2015).
+\newline\urlprefix\url{https://twiki.cern.ch/twiki/bin/view/LHCPhysics/CrossSections}
 
 \bibitem[{Han and McElrath(2002)}]{smallestbranch2}
 Han, Tao and McElrath, Bob.
 \newblock \enquote{h→μ+μ− via gluon fusion at the LHC.}
 \newblock \emph{Physics Letters B} 528 (2002).1: 81 -- 85.
 \newline\urlprefix\url{http://www.sciencedirect.com/science/article/pii/S037026930201208X}
+
+\bibitem[{Higgs(1964{\natexlab{a}})}]{higgs2}
+Higgs, Peter~W.
+\newblock \enquote{Broken Symmetries and the Masses of Gauge Bosons.}
+\newblock \emph{Phys. Rev. Lett.} 13 (1964{\natexlab{a}}): 508--509.
+\newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.13.508}
+
+\bibitem[{Higgs(1964{\natexlab{b}})}]{higgs1}
+---{}---{}---.
+\newblock \enquote{{Broken symmetries, massless particles and gauge fields}.}
+\newblock \emph{Phys. Lett.} 12 (1964{\natexlab{b}}): 132--133.
+
+\bibitem[{Higgs(1966)}]{higgs3}
+---{}---{}---.
+\newblock \enquote{{Spontaneous Symmetry Breakdown without Massless Bosons}.}
+\newblock \emph{Phys. Rev.} 145 (1966): 1156--1163.
 
 \bibitem[{Hoecker et~al.(2007)Hoecker, Speckmayer, Stelzer, Therhaag, von
   Toerne, and Voss}]{Hocker:2007ht}
@@ -89,11 +142,35 @@ Khachatryan, Vardan et~al.
 \newblock \enquote{{The CMS trigger system}.}
 \newblock \emph{JINST} 12 (2017).01: P01020.
 
+\bibitem[{Lancaster and Blundell(2014)}]{qftam}
+Lancaster, Tom and Blundell, Stephen~J.
+\newblock \emph{{Quantum field theory for the gifted amateur}}.
+\newblock Oxford: Oxford University Press, 2014.
+\newline\urlprefix\url{https://cds.cern.ch/record/1629337}
+
+\bibitem[{Mobs(2016)}]{cernaccelcomplex}
+Mobs, Esma.
+\newblock \enquote{{The CERN accelerator complex. Complexe des accélérateurs
+  du CERN}.}  (2016).
+\newblock General Photo.
+\newline\urlprefix\url{https://cds.cern.ch/record/2197559}
+
+\bibitem[{{\relax Particle Data Group}(2012)}]{pdgreview}
+{\relax Particle Data Group}.
+\newblock \enquote{Review of Particle Physics.}
+\newblock \emph{Phys. Rev. D} 86 (2012): 010001.
+\newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevD.86.010001}
+
 \bibitem[{Plehn and Rainwater(2001)}]{smallestbranch1}
 Plehn, Tilman and Rainwater, David.
 \newblock \enquote{Higgs decays to muons in weak boson fusion.}
 \newblock \emph{Physics Letters B} 520 (2001).1: 108 -- 114.
 \newline\urlprefix\url{http://www.sciencedirect.com/science/article/pii/S0370269301011571}
+
+\bibitem[{{Sean Carroll}(2007)}]{smnograv}
+{Sean Carroll}.
+\newblock \emph{{Dark Matter, Dark Energy: The Dark Side of the Universe}}.
+\newblock The Teaching Company, 2007.
 
 \bibitem[{Tapper and Acosta(2013)}]{Tapper:1556311}
 Tapper, A and Acosta, Darin.
