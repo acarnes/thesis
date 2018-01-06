@@ -1,19 +1,19 @@
-\contentsline {figure}{\numberline {{2-1}}{\ignorespaces The CERN Accelerator Complex \cite {cernaccelcomplex}}}{17}{figure.2.1}
-\contentsline {figure}{\numberline {{2-2}}{\ignorespaces The CMS detector \cite {cmsweb}}}{18}{figure.2.2}
+\contentsline {figure}{\numberline {{2-1}}{\ignorespaces The CERN Accelerator Complex [\cite {cernaccelcomplex}]}}{17}{figure.2.1}
+\contentsline {figure}{\numberline {{2-2}}{\ignorespaces The CMS detector [\cite {cmsweb}]}}{18}{figure.2.2}
 \contentsline {figure}{\numberline {{2-3}}{\ignorespaces The sagitta measurement}}{20}{figure.2.3}
-\contentsline {figure}{\numberline {{2-4}}{\ignorespaces A slice of the CMS detector \cite {cmsweb}}}{21}{figure.2.4}
-\contentsline {figure}{\numberline {{2-5}}{\ignorespaces A Look at the Muon System \cite {muonsys}}}{23}{figure.2.5}
-\contentsline {figure}{\numberline {{2-6}}{\ignorespaces A Drift Tube \cite {mutdr}}}{24}{figure.2.6}
-\contentsline {figure}{\numberline {{2-7}}{\ignorespaces A Cathode Strip Chamber \cite {mutdr}}}{25}{figure.2.7}
-\contentsline {figure}{\numberline {{2-8}}{\ignorespaces The L1 Trigger Architecture \cite {cmsexp}}}{27}{figure.2.8}
+\contentsline {figure}{\numberline {{2-4}}{\ignorespaces A slice of the CMS detector [\cite {cmsweb}]}}{21}{figure.2.4}
+\contentsline {figure}{\numberline {{2-5}}{\ignorespaces A Look at the Muon System [\cite {muonsys}]}}{23}{figure.2.5}
+\contentsline {figure}{\numberline {{2-6}}{\ignorespaces A Drift Tube [\cite {mutdr}]}}{24}{figure.2.6}
+\contentsline {figure}{\numberline {{2-7}}{\ignorespaces A Cathode Strip Chamber [\cite {mutdr}]}}{25}{figure.2.7}
+\contentsline {figure}{\numberline {{2-8}}{\ignorespaces The L1 Trigger Architecture [\cite {cmsexp}]}}{27}{figure.2.8}
 \contentsline {figure}{\numberline {{3-1}}{\ignorespaces The Standard Model Particles}}{29}{figure.3.1}
 \contentsline {figure}{\numberline {{3-2}}{\ignorespaces Feynman diagrams for the Numerator N$(\lambda ^1)$ = $Z_0$A + $Z_0$B + $Z_0$C.}}{63}{figure.3.2}
 \contentsline {subfigure}{\numberline {A}{\ignorespaces {}}}{63}{figure.3.2}
 \contentsline {subfigure}{\numberline {B}{\ignorespaces {}}}{63}{figure.3.2}
 \contentsline {subfigure}{\numberline {C}{\ignorespaces {}}}{63}{figure.3.2}
 \contentsline {figure}{\numberline {{3-3}}{\ignorespaces The Feynman diagrams for $\mathinner {\delimiter "426830A {0}|}\Phi (x_4)\Phi (x_3)\Phi (x_2)\Phi (x_1)\mathinner {|{0}\delimiter "526930B }_{\lambda ^1}$ representing the matrix element for $2\rightarrow 2$ scattering up to first order.}}{64}{figure.3.3}
-\contentsline {figure}{\numberline {{3-4}}{\ignorespaces The highest production mode cross sections for the SM Higgs at 14 TeV \cite {crossbranchplots}}}{73}{figure.3.4}
-\contentsline {figure}{\numberline {{3-5}}{\ignorespaces The graphic on the top left presents the SM Higgs branching fractions as functions of mass while the table on the bottom right displays the branching fractions for a 125 GeV SM Higgs \cite {crossbranchplots}.}}{75}{figure.3.5}
+\contentsline {figure}{\numberline {{3-4}}{\ignorespaces The highest production mode cross sections for the SM Higgs at 14 TeV [\cite {crossbranchplots}]}}{73}{figure.3.4}
+\contentsline {figure}{\numberline {{3-5}}{\ignorespaces The graphic on the top left presents the SM Higgs branching fractions as functions of mass while the table on the bottom right displays the branching fractions for a 125 GeV SM Higgs [\cite {crossbranchplots}].}}{75}{figure.3.5}
 \contentsline {figure}{\numberline {{3-6}}{\ignorespaces The SM production modes with the highest cross sections. a) Gluon Gluon Fusion (GGF) b) Vector Boson Fusion (VBF) c) Associated Production with a Vector Boson (VH) d) ${\rm t\mathaccentV {bar}016{t}}$H}}{76}{figure.3.6}
 \contentsline {figure}{\numberline {{3-7}}{\ignorespaces The quark-gluon background looks very similar to the GGF production channel when the Higgs decays to two jets. Protons are made of quarks and gluons so this process is extremely common in proton colliders like the LHC.}}{76}{figure.3.7}
 \contentsline {figure}{\numberline {{4-1}}{\ignorespaces On the left, the upgraded EMTF rate divided by the legacy rate is shown for a variety of $p_t$ thresholds. On the right, the upgraded and legacy efficiencies are presented for a 25 GeV threshold. The upgraded EMTF has a 3x lower rate than the legacy system at 25 GeV with virtually no difference in plateau efficiency for the same threshold. Plots are taken from \cite {CMS-DP-2017-041}.}}{91}{figure.4.1}

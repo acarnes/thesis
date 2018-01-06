@@ -1,4 +1,4 @@
-\begin{thebibliography}{30}
+\begin{thebibliography}{34}
 \newcommand{\enquote}[1]{``#1''}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
@@ -102,6 +102,11 @@ Evans, Lyndon and Bryant, Philip.
 \newblock \emph{Journal of Instrumentation} 3 (2008).08: S08001.
 \newline\urlprefix\url{http://stacks.iop.org/1748-0221/3/i=08/a=S08001}
 
+\bibitem[{Feynman and Hibbs(1965)}]{feynhibbs}
+Feynman, Richard P. (Richard~Phillips) and Hibbs, Albert~R.
+\newblock \emph{Quantum mechanics and path integrals}.
+\newblock International series in pure and applied physics. 1965.
+
 \bibitem[{Group(2015)}]{crossbranchplots}
 Group, LHC Higgs Cross Section~Working.
 \newblock \enquote{Higgs cross sections and decay branching ratios.}
@@ -166,6 +171,11 @@ Mobs, Esma.
 \newblock \emph{Phys. Rev. D} 86 (2012): 010001.
 \newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevD.86.010001}
 
+\bibitem[{Peskin and Schroeder(1995)}]{peskin}
+Peskin, Michael~E and Schroeder, Daniel~V.
+\newblock \emph{{An Introduction to Quantum Field Theory}}.
+\newblock Boulder, CO: Westview, 1995.
+
 \bibitem[{Plehn and Rainwater(2001)}]{smallestbranch1}
 Plehn, Tilman and Rainwater, David.
 \newblock \enquote{Higgs decays to muons in weak boson fusion.}
@@ -186,6 +196,18 @@ Tapper, A and Acosta, Darin.
   Jeffrey.Spalding@cern.ch Didier Contardo, Universite Claude Bernard-Lyon I,
   didier.claude.contardo@cern.ch.
 \newline\urlprefix\url{https://cds.cern.ch/record/1556311}
+
+\bibitem[{Weinberg(2005)}]{weinberg}
+Weinberg, Steven.
+\newblock \emph{The Quantum Theory of Fields, Volume 1: Foundations}.
+\newblock Cambridge University Press, 2005.
+
+\bibitem[{Wigner(1939)}]{wigner}
+Wigner, E.
+\newblock \enquote{On Unitary Representations of the Inhomogeneous Lorentz
+  Group.}
+\newblock \emph{Annals of Mathematics} 40 (1939).1: 149--204.
+\newline\urlprefix\url{http://www.jstor.org/stable/1968551}
 
 \bibitem[{Zee(2003)}]{zee}
 Zee, A.
