@@ -913,6 +913,7 @@ Perturbation theory solves an intractable path integral with interactions by exp
 \end{equation}
 and it describes a particle going from $(t_1,\vec{x}_1)$ to $(t_2,\vec{x}_2)$. Integrating by parts and throwing away the boundary term turns the path integrals into Gaussians 
 \begin{equation}
+\label{eq:phi2pt}
 \bra{0}\Phi(t_2,\vec{x}_2)\Phi(t_1,\vec{x}_1)\ket{0} = 
 \frac{\int \mathcal{D}[\Phi]\Phi(t_2,\vec{x}_2)\Phi(t_1,\vec{x}_1)e^{i\int_{-\infty}^{\infty} d^4x \frac{1}{2}\Phi (-\partial_\mu\partial^\mu - m^2)\Phi}}
 {\int \mathcal{D}[\Phi]e^{i\int_{-\infty}^{\infty} d^4x \frac{1}{2}\Phi (-\partial_\mu\partial^\mu - m^2)\Phi}}.
@@ -932,13 +933,14 @@ Transforming to the eigenbasis yields a multidimensional Gaussian integral
 \end{split}
 \end{equation}
 
-The solution uses the fact that the determinant is the product of eigenvalues. The integral from the numerator can be dealt with by taking derivatives of the moment generating function 
+The solution uses the fact that the determinant is the product of eigenvalues. The integral from the numerator of Equation \ref{eq:phi2pt} can be dealt with by taking derivatives of the moment generating function 
 \begin{equation}
+\label{eq:momgen}
 \int d\Phi_1 d\Phi_2 ... d\Phi_N \Phi_k\Phi_l e^{i\frac{1}{2}\Phi_{i} K_{ij} \Phi_{j}} 
 = \frac{1}{i}\frac{\delta}{\delta J_k}\frac{1}{i}\frac{\delta}{\delta J_l}\Big|_{J=0} 
 \int d\Phi_1 d\Phi_2 ... d\Phi_N e^{i\frac{1}{2}\Phi_{i} K_{ij} \Phi_{j} + iJ_i\Phi_i}. 
 \end{equation}
-And the integral on the right can be solved using the substitution $\Phi' = \Phi + K^{-1}J$ to complete the square, 
+And the integral on the right of Equation \ref{eq:momgen} can be solved using the substitution $\Phi' = \Phi + K^{-1}J$ to complete the square, 
 \begin{equation}
 \begin{split}
 \int d\Phi_1 d\Phi_2 ... d\Phi_N e^{i\frac{1}{2}\Phi_{i} K_{ij} \Phi_{j} + iJ_i\Phi_i} 
@@ -956,7 +958,7 @@ where the last line reverts back to continuous functions and operators. Applying
 & = Z_0 iK^{-1}_{ij}. \\
 \end{split}
 \end{equation}
-Then plugging in the solutions for the numerator and denominator shows that the two point correlation function is given by the Feynman propagator, $\mathcal{D}_F$, 
+Then plugging in the solutions for the numerator and denominator of Equation \ref{eq:phi2pt} shows that the two point correlation function is given by the Feynman propagator, $\mathcal{D}_F$, 
 \begin{equation}
 \begin{split}
 \bra{0}\Phi(x_2)\Phi(x_1)\ket{0} &= 
@@ -966,7 +968,7 @@ Then plugging in the solutions for the numerator and denominator shows that the 
 &= iK^{-1}(x_2,x_1) = i(-\partial_\mu\partial^\mu - m^2)^{-1} = \mathcal{D}_F(x_2,x_1).\\ 
 \end{split}
 \end{equation}
-In momentum space K is diagonal and $\mathcal{D}_F = \frac{i}{p^2-m^2 + i\epsilon}$. Converting to the spacetime basis yields, $\mathcal{D}_F(x_2,x_1) = \int \frac{d^4k}{\sqrt{2\pi}^4}\frac{i e^{-ik\cdot(x_2-x_1)}}{p^2-m^2 + i\epsilon}$, which represents a free particle propagating frome one place to another.  
+In momentum space K is diagonal and $\mathcal{D}_F = \frac{i}{p^2-m^2 + i\epsilon}$. Converting to the spacetime basis yields $\mathcal{D}_F(x_2,x_1) = \int \frac{d^4k}{\sqrt{2\pi}^4}\frac{i e^{-ik\cdot(x_2-x_1)}}{p^2-m^2 + i\epsilon}$, which represents a free particle propagating from one place to another.  
 
 The Feynman propagators are the building blocks for the higher order correlation functions. Take the four point function as an example,
 \begin{equation}
@@ -981,7 +983,7 @@ The Feynman propagators are the building blocks for the higher order correlation
 \sum_{n=0}^\infty \frac{1}{n!}\left( -\frac{1}{2}\int d^4x d^4y J(y) \mathcal{D}_F(y,x) J(x) \right)^n. 
 \end{split}
 \end{equation}
-When J=0 only the term with four Js and four derivatives survives. The four derivatives hit the Js and leave terms like $\mathcal{D}_F(d,c) \mathcal{D}_F(b,a)$. In this case, there are 4!=24 ways to rearrange a,b,c, and d. However, the order of the spacetime points within the propagator doesn't matter nor does the order of the propagators, so this reduces the total to $\frac{4!}{2!2^2}$ = 3 ways. The $\frac{1}{n!}$ and the $\frac{1}{2^n}$ from the expansion naturally take care of the degeneracy,
+When J=0 only the term with four Js and four derivatives survives. The four derivatives hit the Js and leave terms like $\mathcal{D}_F(d,c) \mathcal{D}_F(b,a)$. In this case, there are 4!=24 ways to rearrange a,b,c, and d. However, the order of the spacetime points within the propagator doesn't matter nor does the order of the propagators, so this reduces the total to $\frac{4!}{2!2^2}$ = 3 ways. The $\frac{1}{n!}$ and the $\frac{1}{2^n}$ from the expansion naturally take care of the degeneracy. The solution to the four point function is
 \begin{equation}
 \begin{split}
 &\bra{0}\Phi(x_4)\Phi(x_3)\Phi(x_2)\Phi(x_1)\ket{0} \\
@@ -1019,7 +1021,7 @@ The simplest interacting theory is $\mathcal{L}_{int} = -\frac{\lambda}{4!}\Phi^
 &\bra{0}\Phi(x_2)\Phi(x_1)\ket{0} = \\ 
 & \frac{\int \mathcal{D}[\Phi]\Phi(x_2)\Phi(x_1)
 e^{i\int_{-\infty}^{\infty} d^4x \frac{1}{2}\Phi (-\partial_\mu\partial^\mu - m^2)\Phi} \sum_{n=0}^{\infty} \frac{1}{n!}\left(\int_{-\infty}^{\infty} d^4z \frac{-i\lambda}{4!}\Phi(z)^4\right)^n}
-{\int \mathcal{D}[\Phi]e^{i\int_{-\infty}^{\infty} d^4x \frac{1}{2}\Phi (-\partial_\mu\partial^\mu - m^2)\Phi} \sum_{n=0}^{\infty} \frac{1}{n!}\left(\int_{-\infty}^{\infty} d^4z \frac{-i\lambda}{4!}\Phi(z)^4 \right)^n }. \\
+{\int \mathcal{D}[\Phi]e^{i\int_{-\infty}^{\infty} d^4x \frac{1}{2}\Phi (-\partial_\mu\partial^\mu - m^2)\Phi} \sum_{n=0}^{\infty} \frac{1}{n!}\left(\int_{-\infty}^{\infty} d^4z \frac{-i\lambda}{4!}\Phi(z)^4 \right)^n }.
 \end{split}
 \end{equation}
 Consider the numerator up to first order in $\lambda$
@@ -1028,8 +1030,8 @@ Consider the numerator up to first order in $\lambda$
 N(\lambda^1) &= \int \mathcal{D}[\Phi]\Phi(x_2)\Phi(x_1)
 e^{i\int_{-\infty}^{\infty} d^4x \frac{1}{2}\Phi (-\partial_\mu\partial^\mu - m^2)\Phi} \left(1 + \int_{-\infty}^{\infty} d^4z \frac{-i\lambda}{4!}\Phi(z)^4\right) \\
 &=  Z_0\mathcal{D}_F(x_2,x_1) +  
-\int_{-\infty}^{\infty} d^4z \frac{-i\lambda}{4!} \int \mathcal{D}[\Phi]\Phi(x_2)\Phi(x_1)\Phi(z)^4e^{i\int_{-\infty}^{\infty} d^4x \frac{1}{2}\Phi (-\partial_\mu\partial^\mu - m^2)\Phi}\\
-\end{split}.
+\int_{-\infty}^{\infty} d^4z \frac{-i\lambda}{4!} \int \mathcal{D}[\Phi]\Phi(x_2)\Phi(x_1)\Phi(z)^4e^{i\int_{-\infty}^{\infty} d^4x \frac{1}{2}\Phi (-\partial_\mu\partial^\mu - m^2)\Phi}.
+\end{split}
 \end{equation}
 The first term is just the Feynman propagator, but the order $\lambda$ term contains a correlation function with six $\Phi$s. Solving the six point integral requires adding up all combinations of terms of the form $\mathcal{D}_F(a,b) \mathcal{D}_F(c,d) \mathcal{D}_F(e,f)$ while accounting for the appropriate degeneracies. There are $\frac{6!}{3!2^3}$ = 15 possible propagator triples: 12 ways to put x and y in separate propagators and 3 ways to put them in the same one. With this information the perturbation series for the numerator is finally in hand, 
 \begin{equation}
@@ -1040,7 +1042,7 @@ N(\lambda^1) &= Z_0\underbracket[0.8pt]{\mathcal{D}_F(x_2,x_1)}_\text{A}
 \end{split}.
 \end{equation} 
 
-The perturbation series for any n-point correlation function can be represented in terms of Feynman diagrams, which assign symbols to the different pieces of math. In this simple scalar interacting theory, a line represents a factor of $\mathcal{D}_F(a,b)$ ($\mathcal{D}_F(z,z)$ if it's a loop) and an internal vertex representing an interaction, provides a factor of $-i\lambda\int d^4z$. The Feynman diagrams for N$(\lambda^1)$ are shown in Figure \ref{fig:feynfullprop}. In those diagrams, A and B are fully connected while C is disconnected. The separation reveals the fact that the pieces may be calculated independently and then multiplied. The fully connected pieces are the fundamental expressions from which any correlation function may be derived. There are two types of connected diagrams, those with external points and those with no external points. Those with zero external points represent vacuum fluctuations.
+The perturbation series for any n-point correlation function can be represented in terms of Feynman diagrams, which assign symbols to the different pieces of math. In this simple scalar interacting theory, a line represents a factor of $\mathcal{D}_F(a,b)$ (or $\mathcal{D}_F(z,z)$ if it's a loop) and an internal vertex provides a factor of $-i\lambda\int d^4z$. An internal vertex represents an interaction. The Feynman diagrams for N$(\lambda^1)$ are shown in Figure \ref{fig:feynfullprop}. In those diagrams, A and B are fully connected while C is disconnected. The separation reveals the fact that the pieces may be calculated independently and then multiplied. The fully connected pieces are the fundamental expressions from which any correlation function may be derived. There are two types of connected diagrams, those with external points and those with no external points. Those with zero external points represent vacuum fluctuations.
 \begin{figure}[htbp]
      \centering
    \mbox{
@@ -1052,12 +1054,12 @@ The perturbation series for any n-point correlation function can be represented 
     {Feynman diagrams for N$(\lambda^1)$ = $Z_0$A + $Z_0\frac{12}{4!}$B + $Z_0\frac{3}{4!}$C.}
     \label{fig:feynfullprop}
 \end{figure}
-The denominator is a normalization that serves to eliminate $Z_0$ and the disconnected diagrams with vacuum fluctuations like C. It removes the contributions where the vacuum fluctuates independently from the process of interest. Finally, the propagator for the fully interacting theory up to first order in $\lambda$ is 
+The denominator is a normalization that serves to eliminate $Z_0$ and the disconnected diagrams with vacuum fluctuations like C. It removes the contributions where the vacuum fluctuates independently from the process of interest [\cite{peskin}]. Finally, the propagator for the fully interacting theory up to first order in $\lambda$ is 
 \begin{equation}
 \bra{0}\Phi(x_2)\Phi(x_1)\ket{0}_{\lambda^1} = A + \frac{12}{4!}B = \mathcal{D}_F(x_2,x_1) + 
 \frac{12}{4!}(-i\lambda)\int_{-\infty}^{\infty} d^4z \mathcal{D}_F(x_2,z) \mathcal{D}_F(x_1,z) \mathcal{D}_F(z,z).
 \end{equation}
-The factors out front are called symmetry factors and provide a weight for each diagram. In this theory the symmetry factor for a diagram is the number of nondegenerate ways to place pairs of points into the propagators with a factor of by $\frac{1}{4!}$ for every interaction vertex. 
+The factors out front are called symmetry factors and provide a weight for each diagram. In this theory, the symmetry factor for a diagram is the number of nondegenerate ways to place pairs of points into the propagators multiplied by a factor of by $\frac{1}{4!}$ for every interaction vertex. 
 
 The Feynman rules for a theory can be used to build the perturbation series for any process, and this is why they are so ubiquitous. Any n-point correlation function is the weighted\footnote{The weights are the symmetry factors.} sum of all possible diagrams with n external points -- excluding those with disconnected vacuum fluctuations. For $2 \rightarrow 2$ scattering, the correlation function to first order requires the six diagrams shown in Figure \ref{fig:feyn2-2}. 
 \begin{figure}[h!]
@@ -1081,7 +1083,7 @@ Summing the six diagrams yields the full four point correlation function to firs
  &+ -i\lambda\int d^4z\mathcal{D}_F(x_1,z)\mathcal{D}_F(x_2,z)\mathcal{D}_F(x_3,z)\mathcal{D}_F(x_4,z).
 \end{split}
 \end{equation}
-The Feynman rules for the actual interactions of the Standard Model are derived from the interacting Lagrangians in a similar way. 
+The Feynman rules for the actual interactions of the Standard Model are derived from the interacting Lagrangians in a similar way. The Feynman diagrams represent the math in the same way, using the appropriate $\mathcal{D}_F$ propagators for the lines and the right coupling factors for the vertices. Different types of lines are used in the diagrams to represent the different types propagators. 
 
 %%%%%%%%%%%%%%%%%%%%%%
 \subsection{Interactions}
