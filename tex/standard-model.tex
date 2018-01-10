@@ -1093,10 +1093,10 @@ The spin 1 and spin $\frac{1}{2}$ Lagrangians were obtained after a lengthy adve
 \begin{equation}
 \begin{split}
 S &= \int d^4x \frac{-1}{4}F_{\mu\nu}F^{\mu\nu} + \frac{m_A^2}{2} A^\mu A_\mu + \bar{\psi}\left(i\gamma^\mu\partial_\mu - m\right)\psi + q\bar{\psi}\gamma^\mu A_\mu \psi \\
-&= \int d^4x \frac{-1}{4}F_{\mu\nu}F^{\mu\nu} + \frac{m_A^2}{2} A^\mu A_\mu + \bar{\psi}\left[i\gamma^\mu\left(\partial_\mu - iqA_\mu\right)- m \right]\psi 
+&= \int d^4x \frac{-1}{4}F_{\mu\nu}F^{\mu\nu} + \frac{m_A^2}{2} A^\mu A_\mu + \bar{\psi}\left[i\gamma^\mu\left(\partial_\mu - iqA_\mu\right)- m \right]\psi. 
 \end{split}
 \end{equation}
-To describe electromagnetism, the photon field should be massless and the interacting theory should be gauge invariant. Setting $m_A$ to zero and checking whether $A_\mu \rightarrow A_\mu(x) + \partial_\mu\alpha(x)$ is a symmetry, provides  
+To describe electromagnetism, the photon field should be massless and the theory should be gauge invariant. Setting $m_A$ to zero and checking whether $A_\mu \rightarrow A_\mu(x) + \partial_\mu\alpha(x)$ is a symmetry, provides  
 %S = \int d^4x \frac{-1}{4}F_{\mu\nu}F^{\mu\nu} + \bar{\psi}\left(i\gamma^\mu\partial_\mu - m + q\gamma^\mu A_\mu + q\gamma^\mu\partial_\mu\alpha\right)\psi.
 \begin{equation}
 S = \int d^4x \frac{-1}{4}F_{\mu\nu}F^{\mu\nu} + \bar{\psi}\left[i\gamma^\mu\left(\partial_\mu - iqA_\mu - iq\partial_\mu\alpha\right)- m \right]\psi, 
@@ -1120,27 +1120,30 @@ Therefore c=-iq and $a_\mu = \partial_\mu\alpha$. Furthermore, $F^{\mu\nu}F_{\mu
 \begin{equation}
 S = \int d^4x \frac{-1}{4}(\partial_\mu A_\nu - \partial_\nu A_\mu)(\partial^\mu A^\nu - \partial^\nu A^\mu) + \bar{\psi}\left[i\gamma^\mu\left(\partial_\mu - iqA_\mu\right) - m \right]\psi, 
 \end{equation}
-effectively deriving the Lagrangian for Quantum Electrodynamics (QED).
+which correctly describes Quantum Electrodynamics (QED) [\cite{zee}].
 
-The QED U(1) symmetry has a single generator and, as a consequence, bypasses any commutation issues. The SU(2) transformation $\psi \rightarrow U\psi$ with $U = e^{\frac{i}{2}q\alpha_i(x)\sigma_i}$ is a bit more complicated. If 
+The QED U(1) symmetry has a single generator and, as a consequence, bypasses any commutation issues. The SU(2) transformation $\psi \rightarrow U\psi$ with $U = e^{\frac{i}{2}q\alpha_i(x)\sigma_i}$ is a bit more complicated. For any unitary transformation, if 
 \begin{equation}
 \bar{\psi}U^\dagger i\gamma^\mu\left(\partial_\mu + cA'_{\mu}\right)U\psi = \bar{\psi}i\gamma^\mu\left(\partial_\mu + cA_{\mu}\right)\psi 
 \end{equation}
-is true when $A_\mu \rightarrow A'_\mu$ then the derivative term will be gauge invariant under SU(2). This is true when $\left(\partial_\mu + cA'_{\mu}\right)U\psi =U\left(\partial_\mu + cA_{\mu}\right)\psi$. The transformation $A_\mu \rightarrow UA_\mu U^\dagger + \Delta A_{\mu}$ helps simplify the conditions for gauge invariance, 
+is true when $A_\mu \rightarrow A'_\mu$, then by definition gauge invariance is retained. This is true when $\left(\partial_\mu + cA'_{\mu}\right)U\psi =U\left(\partial_\mu + cA_{\mu}\right)\psi$. Breaking down the transformation on $A_{\mu}$ into $A_\mu \rightarrow UA_\mu U^\dagger + \Delta A_{\mu}$ helps simplify the conditions for gauge invariance, 
 \begin{equation}
 \begin{split}
 \left(\partial_\mu + cA'_{\mu}\right)U\psi &=  \partial_\mu(U\psi) + cA'_{\mu}U\psi \\
 & = (\partial_\mu U)\psi + U(\partial_\mu\psi) + cA'_{\mu}U\psi \\ 
-& = (\partial_\mu U)\psi + U(\partial_\mu\psi) + cUA_{\mu}U^\dagger U\psi + c\Delta A_{\mu} \\
-& = U\left(\partial_\mu + cA_{\mu}\right)\psi + (\partial_\mu U)\psi + c\Delta A_{\mu} \\
-& \rightarrow c\Delta A_{\mu} = -(\partial_\mu U)\psi = - (\partial_\mu U)U^\dagger U\psi = U\partial_\mu U^\dagger\psi
+& = (\partial_\mu U)\psi + U(\partial_\mu\psi) + cUA_{\mu}U^\dagger U\psi + c\Delta A_{\mu}U\psi \\
+& = U\left(\partial_\mu + cA_{\mu}\right)\psi + (\partial_\mu U)\psi + c\Delta A_{\mu}U\psi.
 \end{split}
 \end{equation}
-The last line uses the fact that for a unitary matrix U, $UU^\dagger = 1$ and $\partial_\mu(UU^\dagger) = 0$. To preserve gauge invariance under a unitary transformation $\psi \rightarrow U\psi$, $cA_\mu$ must transform as
+To get $U\left(\partial_\mu + cA_{\mu}\right)\psi$ and retain invariance, $(\partial_\mu U)\psi + c\Delta A_{\mu}U\psi$ must be zero. This requires 
+\begin{equation}
+c\Delta A_{\mu}U\psi = -(\partial_\mu U)\psi = - (\partial_\mu U)U^\dagger U\psi = U(\partial_\mu U^\dagger) U\psi.
+\end{equation}
+The last line uses the fact that for a unitary matrix U, $UU^\dagger = 1$ and $\partial_\mu(UU^\dagger) = 0$. Therefore, to preserve gauge invariance under the unitary transformation $\psi \rightarrow U\psi$, $cA_\mu$ must transform as
 \begin{equation}
 cA_\mu(x) \rightarrow cUA_\mu(x)U^\dagger + U\partial_\mu U^\dagger .
 \end{equation}
-For invariance under SU(2) the derivative can be calculated
+For invariance under SU(2) the derivative can be calculated explicitly
 \begin{equation}
 \begin{split}
 cA_\mu(x) &\rightarrow cUA_\mu(x)U^\dagger + c\Delta A_\mu \\ 
@@ -1149,21 +1152,21 @@ cA_\mu(x) &\rightarrow cUA_\mu(x)U^\dagger + c\Delta A_\mu \\
 \end{equation}
 Choosing c=-iq and $\Delta A_\mu = \frac{\sigma_i}{2}\partial_\mu\alpha_i(x)$ determines the coupling constant and the transformation for the SU(2) invariant Lagrangian.
 
-$A_\mu$ is a matrix which may be expanded in terms of the SU(2) generators, $A_\mu$ = $A^1_{\mu}\frac{\sigma_1}{2}$ + $A^2_{\mu}\frac{\sigma_2}{2}$ + $A^3_{\mu}\frac{\sigma_3}{2}$. Note that U(1) only requires a single particle while SU(2) requires three. For a general unitary transformation, there will be a force carrying particle for each generator, and an expansion $A_\mu = T^cA^c_\mu$. By representing $A_\mu$ in terms of the generators, the transformation for each component, $A^c_\mu$, may be calculated for a general unitary transformation, 
+$A_\mu$ is a matrix which may be expanded in terms of the SU(2) generators, $A_\mu$ = $A^1_{\mu}\frac{\sigma_1}{2}$ + $A^2_{\mu}\frac{\sigma_2}{2}$ + $A^3_{\mu}\frac{\sigma_3}{2}$. Note that U(1) only requires a single particle while SU(2) requires three. For the SU(N) transformations, there will be a force carrying particle for each generator, and the field may be expanded using the generators as a basis, $A_\mu = T^cA^c_\mu$. In this case, the transformation for each component of $A_\mu$ may be written explicitly, 
 \begin{equation}
 \label{eq:Agauge}
 A^c_\mu \rightarrow A^c_\mu - f^{abc}\alpha^a A^b_\mu + \partial_\mu\alpha^c, 
 \end{equation}
 where $[T^a,T^b]=if^{abc}T^c$ defines the Lie alegbra of the group. For SU(2) in particular, $A_\mu = \frac{\sigma_c}{2}A^c$ and $f^{abc} = \epsilon^{abc}$.
-This defines the $D_\mu$ part of the SU(2) Lagrangian, but $F_{\mu\nu}$ still needs to be defined so that it remains invariant under equation \ref{eq:Agauge}. Defining 
+This defines half of the SU(2) Lagrangian, but $F_{\mu\nu}$ still needs to be defined so that it remains invariant under equation \ref{eq:Agauge}. Defining 
 \begin{equation}
 F_{\mu\nu} = \partial_\mu A_\nu - \partial_\nu A_\mu - iq[A_\mu,A_\nu] 
 \end{equation}
-makes $F_{\mu\nu}$ covariant, $F_{\mu\nu} \rightarrow UF_{\mu\nu}U^\dagger$, and to make it invariant, the trace is taken. So finally, the full gauge invariant Lagrangian with massless fermions is given by
+makes $F_{\mu\nu}$ covariant, $F_{\mu\nu} \rightarrow UF_{\mu\nu}U^\dagger$, [\cite{zee}] and to make it invariant, the trace is taken. So finally, the full gauge invariant Lagrangian with massless fermions is given by
 \begin{equation}
 S = \int d^4x \mathcal{N}tr(F_{\mu\nu}F^{\mu\nu}) + \bar{\psi}i\gamma^\mu D_\mu\psi,
 \end{equation}
-where $D_\mu = \partial_\mu - iqA_\mu$ is the covariant derivative. The Lagrangian holds for any unitary gauge transformation, U(1) provides electromagnetism, adding on SU(2) provides the electroweak interactions, and adding SU(3) provides the strong force. All three together, describe the Standard Model. For SU(N) invariant theories the Lagrangian is given by, 
+where $D_\mu = \partial_\mu - iqA_\mu$ is the covariant derivative. The Lagrangian holds for the U(1) and SU(N) gauge transformations. U(1) provides electromagnetism, adding on SU(2) provides the electroweak interactions, and adding SU(3) provides the strong force. All three together, describe the Standard Model. Writing out the trace in terms of the generators, the Lagrangian is given by, 
 \begin{equation}
 \label{eq:ewlagrangian}
 S = \int d^4x \frac{-1}{2}tr(F_{\mu\nu}F^{\mu\nu}) + \bar{\psi}i\gamma^\mu D_\mu\psi 

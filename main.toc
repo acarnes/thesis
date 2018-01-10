@@ -14,7 +14,7 @@
 \contentsline {subsubsection}{\numberline {2.2.3.2}Cathode Strip Chambers}{25}{subsubsection.2.2.3.2}
 \contentsline {subsubsection}{\numberline {2.2.3.3}Resistive Plate Chambers}{25}{subsubsection.2.2.3.3}
 \contentsline {subsection}{\numberline {2.2.4}Trigger System}{26}{subsection.2.2.4}
-\contentsline {subsubsection}{\numberline {2.2.4.1}Level-1 Trigger}{26}{subsubsection.2.2.4.1}
+\contentsline {subsection}{\numberline {2.2.5}Level-1 Trigger}{26}{subsection.2.2.5}
 \contentsline {chapter}{\numberline {3}\uppercase {THE STANDARD MODEL}}{28}{chapter.3}
 \contentsline {section}{\numberline {3.1}Quantum Field Theory}{30}{section.3.1}
 \contentsline {subsection}{\numberline {3.1.1}Particles, Symmetries, and Labels}{31}{subsection.3.1.1}

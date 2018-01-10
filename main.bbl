@@ -1,4 +1,4 @@
-\begin{thebibliography}{34}
+\begin{thebibliography}{35}
 \newcommand{\enquote}[1]{``#1''}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
@@ -84,11 +84,19 @@
 \newblock \emph{Phys. Rev. D} 89 (2014{\natexlab{c}}): 012003.
 \newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevD.89.012003}
 
-\bibitem[{{\relax CMS Collaboration}(2015)}]{cmscollab}
+\bibitem[{{\relax CMS Collaboration}(2015{\natexlab{a}})}]{cmscollab}
 ---{}---{}---.
 \newblock \enquote{CMS Collaboration.}
-\newblock \emph{CMS Web}  (2015).
+\newblock \emph{CMS Web}  (2015{\natexlab{a}}).
 \newline\urlprefix\url{http://cms.web.cern.ch/content/cms-collaboration}
+
+\bibitem[{{\relax CMS Collaboration}(2015{\natexlab{b}})}]{cmshiggsmumu2012}
+---{}---{}---.
+\newblock \enquote{Search for a standard model-like Higgs boson in the μ+μ−
+  and e+e− decay channels at the LHC.}
+\newblock \emph{Physics Letters B} 744 (2015{\natexlab{b}}).Supplement C: 184
+  -- 207.
+\newline\urlprefix\url{http://www.sciencedirect.com/science/article/pii/S0370269315002117}
 
 \bibitem[{{\relax CMS Collaboration}(2017)}]{CMS-DP-2017-041}
 ---{}---{}---.

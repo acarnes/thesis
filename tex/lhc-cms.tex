@@ -131,7 +131,7 @@ Collision events come at a rate of 10 MHz with each event taking up roughly a MB
 
 CMS tackled this issue by dividing the trigger into different tiers. The Level-1 Trigger is the first stage of the trigger system made from custom hardware which can operate at fantastic speed. The Level-1 Trigger reduces the rate from 40 MHz to 100 KHz. The events passing the L1 Trigger move onto the High Level Trigger (HLT) which further reduces the rate to 1 KHz. Due to the lower input rate the HLT can operate in software.
 
-\subsubsection{Level-1 Trigger}
+\subsection{Level-1 Trigger}
 
 The Level-1 (L1) Trigger is made of up different subsystems that work together to decide whether to keep the data from a beam crossing for further processing. The University of Florida works with the Level-1 muon trigger system, the Endcap Muon Track Finder (EMTF) in particular. The muon system needs to determine the transverse momenta of muons and their location and choose the best candidates. Each of the different muon detectors have their own local triggers which send their best muon tracks to the Global Muon Trigger (GMT). The GMT chooses the best muon candidates from that set and passes these on to the Global Trigger (GT). The GT combines the information from the calorimeter triggering system and uses the combined information to check whether the bunch crossing should be sent to the HLT or discarded. The L1 Trigger has many different trigger criteria defining separate triggers. These pass/fail information from the separate triggers define the trigger bits. If an event passes any of the triggers then it is forwarded for further processing.
 
