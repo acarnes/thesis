@@ -32,7 +32,7 @@
 \contentsline {subsection}{\numberline {3.1.7}The Higgs Mechanism}{68}{subsection.3.1.7}
 \contentsline {section}{\numberline {3.2}The Standard Model Higgs and the LHC}{73}{section.3.2}
 \contentsline {chapter}{\numberline {4}\uppercase {THE SEARCH FOR $H\rightarrow \mu ^+\mu ^-$}}{78}{chapter.4}
-\contentsline {section}{\numberline {4.1}Discovery, Limits, and Measurement, and Sensitivity}{78}{section.4.1}
+\contentsline {section}{\numberline {4.1}Discovery, Limits, Measurement, and Sensitivity}{78}{section.4.1}
 \contentsline {section}{\numberline {4.2}The Analysis Strategy}{84}{section.4.2}
 \contentsline {section}{\numberline {4.3}Improving the Level-1 Muon Trigger}{86}{section.4.3}
 \contentsline {subsection}{\numberline {4.3.1}Metrics of Success}{87}{subsection.4.3.1}

@@ -1193,7 +1193,7 @@ The W and Z bosons observed in nature are massive, but directly adding a mass te
 \begin{equation}
 \frac{1}{2}m_A^2A_\mu A^\mu \rightarrow \frac{1}{2}m_A^2(UA_\mu U^\dagger + \Delta A_\mu)(UA^\mu U^\dagger + \Delta A^\mu). 
 \end{equation}
-Meanwhile for the matter particles, the gauge transformation acts on a column of fermions which leaves the $\bar{\psi}m\psi$ term invariant,  
+Both the  $UAU^\dagger$ and the $\Delta A$ are a problem. Meanwhile for the matter particles, the gauge transformation acts on a column of fermions which leaves the $\bar{\psi}m\psi$ term invariant,  
 \begin{equation}
 \begin{pmatrix}
 \bar{\psi_1} \\
@@ -1215,7 +1215,7 @@ U^\dagger mU
 \psi_1 & ... & \psi_n
 \end{pmatrix},
 \end{equation}
-but this term restricts the fermions to the same mass. In order to describe the massive fermions and massive W and Z particles as seen in nature the Higgs mechanism is needed. Relativistically, mass is energy, so the idea is to produce $m_A^2A_\mu A^\mu$ and $\bar{\psi}m\psi$ terms via some interaction energy involving a new field. Because mass is a scalar, the interactions require a scalar field, and because the mass is derived from a nonzero interaction energy, the groundstate of the scalar field should be nonzero. For all of these reasons, the Higgs mechanism adds a scalar field with a $\phi^4$ potential term to the Lagrangian, 
+but this term restricts the fermions to the same mass. In order to describe the massive fermions and the massive W and Z particles seen in nature the Higgs mechanism is needed. Relativistically, mass is energy, so the idea is to produce $m_A^2A_\mu A^\mu$ and $\bar{\psi}m\psi$ terms via some interaction energy involving a new field. Because mass is a scalar, the interactions require a scalar field, and because the mass is derived from a nonzero interaction energy, the groundstate of the scalar field should be nonzero. For all of these reasons, the Higgs mechanism adds a scalar field with a $\phi^4$ potential term to the Lagrangian, 
 \begin{equation}
 \label{eq:toyew1}
 \mathcal{L}^{toy}_\phi = (\partial^\mu\phi - iqA^\mu\phi)^\dagger(\partial_\mu\phi - iqA_\mu\phi) + \frac{m_h^2}{2}\phi^\dagger\phi - \frac{\lambda}{4}(\phi^\dagger\phi)^2.
@@ -1226,9 +1226,9 @@ As $\phi$ goes into the groundstate, $\phi \rightarrow \phi_0$, the force carryi
 \mathcal{L}^{toy}_I = -\beta(L^\dagger\phi R + R^\dagger\phi L).
 \end{equation}
 
-The toy examples of equations \ref{eq:toyew1} and \ref{eq:toyew2} cover the basic ideas behind the Higgs mechanism, but correctly describing the electroweak interaction requires a more complex and intricate theory, the U(1)xSU(2) Weinberg-Salam Lagrangian. The Weinberg-Salam Lagrangian includes a U(1) gauge field and an SU(2) gauge field.In the theory, the U(1) field and the third component of the SU(2) field mix up, with one orthogonal piece providing the massive Z boson and the other the massless photon. The remaining first and second components of the SU(2) field mix up to provide the massive $W^+$ and $W^-$ bosons. 
+The toy examples of equations \ref{eq:toyew1} and \ref{eq:toyew2} cover the basic ideas behind the Higgs mechanism, but correctly describing the electroweak interaction requires a more complex and intricate theory, the U(1)xSU(2) Weinberg-Salam Lagrangian. The Weinberg-Salam Lagrangian includes a U(1) gauge field and an SU(2) gauge field. In the theory, the U(1) field and the third component of the SU(2) field mix up, with one orthogonal piece providing the massive Z boson and the other the massless photon. The remaining first and second components of the SU(2) field mix up to provide the massive $W^+$ and $W^-$ bosons. 
 
-The Weinberg-Salam Lagrangian for the electron (e) and electron neutrino ($\nu_e$) of equation \ref{eq:ws} is written in terms of left and right handed Dirac spinors. Left and right handed Dirac spinors are defined in terms of the left and right handed spinors as follows, $\psi_L = \begin{pmatrix} L \\ 0 \end{pmatrix}$ and $\psi_R = \begin{pmatrix} 0 \\ R \end{pmatrix}$. In nature, the weak force treats left and right handed particles differently. The $W^+$ and $W^-$ particles interact only with left handed particles and interact with those of the same generation symmetrically. In this regard, the Lagrangian is written to respect the interchange of the left handed particles with the SU(2) transformation acting on $L = \begin{pmatrix} \nu_e \\ e_L \end{pmatrix}$. The remaining right handed particles are denoted by $R = e_R$. In addition, only left handed neutrinos have been observed in nature, so $\nu_e$ is left handed. The electroweak Lagrangian is then,  
+The Weinberg-Salam Lagrangian for the electron (e) and electron neutrino ($\nu_e$) of equation \ref{eq:ws} is written in terms of left and right handed Dirac spinors, $e_L$, $e_R$, and $\nu_e$. Left and right handed Dirac spinors for a particle are defined in terms of the left and right handed spinors (s) for the particle as follows, $\psi_L = \begin{pmatrix} s_L \\ 0 \end{pmatrix}$ and $\psi_R = \begin{pmatrix} 0 \\ s_R \end{pmatrix}$. In nature, the weak force treats left and right handed particles differently. The $W^+$ and $W^-$ particles interact only with left handed particles and interact with those of the same generation symmetrically. In this regard, the Lagrangian is written to respect the interchange of the left handed, same generation particles. This symmetry is an SU(2) transformation acting on the column vector of left handed Dirac spinors, $L = \begin{pmatrix} \nu_e \\ e_L \end{pmatrix}$. The remaining right handed particle is denoted by $R = e_R$. In addition, only left handed neutrinos have been observed in nature, so $\nu_e$ is left handed. The electroweak Lagrangian is then,  
 \begin{equation}
 \label{eq:ws}
 \begin{split}
@@ -1240,14 +1240,14 @@ The Weinberg-Salam Lagrangian for the electron (e) and electron neutrino ($\nu_e
             &+ \frac{m_h^2}{2}\phi^\dagger\phi - \frac{\lambda}{4}(\phi^\dagger\phi)^2.
 \end{split}
 \end{equation}
-The SU(2) field, $W_\mu$, is a complex 2x2 matrix expanded in terms of the Pauli matrices which operates on 2x1 complex column vectors. Therefore $\phi$ is written 
+The SU(2) field, $W_\mu$, in its simplest nontrivial representation is a complex 2x2 matrix that operates on 2x1 complex column vectors. Therefore $\phi$ is written 
 \begin{equation}
 \phi = 
 \begin{pmatrix}
 \phi_+ \\ \phi_-
 \end{pmatrix}.
 \end{equation}
-To isolate the mass terms, the scalar field is expanded about its minimum, $|\phi| = \phi_0 = \sqrt{\frac{m_h^2}{\lambda}}$. The minimum is degenerate, only requiring that $|\phi_+|^{2} + |\phi_-|^{2} = \phi_0^2$. The particular solution $\phi = \begin{pmatrix} 0 \\ \phi_0 + \frac{1}{\sqrt{2}}h(x) \end{pmatrix}$ fixes the fermion mass terms such that the electron acquires mass in the correct way and that the strange mass-like coupling between the electron and neutrino disappears,
+To isolate the mass terms, the scalar field is expanded about its minimum, $|\phi_{min}| = \phi_0 = \sqrt{\frac{m_h^2}{\lambda}}$. The minimum is degenerate, only requiring that $|\phi_+|^{2} + |\phi_-|^{2} = \phi_0^2$. The particular solution $\phi = \begin{pmatrix} 0 \\ \phi_0 + \frac{1}{\sqrt{2}}h(x) \end{pmatrix}$ fixes the fermion mass terms such that the electron acquires mass in the correct way. The choice also eliminates the strange mass-like coupling between the electron and neutrino,
 \begin{equation}
 \beta(\bar{L}\phi R + \bar{R}\phi^\dagger L) = \beta(\bar{\nu}_e\phi_+e_R + \bar{e}_R\phi_+^{*}\nu_e + \bar{e}_L\phi_-e_R + \bar{e}_R\phi_-^{*}e_L) \rightarrow 
 \beta(\bar{e}_L\phi_0e_R + \bar{e}_R\phi_0e_L).
@@ -1292,37 +1292,37 @@ The $\phi_0^2$ terms determine the masses,
 (D^\mu\phi)^\dagger(D_\mu\phi) = q^2_{w\phi}\frac{\phi_0^2}{4}(W^1_\mu)^2 + q^2_{w\phi}\frac{\phi_0^2}{4}(W^2_\mu)^2 
                                       + \frac{\phi_0^2}{4}(q_{w\phi}W^3_\mu - 2q_{b\phi}B_\mu)^2 + \text{other terms.}
 \end{equation}
-The orthogonal term $q_{w\phi}W^3_\mu + 2q_{b\phi}B_\mu$ is missing from the covariant derivative and remains massless, providing the photon field. This leaves 
+The orthogonal term $q_{w\phi}W^3_\mu + 2q_{b\phi}B_\mu$ is missing from the covariant derivative and remains massless [\ref{qftam}], providing the photon field. This leaves 
 \begin{equation}
 m_{w} = \frac{q_{w\phi}\phi_0}{\sqrt{2}} \text{, }
 m_z = \frac{m_w}{q_{w\phi}} \text{, and } m_\gamma = 0.
 \end{equation}
-The photon, $A_\mu$, is a linear combination of $W^3_\mu$ and $B_\mu$. The U(1) symmetry corresponding to electromagnetism is then 
+The photon, $A_\mu$, is a linear combination of $W^3_\mu$ and $B_\mu$, which implies that the U(1) symmetry corresponding to electromagnetism is also a linear combination, 
 \begin{equation}
 \begin{split}
-& U_A = e^{i(Q_{wi}T^3 + Q_{bi})\alpha(x)} \\
-& W^3_\mu \rightarrow W^3_\mu + \frac{1}{g_w}\partial_\mu\alpha \\
-& B_\mu \rightarrow B_\mu + \frac{1}{g_b}\partial_\mu\alpha
+& U_A = e^{i(Q_{wi}T^3 + Q_{bi})\alpha(x)}, \\
+& W^3_\mu \rightarrow W^3_\mu + \frac{1}{g_w}\partial_\mu\alpha, \\
+& B_\mu \rightarrow B_\mu + \frac{1}{g_b}\partial_\mu\alpha.
 \end{split}
 \end{equation}
-where $T^3$ is the third SU(2) generator for the given representation, and the Qs are the normalized charges defined by,
+$T^3$ is the third SU(2) generator for the given representation, and the Qs are the normalized charges defined by,
 \begin{equation}
 q_{wi} = Q_{wi}g_w \text{ and } q_{bi} = Q_{bi}g_b.
 \end{equation} 
-The U(1) gauge symmetry leads to conservation of electromagnetic charge, $Q = Q_{w}I_{3} + Q_{b}$, implying that the electromagnetic charge for a given particle is $Q_i = Q_{wi}I_{3i} + Q_{bi}$. $I_3$ represents the eigenvalue of the $T^3$ generator denoting the particle eigenstate. For example, the operator $T^3 = \frac{\sigma^3}{2}$ acting on L has two eigenstates, $\nu_e$ and $e_L$, corresponding to eigenvalues $\frac{1}{2}$ and $\frac{-1}{2}$ respectively. Similarly, the eigenstates $\phi^+ = 0$ and $\phi^- = \phi_0 + h$ correspond to eigenvalues $\frac{1}{2}$ and $\frac{-1}{2}$. 
+The U(1) gauge symmetry leads to conservation of electromagnetic charge, $Q = Q_{w}I_{3} + Q_{b}$, implying that the electromagnetic charge for a given particle is $Q_i = Q_{wi}I_{3i} + Q_{bi}$. $I_{3i}$ represents the eigenvalue of the $T^3$ generator denoting the particle eigenstate. For example, the operator $T^3 = \frac{\sigma^3}{2}$ acting on L has two eigenstates, $\nu_e$ and $e_L$, corresponding to eigenvalues $I_{3\nu_e} = \frac{1}{2}$ and $I_{3e_L} = \frac{-1}{2}$ respectively. Similarly, the eigenstates $\phi^+ = 0$ and $\phi^- = \phi_0 + h$ correspond to eigenvalues $I_{3\phi^+} = \frac{1}{2}$ and $I_{3\phi^-} = \frac{-1}{2}$.  
 
-In order to agree with experiment, the left handed particles and the scalar field are assigned $Q_{wi} = 1$, and the right handed particles are assigned $Q_{wi} = 0$. The electromagnetic charge $Q_i$ and the isospin $Q_{wi}$ values fix the remaining electroweak $Q_{bi}$ values, 
+The symmetry of the W particles towards the left handed particles implies that the left handed particles have the same charge, $Q_{wi} = 1$. The lack of interaction between the W paricles and the right handed particles implies that the right handed particles have $Q_{wi} = 0$. The Higgs is assumed to interact with the W particles the same way as the left handed ones with a $Q_{wi} = 1$. The electromagnetic charge $Q_i$ and the isospin $Q_{wi}$ values fix the remaining electroweak $Q_{bi}$ values, 
 \begin{equation}
 \begin{split}
-&Q_{e_L} = Q_{we_L}I_3 + Q_{be_L} = \frac{-1}{2} + Q_{be_L} \\
-&Q_{e_R} = Q_{we_R}I_3 + Q_{be_R} = 0 + Q_{be_R} \\
-&Q_{\nu_e} = Q_{w\nu_e}I_3 + Q_{b\nu_e} = \frac{1}{2} + Q_{b\nu_e} \\
-&Q_{\phi} = Q_{w\phi}I_3 + Q_{b\phi} = \frac{-1}{2} + Q_{b\phi},
+&Q_{e_L} = Q_{we_L}I_{3e_L} + Q_{be_L} = \frac{-1}{2} + Q_{be_L} \\
+&Q_{e_R} = Q_{we_R}I_{3e_R} + Q_{be_R} = 0 + Q_{be_R} \\
+&Q_{\nu_e} = Q_{w\nu_e}I_{3\nu_e} + Q_{b\nu_e} = \frac{1}{2} + Q_{b\nu_e} \\
+&Q_{\phi^-} = Q_{w\phi^-}I_{3\phi^-} + Q_{b\phi^-} = \frac{-1}{2} + Q_{b\phi^-},
 \end{split}
 \end{equation}
 providing, 
 \begin{equation}
-Q_{be_L} = \frac{-1}{2}\text{, } Q_{be_R} = -1 \text{, } Q_{b\nu_e} = \frac{-1}{2} \text{, and } Q_{b\phi} = \frac{+1}{2}.
+Q_{be_L} = \frac{-1}{2}\text{, } Q_{be_R} = -1 \text{, } Q_{b\nu_e} = \frac{-1}{2} \text{, and } Q_{b\phi^-} = \frac{+1}{2}.
 \end{equation}
 The electroweak Lagrangian reduces to,
 \begin{equation}
@@ -1332,10 +1332,10 @@ The electroweak Lagrangian reduces to,
                (\partial_\mu\phi - ig_{w}\frac{\sigma_i}{2}W^i_\mu\phi - \frac{i}{2}g_{b}B^\mu\phi) \\ 
             &+ \bar{L}i\gamma^\mu(\partial_\mu - ig_{w}\frac{\sigma_i}{2}W_i^\mu + \frac{i}{2}g_{b}B_\mu)L + \bar{R}i\gamma^\mu(\partial_\mu + ig_{b}B_\mu)R \\
             &- \beta(\bar{L}\phi R + \bar{R}\phi^\dagger L) 
-             - \frac{1}{4}G_i^{\mu\nu}G^i_{\mu\nu} -\frac{1}{4}F^{\mu\nu}F_{\mu\nu} + \frac{m_h^2}{2}\phi^\dagger\phi - \frac{\lambda}{4}(\phi^\dagger\phi)^2
+             - \frac{1}{4}G_i^{\mu\nu}G^i_{\mu\nu} -\frac{1}{4}F^{\mu\nu}F_{\mu\nu} + \frac{m_h^2}{2}\phi^\dagger\phi - \frac{\lambda}{4}(\phi^\dagger\phi)^2,
 \end{split}
 \end{equation}
-with $\phi = \begin{pmatrix} 0 \\ \phi_0 + \frac{1}{\sqrt{2}}h(x) \end{pmatrix}$ and $L = \begin{pmatrix} \nu_e \\ e_L \end{pmatrix}$. In equation \ref{eq:ewlred}, the $W^+$ particle is $W^1_\mu+iW^2_\mu$, and the $W^-$ particle is $W^1_\mu - iW^2_\mu$. As for the neutral bosons, the photon is $g_{w}W^3_\mu + g_{b}B_\mu$, the Z boson is $g_{w}W^3_\mu - g_{b}B_\mu$, and the Higgs boson is h(x). Adding the next two generations of leptons, the three generations of quarks, and the SU(3) interactions to the electroweak Lagrangian defines the entire Standard Model.   
+with $\phi = \begin{pmatrix} 0 \\ \phi_0 + \frac{1}{\sqrt{2}}h(x) \end{pmatrix}$ and $L = \begin{pmatrix} \nu_e \\ e_L \end{pmatrix}$. In equation \ref{eq:ewlred}, the $W^+$ particle is $W^1_\mu+iW^2_\mu$, and the $W^-$ particle is $W^1_\mu - iW^2_\mu$. The photon is $g_{w}W^3_\mu + g_{b}B_\mu$, the Z boson is $g_{w}W^3_\mu - g_{b}B_\mu$, and the Higgs boson is h(x). Adding the next two generations of leptons, the three generations of quarks, and the SU(3) interactions to the electroweak Lagrangian defines the entire Standard Model.   
 %\begin{pmatrix} 0 \\ \phi_0 + \frac{1}{\sqrt{2}}h \end{pmatrix}
 %Only left handed neutrinos have been observed in nature, so the electron neutrino in the Lagrangian is a left handed Dirac spinor.
 % The left handed Dirac spinors are concatenated into $L = \begin{pmatrix} \nu_e \\ e_L \end{pmatrix}$.
@@ -1344,7 +1344,7 @@ with $\phi = \begin{pmatrix} 0 \\ \phi_0 + \frac{1}{\sqrt{2}}h(x) \end{pmatrix}$
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{The Standard Model Higgs and the LHC}
 
-The SM Higgs interacts with the massive particles of the SM and even with the massless gluons and photons through second order processes. As such, it can be produced by colliding certain combinations of these particles, and it can decay into them as well. At a particle collider like the LHC, the number of particles expected per second, for a certain process, is given by the cross section times the luminosity, $R = \sigma_i*L$. The cross section is proportional to the probability for a production process and consequently, describes how likely a collision attempt is to produce some particle(s) of interest. The luminosity roughly describes the density and the frequency of the incoming particles. Some of the Higgs cross sections for 14 TeV proton-proton collisions are shown in Figure \ref{fig:hprodcross}. 
+The SM Higgs interacts with the massive particles of the SM and even with the massless gluons and photons through second order processes. As such, it can be produced by colliding certain combinations of these particles, and it can decay into them as well. At a particle collider like the LHC, the number of particles expected for a certain process is given by the cross section times the integrated luminosity, $N = \sigma_i*L$. The cross section is proportional to the probability for a production process and consequently, describes how likely a collision attempt is to produce some particle(s) of interest. The luminosity roughly describes the density and the frequency of the incoming particles. Some of the Higgs cross sections for 14 TeV proton-proton collisions are shown in Figure \ref{fig:hprodcross}. 
 
 \begin{figure}[h!]
   \centering
@@ -1356,7 +1356,7 @@ The SM Higgs interacts with the massive particles of the SM and even with the ma
 
 The Higgs cross sections are functions of the mass of the Higgs as well as the energy of the collisons. For a given collision energy, as in Figure \ref{fig:hprodcross}, the cross sections decrease as the Higgs mass increases. When a larger portion of the collision energy was used to create the mass of the particle, there is less energy to distribute among the kinematic degrees of freedom and therefore fewer possibilities for distribution. On the other hand, for a specific Higgs mass, the cross section grows with collision energy at the LHC. This constrasts with cross sections involving collisions of fundamental particles, e.g. electron antielectron collisions, due to the fact that the LHC collides protons together. 
 
-Protons behave like a quantum superposition of an infinite number of quark-antiquarks, an infinite number of gluons, and the usual uud. As a consequence, the total momentum of a proton in a collision is divided up amongst these constituents called partons. This experimentally verified phenomena is modelled by the parton distribution function, which describes the number of partons with a given fraction of the total momentum. In general, there are many partons with very little of the momentum and this behavior implies that the cross section should increase with increasing proton momentum. With a larger proton momentum, the minimum creation energy for the process is a smaller fraction than before, and with more partons at this smaller fraction, it's as if a larger number with the necessary energy are now colliding. This effective increase in the density of energetic partons results in a growth of the cross section with collision energy. 
+Protons behave like a quantum superposition of an infinite number of quark-antiquarks, an infinite number of gluons, and the usual uud. As a consequence, the total momentum of a proton in a collision is divided up amongst these constituents called partons. This experimentally verified phenomena is modeled by the parton distribution function, which describes the number of partons with a given fraction of the total momentum. In general, there are many partons with very little of the momentum, and this behavior implies that the cross section should increase with increasing proton momentum. The minimum energy required to create a particular particle is a constant, and at larger proton momentum, this constant is a smaller fraction of the total proton momentum. With more partons at this smaller fraction, there are effectively more partons colliding with the necessary energy. This effective increase in the density of energetic partons results in a growth of the cross section with collision energy. 
 
 If a SM Higgs is produced, it's predicted to decay in about $10^{-22}$ seconds\footnote{Assuming a 125 GeV SM Higgs boson}, which means that the particle itself can't be directly detected at the LHC, only the the decay products can. The SM decay probabilities for the different products are listed in Figure \ref{fig:hbranch}. These probabilities are determined by the coupling, which for the Higgs is the mass of the particle. With a stronger coupling to more massive particles, the decays to the more massive particles are more probable.
 \begin{figure}[h!]
