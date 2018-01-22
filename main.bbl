@@ -94,8 +94,8 @@
 
 \bibitem{atlashiggsbb}
 \bibinfo{author}{{\relax ATLAS Collaboration}}.
-\newblock \bibinfo{title}{Search for the bb̄ decay of the standard model higgs
-  boson in associated (w/z)h production with the atlas detector.}
+\newblock \bibinfo{title}{Search for the b$\bar{b}$ decay of the standard model
+  higgs boson in associated (w/z)h production with the atlas detector.}
 \newblock \emph{\bibinfo{journal}{Journal of High Energy Physics}}
   \textbf{\bibinfo{volume}{2015}}, \bibinfo{pages}{69} (\bibinfo{year}{2015}).
 \newblock \urlprefix\url{https://doi.org/10.1007/JHEP01(2015)069}.
@@ -121,7 +121,7 @@
 \bibitem{cmshiggsmumu2012}
 \bibinfo{author}{{\relax CMS Collaboration}}.
 \newblock \bibinfo{title}{Search for a standard model-like higgs boson in the
-  μ+μ− and e+e− decay channels at the lhc}.
+  $\mu^+\mu^-$ and $e^+e^-$ decay channels at the lhc}.
 \newblock \emph{\bibinfo{journal}{Physics Letters B}}
   \textbf{\bibinfo{volume}{744}}, \bibinfo{pages}{184 -- 207}
   (\bibinfo{year}{2015}).
