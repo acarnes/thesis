@@ -1,225 +1,269 @@
-\begin{thebibliography}{35}
-\newcommand{\enquote}[1]{``#1''}
-\providecommand{\natexlab}[1]{#1}
-\providecommand{\url}[1]{\texttt{#1}}
-\providecommand{\urlprefix}{URL }
+\begin{thebibliography}{10}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\providecommand{\bibinfo}[2]{#2}
+\providecommand{\eprint}[2][]{\url{#2}}
 
-\bibitem[{{\relax ATLAS Collaboration}(2012)}]{atlasdiscovery}
-{\relax ATLAS Collaboration}.
-\newblock \enquote{Observation of a new particle in the search for the Standard
-  Model Higgs boson with the ATLAS detector at the LHC.}
-\newblock \emph{Physics Letters B} 716 (2012).1: 1 -- 29.
-\newline\urlprefix\url{http://www.sciencedirect.com/science/article/pii/S037026931200857X}
+\bibitem{smnograv}
+\bibinfo{author}{{Sean Carroll}}.
+\newblock \emph{\bibinfo{title}{{Dark Matter, Dark Energy: The Dark Side of the
+  Universe}}} (\bibinfo{publisher}{The Teaching Company},
+  \bibinfo{year}{2007}).
 
-\bibitem[{{\relax ATLAS Collaboration}(2015)}]{atlashiggsbb}
----{}---{}---.
-\newblock \enquote{Search for the bb̄ decay of the standard model Higgs boson
-  in associated (W/Z)H production with the ATLAS detector.}
-\newblock \emph{Journal of High Energy Physics} 2015 (2015).1: 69.
-\newline\urlprefix\url{https://doi.org/10.1007/JHEP01(2015)069}
+\bibitem{higgs1}
+\bibinfo{author}{Higgs, P.~W.}
+\newblock \bibinfo{title}{{Broken symmetries, massless particles and gauge
+  fields}}.
+\newblock \emph{\bibinfo{journal}{Phys. Lett.}} \textbf{\bibinfo{volume}{12}},
+  \bibinfo{pages}{132--133} (\bibinfo{year}{1964}).
 
-\bibitem[{{\relax CMS Collaboration}(1997)}]{mutdr}
-{\relax CMS Collaboration}.
-\newblock \enquote{{The CMS muon project: Technical Design Report}.}
-\newblock Tech. Rep. CERN-LHCC-97-032, CMS-TDR-3, 1997.
+\bibitem{higgs2}
+\bibinfo{author}{Higgs, P.~W.}
+\newblock \bibinfo{title}{Broken symmetries and the masses of gauge bosons}.
+\newblock \emph{\bibinfo{journal}{Phys. Rev. Lett.}}
+  \textbf{\bibinfo{volume}{13}}, \bibinfo{pages}{508--509}
+  (\bibinfo{year}{1964}).
+\newblock \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.13.508}.
 
-\bibitem[{{\relax CMS Collaboration}(2006)}]{tdr}
----{}---{}---.
-\newblock \enquote{{CMS Technical Design Report, Volume I: Detector Performance
-  and Software}.}
-\newblock Tech. Rep. CERN-LHCC-2006-001, CMS-TDR-008-1, 2006.
+\bibitem{higgs3}
+\bibinfo{author}{Higgs, P.~W.}
+\newblock \bibinfo{title}{{Spontaneous Symmetry Breakdown without Massless
+  Bosons}}.
+\newblock \emph{\bibinfo{journal}{Phys. Rev.}} \textbf{\bibinfo{volume}{145}},
+  \bibinfo{pages}{1156--1163} (\bibinfo{year}{1966}).
 
-\bibitem[{{\relax CMS Collaboration}(2008)}]{cmsexp}
----{}---{}---.
-\newblock \enquote{The CMS experiment at the CERN LHC.}
-\newblock \emph{Journal of Instrumentation} 3 (2008).08: S08004.
-\newline\urlprefix\url{http://stacks.iop.org/1748-0221/3/i=08/a=S08004}
+\bibitem{qftam}
+\bibinfo{author}{Lancaster, T.} \& \bibinfo{author}{Blundell, S.~J.}
+\newblock \emph{\bibinfo{title}{{Quantum field theory for the gifted amateur}}}
+  (\bibinfo{publisher}{Oxford University Press}, \bibinfo{address}{Oxford},
+  \bibinfo{year}{2014}).
+\newblock \urlprefix\url{https://cds.cern.ch/record/1629337}.
 
-\bibitem[{{\relax CMS Collaboration}(2011)}]{cmsweb}
----{}---{}---.
-\newblock \enquote{CMS Detector.}
-\newblock \emph{CMS Web}  (2011).
-\newline\urlprefix\url{http://cms.web.cern.ch/}
+\bibitem{atlasdiscovery}
+\bibinfo{author}{{\relax ATLAS Collaboration}}.
+\newblock \bibinfo{title}{Observation of a new particle in the search for the
+  standard model higgs boson with the atlas detector at the lhc}.
+\newblock \emph{\bibinfo{journal}{Physics Letters B}}
+  \textbf{\bibinfo{volume}{716}}, \bibinfo{pages}{1 -- 29}
+  (\bibinfo{year}{2012}).
+\newblock
+  \urlprefix\url{http://www.sciencedirect.com/science/article/pii/S037026931200857X}.
 
-\bibitem[{{\relax CMS Collaboration}(2012)}]{cmsdiscovery2012}
----{}---{}---.
-\newblock \enquote{Observation of a new boson at a mass of 125 GeV with the CMS
-  experiment at the LHC.}
-\newblock \emph{Physics Letters B} 716 (2012).1: 30 -- 61.
-\newline\urlprefix\url{http://www.sciencedirect.com/science/article/pii/S0370269312008581}
+\bibitem{cmsdiscovery2012}
+\bibinfo{author}{{\relax CMS Collaboration}}.
+\newblock \bibinfo{title}{Observation of a new boson at a mass of 125 gev with
+  the cms experiment at the lhc}.
+\newblock \emph{\bibinfo{journal}{Physics Letters B}}
+  \textbf{\bibinfo{volume}{716}}, \bibinfo{pages}{30 -- 61}
+  (\bibinfo{year}{2012}).
+\newblock
+  \urlprefix\url{http://www.sciencedirect.com/science/article/pii/S0370269312008581}.
 
-\bibitem[{{\relax CMS Collaboration}(2013)}]{cmsdiscovery2013}
----{}---{}---.
-\newblock \enquote{{Observation of a new boson with mass near 125 GeV in pp
-  collisions at ${\rm \sqrt{s}}$ = 7 and 8 TeV.}}
-\newblock \emph{Journal of High Energy Physics} 2013 (2013).6: 81.
-\newline\urlprefix\url{https://doi.org/10.1007/JHEP06(2013)081}
+\bibitem{cmsdiscovery2013}
+\bibinfo{author}{{\relax CMS Collaboration}}.
+\newblock \bibinfo{title}{{Observation of a new boson with mass near 125 GeV in
+  pp collisions at ${\rm \sqrt{s}}$ = 7 and 8 TeV.}}
+\newblock \emph{\bibinfo{journal}{Journal of High Energy Physics}}
+  \textbf{\bibinfo{volume}{2013}}, \bibinfo{pages}{81} (\bibinfo{year}{2013}).
+\newblock \urlprefix\url{https://doi.org/10.1007/JHEP06(2013)081}.
 
-\bibitem[{{\relax CMS collaboration}(2013)}]{muonsys}
-{\relax CMS collaboration}.
-\newblock \enquote{The performance of the CMS muon detector in proton-proton
-  collisions at √ s = 7 TeV at the LHC.}
-\newblock \emph{Journal of Instrumentation} 8 (2013).11: P11002.
-\newline\urlprefix\url{http://stacks.iop.org/1748-0221/8/i=11/a=P11002}
+\bibitem{cmshiggstau}
+\bibinfo{author}{{\relax CMS Collaboration}}.
+\newblock \bibinfo{title}{Evidence for the 125 gev higgs boson decaying to a
+  pair of $\tau$ leptons}.
+\newblock \emph{\bibinfo{journal}{Journal of High Energy Physics}}
+  \textbf{\bibinfo{volume}{2014}}, \bibinfo{pages}{104} (\bibinfo{year}{2014}).
+\newblock \urlprefix\url{https://doi.org/10.1007/JHEP05(2014)104}.
 
-\bibitem[{{\relax CMS Collaboration}(2014{\natexlab{a}})}]{cmshiggstau}
-{\relax CMS Collaboration}.
-\newblock \enquote{Evidence for the 125 GeV Higgs boson decaying to a pair of
-  $\tau$ leptons.}
-\newblock \emph{Journal of High Energy Physics} 2014 (2014{\natexlab{a}}).5:
-  104.
-\newline\urlprefix\url{https://doi.org/10.1007/JHEP05(2014)104}
+\bibitem{cmshiggsbb}
+\bibinfo{author}{{\relax CMS Collaboration}}.
+\newblock \bibinfo{title}{Search for the standard model higgs boson produced in
+  association with a $w$ or a $z$ boson and decaying to bottom quarks}.
+\newblock \emph{\bibinfo{journal}{Phys. Rev. D}} \textbf{\bibinfo{volume}{89}},
+  \bibinfo{pages}{012003} (\bibinfo{year}{2014}).
+\newblock \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevD.89.012003}.
 
-\bibitem[{{\relax CMS Collaboration}(2014{\natexlab{b}})}]{cmshiggsferm}
----{}---{}---.
-\newblock \enquote{Evidence for the direct decay of the 125 GeV Higgs boson to
-  fermions.}
-\newblock \emph{Nature Physics} 10 (2014{\natexlab{b}}): 1038.
-\newline\urlprefix\url{http://dx.doi.org/10.1038/nphys3005}
+\bibitem{cmshiggsferm}
+\bibinfo{author}{{\relax CMS Collaboration}}.
+\newblock \bibinfo{title}{Evidence for the direct decay of the 125 gev higgs
+  boson to fermions}.
+\newblock \emph{\bibinfo{journal}{Nature Physics}}
+  \textbf{\bibinfo{volume}{10}}, \bibinfo{pages}{1038} (\bibinfo{year}{2014}).
+\newblock \urlprefix\url{http://dx.doi.org/10.1038/nphys3005}.
 
-\bibitem[{{\relax CMS Collaboration}(2014{\natexlab{c}})}]{cmshiggsbb}
----{}---{}---.
-\newblock \enquote{Search for the standard model Higgs boson produced in
-  association with a $W$ or a $Z$ boson and decaying to bottom quarks.}
-\newblock \emph{Phys. Rev. D} 89 (2014{\natexlab{c}}): 012003.
-\newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevD.89.012003}
+\bibitem{atlashiggsbb}
+\bibinfo{author}{{\relax ATLAS Collaboration}}.
+\newblock \bibinfo{title}{Search for the bb̄ decay of the standard model higgs
+  boson in associated (w/z)h production with the atlas detector.}
+\newblock \emph{\bibinfo{journal}{Journal of High Energy Physics}}
+  \textbf{\bibinfo{volume}{2015}}, \bibinfo{pages}{69} (\bibinfo{year}{2015}).
+\newblock \urlprefix\url{https://doi.org/10.1007/JHEP01(2015)069}.
 
-\bibitem[{{\relax CMS Collaboration}(2015{\natexlab{a}})}]{cmscollab}
----{}---{}---.
-\newblock \enquote{CMS Collaboration.}
-\newblock \emph{CMS Web}  (2015{\natexlab{a}}).
-\newline\urlprefix\url{http://cms.web.cern.ch/content/cms-collaboration}
+\bibitem{smallestbranch1}
+\bibinfo{author}{Plehn, T.} \& \bibinfo{author}{Rainwater, D.}
+\newblock \bibinfo{title}{Higgs decays to muons in weak boson fusion}.
+\newblock \emph{\bibinfo{journal}{Physics Letters B}}
+  \textbf{\bibinfo{volume}{520}}, \bibinfo{pages}{108 -- 114}
+  (\bibinfo{year}{2001}).
+\newblock
+  \urlprefix\url{http://www.sciencedirect.com/science/article/pii/S0370269301011571}.
 
-\bibitem[{{\relax CMS Collaboration}(2015{\natexlab{b}})}]{cmshiggsmumu2012}
----{}---{}---.
-\newblock \enquote{Search for a standard model-like Higgs boson in the μ+μ−
-  and e+e− decay channels at the LHC.}
-\newblock \emph{Physics Letters B} 744 (2015{\natexlab{b}}).Supplement C: 184
-  -- 207.
-\newline\urlprefix\url{http://www.sciencedirect.com/science/article/pii/S0370269315002117}
+\bibitem{smallestbranch2}
+\bibinfo{author}{Han, T.} \& \bibinfo{author}{McElrath, B.}
+\newblock \bibinfo{title}{h→μ+μ− via gluon fusion at the lhc}.
+\newblock \emph{\bibinfo{journal}{Physics Letters B}}
+  \textbf{\bibinfo{volume}{528}}, \bibinfo{pages}{81 -- 85}
+  (\bibinfo{year}{2002}).
+\newblock
+  \urlprefix\url{http://www.sciencedirect.com/science/article/pii/S037026930201208X}.
 
-\bibitem[{{\relax CMS Collaboration}(2017)}]{CMS-DP-2017-041}
----{}---{}---.
-\newblock \enquote{{Level-1 muon trigger performance in 2017 data and
-  comparison with the legacy muon trigger system}.}  (2017).
-\newline\urlprefix\url{https://cds.cern.ch/record/2286327}
+\bibitem{cmshiggsmumu2012}
+\bibinfo{author}{{\relax CMS Collaboration}}.
+\newblock \bibinfo{title}{Search for a standard model-like higgs boson in the
+  μ+μ− and e+e− decay channels at the lhc}.
+\newblock \emph{\bibinfo{journal}{Physics Letters B}}
+  \textbf{\bibinfo{volume}{744}}, \bibinfo{pages}{184 -- 207}
+  (\bibinfo{year}{2015}).
+\newblock
+  \urlprefix\url{http://www.sciencedirect.com/science/article/pii/S0370269315002117}.
 
-\bibitem[{Evans and Bryant(2008)}]{LHC}
-Evans, Lyndon and Bryant, Philip.
-\newblock \enquote{LHC Machine.}
-\newblock \emph{Journal of Instrumentation} 3 (2008).08: S08001.
-\newline\urlprefix\url{http://stacks.iop.org/1748-0221/3/i=08/a=S08001}
+\bibitem{LHC}
+\bibinfo{author}{Evans, L.} \& \bibinfo{author}{Bryant, P.}
+\newblock \bibinfo{title}{Lhc machine}.
+\newblock \emph{\bibinfo{journal}{Journal of Instrumentation}}
+  \textbf{\bibinfo{volume}{3}}, \bibinfo{pages}{S08001} (\bibinfo{year}{2008}).
+\newblock \urlprefix\url{http://stacks.iop.org/1748-0221/3/i=08/a=S08001}.
 
-\bibitem[{Feynman and Hibbs(1965)}]{feynhibbs}
-Feynman, Richard P. (Richard~Phillips) and Hibbs, Albert~R.
-\newblock \emph{Quantum mechanics and path integrals}.
-\newblock International series in pure and applied physics. 1965.
+\bibitem{cernaccelcomplex}
+\bibinfo{author}{Mobs, E.}
+\newblock \bibinfo{title}{{The CERN accelerator complex. Complexe des
+  accélérateurs du CERN}}  (\bibinfo{year}{2016}).
+\newblock \urlprefix\url{https://cds.cern.ch/record/2197559}.
+\newblock \bibinfo{note}{General Photo}.
 
-\bibitem[{Group(2015)}]{crossbranchplots}
-Group, LHC Higgs Cross Section~Working.
-\newblock \enquote{Higgs cross sections and decay branching ratios.}
-\newblock \emph{CERN Wiki Page}  (2015).
-\newline\urlprefix\url{https://twiki.cern.ch/twiki/bin/view/LHCPhysics/CrossSections}
+\bibitem{cmscollab}
+\bibinfo{author}{{\relax CMS Collaboration}}.
+\newblock \bibinfo{title}{Cms collaboration}.
+\newblock \emph{\bibinfo{journal}{CMS Web}}  (\bibinfo{year}{2015}).
+\newblock \urlprefix\url{http://cms.web.cern.ch/content/cms-collaboration}.
 
-\bibitem[{Han and McElrath(2002)}]{smallestbranch2}
-Han, Tao and McElrath, Bob.
-\newblock \enquote{h→μ+μ− via gluon fusion at the LHC.}
-\newblock \emph{Physics Letters B} 528 (2002).1: 81 -- 85.
-\newline\urlprefix\url{http://www.sciencedirect.com/science/article/pii/S037026930201208X}
+\bibitem{cmsweb}
+\bibinfo{author}{{\relax CMS Collaboration}}.
+\newblock \bibinfo{title}{Cms detector}.
+\newblock \emph{\bibinfo{journal}{CMS Web}}  (\bibinfo{year}{2011}).
+\newblock \urlprefix\url{http://cms.web.cern.ch/}.
 
-\bibitem[{Higgs(1964{\natexlab{a}})}]{higgs2}
-Higgs, Peter~W.
-\newblock \enquote{Broken Symmetries and the Masses of Gauge Bosons.}
-\newblock \emph{Phys. Rev. Lett.} 13 (1964{\natexlab{a}}): 508--509.
-\newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.13.508}
+\bibitem{tdr}
+\bibinfo{author}{{\relax CMS Collaboration}}.
+\newblock \bibinfo{title}{{CMS Technical Design Report, Volume I: Detector
+  Performance and Software}}.
+\newblock \bibinfo{type}{Tech. Rep.} \bibinfo{number}{CERN-LHCC-2006-001,
+  CMS-TDR-008-1} (\bibinfo{year}{2006}).
 
-\bibitem[{Higgs(1964{\natexlab{b}})}]{higgs1}
----{}---{}---.
-\newblock \enquote{{Broken symmetries, massless particles and gauge fields}.}
-\newblock \emph{Phys. Lett.} 12 (1964{\natexlab{b}}): 132--133.
+\bibitem{pdgreview}
+\bibinfo{author}{{\relax Particle Data Group}}.
+\newblock \bibinfo{title}{Review of particle physics}.
+\newblock \emph{\bibinfo{journal}{Phys. Rev. D}} \textbf{\bibinfo{volume}{86}},
+  \bibinfo{pages}{010001} (\bibinfo{year}{2012}).
+\newblock \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevD.86.010001}.
 
-\bibitem[{Higgs(1966)}]{higgs3}
----{}---{}---.
-\newblock \enquote{{Spontaneous Symmetry Breakdown without Massless Bosons}.}
-\newblock \emph{Phys. Rev.} 145 (1966): 1156--1163.
+\bibitem{muonsys}
+\bibinfo{author}{{\relax CMS collaboration}}.
+\newblock \bibinfo{title}{The performance of the cms muon detector in
+  proton-proton collisions at √ s = 7 tev at the lhc}.
+\newblock \emph{\bibinfo{journal}{Journal of Instrumentation}}
+  \textbf{\bibinfo{volume}{8}}, \bibinfo{pages}{P11002} (\bibinfo{year}{2013}).
+\newblock \urlprefix\url{http://stacks.iop.org/1748-0221/8/i=11/a=P11002}.
 
-\bibitem[{Hoecker et~al.(2007)Hoecker, Speckmayer, Stelzer, Therhaag, von
-  Toerne, and Voss}]{Hocker:2007ht}
-Hoecker, Andreas, Speckmayer, Peter, Stelzer, Joerg, Therhaag, Jan, von Toerne,
-  Eckhard, and Voss, Helge.
-\newblock \enquote{{TMVA: Toolkit for Multivariate Data Analysis}.}
-\newblock \emph{PoS} ACAT (2007): 040.
+\bibitem{mutdr}
+\bibinfo{author}{{\relax CMS Collaboration}}.
+\newblock \bibinfo{title}{{The CMS muon project: Technical Design Report}}.
+\newblock \bibinfo{type}{Tech. Rep.} \bibinfo{number}{CERN-LHCC-97-032,
+  CMS-TDR-3} (\bibinfo{year}{1997}).
 
-\bibitem[{Khachatryan et~al.(2017)}]{Khachatryan:2016bia}
-Khachatryan, Vardan et~al.
-\newblock \enquote{{The CMS trigger system}.}
-\newblock \emph{JINST} 12 (2017).01: P01020.
+\bibitem{cmsexp}
+\bibinfo{author}{{\relax CMS Collaboration}}.
+\newblock \bibinfo{title}{The cms experiment at the cern lhc}.
+\newblock \emph{\bibinfo{journal}{Journal of Instrumentation}}
+  \textbf{\bibinfo{volume}{3}}, \bibinfo{pages}{S08004} (\bibinfo{year}{2008}).
+\newblock \urlprefix\url{http://stacks.iop.org/1748-0221/3/i=08/a=S08004}.
 
-\bibitem[{Lancaster and Blundell(2014)}]{qftam}
-Lancaster, Tom and Blundell, Stephen~J.
-\newblock \emph{{Quantum field theory for the gifted amateur}}.
-\newblock Oxford: Oxford University Press, 2014.
-\newline\urlprefix\url{https://cds.cern.ch/record/1629337}
+\bibitem{smconsistency}
+\bibinfo{author}{Mann, R.~B.}
+\newblock \emph{\bibinfo{title}{{An Introduction to Particle Physics and The
+  Standard Model}}} (\bibinfo{publisher}{CRC Press}, \bibinfo{address}{Boca
+  Raton, FL}, \bibinfo{year}{2010}).
 
-\bibitem[{Mann(2010)}]{smconsistency}
-Mann, Robert~B.
-\newblock \emph{{An Introduction to Particle Physics and The Standard Model}}.
-\newblock Boca Raton, FL: CRC Press, 2010.
+\bibitem{zee}
+\bibinfo{author}{Zee, A.}
+\newblock \emph{\bibinfo{title}{{Quantum Field Theory in a Nutshell}}}.
+\newblock Nutshell handbook (\bibinfo{publisher}{Princeton Univ. Press},
+  \bibinfo{address}{Princeton, NJ}, \bibinfo{year}{2003}).
 
-\bibitem[{Mobs(2016)}]{cernaccelcomplex}
-Mobs, Esma.
-\newblock \enquote{{The CERN accelerator complex. Complexe des accélérateurs
-  du CERN}.}  (2016).
-\newblock General Photo.
-\newline\urlprefix\url{https://cds.cern.ch/record/2197559}
+\bibitem{peskin}
+\bibinfo{author}{Peskin, M.~E.} \& \bibinfo{author}{Schroeder, D.~V.}
+\newblock \emph{\bibinfo{title}{{An Introduction to Quantum Field Theory}}}
+  (\bibinfo{publisher}{Westview}, \bibinfo{address}{Boulder, CO},
+  \bibinfo{year}{1995}).
 
-\bibitem[{{\relax Particle Data Group}(2012)}]{pdgreview}
-{\relax Particle Data Group}.
-\newblock \enquote{Review of Particle Physics.}
-\newblock \emph{Phys. Rev. D} 86 (2012): 010001.
-\newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevD.86.010001}
+\bibitem{wigner}
+\bibinfo{author}{Wigner, E.}
+\newblock \bibinfo{title}{On unitary representations of the inhomogeneous
+  lorentz group}.
+\newblock \emph{\bibinfo{journal}{Annals of Mathematics}}
+  \textbf{\bibinfo{volume}{40}}, \bibinfo{pages}{149--204}
+  (\bibinfo{year}{1939}).
+\newblock \urlprefix\url{http://www.jstor.org/stable/1968551}.
 
-\bibitem[{Peskin and Schroeder(1995)}]{peskin}
-Peskin, Michael~E and Schroeder, Daniel~V.
-\newblock \emph{{An Introduction to Quantum Field Theory}}.
-\newblock Boulder, CO: Westview, 1995.
+\bibitem{weinberg}
+\bibinfo{author}{Weinberg, S.}
+\newblock \emph{\bibinfo{title}{The Quantum Theory of Fields, Volume 1:
+  Foundations}} (\bibinfo{publisher}{Cambridge University Press},
+  \bibinfo{year}{2005}).
 
-\bibitem[{Plehn and Rainwater(2001)}]{smallestbranch1}
-Plehn, Tilman and Rainwater, David.
-\newblock \enquote{Higgs decays to muons in weak boson fusion.}
-\newblock \emph{Physics Letters B} 520 (2001).1: 108 -- 114.
-\newline\urlprefix\url{http://www.sciencedirect.com/science/article/pii/S0370269301011571}
+\bibitem{feynhibbs}
+\bibinfo{author}{Feynman, R. P. R.~P.} \& \bibinfo{author}{Hibbs, A.~R.}
+\newblock \emph{\bibinfo{title}{Quantum mechanics and path integrals}}.
+\newblock International series in pure and applied physics
+  (\bibinfo{year}{1965}).
 
-\bibitem[{{Sean Carroll}(2007)}]{smnograv}
-{Sean Carroll}.
-\newblock \emph{{Dark Matter, Dark Energy: The Dark Side of the Universe}}.
-\newblock The Teaching Company, 2007.
+\bibitem{crossbranchplots}
+\bibinfo{author}{Group, L. H. C. S.~W.}
+\newblock \bibinfo{title}{Higgs cross sections and decay branching ratios}.
+\newblock \emph{\bibinfo{journal}{CERN Wiki Page}}  (\bibinfo{year}{2015}).
+\newblock
+  \urlprefix\url{https://twiki.cern.ch/twiki/bin/view/LHCPhysics/CrossSections}.
 
-\bibitem[{Tapper and Acosta(2013)}]{Tapper:1556311}
-Tapper, A and Acosta, Darin.
-\newblock \enquote{{CMS Technical Design Report for the Level-1 Trigger
-  Upgrade}.}
-\newblock Tech. Rep. CERN-LHCC-2013-011. CMS-TDR-12, 2013.
-\newblock Additional contacts: Jeffrey Spalding, Fermilab,
+\bibitem{Khachatryan:2016bia}
+\bibinfo{author}{Khachatryan, V.} \emph{et~al.}
+\newblock \bibinfo{title}{{The CMS trigger system}}.
+\newblock \emph{\bibinfo{journal}{JINST}} \textbf{\bibinfo{volume}{12}},
+  \bibinfo{pages}{P01020} (\bibinfo{year}{2017}).
+\newblock \eprint{1609.02366}.
+
+\bibitem{Tapper:1556311}
+\bibinfo{author}{Tapper, A.} \& \bibinfo{author}{Acosta, D.}
+\newblock \bibinfo{title}{{CMS Technical Design Report for the Level-1 Trigger
+  Upgrade}}.
+\newblock \bibinfo{type}{Tech. Rep.} \bibinfo{number}{CERN-LHCC-2013-011.
+  CMS-TDR-12} (\bibinfo{year}{2013}).
+\newblock \urlprefix\url{https://cds.cern.ch/record/1556311}.
+\newblock \bibinfo{note}{Additional contacts: Jeffrey Spalding, Fermilab,
   Jeffrey.Spalding@cern.ch Didier Contardo, Universite Claude Bernard-Lyon I,
-  didier.claude.contardo@cern.ch.
-\newline\urlprefix\url{https://cds.cern.ch/record/1556311}
+  didier.claude.contardo@cern.ch}.
 
-\bibitem[{Weinberg(2005)}]{weinberg}
-Weinberg, Steven.
-\newblock \emph{The Quantum Theory of Fields, Volume 1: Foundations}.
-\newblock Cambridge University Press, 2005.
+\bibitem{Hocker:2007ht}
+\bibinfo{author}{Hoecker, A.} \emph{et~al.}
+\newblock \bibinfo{title}{{TMVA: Toolkit for Multivariate Data Analysis}}.
+\newblock \emph{\bibinfo{journal}{PoS}} \textbf{\bibinfo{volume}{ACAT}},
+  \bibinfo{pages}{040} (\bibinfo{year}{2007}).
+\newblock \eprint{physics/0703039}.
 
-\bibitem[{Wigner(1939)}]{wigner}
-Wigner, E.
-\newblock \enquote{On Unitary Representations of the Inhomogeneous Lorentz
-  Group.}
-\newblock \emph{Annals of Mathematics} 40 (1939).1: 149--204.
-\newline\urlprefix\url{http://www.jstor.org/stable/1968551}
-
-\bibitem[{Zee(2003)}]{zee}
-Zee, A.
-\newblock \emph{{Quantum Field Theory in a Nutshell}}.
-\newblock Nutshell handbook. Princeton, NJ: Princeton Univ. Press, 2003.
+\bibitem{CMS-DP-2017-041}
+\bibinfo{author}{{\relax CMS Collaboration}}.
+\newblock \bibinfo{title}{{Level-1 muon trigger performance in 2017 data and
+  comparison with the legacy muon trigger system}}  (\bibinfo{year}{2017}).
+\newblock \urlprefix\url{https://cds.cern.ch/record/2286327}.
 
 \end{thebibliography}
