@@ -973,7 +973,7 @@ In momentum space K is diagonal and $\mathcal{D}_F = \frac{i}{p^2-m^2 + i\epsilo
 The Feynman propagators are the building blocks for the higher order correlation functions. Take the four point function as an example,
 \begin{equation}
 \begin{split}
-\bra{0}\Phi(x_4)\Phi(x_3)\Phi(x_2)\Phi(x_1)\ket{0} &= 
+&\bra{0}\Phi(x_4)\Phi(x_3)\Phi(x_2)\Phi(x_1)\ket{0} = 
 \frac{\int \mathcal{D}[\Phi]\Phi(x_4)\Phi(x_3)\Phi(x_2)\Phi(x_1)e^{i\int_{-\infty}^{\infty} d^4x \frac{1}{2}\Phi (-\partial_\mu\partial^\mu - m^2)\Phi}}
 {\int \mathcal{D}[\Phi]e^{i\int_{-\infty}^{\infty} d^4x \frac{1}{2}\Phi (-\partial_\mu\partial^\mu - m^2)\Phi}} \\
 &= \frac{\frac{1}{i}\frac{\delta}{\delta J(x_4)}\frac{1}{i}\frac{\delta}{\delta J(x_3)}\frac{1}{i}\frac{\delta}{\delta J(x_2)}\frac{1}{i}\frac{\delta}{\delta J(x_1)}\Big|_{J=0}\int \mathcal{D}[\Phi]e^{i\int_{-\infty}^{\infty} d^4x \frac{1}{2}\Phi (-\partial_\mu\partial^\mu - m^2)\Phi + iJ\Phi}}
@@ -1076,8 +1076,7 @@ D = -i\lambda\int d^4z\mathcal{D}_F(x_1,z)\mathcal{D}_F(x_2,z)\mathcal{D}_F(x_3,
 Summing the six diagrams yields the full four point correlation function to first order,
 \begin{equation}
 \begin{split}
-\bra{0}\Phi(x_4)\Phi(x_3)\Phi(x_2)\Phi(x_1)\ket{0}_{\lambda^1} &= \mathcal{D}_F(x_1,x_3)\mathcal{D}_F(x_2,x_4) + \mathcal{D}_F(x_1,x_2)\mathcal{D}_F(x_3,x_4) 
-                                                                   + \mathcal{D}_F(x_1,x_4)\mathcal{D}_F(x_2,x_3) \\ 
+\bra{0}\Phi(x_4)\Phi(x_3)\Phi(x_2)\Phi(x_1)\ket{0}_{\lambda^1} &= \mathcal{D}_F(x_1,x_3)\mathcal{D}_F(x_2,x_4) + \mathcal{D}_F(x_1,x_2)\mathcal{D}_F(x_3,x_4) \\ & + \mathcal{D}_F(x_1,x_4)\mathcal{D}_F(x_2,x_3) \\ 
  &+ \mathcal{D}_F(x_1,x_3)\frac{12}{4!}(-i\lambda)\int_{-\infty}^{\infty} d^4z \mathcal{D}_F(x_2,z) \mathcal{D}_F(x_4,z) \mathcal{D}_F(z,z) \\
  &+ \mathcal{D}_F(x_2,x_4)\frac{12}{4!}(-i\lambda)\int_{-\infty}^{\infty} d^4z \mathcal{D}_F(x_1,z) \mathcal{D}_F(x_3,z) \mathcal{D}_F(z,z) \\
  &+ -i\lambda\int d^4z\mathcal{D}_F(x_1,z)\mathcal{D}_F(x_2,z)\mathcal{D}_F(x_3,z)\mathcal{D}_F(x_4,z).
