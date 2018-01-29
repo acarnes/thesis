@@ -201,32 +201,12 @@
 \newblock Nutshell handbook (\bibinfo{publisher}{Princeton Univ. Press},
   \bibinfo{address}{Princeton, NJ}, \bibinfo{year}{2003}).
 
-\bibitem{peskin}
-\bibinfo{author}{Peskin, M.~E.} \& \bibinfo{author}{Schroeder, D.~V.}
-\newblock \emph{\bibinfo{title}{{An Introduction to Quantum Field Theory}}}
-  (\bibinfo{publisher}{Westview}, \bibinfo{address}{Boulder, CO},
-  \bibinfo{year}{1995}).
-
-\bibitem{wigner}
-\bibinfo{author}{Wigner, E.}
-\newblock \bibinfo{title}{On unitary representations of the inhomogeneous
-  lorentz group}.
-\newblock \emph{\bibinfo{journal}{Annals of Mathematics}}
-  \textbf{\bibinfo{volume}{40}}, \bibinfo{pages}{149--204}
-  (\bibinfo{year}{1939}).
-\newblock \urlprefix\url{http://www.jstor.org/stable/1968551}.
-
-\bibitem{weinberg}
-\bibinfo{author}{Weinberg, S.}
-\newblock \emph{\bibinfo{title}{The Quantum Theory of Fields, Volume 1:
-  Foundations}} (\bibinfo{publisher}{Cambridge University Press},
-  \bibinfo{year}{2005}).
-
-\bibitem{feynhibbs}
-\bibinfo{author}{Feynman, R. P. R.~P.} \& \bibinfo{author}{Hibbs, A.~R.}
-\newblock \emph{\bibinfo{title}{Quantum mechanics and path integrals}}.
-\newblock International series in pure and applied physics
-  (\bibinfo{year}{1965}).
+\bibitem{physymm}
+\bibinfo{author}{Schwichtenberg, J.}
+\newblock \emph{\bibinfo{title}{{Physics from Symmetry}}}.
+\newblock Undergraduate Lecture Notes in Physics (\bibinfo{publisher}{Springer
+  International Publishing}, \bibinfo{address}{Switzerland},
+  \bibinfo{year}{2015}).
 
 \bibitem{crossbranchplots}
 \bibinfo{author}{Group, L. H. C. S.~W.}
