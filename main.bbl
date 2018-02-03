@@ -111,7 +111,8 @@
 
 \bibitem{smallestbranch2}
 \bibinfo{author}{Han, T.} \& \bibinfo{author}{McElrath, B.}
-\newblock \bibinfo{title}{h→μ+μ− via gluon fusion at the lhc}.
+\newblock \bibinfo{title}{$h\rightarrow\mu^+\mu^-$ via gluon fusion at the
+  lhc}.
 \newblock \emph{\bibinfo{journal}{Physics Letters B}}
   \textbf{\bibinfo{volume}{528}}, \bibinfo{pages}{81 -- 85}
   (\bibinfo{year}{2002}).
@@ -137,8 +138,8 @@
 
 \bibitem{cernaccelcomplex}
 \bibinfo{author}{Mobs, E.}
-\newblock \bibinfo{title}{{The CERN accelerator complex. Complexe des
-  accélérateurs du CERN}}  (\bibinfo{year}{2016}).
+\newblock \bibinfo{title}{{The CERN accelerator complex.}}
+  (\bibinfo{year}{2016}).
 \newblock \urlprefix\url{https://cds.cern.ch/record/2197559}.
 \newblock \bibinfo{note}{General Photo}.
 
@@ -171,7 +172,7 @@
 \bibitem{muonsys}
 \bibinfo{author}{{\relax CMS collaboration}}.
 \newblock \bibinfo{title}{The performance of the cms muon detector in
-  proton-proton collisions at √ s = 7 tev at the lhc}.
+  proton-proton collisions at $\sqrt{s}$ = 7 tev at the lhc}.
 \newblock \emph{\bibinfo{journal}{Journal of Instrumentation}}
   \textbf{\bibinfo{volume}{8}}, \bibinfo{pages}{P11002} (\bibinfo{year}{2013}).
 \newblock \urlprefix\url{http://stacks.iop.org/1748-0221/8/i=11/a=P11002}.
@@ -214,6 +215,14 @@
 \newblock \emph{\bibinfo{journal}{CERN Wiki Page}}  (\bibinfo{year}{2015}).
 \newblock
   \urlprefix\url{https://twiki.cern.ch/twiki/bin/view/LHCPhysics/CrossSections}.
+
+\bibitem{bdt}
+\bibinfo{author}{Friedman, J.~H.}
+\newblock \bibinfo{title}{Greedy function approximation: A gradient boosting
+  machine}.
+\newblock \emph{\bibinfo{journal}{The Annals of Statistics}}
+  \textbf{\bibinfo{volume}{29}}, \bibinfo{pages}{1189--1232}
+  (\bibinfo{year}{2001}).
 
 \bibitem{Khachatryan:2016bia}
 \bibinfo{author}{Khachatryan, V.} \emph{et~al.}

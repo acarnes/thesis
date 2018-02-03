@@ -1,66 +1,66 @@
-\contentsline {figure}{\numberline {{2-1}}{\ignorespaces The CERN Accelerator Complex \cite {cernaccelcomplex}}}{17}{figure.2.1}
-\contentsline {figure}{\numberline {{2-2}}{\ignorespaces The CMS detector \cite {cmsweb}}}{18}{figure.2.2}
-\contentsline {figure}{\numberline {{2-3}}{\ignorespaces The sagitta measurement}}{20}{figure.2.3}
-\contentsline {figure}{\numberline {{2-4}}{\ignorespaces A slice of the CMS detector \cite {cmsweb}}}{21}{figure.2.4}
-\contentsline {figure}{\numberline {{2-5}}{\ignorespaces A Look at the Muon System \cite {muonsys}}}{23}{figure.2.5}
-\contentsline {figure}{\numberline {{2-6}}{\ignorespaces A Drift Tube \cite {mutdr}}}{24}{figure.2.6}
-\contentsline {figure}{\numberline {{2-7}}{\ignorespaces A Cathode Strip Chamber \cite {mutdr}}}{24}{figure.2.7}
-\contentsline {figure}{\numberline {{2-8}}{\ignorespaces The L1 Trigger Architecture \cite {cmsexp}}}{26}{figure.2.8}
-\contentsline {figure}{\numberline {{3-1}}{\ignorespaces The Standard Model Particles}}{29}{figure.3.1}
-\contentsline {figure}{\numberline {{3-2}}{\ignorespaces The highest production mode cross sections for the SM Higgs at 14 TeV \cite {crossbranchplots}}}{46}{figure.3.2}
-\contentsline {figure}{\numberline {{3-3}}{\ignorespaces The graphic on the top left presents the SM Higgs branching fractions as functions of mass while the table on the bottom right displays the branching fractions for a 125 GeV SM Higgs \cite {crossbranchplots}.}}{48}{figure.3.3}
-\contentsline {figure}{\numberline {{3-4}}{\ignorespaces The SM production modes with the highest cross sections. a) Gluon Gluon Fusion (GGF/ggH) b) Vector Boson Fusion (VBF/qqH) c) Associated Production with a Vector Boson (VH) d) ${\rm t\mathaccentV {bar}016{t}}$H}}{49}{figure.3.4}
-\contentsline {figure}{\numberline {{3-5}}{\ignorespaces The quark-gluon background looks very similar to the GGF production channel when the Higgs decays to two jets. Protons are made of quarks and gluons so this process is extremely common in proton colliders like the LHC.}}{49}{figure.3.5}
-\contentsline {figure}{\numberline {{4-1}}{\ignorespaces On the left, the upgraded EMTF rate divided by the legacy rate is shown for a variety of $p_t$ thresholds. On the right, the upgraded and legacy efficiencies are presented for a 25 GeV threshold. The upgraded EMTF has a 3x lower rate than the legacy system at 25 GeV with virtually no difference in plateau efficiency for the same threshold. Plots are taken from \cite {CMS-DP-2017-041}.}}{64}{figure.4.1}
-\contentsline {figure}{\numberline {{4-2}}{\ignorespaces The SM production modes considered in the analysis. a) Gluon Gluon Fusion (GGF) b) Vector Boson Fusion (VBF) c) Associated Production with a Vector Boson (VH) d) Associated production with top quarks ${\rm t\mathaccentV {bar}016{t}}$H}}{65}{figure.4.2}
-\contentsline {figure}{\numberline {{4-3}}{\ignorespaces The dimuon mass distribution is fit around the Z peak for the positively charged muon with $\phi $ between 0 and 0.53.}}{69}{figure.4.3}
-\contentsline {figure}{\numberline {{4-4}}{\ignorespaces The Rochester (Roch) and Kalman Filter (KaMu) muon corrections are applied to data and compared to the uncalibrated Particle Flow (PF) predictions. The fitted mean of the Z peak is plotted vs. $\phi $, $\eta $, and $p_{t}^\mu $ for the positively and negatively charged muon separately, and for dimuon $p_t$ as well.}}{71}{figure.4.4}
-\contentsline {figure}{\numberline {{4-5}}{\ignorespaces The Rochester (Roch) and Kalman Filter (KaMu) muon corrections are applied to data and compared to the uncalibrated Particle Flow (PF) measurement. The fitted Z peak resolution is plotted vs. $\phi $, $\eta $, and $p_t^\mu $ for the positively and negatively charged muon separately, and for the dimuon $p_t$ as well.}}{72}{figure.4.5}
-\contentsline {figure}{\numberline {{4-6}}{\ignorespaces The fitted mean of the Z peak without any corrections is plotted in data and MC. The mean is plotted vs. $\phi $, $\eta $, and $p_t^\mu $ for the positively and negatively charged muon separately, and for the dimuon $p_t$ as well. Data and MC are not aligned in terms of the Z peak mean before corrections.}}{73}{figure.4.6}
-\contentsline {figure}{\numberline {{4-7}}{\ignorespaces The fitted mean of the Z peak is plotted for the Rochester corrections. The mean is plotted in data and MC vs. $\phi $, $\eta $, and $p_t^\mu $ for the positively and negatively charged muon separately, and for the dimuon $p_t$ as well. Data and MC align very well in terms of the Z peak mean after applying the Rochester muon corrections.}}{74}{figure.4.7}
-\contentsline {figure}{\numberline {{4-8}}{\ignorespaces The fitted mean of the Z peak is plotted for the Kalman Filter corrections. The mean is plotted in data and MC vs. $\phi $, $\eta $, and $p_t^\mu $ for the positively and negatively charged muon separately, and for the dimuon $p_t$ as well. Data and MC align very well in terms of the Z peak mean after applying the Kalman filter muon corrections.}}{75}{figure.4.8}
-\contentsline {figure}{\numberline {{4-9}}{\ignorespaces The fitted resolution of the Z peak without corrections is plotted. The resolution is plotted in data and MC vs. $\phi $, $\eta $, and $p_t^\mu $ for the positively and negatively charged muon separately, and for the dimuon $p_t$ as well. Data and MC do not show similar resolutions for the Z peak before corrections.}}{76}{figure.4.9}
-\contentsline {figure}{\numberline {{4-10}}{\ignorespaces The fitted resolution of the Z peak is plotted for the Rochester corrections. The resolution is plotted in data and MC vs. $\phi $, $\eta $, and $p_t^\mu $ for the positively and negatively charged muon separately, and for the dimuon $p_t$ as well. After Rochester corrections, data and MC have similar resolutions for the Z peak.}}{77}{figure.4.10}
-\contentsline {figure}{\numberline {{4-11}}{\ignorespaces The fitted resolution of the Z peak is plotted for the Rochester corrections. The resolution is plotted in data and MC vs. $\phi $, $\eta $, and $p_t^\mu $ for the positively and negatively charged muon separately, and for the dimuon $p_t$ as well. After Kalman filter muon corrections, data and MC have similar resolutions for the Z peak.}}{78}{figure.4.11}
-\contentsline {figure}{\numberline {{4-12}}{\ignorespaces The Kalman filter's most probable true mass values are plotted for the signal MC. The least sensitive category is shown on the left and the most sensitive category is shown on the right.}}{79}{figure.4.12}
-\contentsline {figure}{\numberline {{4-13}}{\ignorespaces The background-rejection vs. signal efficiency ROC curve for the final BDT model.}}{86}{figure.4.13}
-\contentsline {figure}{\numberline {{4-14}}{\ignorespaces The BDT score on the signal and background Monte Carlo (left), where a higher score marks the signal-like events. Note $t\mathaccentV {bar}016{t}$ on the left as the most distinguishable background and VBF on the right as the most distinguishable signal. The BDT score in data is modeled well by the amc@NLO Drell--Yan MC (right).}}{87}{figure.4.14}
-\contentsline {figure}{\numberline {{4-15}}{\ignorespaces An example of the binned signal and background necessary for the significance metric. The binning keeps the most sensitive bins from being drowned out by the others, providing a measure that accounts for both signal--background discrimination and resolution.}}{88}{figure.4.15}
-\contentsline {figure}{\numberline {{4-16}}{\ignorespaces An example of the categorization process for some toy features x and y and three categories. The colored crosses represent the events that should be grouped together for optimum sensitivity. After three iterations, the categorizer correctly groups those events. The autocategorizer chooses x=0.52 for the first split and y=0.50 for the second.}}{89}{figure.4.16}
-\contentsline {figure}{\numberline {{4-17}}{\ignorespaces The final categorization}}{89}{figure.4.17}
-\contentsline {figure}{\numberline {{4-18}}{\ignorespaces Validation of BDT input variables in inclusive events.}}{91}{figure.4.18}
-\contentsline {figure}{\numberline {{4-19}}{\ignorespaces Data/MC agreement for the inclusive events.}}{92}{figure.4.19}
-\contentsline {figure}{\numberline {{4-20}}{\ignorespaces Data/MC agreement for the most sensitive category.}}{93}{figure.4.20}
-\contentsline {figure}{\numberline {{4-21}}{\ignorespaces Data/MC agreement for the most sensitive category.}}{94}{figure.4.21}
-\contentsline {figure}{\numberline {{4-22}}{\ignorespaces The BDT distribution in data and MC. Right plot matches the DY $p_t$ spectrum to the one in data.}}{95}{figure.4.22}
-\contentsline {figure}{\numberline {{4-23}}{\ignorespaces The BDT distribution in quantile in data and MC. The systematic uncertainty is given by the JES and PU.}}{96}{figure.4.23}
-\contentsline {figure}{\numberline {{4-24}}{\ignorespaces Plots showing the agreement between $m_H = 125\tmspace +\thinmuskip {.1667em}$GeV vs. $120\tmspace +\thinmuskip {.1667em}$GeV and $m_H = 125\tmspace +\thinmuskip {.1667em}$GeV vs. $130\tmspace +\thinmuskip {.1667em}$GeV for ggH and VBF.}}{97}{figure.4.24}
-\contentsline {figure}{\numberline {{4-25}}{\ignorespaces Kinematics and object counts for the signal in the inclusive set of events.}}{99}{figure.4.25}
-\contentsline {figure}{\numberline {{4-26}}{\ignorespaces More kinematic and object count histograms for the signal in the inclusive set of events.}}{100}{figure.4.26}
-\contentsline {figure}{\numberline {{4-27}}{\ignorespaces More kinematic and object count histograms for the signal in the inclusive set of events.}}{101}{figure.4.27}
-\contentsline {figure}{\numberline {{4-28}}{\ignorespaces Kinematic and object count histograms for the signal in category c14. Note the high dimuon $p_t$ targeting the signal in general.}}{102}{figure.4.28}
-\contentsline {figure}{\numberline {{4-29}}{\ignorespaces More kinematic and object count histograms for the signal in category c14. Note large dijet mass and the large separation in eta for the jets targeting VBF.}}{103}{figure.4.29}
-\contentsline {figure}{\numberline {{4-30}}{\ignorespaces More kinematic and object count histograms for the signal in category c14. Note the low MET and 0 btags which exclude $t\mathaccentV {bar}016{t}$.}}{104}{figure.4.30}
-\contentsline {figure}{\numberline {{4-31}}{\ignorespaces The difference in background shapes between the categories in data. The plots show the data with the signal region blinded. Each category's background shape is compared to the inclusive shape.}}{105}{figure.4.31}
-\contentsline {figure}{\numberline {{4-32}}{\ignorespaces An example Higgs signal fit for a specific production process and category at a mass of 125\nobreakspace {}GeV (left), its interpolation to lower and higher mass (center), and its efficiency times acceptance vs $m_H$ (right).}}{107}{figure.4.32}
-\contentsline {figure}{\numberline {{4-33}}{\ignorespaces Signal model compared to MC predictions, summing up the contribution from all process and all categories (left), and for one of the categories with the best mass resolution.}}{108}{figure.4.33}
-\contentsline {figure}{\numberline {{4-34}}{\ignorespaces The signal composition, the mass resolution in Half Width Half Max ($\sigma _{HM}$) and 68\% probability ($\sigma _{eff}$), and the S/(S+B) of the different categories.}}{108}{figure.4.34}
-\contentsline {figure}{\numberline {{4-35}}{\ignorespaces The efficiency times acceptance as function of $m_H$ for the total signal and for each signal process.}}{109}{figure.4.35}
-\contentsline {figure}{\numberline {{4-36}}{\ignorespaces Example background-only fits to the dimuon mass spectrum in data for various background models and mass ranges.}}{111}{figure.4.36}
-\contentsline {figure}{\numberline {{4-37}}{\ignorespaces Examples of the F-Test for the Bernstein Polynomials (left) and the Sum of Exponentials (right).}}{112}{figure.4.37}
-\contentsline {figure}{\numberline {{4-38}}{\ignorespaces Pseudorapidity of the leading jet, and number of associated jets. The uncertainty bands show jet energy scale uncertainty.}}{115}{figure.4.38}
-\contentsline {figure}{\numberline {{4-39}}{\ignorespaces Impact plots derived from the Asimov data-set.}}{116}{figure.4.39}
-\contentsline {figure}{\numberline {{4-40}}{\ignorespaces Bias results for categories 0-8 with each category's bias indepent of the others. The results shown are for $m_H=125\ GeV$. The x-axis shows the fit model and the y-axis shows the pseudodata generating model.}}{118}{figure.4.40}
-\contentsline {figure}{\numberline {{4-41}}{\ignorespaces Bias results for categories 9-14 with each category's bias indepent of the others. The results shown are for $m_H=125\ GeV$. The x-axis shows the fit model and the y-axis shows the pseudodata generating model.}}{119}{figure.4.41}
-\contentsline {figure}{\numberline {{4-42}}{\ignorespaces The plot shows the bias on $\mathaccentV {hat}05E{\mu }$ using the combined likelihood for all categories and the background fits of Figure \ref {tab:bias}. In this estimate, the same generating function is used for every category.}}{120}{figure.4.42}
-\contentsline {figure}{\numberline {{4-43}}{\ignorespaces The upper limit on the signal strength at 95\% confidence is presented for each category independent of the others. The results are for the 13 TeV data only.}}{122}{figure.4.43}
-\contentsline {figure}{\numberline {{4-44}}{\ignorespaces The combined upper limit on the signal strength at 95\% confidence is presented for 13 TeV data. The red dashed line represents the expected (median) observation if the SM $m_H$ = 125 GeV hypothesis is true. The black dashed line represents the expected observation if the background only hypothesis is true.}}{122}{figure.4.44}
-\contentsline {figure}{\numberline {{4-45}}{\ignorespaces The p-value is presented for 13 TeV data. The black line is the observed p-value on the background only hypothesis. The blue line represents the expected (median) p-value on the background only if the SM $m_H$ = 125 GeV hypothesis is true. The red line represents the expected p-value at $m_H$ = x GeV if the SM $m_H$ = x GeV hypothesis is true.}}{123}{figure.4.45}
-\contentsline {figure}{\numberline {{4-46}}{\ignorespaces The negative log likelihood is plotted near the minimum for the signal strength $\mu $, and the best fit, $\mathaccentV {hat}05E{\mu }$, is given.}}{123}{figure.4.46}
-\contentsline {figure}{\numberline {{4-47}}{\ignorespaces The weighted average of the signal + background fits over the categories. The fit from each category is weighted by S/(S+B) to provide an idea of the overall shape while counting those categories with larger signal purity to a greater degree.}}{124}{figure.4.47}
-\contentsline {figure}{\numberline {{4-48}}{\ignorespaces The final signal + background fits for the 13 TeV data, part one.}}{125}{figure.4.48}
-\contentsline {figure}{\numberline {{4-49}}{\ignorespaces The final Signal + Background fits for the 13 TeV data, part two.}}{126}{figure.4.49}
-\contentsline {figure}{\numberline {{4-50}}{\ignorespaces The upper limit on the signal strength at 95\% confidence is presented for the combination of 7, 8, and 13 TeV data. The red dashed line represents the expected (median) observation if the SM $m_H$ = 125 GeV hypothesis is true. The black dashed line represents the expected observation if the background only hypothesis is true.}}{127}{figure.4.50}
-\contentsline {figure}{\numberline {{4-51}}{\ignorespaces The p-value is presented for the combination of 7, 8, and 13 TeV data. The blue line represents the expected (median) p-value on the background only if the SM $m_H$ = 125 GeV hypothesis is true. The red line represents the expected p-value at $m_H$ = x GeV if the SM $m_H$ =x GeV hypothesis is true.}}{128}{figure.4.51}
-\contentsline {figure}{\numberline {{4-52}}{\ignorespaces The negative log likelihood is plotted near the minimum for the signal strength $\mu $, and the best fit, $\mathaccentV {hat}05E{\mu }$, is given.}}{128}{figure.4.52}
-\contentsline {figure}{\numberline {{4-53}}{\ignorespaces The expected p-value on the background only hypothesis assuming a SM Higgs with $m_H$ = 125 GeV is plotted versus the amount of 13 TeV data in $fb^{-1}$.}}{129}{figure.4.53}
+\contentsline {figure}{\numberline {{2-1}}{\ignorespaces The CERN Accelerator Complex.}}{15}{figure.2.1}
+\contentsline {figure}{\numberline {{2-2}}{\ignorespaces The CMS detector.}}{16}{figure.2.2}
+\contentsline {figure}{\numberline {{2-3}}{\ignorespaces The sagitta measurement.}}{18}{figure.2.3}
+\contentsline {figure}{\numberline {{2-4}}{\ignorespaces A slice of the CMS detector.}}{19}{figure.2.4}
+\contentsline {figure}{\numberline {{2-5}}{\ignorespaces A look at the muon system.}}{21}{figure.2.5}
+\contentsline {figure}{\numberline {{2-6}}{\ignorespaces A drift tube.}}{22}{figure.2.6}
+\contentsline {figure}{\numberline {{2-7}}{\ignorespaces A cathode strip chamber.}}{22}{figure.2.7}
+\contentsline {figure}{\numberline {{2-8}}{\ignorespaces The L1 trigger architecture.}}{24}{figure.2.8}
+\contentsline {figure}{\numberline {{3-1}}{\ignorespaces The Standard Model particles.}}{27}{figure.3.1}
+\contentsline {figure}{\numberline {{3-2}}{\ignorespaces Higgs production cross sections.}}{44}{figure.3.2}
+\contentsline {figure}{\numberline {{3-3}}{\ignorespaces Higgs boson branching fractions.}}{46}{figure.3.3}
+\contentsline {figure}{\numberline {{3-4}}{\ignorespaces Feynman diagrams for the Higgs boson production modes.}}{47}{figure.3.4}
+\contentsline {figure}{\numberline {{3-5}}{\ignorespaces Quark-gluon scattering.}}{47}{figure.3.5}
+\contentsline {figure}{\numberline {{4-1}}{\ignorespaces EMTF rate reduction and efficiency.}}{62}{figure.4.1}
+\contentsline {figure}{\numberline {{4-2}}{\ignorespaces Standard Model Higgs boson production modes.}}{63}{figure.4.2}
+\contentsline {figure}{\numberline {{4-3}}{\ignorespaces An example fit used for the dimuon mass calibrations.}}{67}{figure.4.3}
+\contentsline {figure}{\numberline {{4-4}}{\ignorespaces Rochester and Kalman Filter muon corrections on the Z peak mean in data.}}{69}{figure.4.4}
+\contentsline {figure}{\numberline {{4-5}}{\ignorespaces Rochester and Kalman filter muon corrections on the Z peak resolution in data.}}{70}{figure.4.5}
+\contentsline {figure}{\numberline {{4-6}}{\ignorespaces The uncalibrated Z peak mean and its alignment in data and MC.}}{71}{figure.4.6}
+\contentsline {figure}{\numberline {{4-7}}{\ignorespaces The Z peak mean and its alignment in data and MC after Rochester corrections.}}{72}{figure.4.7}
+\contentsline {figure}{\numberline {{4-8}}{\ignorespaces The Z peak mean and its alignment in data and MC after Kalman Filter corrections.}}{73}{figure.4.8}
+\contentsline {figure}{\numberline {{4-9}}{\ignorespaces The uncalibrated Z peak resolution in data and MC.}}{74}{figure.4.9}
+\contentsline {figure}{\numberline {{4-10}}{\ignorespaces The Z peak resolution's alignment in data and MC after Rochester corrections.}}{75}{figure.4.10}
+\contentsline {figure}{\numberline {{4-11}}{\ignorespaces The Z peak resolution's alignment in data and MC after Kalman Filter corrections.}}{76}{figure.4.11}
+\contentsline {figure}{\numberline {{4-12}}{\ignorespaces Kalman filter statistical uncertainty on the dimuon mass.}}{77}{figure.4.12}
+\contentsline {figure}{\numberline {{4-13}}{\ignorespaces The BDT ROC score for signal vs background classification.}}{84}{figure.4.13}
+\contentsline {figure}{\numberline {{4-14}}{\ignorespaces BDT score distributions for signal MC, background MC, and data.}}{85}{figure.4.14}
+\contentsline {figure}{\numberline {{4-15}}{\ignorespaces An example of the signal and background histograms for the Autocategorizer.}}{86}{figure.4.15}
+\contentsline {figure}{\numberline {{4-16}}{\ignorespaces An example of the autocategorization process.}}{87}{figure.4.16}
+\contentsline {figure}{\numberline {{4-17}}{\ignorespaces The final categorization.}}{87}{figure.4.17}
+\contentsline {figure}{\numberline {{4-18}}{\ignorespaces Validation plots of the BDT input variables.}}{89}{figure.4.18}
+\contentsline {figure}{\numberline {{4-19}}{\ignorespaces Validation plots of the BDT input variables and the dimuon mass.}}{90}{figure.4.19}
+\contentsline {figure}{\numberline {{4-20}}{\ignorespaces Data/MC agreement for the most sensitivty category.}}{91}{figure.4.20}
+\contentsline {figure}{\numberline {{4-21}}{\ignorespaces Additional Data/MC agreement plots for the most sensitive category.}}{92}{figure.4.21}
+\contentsline {figure}{\numberline {{4-22}}{\ignorespaces The BDT score distribution in data and MC.}}{93}{figure.4.22}
+\contentsline {figure}{\numberline {{4-23}}{\ignorespaces The BDT distribution in data and MC by quantile.}}{94}{figure.4.23}
+\contentsline {figure}{\numberline {{4-24}}{\ignorespaces BDT mass independence plots.}}{95}{figure.4.24}
+\contentsline {figure}{\numberline {{4-25}}{\ignorespaces Kinematic and object count distributions for the inclusive signal MC.}}{97}{figure.4.25}
+\contentsline {figure}{\numberline {{4-26}}{\ignorespaces More kinematic and object count distributions for the inclusive signal MC.}}{98}{figure.4.26}
+\contentsline {figure}{\numberline {{4-27}}{\ignorespaces Even more kinematic and object count distributions for the inclusive signal MC.}}{99}{figure.4.27}
+\contentsline {figure}{\numberline {{4-28}}{\ignorespaces Kinematic and object count distributions for the signal MC in the most sensitive category.}}{100}{figure.4.28}
+\contentsline {figure}{\numberline {{4-29}}{\ignorespaces More kinematic and object count distributions for the signal MC in the most sensitive category.}}{101}{figure.4.29}
+\contentsline {figure}{\numberline {{4-30}}{\ignorespaces Even more kinematic and object count distributions for the signal MC in the most sensitive category.}}{102}{figure.4.30}
+\contentsline {figure}{\numberline {{4-31}}{\ignorespaces Background shapes in data in the different categories.}}{103}{figure.4.31}
+\contentsline {figure}{\numberline {{4-32}}{\ignorespaces An example of the signal model.}}{105}{figure.4.32}
+\contentsline {figure}{\numberline {{4-33}}{\ignorespaces The signal model compared to MC predictions.}}{106}{figure.4.33}
+\contentsline {figure}{\numberline {{4-34}}{\ignorespaces The signal composition, resolution, and purity in the different categories.}}{106}{figure.4.34}
+\contentsline {figure}{\numberline {{4-35}}{\ignorespaces The efficiency times acceptance versus the Higgs mass.}}{107}{figure.4.35}
+\contentsline {figure}{\numberline {{4-36}}{\ignorespaces Some background-only fits.}}{109}{figure.4.36}
+\contentsline {figure}{\numberline {{4-37}}{\ignorespaces An example of the F-Test for the ordered background fits.}}{110}{figure.4.37}
+\contentsline {figure}{\numberline {{4-38}}{\ignorespaces Uncertainty on some jet kinematics and counts.}}{113}{figure.4.38}
+\contentsline {figure}{\numberline {{4-39}}{\ignorespaces Impact plots using the Asimov dataset.}}{114}{figure.4.39}
+\contentsline {figure}{\numberline {{4-40}}{\ignorespaces Background bias results for the categories 0 to 8.}}{116}{figure.4.40}
+\contentsline {figure}{\numberline {{4-41}}{\ignorespaces Background bias results for the categories 9 to 14.}}{117}{figure.4.41}
+\contentsline {figure}{\numberline {{4-42}}{\ignorespaces The net bias of the combined background model.}}{118}{figure.4.42}
+\contentsline {figure}{\numberline {{4-43}}{\ignorespaces The upper limit on the signal strength for the individual categories on 13 TeV data alone.}}{120}{figure.4.43}
+\contentsline {figure}{\numberline {{4-44}}{\ignorespaces The net upper limit on the signal strength for 13 TeV data alone.}}{120}{figure.4.44}
+\contentsline {figure}{\numberline {{4-45}}{\ignorespaces The p-value on the background-only hypothesis using 13 TeV data alone.}}{121}{figure.4.45}
+\contentsline {figure}{\numberline {{4-46}}{\ignorespaces A plot of the negative log likelihood near the minimum for the signal strength.}}{121}{figure.4.46}
+\contentsline {figure}{\numberline {{4-47}}{\ignorespaces The weighted average of the signal + background fits for 13 TeV data.}}{122}{figure.4.47}
+\contentsline {figure}{\numberline {{4-48}}{\ignorespaces Signal + background fits for the individual categories on 13 TeV data.}}{123}{figure.4.48}
+\contentsline {figure}{\numberline {{4-49}}{\ignorespaces More signal + background fits for the individual categories on 13 TeV data.}}{124}{figure.4.49}
+\contentsline {figure}{\numberline {{4-50}}{\ignorespaces The upper limit on the signal strength combining 7, 8, and 13 TeV data.}}{125}{figure.4.50}
+\contentsline {figure}{\numberline {{4-51}}{\ignorespaces The p-value on the background only hypothesis combining 7, 8, and 13 TeV data.}}{126}{figure.4.51}
+\contentsline {figure}{\numberline {{4-52}}{\ignorespaces The negative log likelihood for the combined 7, 8, and 13 TeV data.}}{126}{figure.4.52}
+\contentsline {figure}{\numberline {{4-53}}{\ignorespaces The expected p-value versus the amount of 13 TeV data.}}{127}{figure.4.53}

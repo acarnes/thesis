@@ -5,24 +5,24 @@ The Standard Model (SM) of particle physics is an incredibly successful theory t
 \begin{figure}[h!]
   \centering
   \includegraphics[width=4in]{images/Standard_Model_of_Elementary_Particles.png}
-  \caption
-   {The Standard Model Particles}
+  \caption[The Standard Model particles.]
+   {The Standard Model particles.}
   \label{fig:smtable}
 \end{figure}
 
 The force carrying particles that allow matter to interact and form more complex objects like atoms, molecules, and even people are the spin 1 bosons. These force carriers are the gluons, photons, and the W and Z particles. Gluons mediate the strong force, photons the electromagnetic force, and the W and Z bosons mediate the weak force. Every force has an associated charge: particles with electric charge can interact through the electromagnetic force, those with color charge may interact via the strong force, and those with isospin or weak hypercharge may interact through the weak force. The fundamental forces bind the fermions to make the familiar composite objects that surround us. The strong force binds quarks into protons and neutrons and the protons and neutrons into nuclei, while the electromagnetic force binds the electrons and nuclei together to make atoms. The size of the composite objects gives an idea of the relative strength of the forces. A proton is ~$10^{-15}$ meters in size while an atom is ~$10^{-10}$ meters and a solar system is ~$10^{12}$ meters. The more tightly bound the stronger the force. But that isn't quite exact, in fact, the ratio of the strength of the forces is like so 1:$10^{-3}$:$10^{-16}$:$10^{-41}$, strong : electromagnetic : weak :gravitational \footnote{Gravity is just included for perspective. The Standard Model does not describe this force and reconciling gravity with quantum mechanics is an open problem.}. 
 
-Of all the particles predicted by the SM, there is only one spin 0 particle, the Higgs boson, and it plays a special role in the theory. As the universe cooled from the Big Bang, the Higgs field went through a phase transition and settled into a nonzero ground state forming a condensate. The electron, muon, tau and the W and Z particles of the SM interact with the Higgs condensate and acquire mass. The massive particles of the SM are massively only because of the Higgs. With such a large role in the SM, finding this particle or a BSM Higgs has been a huge priority for the CMS collaboration \cite{tdr}. In 2012, a Higgs particle with a mass of 125 GeV was found and to date remains consistent with the Standard Model \cite{atlasdiscovery,cmsdiscovery2012,cmsdiscovery2013}. However, the properties need to be investigated further before declaring the discovered Higgs the Higgs of the Standard Model. 
+Of all the particles predicted by the SM, there is only one spin 0 particle, the Higgs boson, and it plays a special role in the theory. As the universe cooled from the Big Bang, the Higgs field went through a phase transition and settled into a nonzero ground state forming a condensate. The electron, muon, tau and the W and Z particles of the SM interact with the Higgs condensate and acquire mass. The massive particles of the SM are massively only because of the Higgs boson. With such a large role in the SM, finding this particle or a BSM Higgs boson has been a huge priority for the CMS collaboration \cite{tdr}. In 2012, a Higgs particle with a mass of 125 GeV was found and to date remains consistent with the Standard Model \cite{atlasdiscovery,cmsdiscovery2012,cmsdiscovery2013}. However, the properties need to be investigated further before declaring the discovered Higgs boson the Higgs particle of the Standard Model. 
 
 The next sections build and couple the different Lagrangians to lay out the Standard Model and the Higgs mechanism. After putting the theory together, the more experimental details of the search for $H\rightarrow\mu^+\mu^-$ are described. In the following sections, $\hbar$ and the speed of light, c, are set to 1. Moreover, 0,1,2,3 and t,x,y,z are used interchangeably to label the components of a four vector. When relevant, 0 represents time and 1,2,3 represent x,y,z respectively. Einstein summation notation is used indicating that repeated indices are summed over, so $x_ix_i y_jy_j$ is shorthand for $\sum_i\sum_j x_ix_i y_jy_j$. Repeated Greek indices assume sums over all four space and time components, while repeated Roman indices assume sums over only the spatial components. 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Quantum Field Theory, Symmetries, and the Higgs Boson}
+\section{Quantum Field Theory, Symmetries, And The Higgs Boson}
 
 The laws of physics are invariant under boosts and rotations. Any proper Quantum Field Theory (QFT) is described by an invariant Lagrangian respecting these symmetries. Boosts and rotations may be represented by different NxN matrices. The 4x4 matrices act on four vectors, the 2x2 matrices act on spinors, and the 1x1 matrices act on scalars. Scalars, four vector products, and certain spinor products remain invariant under Lorentz transformations so they are a natural ingredients for different QFTs. Scalar fields represent spin 0 particles, spinor fields represent spin 1/2 particles, and four vectors fields represent spin 1 particles. Coupling the spin 1 and spin 1/2 Lagrangians produces forces, and coupling the spin 1/2 and spin 1 fields to a spin 0 field produces mass. The spin 0 particle is the Higgs boson. In order to explain the Higgs coupling, the different Lagrangians are built and coupled. 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{The Lagrangian for a Free Scalar Particle}
+\section{The Lagrangian For A Free Scalar Particle}
 
 A scalar field remains the same under Lorentz transformations. This representation is used for spin 0 particles. The equations of motion must relate the change in the scalar field $\Phi$ at one moment in space and time to the value of $\Phi$ at the next moment in space and time, so the Lagrangian must include both the field itself and the four vector derivative, $\partial_\mu$. Note that both Newton's equations of motion, $F=m\ddot{x}$, and the Schrodinger equation for the free particle, $i\partial_t\psi = \frac{1}{2m}(-i\partial_x)(-i\partial_x)\psi$\footnote{Here the one dimensional case is presented for simplicity} have at most second order derivatives. The same holds for Maxwell's equations of electromagnetism. Hence, as an assumption, the derivative term in the Lagrangian will be the lowest order possible. As a Lorentz invariant scalar, any power of $\Phi$ can be included. On the other hand, $\partial_\mu$ is a four vector, and must be paired with a $\partial^\mu$ to form the invariant four vector product. Cross terms between these invariant pieces like $\Phi\partial_\mu\partial^\mu\Phi$ or $\partial_\mu\Phi\partial^\mu\Phi$ are also invariant, but lead to feedback between the derivatives and the value of the function. This means that the derivatives $i\partial_t = E$ and $-i\partial_i = P_i$ will change over time, but E and $\vec{P}$ should remain constant for a free particle. The cross terms are thrown out to prevent this. The $\Phi$ terms with an order different than $\Phi^2$ cause the same problem, and these are thrown out too. All of these choices lead to the following action, 
 \begin{equation}
@@ -49,7 +49,7 @@ S = \int d^4x \frac{1}{2}\left(\partial_\mu\Phi\partial^\mu\Phi - m^2 \Phi^2 \ri
 \end{equation}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{The Lagrangian for a Free Spin $\frac{1}{2}$ Particle}
+\section{The Lagrangian For A Free Spin $\frac{1}{2}$ Particle}
 
 With the action for the free scalar particle in hand, the free spin $\frac{1}{2}$ particle is up next. The spin $\frac{1}{2}$ action must combine the $\mathcal{L}$ (left-chiral) and $\mathcal{R}$ (right-chiral) spinors of the $(\frac{1}{2}, 0)$ and $(0, \frac{1}{2})$ representations and the four vector, $\partial_\mu$, in a Lorentz invariant way \cite{physymm}. The $\mathcal{L}$, $\mathcal{R}$, and $\partial_\mu$ transformations are now analyzed to find the lowest order invariant combinations. A Lorentz transformation for the left-chiral spinor is 
 \begin{equation}
@@ -186,7 +186,7 @@ after defining
 The spin $\frac{1}{2}$ Lagrangian is called the Dirac Lagrangian and the resulting equations of motion are the Dirac equation.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{The Lagrangian for a Free Spin 1 Particle}
+\section{The Lagrangian For A Free Spin 1 Particle}
 Last but not least is the Lagrangian for a spin 1 force carrying particle. The main ingredients are the $A_\mu$ and $\partial_\mu$ four vectors. The lowest order possible invariants are $\partial^\mu A^\nu\partial_\mu A_\nu$, $\partial^\mu A^\nu\partial_\nu A_\mu$, $A^\mu A_\mu$, and $\partial^\mu A_\mu$. However the last term is a total derivative and won't be included. The resulting action and equations of motion are 
 \begin{equation}
 S = \int d^4x \left( c_0 i\partial^\mu A^\nu i\partial_\mu A_\nu + c_1 i\partial^\mu A^\nu i\partial_\nu A_\mu + c_2 A^\mu A_\mu \right).
@@ -311,7 +311,7 @@ F^a_{\mu\nu} = \partial_\mu A^a_\nu - \partial_\nu A^a_\mu + qf^{abc}A^b_\mu A^c
 \end{equation}
 $\mathcal{N}$ is set to $-\frac{1}{2}$ in order to get the appropriate $-\frac{1}{4}$ in front of the $F^a_{\mu\nu}$ tensors\footnote{The calculation uses the fact that the SU(N) the generator matrices form an orthogonal basis, $tr(T^aT^b) = \frac{1}{2}\delta^{ab}$.}.
 
-The SU(2) invariant Lagrangian of equation \ref{eq:ewlagrangian} provides the weak interaction. Unfortunately, the theory has massless fermions and massless weak force particles, while in real life these particles have mass. Adding mass terms directly ruins the SU(2) invariance, so another mechanism is needed, and this is where the Higgs comes into play.  
+The SU(2) invariant Lagrangian of equation \ref{eq:ewlagrangian} provides the weak interaction. Unfortunately, the theory has massless fermions and massless weak force particles, while in real life these particles have mass. Adding mass terms directly ruins the SU(2) invariance, so another mechanism is needed, and this is where the Higgs mechanism comes into play.  
 %= \int d^4x \frac{-1}{4}F^a_{\mu\nu}F_a^{\mu\nu} + \bar{\psi}i\gamma^\mu D_\mu\psi,
 %\underbracket[0.8pt]{\mathcal{D}_F(x_2,x_1)}_\text{A}
 %iq\frac{\sigma_i}{2}\partial_\mu\alpha_i
@@ -444,7 +444,7 @@ q_{wi} = Q_{wi}g_w \text{ and } q_{bi} = Q_{bi}g_b.
 \end{equation} 
 The U(1) gauge symmetry leads to conservation of electromagnetic charge, $Q = Q_{w}I_{3} + Q_{b}$, implying that the electromagnetic charge for a given particle is $Q_i = Q_{wi}I_{3i} + Q_{bi}$. $I_{3i}$ represents the eigenvalue of the $T^3$ generator denoting the particle eigenstate. For example, the operator $T^3 = \frac{\sigma^3}{2}$ acting on L has two eigenstates, $\nu_e$ and $e_L$, corresponding to eigenvalues $I_{3\nu_e} = \frac{1}{2}$ and $I_{3e_L} = \frac{-1}{2}$ respectively. Similarly, the eigenstates $\phi^+ = 0$ and $\phi^- = \phi_0 + h$ correspond to eigenvalues $I_{3\phi^+} = \frac{1}{2}$ and $I_{3\phi^-} = \frac{-1}{2}$.  
 
-The symmetry of the W particles towards the left handed particles implies that the left handed particles have the same charge, $Q_{wi} = 1$. The lack of interaction between the W paricles and the right handed particles implies that the right handed particles have $Q_{wi} = 0$. The Higgs is assumed to interact with the W particles the same way as the left handed ones with a $Q_{wi} = 1$. The electromagnetic charge $Q_i$ and the isospin $Q_{wi}$ values fix the remaining electroweak $Q_{bi}$ values, 
+The symmetry of the W particles towards the left handed particles implies that the left handed particles have the same charge, $Q_{wi} = 1$. The lack of interaction between the W paricles and the right handed particles implies that the right handed particles have $Q_{wi} = 0$. The Higgs boson is assumed to interact with the W particles the same way as the left handed ones with a $Q_{wi} = 1$. The electromagnetic charge $Q_i$ and the isospin $Q_{wi}$ values fix the remaining electroweak $Q_{bi}$ values, 
 \begin{equation}
 \begin{split}
 &Q_{e_L} = Q_{we_L}I_{3e_L} + Q_{be_L} = \frac{-1}{2} + Q_{be_L} \\
@@ -673,23 +673,23 @@ with $\phi = \begin{pmatrix} 0 \\ \phi_0 + \frac{1}{\sqrt{2}}h(x) \end{pmatrix}$
 %The Feynman rules for the actual interactions of the Standard Model are derived from the interacting Lagrangians in a similar way. The Feynman diagrams use the appropriate $\mathcal{D}_F$ propagators for the lines and the right coupling factors for the vertices. Different styles of lines are used in the diagrams to represent the different types of propagators. 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{The Standard Model Higgs and the LHC}
+\section{The Standard Model Higgs Boson And The LHC}
 
-The SM Higgs interacts with the massive particles of the SM and even with the massless gluons and photons through second order processes. As such, it can be produced by colliding certain combinations of these particles, and it can decay into them as well. At a particle collider like the LHC, the number of particles expected for a certain process is given by the cross section times the integrated luminosity, $N = \sigma_i*L$. The cross section is proportional to the probability for a production process and consequently, describes how likely a collision attempt is to produce some particle(s) of interest. The luminosity roughly describes the density and the frequency of the incoming particles. Some of the Higgs cross sections for 14 TeV proton-proton collisions are shown in Figure \ref{fig:hprodcross}. 
+The SM Higgs boson interacts with the massive particles of the SM and even with the massless gluons and photons through second order processes. As such, it can be produced by colliding certain combinations of these particles, and it can decay into them as well. At a particle collider like the LHC, the number of particles expected for a certain process is given by the cross section times the integrated luminosity, $N = \sigma_i*L$. The cross section is proportional to the probability for a production process and consequently, describes how likely a collision attempt is to produce some particle(s) of interest. The luminosity roughly describes the density and the frequency of the incoming particles. Some of the Higgs cross sections for 14 TeV proton-proton collisions are shown in Figure \ref{fig:hprodcross}. 
 
 \begin{figure}[h!]
   \centering
   \includegraphics[width=5in]{images/14TeV_higgs_cross_sections.png}
-  \caption
-   {The highest production mode cross sections for the SM Higgs at 14 TeV \cite{crossbranchplots}}
+  \caption[Higgs production cross sections.]
+   {The highest production mode cross sections for the SM Higgs boson at 14 TeV \cite{crossbranchplots}.}
   \label{fig:hprodcross}
 \end{figure}
 
-The Higgs cross sections are functions of the mass of the Higgs as well as the energy of the collisons. For a given collision energy, as in Figure \ref{fig:hprodcross}, the cross sections decrease as the Higgs mass increases. When a larger portion of the collision energy was used to create the mass of the particle, there is less energy to distribute among the kinematic degrees of freedom and therefore fewer possibilities for distribution. On the other hand, for a specific Higgs mass, the cross section grows with collision energy at the LHC. This constrasts with cross sections involving collisions of fundamental particles, e.g. electron antielectron collisions, due to the fact that the LHC collides protons together. 
+The Higgs cross sections are functions of the mass of the Higgs boson as well as the energy of the collisons. For a given collision energy, as in Figure \ref{fig:hprodcross}, the cross sections decrease as the Higgs mass increases. When a larger portion of the collision energy was used to create the mass of the particle, there is less energy to distribute among the kinematic degrees of freedom and therefore fewer possibilities for distribution. On the other hand, for a specific Higgs mass, the cross section grows with collision energy at the LHC. This constrasts with cross sections involving collisions of fundamental particles, e.g. electron antielectron collisions, due to the fact that the LHC collides protons together. 
 
 Protons behave like a quantum superposition of an infinite number of quark-antiquarks, an infinite number of gluons, and the usual uud. As a consequence, the total momentum of a proton in a collision is divided up amongst these constituents called partons. This experimentally verified phenomena is modeled by the parton distribution function, which describes the number of partons with a given fraction of the total momentum. In general, there are many partons with very little of the momentum, and this behavior implies that the cross section should increase with increasing proton momentum. The minimum energy required to create a particular particle is a constant, and at larger proton momentum, this constant is a smaller fraction of the total proton momentum. With more partons at this smaller fraction, there are effectively more partons colliding with the necessary energy. This effective increase in the density of energetic partons results in a growth of the cross section with collision energy. 
 
-If a SM Higgs is produced, it's predicted to decay in about $10^{-22}$ seconds\footnote{Assuming a 125 GeV SM Higgs boson}, which means that the particle itself can't be directly detected at the LHC, only the the decay products can. The SM decay probabilities for the different products are listed in Figure \ref{fig:hbranch}. These probabilities are determined by the coupling, which for the Higgs is the mass of the particle. With a stronger coupling to more massive particles, the decays to the more massive particles are more probable.
+If a SM Higgs boson is produced, it's predicted to decay in about $10^{-22}$ seconds\footnote{Assuming a 125 GeV SM Higgs boson}, which means that the particle itself can't be directly detected at the LHC, only the the decay products can. The SM decay probabilities for the different products are listed in Figure \ref{fig:hbranch}. These probabilities are determined by the coupling, which for the Higgs boson is the mass of the particle. With a stronger coupling to more massive particles, the decays to the more massive particles are more probable.
 \begin{figure}[h!]
   \centering
   \includegraphics[width=3in]{images/Higgs_BR.png}
@@ -708,29 +708,28 @@ If a SM Higgs is produced, it's predicted to decay in about $10^{-22}$ seconds\f
     ${\rm \mu^{+}\mu^{-}}$ & 0.00022 \\
     \hline
   \end{tabular} 
-  \caption
-{The graphic on the top left presents the SM Higgs branching fractions as functions of mass while the table on the bottom right displays the branching fractions for a 125 GeV SM Higgs \cite{crossbranchplots}.}
+  \caption[Higgs boson branching fractions.]
+{The graphic on the top left presents the SM Higgs branching fractions as functions of mass while the table on the bottom right displays the branching fractions for a 125 GeV SM Higgs boson \cite{crossbranchplots}.}
   \label{fig:hbranch}
 \end{figure}
 
-The muon has the lowest mass \footnote{excluding the photon and gluon} of the particles in Figure ~\ref{fig:hbranch} and consequently H$\rightarrow \mu^{+}\mu^{-}$ has the lowest branching fraction in the set. \footnote{The Higgs also couples to the electron and the first generation quarks but the masses are so light that CMS does not expect to see the SM Higgs in those modes.} The gluons and photons are massless and do not couple to the Higgs at leading order, but through second order processes. Gluons interact with the Higgs through a loop of top quarks, as seen in Figure \ref{fig:hfeynprod}a. The extremely heavy mass of the top quark, about 173 GeV, balances the fact that the loop production is a higher order mechanism. The photons interact with the Higgs through a either a loop of W bosons or a loop of top quarks. 
+The muon has the lowest mass \footnote{excluding the photon and gluon} of the particles in Figure ~\ref{fig:hbranch} and consequently H$\rightarrow \mu^{+}\mu^{-}$ has the lowest branching fraction in the set. \footnote{The Higgs boson also couples to the electron and the first generation quarks but the masses are so light that CMS does not expect to see the SM Higgs boson in those modes.} The gluons and photons are massless and do not couple to the Higgs boson at leading order, but through second order processes. Gluons interact with the Higgs boson through a loop of top quarks, as seen in Figure \ref{fig:hfeynprod}a. The extremely heavy mass of the top quark, about 173 GeV, balances the fact that the loop production is a higher order mechanism. The photons interact with the Higgs boson through a either a loop of W bosons or a loop of top quarks. 
 \begin{figure}[h!]
   \centering
   \includegraphics[width=4in]{images/higgs_production_modes.png}
-  \caption
-   {The SM production modes with the highest cross sections. a) Gluon Gluon Fusion (GGF/ggH) b) Vector Boson Fusion (VBF/qqH) c) Associated Production with a Vector Boson (VH) d) ${\rm t\bar{t}}$H}
+  \caption[Feynman diagrams for the Higgs boson production modes.]
+   {The SM production modes with the highest cross sections. a) Gluon Gluon Fusion (GGF/ggH) b) Vector Boson Fusion (VBF/qqH) c) Associated Production with a Vector Boson (VH) d) ${\rm t\bar{t}}$H.}
   \label{fig:hfeynprod}
 \end{figure}
 Figure \ref{fig:hfeynprod} shows the highest probability production mechanisms at the LHC. At ${\rm M_{h} = 125}$ GeV, ${\rm \sqrt{s} =}$ 13 TeV, the GGF channel comprises 87\% of the total Higgs production cross section, VBF 7\%, VH 4\%, and ${\rm t\bar{t}}$H 1\% \cite{crossbranchplots}. Besides ${\rm t\bar{t}}$H, the process q + $\bar{q} \rightarrow$ H isn't considered due to its low cross section. The low masses of these other quarks suppress the process. 
 
 Colliding protons full of quarks and gluons results in many quark-gluon (qg) scattering events like the one in Figure \ref{fig:qg}. Quarks and gluons are detected at CMS as collimated jets of energy deposition and not single particles with well defined tracks. Because of this, the different quarks and gluons are difficult to differentiate from one another, and it's difficult to differentiate the quark/gluon Higgs decays from this large background. 
 \begin{figure}[h!]
-\label{fig:qg}
   \centering
   \includegraphics[width=2in]{images/qg_scattering.png}
-  \caption
-   {The quark-gluon background looks very similar to the GGF production channel when the Higgs decays to two jets. Protons are made of quarks and gluons so this process is extremely common in proton colliders like the LHC.}
-  \label{fig:feynqg}
+  \caption[Quark-gluon scattering.]
+   {The quark-gluon background looks very similar to the GGF production channel when the Higgs boson decays to two jets. Protons are made of quarks and gluons so this process is extremely common in proton colliders like the LHC.}
+\label{fig:qg}
 \end{figure}
 The Higgs decay to b-quarks is an exception as the b-quark upon production forms a reasonably long lived hadron, which travels from the initial collision point and then decays. In this way, jets that come from displaced vertices are probably b-jets and these events can be collected for study without collecting the majority of the enormous qg background. The relative clarity over the qg background makes $H\rightarrow b\bar{b}$ an important and viable process that allows scientists at the LHC to study the Higgs coupling to fermions and to third generation quarks in particular. The other viable decays to study are those with isolated lepton or photon final states that distinguish them from the overwhelming jet background. 
 %\begin{figure}[h!]
