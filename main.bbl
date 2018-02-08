@@ -255,4 +255,70 @@
   comparison with the legacy muon trigger system}}  (\bibinfo{year}{2017}).
 \newblock \urlprefix\url{https://cds.cern.ch/record/2286327}.
 
+\bibitem{gtsm1}
+\bibinfo{author}{Dery, A.}, \bibinfo{author}{Efrati, A.},
+  \bibinfo{author}{Hochberg, Y.} \& \bibinfo{author}{Nir, Y.}
+\newblock \bibinfo{title}{{What if
+  BR($h\rightarrow\mu\mu$)/BR($h\rightarrow\tau\tau$) does not equal
+  $m_\mu^2$/$m_\tau^2$?}}
+\newblock \emph{\bibinfo{journal}{JHEP}} \textbf{\bibinfo{volume}{05}},
+  \bibinfo{pages}{039} (\bibinfo{year}{2013}).
+\newblock \eprint{1302.3229}.
+
+\bibitem{gtsm2}
+\bibinfo{author}{Vignaroli, N.}
+\newblock \bibinfo{title}{{Searching for a dilaton decaying to muon pairs at
+  the LHC}}.
+\newblock \emph{\bibinfo{journal}{Phys. Rev.}} \textbf{\bibinfo{volume}{D80}},
+  \bibinfo{pages}{095023} (\bibinfo{year}{2009}).
+\newblock \eprint{0906.4078}.
+
+\bibitem{gtsm3}
+\bibinfo{author}{Giudice, G.~F.} \& \bibinfo{author}{Lebedev, O.}
+\newblock \bibinfo{title}{{Higgs-dependent Yukawa couplings}}.
+\newblock \emph{\bibinfo{journal}{Phys. Lett.}}
+  \textbf{\bibinfo{volume}{B665}}, \bibinfo{pages}{79--85}
+  (\bibinfo{year}{2008}).
+\newblock \eprint{0804.1753}.
+
+\bibitem{atlashmumu2012}
+\bibinfo{author}{\relax ATLAS~Collaboration}.
+\newblock \bibinfo{title}{{Search for the Standard Model Higgs boson decay to
+  $\mu^{+}\mu^{-}$ with the ATLAS detector}}.
+\newblock \emph{\bibinfo{journal}{Phys. Lett.}}
+  \textbf{\bibinfo{volume}{B738}}, \bibinfo{pages}{68--86}
+  (\bibinfo{year}{2014}).
+\newblock \eprint{1406.7663}.
+
+\bibitem{atlashmumu2017}
+\bibinfo{author}{Collaboration, A.}
+\newblock \bibinfo{title}{Search for the dimuon decay of the higgs boson in
+  $pp$ collisions at $\sqrt{s}=13\text{ }\text{ }\mathrm{TeV}$ with the atlas
+  detector}.
+\newblock \emph{\bibinfo{journal}{Phys. Rev. Lett.}}
+  \textbf{\bibinfo{volume}{119}}, \bibinfo{pages}{051802}
+  (\bibinfo{year}{2017}).
+\newblock
+  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.119.051802}.
+
+\bibitem{cmshiggstau2017}
+\bibinfo{author}{\relax CMS~Collaboration}.
+\newblock \bibinfo{title}{{Observation of the Higgs boson decay to a pair of
+  tau leptons}}  (\bibinfo{year}{2017}).
+\newblock \eprint{1708.00373}.
+
+\bibitem{cmshiggsbb2017}
+\bibinfo{author}{\relax CMS~Collaboration}.
+\newblock \bibinfo{title}{{Evidence for the Higgs boson decay to a bottom
+  quark-antiquark pair}}  (\bibinfo{year}{2017}).
+\newblock \eprint{1709.07497}.
+
+\bibitem{cmshmumu2017}
+\bibinfo{author}{\relax CMS~Collaboration}.
+\newblock \bibinfo{title}{{Search for the standard model Higgs boson decaying
+  into two muons in pp collisions at sqrt(s)=13TeV}}.
+\newblock \bibinfo{type}{Tech. Rep.} \bibinfo{number}{CMS-PAS-HIG-17-019},
+  \bibinfo{address}{Geneva} (\bibinfo{year}{2017}).
+\newblock \urlprefix\url{https://cds.cern.ch/record/2292159}.
+
 \end{thebibliography}

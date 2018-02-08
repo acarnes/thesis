@@ -64,5 +64,5 @@
 \contentsline {subsection}{\numberline {4.11.2}Results Combining 7, 8, And 13 TeV Data}{125}{subsection.4.11.2}
 \contentsline {subsection}{\numberline {4.11.3}Future Projections}{127}{subsection.4.11.3}
 \contentsline {chapter}{\numberline {5}\uppercase {CONCLUSIONS}}{128}{chapter.5}
-\contentsline {extrachapter}{REFERENCES}{129}{chapter*.6}
-\contentsline {extrachapter}{BIOGRAPHICAL SKETCH}{132}{chapter*.7}
+\contentsline {extrachapter}{REFERENCES}{130}{chapter*.6}
+\contentsline {extrachapter}{BIOGRAPHICAL SKETCH}{133}{chapter*.7}
