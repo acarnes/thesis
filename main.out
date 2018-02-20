@@ -23,46 +23,52 @@
 \BOOKMARK [1][-]{section.3.5}{3.5 Interactions}{chapter.3}% 23
 \BOOKMARK [1][-]{section.3.6}{3.6 The Higgs Mechanism}{chapter.3}% 24
 \BOOKMARK [1][-]{section.3.7}{3.7 The Standard Model Higgs Boson And The LHC}{chapter.3}% 25
-\BOOKMARK [0][-]{chapter.4}{4 THE SEARCH FOR H+-}{}% 26
-\BOOKMARK [1][-]{section.4.1}{4.1 Discovery, Limits, Measurement, And Sensitivity}{chapter.4}% 27
-\BOOKMARK [1][-]{section.4.2}{4.2 The Analysis Strategy}{chapter.4}% 28
-\BOOKMARK [1][-]{section.4.3}{4.3 Improving The Level-1 Muon Trigger}{chapter.4}% 29
-\BOOKMARK [2][-]{subsection.4.3.1}{4.3.1 Metrics Of Success}{section.4.3}% 30
-\BOOKMARK [2][-]{subsection.4.3.2}{4.3.2 The EMTF Regression Project}{section.4.3}% 31
-\BOOKMARK [2][-]{subsection.4.3.3}{4.3.3 Putting The BDTs Into A Look-up Table}{section.4.3}% 32
-\BOOKMARK [2][-]{subsection.4.3.4}{4.3.4 Results And Conclusions}{section.4.3}% 33
-\BOOKMARK [1][-]{section.4.4}{4.4 Data And Monte Carlo Samples}{chapter.4}% 34
-\BOOKMARK [1][-]{section.4.5}{4.5 Muon Momentum Calibration}{chapter.4}% 35
-\BOOKMARK [2][-]{subsection.4.5.1}{4.5.1 Muon Corrections In Data}{section.4.5}% 36
-\BOOKMARK [2][-]{subsection.4.5.2}{4.5.2 Data-MC Agreement In Scale, Resolution}{section.4.5}% 37
-\BOOKMARK [2][-]{subsection.4.5.3}{4.5.3 Derivation Of Systematic Uncertainties}{section.4.5}% 38
-\BOOKMARK [1][-]{section.4.6}{4.6 Event Selection, Object Reconstruction, And Further Corrections}{chapter.4}% 39
-\BOOKMARK [2][-]{subsection.4.6.1}{4.6.1 Muons}{section.4.6}% 40
-\BOOKMARK [2][-]{subsection.4.6.2}{4.6.2 Jets And MET}{section.4.6}% 41
-\BOOKMARK [2][-]{subsection.4.6.3}{4.6.3 Pile-up Reweighting}{section.4.6}% 42
-\BOOKMARK [2][-]{subsection.4.6.4}{4.6.4 Muon Efficiency Scale Factors}{section.4.6}% 43
-\BOOKMARK [2][-]{subsection.4.6.5}{4.6.5 Jet, MET, And B-tagging Corrections}{section.4.6}% 44
-\BOOKMARK [2][-]{subsection.4.6.6}{4.6.6 Event Selection}{section.4.6}% 45
-\BOOKMARK [1][-]{section.4.7}{4.7 Maximizing The Sensitivity}{chapter.4}% 46
-\BOOKMARK [2][-]{subsection.4.7.1}{4.7.1 Training Boosted Decision Trees}{section.4.7}% 47
-\BOOKMARK [2][-]{subsection.4.7.2}{4.7.2 Event Categorization}{section.4.7}% 48
-\BOOKMARK [2][-]{subsection.4.7.3}{4.7.3 The Autocategorizer}{section.4.7}% 49
-\BOOKMARK [2][-]{subsection.4.7.4}{4.7.4 Final Categories}{section.4.7}% 50
-\BOOKMARK [2][-]{subsection.4.7.5}{4.7.5 Validating The Categories}{section.4.7}% 51
-\BOOKMARK [2][-]{subsection.4.7.6}{4.7.6 Signal And Background}{section.4.7}% 52
-\BOOKMARK [1][-]{section.4.8}{4.8 Modeling The Signal}{chapter.4}% 53
-\BOOKMARK [1][-]{section.4.9}{4.9 Modeling The Background}{chapter.4}% 54
-\BOOKMARK [1][-]{section.4.10}{4.10 Systematic Uncertainties}{chapter.4}% 55
-\BOOKMARK [2][-]{subsection.4.10.1}{4.10.1 Signal}{section.4.10}% 56
-\BOOKMARK [3][-]{subsubsection.4.10.1.1}{4.10.1.1 Shape uncertainties}{subsection.4.10.1}% 57
-\BOOKMARK [3][-]{subsubsection.4.10.1.2}{4.10.1.2 Category migration uncertainties}{subsection.4.10.1}% 58
-\BOOKMARK [3][-]{subsubsection.4.10.1.3}{4.10.1.3 Rate uncertainties}{subsection.4.10.1}% 59
-\BOOKMARK [3][-]{subsubsection.4.10.1.4}{4.10.1.4 Impact plots}{subsection.4.10.1}% 60
-\BOOKMARK [2][-]{subsection.4.10.2}{4.10.2 Background}{section.4.10}% 61
-\BOOKMARK [1][-]{section.4.11}{4.11 Results}{chapter.4}% 62
-\BOOKMARK [2][-]{subsection.4.11.1}{4.11.1 Results For 13 TeV Data}{section.4.11}% 63
-\BOOKMARK [2][-]{subsection.4.11.2}{4.11.2 Results Combining 7, 8, And 13 TeV Data}{section.4.11}% 64
-\BOOKMARK [2][-]{subsection.4.11.3}{4.11.3 Future Projections}{section.4.11}% 65
-\BOOKMARK [0][-]{chapter.5}{5 CONCLUSIONS}{}% 66
-\BOOKMARK [0][-]{chapter*.6}{REFERENCES}{}% 67
-\BOOKMARK [0][-]{chapter*.7}{BIOGRAPHICAL SKETCH}{}% 68
+\BOOKMARK [0][-]{chapter.4}{4 DISCOVERY, LIMITS, MEASUREMENT, AND SENSITIVITY}{}% 26
+\BOOKMARK [1][-]{section.4.1}{4.1 Discovery}{chapter.4}% 27
+\BOOKMARK [1][-]{section.4.2}{4.2 Limits}{chapter.4}% 28
+\BOOKMARK [1][-]{section.4.3}{4.3 Measurement and Uncertainty}{chapter.4}% 29
+\BOOKMARK [1][-]{section.4.4}{4.4 Sensitivity}{chapter.4}% 30
+\BOOKMARK [1][-]{section.4.5}{4.5 Extending The Concepts}{chapter.4}% 31
+\BOOKMARK [2][-]{subsection.4.5.1}{4.5.1 Sensitivity}{section.4.5}% 32
+\BOOKMARK [2][-]{subsection.4.5.2}{4.5.2 A Test Statistic}{section.4.5}% 33
+\BOOKMARK [0][-]{chapter.5}{5 THE SEARCH FOR H+-}{}% 34
+\BOOKMARK [1][-]{section.5.1}{5.1 The Analysis Strategy}{chapter.5}% 35
+\BOOKMARK [1][-]{section.5.2}{5.2 Improving The Level-1 Muon Trigger}{chapter.5}% 36
+\BOOKMARK [2][-]{subsection.5.2.1}{5.2.1 Metrics Of Success}{section.5.2}% 37
+\BOOKMARK [2][-]{subsection.5.2.2}{5.2.2 The EMTF Regression Project}{section.5.2}% 38
+\BOOKMARK [2][-]{subsection.5.2.3}{5.2.3 Putting The BDTs Into A Look-up Table}{section.5.2}% 39
+\BOOKMARK [2][-]{subsection.5.2.4}{5.2.4 Results And Conclusions}{section.5.2}% 40
+\BOOKMARK [1][-]{section.5.3}{5.3 Data And Monte Carlo Samples}{chapter.5}% 41
+\BOOKMARK [1][-]{section.5.4}{5.4 Muon Momentum Calibration}{chapter.5}% 42
+\BOOKMARK [2][-]{subsection.5.4.1}{5.4.1 Muon Corrections In Data}{section.5.4}% 43
+\BOOKMARK [2][-]{subsection.5.4.2}{5.4.2 Data-MC Agreement In Scale, Resolution}{section.5.4}% 44
+\BOOKMARK [2][-]{subsection.5.4.3}{5.4.3 Derivation Of Systematic Uncertainties}{section.5.4}% 45
+\BOOKMARK [1][-]{section.5.5}{5.5 Event Selection, Object Reconstruction, And Further Corrections}{chapter.5}% 46
+\BOOKMARK [2][-]{subsection.5.5.1}{5.5.1 Muons}{section.5.5}% 47
+\BOOKMARK [2][-]{subsection.5.5.2}{5.5.2 Jets And MET}{section.5.5}% 48
+\BOOKMARK [2][-]{subsection.5.5.3}{5.5.3 Pile-up Reweighting}{section.5.5}% 49
+\BOOKMARK [2][-]{subsection.5.5.4}{5.5.4 Muon Efficiency Scale Factors}{section.5.5}% 50
+\BOOKMARK [2][-]{subsection.5.5.5}{5.5.5 Jet, MET, And B-tagging Corrections}{section.5.5}% 51
+\BOOKMARK [2][-]{subsection.5.5.6}{5.5.6 Event Selection}{section.5.5}% 52
+\BOOKMARK [1][-]{section.5.6}{5.6 Maximizing The Sensitivity}{chapter.5}% 53
+\BOOKMARK [2][-]{subsection.5.6.1}{5.6.1 Training Boosted Decision Trees}{section.5.6}% 54
+\BOOKMARK [2][-]{subsection.5.6.2}{5.6.2 Event Categorization}{section.5.6}% 55
+\BOOKMARK [2][-]{subsection.5.6.3}{5.6.3 The Autocategorizer}{section.5.6}% 56
+\BOOKMARK [2][-]{subsection.5.6.4}{5.6.4 Final Categories}{section.5.6}% 57
+\BOOKMARK [2][-]{subsection.5.6.5}{5.6.5 Validating The Categories}{section.5.6}% 58
+\BOOKMARK [2][-]{subsection.5.6.6}{5.6.6 Signal And Background}{section.5.6}% 59
+\BOOKMARK [1][-]{section.5.7}{5.7 Modeling The Signal}{chapter.5}% 60
+\BOOKMARK [1][-]{section.5.8}{5.8 Modeling The Background}{chapter.5}% 61
+\BOOKMARK [1][-]{section.5.9}{5.9 Systematic Uncertainties}{chapter.5}% 62
+\BOOKMARK [2][-]{subsection.5.9.1}{5.9.1 Signal}{section.5.9}% 63
+\BOOKMARK [3][-]{subsubsection.5.9.1.1}{5.9.1.1 Shape uncertainties}{subsection.5.9.1}% 64
+\BOOKMARK [3][-]{subsubsection.5.9.1.2}{5.9.1.2 Category migration uncertainties}{subsection.5.9.1}% 65
+\BOOKMARK [3][-]{subsubsection.5.9.1.3}{5.9.1.3 Rate uncertainties}{subsection.5.9.1}% 66
+\BOOKMARK [3][-]{subsubsection.5.9.1.4}{5.9.1.4 Impact plots}{subsection.5.9.1}% 67
+\BOOKMARK [2][-]{subsection.5.9.2}{5.9.2 Background}{section.5.9}% 68
+\BOOKMARK [1][-]{section.5.10}{5.10 Results}{chapter.5}% 69
+\BOOKMARK [2][-]{subsection.5.10.1}{5.10.1 Results For 13 TeV Data}{section.5.10}% 70
+\BOOKMARK [2][-]{subsection.5.10.2}{5.10.2 Results Combining 7, 8, And 13 TeV Data}{section.5.10}% 71
+\BOOKMARK [0][-]{chapter.6}{6 CONCLUSIONS AND OUTLOOK}{}% 72
+\BOOKMARK [0][-]{chapter*.6}{REFERENCES}{}% 73
+\BOOKMARK [0][-]{chapter*.7}{BIOGRAPHICAL SKETCH}{}% 74

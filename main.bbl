@@ -119,16 +119,6 @@
 \newblock
   \urlprefix\url{http://www.sciencedirect.com/science/article/pii/S037026930201208X}.
 
-\bibitem{cmshiggsmumu2012}
-\bibinfo{author}{{\relax CMS Collaboration}}.
-\newblock \bibinfo{title}{Search for a standard model-like higgs boson in the
-  $\mu^+\mu^-$ and $e^+e^-$ decay channels at the lhc}.
-\newblock \emph{\bibinfo{journal}{Physics Letters B}}
-  \textbf{\bibinfo{volume}{744}}, \bibinfo{pages}{184 -- 207}
-  (\bibinfo{year}{2015}).
-\newblock
-  \urlprefix\url{http://www.sciencedirect.com/science/article/pii/S0370269315002117}.
-
 \bibitem{LHC}
 \bibinfo{author}{Evans, L.} \& \bibinfo{author}{Bryant, P.}
 \newblock \bibinfo{title}{Lhc machine}.
@@ -280,6 +270,16 @@
   \textbf{\bibinfo{volume}{B665}}, \bibinfo{pages}{79--85}
   (\bibinfo{year}{2008}).
 \newblock \eprint{0804.1753}.
+
+\bibitem{cmshmumu2012}
+\bibinfo{author}{{\relax CMS Collaboration}}.
+\newblock \bibinfo{title}{Search for a standard model-like higgs boson in the
+  $\mu^+\mu^-$ and $e^+e^-$ decay channels at the lhc}.
+\newblock \emph{\bibinfo{journal}{Physics Letters B}}
+  \textbf{\bibinfo{volume}{744}}, \bibinfo{pages}{184 -- 207}
+  (\bibinfo{year}{2015}).
+\newblock
+  \urlprefix\url{http://www.sciencedirect.com/science/article/pii/S0370269315002117}.
 
 \bibitem{atlashmumu2012}
 \bibinfo{author}{\relax ATLAS~Collaboration}.
