@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2018.1.18)  21 FEB 2018 22:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2018.1.18)  21 FEB 2018 22:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1045,23 +1045,23 @@ File: images/stat/plow_and_phi.png Graphic file (type png)
 Package pdftex.def Info: images/stat/plow_and_phi.png used on input line 54.
 (pdftex.def)             Requested size: 433.62pt x 123.15189pt.
  [53 <./images/stat/plow_and_phi.png>]
-[54] [55]
-<images/bdt_cats/binning_signal_example.png, id=987, 822.07124pt x 559.08875pt>
+[54]
+<images/bdt_cats/binning_signal_example.png, id=979, 822.07124pt x 559.08875pt>
 File: images/bdt_cats/binning_signal_example.png Graphic file (type png)
 <use images/bdt_cats/binning_signal_example.png>
 Package pdftex.def Info: images/bdt_cats/binning_signal_example.png used on inp
 ut line 109.
 (pdftex.def)             Requested size: 229.81258pt x 156.28784pt.
 
-<images/bdt_cats/binning_bg_example.png, id=988, 822.07124pt x 559.08875pt>
+<images/bdt_cats/binning_bg_example.png, id=980, 822.07124pt x 559.08875pt>
 File: images/bdt_cats/binning_bg_example.png Graphic file (type png)
 
 <use images/bdt_cats/binning_bg_example.png>
 Package pdftex.def Info: images/bdt_cats/binning_bg_example.png used on input l
 ine 110.
 (pdftex.def)             Requested size: 229.81258pt x 156.28784pt.
- [56 <./images/bdt_cats/binning_signal_example.png> <./images/bdt_cats/binning_
-bg_example.png>] [57]
+ [55] [56 <./images/bdt_cats/binning_signal_example.png> <./images/bdt_cats/bin
+ning_bg_example.png>] [57]
 Overfull \hbox (8.61371pt too wide) in paragraph at lines 169--170
 []\OT1/cmss/m/n/12 With a model for the expected yields in each bin, the distri
 bution for t may be approximated 
@@ -3392,7 +3392,7 @@ pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi12.pfb><
 hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/te
 xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/t
 exmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (136 pages, 14596254 bytes).
+Output written on main.pdf (136 pages, 14596038 bytes).
 PDF statistics:
  2480 PDF objects out of 2487 (max. 8388607)
  1869 compressed objects within 19 object streams

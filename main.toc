@@ -27,7 +27,7 @@
 \contentsline {section}{\numberline {4.1}Discovery}{50}{section.4.1}
 \contentsline {section}{\numberline {4.2}Limits}{52}{section.4.2}
 \contentsline {section}{\numberline {4.3}Measurement and Uncertainty}{52}{section.4.3}
-\contentsline {section}{\numberline {4.4}Sensitivity}{54}{section.4.4}
+\contentsline {section}{\numberline {4.4}Sensitivity}{53}{section.4.4}
 \contentsline {section}{\numberline {4.5}Constraints And Nuisance Parameters}{54}{section.4.5}
 \contentsline {section}{\numberline {4.6}Extending The Concepts}{55}{section.4.6}
 \contentsline {subsection}{\numberline {4.6.1}Sensitivity}{56}{subsection.4.6.1}
