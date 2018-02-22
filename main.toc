@@ -34,7 +34,7 @@
 \contentsline {subsection}{\numberline {4.6.2}Test Statistic}{58}{subsection.4.6.2}
 \contentsline {subsection}{\numberline {4.6.3}Constraints}{59}{subsection.4.6.3}
 \contentsline {section}{\numberline {4.7}Using The Test Statistic}{59}{section.4.7}
-\contentsline {chapter}{\numberline {5}\uppercase {THE SEARCH STRATEGY FOR $H\rightarrow \mu ^+\mu ^-$}}{61}{chapter.5}
+\contentsline {chapter}{\numberline {5}\uppercase {THE $H\rightarrow \mu ^+\mu ^-$ SEARCH STRATEGY}}{61}{chapter.5}
 \contentsline {chapter}{\numberline {6}\uppercase {SAMPLES, CORRECTIONS, AND SELECTIONS}}{63}{chapter.6}
 \contentsline {section}{\numberline {6.1}Data And Monte Carlo Samples}{63}{section.6.1}
 \contentsline {section}{\numberline {6.2}Muon Momentum Calibration}{67}{section.6.2}
@@ -71,6 +71,9 @@
 \contentsline {subsubsection}{\numberline {8.3.1.3}Rate uncertainties}{119}{subsubsection.8.3.1.3}
 \contentsline {subsubsection}{\numberline {8.3.1.4}Impact plots}{120}{subsubsection.8.3.1.4}
 \contentsline {subsection}{\numberline {8.3.2}Background}{121}{subsection.8.3.2}
-\contentsline {chapter}{\numberline {9}\uppercase {CONCLUSIONS AND OUTLOOK}}{126}{chapter.9}
-\contentsline {extrachapter}{REFERENCES}{128}{chapter*.6}
-\contentsline {extrachapter}{BIOGRAPHICAL SKETCH}{131}{chapter*.7}
+\contentsline {chapter}{\numberline {9}\uppercase {RESULTS}}{126}{chapter.9}
+\contentsline {section}{\numberline {9.1}Results For 13 TeV Data}{126}{section.9.1}
+\contentsline {section}{\numberline {9.2}Results Combining 7, 8, And 13 TeV Data}{132}{section.9.2}
+\contentsline {chapter}{\numberline {10}\uppercase {CONCLUSIONS AND OUTLOOK}}{134}{chapter.10}
+\contentsline {extrachapter}{REFERENCES}{136}{chapter*.6}
+\contentsline {extrachapter}{BIOGRAPHICAL SKETCH}{139}{chapter*.7}
