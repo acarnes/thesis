@@ -1,8 +1,10 @@
-\chapter{MODELING THE SIGNAL AND BACKGROUND} \label{modeling}
+\chapter{SIGNAL AND BACKGROUND MODELS FOR THE $H\rightarrow\mu^+\mu^-$ SEARCH} \label{modeling}
+
+This chapter presents the signal and background modeling for the $H\rightarrow\mu^+\mu^-$ search. The signal MC samples are fit to model the signal, and the data is fit to model the background. The systematic uncertainties and the evaluation of the background for bias are covered in Section \ref{unc}.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Modeling The Signal}
-The signal in the $H\rightarrow\mu^+\mu^-$ search is a peak in the $m_{\mu\mu}$ spectrum, and it is modeled by fitting the signal MC after corrections, event selection, and categorization. The PDFs for the GGF, VBF, ZH, $W^+H$, $W^-H$, and $t\bar{t}H$ processes are fit separately, and the net PDF for the signal is the sum of the individual PDFs. The signal for each process in each category is fit with the same parametric form, a triple Gaussian\footnote{Three of the process,category fits have very low stats and use only two Gaussians.}, 
+The signal in the $H\rightarrow\mu^+\mu^-$ search is a peak in the $m_{\mu\mu}$ spectrum, and it is modeled by fitting the signal MC after corrections, event selection, and categorization. The PDFs for the GGF, VBF, ZH, $W^+H$, $W^-H$, and $t\bar{t}H$ processes are fit separately, and the net PDF for the signal is the sum of the individual PDFs. The signal for each process in each category is fit with the same parametric form, a triple Gaussian\footnote{Three of the process, category fits have very low stats and use only two Gaussians.}, 
 \begin{equation}
 \label{eq:sigpdf}
 S_{pc}(x, m_H, \theta_{pc}) = \sum_{g=1}^{3}f_{pcg}\mathcal{N}(x, \mu_{pcg}, \sigma_{pci}).
@@ -130,7 +132,7 @@ Figure~\ref{bkgmodel:exampleFTest} shows an example of the F-Test for the Bernst
 \end{figure}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Systematic Uncertainties}
+\section{Systematic Uncertainties} \label{unc}
 In order to report accurate results, it's essential to incorporate all known uncertainties affecting the signal and background models. These so-called "systematics" broaden the likelihood's PDF, worsen the limits, and increase the uncertainty of the measurement. The known contributions for the signal model are covered in the next section, and the background uncertainties are covered after. 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Signal}
@@ -226,7 +228,7 @@ with $\mu=1$. $B_i$ is unbiased towards $B_j$ if $b_{ij}$ is close to zero. The 
 
 If a bias is found, the background model tends to under or over estimate the background and measure too much or too little signal. When this is the case, a "spurious signal" is added to the background model to compensate. The spurious signal has the same shape as the signal model, with a normalization constrained by a Gaussian with mean 0 and $\sigma = b_{ij}\sigma_{\mu}N$, where N is the expected number of signal events in the category. The spurious signal allows the background more freedom in the signal region, fixing the tendency to mismeasure the signal. On the other hand, this added freedom in the signal region increases the background uncertainty there, reducing the sensitivity. 
 
-A bias less than 0.20 has a negligible effect on the upper limits (<2\%). In this case, the spurious signal can usually be neglected. With this information, the analysis attempts to find fits for each category such that the maximum likelihood estimate of $\mu$ is unbiased ($b_{i,j} < 0.20$) with respect to all $B_j \in \beta$. The bias matrices for $m_H=125 GeV$ are shown in Figures \ref{fig:bias_1} and \ref{fig:bias_2}. The matrices present the bias towards $\hat{\mu}$ for the category's likelihood alone and zero spurious signal. 
+A bias less than 0.20 has a negligible effect on the upper limits ($<2\%$). In this case, the spurious signal can usually be neglected. With this information, the analysis attempts to find fits for each category such that the maximum likelihood estimate of $\mu$ is unbiased ($b_{ij} < 0.20$) with respect to all $B_j \in \beta$. The bias matrices for $m_H=125 GeV$ are shown in Figures \ref{fig:bias_1} and \ref{fig:bias_2}. The matrices present the bias towards $\hat{\mu}$ for the category's likelihood alone and zero spurious signal. 
 
 The set of reasonable functions used is $\beta = \{BWZRedux\cdot poly, BWZGamma,$ 
 $SumExp, FEWZ-full\cdot poly, FEWZ-1-jet\cdot poly, FEWZ-2-jet\cdot poly\}$. Polynomial orders 0-4 are examined for BWZRedux$\cdot$poly, and the F-Test at 95\% confidence is used to select the orders for SumExp and the FEWZ$\cdot$poly models. The Bernstein polynomials proved biased towards all of the other functions, so they are considered unreasonable and excluded from $\beta$. 

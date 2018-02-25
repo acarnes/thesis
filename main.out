@@ -35,7 +35,7 @@
 \BOOKMARK [2][-]{subsection.4.6.3}{4.6.3 Constraints}{section.4.6}% 35
 \BOOKMARK [1][-]{section.4.7}{4.7 Using The Test Statistic}{chapter.4}% 36
 \BOOKMARK [0][-]{chapter.5}{5 THE H+- SEARCH STRATEGY}{}% 37
-\BOOKMARK [0][-]{chapter.6}{6 SAMPLES, CORRECTIONS, AND SELECTIONS}{}% 38
+\BOOKMARK [0][-]{chapter.6}{6 SAMPLES, CORRECTIONS, AND SELECTIONS FOR THE H+- SEARCH}{}% 38
 \BOOKMARK [1][-]{section.6.1}{6.1 Data And Monte Carlo Samples}{chapter.6}% 39
 \BOOKMARK [1][-]{section.6.2}{6.2 Muon Momentum Calibration}{chapter.6}% 40
 \BOOKMARK [2][-]{subsection.6.2.1}{6.2.1 Muon Corrections In Data}{section.6.2}% 41
@@ -61,7 +61,7 @@
 \BOOKMARK [2][-]{subsection.7.2.4}{7.2.4 Final Categories}{section.7.2}% 61
 \BOOKMARK [2][-]{subsection.7.2.5}{7.2.5 Validating The Categories}{section.7.2}% 62
 \BOOKMARK [2][-]{subsection.7.2.6}{7.2.6 Signal And Background}{section.7.2}% 63
-\BOOKMARK [0][-]{chapter.8}{8 MODELING THE SIGNAL AND BACKGROUND}{}% 64
+\BOOKMARK [0][-]{chapter.8}{8 SIGNAL AND BACKGROUND MODELS FOR THE H+- SEARCH}{}% 64
 \BOOKMARK [1][-]{section.8.1}{8.1 Modeling The Signal}{chapter.8}% 65
 \BOOKMARK [1][-]{section.8.2}{8.2 Modeling The Background}{chapter.8}% 66
 \BOOKMARK [1][-]{section.8.3}{8.3 Systematic Uncertainties}{chapter.8}% 67
@@ -71,7 +71,7 @@
 \BOOKMARK [3][-]{subsubsection.8.3.1.3}{8.3.1.3 Rate uncertainties}{subsection.8.3.1}% 71
 \BOOKMARK [3][-]{subsubsection.8.3.1.4}{8.3.1.4 Impact plots}{subsection.8.3.1}% 72
 \BOOKMARK [2][-]{subsection.8.3.2}{8.3.2 Background}{section.8.3}% 73
-\BOOKMARK [0][-]{chapter.9}{9 RESULTS}{}% 74
+\BOOKMARK [0][-]{chapter.9}{9 RESULTS FOR THE H+- SEARCH}{}% 74
 \BOOKMARK [1][-]{section.9.1}{9.1 Results For 13 TeV Data}{chapter.9}% 75
 \BOOKMARK [1][-]{section.9.2}{9.2 Results Combining 7, 8, And 13 TeV Data}{chapter.9}% 76
 \BOOKMARK [0][-]{chapter.10}{10 CONCLUSIONS AND OUTLOOK}{}% 77

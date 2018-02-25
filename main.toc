@@ -35,7 +35,7 @@
 \contentsline {subsection}{\numberline {4.6.3}Constraints}{59}{subsection.4.6.3}
 \contentsline {section}{\numberline {4.7}Using The Test Statistic}{59}{section.4.7}
 \contentsline {chapter}{\numberline {5}\uppercase {THE $H\rightarrow \mu ^+\mu ^-$ SEARCH STRATEGY}}{61}{chapter.5}
-\contentsline {chapter}{\numberline {6}\uppercase {SAMPLES, CORRECTIONS, AND SELECTIONS}}{63}{chapter.6}
+\contentsline {chapter}{\numberline {6}\uppercase {SAMPLES, CORRECTIONS, AND SELECTIONS FOR THE $H\rightarrow \mu ^+\mu ^-$ SEARCH}}{63}{chapter.6}
 \contentsline {section}{\numberline {6.1}Data And Monte Carlo Samples}{63}{section.6.1}
 \contentsline {section}{\numberline {6.2}Muon Momentum Calibration}{67}{section.6.2}
 \contentsline {subsection}{\numberline {6.2.1}Muon Corrections In Data}{68}{subsection.6.2.1}
@@ -61,17 +61,17 @@
 \contentsline {subsection}{\numberline {7.2.4}Final Categories}{93}{subsection.7.2.4}
 \contentsline {subsection}{\numberline {7.2.5}Validating The Categories}{94}{subsection.7.2.5}
 \contentsline {subsection}{\numberline {7.2.6}Signal And Background}{102}{subsection.7.2.6}
-\contentsline {chapter}{\numberline {8}\uppercase {MODELING THE SIGNAL AND BACKGROUND}}{110}{chapter.8}
+\contentsline {chapter}{\numberline {8}\uppercase {SIGNAL AND BACKGROUND MODELS FOR THE $H\rightarrow \mu ^+\mu ^-$ SEARCH}}{110}{chapter.8}
 \contentsline {section}{\numberline {8.1}Modeling The Signal}{110}{section.8.1}
-\contentsline {section}{\numberline {8.2}Modeling The Background}{113}{section.8.2}
+\contentsline {section}{\numberline {8.2}Modeling The Background}{115}{section.8.2}
 \contentsline {section}{\numberline {8.3}Systematic Uncertainties}{117}{section.8.3}
 \contentsline {subsection}{\numberline {8.3.1}Signal}{117}{subsection.8.3.1}
-\contentsline {subsubsection}{\numberline {8.3.1.1}Shape uncertainties}{117}{subsubsection.8.3.1.1}
-\contentsline {subsubsection}{\numberline {8.3.1.2}Category migration uncertainties}{117}{subsubsection.8.3.1.2}
+\contentsline {subsubsection}{\numberline {8.3.1.1}Shape uncertainties}{118}{subsubsection.8.3.1.1}
+\contentsline {subsubsection}{\numberline {8.3.1.2}Category migration uncertainties}{118}{subsubsection.8.3.1.2}
 \contentsline {subsubsection}{\numberline {8.3.1.3}Rate uncertainties}{119}{subsubsection.8.3.1.3}
 \contentsline {subsubsection}{\numberline {8.3.1.4}Impact plots}{120}{subsubsection.8.3.1.4}
 \contentsline {subsection}{\numberline {8.3.2}Background}{121}{subsection.8.3.2}
-\contentsline {chapter}{\numberline {9}\uppercase {RESULTS}}{126}{chapter.9}
+\contentsline {chapter}{\numberline {9}\uppercase {RESULTS FOR THE $H\rightarrow \mu ^+\mu ^-$ SEARCH}}{126}{chapter.9}
 \contentsline {section}{\numberline {9.1}Results For 13 TeV Data}{126}{section.9.1}
 \contentsline {section}{\numberline {9.2}Results Combining 7, 8, And 13 TeV Data}{132}{section.9.2}
 \contentsline {chapter}{\numberline {10}\uppercase {CONCLUSIONS AND OUTLOOK}}{134}{chapter.10}

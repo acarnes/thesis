@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2018.1.18)  22 FEB 2018 17:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2018.1.18)  25 FEB 2018 11:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1125,13 +1125,41 @@ CHAPTER 6.
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\uppercase' on input line 1.
 
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\rightarrow' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mu' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mu' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1.
+
 File: images/higgs_production_modes.png Graphic file (type png)
 <use images/higgs_production_modes.png>
 Package pdftex.def Info: images/higgs_production_modes.png used on input line 1
-0.
+2.
 (pdftex.def)             Requested size: 289.07999pt x 213.95113pt.
 
-Overfull \hbox (22.11009pt too wide) in paragraph at lines 22--39
+Overfull \hbox (22.11009pt too wide) in paragraph at lines 24--41
 [][] 
  []
 
@@ -1143,12 +1171,12 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 ] [64] [65] [66]
-<images/muon_calib/voigt_fit_z_example_w_fit.png, id=1108, 784.9325pt x 697.606
+<images/muon_calib/voigt_fit_z_example_w_fit.png, id=1114, 784.9325pt x 697.606
 25pt>
 File: images/muon_calib/voigt_fit_z_example_w_fit.png Graphic file (type png)
  <use images/muon_calib/voigt_fit_z_example_w_fit.png>
 Package pdftex.def Info: images/muon_calib/voigt_fit_z_example_w_fit.png used o
-n input line 127.
+n input line 129.
 (pdftex.def)             Requested size: 257.95143pt x 229.25275pt.
  [67
 
@@ -1156,116 +1184,116 @@ n input line 127.
 
 
  <./images/muon_calib/voigt_fit_z_example_w_fit.png>]
-<images/muon_calib/zcal_data_mean_phi_plus.png, id=1115, 698.61pt x 473.77pt>
+<images/muon_calib/zcal_data_mean_phi_plus.png, id=1121, 698.61pt x 473.77pt>
 File: images/muon_calib/zcal_data_mean_phi_plus.png Graphic file (type png)
 
 <use images/muon_calib/zcal_data_mean_phi_plus.png>
 Package pdftex.def Info: images/muon_calib/zcal_data_mean_phi_plus.png used on 
-input line 140.
+input line 142.
 (pdftex.def)             Requested size: 150.08344pt x 101.77904pt.
 
-<images/muon_calib/zcal_data_mean_phi_minus.png, id=1116, 698.61pt x 473.77pt>
+<images/muon_calib/zcal_data_mean_phi_minus.png, id=1122, 698.61pt x 473.77pt>
 File: images/muon_calib/zcal_data_mean_phi_minus.png Graphic file (type png)
 
 <use images/muon_calib/zcal_data_mean_phi_minus.png>
 Package pdftex.def Info: images/muon_calib/zcal_data_mean_phi_minus.png used on
- input line 141.
+ input line 143.
 (pdftex.def)             Requested size: 150.08344pt x 101.77904pt.
 
-<images/muon_calib/zcal_data_mean_eta_plus.png, id=1117, 698.61pt x 473.77pt>
+<images/muon_calib/zcal_data_mean_eta_plus.png, id=1123, 698.61pt x 473.77pt>
 File: images/muon_calib/zcal_data_mean_eta_plus.png Graphic file (type png)
 
 <use images/muon_calib/zcal_data_mean_eta_plus.png>
 Package pdftex.def Info: images/muon_calib/zcal_data_mean_eta_plus.png used on 
-input line 142.
+input line 144.
 (pdftex.def)             Requested size: 150.08344pt x 101.77904pt.
 
-<images/muon_calib/zcal_data_mean_eta_minus.png, id=1118, 698.61pt x 473.77pt>
+<images/muon_calib/zcal_data_mean_eta_minus.png, id=1124, 698.61pt x 473.77pt>
 File: images/muon_calib/zcal_data_mean_eta_minus.png Graphic file (type png)
 
 <use images/muon_calib/zcal_data_mean_eta_minus.png>
 Package pdftex.def Info: images/muon_calib/zcal_data_mean_eta_minus.png used on
- input line 143.
+ input line 145.
 (pdftex.def)             Requested size: 150.08344pt x 101.77904pt.
 
-<images/muon_calib/zcal_data_mean_pt_plus.png, id=1119, 698.61pt x 473.77pt>
+<images/muon_calib/zcal_data_mean_pt_plus.png, id=1125, 698.61pt x 473.77pt>
 File: images/muon_calib/zcal_data_mean_pt_plus.png Graphic file (type png)
 
 <use images/muon_calib/zcal_data_mean_pt_plus.png>
 Package pdftex.def Info: images/muon_calib/zcal_data_mean_pt_plus.png used on i
-nput line 144.
+nput line 146.
 (pdftex.def)             Requested size: 150.08344pt x 101.77904pt.
 
-<images/muon_calib/zcal_data_mean_pt_minus.png, id=1120, 698.61pt x 473.77pt>
+<images/muon_calib/zcal_data_mean_pt_minus.png, id=1126, 698.61pt x 473.77pt>
 File: images/muon_calib/zcal_data_mean_pt_minus.png Graphic file (type png)
 
 <use images/muon_calib/zcal_data_mean_pt_minus.png>
 Package pdftex.def Info: images/muon_calib/zcal_data_mean_pt_minus.png used on 
-input line 145.
+input line 147.
 (pdftex.def)             Requested size: 150.08344pt x 101.77904pt.
 
-<images/muon_calib/zcal_data_mean_dimu_pt.png, id=1121, 698.61pt x 473.77pt>
+<images/muon_calib/zcal_data_mean_dimu_pt.png, id=1127, 698.61pt x 473.77pt>
 File: images/muon_calib/zcal_data_mean_dimu_pt.png Graphic file (type png)
 
 <use images/muon_calib/zcal_data_mean_dimu_pt.png>
 Package pdftex.def Info: images/muon_calib/zcal_data_mean_dimu_pt.png used on i
-nput line 146.
+nput line 148.
 (pdftex.def)             Requested size: 150.08344pt x 101.77904pt.
 
-<images/muon_calib/zcal_data_res_phi_plus.png, id=1124, 698.61pt x 473.77pt>
+<images/muon_calib/zcal_data_res_phi_plus.png, id=1130, 698.61pt x 473.77pt>
 File: images/muon_calib/zcal_data_res_phi_plus.png Graphic file (type png)
 
 <use images/muon_calib/zcal_data_res_phi_plus.png>
 Package pdftex.def Info: images/muon_calib/zcal_data_res_phi_plus.png used on i
-nput line 154.
+nput line 156.
 (pdftex.def)             Requested size: 150.08344pt x 101.77904pt.
 
-<images/muon_calib/zcal_data_res_phi_minus.png, id=1125, 698.61pt x 473.77pt>
+<images/muon_calib/zcal_data_res_phi_minus.png, id=1131, 698.61pt x 473.77pt>
 File: images/muon_calib/zcal_data_res_phi_minus.png Graphic file (type png)
 
 <use images/muon_calib/zcal_data_res_phi_minus.png>
 Package pdftex.def Info: images/muon_calib/zcal_data_res_phi_minus.png used on 
-input line 155.
+input line 157.
 (pdftex.def)             Requested size: 150.08344pt x 101.77904pt.
 
-<images/muon_calib/zcal_data_res_eta_plus.png, id=1126, 698.61pt x 473.77pt>
+<images/muon_calib/zcal_data_res_eta_plus.png, id=1132, 698.61pt x 473.77pt>
 File: images/muon_calib/zcal_data_res_eta_plus.png Graphic file (type png)
 
 <use images/muon_calib/zcal_data_res_eta_plus.png>
 Package pdftex.def Info: images/muon_calib/zcal_data_res_eta_plus.png used on i
-nput line 156.
+nput line 158.
 (pdftex.def)             Requested size: 150.08344pt x 101.77904pt.
 
-<images/muon_calib/zcal_data_res_eta_minus.png, id=1127, 698.61pt x 473.77pt>
+<images/muon_calib/zcal_data_res_eta_minus.png, id=1133, 698.61pt x 473.77pt>
 File: images/muon_calib/zcal_data_res_eta_minus.png Graphic file (type png)
 
 <use images/muon_calib/zcal_data_res_eta_minus.png>
 Package pdftex.def Info: images/muon_calib/zcal_data_res_eta_minus.png used on 
-input line 157.
+input line 159.
 (pdftex.def)             Requested size: 150.08344pt x 101.77904pt.
 
-<images/muon_calib/zcal_data_res_pt_plus.png, id=1128, 698.61pt x 473.77pt>
+<images/muon_calib/zcal_data_res_pt_plus.png, id=1134, 698.61pt x 473.77pt>
 File: images/muon_calib/zcal_data_res_pt_plus.png Graphic file (type png)
 
 <use images/muon_calib/zcal_data_res_pt_plus.png>
 Package pdftex.def Info: images/muon_calib/zcal_data_res_pt_plus.png used on in
-put line 158.
+put line 160.
 (pdftex.def)             Requested size: 150.08344pt x 101.77904pt.
 
-<images/muon_calib/zcal_data_res_pt_minus.png, id=1129, 698.61pt x 473.77pt>
+<images/muon_calib/zcal_data_res_pt_minus.png, id=1135, 698.61pt x 473.77pt>
 File: images/muon_calib/zcal_data_res_pt_minus.png Graphic file (type png)
 
 <use images/muon_calib/zcal_data_res_pt_minus.png>
 Package pdftex.def Info: images/muon_calib/zcal_data_res_pt_minus.png used on i
-nput line 159.
+nput line 161.
 (pdftex.def)             Requested size: 150.08344pt x 101.77904pt.
 
-<images/muon_calib/zcal_data_res_dimu_pt.png, id=1130, 698.61pt x 473.77pt>
+<images/muon_calib/zcal_data_res_dimu_pt.png, id=1136, 698.61pt x 473.77pt>
 File: images/muon_calib/zcal_data_res_dimu_pt.png Graphic file (type png)
 
 <use images/muon_calib/zcal_data_res_dimu_pt.png>
 Package pdftex.def Info: images/muon_calib/zcal_data_res_dimu_pt.png used on in
-put line 160.
+put line 162.
 (pdftex.def)             Requested size: 150.08344pt x 101.77904pt.
 
 
@@ -1283,390 +1311,390 @@ res_phi_plus.png> <./images/muon_calib/zcal_data_res_phi_minus.png> <./images/m
 uon_calib/zcal_data_res_eta_plus.png> <./images/muon_calib/zcal_data_res_eta_mi
 nus.png> <./images/muon_calib/zcal_data_res_pt_plus.png> <./images/muon_calib/z
 cal_data_res_pt_minus.png> <./images/muon_calib/zcal_data_res_dimu_pt.png>]
-<images/muon_calib/zcal_pf_mc-data_mean_phi_plus.png, id=1147, 698.61pt x 473.7
+<images/muon_calib/zcal_pf_mc-data_mean_phi_plus.png, id=1153, 698.61pt x 473.7
 7pt>
 File: images/muon_calib/zcal_pf_mc-data_mean_phi_plus.png Graphic file (type pn
 g)
  <use images/muon_calib/zcal_pf_mc-data_mean_phi_plus.png>
 Package pdftex.def Info: images/muon_calib/zcal_pf_mc-data_mean_phi_plus.png us
-ed on input line 173.
+ed on input line 175.
 (pdftex.def)             Requested size: 150.08344pt x 101.77904pt.
 
-<images/muon_calib/zcal_pf_mc-data_mean_phi_minus.png, id=1148, 698.61pt x 473.
+<images/muon_calib/zcal_pf_mc-data_mean_phi_minus.png, id=1154, 698.61pt x 473.
 77pt>
 File: images/muon_calib/zcal_pf_mc-data_mean_phi_minus.png Graphic file (type p
 ng)
  <use images/muon_calib/zcal_pf_mc-data_mean_phi_minus.png>
 Package pdftex.def Info: images/muon_calib/zcal_pf_mc-data_mean_phi_minus.png u
-sed on input line 174.
+sed on input line 176.
 (pdftex.def)             Requested size: 150.08344pt x 101.77904pt.
 
-<images/muon_calib/zcal_pf_mc-data_mean_eta_plus.png, id=1149, 698.61pt x 473.7
+<images/muon_calib/zcal_pf_mc-data_mean_eta_plus.png, id=1155, 698.61pt x 473.7
 7pt>
 File: images/muon_calib/zcal_pf_mc-data_mean_eta_plus.png Graphic file (type pn
 g)
  <use images/muon_calib/zcal_pf_mc-data_mean_eta_plus.png>
 Package pdftex.def Info: images/muon_calib/zcal_pf_mc-data_mean_eta_plus.png us
-ed on input line 175.
+ed on input line 177.
 (pdftex.def)             Requested size: 150.08344pt x 101.77904pt.
 
-<images/muon_calib/zcal_pf_mc-data_mean_eta_minus.png, id=1150, 698.61pt x 473.
+<images/muon_calib/zcal_pf_mc-data_mean_eta_minus.png, id=1156, 698.61pt x 473.
 77pt>
 File: images/muon_calib/zcal_pf_mc-data_mean_eta_minus.png Graphic file (type p
 ng)
  <use images/muon_calib/zcal_pf_mc-data_mean_eta_minus.png>
 Package pdftex.def Info: images/muon_calib/zcal_pf_mc-data_mean_eta_minus.png u
-sed on input line 176.
+sed on input line 178.
 (pdftex.def)             Requested size: 150.08344pt x 101.77904pt.
 
-<images/muon_calib/zcal_pf_mc-data_mean_pt_plus.png, id=1151, 698.61pt x 473.77
+<images/muon_calib/zcal_pf_mc-data_mean_pt_plus.png, id=1157, 698.61pt x 473.77
 pt>
 File: images/muon_calib/zcal_pf_mc-data_mean_pt_plus.png Graphic file (type png
 )
  <use images/muon_calib/zcal_pf_mc-data_mean_pt_plus.png>
 Package pdftex.def Info: images/muon_calib/zcal_pf_mc-data_mean_pt_plus.png use
-d on input line 177.
+d on input line 179.
 (pdftex.def)             Requested size: 150.08344pt x 101.77904pt.
 
-<images/muon_calib/zcal_pf_mc-data_mean_pt_minus.png, id=1152, 698.61pt x 473.7
+<images/muon_calib/zcal_pf_mc-data_mean_pt_minus.png, id=1158, 698.61pt x 473.7
 7pt>
 File: images/muon_calib/zcal_pf_mc-data_mean_pt_minus.png Graphic file (type pn
 g)
  <use images/muon_calib/zcal_pf_mc-data_mean_pt_minus.png>
 Package pdftex.def Info: images/muon_calib/zcal_pf_mc-data_mean_pt_minus.png us
-ed on input line 178.
+ed on input line 180.
 (pdftex.def)             Requested size: 150.08344pt x 101.77904pt.
 
-<images/muon_calib/zcal_pf_mc-data_mean_dimu_pt.png, id=1153, 698.61pt x 473.77
+<images/muon_calib/zcal_pf_mc-data_mean_dimu_pt.png, id=1159, 698.61pt x 473.77
 pt>
 File: images/muon_calib/zcal_pf_mc-data_mean_dimu_pt.png Graphic file (type png
 )
  <use images/muon_calib/zcal_pf_mc-data_mean_dimu_pt.png>
 Package pdftex.def Info: images/muon_calib/zcal_pf_mc-data_mean_dimu_pt.png use
-d on input line 179.
+d on input line 181.
 (pdftex.def)             Requested size: 150.08344pt x 101.77904pt.
 
-<images/muon_calib/zcal_roch_mc-data_mean_phi_plus.png, id=1154, 698.61pt x 473
+<images/muon_calib/zcal_roch_mc-data_mean_phi_plus.png, id=1160, 698.61pt x 473
 .77pt>
 File: images/muon_calib/zcal_roch_mc-data_mean_phi_plus.png Graphic file (type 
 png)
  <use images/muon_calib/zcal_roch_mc-data_mean_phi_plus.png>
 Package pdftex.def Info: images/muon_calib/zcal_roch_mc-data_mean_phi_plus.png 
-used on input line 187.
+used on input line 189.
 (pdftex.def)             Requested size: 150.08344pt x 101.77904pt.
 
-<images/muon_calib/zcal_roch_mc-data_mean_phi_minus.png, id=1155, 698.61pt x 47
+<images/muon_calib/zcal_roch_mc-data_mean_phi_minus.png, id=1161, 698.61pt x 47
 3.77pt>
 File: images/muon_calib/zcal_roch_mc-data_mean_phi_minus.png Graphic file (type
  png)
  <use images/muon_calib/zcal_roch_mc-data_mean_phi_minus.png>
 Package pdftex.def Info: images/muon_calib/zcal_roch_mc-data_mean_phi_minus.png
- used on input line 188.
+ used on input line 190.
 (pdftex.def)             Requested size: 150.08344pt x 101.77904pt.
 
-<images/muon_calib/zcal_roch_mc-data_mean_eta_plus.png, id=1156, 698.61pt x 473
+<images/muon_calib/zcal_roch_mc-data_mean_eta_plus.png, id=1162, 698.61pt x 473
 .77pt>
 File: images/muon_calib/zcal_roch_mc-data_mean_eta_plus.png Graphic file (type 
 png)
  <use images/muon_calib/zcal_roch_mc-data_mean_eta_plus.png>
 Package pdftex.def Info: images/muon_calib/zcal_roch_mc-data_mean_eta_plus.png 
-used on input line 189.
+used on input line 191.
 (pdftex.def)             Requested size: 150.08344pt x 101.77904pt.
 
-<images/muon_calib/zcal_roch_mc-data_mean_eta_minus.png, id=1157, 698.61pt x 47
+<images/muon_calib/zcal_roch_mc-data_mean_eta_minus.png, id=1163, 698.61pt x 47
 3.77pt>
 File: images/muon_calib/zcal_roch_mc-data_mean_eta_minus.png Graphic file (type
  png)
  <use images/muon_calib/zcal_roch_mc-data_mean_eta_minus.png>
 Package pdftex.def Info: images/muon_calib/zcal_roch_mc-data_mean_eta_minus.png
- used on input line 190.
+ used on input line 192.
 (pdftex.def)             Requested size: 150.08344pt x 101.77904pt.
 
-<images/muon_calib/zcal_roch_mc-data_mean_pt_plus.png, id=1158, 698.61pt x 473.
+<images/muon_calib/zcal_roch_mc-data_mean_pt_plus.png, id=1164, 698.61pt x 473.
 77pt>
 File: images/muon_calib/zcal_roch_mc-data_mean_pt_plus.png Graphic file (type p
 ng)
  <use images/muon_calib/zcal_roch_mc-data_mean_pt_plus.png>
 Package pdftex.def Info: images/muon_calib/zcal_roch_mc-data_mean_pt_plus.png u
-sed on input line 191.
+sed on input line 193.
 (pdftex.def)             Requested size: 150.08344pt x 101.77904pt.
 
-<images/muon_calib/zcal_roch_mc-data_mean_pt_minus.png, id=1159, 698.61pt x 473
+<images/muon_calib/zcal_roch_mc-data_mean_pt_minus.png, id=1165, 698.61pt x 473
 .77pt>
 File: images/muon_calib/zcal_roch_mc-data_mean_pt_minus.png Graphic file (type 
 png)
  <use images/muon_calib/zcal_roch_mc-data_mean_pt_minus.png>
 Package pdftex.def Info: images/muon_calib/zcal_roch_mc-data_mean_pt_minus.png 
-used on input line 192.
+used on input line 194.
 (pdftex.def)             Requested size: 150.08344pt x 101.77904pt.
 
-<images/muon_calib/zcal_roch_mc-data_mean_dimu_pt.png, id=1160, 698.61pt x 473.
+<images/muon_calib/zcal_roch_mc-data_mean_dimu_pt.png, id=1166, 698.61pt x 473.
 77pt>
 File: images/muon_calib/zcal_roch_mc-data_mean_dimu_pt.png Graphic file (type p
 ng)
  <use images/muon_calib/zcal_roch_mc-data_mean_dimu_pt.png>
 Package pdftex.def Info: images/muon_calib/zcal_roch_mc-data_mean_dimu_pt.png u
-sed on input line 193.
+sed on input line 195.
 (pdftex.def)             Requested size: 150.08344pt x 101.77904pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-<images/muon_calib/zcal_kamu_mc-data_mean_phi_plus.png, id=1161, 698.61pt x 473
+<images/muon_calib/zcal_kamu_mc-data_mean_phi_plus.png, id=1167, 698.61pt x 473
 .77pt>
 File: images/muon_calib/zcal_kamu_mc-data_mean_phi_plus.png Graphic file (type 
 png)
  <use images/muon_calib/zcal_kamu_mc-data_mean_phi_plus.png>
 Package pdftex.def Info: images/muon_calib/zcal_kamu_mc-data_mean_phi_plus.png 
-used on input line 201.
+used on input line 203.
 (pdftex.def)             Requested size: 150.08344pt x 101.77904pt.
 
-<images/muon_calib/zcal_kamu_mc-data_mean_phi_minus.png, id=1162, 698.61pt x 47
+<images/muon_calib/zcal_kamu_mc-data_mean_phi_minus.png, id=1168, 698.61pt x 47
 3.77pt>
 File: images/muon_calib/zcal_kamu_mc-data_mean_phi_minus.png Graphic file (type
  png)
  <use images/muon_calib/zcal_kamu_mc-data_mean_phi_minus.png>
 Package pdftex.def Info: images/muon_calib/zcal_kamu_mc-data_mean_phi_minus.png
- used on input line 202.
+ used on input line 204.
 (pdftex.def)             Requested size: 150.08344pt x 101.77904pt.
 
-<images/muon_calib/zcal_kamu_mc-data_mean_eta_plus.png, id=1163, 698.61pt x 473
+<images/muon_calib/zcal_kamu_mc-data_mean_eta_plus.png, id=1169, 698.61pt x 473
 .77pt>
 File: images/muon_calib/zcal_kamu_mc-data_mean_eta_plus.png Graphic file (type 
 png)
  <use images/muon_calib/zcal_kamu_mc-data_mean_eta_plus.png>
 Package pdftex.def Info: images/muon_calib/zcal_kamu_mc-data_mean_eta_plus.png 
-used on input line 203.
+used on input line 205.
 (pdftex.def)             Requested size: 150.08344pt x 101.77904pt.
 
-<images/muon_calib/zcal_kamu_mc-data_mean_eta_minus.png, id=1164, 698.61pt x 47
+<images/muon_calib/zcal_kamu_mc-data_mean_eta_minus.png, id=1170, 698.61pt x 47
 3.77pt>
 File: images/muon_calib/zcal_kamu_mc-data_mean_eta_minus.png Graphic file (type
  png)
  <use images/muon_calib/zcal_kamu_mc-data_mean_eta_minus.png>
 Package pdftex.def Info: images/muon_calib/zcal_kamu_mc-data_mean_eta_minus.png
- used on input line 204.
+ used on input line 206.
 (pdftex.def)             Requested size: 150.08344pt x 101.77904pt.
 
-<images/muon_calib/zcal_kamu_mc-data_mean_pt_plus.png, id=1165, 698.61pt x 473.
+<images/muon_calib/zcal_kamu_mc-data_mean_pt_plus.png, id=1171, 698.61pt x 473.
 77pt>
 File: images/muon_calib/zcal_kamu_mc-data_mean_pt_plus.png Graphic file (type p
 ng)
  <use images/muon_calib/zcal_kamu_mc-data_mean_pt_plus.png>
 Package pdftex.def Info: images/muon_calib/zcal_kamu_mc-data_mean_pt_plus.png u
-sed on input line 205.
+sed on input line 207.
 (pdftex.def)             Requested size: 150.08344pt x 101.77904pt.
 
-<images/muon_calib/zcal_kamu_mc-data_mean_pt_minus.png, id=1166, 698.61pt x 473
+<images/muon_calib/zcal_kamu_mc-data_mean_pt_minus.png, id=1172, 698.61pt x 473
 .77pt>
 File: images/muon_calib/zcal_kamu_mc-data_mean_pt_minus.png Graphic file (type 
 png)
  <use images/muon_calib/zcal_kamu_mc-data_mean_pt_minus.png>
 Package pdftex.def Info: images/muon_calib/zcal_kamu_mc-data_mean_pt_minus.png 
-used on input line 206.
+used on input line 208.
 (pdftex.def)             Requested size: 150.08344pt x 101.77904pt.
 
-<images/muon_calib/zcal_kamu_mc-data_mean_dimu_pt.png, id=1167, 698.61pt x 473.
+<images/muon_calib/zcal_kamu_mc-data_mean_dimu_pt.png, id=1173, 698.61pt x 473.
 77pt>
 File: images/muon_calib/zcal_kamu_mc-data_mean_dimu_pt.png Graphic file (type p
 ng)
  <use images/muon_calib/zcal_kamu_mc-data_mean_dimu_pt.png>
 Package pdftex.def Info: images/muon_calib/zcal_kamu_mc-data_mean_dimu_pt.png u
-sed on input line 207.
+sed on input line 209.
 (pdftex.def)             Requested size: 150.08344pt x 101.77904pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-<images/muon_calib/zcal_pf_mc-data_res_phi_plus.png, id=1171, 698.61pt x 473.77
+<images/muon_calib/zcal_pf_mc-data_res_phi_plus.png, id=1177, 698.61pt x 473.77
 pt>
 File: images/muon_calib/zcal_pf_mc-data_res_phi_plus.png Graphic file (type png
 )
  <use images/muon_calib/zcal_pf_mc-data_res_phi_plus.png>
 Package pdftex.def Info: images/muon_calib/zcal_pf_mc-data_res_phi_plus.png use
-d on input line 215.
+d on input line 217.
 (pdftex.def)             Requested size: 150.08344pt x 101.77904pt.
 
-<images/muon_calib/zcal_pf_mc-data_res_phi_minus.png, id=1172, 698.61pt x 473.7
+<images/muon_calib/zcal_pf_mc-data_res_phi_minus.png, id=1178, 698.61pt x 473.7
 7pt>
 File: images/muon_calib/zcal_pf_mc-data_res_phi_minus.png Graphic file (type pn
 g)
  <use images/muon_calib/zcal_pf_mc-data_res_phi_minus.png>
 Package pdftex.def Info: images/muon_calib/zcal_pf_mc-data_res_phi_minus.png us
-ed on input line 216.
+ed on input line 218.
 (pdftex.def)             Requested size: 150.08344pt x 101.77904pt.
 
-<images/muon_calib/zcal_pf_mc-data_res_eta_plus.png, id=1173, 698.61pt x 473.77
+<images/muon_calib/zcal_pf_mc-data_res_eta_plus.png, id=1179, 698.61pt x 473.77
 pt>
 File: images/muon_calib/zcal_pf_mc-data_res_eta_plus.png Graphic file (type png
 )
  <use images/muon_calib/zcal_pf_mc-data_res_eta_plus.png>
 Package pdftex.def Info: images/muon_calib/zcal_pf_mc-data_res_eta_plus.png use
-d on input line 217.
+d on input line 219.
 (pdftex.def)             Requested size: 150.08344pt x 101.77904pt.
 
-<images/muon_calib/zcal_pf_mc-data_res_eta_minus.png, id=1174, 698.61pt x 473.7
+<images/muon_calib/zcal_pf_mc-data_res_eta_minus.png, id=1180, 698.61pt x 473.7
 7pt>
 File: images/muon_calib/zcal_pf_mc-data_res_eta_minus.png Graphic file (type pn
 g)
  <use images/muon_calib/zcal_pf_mc-data_res_eta_minus.png>
 Package pdftex.def Info: images/muon_calib/zcal_pf_mc-data_res_eta_minus.png us
-ed on input line 218.
+ed on input line 220.
 (pdftex.def)             Requested size: 150.08344pt x 101.77904pt.
 
-<images/muon_calib/zcal_pf_mc-data_res_pt_plus.png, id=1175, 698.61pt x 473.77p
+<images/muon_calib/zcal_pf_mc-data_res_pt_plus.png, id=1181, 698.61pt x 473.77p
 t>
 File: images/muon_calib/zcal_pf_mc-data_res_pt_plus.png Graphic file (type png)
 
  <use images/muon_calib/zcal_pf_mc-data_res_pt_plus.png>
 Package pdftex.def Info: images/muon_calib/zcal_pf_mc-data_res_pt_plus.png used
- on input line 219.
+ on input line 221.
 (pdftex.def)             Requested size: 150.08344pt x 101.77904pt.
 
-<images/muon_calib/zcal_pf_mc-data_res_pt_minus.png, id=1176, 698.61pt x 473.77
+<images/muon_calib/zcal_pf_mc-data_res_pt_minus.png, id=1182, 698.61pt x 473.77
 pt>
 File: images/muon_calib/zcal_pf_mc-data_res_pt_minus.png Graphic file (type png
 )
  <use images/muon_calib/zcal_pf_mc-data_res_pt_minus.png>
 Package pdftex.def Info: images/muon_calib/zcal_pf_mc-data_res_pt_minus.png use
-d on input line 220.
+d on input line 222.
 (pdftex.def)             Requested size: 150.08344pt x 101.77904pt.
 
-<images/muon_calib/zcal_pf_mc-data_res_dimu_pt.png, id=1177, 698.61pt x 473.77p
+<images/muon_calib/zcal_pf_mc-data_res_dimu_pt.png, id=1183, 698.61pt x 473.77p
 t>
 File: images/muon_calib/zcal_pf_mc-data_res_dimu_pt.png Graphic file (type png)
 
  <use images/muon_calib/zcal_pf_mc-data_res_dimu_pt.png>
 Package pdftex.def Info: images/muon_calib/zcal_pf_mc-data_res_dimu_pt.png used
- on input line 221.
+ on input line 223.
 (pdftex.def)             Requested size: 150.08344pt x 101.77904pt.
 
-<images/muon_calib/zcal_roch_mc-data_res_phi_plus.png, id=1178, 698.61pt x 473.
+<images/muon_calib/zcal_roch_mc-data_res_phi_plus.png, id=1184, 698.61pt x 473.
 77pt>
 File: images/muon_calib/zcal_roch_mc-data_res_phi_plus.png Graphic file (type p
 ng)
  <use images/muon_calib/zcal_roch_mc-data_res_phi_plus.png>
 Package pdftex.def Info: images/muon_calib/zcal_roch_mc-data_res_phi_plus.png u
-sed on input line 228.
+sed on input line 230.
 (pdftex.def)             Requested size: 150.08344pt x 101.77904pt.
 
-<images/muon_calib/zcal_roch_mc-data_res_phi_minus.png, id=1179, 698.61pt x 473
+<images/muon_calib/zcal_roch_mc-data_res_phi_minus.png, id=1185, 698.61pt x 473
 .77pt>
 File: images/muon_calib/zcal_roch_mc-data_res_phi_minus.png Graphic file (type 
 png)
  <use images/muon_calib/zcal_roch_mc-data_res_phi_minus.png>
 Package pdftex.def Info: images/muon_calib/zcal_roch_mc-data_res_phi_minus.png 
-used on input line 229.
+used on input line 231.
 (pdftex.def)             Requested size: 150.08344pt x 101.77904pt.
 
-<images/muon_calib/zcal_roch_mc-data_res_eta_plus.png, id=1180, 698.61pt x 473.
+<images/muon_calib/zcal_roch_mc-data_res_eta_plus.png, id=1186, 698.61pt x 473.
 77pt>
 File: images/muon_calib/zcal_roch_mc-data_res_eta_plus.png Graphic file (type p
 ng)
  <use images/muon_calib/zcal_roch_mc-data_res_eta_plus.png>
 Package pdftex.def Info: images/muon_calib/zcal_roch_mc-data_res_eta_plus.png u
-sed on input line 230.
+sed on input line 232.
 (pdftex.def)             Requested size: 150.08344pt x 101.77904pt.
 
-<images/muon_calib/zcal_roch_mc-data_res_eta_minus.png, id=1181, 698.61pt x 473
+<images/muon_calib/zcal_roch_mc-data_res_eta_minus.png, id=1187, 698.61pt x 473
 .77pt>
 File: images/muon_calib/zcal_roch_mc-data_res_eta_minus.png Graphic file (type 
 png)
  <use images/muon_calib/zcal_roch_mc-data_res_eta_minus.png>
 Package pdftex.def Info: images/muon_calib/zcal_roch_mc-data_res_eta_minus.png 
-used on input line 231.
+used on input line 233.
 (pdftex.def)             Requested size: 150.08344pt x 101.77904pt.
 
-<images/muon_calib/zcal_roch_mc-data_res_pt_plus.png, id=1182, 698.61pt x 473.7
+<images/muon_calib/zcal_roch_mc-data_res_pt_plus.png, id=1188, 698.61pt x 473.7
 7pt>
 File: images/muon_calib/zcal_roch_mc-data_res_pt_plus.png Graphic file (type pn
 g)
  <use images/muon_calib/zcal_roch_mc-data_res_pt_plus.png>
 Package pdftex.def Info: images/muon_calib/zcal_roch_mc-data_res_pt_plus.png us
-ed on input line 232.
+ed on input line 234.
 (pdftex.def)             Requested size: 150.08344pt x 101.77904pt.
 
-<images/muon_calib/zcal_roch_mc-data_res_pt_minus.png, id=1183, 698.61pt x 473.
+<images/muon_calib/zcal_roch_mc-data_res_pt_minus.png, id=1189, 698.61pt x 473.
 77pt>
 File: images/muon_calib/zcal_roch_mc-data_res_pt_minus.png Graphic file (type p
 ng)
  <use images/muon_calib/zcal_roch_mc-data_res_pt_minus.png>
 Package pdftex.def Info: images/muon_calib/zcal_roch_mc-data_res_pt_minus.png u
-sed on input line 233.
+sed on input line 235.
 (pdftex.def)             Requested size: 150.08344pt x 101.77904pt.
 
-<images/muon_calib/zcal_roch_mc-data_res_dimu_pt.png, id=1184, 698.61pt x 473.7
+<images/muon_calib/zcal_roch_mc-data_res_dimu_pt.png, id=1190, 698.61pt x 473.7
 7pt>
 File: images/muon_calib/zcal_roch_mc-data_res_dimu_pt.png Graphic file (type pn
 g)
  <use images/muon_calib/zcal_roch_mc-data_res_dimu_pt.png>
 Package pdftex.def Info: images/muon_calib/zcal_roch_mc-data_res_dimu_pt.png us
-ed on input line 234.
+ed on input line 236.
 (pdftex.def)             Requested size: 150.08344pt x 101.77904pt.
 
-<images/muon_calib/zcal_kamu_mc-data_res_phi_plus.png, id=1185, 698.61pt x 473.
+<images/muon_calib/zcal_kamu_mc-data_res_phi_plus.png, id=1191, 698.61pt x 473.
 77pt>
 File: images/muon_calib/zcal_kamu_mc-data_res_phi_plus.png Graphic file (type p
 ng)
  <use images/muon_calib/zcal_kamu_mc-data_res_phi_plus.png>
 Package pdftex.def Info: images/muon_calib/zcal_kamu_mc-data_res_phi_plus.png u
-sed on input line 241.
+sed on input line 243.
 (pdftex.def)             Requested size: 150.08344pt x 101.77904pt.
 
-<images/muon_calib/zcal_kamu_mc-data_res_phi_minus.png, id=1186, 698.61pt x 473
+<images/muon_calib/zcal_kamu_mc-data_res_phi_minus.png, id=1192, 698.61pt x 473
 .77pt>
 File: images/muon_calib/zcal_kamu_mc-data_res_phi_minus.png Graphic file (type 
 png)
  <use images/muon_calib/zcal_kamu_mc-data_res_phi_minus.png>
 Package pdftex.def Info: images/muon_calib/zcal_kamu_mc-data_res_phi_minus.png 
-used on input line 242.
+used on input line 244.
 (pdftex.def)             Requested size: 150.08344pt x 101.77904pt.
 
-<images/muon_calib/zcal_kamu_mc-data_res_eta_plus.png, id=1187, 698.61pt x 473.
+<images/muon_calib/zcal_kamu_mc-data_res_eta_plus.png, id=1193, 698.61pt x 473.
 77pt>
 File: images/muon_calib/zcal_kamu_mc-data_res_eta_plus.png Graphic file (type p
 ng)
  <use images/muon_calib/zcal_kamu_mc-data_res_eta_plus.png>
 Package pdftex.def Info: images/muon_calib/zcal_kamu_mc-data_res_eta_plus.png u
-sed on input line 243.
+sed on input line 245.
 (pdftex.def)             Requested size: 150.08344pt x 101.77904pt.
 
-<images/muon_calib/zcal_kamu_mc-data_res_eta_minus.png, id=1188, 698.61pt x 473
+<images/muon_calib/zcal_kamu_mc-data_res_eta_minus.png, id=1194, 698.61pt x 473
 .77pt>
 File: images/muon_calib/zcal_kamu_mc-data_res_eta_minus.png Graphic file (type 
 png)
  <use images/muon_calib/zcal_kamu_mc-data_res_eta_minus.png>
 Package pdftex.def Info: images/muon_calib/zcal_kamu_mc-data_res_eta_minus.png 
-used on input line 244.
+used on input line 246.
 (pdftex.def)             Requested size: 150.08344pt x 101.77904pt.
 
-<images/muon_calib/zcal_kamu_mc-data_res_pt_plus.png, id=1189, 698.61pt x 473.7
+<images/muon_calib/zcal_kamu_mc-data_res_pt_plus.png, id=1195, 698.61pt x 473.7
 7pt>
 File: images/muon_calib/zcal_kamu_mc-data_res_pt_plus.png Graphic file (type pn
 g)
  <use images/muon_calib/zcal_kamu_mc-data_res_pt_plus.png>
 Package pdftex.def Info: images/muon_calib/zcal_kamu_mc-data_res_pt_plus.png us
-ed on input line 245.
+ed on input line 247.
 (pdftex.def)             Requested size: 150.08344pt x 101.77904pt.
 
-<images/muon_calib/zcal_kamu_mc-data_res_pt_minus.png, id=1190, 698.61pt x 473.
+<images/muon_calib/zcal_kamu_mc-data_res_pt_minus.png, id=1196, 698.61pt x 473.
 77pt>
 File: images/muon_calib/zcal_kamu_mc-data_res_pt_minus.png Graphic file (type p
 ng)
  <use images/muon_calib/zcal_kamu_mc-data_res_pt_minus.png>
 Package pdftex.def Info: images/muon_calib/zcal_kamu_mc-data_res_pt_minus.png u
-sed on input line 246.
+sed on input line 248.
 (pdftex.def)             Requested size: 150.08344pt x 101.77904pt.
 
-<images/muon_calib/zcal_kamu_mc-data_res_dimu_pt.png, id=1191, 698.61pt x 473.7
+<images/muon_calib/zcal_kamu_mc-data_res_dimu_pt.png, id=1197, 698.61pt x 473.7
 7pt>
 File: images/muon_calib/zcal_kamu_mc-data_res_dimu_pt.png Graphic file (type pn
 g)
  <use images/muon_calib/zcal_kamu_mc-data_res_dimu_pt.png>
 Package pdftex.def Info: images/muon_calib/zcal_kamu_mc-data_res_dimu_pt.png us
-ed on input line 247.
+ed on input line 249.
 (pdftex.def)             Requested size: 150.08344pt x 101.77904pt.
  [71
 
@@ -1710,32 +1738,32 @@ images/muon_calib/zcal_kamu_mc-data_res_eta_plus.png> <./images/muon_calib/zcal
 _kamu_mc-data_res_eta_minus.png> <./images/muon_calib/zcal_kamu_mc-data_res_pt_
 plus.png> <./images/muon_calib/zcal_kamu_mc-data_res_pt_minus.png> <./images/mu
 on_calib/zcal_kamu_mc-data_res_dimu_pt.png>]
-<images/muon_calib/syst_GluGlu_cat0.png, id=1218, 481.8pt x 359.3425pt>
+<images/muon_calib/syst_GluGlu_cat0.png, id=1224, 481.8pt x 359.3425pt>
 File: images/muon_calib/syst_GluGlu_cat0.png Graphic file (type png)
 
 <use images/muon_calib/syst_GluGlu_cat0.png>
 Package pdftex.def Info: images/muon_calib/syst_GluGlu_cat0.png used on input l
-ine 260.
+ine 262.
 (pdftex.def)             Requested size: 229.81258pt x 171.40225pt.
 
-<images/muon_calib/syst_GluGlu_cat12.png, id=1219, 493.845pt x 364.36125pt>
+<images/muon_calib/syst_GluGlu_cat12.png, id=1225, 493.845pt x 364.36125pt>
 File: images/muon_calib/syst_GluGlu_cat12.png Graphic file (type png)
 
 <use images/muon_calib/syst_GluGlu_cat12.png>
 Package pdftex.def Info: images/muon_calib/syst_GluGlu_cat12.png used on input 
-line 261.
+line 263.
 (pdftex.def)             Requested size: 229.81258pt x 169.5541pt.
  [77
 
  <./images/muon_calib/syst_GluGlu_cat0.png> <./images/muon_calib/syst_GluGlu_ca
 t12.png>]
-Overfull \hbox (3.44847pt too wide) in paragraph at lines 282--283
+Overfull \hbox (3.44847pt too wide) in paragraph at lines 284--285
 []\OT1/cmss/m/n/12 Jets are used to distinguish the VBF channel from the overwh
 elming Drell-Yan background. 
  []
 
 [78]
-Underfull \hbox (badness 10000) in paragraph at lines 286--286
+Underfull \hbox (badness 10000) in paragraph at lines 288--288
 [][]\OT1/cmss/m/n/12 MET usually corresponds to neutrinos which have a tiny mas
 s and a $\OT1/cmbr/m/sl/12 p[]$ \OT1/cmss/m/n/12 basically equal to
  []
@@ -1784,19 +1812,19 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 
 ] [83] [84] [85]
-<images/emtf_rate_reduction.png, id=1273, 598.235pt x 574.145pt>
+<images/emtf_rate_reduction.png, id=1279, 598.235pt x 574.145pt>
 File: images/emtf_rate_reduction.png Graphic file (type png)
 
 <use images/emtf_rate_reduction.png>
-Package pdftex.def Info: images/emtf_rate_reduction.png used on input line 110.
+Package pdftex.def Info: images/emtf_rate_reduction.png used on input line 112.
 
 (pdftex.def)             Requested size: 180.67499pt x 173.40125pt.
 
-<images/emtf_efficiency.png, id=1274, 598.235pt x 574.145pt>
+<images/emtf_efficiency.png, id=1280, 598.235pt x 574.145pt>
 File: images/emtf_efficiency.png Graphic file (type png)
 
 <use images/emtf_efficiency.png>
-Package pdftex.def Info: images/emtf_efficiency.png used on input line 111.
+Package pdftex.def Info: images/emtf_efficiency.png used on input line 113.
 (pdftex.def)             Requested size: 180.67499pt x 173.40125pt.
 
 
@@ -1806,182 +1834,182 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [88
 
 ] [89]
-<images/bdt_training/BDT_ROC_ge0j_all.pdf, id=1299, 529.98pt x 387.67053pt>
+<images/bdt_training/BDT_ROC_ge0j_all.pdf, id=1305, 529.98pt x 387.67053pt>
 File: images/bdt_training/BDT_ROC_ge0j_all.pdf Graphic file (type pdf)
 
 <use images/bdt_training/BDT_ROC_ge0j_all.pdf>
 Package pdftex.def Info: images/bdt_training/BDT_ROC_ge0j_all.pdf used on input
- line 170.
+ line 172.
 (pdftex.def)             Requested size: 234.5pt x 171.53384pt.
  [90 <./images/bdt_training/BDT_ROC_ge0j_all.pdf>]
-<images/bdt_cats/bdt_score_ggH_VBF_DY_ttbar.pdf, id=1319, 466.77527pt x 418.563
+<images/bdt_cats/bdt_score_ggH_VBF_DY_ttbar.pdf, id=1325, 466.77527pt x 418.563
 75pt>
 File: images/bdt_cats/bdt_score_ggH_VBF_DY_ttbar.pdf Graphic file (type pdf)
  <use images/bdt_cats/bdt_score_ggH_VBF_DY_ttbar.pdf>
 Package pdftex.def Info: images/bdt_cats/bdt_score_ggH_VBF_DY_ttbar.pdf used on
- input line 195.
+ input line 197.
 (pdftex.def)             Requested size: 229.81258pt x 206.0752pt.
 
-<images/bdt_cats/BdtOnH_bkg.pdf, id=1320, 569.12625pt x 694.595pt>
+<images/bdt_cats/BdtOnH_bkg.pdf, id=1326, 569.12625pt x 694.595pt>
 File: images/bdt_cats/BdtOnH_bkg.pdf Graphic file (type pdf)
 
 <use images/bdt_cats/BdtOnH_bkg.pdf>
-Package pdftex.def Info: images/bdt_cats/BdtOnH_bkg.pdf used on input line 196.
+Package pdftex.def Info: images/bdt_cats/BdtOnH_bkg.pdf used on input line 198.
 
 (pdftex.def)             Requested size: 229.81258pt x 280.48274pt.
 File: images/bdt_cats/binning_signal_example.png Graphic file (type png)
 
 <use images/bdt_cats/binning_signal_example.png>
 Package pdftex.def Info: images/bdt_cats/binning_signal_example.png used on inp
-ut line 214.
+ut line 216.
 (pdftex.def)             Requested size: 229.81258pt x 156.28784pt.
 File: images/bdt_cats/binning_bg_example.png Graphic file (type png)
 
 <use images/bdt_cats/binning_bg_example.png>
 Package pdftex.def Info: images/bdt_cats/binning_bg_example.png used on input l
-ine 215.
+ine 217.
 (pdftex.def)             Requested size: 229.81258pt x 156.28784pt.
  [91 <./images/bdt_cats/bdt_score_ggH_VBF_DY_ttbar.pdf> <./images/bdt_cats/BdtO
 nH_bkg.pdf>] [92]
-<images/bdt_cats/iter_all.png, id=1389, 1475.5125pt x 361.35pt>
+<images/bdt_cats/iter_all.png, id=1395, 1475.5125pt x 361.35pt>
 File: images/bdt_cats/iter_all.png Graphic file (type png)
 
 <use images/bdt_cats/iter_all.png>
-Package pdftex.def Info: images/bdt_cats/iter_all.png used on input line 249.
+Package pdftex.def Info: images/bdt_cats/iter_all.png used on input line 251.
 (pdftex.def)             Requested size: 459.618pt x 112.55768pt.
 
-<images/bdt_cats/final_categories_symb-eta.png, id=1390, 1337.99875pt x 335.252
+<images/bdt_cats/final_categories_symb-eta.png, id=1396, 1337.99875pt x 335.252
 5pt>
 File: images/bdt_cats/final_categories_symb-eta.png Graphic file (type png)
  <use images/bdt_cats/final_categories_symb-eta.png>
 Package pdftex.def Info: images/bdt_cats/final_categories_symb-eta.png used on 
-input line 263.
+input line 265.
 (pdftex.def)             Requested size: 469.0pt x 117.51405pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [93 <./images/bdt_cats/iter_all.png>]
-<images/bdt_cats/dimu_eta_cAll.png, id=1401, 803.0pt x 803.0pt>
+<images/bdt_cats/dimu_eta_cAll.png, id=1407, 803.0pt x 803.0pt>
 File: images/bdt_cats/dimu_eta_cAll.png Graphic file (type png)
 
 <use images/bdt_cats/dimu_eta_cAll.png>
 Package pdftex.def Info: images/bdt_cats/dimu_eta_cAll.png used on input line 3
-16.
+18.
 (pdftex.def)             Requested size: 150.08344pt x 150.08427pt.
 
-<images/bdt_cats/dimu_abs_dEta_cAll.png, id=1402, 803.0pt x 803.0pt>
+<images/bdt_cats/dimu_abs_dEta_cAll.png, id=1408, 803.0pt x 803.0pt>
 File: images/bdt_cats/dimu_abs_dEta_cAll.png Graphic file (type png)
 
 <use images/bdt_cats/dimu_abs_dEta_cAll.png>
 Package pdftex.def Info: images/bdt_cats/dimu_abs_dEta_cAll.png used on input l
-ine 317.
+ine 319.
 (pdftex.def)             Requested size: 150.08344pt x 150.08427pt.
 
-<images/bdt_cats/dimu_abs_dPhi_cAll.png, id=1403, 803.0pt x 803.0pt>
+<images/bdt_cats/dimu_abs_dPhi_cAll.png, id=1409, 803.0pt x 803.0pt>
 File: images/bdt_cats/dimu_abs_dPhi_cAll.png Graphic file (type png)
 
 <use images/bdt_cats/dimu_abs_dPhi_cAll.png>
 Package pdftex.def Info: images/bdt_cats/dimu_abs_dPhi_cAll.png used on input l
-ine 318.
+ine 320.
 (pdftex.def)             Requested size: 150.08344pt x 150.08427pt.
 
-<images/bdt_cats/nJetsCent_cAll.png, id=1404, 803.0pt x 803.0pt>
+<images/bdt_cats/nJetsCent_cAll.png, id=1410, 803.0pt x 803.0pt>
 File: images/bdt_cats/nJetsCent_cAll.png Graphic file (type png)
 
 <use images/bdt_cats/nJetsCent_cAll.png>
 Package pdftex.def Info: images/bdt_cats/nJetsCent_cAll.png used on input line 
-319.
+321.
 (pdftex.def)             Requested size: 150.08344pt x 150.08427pt.
 
-<images/bdt_cats/dijet1_mass_cAll.png, id=1405, 803.0pt x 803.0pt>
+<images/bdt_cats/dijet1_mass_cAll.png, id=1411, 803.0pt x 803.0pt>
 File: images/bdt_cats/dijet1_mass_cAll.png Graphic file (type png)
 
 <use images/bdt_cats/dijet1_mass_cAll.png>
 Package pdftex.def Info: images/bdt_cats/dijet1_mass_cAll.png used on input lin
-e 320.
+e 322.
 (pdftex.def)             Requested size: 150.08344pt x 150.08427pt.
 
-<images/bdt_cats/dijet1_abs_dEta_cAll.png, id=1406, 803.0pt x 803.0pt>
+<images/bdt_cats/dijet1_abs_dEta_cAll.png, id=1412, 803.0pt x 803.0pt>
 File: images/bdt_cats/dijet1_abs_dEta_cAll.png Graphic file (type png)
 
 <use images/bdt_cats/dijet1_abs_dEta_cAll.png>
 Package pdftex.def Info: images/bdt_cats/dijet1_abs_dEta_cAll.png used on input
- line 321.
+ line 323.
 (pdftex.def)             Requested size: 150.08344pt x 150.08427pt.
 
-<images/bdt_cats/nJetsFwd_cAll.png, id=1407, 803.0pt x 803.0pt>
+<images/bdt_cats/nJetsFwd_cAll.png, id=1413, 803.0pt x 803.0pt>
 File: images/bdt_cats/nJetsFwd_cAll.png Graphic file (type png)
 
 <use images/bdt_cats/nJetsFwd_cAll.png>
 Package pdftex.def Info: images/bdt_cats/nJetsFwd_cAll.png used on input line 3
-22.
+24.
 (pdftex.def)             Requested size: 150.08344pt x 150.08427pt.
 
-<images/bdt_cats/dijet2_mass_cAll.png, id=1408, 803.0pt x 803.0pt>
+<images/bdt_cats/dijet2_mass_cAll.png, id=1414, 803.0pt x 803.0pt>
 File: images/bdt_cats/dijet2_mass_cAll.png Graphic file (type png)
 
 <use images/bdt_cats/dijet2_mass_cAll.png>
 Package pdftex.def Info: images/bdt_cats/dijet2_mass_cAll.png used on input lin
-e 323.
+e 325.
 (pdftex.def)             Requested size: 150.08344pt x 150.08427pt.
 
-<images/bdt_cats/dijet2_abs_dEta_cAll.png, id=1409, 803.0pt x 803.0pt>
+<images/bdt_cats/dijet2_abs_dEta_cAll.png, id=1415, 803.0pt x 803.0pt>
 File: images/bdt_cats/dijet2_abs_dEta_cAll.png Graphic file (type png)
 
 <use images/bdt_cats/dijet2_abs_dEta_cAll.png>
 Package pdftex.def Info: images/bdt_cats/dijet2_abs_dEta_cAll.png used on input
- line 324.
+ line 326.
 (pdftex.def)             Requested size: 150.08344pt x 150.08427pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/bdt_cats/dimu_mass_Roch_cAll.png, id=1410, 803.0pt x 803.0pt>
+<images/bdt_cats/dimu_mass_Roch_cAll.png, id=1416, 803.0pt x 803.0pt>
 File: images/bdt_cats/dimu_mass_Roch_cAll.png Graphic file (type png)
 
 <use images/bdt_cats/dimu_mass_Roch_cAll.png>
 Package pdftex.def Info: images/bdt_cats/dimu_mass_Roch_cAll.png used on input 
-line 332.
+line 334.
 (pdftex.def)             Requested size: 150.08344pt x 150.08427pt.
 
-<images/bdt_cats/dimu_pt_cAll.png, id=1411, 803.0pt x 803.0pt>
+<images/bdt_cats/dimu_pt_cAll.png, id=1417, 803.0pt x 803.0pt>
 File: images/bdt_cats/dimu_pt_cAll.png Graphic file (type png)
 
 <use images/bdt_cats/dimu_pt_cAll.png>
 Package pdftex.def Info: images/bdt_cats/dimu_pt_cAll.png used on input line 33
-3.
+5.
 (pdftex.def)             Requested size: 150.08344pt x 150.08427pt.
 
-<images/bdt_cats/MET_cAll.png, id=1412, 803.0pt x 803.0pt>
+<images/bdt_cats/MET_cAll.png, id=1418, 803.0pt x 803.0pt>
 File: images/bdt_cats/MET_cAll.png Graphic file (type png)
 
 <use images/bdt_cats/MET_cAll.png>
-Package pdftex.def Info: images/bdt_cats/MET_cAll.png used on input line 334.
+Package pdftex.def Info: images/bdt_cats/MET_cAll.png used on input line 336.
 (pdftex.def)             Requested size: 150.08344pt x 150.08427pt.
 
-<images/bdt_cats/nBMed_cAll.png, id=1413, 803.0pt x 803.0pt>
+<images/bdt_cats/nBMed_cAll.png, id=1419, 803.0pt x 803.0pt>
 File: images/bdt_cats/nBMed_cAll.png Graphic file (type png)
 
 <use images/bdt_cats/nBMed_cAll.png>
-Package pdftex.def Info: images/bdt_cats/nBMed_cAll.png used on input line 335.
+Package pdftex.def Info: images/bdt_cats/nBMed_cAll.png used on input line 337.
 
 (pdftex.def)             Requested size: 150.08344pt x 150.08427pt.
 
-<images/bdt_cats/jet1_eta_cAll.png, id=1414, 803.0pt x 803.0pt>
+<images/bdt_cats/jet1_eta_cAll.png, id=1420, 803.0pt x 803.0pt>
 File: images/bdt_cats/jet1_eta_cAll.png Graphic file (type png)
 
 <use images/bdt_cats/jet1_eta_cAll.png>
 Package pdftex.def Info: images/bdt_cats/jet1_eta_cAll.png used on input line 3
-36.
+38.
 (pdftex.def)             Requested size: 150.08344pt x 150.08427pt.
 
-<images/bdt_cats/jet2_eta_cAll.png, id=1415, 803.0pt x 803.0pt>
+<images/bdt_cats/jet2_eta_cAll.png, id=1421, 803.0pt x 803.0pt>
 File: images/bdt_cats/jet2_eta_cAll.png Graphic file (type png)
 
 <use images/bdt_cats/jet2_eta_cAll.png>
 Package pdftex.def Info: images/bdt_cats/jet2_eta_cAll.png used on input line 3
-37.
+39.
 (pdftex.def)             Requested size: 150.08344pt x 150.08427pt.
 
 
@@ -1993,155 +2021,155 @@ imu_eta_cAll.png> <./images/bdt_cats/dimu_abs_dEta_cAll.png> <./images/bdt_cats
 ats/dijet1_mass_cAll.png> <./images/bdt_cats/dijet1_abs_dEta_cAll.png> <./image
 s/bdt_cats/nJetsFwd_cAll.png> <./images/bdt_cats/dijet2_mass_cAll.png> <./image
 s/bdt_cats/dijet2_abs_dEta_cAll.png>]
-<images/bdt_cats/dimu_eta_c14.png, id=1430, 803.0pt x 803.0pt>
+<images/bdt_cats/dimu_eta_c14.png, id=1436, 803.0pt x 803.0pt>
 File: images/bdt_cats/dimu_eta_c14.png Graphic file (type png)
 
 <use images/bdt_cats/dimu_eta_c14.png>
 Package pdftex.def Info: images/bdt_cats/dimu_eta_c14.png used on input line 36
-2.
+4.
 (pdftex.def)             Requested size: 150.08344pt x 150.08427pt.
 
-<images/bdt_cats/dimu_abs_dEta_c14.png, id=1431, 803.0pt x 803.0pt>
+<images/bdt_cats/dimu_abs_dEta_c14.png, id=1437, 803.0pt x 803.0pt>
 File: images/bdt_cats/dimu_abs_dEta_c14.png Graphic file (type png)
 
 <use images/bdt_cats/dimu_abs_dEta_c14.png>
 Package pdftex.def Info: images/bdt_cats/dimu_abs_dEta_c14.png used on input li
-ne 363.
+ne 365.
 (pdftex.def)             Requested size: 150.08344pt x 150.08427pt.
 
-<images/bdt_cats/dimu_abs_dPhi_c14.png, id=1432, 803.0pt x 803.0pt>
+<images/bdt_cats/dimu_abs_dPhi_c14.png, id=1438, 803.0pt x 803.0pt>
 File: images/bdt_cats/dimu_abs_dPhi_c14.png Graphic file (type png)
 
 <use images/bdt_cats/dimu_abs_dPhi_c14.png>
 Package pdftex.def Info: images/bdt_cats/dimu_abs_dPhi_c14.png used on input li
-ne 364.
+ne 366.
 (pdftex.def)             Requested size: 150.08344pt x 150.08427pt.
 
-<images/bdt_cats/nJetsCent_c14.png, id=1433, 803.0pt x 803.0pt>
+<images/bdt_cats/nJetsCent_c14.png, id=1439, 803.0pt x 803.0pt>
 File: images/bdt_cats/nJetsCent_c14.png Graphic file (type png)
 
 <use images/bdt_cats/nJetsCent_c14.png>
 Package pdftex.def Info: images/bdt_cats/nJetsCent_c14.png used on input line 3
-65.
+67.
 (pdftex.def)             Requested size: 150.08344pt x 150.08427pt.
 
-<images/bdt_cats/dijet1_mass_c14.png, id=1434, 803.0pt x 803.0pt>
+<images/bdt_cats/dijet1_mass_c14.png, id=1440, 803.0pt x 803.0pt>
 File: images/bdt_cats/dijet1_mass_c14.png Graphic file (type png)
 
 <use images/bdt_cats/dijet1_mass_c14.png>
 Package pdftex.def Info: images/bdt_cats/dijet1_mass_c14.png used on input line
- 366.
+ 368.
 (pdftex.def)             Requested size: 150.08344pt x 150.08427pt.
 
-<images/bdt_cats/dijet1_abs_dEta_c14.png, id=1435, 803.0pt x 803.0pt>
+<images/bdt_cats/dijet1_abs_dEta_c14.png, id=1441, 803.0pt x 803.0pt>
 File: images/bdt_cats/dijet1_abs_dEta_c14.png Graphic file (type png)
 
 <use images/bdt_cats/dijet1_abs_dEta_c14.png>
 Package pdftex.def Info: images/bdt_cats/dijet1_abs_dEta_c14.png used on input 
-line 367.
+line 369.
 (pdftex.def)             Requested size: 150.08344pt x 150.08427pt.
 
-<images/bdt_cats/nJetsFwd_c14.png, id=1436, 803.0pt x 803.0pt>
+<images/bdt_cats/nJetsFwd_c14.png, id=1442, 803.0pt x 803.0pt>
 File: images/bdt_cats/nJetsFwd_c14.png Graphic file (type png)
 
 <use images/bdt_cats/nJetsFwd_c14.png>
-Package pdftex.def Info: images/bdt_cats/nJetsFwd_c14.png used on input line 36
-8.
+Package pdftex.def Info: images/bdt_cats/nJetsFwd_c14.png used on input line 37
+0.
 (pdftex.def)             Requested size: 150.08344pt x 150.08427pt.
 
-<images/bdt_cats/dijet2_mass_c14.png, id=1437, 803.0pt x 803.0pt>
+<images/bdt_cats/dijet2_mass_c14.png, id=1443, 803.0pt x 803.0pt>
 File: images/bdt_cats/dijet2_mass_c14.png Graphic file (type png)
 
 <use images/bdt_cats/dijet2_mass_c14.png>
 Package pdftex.def Info: images/bdt_cats/dijet2_mass_c14.png used on input line
- 369.
+ 371.
 (pdftex.def)             Requested size: 150.08344pt x 150.08427pt.
 
-<images/bdt_cats/dijet2_abs_dEta_c14.png, id=1438, 803.0pt x 803.0pt>
+<images/bdt_cats/dijet2_abs_dEta_c14.png, id=1444, 803.0pt x 803.0pt>
 File: images/bdt_cats/dijet2_abs_dEta_c14.png Graphic file (type png)
 
 <use images/bdt_cats/dijet2_abs_dEta_c14.png>
 Package pdftex.def Info: images/bdt_cats/dijet2_abs_dEta_c14.png used on input 
-line 370.
+line 372.
 (pdftex.def)             Requested size: 150.08344pt x 150.08427pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/bdt_cats/dimu_mass_Roch_c14.png, id=1439, 803.0pt x 803.0pt>
+<images/bdt_cats/dimu_mass_Roch_c14.png, id=1445, 803.0pt x 803.0pt>
 File: images/bdt_cats/dimu_mass_Roch_c14.png Graphic file (type png)
 
 <use images/bdt_cats/dimu_mass_Roch_c14.png>
 Package pdftex.def Info: images/bdt_cats/dimu_mass_Roch_c14.png used on input l
-ine 378.
+ine 380.
 (pdftex.def)             Requested size: 150.08344pt x 150.08427pt.
 
-<images/bdt_cats/dimu_pt_c14.png, id=1440, 803.0pt x 803.0pt>
+<images/bdt_cats/dimu_pt_c14.png, id=1446, 803.0pt x 803.0pt>
 File: images/bdt_cats/dimu_pt_c14.png Graphic file (type png)
 
 <use images/bdt_cats/dimu_pt_c14.png>
-Package pdftex.def Info: images/bdt_cats/dimu_pt_c14.png used on input line 379
+Package pdftex.def Info: images/bdt_cats/dimu_pt_c14.png used on input line 381
 .
 (pdftex.def)             Requested size: 150.08344pt x 150.08427pt.
 
-<images/bdt_cats/MET_c14.png, id=1441, 803.0pt x 803.0pt>
+<images/bdt_cats/MET_c14.png, id=1447, 803.0pt x 803.0pt>
 File: images/bdt_cats/MET_c14.png Graphic file (type png)
 
 <use images/bdt_cats/MET_c14.png>
-Package pdftex.def Info: images/bdt_cats/MET_c14.png used on input line 380.
+Package pdftex.def Info: images/bdt_cats/MET_c14.png used on input line 382.
 (pdftex.def)             Requested size: 150.08344pt x 150.08427pt.
 
-<images/bdt_cats/nBMed_c14.png, id=1442, 803.0pt x 803.0pt>
+<images/bdt_cats/nBMed_c14.png, id=1448, 803.0pt x 803.0pt>
 File: images/bdt_cats/nBMed_c14.png Graphic file (type png)
 
 <use images/bdt_cats/nBMed_c14.png>
-Package pdftex.def Info: images/bdt_cats/nBMed_c14.png used on input line 381.
+Package pdftex.def Info: images/bdt_cats/nBMed_c14.png used on input line 383.
 (pdftex.def)             Requested size: 150.08344pt x 150.08427pt.
 
-<images/bdt_cats/jet1_eta_c14.png, id=1443, 803.0pt x 803.0pt>
+<images/bdt_cats/jet1_eta_c14.png, id=1449, 803.0pt x 803.0pt>
 File: images/bdt_cats/jet1_eta_c14.png Graphic file (type png)
 
 <use images/bdt_cats/jet1_eta_c14.png>
 Package pdftex.def Info: images/bdt_cats/jet1_eta_c14.png used on input line 38
-2.
+4.
 (pdftex.def)             Requested size: 150.08344pt x 150.08427pt.
 
-<images/bdt_cats/jet2_eta_c14.png, id=1444, 803.0pt x 803.0pt>
+<images/bdt_cats/jet2_eta_c14.png, id=1450, 803.0pt x 803.0pt>
 File: images/bdt_cats/jet2_eta_c14.png Graphic file (type png)
 
 <use images/bdt_cats/jet2_eta_c14.png>
 Package pdftex.def Info: images/bdt_cats/jet2_eta_c14.png used on input line 38
-3.
+5.
 (pdftex.def)             Requested size: 150.08344pt x 150.08427pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/bdt_cats/BdtOnH_bkg.png, id=1445, 798.985pt x 975.645pt>
+<images/bdt_cats/BdtOnH_bkg.png, id=1451, 798.985pt x 975.645pt>
 File: images/bdt_cats/BdtOnH_bkg.png Graphic file (type png)
 
 <use images/bdt_cats/BdtOnH_bkg.png>
-Package pdftex.def Info: images/bdt_cats/BdtOnH_bkg.png used on input line 391.
+Package pdftex.def Info: images/bdt_cats/BdtOnH_bkg.png used on input line 393.
 
 (pdftex.def)             Requested size: 229.81258pt x 280.6223pt.
 
-<images/bdt_cats/BdtOnH_zptrwg_bkg.png, id=1446, 798.985pt x 975.645pt>
+<images/bdt_cats/BdtOnH_zptrwg_bkg.png, id=1452, 798.985pt x 975.645pt>
 File: images/bdt_cats/BdtOnH_zptrwg_bkg.png Graphic file (type png)
 
 <use images/bdt_cats/BdtOnH_zptrwg_bkg.png>
 Package pdftex.def Info: images/bdt_cats/BdtOnH_zptrwg_bkg.png used on input li
-ne 392.
+ne 394.
 (pdftex.def)             Requested size: 229.81258pt x 280.6223pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/bdt_cats/BdtOnH_QM_bkg.png, id=1447, 798.985pt x 975.645pt>
+<images/bdt_cats/BdtOnH_QM_bkg.png, id=1453, 798.985pt x 975.645pt>
 File: images/bdt_cats/BdtOnH_QM_bkg.png Graphic file (type png)
 
 <use images/bdt_cats/BdtOnH_QM_bkg.png>
 Package pdftex.def Info: images/bdt_cats/BdtOnH_QM_bkg.png used on input line 4
-00.
+02.
 (pdftex.def)             Requested size: 234.5pt x 286.35384pt.
 
 
@@ -2150,36 +2178,36 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [96 <./images/bdt_cats/dimu_mass_Roch_cAll.png> <./images/bdt_cats/dimu_pt_cAll
 .png> <./images/bdt_cats/MET_cAll.png> <./images/bdt_cats/nBMed_cAll.png> <./im
 ages/bdt_cats/jet1_eta_cAll.png> <./images/bdt_cats/jet2_eta_cAll.png>]
-<images/bdt_cats/BDT_Score_GGF_M125_vs_M120.png, id=1453, 803.0pt x 803.0pt>
+<images/bdt_cats/BDT_Score_GGF_M125_vs_M120.png, id=1460, 803.0pt x 803.0pt>
 File: images/bdt_cats/BDT_Score_GGF_M125_vs_M120.png Graphic file (type png)
 
 <use images/bdt_cats/BDT_Score_GGF_M125_vs_M120.png>
 Package pdftex.def Info: images/bdt_cats/BDT_Score_GGF_M125_vs_M120.png used on
- input line 413.
+ input line 415.
 (pdftex.def)             Requested size: 229.81258pt x 229.8131pt.
 
-<images/bdt_cats/BDT_Score_GGF_M125_vs_M130.png, id=1454, 803.0pt x 803.0pt>
+<images/bdt_cats/BDT_Score_GGF_M125_vs_M130.png, id=1461, 803.0pt x 803.0pt>
 File: images/bdt_cats/BDT_Score_GGF_M125_vs_M130.png Graphic file (type png)
 
 <use images/bdt_cats/BDT_Score_GGF_M125_vs_M130.png>
 Package pdftex.def Info: images/bdt_cats/BDT_Score_GGF_M125_vs_M130.png used on
- input line 414.
+ input line 416.
 (pdftex.def)             Requested size: 229.81258pt x 229.8131pt.
 
-<images/bdt_cats/BDT_Score_VBF_M125_vs_M120.png, id=1455, 803.0pt x 803.0pt>
+<images/bdt_cats/BDT_Score_VBF_M125_vs_M120.png, id=1462, 803.0pt x 803.0pt>
 File: images/bdt_cats/BDT_Score_VBF_M125_vs_M120.png Graphic file (type png)
 
 <use images/bdt_cats/BDT_Score_VBF_M125_vs_M120.png>
 Package pdftex.def Info: images/bdt_cats/BDT_Score_VBF_M125_vs_M120.png used on
- input line 415.
+ input line 417.
 (pdftex.def)             Requested size: 229.81258pt x 229.8131pt.
 
-<images/bdt_cats/BDT_Score_VBF_M125_vs_M130.png, id=1456, 803.0pt x 803.0pt>
+<images/bdt_cats/BDT_Score_VBF_M125_vs_M130.png, id=1463, 803.0pt x 803.0pt>
 File: images/bdt_cats/BDT_Score_VBF_M125_vs_M130.png Graphic file (type png)
 
 <use images/bdt_cats/BDT_Score_VBF_M125_vs_M130.png>
 Package pdftex.def Info: images/bdt_cats/BDT_Score_VBF_M125_vs_M130.png used on
- input line 416.
+ input line 418.
 (pdftex.def)             Requested size: 229.81258pt x 229.8131pt.
 
 
@@ -2197,222 +2225,222 @@ _c14.png> <./images/bdt_cats/nBMed_c14.png> <./images/bdt_cats/jet1_eta_c14.png
 g.png>] [101 <./images/bdt_cats/BDT_Score_GGF_M125_vs_M120.png> <./images/bdt_c
 ats/BDT_Score_GGF_M125_vs_M130.png> <./images/bdt_cats/BDT_Score_VBF_M125_vs_M1
 20.png> <./images/bdt_cats/BDT_Score_VBF_M125_vs_M130.png>]
-<images/bdt_cats/sig_kinematics_bdt_score_cAll.png, id=1487, 598.235pt x 574.14
+<images/bdt_cats/sig_kinematics_bdt_score_cAll.png, id=1493, 598.235pt x 574.14
 5pt>
 File: images/bdt_cats/sig_kinematics_bdt_score_cAll.png Graphic file (type png)
 
  <use images/bdt_cats/sig_kinematics_bdt_score_cAll.png>
 Package pdftex.def Info: images/bdt_cats/sig_kinematics_bdt_score_cAll.png used
- on input line 469.
+ on input line 471.
 (pdftex.def)             Requested size: 150.08344pt x 144.03525pt.
 
-<images/bdt_cats/sig_kinematics_mu1_pt_cAll.png, id=1488, 598.235pt x 574.145pt
+<images/bdt_cats/sig_kinematics_mu1_pt_cAll.png, id=1494, 598.235pt x 574.145pt
 >
 File: images/bdt_cats/sig_kinematics_mu1_pt_cAll.png Graphic file (type png)
  <use images/bdt_cats/sig_kinematics_mu1_pt_cAll.png>
 Package pdftex.def Info: images/bdt_cats/sig_kinematics_mu1_pt_cAll.png used on
- input line 470.
+ input line 472.
 (pdftex.def)             Requested size: 150.08344pt x 144.03525pt.
 
-<images/bdt_cats/sig_kinematics_mu2_pt_cAll.png, id=1489, 598.235pt x 574.145pt
+<images/bdt_cats/sig_kinematics_mu2_pt_cAll.png, id=1495, 598.235pt x 574.145pt
 >
 File: images/bdt_cats/sig_kinematics_mu2_pt_cAll.png Graphic file (type png)
  <use images/bdt_cats/sig_kinematics_mu2_pt_cAll.png>
 Package pdftex.def Info: images/bdt_cats/sig_kinematics_mu2_pt_cAll.png used on
- input line 471.
+ input line 473.
 (pdftex.def)             Requested size: 150.08344pt x 144.03525pt.
 
-<images/bdt_cats/sig_kinematics_mu1_eta_cAll.png, id=1490, 598.235pt x 574.145p
+<images/bdt_cats/sig_kinematics_mu1_eta_cAll.png, id=1496, 598.235pt x 574.145p
 t>
 File: images/bdt_cats/sig_kinematics_mu1_eta_cAll.png Graphic file (type png)
  <use images/bdt_cats/sig_kinematics_mu1_eta_cAll.png>
 Package pdftex.def Info: images/bdt_cats/sig_kinematics_mu1_eta_cAll.png used o
-n input line 472.
+n input line 474.
 (pdftex.def)             Requested size: 150.08344pt x 144.03525pt.
 
-<images/bdt_cats/sig_kinematics_mu2_eta_cAll.png, id=1491, 598.235pt x 574.145p
+<images/bdt_cats/sig_kinematics_mu2_eta_cAll.png, id=1497, 598.235pt x 574.145p
 t>
 File: images/bdt_cats/sig_kinematics_mu2_eta_cAll.png Graphic file (type png)
  <use images/bdt_cats/sig_kinematics_mu2_eta_cAll.png>
 Package pdftex.def Info: images/bdt_cats/sig_kinematics_mu2_eta_cAll.png used o
-n input line 473.
+n input line 475.
 (pdftex.def)             Requested size: 150.08344pt x 144.03525pt.
 
-<images/bdt_cats/sig_kinematics_dimu_pt_cAll.png, id=1492, 598.235pt x 574.145p
+<images/bdt_cats/sig_kinematics_dimu_pt_cAll.png, id=1498, 598.235pt x 574.145p
 t>
 File: images/bdt_cats/sig_kinematics_dimu_pt_cAll.png Graphic file (type png)
  <use images/bdt_cats/sig_kinematics_dimu_pt_cAll.png>
 Package pdftex.def Info: images/bdt_cats/sig_kinematics_dimu_pt_cAll.png used o
-n input line 474.
+n input line 476.
 (pdftex.def)             Requested size: 150.08344pt x 144.03525pt.
 
-<images/bdt_cats/sig_kinematics_dimu_eta_cAll.png, id=1493, 598.235pt x 574.145
+<images/bdt_cats/sig_kinematics_dimu_eta_cAll.png, id=1499, 598.235pt x 574.145
 pt>
 File: images/bdt_cats/sig_kinematics_dimu_eta_cAll.png Graphic file (type png)
  <use images/bdt_cats/sig_kinematics_dimu_eta_cAll.png>
 Package pdftex.def Info: images/bdt_cats/sig_kinematics_dimu_eta_cAll.png used 
-on input line 475.
+on input line 477.
 (pdftex.def)             Requested size: 150.08344pt x 144.03525pt.
 
-<images/bdt_cats/sig_kinematics_dimu_abs_dPhi_cAll.png, id=1494, 598.235pt x 57
+<images/bdt_cats/sig_kinematics_dimu_abs_dPhi_cAll.png, id=1500, 598.235pt x 57
 4.145pt>
 File: images/bdt_cats/sig_kinematics_dimu_abs_dPhi_cAll.png Graphic file (type 
 png)
  <use images/bdt_cats/sig_kinematics_dimu_abs_dPhi_cAll.png>
 Package pdftex.def Info: images/bdt_cats/sig_kinematics_dimu_abs_dPhi_cAll.png 
-used on input line 476.
+used on input line 478.
 (pdftex.def)             Requested size: 150.08344pt x 144.03525pt.
 
-<images/bdt_cats/sig_kinematics_dimu_abs_dEta_cAll.png, id=1495, 598.235pt x 57
+<images/bdt_cats/sig_kinematics_dimu_abs_dEta_cAll.png, id=1501, 598.235pt x 57
 4.145pt>
 File: images/bdt_cats/sig_kinematics_dimu_abs_dEta_cAll.png Graphic file (type 
 png)
  <use images/bdt_cats/sig_kinematics_dimu_abs_dEta_cAll.png>
 Package pdftex.def Info: images/bdt_cats/sig_kinematics_dimu_abs_dEta_cAll.png 
-used on input line 477.
+used on input line 479.
 (pdftex.def)             Requested size: 150.08344pt x 144.03525pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-<images/bdt_cats/sig_kinematics_dimu_mass_KaMu_cAll.png, id=1496, 598.235pt x 5
+<images/bdt_cats/sig_kinematics_dimu_mass_KaMu_cAll.png, id=1502, 598.235pt x 5
 74.145pt>
 File: images/bdt_cats/sig_kinematics_dimu_mass_KaMu_cAll.png Graphic file (type
  png)
  <use images/bdt_cats/sig_kinematics_dimu_mass_KaMu_cAll.png>
 Package pdftex.def Info: images/bdt_cats/sig_kinematics_dimu_mass_KaMu_cAll.png
- used on input line 483.
+ used on input line 485.
 (pdftex.def)             Requested size: 150.08344pt x 144.03525pt.
 
-<images/bdt_cats/sig_kinematics_dijet1_mass_cAll.png, id=1497, 598.235pt x 574.
+<images/bdt_cats/sig_kinematics_dijet1_mass_cAll.png, id=1503, 598.235pt x 574.
 145pt>
 File: images/bdt_cats/sig_kinematics_dijet1_mass_cAll.png Graphic file (type pn
 g)
  <use images/bdt_cats/sig_kinematics_dijet1_mass_cAll.png>
 Package pdftex.def Info: images/bdt_cats/sig_kinematics_dijet1_mass_cAll.png us
-ed on input line 484.
+ed on input line 486.
 (pdftex.def)             Requested size: 150.08344pt x 144.03525pt.
 
-<images/bdt_cats/sig_kinematics_dijet1_abs_dEta_cAll.png, id=1498, 598.235pt x 
+<images/bdt_cats/sig_kinematics_dijet1_abs_dEta_cAll.png, id=1504, 598.235pt x 
 574.145pt>
 File: images/bdt_cats/sig_kinematics_dijet1_abs_dEta_cAll.png Graphic file (typ
 e png)
  <use images/bdt_cats/sig_kinematics_dijet1_abs_dEta_cAll.png>
 Package pdftex.def Info: images/bdt_cats/sig_kinematics_dijet1_abs_dEta_cAll.pn
-g used on input line 485.
+g used on input line 487.
 (pdftex.def)             Requested size: 150.08344pt x 144.03525pt.
 
-<images/bdt_cats/sig_kinematics_dijet2_mass_cAll.png, id=1499, 598.235pt x 574.
+<images/bdt_cats/sig_kinematics_dijet2_mass_cAll.png, id=1505, 598.235pt x 574.
 145pt>
 File: images/bdt_cats/sig_kinematics_dijet2_mass_cAll.png Graphic file (type pn
 g)
  <use images/bdt_cats/sig_kinematics_dijet2_mass_cAll.png>
 Package pdftex.def Info: images/bdt_cats/sig_kinematics_dijet2_mass_cAll.png us
-ed on input line 486.
+ed on input line 488.
 (pdftex.def)             Requested size: 150.08344pt x 144.03525pt.
 
-<images/bdt_cats/sig_kinematics_dijet2_abs_dEta_cAll.png, id=1500, 598.235pt x 
+<images/bdt_cats/sig_kinematics_dijet2_abs_dEta_cAll.png, id=1506, 598.235pt x 
 574.145pt>
 File: images/bdt_cats/sig_kinematics_dijet2_abs_dEta_cAll.png Graphic file (typ
 e png)
  <use images/bdt_cats/sig_kinematics_dijet2_abs_dEta_cAll.png>
 Package pdftex.def Info: images/bdt_cats/sig_kinematics_dijet2_abs_dEta_cAll.pn
-g used on input line 487.
+g used on input line 489.
 (pdftex.def)             Requested size: 150.08344pt x 144.03525pt.
 
-<images/bdt_cats/sig_kinematics_jet1_pt_cAll.png, id=1501, 598.235pt x 574.145p
+<images/bdt_cats/sig_kinematics_jet1_pt_cAll.png, id=1507, 598.235pt x 574.145p
 t>
 File: images/bdt_cats/sig_kinematics_jet1_pt_cAll.png Graphic file (type png)
  <use images/bdt_cats/sig_kinematics_jet1_pt_cAll.png>
 Package pdftex.def Info: images/bdt_cats/sig_kinematics_jet1_pt_cAll.png used o
-n input line 488.
+n input line 490.
 (pdftex.def)             Requested size: 150.08344pt x 144.03525pt.
 
-<images/bdt_cats/sig_kinematics_jet2_pt_cAll.png, id=1502, 598.235pt x 574.145p
+<images/bdt_cats/sig_kinematics_jet2_pt_cAll.png, id=1508, 598.235pt x 574.145p
 t>
 File: images/bdt_cats/sig_kinematics_jet2_pt_cAll.png Graphic file (type png)
  <use images/bdt_cats/sig_kinematics_jet2_pt_cAll.png>
 Package pdftex.def Info: images/bdt_cats/sig_kinematics_jet2_pt_cAll.png used o
-n input line 489.
+n input line 491.
 (pdftex.def)             Requested size: 150.08344pt x 144.03525pt.
 
-<images/bdt_cats/sig_kinematics_jet1_eta_cAll.png, id=1503, 598.235pt x 574.145
+<images/bdt_cats/sig_kinematics_jet1_eta_cAll.png, id=1509, 598.235pt x 574.145
 pt>
 File: images/bdt_cats/sig_kinematics_jet1_eta_cAll.png Graphic file (type png)
  <use images/bdt_cats/sig_kinematics_jet1_eta_cAll.png>
 Package pdftex.def Info: images/bdt_cats/sig_kinematics_jet1_eta_cAll.png used 
-on input line 490.
+on input line 492.
 (pdftex.def)             Requested size: 150.08344pt x 144.03525pt.
 
-<images/bdt_cats/sig_kinematics_jet2_eta_cAll.png, id=1504, 598.235pt x 574.145
+<images/bdt_cats/sig_kinematics_jet2_eta_cAll.png, id=1510, 598.235pt x 574.145
 pt>
 File: images/bdt_cats/sig_kinematics_jet2_eta_cAll.png Graphic file (type png)
  <use images/bdt_cats/sig_kinematics_jet2_eta_cAll.png>
 Package pdftex.def Info: images/bdt_cats/sig_kinematics_jet2_eta_cAll.png used 
-on input line 491.
+on input line 493.
 (pdftex.def)             Requested size: 150.08344pt x 144.03525pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 483--493
+Underfull \hbox (badness 10000) in paragraph at lines 485--495
 [][] [] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 483--493
+Underfull \hbox (badness 10000) in paragraph at lines 485--495
 [] [] []
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/bdt_cats/sig_kinematics_MET_cAll.png, id=1505, 598.235pt x 574.145pt>
+<images/bdt_cats/sig_kinematics_MET_cAll.png, id=1511, 598.235pt x 574.145pt>
 File: images/bdt_cats/sig_kinematics_MET_cAll.png Graphic file (type png)
 
 <use images/bdt_cats/sig_kinematics_MET_cAll.png>
 Package pdftex.def Info: images/bdt_cats/sig_kinematics_MET_cAll.png used on in
-put line 498.
+put line 500.
 (pdftex.def)             Requested size: 150.08344pt x 144.03525pt.
 
-<images/bdt_cats/sig_kinematics_nJets_cAll.png, id=1506, 598.235pt x 574.145pt>
+<images/bdt_cats/sig_kinematics_nJets_cAll.png, id=1512, 598.235pt x 574.145pt>
 File: images/bdt_cats/sig_kinematics_nJets_cAll.png Graphic file (type png)
 <use images/bdt_cats/sig_kinematics_nJets_cAll.png>
 Package pdftex.def Info: images/bdt_cats/sig_kinematics_nJets_cAll.png used on 
-input line 499.
+input line 501.
 (pdftex.def)             Requested size: 150.08344pt x 144.03525pt.
 
-<images/bdt_cats/sig_kinematics_nJetsCent_cAll.png, id=1507, 598.235pt x 574.14
+<images/bdt_cats/sig_kinematics_nJetsCent_cAll.png, id=1513, 598.235pt x 574.14
 5pt>
 File: images/bdt_cats/sig_kinematics_nJetsCent_cAll.png Graphic file (type png)
 
  <use images/bdt_cats/sig_kinematics_nJetsCent_cAll.png>
 Package pdftex.def Info: images/bdt_cats/sig_kinematics_nJetsCent_cAll.png used
- on input line 500.
+ on input line 502.
 (pdftex.def)             Requested size: 150.08344pt x 144.03525pt.
 
-<images/bdt_cats/sig_kinematics_nBMed_cAll.png, id=1508, 598.235pt x 574.145pt>
+<images/bdt_cats/sig_kinematics_nBMed_cAll.png, id=1514, 598.235pt x 574.145pt>
 File: images/bdt_cats/sig_kinematics_nBMed_cAll.png Graphic file (type png)
 <use images/bdt_cats/sig_kinematics_nBMed_cAll.png>
 Package pdftex.def Info: images/bdt_cats/sig_kinematics_nBMed_cAll.png used on 
-input line 501.
+input line 503.
 (pdftex.def)             Requested size: 150.08344pt x 144.03525pt.
 
-<images/bdt_cats/sig_kinematics_nExtraMu_cAll.png, id=1509, 598.235pt x 574.145
+<images/bdt_cats/sig_kinematics_nExtraMu_cAll.png, id=1515, 598.235pt x 574.145
 pt>
 File: images/bdt_cats/sig_kinematics_nExtraMu_cAll.png Graphic file (type png)
  <use images/bdt_cats/sig_kinematics_nExtraMu_cAll.png>
 Package pdftex.def Info: images/bdt_cats/sig_kinematics_nExtraMu_cAll.png used 
-on input line 502.
+on input line 504.
 (pdftex.def)             Requested size: 150.08344pt x 144.03525pt.
 
-<images/bdt_cats/sig_kinematics_nEle_cAll.png, id=1510, 598.235pt x 574.145pt>
+<images/bdt_cats/sig_kinematics_nEle_cAll.png, id=1516, 598.235pt x 574.145pt>
 File: images/bdt_cats/sig_kinematics_nEle_cAll.png Graphic file (type png)
 
 <use images/bdt_cats/sig_kinematics_nEle_cAll.png>
 Package pdftex.def Info: images/bdt_cats/sig_kinematics_nEle_cAll.png used on i
-nput line 503.
+nput line 505.
 (pdftex.def)             Requested size: 150.08344pt x 144.03525pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 498--505
+Underfull \hbox (badness 10000) in paragraph at lines 500--507
 [][] [] []
  []
 
@@ -2420,233 +2448,233 @@ Underfull \hbox (badness 10000) in paragraph at lines 498--505
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-<images/bdt_cats/sig_kinematics_bdt_score_c14.png, id=1511, 598.235pt x 574.145
+<images/bdt_cats/sig_kinematics_bdt_score_c14.png, id=1517, 598.235pt x 574.145
 pt>
 File: images/bdt_cats/sig_kinematics_bdt_score_c14.png Graphic file (type png)
  <use images/bdt_cats/sig_kinematics_bdt_score_c14.png>
 Package pdftex.def Info: images/bdt_cats/sig_kinematics_bdt_score_c14.png used 
-on input line 511.
+on input line 513.
 (pdftex.def)             Requested size: 150.08344pt x 144.03525pt.
 
-<images/bdt_cats/sig_kinematics_mu1_pt_c14.png, id=1512, 598.235pt x 574.145pt>
+<images/bdt_cats/sig_kinematics_mu1_pt_c14.png, id=1518, 598.235pt x 574.145pt>
 File: images/bdt_cats/sig_kinematics_mu1_pt_c14.png Graphic file (type png)
 <use images/bdt_cats/sig_kinematics_mu1_pt_c14.png>
 Package pdftex.def Info: images/bdt_cats/sig_kinematics_mu1_pt_c14.png used on 
-input line 512.
+input line 514.
 (pdftex.def)             Requested size: 150.08344pt x 144.03525pt.
 
-<images/bdt_cats/sig_kinematics_mu2_pt_c14.png, id=1513, 598.235pt x 574.145pt>
+<images/bdt_cats/sig_kinematics_mu2_pt_c14.png, id=1519, 598.235pt x 574.145pt>
 File: images/bdt_cats/sig_kinematics_mu2_pt_c14.png Graphic file (type png)
 <use images/bdt_cats/sig_kinematics_mu2_pt_c14.png>
 Package pdftex.def Info: images/bdt_cats/sig_kinematics_mu2_pt_c14.png used on 
-input line 513.
+input line 515.
 (pdftex.def)             Requested size: 150.08344pt x 144.03525pt.
 
-<images/bdt_cats/sig_kinematics_mu1_eta_c14.png, id=1514, 598.235pt x 574.145pt
+<images/bdt_cats/sig_kinematics_mu1_eta_c14.png, id=1520, 598.235pt x 574.145pt
 >
 File: images/bdt_cats/sig_kinematics_mu1_eta_c14.png Graphic file (type png)
  <use images/bdt_cats/sig_kinematics_mu1_eta_c14.png>
 Package pdftex.def Info: images/bdt_cats/sig_kinematics_mu1_eta_c14.png used on
- input line 514.
+ input line 516.
 (pdftex.def)             Requested size: 150.08344pt x 144.03525pt.
 
-<images/bdt_cats/sig_kinematics_mu2_eta_c14.png, id=1515, 598.235pt x 574.145pt
+<images/bdt_cats/sig_kinematics_mu2_eta_c14.png, id=1521, 598.235pt x 574.145pt
 >
 File: images/bdt_cats/sig_kinematics_mu2_eta_c14.png Graphic file (type png)
  <use images/bdt_cats/sig_kinematics_mu2_eta_c14.png>
 Package pdftex.def Info: images/bdt_cats/sig_kinematics_mu2_eta_c14.png used on
- input line 515.
+ input line 517.
 (pdftex.def)             Requested size: 150.08344pt x 144.03525pt.
 
-<images/bdt_cats/sig_kinematics_dimu_pt_c14.png, id=1516, 598.235pt x 574.145pt
+<images/bdt_cats/sig_kinematics_dimu_pt_c14.png, id=1522, 598.235pt x 574.145pt
 >
 File: images/bdt_cats/sig_kinematics_dimu_pt_c14.png Graphic file (type png)
  <use images/bdt_cats/sig_kinematics_dimu_pt_c14.png>
 Package pdftex.def Info: images/bdt_cats/sig_kinematics_dimu_pt_c14.png used on
- input line 516.
+ input line 518.
 (pdftex.def)             Requested size: 150.08344pt x 144.03525pt.
 
-<images/bdt_cats/sig_kinematics_dimu_eta_c14.png, id=1517, 598.235pt x 574.145p
+<images/bdt_cats/sig_kinematics_dimu_eta_c14.png, id=1523, 598.235pt x 574.145p
 t>
 File: images/bdt_cats/sig_kinematics_dimu_eta_c14.png Graphic file (type png)
  <use images/bdt_cats/sig_kinematics_dimu_eta_c14.png>
 Package pdftex.def Info: images/bdt_cats/sig_kinematics_dimu_eta_c14.png used o
-n input line 517.
+n input line 519.
 (pdftex.def)             Requested size: 150.08344pt x 144.03525pt.
 
-<images/bdt_cats/sig_kinematics_dimu_abs_dPhi_c14.png, id=1518, 598.235pt x 574
+<images/bdt_cats/sig_kinematics_dimu_abs_dPhi_c14.png, id=1524, 598.235pt x 574
 .145pt>
 File: images/bdt_cats/sig_kinematics_dimu_abs_dPhi_c14.png Graphic file (type p
 ng)
  <use images/bdt_cats/sig_kinematics_dimu_abs_dPhi_c14.png>
 Package pdftex.def Info: images/bdt_cats/sig_kinematics_dimu_abs_dPhi_c14.png u
-sed on input line 518.
+sed on input line 520.
 (pdftex.def)             Requested size: 150.08344pt x 144.03525pt.
 
-<images/bdt_cats/sig_kinematics_dimu_abs_dEta_c14.png, id=1519, 598.235pt x 574
+<images/bdt_cats/sig_kinematics_dimu_abs_dEta_c14.png, id=1525, 598.235pt x 574
 .145pt>
 File: images/bdt_cats/sig_kinematics_dimu_abs_dEta_c14.png Graphic file (type p
 ng)
  <use images/bdt_cats/sig_kinematics_dimu_abs_dEta_c14.png>
 Package pdftex.def Info: images/bdt_cats/sig_kinematics_dimu_abs_dEta_c14.png u
-sed on input line 519.
+sed on input line 521.
 (pdftex.def)             Requested size: 150.08344pt x 144.03525pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-<images/bdt_cats/sig_kinematics_dimu_mass_KaMu_c14.png, id=1520, 598.235pt x 57
+<images/bdt_cats/sig_kinematics_dimu_mass_KaMu_c14.png, id=1526, 598.235pt x 57
 4.145pt>
 File: images/bdt_cats/sig_kinematics_dimu_mass_KaMu_c14.png Graphic file (type 
 png)
  <use images/bdt_cats/sig_kinematics_dimu_mass_KaMu_c14.png>
 Package pdftex.def Info: images/bdt_cats/sig_kinematics_dimu_mass_KaMu_c14.png 
-used on input line 526.
+used on input line 528.
 (pdftex.def)             Requested size: 150.08344pt x 144.03525pt.
 
-<images/bdt_cats/sig_kinematics_dijet1_mass_c14.png, id=1521, 598.235pt x 574.1
+<images/bdt_cats/sig_kinematics_dijet1_mass_c14.png, id=1527, 598.235pt x 574.1
 45pt>
 File: images/bdt_cats/sig_kinematics_dijet1_mass_c14.png Graphic file (type png
 )
  <use images/bdt_cats/sig_kinematics_dijet1_mass_c14.png>
 Package pdftex.def Info: images/bdt_cats/sig_kinematics_dijet1_mass_c14.png use
-d on input line 527.
+d on input line 529.
 (pdftex.def)             Requested size: 150.08344pt x 144.03525pt.
 
-<images/bdt_cats/sig_kinematics_dijet1_abs_dEta_c14.png, id=1522, 598.235pt x 5
+<images/bdt_cats/sig_kinematics_dijet1_abs_dEta_c14.png, id=1528, 598.235pt x 5
 74.145pt>
 File: images/bdt_cats/sig_kinematics_dijet1_abs_dEta_c14.png Graphic file (type
  png)
  <use images/bdt_cats/sig_kinematics_dijet1_abs_dEta_c14.png>
 Package pdftex.def Info: images/bdt_cats/sig_kinematics_dijet1_abs_dEta_c14.png
- used on input line 528.
+ used on input line 530.
 (pdftex.def)             Requested size: 150.08344pt x 144.03525pt.
 
-<images/bdt_cats/sig_kinematics_dijet2_mass_c14.png, id=1523, 598.235pt x 574.1
+<images/bdt_cats/sig_kinematics_dijet2_mass_c14.png, id=1529, 598.235pt x 574.1
 45pt>
 File: images/bdt_cats/sig_kinematics_dijet2_mass_c14.png Graphic file (type png
 )
  <use images/bdt_cats/sig_kinematics_dijet2_mass_c14.png>
 Package pdftex.def Info: images/bdt_cats/sig_kinematics_dijet2_mass_c14.png use
-d on input line 529.
+d on input line 531.
 (pdftex.def)             Requested size: 150.08344pt x 144.03525pt.
 
-<images/bdt_cats/sig_kinematics_dijet2_abs_dEta_c14.png, id=1524, 598.235pt x 5
+<images/bdt_cats/sig_kinematics_dijet2_abs_dEta_c14.png, id=1530, 598.235pt x 5
 74.145pt>
 File: images/bdt_cats/sig_kinematics_dijet2_abs_dEta_c14.png Graphic file (type
  png)
  <use images/bdt_cats/sig_kinematics_dijet2_abs_dEta_c14.png>
 Package pdftex.def Info: images/bdt_cats/sig_kinematics_dijet2_abs_dEta_c14.png
- used on input line 530.
+ used on input line 532.
 (pdftex.def)             Requested size: 150.08344pt x 144.03525pt.
 
-<images/bdt_cats/sig_kinematics_jet1_pt_c14.png, id=1525, 598.235pt x 574.145pt
+<images/bdt_cats/sig_kinematics_jet1_pt_c14.png, id=1531, 598.235pt x 574.145pt
 >
 File: images/bdt_cats/sig_kinematics_jet1_pt_c14.png Graphic file (type png)
  <use images/bdt_cats/sig_kinematics_jet1_pt_c14.png>
 Package pdftex.def Info: images/bdt_cats/sig_kinematics_jet1_pt_c14.png used on
- input line 531.
+ input line 533.
 (pdftex.def)             Requested size: 150.08344pt x 144.03525pt.
 
-<images/bdt_cats/sig_kinematics_jet2_pt_c14.png, id=1526, 598.235pt x 574.145pt
+<images/bdt_cats/sig_kinematics_jet2_pt_c14.png, id=1532, 598.235pt x 574.145pt
 >
 File: images/bdt_cats/sig_kinematics_jet2_pt_c14.png Graphic file (type png)
  <use images/bdt_cats/sig_kinematics_jet2_pt_c14.png>
 Package pdftex.def Info: images/bdt_cats/sig_kinematics_jet2_pt_c14.png used on
- input line 532.
+ input line 534.
 (pdftex.def)             Requested size: 150.08344pt x 144.03525pt.
 
-<images/bdt_cats/sig_kinematics_jet1_eta_c14.png, id=1527, 598.235pt x 574.145p
+<images/bdt_cats/sig_kinematics_jet1_eta_c14.png, id=1533, 598.235pt x 574.145p
 t>
 File: images/bdt_cats/sig_kinematics_jet1_eta_c14.png Graphic file (type png)
  <use images/bdt_cats/sig_kinematics_jet1_eta_c14.png>
 Package pdftex.def Info: images/bdt_cats/sig_kinematics_jet1_eta_c14.png used o
-n input line 533.
+n input line 535.
 (pdftex.def)             Requested size: 150.08344pt x 144.03525pt.
 
-<images/bdt_cats/sig_kinematics_jet2_eta_c14.png, id=1528, 598.235pt x 574.145p
+<images/bdt_cats/sig_kinematics_jet2_eta_c14.png, id=1534, 598.235pt x 574.145p
 t>
 File: images/bdt_cats/sig_kinematics_jet2_eta_c14.png Graphic file (type png)
  <use images/bdt_cats/sig_kinematics_jet2_eta_c14.png>
 Package pdftex.def Info: images/bdt_cats/sig_kinematics_jet2_eta_c14.png used o
-n input line 534.
+n input line 536.
 (pdftex.def)             Requested size: 150.08344pt x 144.03525pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 526--537
+Underfull \hbox (badness 10000) in paragraph at lines 528--539
 [][] [] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 526--537
+Underfull \hbox (badness 10000) in paragraph at lines 528--539
 [] [] []
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/bdt_cats/sig_kinematics_MET_c14.png, id=1529, 598.235pt x 574.145pt>
+<images/bdt_cats/sig_kinematics_MET_c14.png, id=1535, 598.235pt x 574.145pt>
 File: images/bdt_cats/sig_kinematics_MET_c14.png Graphic file (type png)
 
 <use images/bdt_cats/sig_kinematics_MET_c14.png>
 Package pdftex.def Info: images/bdt_cats/sig_kinematics_MET_c14.png used on inp
-ut line 541.
+ut line 543.
 (pdftex.def)             Requested size: 150.08344pt x 144.03525pt.
 
-<images/bdt_cats/sig_kinematics_nJets_c14.png, id=1530, 598.235pt x 574.145pt>
+<images/bdt_cats/sig_kinematics_nJets_c14.png, id=1536, 598.235pt x 574.145pt>
 File: images/bdt_cats/sig_kinematics_nJets_c14.png Graphic file (type png)
 
 <use images/bdt_cats/sig_kinematics_nJets_c14.png>
 Package pdftex.def Info: images/bdt_cats/sig_kinematics_nJets_c14.png used on i
-nput line 542.
+nput line 544.
 (pdftex.def)             Requested size: 150.08344pt x 144.03525pt.
 
-<images/bdt_cats/sig_kinematics_nJetsCent_c14.png, id=1531, 598.235pt x 574.145
+<images/bdt_cats/sig_kinematics_nJetsCent_c14.png, id=1537, 598.235pt x 574.145
 pt>
 File: images/bdt_cats/sig_kinematics_nJetsCent_c14.png Graphic file (type png)
  <use images/bdt_cats/sig_kinematics_nJetsCent_c14.png>
 Package pdftex.def Info: images/bdt_cats/sig_kinematics_nJetsCent_c14.png used 
-on input line 543.
+on input line 545.
 (pdftex.def)             Requested size: 150.08344pt x 144.03525pt.
 
-<images/bdt_cats/sig_kinematics_nJetsFwd_c14.png, id=1532, 598.235pt x 574.145p
+<images/bdt_cats/sig_kinematics_nJetsFwd_c14.png, id=1538, 598.235pt x 574.145p
 t>
 File: images/bdt_cats/sig_kinematics_nJetsFwd_c14.png Graphic file (type png)
  <use images/bdt_cats/sig_kinematics_nJetsFwd_c14.png>
 Package pdftex.def Info: images/bdt_cats/sig_kinematics_nJetsFwd_c14.png used o
-n input line 544.
+n input line 546.
 (pdftex.def)             Requested size: 150.08344pt x 144.03525pt.
 
-<images/bdt_cats/sig_kinematics_nBMed_c14.png, id=1533, 598.235pt x 574.145pt>
+<images/bdt_cats/sig_kinematics_nBMed_c14.png, id=1539, 598.235pt x 574.145pt>
 File: images/bdt_cats/sig_kinematics_nBMed_c14.png Graphic file (type png)
 
 <use images/bdt_cats/sig_kinematics_nBMed_c14.png>
 Package pdftex.def Info: images/bdt_cats/sig_kinematics_nBMed_c14.png used on i
-nput line 545.
+nput line 547.
 (pdftex.def)             Requested size: 150.08344pt x 144.03525pt.
 
-<images/bdt_cats/sig_kinematics_nExtraMu_c14.png, id=1534, 598.235pt x 574.145p
+<images/bdt_cats/sig_kinematics_nExtraMu_c14.png, id=1540, 598.235pt x 574.145p
 t>
 File: images/bdt_cats/sig_kinematics_nExtraMu_c14.png Graphic file (type png)
  <use images/bdt_cats/sig_kinematics_nExtraMu_c14.png>
 Package pdftex.def Info: images/bdt_cats/sig_kinematics_nExtraMu_c14.png used o
-n input line 546.
+n input line 548.
 (pdftex.def)             Requested size: 150.08344pt x 144.03525pt.
 
-<images/bdt_cats/sig_kinematics_nEle_c14.png, id=1535, 598.235pt x 574.145pt>
+<images/bdt_cats/sig_kinematics_nEle_c14.png, id=1541, 598.235pt x 574.145pt>
 File: images/bdt_cats/sig_kinematics_nEle_c14.png Graphic file (type png)
 
 <use images/bdt_cats/sig_kinematics_nEle_c14.png>
 Package pdftex.def Info: images/bdt_cats/sig_kinematics_nEle_c14.png used on in
-put line 547.
+put line 549.
 (pdftex.def)             Requested size: 150.08344pt x 144.03525pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 541--549
+Underfull \hbox (badness 10000) in paragraph at lines 543--551
 [][] [] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 541--549
+Underfull \hbox (badness 10000) in paragraph at lines 543--551
 [] [] []
  []
 
@@ -2655,116 +2683,116 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [102
 
-] <images/bdt_cats/bkg_shapes_stack_c0.png, id=1542, 803.0pt x 803.0pt>
+] <images/bdt_cats/bkg_shapes_stack_c0.png, id=1548, 803.0pt x 803.0pt>
 File: images/bdt_cats/bkg_shapes_stack_c0.png Graphic file (type png)
 
 <use images/bdt_cats/bkg_shapes_stack_c0.png>
 Package pdftex.def Info: images/bdt_cats/bkg_shapes_stack_c0.png used on input 
-line 562.
+line 564.
 (pdftex.def)             Requested size: 117.25pt x 117.24683pt.
 
-<images/bdt_cats/bkg_shapes_stack_c1.png, id=1543, 803.0pt x 803.0pt>
+<images/bdt_cats/bkg_shapes_stack_c1.png, id=1549, 803.0pt x 803.0pt>
 File: images/bdt_cats/bkg_shapes_stack_c1.png Graphic file (type png)
 
 <use images/bdt_cats/bkg_shapes_stack_c1.png>
 Package pdftex.def Info: images/bdt_cats/bkg_shapes_stack_c1.png used on input 
-line 563.
+line 565.
 (pdftex.def)             Requested size: 117.25pt x 117.24683pt.
 
-<images/bdt_cats/bkg_shapes_stack_c2.png, id=1544, 803.0pt x 803.0pt>
+<images/bdt_cats/bkg_shapes_stack_c2.png, id=1550, 803.0pt x 803.0pt>
 File: images/bdt_cats/bkg_shapes_stack_c2.png Graphic file (type png)
 
 <use images/bdt_cats/bkg_shapes_stack_c2.png>
 Package pdftex.def Info: images/bdt_cats/bkg_shapes_stack_c2.png used on input 
-line 564.
+line 566.
 (pdftex.def)             Requested size: 117.25pt x 117.24683pt.
 
-<images/bdt_cats/bkg_shapes_stack_c3.png, id=1545, 803.0pt x 803.0pt>
+<images/bdt_cats/bkg_shapes_stack_c3.png, id=1551, 803.0pt x 803.0pt>
 File: images/bdt_cats/bkg_shapes_stack_c3.png Graphic file (type png)
 
 <use images/bdt_cats/bkg_shapes_stack_c3.png>
 Package pdftex.def Info: images/bdt_cats/bkg_shapes_stack_c3.png used on input 
-line 565.
+line 567.
 (pdftex.def)             Requested size: 117.25pt x 117.24683pt.
 
-<images/bdt_cats/bkg_shapes_stack_c4.png, id=1546, 803.0pt x 803.0pt>
+<images/bdt_cats/bkg_shapes_stack_c4.png, id=1552, 803.0pt x 803.0pt>
 File: images/bdt_cats/bkg_shapes_stack_c4.png Graphic file (type png)
 
 <use images/bdt_cats/bkg_shapes_stack_c4.png>
 Package pdftex.def Info: images/bdt_cats/bkg_shapes_stack_c4.png used on input 
-line 566.
+line 568.
 (pdftex.def)             Requested size: 117.25pt x 117.24683pt.
 
-<images/bdt_cats/bkg_shapes_stack_c5.png, id=1547, 803.0pt x 803.0pt>
+<images/bdt_cats/bkg_shapes_stack_c5.png, id=1553, 803.0pt x 803.0pt>
 File: images/bdt_cats/bkg_shapes_stack_c5.png Graphic file (type png)
 
 <use images/bdt_cats/bkg_shapes_stack_c5.png>
 Package pdftex.def Info: images/bdt_cats/bkg_shapes_stack_c5.png used on input 
-line 567.
+line 569.
 (pdftex.def)             Requested size: 117.25pt x 117.24683pt.
 
-<images/bdt_cats/bkg_shapes_stack_c6.png, id=1548, 803.0pt x 803.0pt>
+<images/bdt_cats/bkg_shapes_stack_c6.png, id=1554, 803.0pt x 803.0pt>
 File: images/bdt_cats/bkg_shapes_stack_c6.png Graphic file (type png)
 
 <use images/bdt_cats/bkg_shapes_stack_c6.png>
 Package pdftex.def Info: images/bdt_cats/bkg_shapes_stack_c6.png used on input 
-line 568.
+line 570.
 (pdftex.def)             Requested size: 117.25pt x 117.24683pt.
 
-<images/bdt_cats/bkg_shapes_stack_c7.png, id=1549, 803.0pt x 803.0pt>
+<images/bdt_cats/bkg_shapes_stack_c7.png, id=1555, 803.0pt x 803.0pt>
 File: images/bdt_cats/bkg_shapes_stack_c7.png Graphic file (type png)
 
 <use images/bdt_cats/bkg_shapes_stack_c7.png>
 Package pdftex.def Info: images/bdt_cats/bkg_shapes_stack_c7.png used on input 
-line 569.
+line 571.
 (pdftex.def)             Requested size: 117.25pt x 117.24683pt.
 
-<images/bdt_cats/bkg_shapes_stack_c8.png, id=1550, 803.0pt x 803.0pt>
+<images/bdt_cats/bkg_shapes_stack_c8.png, id=1556, 803.0pt x 803.0pt>
 File: images/bdt_cats/bkg_shapes_stack_c8.png Graphic file (type png)
 
 <use images/bdt_cats/bkg_shapes_stack_c8.png>
 Package pdftex.def Info: images/bdt_cats/bkg_shapes_stack_c8.png used on input 
-line 570.
+line 572.
 (pdftex.def)             Requested size: 117.25pt x 117.24683pt.
 
-<images/bdt_cats/bkg_shapes_stack_c9.png, id=1551, 803.0pt x 803.0pt>
+<images/bdt_cats/bkg_shapes_stack_c9.png, id=1557, 803.0pt x 803.0pt>
 File: images/bdt_cats/bkg_shapes_stack_c9.png Graphic file (type png)
 
 <use images/bdt_cats/bkg_shapes_stack_c9.png>
 Package pdftex.def Info: images/bdt_cats/bkg_shapes_stack_c9.png used on input 
-line 571.
+line 573.
 (pdftex.def)             Requested size: 117.25pt x 117.24683pt.
 
-<images/bdt_cats/bkg_shapes_stack_c10.png, id=1552, 803.0pt x 803.0pt>
+<images/bdt_cats/bkg_shapes_stack_c10.png, id=1558, 803.0pt x 803.0pt>
 File: images/bdt_cats/bkg_shapes_stack_c10.png Graphic file (type png)
 
 <use images/bdt_cats/bkg_shapes_stack_c10.png>
 Package pdftex.def Info: images/bdt_cats/bkg_shapes_stack_c10.png used on input
- line 572.
+ line 574.
 (pdftex.def)             Requested size: 117.25pt x 117.24683pt.
 
-<images/bdt_cats/bkg_shapes_stack_c11.png, id=1553, 803.0pt x 803.0pt>
+<images/bdt_cats/bkg_shapes_stack_c11.png, id=1559, 803.0pt x 803.0pt>
 File: images/bdt_cats/bkg_shapes_stack_c11.png Graphic file (type png)
 
 <use images/bdt_cats/bkg_shapes_stack_c11.png>
 Package pdftex.def Info: images/bdt_cats/bkg_shapes_stack_c11.png used on input
- line 573.
+ line 575.
 (pdftex.def)             Requested size: 117.25pt x 117.24683pt.
 
-<images/bdt_cats/bkg_shapes_stack_c13.png, id=1554, 803.0pt x 803.0pt>
+<images/bdt_cats/bkg_shapes_stack_c13.png, id=1560, 803.0pt x 803.0pt>
 File: images/bdt_cats/bkg_shapes_stack_c13.png Graphic file (type png)
 
 <use images/bdt_cats/bkg_shapes_stack_c13.png>
 Package pdftex.def Info: images/bdt_cats/bkg_shapes_stack_c13.png used on input
- line 574.
+ line 576.
 (pdftex.def)             Requested size: 117.25pt x 117.24683pt.
 
-<images/bdt_cats/bkg_shapes_stack_c14.png, id=1555, 803.0pt x 803.0pt>
+<images/bdt_cats/bkg_shapes_stack_c14.png, id=1561, 803.0pt x 803.0pt>
 File: images/bdt_cats/bkg_shapes_stack_c14.png Graphic file (type png)
 
 <use images/bdt_cats/bkg_shapes_stack_c14.png>
 Package pdftex.def Info: images/bdt_cats/bkg_shapes_stack_c14.png used on input
- line 575.
+ line 577.
 (pdftex.def)             Requested size: 117.25pt x 117.24683pt.
  [103 <./images/bdt_cats/sig_kinematics_bdt_score_cAll.png> <./images/bdt_cats/
 sig_kinematics_mu1_pt_cAll.png> <./images/bdt_cats/sig_kinematics_mu2_pt_cAll.p
@@ -2823,35 +2851,63 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\uppercase' on input line 1.
 
 
-<images/signal_model_updated/ggf/fit_mh_125_GluGlu_cat3_NEW.png, id=1588, 698.6
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\rightarrow' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mu' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mu' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1.
+
+
+<images/signal_model_updated/ggf/fit_mh_125_GluGlu_cat3_NEW.png, id=1595, 698.6
 1pt x 473.77pt>
 File: images/signal_model_updated/ggf/fit_mh_125_GluGlu_cat3_NEW.png Graphic fi
 le (type png)
 
 <use images/signal_model_updated/ggf/fit_mh_125_GluGlu_cat3_NEW.png>
 Package pdftex.def Info: images/signal_model_updated/ggf/fit_mh_125_GluGlu_cat3
-_NEW.png used on input line 16.
+_NEW.png used on input line 18.
 (pdftex.def)             Requested size: 140.70143pt x 95.41739pt.
 
 <images/signal_model_updated/interp_and_norm/interpolation_GluGlu_cat3_NEW.png,
- id=1589, 698.61pt x 473.77pt>
+ id=1596, 698.61pt x 473.77pt>
 File: images/signal_model_updated/interp_and_norm/interpolation_GluGlu_cat3_NEW
 .png Graphic file (type png)
 
 <use images/signal_model_updated/interp_and_norm/interpolation_GluGlu_cat3_NEW.
 png>
 Package pdftex.def Info: images/signal_model_updated/interp_and_norm/interpolat
-ion_GluGlu_cat3_NEW.png used on input line 17.
+ion_GluGlu_cat3_NEW.png used on input line 19.
 (pdftex.def)             Requested size: 140.70143pt x 95.41739pt.
 
-<images/signal_model_updated/interp_and_norm/norm_GluGlu_cat3_NEW.png, id=1590,
+<images/signal_model_updated/interp_and_norm/norm_GluGlu_cat3_NEW.png, id=1597,
  698.61pt x 473.77pt>
 File: images/signal_model_updated/interp_and_norm/norm_GluGlu_cat3_NEW.png Grap
 hic file (type png)
 
 <use images/signal_model_updated/interp_and_norm/norm_GluGlu_cat3_NEW.png>
 Package pdftex.def Info: images/signal_model_updated/interp_and_norm/norm_GluGl
-u_cat3_NEW.png used on input line 18.
+u_cat3_NEW.png used on input line 20.
 (pdftex.def)             Requested size: 140.70143pt x 95.41739pt.
 
 
@@ -2864,292 +2920,288 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 ]
 
 LaTeX Font Warning: Font shape `OT1/cmbr/bx/n' undefined
-(Font)              using `OT1/cmbr/m/n' instead on input line 38.
+(Font)              using `OT1/cmbr/m/n' instead on input line 40.
 
 
-<images/signal_model_updated/net/signal_model_all.png, id=1597, 798.985pt x 774
+<images/signal_model_updated/net/signal_model_all.png, id=1604, 798.985pt x 774
 .895pt>
 File: images/signal_model_updated/net/signal_model_all.png Graphic file (type p
 ng)
  <use images/signal_model_updated/net/signal_model_all.png>
 Package pdftex.def Info: images/signal_model_updated/net/signal_model_all.png u
-sed on input line 44.
+sed on input line 46.
 (pdftex.def)             Requested size: 229.81258pt x 222.88109pt.
 
-<images/signal_model_updated/net/signal_model_cat3_NEW.png, id=1598, 798.985pt 
+<images/signal_model_updated/net/signal_model_cat3_NEW.png, id=1605, 798.985pt 
 x 774.895pt>
 File: images/signal_model_updated/net/signal_model_cat3_NEW.png Graphic file (t
 ype png)
  <use images/signal_model_updated/net/signal_model_cat3_NEW.png>
 Package pdftex.def Info: images/signal_model_updated/net/signal_model_cat3_NEW.
-png used on input line 45.
+png used on input line 47.
 (pdftex.def)             Requested size: 229.81258pt x 222.88109pt.
 
-<images/signal_model_updated/signal_composition_small.png, id=1600, 245.04349pt
+<images/signal_model_updated/signal_composition_small.png, id=1607, 245.04349pt
  x 133.12134pt>
 File: images/signal_model_updated/signal_composition_small.png Graphic file (ty
 pe png)
  <use images/signal_model_updated/signal_composition_small.png>
 Package pdftex.def Info: images/signal_model_updated/signal_composition_small.p
-ng used on input line 53.
+ng used on input line 55.
 (pdftex.def)             Requested size: 464.31258pt x 252.25064pt.
 
-<images/signal_model_updated/effAcc.png, id=1602, 798.985pt x 774.895pt>
+<images/signal_model_updated/effAcc.png, id=1609, 798.985pt x 774.895pt>
 File: images/signal_model_updated/effAcc.png Graphic file (type png)
 
 <use images/signal_model_updated/effAcc.png>
 Package pdftex.def Info: images/signal_model_updated/effAcc.png used on input l
-ine 60.
+ine 62.
 (pdftex.def)             Requested size: 370.50685pt x 359.34106pt.
-
+ [111 <./images/signal_model_updated/ggf/fit_mh_125_GluGlu_cat3_NEW.png> <./ima
+ges/signal_model_updated/interp_and_norm/interpolation_GluGlu_cat3_NEW.png> <./
+images/signal_model_updated/interp_and_norm/norm_GluGlu_cat3_NEW.png>]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[111 <./images/signal_model_updated/ggf/fit_mh_125_GluGlu_cat3_NEW.png> <./imag
-es/signal_model_updated/interp_and_norm/interpolation_GluGlu_cat3_NEW.png> <./i
-mages/signal_model_updated/interp_and_norm/norm_GluGlu_cat3_NEW.png>]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [112 <./images/signal_model_updated/net/signal_model_all.png> <./images/signal_
-model_updated/net/signal_model_cat3_NEW.png> <./images/signal_model_updated/sig
-nal_composition_small.png>] [113 <./images/signal_model_updated/effAcc.png>]
+model_updated/net/signal_model_cat3_NEW.png>] [113 <./images/signal_model_updat
+ed/signal_composition_small.png>] [114 <./images/signal_model_updated/effAcc.pn
+g>] [115
+
+]
 <images/background_model/baseline_p25GeV_110to160/backgroundFits__01JetsTightBB
-__bkgModels.png, id=1621, 798.985pt x 574.145pt>
+__bkgModels.png, id=1642, 798.985pt x 574.145pt>
 File: images/background_model/baseline_p25GeV_110to160/backgroundFits__01JetsTi
 ghtBB__bkgModels.png Graphic file (type png)
 
 <use images/background_model/baseline_p25GeV_110to160/backgroundFits__01JetsTig
 htBB__bkgModels.png>
 Package pdftex.def Info: images/background_model/baseline_p25GeV_110to160/backg
-roundFits__01JetsTightBB__bkgModels.png used on input line 100.
+roundFits__01JetsTightBB__bkgModels.png used on input line 102.
 (pdftex.def)             Requested size: 140.70143pt x 101.10765pt.
 
 <images/background_model/baseline_p25GeV_110to200/backgroundFits__01JetsTightBB
-__bkgModels.png, id=1622, 798.985pt x 574.145pt>
+__bkgModels.png, id=1643, 798.985pt x 574.145pt>
 File: images/background_model/baseline_p25GeV_110to200/backgroundFits__01JetsTi
 ghtBB__bkgModels.png Graphic file (type png)
 
 <use images/background_model/baseline_p25GeV_110to200/backgroundFits__01JetsTig
 htBB__bkgModels.png>
 Package pdftex.def Info: images/background_model/baseline_p25GeV_110to200/backg
-roundFits__01JetsTightBB__bkgModels.png used on input line 101.
+roundFits__01JetsTightBB__bkgModels.png used on input line 103.
 (pdftex.def)             Requested size: 140.70143pt x 101.10765pt.
 
 <images/background_model/baseline_p25GeV_110to250/backgroundFits__01JetsTightBB
-__bkgModels.png, id=1623, 798.985pt x 574.145pt>
+__bkgModels.png, id=1644, 798.985pt x 574.145pt>
 File: images/background_model/baseline_p25GeV_110to250/backgroundFits__01JetsTi
 ghtBB__bkgModels.png Graphic file (type png)
 
 <use images/background_model/baseline_p25GeV_110to250/backgroundFits__01JetsTig
 htBB__bkgModels.png>
 Package pdftex.def Info: images/background_model/baseline_p25GeV_110to250/backg
-roundFits__01JetsTightBB__bkgModels.png used on input line 102.
+roundFits__01JetsTightBB__bkgModels.png used on input line 104.
 (pdftex.def)             Requested size: 140.70143pt x 101.10765pt.
- [114]
+ [116 <./images/background_model/baseline_p25GeV_110to160/backgroundFits__01Jet
+sTightBB__bkgModels.png> <./images/background_model/baseline_p25GeV_110to200/ba
+ckgroundFits__01JetsTightBB__bkgModels.png> <./images/background_model/baseline
+_p25GeV_110to250/backgroundFits__01JetsTightBB__bkgModels.png>]
 <images/background_model/baseline_ftest_p25GeV_110to160/ftest__01JetsTightBB__b
-ernsteinFastModels.png, id=1637, 999.735pt x 774.895pt>
+ernsteinFastModels.png, id=1653, 999.735pt x 774.895pt>
 File: images/background_model/baseline_ftest_p25GeV_110to160/ftest__01JetsTight
 BB__bernsteinFastModels.png Graphic file (type png)
 
 <use images/background_model/baseline_ftest_p25GeV_110to160/ftest__01JetsTightB
 B__bernsteinFastModels.png>
 Package pdftex.def Info: images/background_model/baseline_ftest_p25GeV_110to160
-/ftest__01JetsTightBB__bernsteinFastModels.png used on input line 125.
+/ftest__01JetsTightBB__bernsteinFastModels.png used on input line 127.
 (pdftex.def)             Requested size: 211.04857pt x 163.58408pt.
 
 <images/background_model/baseline_ftest_p25GeV_110to160/ftest__01JetsTightBB__s
-umExpModels.png, id=1638, 999.735pt x 774.895pt>
+umExpModels.png, id=1654, 999.735pt x 774.895pt>
 File: images/background_model/baseline_ftest_p25GeV_110to160/ftest__01JetsTight
 BB__sumExpModels.png Graphic file (type png)
 
 <use images/background_model/baseline_ftest_p25GeV_110to160/ftest__01JetsTightB
 B__sumExpModels.png>
 Package pdftex.def Info: images/background_model/baseline_ftest_p25GeV_110to160
-/ftest__01JetsTightBB__sumExpModels.png used on input line 126.
+/ftest__01JetsTightBB__sumExpModels.png used on input line 128.
 (pdftex.def)             Requested size: 211.04857pt x 163.58408pt.
- [115 <./images/background_model/baseline_p25GeV_110to160/backgroundFits__01Jet
-sTightBB__bkgModels.png> <./images/background_model/baseline_p25GeV_110to200/ba
-ckgroundFits__01JetsTightBB__bkgModels.png> <./images/background_model/baseline
-_p25GeV_110to250/backgroundFits__01JetsTightBB__bkgModels.png>] [116 <./images/
-background_model/baseline_ftest_p25GeV_110to160/ftest__01JetsTightBB__bernstein
-FastModels.png> <./images/background_model/baseline_ftest_p25GeV_110to160/ftest
-__01JetsTightBB__sumExpModels.png>] [117
-
-] [118]
-<images/sig_syst/EtaJet1OnH_bkg.png, id=1658, 798.985pt x 975.645pt>
+ [117 <./images/background_model/baseline_ftest_p25GeV_110to160/ftest__01JetsTi
+ghtBB__bernsteinFastModels.png> <./images/background_model/baseline_ftest_p25Ge
+V_110to160/ftest__01JetsTightBB__sumExpModels.png>]
+[118] <images/sig_syst/EtaJet1OnH_bkg.png, id=1665, 798.985pt x 975.645pt>
 File: images/sig_syst/EtaJet1OnH_bkg.png Graphic file (type png)
 
 <use images/sig_syst/EtaJet1OnH_bkg.png>
 Package pdftex.def Info: images/sig_syst/EtaJet1OnH_bkg.png used on input line 
-179.
+181.
 (pdftex.def)             Requested size: 229.81258pt x 280.6223pt.
 
-<images/sig_syst/NJetsOnH_bkg.png, id=1659, 798.985pt x 975.645pt>
+<images/sig_syst/NJetsOnH_bkg.png, id=1666, 798.985pt x 975.645pt>
 File: images/sig_syst/NJetsOnH_bkg.png Graphic file (type png)
 
 <use images/sig_syst/NJetsOnH_bkg.png>
 Package pdftex.def Info: images/sig_syst/NJetsOnH_bkg.png used on input line 18
-0.
+2.
 (pdftex.def)             Requested size: 229.81258pt x 280.6223pt.
- [119 <./images/sig_syst/EtaJet1OnH_bkg.png> <./images/sig_syst/NJetsOnH_bkg.pn
-g>]
-<images/sig_syst/impacts.pdf, id=1666, 569.12625pt x 467.7475pt>
-File: images/sig_syst/impacts.pdf Graphic file (type pdf)
-
-<use images/sig_syst/impacts.pdf>
-Package pdftex.def Info: images/sig_syst/impacts.pdf used on input line 211.
-(pdftex.def)             Requested size: 398.65286pt x 327.65652pt.
- [120 <./images/sig_syst/impacts.pdf, page is rotated 90 degrees>] [121]
-<images/bkg_systs/bias_cat0_NEW.pdf, id=1722, 539.76576pt x 466.76752pt>
-File: images/bkg_systs/bias_cat0_NEW.pdf Graphic file (type pdf)
-
-<use images/bkg_systs/bias_cat0_NEW.pdf>
-Package pdftex.def Info: images/bkg_systs/bias_cat0_NEW.pdf used on input line 
-235.
-(pdftex.def)             Requested size: 150.08344pt x 129.78947pt.
-
-<images/bkg_systs/bias_cat1_NEW.pdf, id=1723, 540.95pt x 467.0769pt>
-File: images/bkg_systs/bias_cat1_NEW.pdf Graphic file (type pdf)
-
-<use images/bkg_systs/bias_cat1_NEW.pdf>
-Package pdftex.def Info: images/bkg_systs/bias_cat1_NEW.pdf used on input line 
-236.
-(pdftex.def)             Requested size: 150.08344pt x 129.59042pt.
-
-<images/bkg_systs/bias_cat2_NEW.pdf, id=1724, 541.15254pt x 467.76884pt>
-File: images/bkg_systs/bias_cat2_NEW.pdf Graphic file (type pdf)
-
-<use images/bkg_systs/bias_cat2_NEW.pdf>
-Package pdftex.def Info: images/bkg_systs/bias_cat2_NEW.pdf used on input line 
-237.
-(pdftex.def)             Requested size: 150.08344pt x 129.73244pt.
-
-<images/bkg_systs/bias_cat3_NEW.pdf, id=1725, 541.00055pt x 466.5397pt>
-File: images/bkg_systs/bias_cat3_NEW.pdf Graphic file (type pdf)
-
-<use images/bkg_systs/bias_cat3_NEW.pdf>
-Package pdftex.def Info: images/bkg_systs/bias_cat3_NEW.pdf used on input line 
-238.
-(pdftex.def)             Requested size: 150.08344pt x 129.42714pt.
-
-<images/bkg_systs/bias_cat4_NEW.pdf, id=1726, 545.18329pt x 465.2374pt>
-File: images/bkg_systs/bias_cat4_NEW.pdf Graphic file (type pdf)
-
-<use images/bkg_systs/bias_cat4_NEW.pdf>
-Package pdftex.def Info: images/bkg_systs/bias_cat4_NEW.pdf used on input line 
-239.
-(pdftex.def)             Requested size: 150.08344pt x 128.072pt.
-
-<images/bkg_systs/bias_cat5_NEW.pdf, id=1727, 540.24957pt x 465.81395pt>
-File: images/bkg_systs/bias_cat5_NEW.pdf Graphic file (type pdf)
-
-<use images/bkg_systs/bias_cat5_NEW.pdf>
-Package pdftex.def Info: images/bkg_systs/bias_cat5_NEW.pdf used on input line 
-240.
-(pdftex.def)             Requested size: 150.08344pt x 129.40349pt.
-
-<images/bkg_systs/bias_cat6_NEW.pdf, id=1728, 540.08084pt x 466.06154pt>
-File: images/bkg_systs/bias_cat6_NEW.pdf Graphic file (type pdf)
-
-<use images/bkg_systs/bias_cat6_NEW.pdf>
-Package pdftex.def Info: images/bkg_systs/bias_cat6_NEW.pdf used on input line 
-241.
-(pdftex.def)             Requested size: 150.08344pt x 129.50783pt.
-
-<images/bkg_systs/bias_cat7_NEW.pdf, id=1729, 539.77422pt x 465.70717pt>
-File: images/bkg_systs/bias_cat7_NEW.pdf Graphic file (type pdf)
-
-<use images/bkg_systs/bias_cat7_NEW.pdf>
-Package pdftex.def Info: images/bkg_systs/bias_cat7_NEW.pdf used on input line 
-242.
-(pdftex.def)             Requested size: 150.08344pt x 129.48753pt.
-
-<images/bkg_systs/bias_cat8_NEW.pdf, id=1730, 540.94154pt x 466.3569pt>
-File: images/bkg_systs/bias_cat8_NEW.pdf Graphic file (type pdf)
-
-<use images/bkg_systs/bias_cat8_NEW.pdf>
-Package pdftex.def Info: images/bkg_systs/bias_cat8_NEW.pdf used on input line 
-243.
-(pdftex.def)             Requested size: 150.08344pt x 129.39066pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/bkg_systs/bias_cat9_NEW.pdf, id=1731, 540.45775pt x 466.93628pt>
+[119] <images/sig_syst/impacts.pdf, id=1673, 569.12625pt x 467.7475pt>
+File: images/sig_syst/impacts.pdf Graphic file (type pdf)
+
+<use images/sig_syst/impacts.pdf>
+Package pdftex.def Info: images/sig_syst/impacts.pdf used on input line 213.
+(pdftex.def)             Requested size: 398.65286pt x 327.65652pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[120 <./images/sig_syst/EtaJet1OnH_bkg.png> <./images/sig_syst/NJetsOnH_bkg.png
+>] [121 <./images/sig_syst/impacts.pdf, page is rotated 90 degrees>]
+<images/bkg_systs/bias_cat0_NEW.pdf, id=1728, 539.76576pt x 466.76752pt>
+File: images/bkg_systs/bias_cat0_NEW.pdf Graphic file (type pdf)
+
+<use images/bkg_systs/bias_cat0_NEW.pdf>
+Package pdftex.def Info: images/bkg_systs/bias_cat0_NEW.pdf used on input line 
+237.
+(pdftex.def)             Requested size: 150.08344pt x 129.78947pt.
+
+<images/bkg_systs/bias_cat1_NEW.pdf, id=1729, 540.95pt x 467.0769pt>
+File: images/bkg_systs/bias_cat1_NEW.pdf Graphic file (type pdf)
+
+<use images/bkg_systs/bias_cat1_NEW.pdf>
+Package pdftex.def Info: images/bkg_systs/bias_cat1_NEW.pdf used on input line 
+238.
+(pdftex.def)             Requested size: 150.08344pt x 129.59042pt.
+
+<images/bkg_systs/bias_cat2_NEW.pdf, id=1730, 541.15254pt x 467.76884pt>
+File: images/bkg_systs/bias_cat2_NEW.pdf Graphic file (type pdf)
+
+<use images/bkg_systs/bias_cat2_NEW.pdf>
+Package pdftex.def Info: images/bkg_systs/bias_cat2_NEW.pdf used on input line 
+239.
+(pdftex.def)             Requested size: 150.08344pt x 129.73244pt.
+
+<images/bkg_systs/bias_cat3_NEW.pdf, id=1731, 541.00055pt x 466.5397pt>
+File: images/bkg_systs/bias_cat3_NEW.pdf Graphic file (type pdf)
+
+<use images/bkg_systs/bias_cat3_NEW.pdf>
+Package pdftex.def Info: images/bkg_systs/bias_cat3_NEW.pdf used on input line 
+240.
+(pdftex.def)             Requested size: 150.08344pt x 129.42714pt.
+
+<images/bkg_systs/bias_cat4_NEW.pdf, id=1732, 545.18329pt x 465.2374pt>
+File: images/bkg_systs/bias_cat4_NEW.pdf Graphic file (type pdf)
+
+<use images/bkg_systs/bias_cat4_NEW.pdf>
+Package pdftex.def Info: images/bkg_systs/bias_cat4_NEW.pdf used on input line 
+241.
+(pdftex.def)             Requested size: 150.08344pt x 128.072pt.
+
+<images/bkg_systs/bias_cat5_NEW.pdf, id=1733, 540.24957pt x 465.81395pt>
+File: images/bkg_systs/bias_cat5_NEW.pdf Graphic file (type pdf)
+
+<use images/bkg_systs/bias_cat5_NEW.pdf>
+Package pdftex.def Info: images/bkg_systs/bias_cat5_NEW.pdf used on input line 
+242.
+(pdftex.def)             Requested size: 150.08344pt x 129.40349pt.
+
+<images/bkg_systs/bias_cat6_NEW.pdf, id=1734, 540.08084pt x 466.06154pt>
+File: images/bkg_systs/bias_cat6_NEW.pdf Graphic file (type pdf)
+
+<use images/bkg_systs/bias_cat6_NEW.pdf>
+Package pdftex.def Info: images/bkg_systs/bias_cat6_NEW.pdf used on input line 
+243.
+(pdftex.def)             Requested size: 150.08344pt x 129.50783pt.
+
+<images/bkg_systs/bias_cat7_NEW.pdf, id=1735, 539.77422pt x 465.70717pt>
+File: images/bkg_systs/bias_cat7_NEW.pdf Graphic file (type pdf)
+
+<use images/bkg_systs/bias_cat7_NEW.pdf>
+Package pdftex.def Info: images/bkg_systs/bias_cat7_NEW.pdf used on input line 
+244.
+(pdftex.def)             Requested size: 150.08344pt x 129.48753pt.
+
+<images/bkg_systs/bias_cat8_NEW.pdf, id=1736, 540.94154pt x 466.3569pt>
+File: images/bkg_systs/bias_cat8_NEW.pdf Graphic file (type pdf)
+
+<use images/bkg_systs/bias_cat8_NEW.pdf>
+Package pdftex.def Info: images/bkg_systs/bias_cat8_NEW.pdf used on input line 
+245.
+(pdftex.def)             Requested size: 150.08344pt x 129.39066pt.
+ [122]
+<images/bkg_systs/bias_cat9_NEW.pdf, id=1742, 540.45775pt x 466.93628pt>
 File: images/bkg_systs/bias_cat9_NEW.pdf Graphic file (type pdf)
 
 <use images/bkg_systs/bias_cat9_NEW.pdf>
 Package pdftex.def Info: images/bkg_systs/bias_cat9_NEW.pdf used on input line 
-253.
+255.
 (pdftex.def)             Requested size: 150.08344pt x 129.6654pt.
 
-<images/bkg_systs/bias_cat10_NEW.pdf, id=1732, 541.9176pt x 465.79152pt>
+<images/bkg_systs/bias_cat10_NEW.pdf, id=1743, 541.9176pt x 465.79152pt>
 File: images/bkg_systs/bias_cat10_NEW.pdf Graphic file (type pdf)
 
 <use images/bkg_systs/bias_cat10_NEW.pdf>
 Package pdftex.def Info: images/bkg_systs/bias_cat10_NEW.pdf used on input line
- 254.
+ 256.
 (pdftex.def)             Requested size: 150.08344pt x 128.99925pt.
 
-<images/bkg_systs/bias_cat11_NEW.pdf, id=1733, 540.5337pt x 467.40047pt>
+<images/bkg_systs/bias_cat11_NEW.pdf, id=1744, 540.5337pt x 467.40047pt>
 File: images/bkg_systs/bias_cat11_NEW.pdf Graphic file (type pdf)
 
 <use images/bkg_systs/bias_cat11_NEW.pdf>
 Package pdftex.def Info: images/bkg_systs/bias_cat11_NEW.pdf used on input line
- 255.
+ 257.
 (pdftex.def)             Requested size: 150.08344pt x 129.7729pt.
 
-<images/bkg_systs/bias_cat12_NEW.pdf, id=1734, 542.542pt x 466.70007pt>
+<images/bkg_systs/bias_cat12_NEW.pdf, id=1745, 542.542pt x 466.70007pt>
 File: images/bkg_systs/bias_cat12_NEW.pdf Graphic file (type pdf)
 
 <use images/bkg_systs/bias_cat12_NEW.pdf>
 Package pdftex.def Info: images/bkg_systs/bias_cat12_NEW.pdf used on input line
- 256.
+ 258.
 (pdftex.def)             Requested size: 150.08344pt x 129.10132pt.
 
-<images/bkg_systs/bias_cat13_NEW.pdf, id=1735, 540.35083pt x 468.02205pt>
+<images/bkg_systs/bias_cat13_NEW.pdf, id=1746, 540.35083pt x 468.02205pt>
 File: images/bkg_systs/bias_cat13_NEW.pdf Graphic file (type pdf)
 
 <use images/bkg_systs/bias_cat13_NEW.pdf>
 Package pdftex.def Info: images/bkg_systs/bias_cat13_NEW.pdf used on input line
- 257.
+ 259.
 (pdftex.def)             Requested size: 150.08344pt x 129.98834pt.
 
-<images/bkg_systs/bias_cat14_NEW.pdf, id=1736, 540.28056pt x 465.0067pt>
+<images/bkg_systs/bias_cat14_NEW.pdf, id=1747, 540.28056pt x 465.0067pt>
 File: images/bkg_systs/bias_cat14_NEW.pdf Graphic file (type pdf)
 
 <use images/bkg_systs/bias_cat14_NEW.pdf>
 Package pdftex.def Info: images/bkg_systs/bias_cat14_NEW.pdf used on input line
- 258.
+ 260.
 (pdftex.def)             Requested size: 150.08344pt x 129.17215pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/bkg_systs/bias_catAll.pdf, id=1740, 569.12625pt x 546.04pt>
+<images/bkg_systs/bias_catAll.pdf, id=1751, 569.12625pt x 546.04pt>
 File: images/bkg_systs/bias_catAll.pdf Graphic file (type pdf)
 
 <use images/bkg_systs/bias_catAll.pdf>
 Package pdftex.def Info: images/bkg_systs/bias_catAll.pdf used on input line 29
-6.
+8.
 (pdftex.def)             Requested size: 300.15971pt x 287.99173pt.
-)
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[122] [123 <./images/bkg_systs/bias_cat0_NEW.pdf> <./images/bkg_systs/bias_cat1
-_NEW.pdf> <./images/bkg_systs/bias_cat2_NEW.pdf> <./images/bkg_systs/bias_cat3_
-NEW.pdf> <./images/bkg_systs/bias_cat4_NEW.pdf> <./images/bkg_systs/bias_cat5_N
-EW.pdf> <./images/bkg_systs/bias_cat6_NEW.pdf> <./images/bkg_systs/bias_cat7_NE
-W.pdf> <./images/bkg_systs/bias_cat8_NEW.pdf>] [124 <./images/bkg_systs/bias_ca
-t9_NEW.pdf> <./images/bkg_systs/bias_cat10_NEW.pdf> <./images/bkg_systs/bias_ca
-t11_NEW.pdf> <./images/bkg_systs/bias_cat12_NEW.pdf> <./images/bkg_systs/bias_c
-at13_NEW.pdf> <./images/bkg_systs/bias_cat14_NEW.pdf>] [125 <./images/bkg_systs
-/bias_catAll.pdf, page is rotated 90 degrees>]
+) [123 <./images/bkg_systs/bias_cat0_NEW.pdf> <./images/bkg_systs/bias_cat1_NEW
+.pdf> <./images/bkg_systs/bias_cat2_NEW.pdf> <./images/bkg_systs/bias_cat3_NEW.
+pdf> <./images/bkg_systs/bias_cat4_NEW.pdf> <./images/bkg_systs/bias_cat5_NEW.p
+df> <./images/bkg_systs/bias_cat6_NEW.pdf> <./images/bkg_systs/bias_cat7_NEW.pd
+f> <./images/bkg_systs/bias_cat8_NEW.pdf>] [124 <./images/bkg_systs/bias_cat9_N
+EW.pdf> <./images/bkg_systs/bias_cat10_NEW.pdf> <./images/bkg_systs/bias_cat11_
+NEW.pdf> <./images/bkg_systs/bias_cat12_NEW.pdf> <./images/bkg_systs/bias_cat13
+_NEW.pdf> <./images/bkg_systs/bias_cat14_NEW.pdf>] [125 <./images/bkg_systs/bia
+s_catAll.pdf, page is rotated 90 degrees>]
 \openout2 = `tex/results.aux'.
 
  (./tex/results.tex
@@ -3160,158 +3212,186 @@ CHAPTER 9.
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\uppercase' on input line 1.
 
-<images/pas/limitPerCat.png, id=2178, 188.19109pt x 183.22855pt>
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\rightarrow' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mu' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mu' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1.
+
+<images/pas/limitPerCat.png, id=2185, 188.19109pt x 183.22855pt>
 File: images/pas/limitPerCat.png Graphic file (type png)
 
 <use images/pas/limitPerCat.png>
-Package pdftex.def Info: images/pas/limitPerCat.png used on input line 9.
+Package pdftex.def Info: images/pas/limitPerCat.png used on input line 8.
 (pdftex.def)             Requested size: 300.15971pt x 292.24902pt.
 
-<images/pas/limit13TeV.png, id=2179, 1028.84375pt x 722.7pt>
+<images/pas/limit13TeV.png, id=2186, 1028.84375pt x 722.7pt>
 File: images/pas/limit13TeV.png Graphic file (type png)
 
 <use images/pas/limit13TeV.png>
-Package pdftex.def Info: images/pas/limit13TeV.png used on input line 16.
+Package pdftex.def Info: images/pas/limit13TeV.png used on input line 15.
 (pdftex.def)             Requested size: 300.15971pt x 210.8458pt.
 
-<images/pas/pval13TeV.png, id=2180, 1063.975pt x 724.7075pt>
+<images/pas/pval13TeV.png, id=2187, 1063.975pt x 724.7075pt>
 File: images/pas/pval13TeV.png Graphic file (type png)
 
 <use images/pas/pval13TeV.png>
-Package pdftex.def Info: images/pas/pval13TeV.png used on input line 23.
+Package pdftex.def Info: images/pas/pval13TeV.png used on input line 22.
 (pdftex.def)             Requested size: 300.15971pt x 204.44273pt.
 
-<images/pas/sigstrength13TeV.png, id=2181, 905.3825pt x 623.32875pt>
+<images/pas/sigstrength13TeV.png, id=2188, 905.3825pt x 623.32875pt>
 File: images/pas/sigstrength13TeV.png Graphic file (type png)
 
 <use images/pas/sigstrength13TeV.png>
-Package pdftex.def Info: images/pas/sigstrength13TeV.png used on input line 30.
+Package pdftex.def Info: images/pas/sigstrength13TeV.png used on input line 29.
 
 (pdftex.def)             Requested size: 300.15971pt x 206.65024pt.
 
-<images/pas/CMS-HMM_hmm_combcat_weighted.png, id=2182, 142.27554pt x 88.84392pt
+<images/pas/CMS-HMM_hmm_combcat_weighted.png, id=2189, 142.27554pt x 88.84392pt
 >
 File: images/pas/CMS-HMM_hmm_combcat_weighted.png Graphic file (type png)
  <use images/pas/CMS-HMM_hmm_combcat_weighted.png>
 Package pdftex.def Info: images/pas/CMS-HMM_hmm_combcat_weighted.png used on in
-put line 37.
+put line 36.
 (pdftex.def)             Requested size: 300.15971pt x 187.46701pt.
 
-<images/pas/CMS-HMM_hmm_hmm_13TeV_cat0.png, id=2183, 142.27554pt x 101.61162pt>
+<images/pas/CMS-HMM_hmm_hmm_13TeV_cat0.png, id=2190, 142.27554pt x 101.61162pt>
 File: images/pas/CMS-HMM_hmm_hmm_13TeV_cat0.png Graphic file (type png)
 <use images/pas/CMS-HMM_hmm_hmm_13TeV_cat0.png>
 Package pdftex.def Info: images/pas/CMS-HMM_hmm_hmm_13TeV_cat0.png used on inpu
-t line 44.
+t line 43.
 (pdftex.def)             Requested size: 225.118pt x 160.78645pt.
 
-<images/pas/CMS-HMM_hmm_hmm_13TeV_cat1.png, id=2184, 142.27554pt x 101.61162pt>
+<images/pas/CMS-HMM_hmm_hmm_13TeV_cat1.png, id=2191, 142.27554pt x 101.61162pt>
 File: images/pas/CMS-HMM_hmm_hmm_13TeV_cat1.png Graphic file (type png)
 <use images/pas/CMS-HMM_hmm_hmm_13TeV_cat1.png>
 Package pdftex.def Info: images/pas/CMS-HMM_hmm_hmm_13TeV_cat1.png used on inpu
-t line 45.
+t line 44.
 (pdftex.def)             Requested size: 225.118pt x 160.78645pt.
 
-<images/pas/CMS-HMM_hmm_hmm_13TeV_cat2.png, id=2185, 142.27554pt x 101.61162pt>
+<images/pas/CMS-HMM_hmm_hmm_13TeV_cat2.png, id=2192, 142.27554pt x 101.61162pt>
 File: images/pas/CMS-HMM_hmm_hmm_13TeV_cat2.png Graphic file (type png)
 <use images/pas/CMS-HMM_hmm_hmm_13TeV_cat2.png>
 Package pdftex.def Info: images/pas/CMS-HMM_hmm_hmm_13TeV_cat2.png used on inpu
-t line 46.
+t line 45.
 (pdftex.def)             Requested size: 225.118pt x 160.78645pt.
 
-<images/pas/CMS-HMM_hmm_hmm_13TeV_cat3.png, id=2186, 142.27554pt x 101.61162pt>
+<images/pas/CMS-HMM_hmm_hmm_13TeV_cat3.png, id=2193, 142.27554pt x 101.61162pt>
 File: images/pas/CMS-HMM_hmm_hmm_13TeV_cat3.png Graphic file (type png)
 <use images/pas/CMS-HMM_hmm_hmm_13TeV_cat3.png>
 Package pdftex.def Info: images/pas/CMS-HMM_hmm_hmm_13TeV_cat3.png used on inpu
-t line 47.
+t line 46.
 (pdftex.def)             Requested size: 225.118pt x 160.78645pt.
 
-<images/pas/CMS-HMM_hmm_hmm_13TeV_cat4.png, id=2187, 142.27554pt x 101.61162pt>
+<images/pas/CMS-HMM_hmm_hmm_13TeV_cat4.png, id=2194, 142.27554pt x 101.61162pt>
 File: images/pas/CMS-HMM_hmm_hmm_13TeV_cat4.png Graphic file (type png)
 <use images/pas/CMS-HMM_hmm_hmm_13TeV_cat4.png>
 Package pdftex.def Info: images/pas/CMS-HMM_hmm_hmm_13TeV_cat4.png used on inpu
-t line 48.
+t line 47.
 (pdftex.def)             Requested size: 225.118pt x 160.78645pt.
 
-<images/pas/CMS-HMM_hmm_hmm_13TeV_cat5.png, id=2188, 142.27554pt x 101.61162pt>
+<images/pas/CMS-HMM_hmm_hmm_13TeV_cat5.png, id=2195, 142.27554pt x 101.61162pt>
 File: images/pas/CMS-HMM_hmm_hmm_13TeV_cat5.png Graphic file (type png)
 <use images/pas/CMS-HMM_hmm_hmm_13TeV_cat5.png>
 Package pdftex.def Info: images/pas/CMS-HMM_hmm_hmm_13TeV_cat5.png used on inpu
-t line 49.
+t line 48.
 (pdftex.def)             Requested size: 225.118pt x 160.78645pt.
 
-<images/pas/CMS-HMM_hmm_hmm_13TeV_cat6.png, id=2189, 142.27554pt x 101.61162pt>
+<images/pas/CMS-HMM_hmm_hmm_13TeV_cat6.png, id=2196, 142.27554pt x 101.61162pt>
 File: images/pas/CMS-HMM_hmm_hmm_13TeV_cat6.png Graphic file (type png)
 <use images/pas/CMS-HMM_hmm_hmm_13TeV_cat6.png>
 Package pdftex.def Info: images/pas/CMS-HMM_hmm_hmm_13TeV_cat6.png used on inpu
-t line 50.
+t line 49.
 (pdftex.def)             Requested size: 225.118pt x 160.78645pt.
 
-<images/pas/CMS-HMM_hmm_hmm_13TeV_cat7.png, id=2190, 142.27554pt x 101.61162pt>
+<images/pas/CMS-HMM_hmm_hmm_13TeV_cat7.png, id=2197, 142.27554pt x 101.61162pt>
 File: images/pas/CMS-HMM_hmm_hmm_13TeV_cat7.png Graphic file (type png)
 <use images/pas/CMS-HMM_hmm_hmm_13TeV_cat7.png>
 Package pdftex.def Info: images/pas/CMS-HMM_hmm_hmm_13TeV_cat7.png used on inpu
-t line 51.
+t line 50.
 (pdftex.def)             Requested size: 225.118pt x 160.78645pt.
 
 
-LaTeX Warning: Float too large for page by 24.99585pt on input line 55.
+LaTeX Warning: Float too large for page by 24.99585pt on input line 54.
 
 
-<images/pas/CMS-HMM_hmm_hmm_13TeV_cat8.png, id=2191, 142.27554pt x 101.61162pt>
+<images/pas/CMS-HMM_hmm_hmm_13TeV_cat8.png, id=2198, 142.27554pt x 101.61162pt>
 File: images/pas/CMS-HMM_hmm_hmm_13TeV_cat8.png Graphic file (type png)
 <use images/pas/CMS-HMM_hmm_hmm_13TeV_cat8.png>
 Package pdftex.def Info: images/pas/CMS-HMM_hmm_hmm_13TeV_cat8.png used on inpu
-t line 58.
+t line 57.
 (pdftex.def)             Requested size: 229.81258pt x 164.1401pt.
 
-<images/pas/CMS-HMM_hmm_hmm_13TeV_cat9.png, id=2192, 142.27554pt x 101.61162pt>
+<images/pas/CMS-HMM_hmm_hmm_13TeV_cat9.png, id=2199, 142.27554pt x 101.61162pt>
 File: images/pas/CMS-HMM_hmm_hmm_13TeV_cat9.png Graphic file (type png)
 <use images/pas/CMS-HMM_hmm_hmm_13TeV_cat9.png>
 Package pdftex.def Info: images/pas/CMS-HMM_hmm_hmm_13TeV_cat9.png used on inpu
-t line 59.
+t line 58.
 (pdftex.def)             Requested size: 229.81258pt x 164.1401pt.
 
-<images/pas/CMS-HMM_hmm_hmm_13TeV_cat10.png, id=2193, 142.27554pt x 101.61162pt
+<images/pas/CMS-HMM_hmm_hmm_13TeV_cat10.png, id=2200, 142.27554pt x 101.61162pt
 >
 File: images/pas/CMS-HMM_hmm_hmm_13TeV_cat10.png Graphic file (type png)
  <use images/pas/CMS-HMM_hmm_hmm_13TeV_cat10.png>
 Package pdftex.def Info: images/pas/CMS-HMM_hmm_hmm_13TeV_cat10.png used on inp
-ut line 60.
+ut line 59.
 (pdftex.def)             Requested size: 229.81258pt x 164.1401pt.
 
-<images/pas/CMS-HMM_hmm_hmm_13TeV_cat11.png, id=2194, 142.27554pt x 101.61162pt
+<images/pas/CMS-HMM_hmm_hmm_13TeV_cat11.png, id=2201, 142.27554pt x 101.61162pt
 >
 File: images/pas/CMS-HMM_hmm_hmm_13TeV_cat11.png Graphic file (type png)
  <use images/pas/CMS-HMM_hmm_hmm_13TeV_cat11.png>
 Package pdftex.def Info: images/pas/CMS-HMM_hmm_hmm_13TeV_cat11.png used on inp
-ut line 61.
+ut line 60.
 (pdftex.def)             Requested size: 229.81258pt x 164.1401pt.
 
-<images/pas/CMS-HMM_hmm_hmm_13TeV_cat12.png, id=2195, 142.27554pt x 101.61162pt
+<images/pas/CMS-HMM_hmm_hmm_13TeV_cat12.png, id=2202, 142.27554pt x 101.61162pt
 >
 File: images/pas/CMS-HMM_hmm_hmm_13TeV_cat12.png Graphic file (type png)
  <use images/pas/CMS-HMM_hmm_hmm_13TeV_cat12.png>
 Package pdftex.def Info: images/pas/CMS-HMM_hmm_hmm_13TeV_cat12.png used on inp
-ut line 62.
+ut line 61.
 (pdftex.def)             Requested size: 229.81258pt x 164.1401pt.
 
-<images/pas/CMS-HMM_hmm_hmm_13TeV_cat13.png, id=2196, 128.49606pt x 88.98846pt>
+<images/pas/CMS-HMM_hmm_hmm_13TeV_cat13.png, id=2203, 128.49606pt x 88.98846pt>
 File: images/pas/CMS-HMM_hmm_hmm_13TeV_cat13.png Graphic file (type png)
 <use images/pas/CMS-HMM_hmm_hmm_13TeV_cat13.png>
 Package pdftex.def Info: images/pas/CMS-HMM_hmm_hmm_13TeV_cat13.png used on inp
-ut line 63.
+ut line 62.
 (pdftex.def)             Requested size: 229.81258pt x 159.16748pt.
 
-<images/pas/CMS-HMM_hmm_hmm_13TeV_cat14.png, id=2197, 127.9179pt x 88.31393pt>
+<images/pas/CMS-HMM_hmm_hmm_13TeV_cat14.png, id=2204, 127.9179pt x 88.31393pt>
 File: images/pas/CMS-HMM_hmm_hmm_13TeV_cat14.png Graphic file (type png)
 
 <use images/pas/CMS-HMM_hmm_hmm_13TeV_cat14.png>
 Package pdftex.def Info: images/pas/CMS-HMM_hmm_hmm_13TeV_cat14.png used on inp
-ut line 64.
+ut line 63.
 (pdftex.def)             Requested size: 229.81258pt x 158.6752pt.
 
 
-LaTeX Warning: Float too large for page by 32.94556pt on input line 68.
+LaTeX Warning: Float too large for page by 32.94556pt on input line 67.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -3350,26 +3430,26 @@ images/pas/CMS-HMM_hmm_hmm_13TeV_cat9.png> <./images/pas/CMS-HMM_hmm_hmm_13TeV_
 cat10.png> <./images/pas/CMS-HMM_hmm_hmm_13TeV_cat11.png> <./images/pas/CMS-HMM
 _hmm_hmm_13TeV_cat12.png> <./images/pas/CMS-HMM_hmm_hmm_13TeV_cat13.png> <./ima
 ges/pas/CMS-HMM_hmm_hmm_13TeV_cat14.png>]
-<images/pas/limit7-8-13TeV.png, id=2243, 1044.90375pt x 728.7225pt>
+<images/pas/limit7-8-13TeV.png, id=2250, 1044.90375pt x 728.7225pt>
 File: images/pas/limit7-8-13TeV.png Graphic file (type png)
 
 <use images/pas/limit7-8-13TeV.png>
-Package pdftex.def Info: images/pas/limit7-8-13TeV.png used on input line 74.
+Package pdftex.def Info: images/pas/limit7-8-13TeV.png used on input line 73.
 (pdftex.def)             Requested size: 300.15971pt x 209.33374pt.
 
-<images/pas/pval7-8-13TeV.png, id=2244, 976.64874pt x 703.62875pt>
+<images/pas/pval7-8-13TeV.png, id=2251, 976.64874pt x 703.62875pt>
 File: images/pas/pval7-8-13TeV.png Graphic file (type png)
 
 <use images/pas/pval7-8-13TeV.png>
-Package pdftex.def Info: images/pas/pval7-8-13TeV.png used on input line 81.
+Package pdftex.def Info: images/pas/pval7-8-13TeV.png used on input line 80.
 (pdftex.def)             Requested size: 300.15971pt x 216.2545pt.
 
-<images/pas/sigstrength7-8-13TeV.png, id=2245, 883.3pt x 627.34375pt>
+<images/pas/sigstrength7-8-13TeV.png, id=2252, 883.3pt x 627.34375pt>
 File: images/pas/sigstrength7-8-13TeV.png Graphic file (type png)
 
 <use images/pas/sigstrength7-8-13TeV.png>
 Package pdftex.def Info: images/pas/sigstrength7-8-13TeV.png used on input line
- 88.
+ 87.
 (pdftex.def)             Requested size: 300.15971pt x 213.17917pt.
 )
 
@@ -3396,7 +3476,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 
 
-] <images/pas/pval-projection.png, id=2273, 773.89125pt x 759.83875pt>
+] <images/pas/pval-projection.png, id=2280, 773.89125pt x 759.83875pt>
 File: images/pas/pval-projection.png Graphic file (type png)
 
 <use images/pas/pval-projection.png>
@@ -3429,7 +3509,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 208.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 208.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 208.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 6ED06FCFE5C2D1CCFF33B4E14E6B935D;6041.
+(rerunfilecheck)             Checksum: D19F93CA773D3EB5D9263759E92DB9E0;6092.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -3437,10 +3517,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 208.
  ) 
 Here is how much of TeX's memory you used:
- 10990 strings out of 494954
- 193728 string characters out of 6181003
- 255854 words of memory out of 5000000
- 13290 multiletter control sequences out of 15000+600000
+ 10992 strings out of 494954
+ 193742 string characters out of 6181003
+ 256210 words of memory out of 5000000
+ 13292 multiletter control sequences out of 15000+600000
  13779 words of font info for 55 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  39i,22n,44p,1671b,649s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3460,10 +3540,10 @@ pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi12.pfb><
 hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/te
 xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/t
 exmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (139 pages, 14598739 bytes).
+Output written on main.pdf (139 pages, 14600275 bytes).
 PDF statistics:
- 2505 PDF objects out of 2984 (max. 8388607)
- 1891 compressed objects within 19 object streams
+ 2512 PDF objects out of 2984 (max. 8388607)
+ 1898 compressed objects within 19 object streams
  444 named destinations out of 1000 (max. 500000)
  1823 words of extra memory for PDF output out of 10000 (max. 10000000)
 
