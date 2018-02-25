@@ -33,7 +33,7 @@
 \contentsline {subsection}{\numberline {4.6.1}Sensitivity}{57}{subsection.4.6.1}
 \contentsline {subsection}{\numberline {4.6.2}Test Statistic}{58}{subsection.4.6.2}
 \contentsline {subsection}{\numberline {4.6.3}Constraints}{59}{subsection.4.6.3}
-\contentsline {section}{\numberline {4.7}Using The Test Statistic}{59}{section.4.7}
+\contentsline {subsection}{\numberline {4.6.4}Using The Test Statistic}{59}{subsection.4.6.4}
 \contentsline {chapter}{\numberline {5}\uppercase {THE $H\rightarrow \mu ^+\mu ^-$ SEARCH STRATEGY}}{61}{chapter.5}
 \contentsline {chapter}{\numberline {6}\uppercase {SAMPLES, CORRECTIONS, AND SELECTIONS FOR THE $H\rightarrow \mu ^+\mu ^-$ SEARCH}}{63}{chapter.6}
 \contentsline {section}{\numberline {6.1}Data And Monte Carlo Samples}{63}{section.6.1}

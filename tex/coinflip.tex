@@ -78,7 +78,7 @@ The larger Z is, the smaller the p-value, and the more sensitive the experiment.
 \section{Constraints And Nuisance Parameters}
 \label{constraints}
 
-As alluded to in section \ref{meas}, additional measurements provide constraints on the parameters of a PDF. Consider two experiments tossing the same coin with y heads observed in the first experiment and x in the second. In this case, the likelihoods of the individual experiments are multiplied to determine the net likelihood, 
+As alluded to in Section \ref{meas}, additional measurements provide constraints on the parameters of a PDF. Consider two experiments tossing the same coin with y heads observed in the first experiment and x in the second. In this case, the likelihoods of the individual experiments are multiplied to determine the net likelihood, 
 \begin{equation}
 p(x, y; \rho) = p(x; \rho)p(y; \rho),
 \end{equation}
@@ -164,7 +164,7 @@ The normalization, $p(x_i,\hat{\theta})$, is the PDF with the parameters set to 
 \begin{equation}
 t = -2ln\left(\frac{p(x_i,\nu,\hat{\hat{\theta}})}{p(x_i,\hat{\theta})}\right).
 \end{equation}
-As before, the $\hat{\hat{\theta}}$ parameters are the best fit values for a fixed parameter of interest $\nu$. The profiled test statistic may be used to set limits on the parameter of interest. Asymptotically, the test statistic is a $\chi^2$ variable. See the analysis of section \ref{sensitivity}. Constraints may be included as necessary. 
+As before, the $\hat{\hat{\theta}}$ parameters are the best fit values for a fixed parameter of interest $\nu$. The profiled test statistic may be used to set limits on the parameter of interest. Asymptotically, the test statistic is a $\chi^2$ variable. See the analysis of Section \ref{sensitivity}. Constraints may be included as necessary. 
 
 \subsection{Constraints}
 
@@ -172,13 +172,13 @@ When previous fits have been performed to determine certain parameters and their
 \begin{equation}
 p(x_i; \nu, \theta) = \prod_i Poisson(x_i, \lambda_i(\nu, \theta))\prod_j p(y_j, \theta_j),
 \end{equation}
-where $y_j$ represents the previously observed data and $\nu$ represents the signal strength. As in section \ref{constraints}, the observations $y_j$ are summarized by the best fits ($\bar{\theta_j}$) rather than keeping track of the actual data. The net likelihood becomes,
+where $y_j$ represents the previously observed data and $\nu$ represents the signal strength. As in Section \ref{constraints}, the observations $y_j$ are summarized by the best fits ($\bar{\theta_j}$) rather than keeping track of the actual data. The net likelihood becomes,
 \begin{equation}
 p(x_i; \nu, \theta) = \prod_i Poisson(x_i; \lambda_i(\nu, \theta))\prod_j C(\bar{\theta_j}, \theta_j, \sigma_j),
 \end{equation}
 where C designates some constraint PDF. Constraints implement the various systematic and theoretical uncertainties involved in the analysis.  
 
-\section{Using The Test Statistic}
+\subsection{Using The Test Statistic}
 
 With a model for the expected yields in each bin, the distribution for t may be approximated by Monte Carlo methods, or by assuming that with enough data t reduces to a $\chi^2$ distribution. The expected p-value against the background only may be calculated using the expected yields for S+B as the expected hypothesis and the background only yields as the null. Similarly, the expected upper limit on S may be calculated using t with S+B as the null and the background as the expected hypothesis. The expected upper limit at 95\% confidence is calculated by finding the value of S high enough that observing the expected background-only has a p-value of 5\%. A higher expected sensitivity and lower expected upper limit are important goals in the design of a physics analysis.
 
