@@ -35,7 +35,7 @@ The features described above are the most important features, but not the whole 
 After training BDTs for each mode, the mode and the fundamental features from which the others can be derived are discretized and fit into a 30 bit word. The discretization scheme is different for each mode, detailed in Table \ref{tab:bits}. With the feature space compressed into 30 bits, there are $2^{30}$ possibilities that need to be assigned a $p_t$. A LUT is created by looping over all $2^{30}$ possible bit words, decoding each word into the fundamental features, deriving the secondary features, and sending the values to the BDT to assign the $p_t$ prediction. Using 9 bits for the $p_t$, this amounts to a 1.2 GB LUT where each bit word value is an address and the $p_t$ is the value in memory. Discretizing the feature space and creating a LUT turns the $p_t$ assignment into a single operation. The LUT is then used by the FPGA logic online to assign $p_t$ to muon tracks in the EMTF. The LUT method is a simple way to run any machine learning method quickly, but compressing the features into 30 or so bits may not always be feasible for the application.
 
 \begin{table}[htb]
-   \caption{The feature discretization scheme for each mode.}
+   \caption[The feature discretization scheme for each mode.]{The feature discretization scheme for each mode.}
    \label{tab:bits}
    \textbf{Four Station Modes}
 \\[\baselineskip]
@@ -139,7 +139,7 @@ The features used to train the BDTs are chosen to maximize the discrimination ca
 \end{itemize}
 The $p_t$ for the individual muons is left out to prevent any reshaping of $m_{\mu\mu}$. If any peaks or troughs are arbitrarily created in the $m_{\mu\mu}$ spectrum, this could lead to a false discovery. The feature importance at first order is listed in Table \ref{tab:featureranking}. The ranking plots histograms of the signal and background along the feature and finds the percentage of the total area that does not overlap.
 \begin{table}[htb]
-  \caption{The importance is given by the percentage of the signal and background PDFs along that feature that do not overlap.}
+  \caption[The feature importance.]{The importance is given by the percentage of the signal and background PDFs along that feature that do not overlap.}
   \label{tab:featureranking}
   \begin{center}
     \begin{tabular}{lr}
@@ -277,7 +277,8 @@ yields, the sensitivity, and the expected limit for each of the final 15 categor
 shown in Table~\ref{tab:cat_resoln}.
 
 \begin{table}[htb]
-  \caption{Full Width Half Max (FWHM) of the signal peak, expected signal and background yields within the FWHM,
+  \caption[The characteristics of each category.]
+           {Full Width Half Max (FWHM) of the signal peak, expected signal and background yields within the FWHM,
            purity, sensitivity, and the expected upper limits at 95\% confidence. 
            The background yields and the expected limits use background models fit to the data in the sidebands.}
   \label{tab:cat_resoln}
@@ -431,7 +432,7 @@ starting with Figure \ref{fig:sig_kinematics_c14-1}. After looking at the signal
 for each category and compares each to the inclusive shape.
 
 \begin{table}[htb]
-    \caption{The total signal in each category broken down by process.}
+    \caption[Expected signal in each category.]{The total signal in each category predicted by the MC, broken down by process.}
 %  \label{tab:cat_yields}
   \begin{center}
     \begin{tabular}{crrrrr}
