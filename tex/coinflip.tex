@@ -3,8 +3,7 @@
 This chapter briefly covers the statistical methods needed for the $H\rightarrow\mu^+\mu^-$ search. The test of a coin for bias is used as a simple example to explain the concepts of discovery, limits, measurement and sensitivity. These concepts are then extended to a binned counting experiment typical in particle physics. The chapter starts with discovery. 
 
 \section{Discovery}
-
-Many scientific endeavors attempt to disprove some null hypothesis in order to claim the observation of a new effect. For example, to test whether a coin is biased, the experimenter assumes the null hypothesis that the coin is unbiased and then performs an experiment, tossing the coin many times. If all of the tosses are heads, then it's very unlikely that the coin is unbiased, and it's therefore reasonable to rule out the null and to declare the discovery of a biased coin. 
+Proof by contradiction may be used as a framework for discovery. If there are only two logical possibilities either A or B, then if A is ruled out, B must be true. The hypothesis to disprove (A) in order to claim B is called the null hypothesis. By disproving a null hypothesis like "the effect X does not exist" a scientist may claim the discovery of X. For example, to test whether a coin is biased, the experimenter assumes the null hypothesis that the coin is unbiased and then performs an experiment, tossing the coin many times. If all of the tosses are heads, then it's very unlikely that the coin is unbiased, and it's therefore reasonable to rule out the null and to declare the discovery of a biased coin. 
 
 In order to quantify how rarely an unbiased coin would yield an experiment with $N_{heads}$, a model for the probability density function (PDF) is needed. The binomial distribution with $x = N_{heads}$, $\rho = p_{heads} = 0.5$, and $N = N_{tosses}$, is the appropriate PDF,
 \begin{equation}
@@ -20,7 +19,7 @@ Traditionally, different fields require different p-values, and in high energy p
    {The shaded region represents the p-value for an observation of $N_{heads}=h$. If the p-value for h is lower than the cutoff threshold, then the null hypothesis can be ruled out and a discovery may be declared.}
 \label{fig:pvalue_ex}
 \end{figure}
-As an example, observing 65 heads or greater in 100 tosses occurs just less than 0.3\% of the time for an unbiased coin. Therefore, any experiment with $N_{heads} \geq 65$ would invalidate the null at $3\sigma$ and lead to an observation.
+As an example, observing 65 heads or greater in 100 tosses occurs just less than 0.3\% of the time for an unbiased coin. Therefore, any experiment with $N_{heads} \geq 65$ would invalidate the null at $3\sigma$ and lead to an observation of bias.
 
 \section{Limits}
 
@@ -58,6 +57,16 @@ In order to quantify the uncertainty of the measured value, limiting values of $
 \end{figure}
 
 Observing 50 heads in 100 tosses leads to $\hat{\rho} = 0.5$ and a corresponding $1\sigma$ confidence interval of $[0.44, 0.56]$. The measurement is then reported as $\hat{\rho} = 0.5^{+0.6}_{-0.6}$. An experiment with more data generally has a lower uncertainty on the measured value. For example, observing 450 heads in 900 tosses leads to $\hat{\rho} = 0.5^{+0.2}_{-0.2}$. Note that the uncertainty shrinks with $\sqrt{N_{tosses}}$, $\frac{0.6}{0.2} = 3 = \sqrt{\frac{900}{100}}$.
+
+Sometimes the limits in the uncertainty calculation are circumvented by assuming that the likelihood becomes Gaussian with enough statistics. When the likelihood is a Gaussian, the interval is simply $\hat{\mu} \pm \sigma$. The negative log likelihood in the Gaussian case is
+\begin{equation}
+N_{LL} = -ln[p] = -ln\left[Ae^{\frac{(x-\mu)^2}{2\sigma^2}}\right]= -ln[A] + \frac{(x-\mu)^2}{2\sigma^2}.
+\end{equation}
+Expanding about the minimum, $\hat{\mu}$, provides an estimate of $\sigma$ and hence the confidence interval, 
+\begin{equation}
+N_{LL}(\hat{\mu}) + 0(x-\hat{\mu}) + \frac{1}{2}N_{LL}''(\hat{\mu})(x-\hat{\mu})^2 = -ln[A] + \frac{(x-\hat{\mu})^2}{2\sigma^2} \rightarrow \sigma^2 = \frac{1}{N_{LL}''(\hat{\mu})}.
+\end{equation}
+Note that $\sigma$ may be determined by moving x away from the minimum until $\Delta N_{LL} = 1$. The $\Delta N_{LL} = 1$ method is sometimes used as an estimate of the uncertainty even when the likelihood is not Gaussian. In some cases the PDF may be multidimensional, and in those cases, $\sigma^2$ is the covariance matrix with $\partial_{\theta_i}\partial_{\theta_j}N_{LL}(\hat{\theta}) = (\sigma^2)^{-1}_{ij}$. Multidimensional or otherwise, $\sigma$ can be used to estimate the uncertainty on the best fit values. 
 
 \section{Sensitivity}
 
@@ -189,12 +198,3 @@ In high energy physics the CLs method is often used to set the upper limits. The
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% SOME SAVED INFO ON LIMITING CASE FOR UNCERTAINTY %%%%%%%%%%%%%%%%%%%%%%%%
 
-%When the likelihood is Gaussian the interval is simply $\hat{\mu} \pm \sigma$. In the limit of large statistics, the likelihood becomes Gaussian, and the negative log-likelihood, simplifies to
-%\begin{equation}
-%N_{LL} = -ln[p] = -ln\left[Ae^{\frac{(x-\mu)^2}{2\sigma^2}}\right]= -ln[A] + \frac{(x-\mu)^2}{2\sigma^2}.
-%\end{equation}
-%Expanding about the minimum, $\hat{\mu}$, provides an estimate of $\sigma$ and hence the confidence interval, 
-%\begin{equation}
-%N_{LL}(\hat{\mu}) + 0(x-\hat{\mu}) + \frac{1}{2}N_{LL}''(\hat{\mu})(x-\hat{\mu})^2 = -ln[A] + \frac{(x-\hat{\mu})^2}{2\sigma^2} \rightarrow \sigma^2 = \frac{1}{N_{LL}''(\hat{\mu})}.
-%\end{equation}
-%Note that $\sigma$ may be determined by moving x away from the minimum until $\Delta N_{LL} = 1$. The $\Delta N_{LL} = 1$ method is sometimes used as an estimate of the uncertainty even when the likelihood is not Gaussian. In some cases the PDF may be multidimensional, and in those cases, $\sigma^2$ is the covariance matrix with $\partial_{\theta_i}\partial_{\theta_j}N_{LL}(\hat{\theta}) = (\sigma^2)^{-1}_{ij}$. Multidimensional or otherwise, $\sigma$ can be used to estimate the uncertainty on the best fit values. 
