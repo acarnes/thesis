@@ -279,33 +279,64 @@ shown in Table~\ref{tab:cat_resoln}.
 \begin{table}[htb]
   \caption[The characteristics of each category.]
            {Full Width Half Max (FWHM) of the signal peak, expected signal and background yields within the FWHM,
-           purity, sensitivity, and the expected upper limits at 95\% confidence. 
-           The background yields and the expected limits use background models fit to the data in the sidebands.}
+           purity, and sensitivity. The purity and sensitivity use the FWHM values for S and B. 
+           The background yields are calculated using background models fit to the data in the sidebands.}
   \label{tab:cat_resoln}
   \begin{center}
     \begin{tabular}{crrrrrr}
       \hline
-      Category  & Signal FWHM (GeV) & Signal & Background & $\mathrm{S / B}$ (\%) & $\mathrm{S / \sqrt{B}}$ & Limit \\  %% & Signal events
+      Category  & Signal FWHM (GeV) & Signal & Background & $\mathrm{S / B}$ (\%) & $\mathrm{S / \sqrt{B}}$ \\  %% & Signal events
       \hline
-        c0         &         4.4     &        13.3     &        14400    &        0.000927    &     0.111    &  19    \\
-        c1         &         6.0     &        13.9     &        7990     &        0.00174     &     0.156    &  16    \\
-        c2         &         4.3     &        27.7     &        10000    &        0.00276     &     0.277    &  7.9   \\
-        c3         &         3.1     &        8.70     &        2600     &        0.00334     &     0.170    &  12    \\
-        c4         &         6.3     &        7.66     &        2750     &        0.00279     &     0.146    &  17    \\
-        c5         &         4.3     &        19.6     &        4320     &        0.00453     &     0.298    &  7.1   \\
-        c6         &         3.1     &        9.86     &        1540     &        0.00638     &     0.250    &  8.4   \\
-        c7         &         6.2     &        3.44     &        928      &        0.00370     &     0.113    &  22    \\
-        c8         &         4.3     &        14.0     &        2310     &        0.00607     &     0.292    &  7.9   \\
-        c9         &         3.2     &        8.85     &        1050     &        0.00838     &     0.272    &  7.3   \\
-        c10        &         6.2     &        3.62     &        641      &        0.00564     &     0.142    &  16    \\
-        c11        &         4.5     &        14.4     &        1830     &        0.00788     &     0.338    &  6.1   \\
-        c12        &         3.4     &        10.1     &        855      &        0.0118      &     0.348    &  6.1   \\
-        c13        &         4.2     &        6.15     &        422      &        0.0145      &     0.299    &  7.7   \\
-        c14        &         4.5     &        9.84     &        387      &        0.0254      &     0.500    &  4.6   \\
+        c0         &  4.2    &    21.2   &        132300   &        0.00103     &     0.119   \\
+        c1         &  7.2    &    22.3   &        9690     &        0.00161     &     0.158   \\
+        c2         &  4.1    &    41.1   &        9110     &        0.00302     &     0.284   \\
+        c3         &  2.9    &    12.7   &        2250     &        0.00373     &     0.177   \\
+        c4         &  7.0    &    11.8   &        3040     &        0.00259     &     0.143   \\
+        c5         &  4.0    &    29.2   &        3920     &        0.00497     &     0.313   \\
+        c6         &  2.8    &    14.5   &        1350     &        0.00704     &     0.259   \\
+        c7         &  7.6    &    5.2    &        1130     &        0.00323     &     0.108   \\
+        c8         &  4.2    &    20.3   &        2160     &        0.00629     &     0.293   \\
+        c9         &  3.0    &    13.1   &        957      &        0.00904     &     0.282   \\
+        c10        &  7.1    &    5.8    &        740      &        0.00526     &     0.144   \\
+        c11        &  4.2    &    20.3   &        1520     &        0.00883     &     0.347   \\
+        c12        &  3.2    &    13.7   &        745      &        0.0123      &     0.341   \\
+        c13        &  4.0    &    8.6    &        381      &        0.0143      &     0.283   \\
+        c14        &  4.1    &    13.7   &        344      &        0.0253      &     0.482   \\
       \hline
     \end{tabular}
   \end{center}
 \end{table}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 \FloatBarrier
 \subsection{Validating The Categories}

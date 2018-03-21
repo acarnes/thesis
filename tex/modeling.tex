@@ -228,71 +228,80 @@ with $\mu=1$. $B_i$ is unbiased towards $B_j$ if $b_{ij}$ is close to zero. The 
 
 If a bias is found, the background model tends to under or over estimate the background and measure too much or too little signal. When this is the case, a "spurious signal" is added to the background model to compensate. The spurious signal has the same shape as the signal model, with a normalization constrained by a Gaussian with mean 0 and $\sigma = b_{ij}\sigma_{\mu}N$, where N is the expected number of signal events in the category. The spurious signal allows the background more freedom in the signal region, fixing the tendency to mismeasure the signal. On the other hand, this added freedom in the signal region increases the background uncertainty there, reducing the sensitivity. 
 
-A bias less than 0.20 has a negligible effect on the upper limits ($<2\%$). In this case, the spurious signal can usually be neglected. With this information, the analysis attempts to find fits for each category such that the maximum likelihood estimate of $\mu$ is unbiased ($b_{ij} < 0.20$) with respect to all $B_j \in \beta$. The bias matrices for $m_H=125 GeV$ are shown in Figures \ref{fig:bias_1} and \ref{fig:bias_2}. The matrices present the bias towards $\hat{\mu}$ for the category's likelihood alone and zero spurious signal. 
+A bias less than 0.20 has a negligible effect on the upper limits ($<2\%$). In this case, the spurious signal can usually be neglected. With this information, the analysis attempts to find fits for each category such that the maximum likelihood estimate of $\mu$ is unbiased ($b_{ij} < 0.20$) with respect to all $B_j \in \beta$. An example of a bias matrix for $m_H=125 GeV$ is shown in Figure \ref{fig:bias_1}. The matrix presents the bias towards $\hat{\mu}$ for the category's likelihood alone and zero spurious signal. 
 
 The set of reasonable functions used is $\beta = \{BWZRedux\cdot poly, BWZGamma,$ 
 $SumExp, FEWZ-full\cdot poly, FEWZ-1-jet\cdot poly, FEWZ-2-jet\cdot poly\}$. Polynomial orders 0-4 are examined for BWZRedux$\cdot$poly, and the F-Test at 95\% confidence is used to select the orders for SumExp and the FEWZ$\cdot$poly models. The Bernstein polynomials proved biased towards all of the other functions, so they are considered unreasonable and excluded from $\beta$. 
 \begin{figure}[h!]
     \centering
-    \includegraphics[width=0.32\textwidth]{images/bkg_systs/bias_cat0_NEW}
-    \includegraphics[width=0.32\textwidth]{images/bkg_systs/bias_cat1_NEW}
-    \includegraphics[width=0.32\textwidth]{images/bkg_systs/bias_cat2_NEW} 
-    \includegraphics[width=0.32\textwidth]{images/bkg_systs/bias_cat3_NEW}
-    \includegraphics[width=0.32\textwidth]{images/bkg_systs/bias_cat4_NEW}
-    \includegraphics[width=0.32\textwidth]{images/bkg_systs/bias_cat5_NEW}
-    \includegraphics[width=0.32\textwidth]{images/bkg_systs/bias_cat6_NEW}
-    \includegraphics[width=0.32\textwidth]{images/bkg_systs/bias_cat7_NEW}
-    \includegraphics[width=0.32\textwidth]{images/bkg_systs/bias_cat8_NEW}
-    \caption[Background bias results for the categories 0 to 8.]
-        {Bias results for categories 0-8 with each category's bias indepent of the others.
-        The results shown are for $m_H=125\ GeV$.
+    \includegraphics[width=0.60\textwidth]{images/bkg_systs/bias_cat14_NEW}
+    \caption[Background bias study on category 14.]
+        {A bias study on category 14 with the category's bias independent of the others.
+        The $b_{ij}$ matrix shown is for $m_H=125\ GeV$.
         The x-axis shows the fit model and the y-axis shows the pseudodata generating model.}
     \label{fig:bias_1}
 \end{figure}
+%\begin{figure}[h!]
+%    \centering
+%    \includegraphics[width=0.32\textwidth]{images/bkg_systs/bias_cat0_NEW}
+%    \includegraphics[width=0.32\textwidth]{images/bkg_systs/bias_cat1_NEW}
+%    \includegraphics[width=0.32\textwidth]{images/bkg_systs/bias_cat2_NEW} 
+%    \includegraphics[width=0.32\textwidth]{images/bkg_systs/bias_cat3_NEW}
+%    \includegraphics[width=0.32\textwidth]{images/bkg_systs/bias_cat4_NEW}
+%    \includegraphics[width=0.32\textwidth]{images/bkg_systs/bias_cat5_NEW}
+%    \includegraphics[width=0.32\textwidth]{images/bkg_systs/bias_cat6_NEW}
+%    \includegraphics[width=0.32\textwidth]{images/bkg_systs/bias_cat7_NEW}
+%    \includegraphics[width=0.32\textwidth]{images/bkg_systs/bias_cat8_NEW}
+%    \caption[Background bias results for the categories 0 to 8.]
+%        {Bias results for categories 0-8 with each category's bias indepent of the others.
+%        The results shown are for $m_H=125\ GeV$.
+%        The x-axis shows the fit model and the y-axis shows the pseudodata generating model.}
+%    \label{fig:bias_1}
+%\end{figure}
+%
+%\begin{figure}[h!]
+%    \centering
+%    \includegraphics[width=0.32\textwidth]{images/bkg_systs/bias_cat9_NEW}
+%    \includegraphics[width=0.32\textwidth]{images/bkg_systs/bias_cat10_NEW}
+%    \includegraphics[width=0.32\textwidth]{images/bkg_systs/bias_cat11_NEW}
+%    \includegraphics[width=0.32\textwidth]{images/bkg_systs/bias_cat12_NEW}
+%    \includegraphics[width=0.32\textwidth]{images/bkg_systs/bias_cat13_NEW}
+%    \includegraphics[width=0.32\textwidth]{images/bkg_systs/bias_cat14_NEW}
+%    \caption[Background bias results for the categories 9 to 14.]
+%        {Bias results for categories 9-14 with each category's bias indepent of the others.
+%        The results shown are for $m_H=125\ GeV$.
+%        The x-axis shows the fit model and the y-axis shows the pseudodata generating model.}
+%    \label{fig:bias_2}
+%\end{figure}
 
-\begin{figure}[h!]
-    \centering
-    \includegraphics[width=0.32\textwidth]{images/bkg_systs/bias_cat9_NEW}
-    \includegraphics[width=0.32\textwidth]{images/bkg_systs/bias_cat10_NEW}
-    \includegraphics[width=0.32\textwidth]{images/bkg_systs/bias_cat11_NEW}
-    \includegraphics[width=0.32\textwidth]{images/bkg_systs/bias_cat12_NEW}
-    \includegraphics[width=0.32\textwidth]{images/bkg_systs/bias_cat13_NEW}
-    \includegraphics[width=0.32\textwidth]{images/bkg_systs/bias_cat14_NEW}
-    \caption[Background bias results for the categories 9 to 14.]
-        {Bias results for categories 9-14 with each category's bias indepent of the others.
-        The results shown are for $m_H=125\ GeV$.
-        The x-axis shows the fit model and the y-axis shows the pseudodata generating model.}
-    \label{fig:bias_2}
-\end{figure}
-
-The maximum observed bias for each category's least biased function is tabulated in Table~\ref{tab:bias}. The maximum bias is calculated over $m_H = 120, 125, 130 GeV$. These functions are used for the final limit setting. 
+In each category, a $b_{ij}$ matrix is calculated for signal injected at three mass values, $m_H = 120, 125, 130 GeV$. The maximum bias of a function i is then defined as the max $b_{ij}$ over all generating functions j and all three $m_H$ values. The maximum bias is used to rank the functions -- the lower the max bias the lower the bias of the function. The background function with the fewest parameters and a max bias under $20\%$ is considered the best model for the category. The best background models are tabulated in Table~\ref{tab:bias}, and these are the background models used in the limits and p-values. 
 \begin{table}[h!]
     \centering
-    \caption[Maximum bias of the signal strength in each category due to the chosen background model.]{Maximum observed bias per category for least biased fit function. The maximum bias is over $m_H$ = 120, 125, 130 and GeV.}
+    \caption[The background model for each category.]{The least biased background model with the fewest parameters is used for each category. The maximum bias for each model is under $25\%$.}
     \label{tab:bias}
     \begin{tabular}{ccc}
         \hline
-        Category & Best Model & Max Bias \\
+        Category & Best Model           \\
         \hline
-        cat0  & BWZRedux $\cdot$ Bern4 & $18\%$ \\
-        cat1  & BWZRedux $\cdot$ Bern4 & $17\%$ \\
-        cat2  & BWZRedux $\cdot$ Bern4 & $21\%$ \\
-        cat3  & BWZRedux $\cdot$ Bern4 & $10\%$ \\
-        cat4  & BWZRedux $\cdot$ Bern4 & $12\%$ \\
-        cat5  & BWZRedux $\cdot$ Bern4 & $20\%$ \\
-        cat6  & BWZRedux $\cdot$ Bern4 & $6\%$  \\
-        cat7  & BWZRedux $\cdot$ Bern4 & $20\%$ \\
-        cat8  & BWZRedux $\cdot$ Bern4 & $7\%$  \\
-        cat9  & BWZRedux               & $9\%$  \\
-        cat10 & SumExp (n=2)           & $19\%$ \\
-        cat11 & BWZRedux               & $22\%$ \\
-        cat12 & BWZRedux $\cdot$ Bern4 & $13\%$ \\
-        cat13 & BWZRedux               & $10\%$ \\
-        cat14 & BWZRedux               & $10\%$ \\
+        cat0  & BWZRedux $\cdot$ Bern4  \\
+        cat1  & BWZRedux $\cdot$ Bern4  \\
+        cat2  & BWZRedux $\cdot$ Bern4  \\
+        cat3  & BWZRedux $\cdot$ Bern4  \\
+        cat4  & BWZRedux $\cdot$ Bern4  \\
+        cat5  & BWZRedux                \\
+        cat6  & BWZRedux                \\
+        cat7  & BWZRedux $\cdot$ Bern4  \\
+        cat8  & BWZRedux $\cdot$ Bern4  \\
+        cat9  & BWZRedux $\cdot$ Bern4  \\
+        cat10 & BWZRedux $\cdot$ Bern4  \\
+        cat11 & BWZRedux                \\
+        cat12 & BWZRedux $\cdot$ Bern4  \\
+        cat13 & BWZRedux                \\
+        cat14 & BWZRedux                \\
         \hline
     \end{tabular}
 \end{table}
-If the statistics in a category are low enough, the uncertainty on the signal strength will be large compared to the signal strength. As a consequence, each $b_{ij}$ ($\frac{\Delta\mu_{ij}}{\sigma_{\mu,ij}}$) can be made artifically low. It is therefore important to calculate the bias using the combined likelihood over all categories where $\hat{\mu}$ and $\sigma_\mu$ use the full statistics. The evaluations of Figure \ref{fig:bias_correlation} estimate the bias on $\hat{\mu}$ using the combined likelihood over all categories with the fits of Figure \ref{tab:bias} in each category.  
+If the statistics in a category are low enough, the uncertainty on the signal strength will be large compared to the signal strength. As a consequence, each $b_{ij}$ ($\frac{\Delta\mu_{ij}}{\sigma_{\mu,ij}}$) can be made artifically low. It is therefore important to calculate the bias using the combined likelihood over all categories where the estimates of $\hat{\mu}$ and $\sigma_\mu$ use the full statistics. The evaluations of Figure \ref{fig:bias_correlation} estimate the bias on $\hat{\mu}$ using the combined likelihood over all categories with the fits of Figure \ref{tab:bias} in each category.  
 \begin{figure}[h!]
     \centering
     \includegraphics[width=0.64\textwidth]{images/bkg_systs/bias_catAll}
