@@ -180,6 +180,17 @@
   \textbf{\bibinfo{volume}{3}}, \bibinfo{pages}{S08004} (\bibinfo{year}{2008}).
 \newblock \urlprefix\url{http://stacks.iop.org/1748-0221/3/i=08/a=S08004}.
 
+\bibitem{tdr2013}
+\bibinfo{author}{Tapper, A.} \& \bibinfo{author}{Acosta, D.}
+\newblock \bibinfo{title}{{CMS Technical Design Report for the Level-1 Trigger
+  Upgrade}}.
+\newblock \bibinfo{type}{Tech. Rep.} \bibinfo{number}{CERN-LHCC-2013-011.
+  CMS-TDR-12} (\bibinfo{year}{2013}).
+\newblock \urlprefix\url{https://cds.cern.ch/record/1556311}.
+\newblock \bibinfo{note}{Additional contacts: Jeffrey Spalding, Fermilab,
+  Jeffrey.Spalding@cern.ch Didier Contardo, Universite Claude Bernard-Lyon I,
+  didier.claude.contardo@cern.ch}.
+
 \bibitem{smconsistency}
 \bibinfo{author}{Mann, R.~B.}
 \newblock \emph{\bibinfo{title}{{An Introduction to Particle Physics and The

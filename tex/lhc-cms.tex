@@ -116,7 +116,7 @@ The CSCs are located in the endcaps of the detector which range in $|\eta|$ from
    {A cathode strip chamber \cite{mutdr}.}
   \label{fig:csc}
 \end{figure}
-When a muon flies through a CSC, it induces charge on the wires and the strips and ionizes gas in the chamber. The ionized particles in the gas float to the charged strips and wires initiating a current in those components. The induced charge from the muon itself also contributes to the currents. The most intense currents are those associated with the location of the muon, and the position resolution in the $\phi$ direction is roughly 100 ${\rm \mu m}$.
+When a muon flies through a CSC, it ionizes gas in the chamber. The free electrons in the gas accelerate towards the positively charged wires and ionize even more particles. The process continues creating an avalanche effect. The free electrons collect on the wires initiating a current in the wires. The change in charge on the wires induces a change in charge on the strips and a current flows through the strips as well. The most intense currents are those associated with the location of the muon, and the position resolution in the $\phi$ direction is roughly 100 ${\rm \mu m}$.
 
 \FloatBarrier
 \subsubsection{Resistive Plate Chambers}
@@ -132,14 +132,22 @@ CMS tackled this issue by dividing the trigger into different tiers. The Level-1
 
 \subsection{Level-1 Trigger}
 
-The Level-1 (L1) Trigger is made of up different subsystems that work together to decide whether to keep the data from a beam crossing for further processing. The University of Florida works with the Level-1 muon trigger system, the Endcap Muon Track Finder (EMTF) in particular. The muon system needs to determine the transverse momenta of muons and their location and choose the best candidates. Each of the different muon detectors have their own local triggers which send their best muon tracks to the Global Muon Trigger (GMT). The GMT chooses the best muon candidates from that set and passes these on to the Global Trigger (GT). The GT combines the information from the calorimeter triggering system and uses the combined information to check whether the bunch crossing should be sent to the HLT or discarded. The L1 Trigger has many different trigger criteria defining separate triggers. These pass/fail information from the separate triggers define the trigger bits. If an event passes any of the triggers then it is forwarded for further processing.
+The Level-1 (L1) Trigger is made of up different subsystems that work together to decide whether to keep the data from a beam crossing for further processing. The University of Florida works with part of the Level-1 muon trigger system called the Endcap Muon Track Finder (EMTF). Each of the muon trigger subsystems needs to determine the location and transverse momenta of muons passing through the detector and determine the best candidates. Each of the subsystems send their best muon tracks to the Global Muon Trigger (GMT). The GMT chooses the best muon candidates from that set and passes these on to the Global Trigger (GT). The GT combines the information from the calorimeter triggering system and uses the combined information to check whether the bunch crossing should be sent to the HLT or discarded. The L1 Trigger has many different trigger criteria defining separate triggers. These pass/fail information from the separate triggers define the trigger bits. If an event passes any of the triggers then it is forwarded for further processing.
 
 \begin{figure}[h!]
   \centering
-  \includegraphics[width=5in]{images/L1_Trigger.png}
+  \includegraphics[width=5in]{images/l1_whole_trigger.png}
   \caption[The L1 trigger architecture.]
-   {The L1 trigger architecture \cite{cmsexp}.}
+   {The L1 trigger architecture \cite{tdr2013}.}
   \label{fig:l1trigarch}
 \end{figure}
 
-The Track Finders (TF) play an important role in the L1 Trigger system. The EMTF combines the location and direction information from the different CSC stations into muon tracks and calculates the transverse momenta for the different tracks. The EMTF chooses the best candidates (highest momentum and highest quality) to send to the GMT. The Drift Tube Track Finder (DTTF) performs a similar process for muons in the DT system. The RPC system calculates the location and direction and forms tracks in the same stage. In the process the RPC trigger system assigns transverse momenta and quality, and like the others chooses the best tracks to send to the GMT.
+The muon track finders play an important role in the L1 Trigger system. The Endcap Muon Track Finder (EMTF) covers the endcap region with $|\eta| \geq 1.24$, the Overlap Muon Track Finder (OMTF) covers the overlap region with $0.83 \geq |\eta| < 1.24$, and the Barrel Muon Track Finder (BMTF) covers the barrel region with $|\eta| < 0.83$. The EMTF combines the location and direction information from the different CSC and RPC stations into muon tracks and calculates the transverse momenta for the different tracks. The EMTF chooses the best candidates (highest momentum and highest quality) to send to the GMT. The Overlap Muon Track Finder (OMTF) performs a similar process for muons in the overlap region using DT, RPC, and CSC information to assign transverse momentum and send the best candidates to the GMT. The BMTF does the same for tracks in the barrel region using DT and RPC information. 
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=3.5in]{images/l1_muon_trigger.png}
+  \caption[The L1 muon trigger.]
+   {The L1 muon trigger \cite{tdr2013}.}
+  \label{fig:l1trigarch}
+\end{figure}
