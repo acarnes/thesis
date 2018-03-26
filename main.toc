@@ -73,7 +73,7 @@
 \contentsline {subsection}{\numberline {8.3.2}Background}{122}{subsection.8.3.2}
 \contentsline {chapter}{\numberline {9}\uppercase {RESULTS FOR THE $H\rightarrow \mu ^+\mu ^-$ SEARCH}}{127}{chapter.9}
 \contentsline {section}{\numberline {9.1}Results For 13 TeV Data}{127}{section.9.1}
-\contentsline {section}{\numberline {9.2}Results Combining 7, 8, And 13 TeV Data}{133}{section.9.2}
-\contentsline {chapter}{\numberline {10}\uppercase {CONCLUSIONS AND OUTLOOK}}{135}{chapter.10}
-\contentsline {extrachapter}{REFERENCES}{137}{chapter*.6}
-\contentsline {extrachapter}{BIOGRAPHICAL SKETCH}{140}{chapter*.7}
+\contentsline {section}{\numberline {9.2}Results Combining 7, 8, And 13 TeV Data}{132}{section.9.2}
+\contentsline {chapter}{\numberline {10}\uppercase {CONCLUSIONS AND OUTLOOK}}{134}{chapter.10}
+\contentsline {extrachapter}{REFERENCES}{136}{chapter*.6}
+\contentsline {extrachapter}{BIOGRAPHICAL SKETCH}{139}{chapter*.7}
