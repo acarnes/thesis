@@ -11,7 +11,7 @@ p(x,N;\rho) = \frac{N!}{x! (N - x)!}\rho^{x}(1-\rho)^{N-x}.
 \end{equation}
 With the PDF, the probability for the null to produce different experiments can be compared in terms of p-values. The p-value assuming the null, $P(x \succ Y|null)$, is the probability to observe something at least as extreme, $\succ$, as the outcome Y given the null. Declaring the cutoff p-value for the coin flipping experiment sets the minimum threshold of heads, $h_{cutoff}$, needed for discovery. Any observation of $x=N_{heads}$ with a p-value rarer than the cutoff, i.e. $P(x \geq h_{cutoff}|null) < p_{cutoff}$, will rule out the null hypothesis. 
 
-Traditionally, different fields require different p-values, and in high energy physics 3$\sigma$ leads to an "observation" and 5$\sigma$ leads to a "discovery". These correspond to p-values of 0.3\% and 0.00006\% respectively. 
+Traditionally, different fields require different p-values, and in high energy physics 3$\sigma$ leads to "evidence" and 5$\sigma$ leads to a "discovery". These correspond to p-values of about 0.15\% and 0.00003\% respectively. 
 \begin{figure}[h!]
   \centering
   \includegraphics[width=3in]{images/stat/p-value.png}
@@ -19,7 +19,7 @@ Traditionally, different fields require different p-values, and in high energy p
    {The shaded region represents the p-value for an observation of $N_{heads}=h$. If the p-value for h is lower than the cutoff threshold, then the null hypothesis can be ruled out and a discovery may be declared.}
 \label{fig:pvalue_ex}
 \end{figure}
-As an example, observing 65 heads or greater in 100 tosses occurs just less than 0.3\% of the time for an unbiased coin. Therefore, any experiment with $N_{heads} \geq 65$ would invalidate the null at $3\sigma$ and lead to an observation of bias.
+As an example, observing 66 heads or greater in 100 tosses occurs just less than 0.15\% of the time for an unbiased coin. Therefore, any experiment with $N_{heads} \geq 66$ would invalidate the null at $3\sigma$ and lead to evidence of a bias.
 
 \section{Limits}
 
