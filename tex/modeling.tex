@@ -15,14 +15,14 @@ The PDFs for the signal in each category are fit at $m_H$ = 120, 125, and 130 Ge
 
 \begin{figure}[h!]
     \centering
-    \includegraphics[width=0.3\textwidth]{images/signal_model_updated/ggf/fit_mh_125_GluGlu_cat3_NEW.png}
-    \includegraphics[width=0.3\textwidth]{images/signal_model_updated/interp_and_norm/interpolation_GluGlu_cat3_NEW.png}
-    \includegraphics[width=0.3\textwidth]{images/signal_model_updated/interp_and_norm/norm_GluGlu_cat3_NEW.png}
+    \includegraphics[width=0.49\textwidth]{images/signal_model_updated/ggf/fit_mh_125_GluGlu_cat3_NEW.png}
+    \includegraphics[width=0.49\textwidth]{images/signal_model_updated/interp_and_norm/interpolation_GluGlu_cat3_NEW.png}
+    \includegraphics[width=0.49\textwidth]{images/signal_model_updated/interp_and_norm/norm_GluGlu_cat3_NEW.png}
     \caption[An example of the signal model.]
     {An example Higgs signal fit for a specific production
-    process and category at a mass of 125~GeV (left), its
-    interpolation to lower and higher mass (center), and its efficiency times
-    acceptance vs $m_H$ (right).}
+    process and category at a mass of 125~GeV (top-left), its
+    interpolation to lower and higher mass (top-right), and its efficiency times
+    acceptance vs $m_H$ (bottom).}
     \label{sigmodel:gaus}
 \end{figure}
 The PDFs describe the shape of the signal distribution, but not the total number of signal events. The models describing the signal yields are determined by normalizing the PDFs to the expected SM yields. 
@@ -91,17 +91,17 @@ These models have been validated by fitting the FEWZ (NNLO QCD) generated mass s
         %%\text{LaurentSeries:}& {B(x)} = {\sum_{i} \alpha_{i}x^{i}}
         %%\label{eq:Laurent}
 \end{align}
-The analysis also uses a modified version of the BWZRedux ($BWZR(x)$, Eq.~\ref{eq:BWZRedux}) modulated by a Bernstein polynomial of degree $n$ ($BERN(x,n)$, Eq.\ref{eq:Bernstein}, normalized to $1$):
+The analysis also uses a modified version of BWZRedux ($BWZR(x)$, Eq.~\ref{eq:BWZRedux}) modulated by a Bernstein polynomial of degree $n$ ($BERN(x,n)$, Eq.\ref{eq:Bernstein}, normalized to $1$),
 \begin{align}
         \label{eq:BWZReduxPoly}
-        \text{BWZRedux}\cdot\text{Bern: }& {B(x)} = BWZR(x) \cdot \left(1+ BERN(n,x)\right) \\
+        \text{BWZRedux}\cdot\text{Bern: }& {B(x)} = BWZR(x) \cdot \left(1+ BERN(n,x)\right).
 \end{align}
 The modulated BWZRedux makes the model more flexible and helps to reduce any bias that may exist towards the unknown underlying true distribution.
 \begin{figure}[hbp]
      \centering
-     \includegraphics[width=0.3\textwidth]{images/background_model/baseline_p25GeV_110to160/backgroundFits__01JetsTightBB__bkgModels.png}
-     \includegraphics[width=0.3\textwidth]{images/background_model/baseline_p25GeV_110to200/backgroundFits__01JetsTightBB__bkgModels.png}
-     \includegraphics[width=0.3\textwidth]{images/background_model/baseline_p25GeV_110to250/backgroundFits__01JetsTightBB__bkgModels.png}
+     \includegraphics[width=0.49\textwidth]{images/background_model/baseline_p25GeV_110to160/backgroundFits__01JetsTightBB__bkgModels.png}
+     \includegraphics[width=0.49\textwidth]{images/background_model/baseline_p25GeV_110to200/backgroundFits__01JetsTightBB__bkgModels.png}
+     \includegraphics[width=0.49\textwidth]{images/background_model/baseline_p25GeV_110to250/backgroundFits__01JetsTightBB__bkgModels.png}
      \caption[Some background-only fits.]
      {Example background-only fits to the dimuon mass spectrum in data for various background models and mass ranges.}
      \label{bkgmodel:exampleModels}
@@ -124,8 +124,8 @@ For each category, the order of each FEWZ shape and of each general purpose func
 Figure~\ref{bkgmodel:exampleFTest} shows an example of the F-Test for the Bernstein Polynomials and for the Sum of Exponentials.
 \begin{figure}[hbp]
      \centering
-     \includegraphics[width=0.45\textwidth]{images/background_model/baseline_ftest_p25GeV_110to160/ftest__01JetsTightBB__bernsteinFastModels.png}
-     \includegraphics[width=0.45\textwidth]{images/background_model/baseline_ftest_p25GeV_110to160/ftest__01JetsTightBB__sumExpModels.png}
+     \includegraphics[width=0.49\textwidth]{images/background_model/baseline_ftest_p25GeV_110to160/ftest__01JetsTightBB__bernsteinFastModels.png}
+     \includegraphics[width=0.49\textwidth]{images/background_model/baseline_ftest_p25GeV_110to160/ftest__01JetsTightBB__sumExpModels.png}
      \caption[An example of the F-Test for the ordered background fits.]
      {Examples of the F-Test for the Bernstein Polynomials (left) and the Sum of Exponentials (right).}
      \label{bkgmodel:exampleFTest}
