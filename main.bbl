@@ -302,7 +302,7 @@
 \newblock \eprint{1406.7663}.
 
 \bibitem{atlashmumu2017}
-\bibinfo{author}{Collaboration, A.}
+\bibinfo{author}{\relax ATLAS~Collaboration}.
 \newblock \bibinfo{title}{Search for the dimuon decay of the higgs boson in
   $pp$ collisions at $\sqrt{s}=13\text{ }\text{ }\mathrm{TeV}$ with the atlas
   detector}.
